@@ -6,6 +6,7 @@ Fully archived / up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
 - Cap Revolution Bottleman DX (series + Side Story shorts)
+- Punirunes
 - The Bears' School Movie: Jackie the Pastry Chef and the Sunny Sweets
 
 Old Yo-kai Watch releases will be added when I've revised and reworked them. Which might take a while.

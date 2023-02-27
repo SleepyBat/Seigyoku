@@ -1,0 +1,675 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 21
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,4.5,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Ep21 - No Magic,A-OTF Kanteiryu Std Ultra,48,&H00060B14,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 0$Ep21 - Card,Bodoni MT,48,&H00283B45,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 1$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 1$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.22,0:00:05.08,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.08,0:00:08.13,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.13,0:00:09.90,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:09.90,0:00:12.20,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.20,0:00:16.62,0$Default,,0,0,0,,My village was burnt down by\Nthe evil land-destroying merchant Vinegar Khan,
+Dialogue: 0,0:00:16.62,0:00:18.83,0$Default,,0,0,0,,so I've embarked on a journey\Nto get my revenge 1000-fold!
+Dialogue: 0,0:00:19.48,0:00:22.78,0$Default,,0,0,0,,At last, my journey has brought me\Nclose to Vinegar.
+Dialogue: 0,0:00:23.25,0:00:28.29,0$Default,,0,0,0,,In order to defeat him, I will overcome\Nany impossible mission that comes my way!
+Dialogue: 0,0:00:54.15,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:11.75,0:01:13.43,0$Default,,0,0,0,,{\an8}Gob-saaan!
+Dialogue: 0,0:01:13.51,0:01:14.73,0$Default,,0,0,0,,What'cha up to?
+Dialogue: 0,0:01:14.73,0:01:16.98,0$Default,,0,0,0,,You going incognito with those sunglasses?
+Dialogue: 0,0:01:16.98,0:01:18.77,0$Default,,0,0,0,,You're not quite fooling anyone.
+Dialogue: 0,0:01:18.77,0:01:20.77,0$Default,,0,0,0,,Oh, nah, it's nothing.
+Dialogue: 0,0:01:20.93,0:01:22.62,0$Default,,0,0,0,,What are you hiding?
+Dialogue: 0,0:01:22.62,0:01:24.62,0$Default,,0,0,0,,Oh, I know! Is it a weapon?
+Dialogue: 0,0:01:24.62,0:01:25.77,0$Default,,0,0,0,,Y-Yeah, that's right.
+Dialogue: 0,0:01:26.02,0:01:28.91,0$Default,,0,0,0,,I asked Bouiyong to get me\None of them strong boys.
+Dialogue: 0,0:01:28.91,0:01:31.24,0$Default,,0,0,0,,You should'a just said so!
+Dialogue: 0,0:01:31.24,0:01:33.57,0$Default,,0,0,0,,Hell's easy on the richer guys!
+Dialogue: 0,0:01:33.57,0:01:35.58,0$Default,,0,0,0,,Here's your cut, Bunnilla.
+Dialogue: 0,0:01:35.58,0:01:37.45,0$Default,,0,0,0,,Selling weapons on the black market?
+Dialogue: 0,0:01:37.45,0:01:39.92,0$Default,,0,0,0,,Didn't think Bouiyong would run\Nsuch a shady operation...
+Dialogue: 0,0:01:39.92,0:01:43.05,0$Default,,0,0,0,,Maybe he has a super-powerful weapon\Nwe can use to beat Vampire!
+Dialogue: 0,0:01:43.05,0:01:47.43,0$Default,,0,0,0,,This should be very effective for the\Nmighty enemy standing in my way.
+Dialogue: 0,0:01:47.71,0:01:48.92,0$Default,,0,0,0,,Whoa, cool!
+Dialogue: 0,0:01:49.81,0:01:51.10,0$Default,,0,0,0,,Well, how much is it?
+Dialogue: 0,0:01:51.10,0:01:53.10,0$Default,,0,0,0,,Oh, um, how much {\i1}was{\i0} it?
+Dialogue: 0,0:01:53.10,0:01:55.15,0$Default,,0,0,0,,You got swindled. It was expensive, wasn't it?
+Dialogue: 0,0:01:55.15,0:01:56.86,0$Default,,0,0,0,,Ugh, my memory fails me...
+Dialogue: 0,0:01:56.86,0:01:59.10,0$Default,,0,0,0,,Whatever. I'll go ask Bouiyong.
+Dialogue: 0,0:01:59.10,0:01:59.94,0$Default,,0,0,0,,How much?
+Dialogue: 0,0:01:59.94,0:02:02.94,0$Default,,0,0,0,,Oui, oui! I'll answer if you give me a tip.
+Dialogue: 0,0:02:02.94,0:02:04.94,0$Default,,0,0,0,,You want money to answer my question?
+Dialogue: 0,0:02:04.94,0:02:07.87,0$Default,,0,0,0,,You want someone to help you\Nin the city, you gotta tip!
+Dialogue: 0,0:02:07.87,0:02:12.04,0$Default,,0,0,0,,Mayone, if you don't pay the man,\Nyou'll look like a dumb hillbilly.
+Dialogue: 0,0:02:12.04,0:02:13.72,0$Default,,0,0,0,,You've gotta be...
+Dialogue: 0,0:02:14.28,0:02:15.95,0$Default,,0,0,0,,That'll be 10,00 gillan.
+Dialogue: 0,0:02:15.95,0:02:17.29,0$Default,,0,0,0,,– Yikes, that's steep!\N– Huh?!
+Dialogue: 0,0:02:17.64,0:02:20.67,0$Default,,0,0,0,,But it's the price to pay for beating Vampire!
+Dialogue: 0,0:02:20.67,0:02:21.92,0$Default,,0,0,0,,Open it, open it!
+Dialogue: 0,0:02:21.92,0:02:23.33,0$Default,,0,0,0,,Uh, alright.
+Dialogue: 0,0:02:24.04,0:02:26.55,0$Default,,0,0,0,,Huh. It needs a key.
+Dialogue: 0,0:02:26.55,0:02:27.47,0$Default,,0,0,0,,Wha?!
+Dialogue: 0,0:02:27.47,0:02:29.43,0$Default,,0,0,0,,Bouiyong, do you have the key for this?
+Dialogue: 0,0:02:29.43,0:02:32.75,0$Default,,0,0,0,,10,000 for the suitcase.\NNever said it came with a key.
+Dialogue: 0,0:02:32.75,0:02:34.34,0$Default,,0,0,0,,Whaaat?!
+Dialogue: 0,0:02:34.34,0:02:37.80,0$Default,,0,0,0,,Oui, oui, that'll be another 10,000 for the key.
+Dialogue: 0,0:02:38.09,0:02:39.69,0$Default,,0,0,0,,What a jerk move, right?
+Dialogue: 0,0:02:39.69,0:02:41.31,0$Default,,0,0,0,,Fine, Mr. Yon. Can you help us pick it?
+Dialogue: 0,0:02:41.31,0:02:44.36,0$Default,,0,0,0,,Oui, oui. But you need to tip.
+Dialogue: 0,0:02:44.36,0:02:46.95,0$Default,,0,0,0,,Again, really? Fine, whatever.
+Dialogue: 0,0:02:46.95,0:02:48.24,0$Default,,0,0,0,,Here's your gloves.
+Dialogue: 0,0:02:48.24,0:02:49.87,0$Default,,0,0,0,,Huh? I said I needed pliers.
+Dialogue: 0,0:02:49.87,0:02:51.86,0$Default,,0,0,0,,Sir, I heard you were going to pick a fight!
+Dialogue: 0,0:02:52.10,0:02:54.36,0$Default,,0,0,0,,That's not what he said at all...
+Dialogue: 0,0:02:54.57,0:02:56.00,0$Default,,0,0,0,,We need a lock-pick!
+Dialogue: 0,0:02:56.00,0:02:58.87,0$Default,,0,0,0,,Oui, oui. You want someone\Nto help you in the city...
+Dialogue: 0,0:02:59.11,0:03:00.79,0$Default,,0,0,0,,We get it, you greedy pig.
+Dialogue: 0,0:03:00.79,0:03:03.09,0$Default,,0,0,0,,Whatever. Gob-san, drop the case.
+Dialogue: 0,0:03:03.09,0:03:05.01,0$Default,,0,0,0,,I'll burst it open with my fire spell.
+Dialogue: 0,0:03:05.01,0:03:09.13,0$Default,,0,0,0,,No magic in the building!\NUnless you can tip me.
+Dialogue: 0,0:03:09.13,0:03:11.59,0$Default,,0,0,0,,Fine! I'll have you know, I'm no hillbilly!
+Dialogue: 0,0:03:11.59,0:03:13.13,0$Default,,0,0,0,,There. Scooch over.
+Dialogue: 0,0:03:13.13,0:03:15.26,0$Default,,0,0,0,,Here we go... Fireball!
+Dialogue: 0,0:03:17.21,0:03:20.72,0$Default,,0,0,0,,There we go, just what we\Nneed to beat... Vampire...?
+Dialogue: 0,0:03:20.72,0:03:23.32,0$Default,,0,0,0,,A tonic? I thought it'd be a weapon.
+Dialogue: 0,0:03:23.32,0:03:26.91,0$Default,,0,0,0,,Oh, perhaps it boosts your\NATK when you drink it?
+Dialogue: 0,0:03:26.91,0:03:28.07,0$Default,,0,0,0,,Oh, yeah! Maybe!
+Dialogue: 0,0:03:28.07,0:03:29.65,0$Default,,0,0,0,,Alright. Hup to it.
+Dialogue: 0,0:03:32.31,0:03:34.28,0$Default,,0,0,0,,Gob-san... What are you doing...?
+Dialogue: 0,0:03:34.28,0:03:38.50,0$Default,,0,0,0,,Oh, I see! Maybe it makes\Nyou smarter instead!
+Dialogue: 0,0:03:38.50,0:03:39.78,0$Default,,0,0,0,,Really? Gimme some too!
+Dialogue: 0,0:03:39.78,0:03:42.00,0$Default,,0,0,0,,Well, a mage like me deserves some...
+Dialogue: 0,0:03:42.00,0:03:43.29,0$Default,,0,0,0,,Uh... What?
+Dialogue: 0,0:03:43.86,0:03:45.79,0$Default,,0,0,0,,Hair Restoral Tonic?!
+Dialogue: 0,0:03:45.79,0:03:49.29,0$Default,,0,0,0,,Bunnilla told me she's into\Nmen with long hair, so...
+Dialogue: 0,0:03:49.29,0:03:50.54,0$Default,,0,0,0,,I never said that.
+Dialogue: 0,0:03:50.75,0:03:54.43,0$Default,,0,0,0,,Gob-san... Don't tell me the "mighty enemy"\Nyou were talking about earlier...
+Dialogue: 0,0:03:54.43,0:03:57.22,0$Default,,0,0,0,,You were talking about Bunnilla?
+Dialogue: 0,0:03:57.22,0:04:00.65,0$Default,,0,0,0,,What are you thinking,\Nbuying all this useless crap?
+Dialogue: 0,0:04:00.65,0:04:04.19,0$Default,,0,0,0,,Knowing Bouiyong, I wouldn't even be surprised
+Dialogue: 0,0:04:04.19,0:04:06.06,0$Default,,0,0,0,,if that tonic is complete balonga.
+Dialogue: 0,0:04:06.30,0:04:07.61,0$Default,,0,0,0,,What a waste, dude!
+Dialogue: 0,0:04:07.61,0:04:10.72,0$Default,,0,0,0,,And for that, no dinner for you\Nuntil we beat Vampire!
+Dialogue: 0,0:04:10.72,0:04:12.83,0$Default,,0,0,0,,Oh, really?
+Dialogue: 0,0:04:12.83,0:04:15.53,0$Default,,0,0,0,,Then I can lose weight\Nand the ladies will love me even more!
+Dialogue: 0,0:04:15.85,0:04:17.45,0$Default,,0,0,0,,He's taking that lightly.
+Dialogue: 0,0:04:18.75,0:04:20.96,0$Default,,0,0,0,,Hm? Do you guys hear all that racket?
+Dialogue: 0,0:04:20.96,0:04:22.09,0$Default,,0,0,0,,Yeah, why?
+Dialogue: 0,0:04:22.09,0:04:23.34,0$Default,,0,0,0,,What {\i1}is{\i0} that?
+Dialogue: 0,0:04:23.34,0:04:26.09,0$Default,,0,0,0,,It's coming from the room above us.
+Dialogue: 0,0:04:26.09,0:04:28.75,0$Default,,0,0,0,,Should we go warn them for you?
+Dialogue: 0,0:04:28.75,0:04:30.72,0$Default,,0,0,0,,Doesn't matter.
+Dialogue: 0,0:04:30.72,0:04:34.52,0$Default,,0,0,0,,That customer generously paid me\Nhis fees for the week in advance!
+Dialogue: 0,0:04:34.52,0:04:35.89,0$Default,,0,0,0,,So long as you pay up,
+Dialogue: 0,0:04:35.89,0:04:38.64,0$Default,,0,0,0,,dine and dashers, robbers,\Nmurderers, and monsters?
+Dialogue: 0,0:04:38.64,0:04:39.72,0$Default,,0,0,0,,All good with me, oui oui!
+Dialogue: 0,0:04:39.88,0:04:43.65,0$Default,,0,0,0,,If it bothers you, can you go warn them?\NThey're in Room 204.
+Dialogue: 0,0:04:43.65,0:04:45.78,0$Default,,0,0,0,,– Huh?\N– Room 204?
+Dialogue: 0,0:04:45.78,0:04:47.78,0$Default,,0,0,0,,But that's right next to our room!
+Dialogue: 0,0:04:47.78,0:04:49.64,0$Default,,0,0,0,,We can't sleep with that noise!
+Dialogue: 0,0:04:49.89,0:04:51.60,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:04:51.60,0:04:53.31,0$Default,,0,0,0,,Don't call your neighbors to annoy them!
+Dialogue: 0,0:04:53.31,0:04:55.44,0$Default,,0,0,0,,Call about your husband's life insurance!
+Dialogue: 0,0:04:55.44,0:04:57.82,0$Default,,0,0,0,,No one should suffer without insurance!
+Dialogue: 0,0:04:59.96,0:05:02.17,0$Default,,0,0,0,,Hello? We need to speak with you!
+Dialogue: 0,0:05:02.17,0:05:04.96,0$Default,,0,0,0,,Can't get out 'cuz of this damn drumset.
+Dialogue: 0,0:05:04.96,0:05:06.83,0$Default,,0,0,0,,If you need t'talk, get in here.
+Dialogue: 0,0:05:07.74,0:05:09.96,0$Default,,0,0,0,,So you can't get out, but you\Nhad no trouble getting in?
+Dialogue: 0,0:05:10.16,0:05:11.84,0$Default,,0,0,0,,Hi, sorry.
+Dialogue: 0,0:05:11.84,0:05:14.39,0$Default,,0,0,0,,Well, what is it?
+Dialogue: 0,0:05:14.39,0:05:15.68,0$Default,,0,0,0,,Isn't it obvious?
+Dialogue: 0,0:05:15.68,0:05:18.26,0$Default,,0,0,0,,Can't you even talk without\Ngoing off on the drums?
+Dialogue: 0,0:05:18.26,0:05:19.71,0$Default,,0,0,0,,What's your problem?!
+Dialogue: 0,0:05:19.71,0:05:22.73,0$Default,,0,0,0,,You're disturbing the other guests.\NCan you keep it down, please?
+Dialogue: 0,0:05:24.24,0:05:26.32,0$Default,,0,0,0,,Who d'ya think yer talkin' to?
+Dialogue: 0,0:05:26.32,0:05:30.07,0$Default,,0,0,0,,I'm the legendary drummer of the band\Nthat took my generation by storm,
+Dialogue: 0,0:05:30.07,0:05:32.28,0$Default,,0,0,0,,Demon & Carbuncle...
+Dialogue: 4,0:05:32.28,0:05:34.86,0$Default,,0,0,0,,Demon Futohara!
+Dialogue: 0,0:05:35.06,0:05:36.70,0$Default,,0,0,0,,Ring a bell, Gob-san?
+Dialogue: 0,0:05:36.70,0:05:38.48,0$Default,,0,0,0,,Nope, not at all.
+Dialogue: 0,0:05:38.48,0:05:42.08,0$Default,,0,0,0,,Without a vocalist, he just seems\Nlike a crazed drummer.
+Dialogue: 0,0:05:42.08,0:05:43.45,0$Default,,0,0,0,,You said it.
+Dialogue: 0,0:05:43.45,0:05:46.30,0$Default,,0,0,0,,A band's nothing without a vocalist.
+Dialogue: 0,0:05:46.30,0:05:49.38,0$Default,,0,0,0,,For yuck's sake! Vocalist this, vocalist that,
+Dialogue: 0,0:05:49.38,0:05:51.59,0$Default,,0,0,0,,you all think they're sooo great!
+Dialogue: 0,0:05:51.59,0:05:53.55,0$Default,,0,0,0,,Vocalists here, vocalists there...
+Dialogue: 0,0:05:53.55,0:05:55.51,0$Default,,0,0,0,,Why are people so vocal about them?!
+Dialogue: 0,0:05:56.04,0:05:58.81,0$Default,,0,0,0,,What's with this strange\Ncomplex against vocalists?
+Dialogue: 0,0:05:58.81,0:06:01.98,0$Default,,0,0,0,,Oh, Carbuncle! Why'd ya have\Nto leave me behind?
+Dialogue: 0,0:06:01.98,0:06:04.61,0$Default,,0,0,0,,D'ya really think my drums\Nwere holdin' our band back?!
+Dialogue: 0,0:06:04.61,0:06:06.11,0$Default,,0,0,0,,P-Preach, man!
+Dialogue: 0,0:06:06.11,0:06:07.98,0$Default,,0,0,0,,He needs to show some gratitude for you!
+Dialogue: 0,0:06:07.98,0:06:10.24,0$Default,,0,0,0,,But he only cares about the sales,\Nthat's why he went solo!
+Dialogue: 0,0:06:10.24,0:06:12.25,0$Default,,0,0,0,,See? You guys gets me!
+Dialogue: 0,0:06:12.86,0:06:16.32,0$Default,,0,0,0,,But on the other hand, drumming doesn't\Nquite help your resume.
+Dialogue: 0,0:06:16.82,0:06:18.08,0$Default,,0,0,0,,Say that again.
+Dialogue: 0,0:06:18.08,0:06:21.32,0$Default,,0,0,0,,I don't wanna hear that BS, goddamn it!
+Dialogue: 0,0:06:24.02,0:06:26.33,0$Default,,0,0,0,,He's gonna cause the building to collapse!
+Dialogue: 0,0:06:26.68,0:06:28.45,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:06:28.45,0:06:31.33,0$Default,,0,0,0,,A retreating dog howls from afar!\NA big dog should be kept outside!
+Dialogue: 0,0:06:31.33,0:06:34.87,0$Default,,0,0,0,,That makes us the retreating dogs\Nfor getting angry at him!
+Dialogue: 0,0:06:34.87,0:06:37.60,0$Default,,0,0,0,,Shuddup! Don't lecture me!
+Dialogue: 0,0:06:37.60,0:06:40.35,0$Default,,0,0,0,,I'll knock you out with all I got!
+Dialogue: 0,0:06:40.35,0:06:42.84,0$Default,,0,0,0,,Drum Roll Power!
+Dialogue: 0,0:06:43.03,0:06:45.05,0$Default,,0,0,0,,Whuh? What's that so-and-so power?
+Dialogue: 0,0:06:45.21,0:06:49.06,0$Default,,0,0,0,,What's your deepest, darkest secret?
+Dialogue: 0,0:06:49.06,0:06:53.23,0$Default,,0,0,0,,W-Why are you asking me?\NI don't keep secrets that big!
+Dialogue: 0,0:06:56.70,0:06:59.15,0$Default,,0,0,0,,I still wet the bed sometimes!
+Dialogue: 0,0:06:59.15,0:07:00.37,0$Default,,0,0,0,,You {\i1}what?!
+Dialogue: 0,0:07:00.37,0:07:01.61,0$Default,,0,0,0,,So do I!
+Dialogue: 0,0:07:01.61,0:07:03.12,0$Default,,0,0,0,,What did I just say...?
+Dialogue: 0,0:07:03.12,0:07:04.24,0$Default,,0,0,0,,What did {\i1}you{\i0} just do?
+Dialogue: 0,0:07:04.24,0:07:08.95,0$Default,,0,0,0,,This drum roll will make ya\Nanswer any question I ask!
+Dialogue: 0,0:07:09.11,0:07:10.36,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:07:10.36,0:07:14.91,0$Default,,0,0,0,,I've lost count of how many rival bands\NI've broken up with this thang!
+Dialogue: 0,0:07:14.91,0:07:16.83,0$Default,,0,0,0,,Don't it just make ya quiver?
+Dialogue: 0,0:07:16.83,0:07:18.35,0$Default,,0,0,0,,I'm sooo scared...
+Dialogue: 0,0:07:18.35,0:07:21.71,0$Default,,0,0,0,,I even got our lead vocalist\Nto tell me how he really feels,
+Dialogue: 0,0:07:21.92,0:07:24.67,0$Default,,0,0,0,,and we broke apart\N'cuz it turned out he hated me!
+Dialogue: 0,0:07:24.88,0:07:26.47,0$Default,,0,0,0,,So you broke up your own band too...?
+Dialogue: 0,0:07:26.47,0:07:28.72,0$Default,,0,0,0,,Don't talk back to me, boy!
+Dialogue: 0,0:07:29.04,0:07:30.36,0$Default,,0,0,0,,You've got secrets too!
+Dialogue: 0,0:07:30.36,0:07:34.23,0$Default,,0,0,0,,Tell me what you've been bottlin' up deep down!
+Dialogue: 0,0:07:34.89,0:07:37.27,0$Default,,0,0,0,,Pepperon wet the bed just yesterday!
+Dialogue: 0,0:07:37.27,0:07:38.41,0$Default,,0,0,0,,Oh, shoot!
+Dialogue: 0,0:07:38.41,0:07:40.16,0$Default,,0,0,0,,That "sometimes" was yesterday?!
+Dialogue: 0,0:07:40.16,0:07:44.75,0$Default,,0,0,0,,Chup, did you just pretend\Nyou found out before?
+Dialogue: 0,0:07:44.75,0:07:47.29,0$Default,,0,0,0,,So is the reason my bed got wet
+Dialogue: 0,0:07:47.29,0:07:49.38,0$Default,,0,0,0,,because you sneakily swapped it with yours?
+Dialogue: 0,0:07:49.38,0:07:51.28,0$Default,,0,0,0,,That was already wet.
+Dialogue: 0,0:07:51.60,0:07:52.99,0$Default,,0,0,0,,I'm so sorry, Pepperon!
+Dialogue: 0,0:07:52.99,0:07:56.51,0$Default,,0,0,0,,I can't believe I exposed your secret like that!
+Dialogue: 0,0:07:56.51,0:07:58.72,0$Default,,0,0,0,,You're next, Grandpa!
+Dialogue: 0,0:07:59.03,0:08:02.14,0$Default,,0,0,0,,Give me your best joke!
+Dialogue: 0,0:08:02.14,0:08:04.52,0$Default,,0,0,0,,Why do I have to tell comedy...?
+Dialogue: 0,0:08:04.52,0:08:08.27,0$Default,,0,0,0,,You're under a lot of pressure\Nwith that drum roll, too.
+Dialogue: 0,0:08:12.67,0:08:13.97,0$Default,,0,0,0,,From manure!
+Dialogue: 0,0:08:15.05,0:08:16.90,0$Default,,0,0,0,,Wow, ROFL.
+Dialogue: 0,0:08:16.90,0:08:18.44,0$Default,,0,0,0,,Sprouts...
+Dialogue: 0,0:08:18.68,0:08:19.94,0$Default,,0,0,0,,A rice ball!
+Dialogue: 0,0:08:22.31,0:08:23.83,0$Default,,0,0,0,,Is that really your best work?
+Dialogue: 0,0:08:23.83,0:08:26.66,0$Default,,0,0,0,,Don't know if I can recover from that one...
+Dialogue: 0,0:08:26.66,0:08:28.82,0$Default,,0,0,0,,That's terrifying!
+Dialogue: 0,0:08:29.11,0:08:30.79,0$Default,,0,0,0,,You, quick-lips!
+Dialogue: 0,0:08:30.79,0:08:32.83,0$Default,,0,0,0,,Is that supposed to be me?
+Dialogue: 0,0:08:32.83,0:08:35.32,0$Default,,0,0,0,,What should I ask you...?
+Dialogue: 0,0:08:35.32,0:08:39.74,0$Default,,0,0,0,,Don't ask her what color her undies are!\NDon't even think about it!
+Dialogue: 0,0:08:39.74,0:08:41.50,0$Default,,0,0,0,,Are you {\i1}trying{\i0} to give him ideas?
+Dialogue: 0,0:08:41.50,0:08:45.14,0$Default,,0,0,0,,I know! Just the right question for a girl your age!
+Dialogue: 0,0:08:45.14,0:08:47.89,0$Default,,0,0,0,,What's a womanly desire you've\Nkept hidden from your friends?
+Dialogue: 0,0:08:47.89,0:08:49.55,0$Default,,0,0,0,,Spill!
+Dialogue: 0,0:08:49.55,0:08:54.72,0$Default,,0,0,0,,Oh, no! Not that! Anything but that!
+Dialogue: 0,0:08:56.36,0:08:59.78,0$Default,,0,0,0,,I wish I had a hot boyfriend!
+Dialogue: 0,0:09:01.48,0:09:02.53,0$Default,,0,0,0,,Mayone...?
+Dialogue: 0,0:09:02.53,0:09:04.70,0$Default,,0,0,0,,Didn't think you had that stuff on the brain.
+Dialogue: 0,0:09:04.70,0:09:06.33,0$Default,,0,0,0,,I don't, stop it!
+Dialogue: 0,0:09:06.33,0:09:08.24,0$Default,,0,0,0,,What do you wanna\Ndo with this boyfriend...?
+Dialogue: 0,0:09:11.35,0:09:14.24,0$Default,,0,0,0,,I want to smooch him in the deepest dungeon!
+Dialogue: 0,0:09:14.53,0:09:15.50,0$Default,,0,0,0,,A dungeon...?
+Dialogue: 0,0:09:16.59,0:09:18.49,0$Default,,0,0,0,,What a sad place for a smooch.
+Dialogue: 0,0:09:18.49,0:09:20.16,0$Default,,0,0,0,,As if a prude girl like you...
+Dialogue: 0,0:09:20.87,0:09:23.58,0$Default,,0,0,0,,Why are you trying to get the last word in?
+Dialogue: 0,0:09:23.58,0:09:25.42,0$Default,,0,0,0,,I can't take it anymore!
+Dialogue: 0,0:09:25.42,0:09:28.85,0$Default,,0,0,0,,How's it taste? Takin' all my hits, huh?
+Dialogue: 0,0:09:28.85,0:09:30.98,0$Default,,0,0,0,,But it's nothin' like the pain I've gone through.
+Dialogue: 0,0:09:30.98,0:09:34.19,0$Default,,0,0,0,,Oh, how traumatic it is,\Nto be abandoned by my vocalist...
+Dialogue: 0,0:09:34.19,0:09:36.11,0$Default,,0,0,0,,I can't hear myself think.
+Dialogue: 0,0:09:36.11,0:09:37.69,0$Default,,0,0,0,,Huh? Who's there?
+Dialogue: 0,0:09:38.12,0:09:39.35,0$Default,,0,0,0,,Vinsant!
+Dialogue: 0,0:09:40.45,0:09:41.99,0$Default,,0,0,0,,Just in the nick of time!
+Dialogue: 0,0:09:41.99,0:09:43.35,0$Default,,0,0,0,,Oh, one of their buds, eh?
+Dialogue: 0,0:09:43.78,0:09:46.02,0$Default,,0,0,0,,Vinsant, you've got the name of a vocalist,
+Dialogue: 0,0:09:46.02,0:09:48.00,0$Default,,0,0,0,,and the style of one too!
+Dialogue: 0,0:09:48.00,0:09:50.03,0$Default,,0,0,0,,I hate yer kind so much!
+Dialogue: 0,0:09:50.27,0:09:51.95,0$Default,,0,0,0,,Keep your guard up, Vinsant!
+Dialogue: 0,0:09:51.95,0:09:53.92,0$Default,,0,0,0,,Drum Roll Power!
+Dialogue: 0,0:09:53.92,0:09:57.91,0$Default,,0,0,0,,Alright, fancy-pants. Ya seem tough,\Nso let's crush some friendships.
+Dialogue: 0,0:09:59.91,0:10:03.59,0$Default,,0,0,0,,Who do ya hate the most\Nof everyone in this room?
+Dialogue: 0,0:10:03.59,0:10:06.60,0$Default,,0,0,0,,Uh-oh, I don't think I can take this face-to-face.
+Dialogue: 0,0:10:06.60,0:10:08.85,0$Default,,0,0,0,,It can't be me, right, Vinsant?
+Dialogue: 0,0:10:08.85,0:10:10.38,0$Default,,0,0,0,,Or me, right?
+Dialogue: 0,0:10:10.77,0:10:13.76,0$Default,,0,0,0,,Surely, it's not everyone's favorite Gob-san, no?
+Dialogue: 0,0:10:16.08,0:10:20.77,0$Default,,0,0,0,,The one person in this room\Nwho disgusts me the most...
+Dialogue: 0,0:10:20.77,0:10:23.39,0$Default,,0,0,0,,Who's it gonna be?!
+Dialogue: 0,0:10:24.68,0:10:25.77,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:25.77,0:10:27.73,0$Default,,0,0,0,,...Is you!
+Dialogue: 0,0:10:29.02,0:10:29.87,0$Default,,0,0,0,,Yay!
+Dialogue: 0,0:10:29.87,0:10:33.54,0$Default,,0,0,0,,Oh, yeah! He's also "in this room" with us!
+Dialogue: 0,0:10:33.54,0:10:36.85,0$Default,,0,0,0,,But Vinsant. You love me, don'tcha?
+Dialogue: 0,0:10:36.85,0:10:37.96,0$Default,,0,0,0,,Oh, you're here too?
+Dialogue: 0,0:10:38.53,0:10:39.08,0$Default,,0,0,0,,Whoo!
+Dialogue: 0,0:10:42.53,0:10:43.58,0$Default,,0,0,0,,We did it!
+Dialogue: 0,0:10:43.58,0:10:45.34,0$Default,,0,0,0,,A treasure chest!
+Dialogue: 0,0:10:45.34,0:10:48.42,0$Default,,0,0,0,,He may not have aged well, but he {\i1}was{\i0} once big!\NIt must be a valuable treasure!
+Dialogue: 0,0:10:48.78,0:10:51.27,0$Default,,0,0,0,,Ooh, it's the Phantom Brooch!
+Dialogue: 0,0:10:51.27,0:10:54.77,0$Default,,0,0,0,,It's a must-have for snappy adults\Nwho are tired of plain-old fashions.
+Dialogue: 0,0:10:54.77,0:10:56.10,0$Default,,0,0,0,,Not only do cool guys love it,
+Dialogue: 0,0:10:56.10,0:11:00.03,0$Default,,0,0,0,,but it's exploded among\Ntemptresses in modern day.
+Dialogue: 0,0:11:00.03,0:11:01.99,0$Default,,0,0,0,,Mine it is, then!
+Dialogue: 0,0:11:01.99,0:11:03.24,0$Default,,0,0,0,,Hey, no fair!
+Dialogue: 0,0:11:03.24,0:11:06.19,0$Default,,0,0,0,,This should make up for you\Nlearning my dark secret, no?
+Dialogue: 0,0:11:06.35,0:11:07.40,0$Default,,0,0,0,,Secret?
+Dialogue: 0,0:11:07.40,0:11:10.15,0$Default,,0,0,0,,Mayone wants to kiss a hottie in a dun...
+Dialogue: 0,0:11:10.15,0:11:11.45,0$Default,,0,0,0,,Ow-ow-ow-ow-ow!!
+Dialogue: 0,0:11:11.45,0:11:14.70,0$Default,,0,0,0,,Have any new details on Vampire?
+Dialogue: 0,0:11:14.70,0:11:18.99,0$Default,,0,0,0,,I met someone in town\Nyou might find interesting.
+Dialogue: 0,0:11:19.19,0:11:20.67,0$Default,,0,0,0,,Way to go, Vinsant!
+Dialogue: 0,0:11:20.67,0:11:22.51,0$Default,,0,0,0,,Already making friends in the city!
+Dialogue: 0,0:11:22.51,0:11:24.01,0$Default,,0,0,0,,Ain't a hillbilly no more!
+Dialogue: 0,0:11:25.12,0:11:29.17,0$Default,,0,0,0,,He told me that he wants\Nto defeat Vampire himself.
+Dialogue: 0,0:11:29.17,0:11:30.04,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:11:30.04,0:11:31.55,0$Default,,0,0,0,,Defeat him? Is he like, crazy strong?
+Dialogue: 0,0:11:31.71,0:11:35.08,0$Default,,0,0,0,,He will arrive at Squid Ink Lane shortly.
+Dialogue: 0,0:11:35.08,0:11:36.56,0$Default,,0,0,0,,The rest is in your hands.
+Dialogue: 0,0:11:36.56,0:11:40.01,0$Default,,0,0,0,,I'm going to try to find more intel on Vampire.
+Dialogue: 0,0:11:41.76,0:11:44.52,0$Default,,0,0,0,,I can't believe someone's\Nable to handle Vampire!
+Dialogue: 0,0:11:44.52,0:11:46.35,0$Default,,0,0,0,,I can't wait to meet him!
+Dialogue: 0,0:11:46.35,0:11:47.35,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:11:49.35,0:11:53.79,0$Default,,0,0,0,,What the? What's a down-on-his-luck\Noffice worker doing here?
+Dialogue: 0,0:11:53.79,0:11:55.62,0$Default,,0,0,0,,Let me guess, did he get laid off?
+Dialogue: 0,0:11:55.62,0:11:57.86,0$Default,,0,0,0,,Must be hard living the city life.
+Dialogue: 0,0:11:58.73,0:12:02.37,0$Default,,0,0,0,,Are you the kids that are out to defeat Vampire?
+Dialogue: 0,0:12:02.37,0:12:03.34,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:12:03.34,0:12:04.87,0$Default,,0,0,0,,Are you...?
+Dialogue: 0,0:12:05.19,0:12:09.51,0$Default,,0,0,0,,I thought I could probably\Ntake on the Vampire myself.
+Dialogue: 0,0:12:09.51,0:12:12.46,0$Default,,0,0,0,,That was {\i1}you?!{\i0}
+Dialogue: 0,0:12:18.13,0:12:21.65,0$Default,,0,0,0,,No way, this guy's just... some guy!
+Dialogue: 0,0:12:21.65,0:12:24.78,0$Default,,0,0,0,,All dismissed! Let's go back\Ninto the hotel and split.
+Dialogue: 0,0:12:24.78,0:12:25.99,0$Default,,0,0,0,,Not happening.
+Dialogue: 0,0:12:25.99,0:12:28.91,0$Default,,0,0,0,,Uhh, here's my info.
+Dialogue: 0,0:12:28.91,0:12:31.03,0$Default,,0,0,0,,A business card? He's like\Nthe {\i1}definition{\i0} of some guy!
+Dialogue: 0,0:12:31.46,0:12:33.52,0$Default,,0,0,0,,"Were Wolf?"
+Comment: 0,0:12:31.02,0:12:33.52,0$Default,,0,0,0,,Moonlight Press – Accounting: Were Wolf
+Dialogue: 0,0:12:33.52,0:12:39.25,0$Default,,0,0,0,,As you can see, I'm a\Nlong-standing rival of Vampire's.
+Dialogue: 0,0:12:39.25,0:12:42.96,0$Default,,0,0,0,,We've fought 500 times,\Nbut they all ended in draws.
+Dialogue: 0,0:12:42.96,0:12:46.84,0$Default,,0,0,0,,But tonight is the one full moon of the\Ndecade where my power is at its peak...
+Dialogue: 0,0:12:46.84,0:12:48.63,0$Default,,0,0,0,,I have to defeat him.
+Dialogue: 0,0:12:48.63,0:12:50.89,0$Default,,0,0,0,,And when it isn't a full moon,
+Dialogue: 0,0:12:50.89,0:12:54.97,0$Default,,0,0,0,,I work for accounting at Moonlight Press\Nhere in King Oyster City.
+Dialogue: 0,0:12:54.97,0:12:57.56,0$Default,,0,0,0,,Are you even listening? Hello?
+Dialogue: 0,0:12:57.56,0:12:58.77,0$Default,,0,0,0,,I was talking...
+Dialogue: 0,0:12:58.77,0:13:02.19,0$Default,,0,0,0,,Sorry, dude, you were just going on...
+Dialogue: 0,0:13:02.19,0:13:03.82,0$Default,,0,0,0,,I'm not normally like this...
+Dialogue: 0,0:13:03.82,0:13:06.06,0$Default,,0,0,0,,Can you repeat everything after\N"As you can see?"
+Dialogue: 0,0:13:06.06,0:13:08.13,0$Default,,0,0,0,,Of course...
+Dialogue: 0,0:13:09.76,0:13:12.12,0$Default,,0,0,0,,I think we get the gist of it.
+Dialogue: 0,0:13:12.12,0:13:14.73,0$Default,,0,0,0,,But for someone called "Were Wolf..."
+Dialogue: 0,0:13:14.73,0:13:16.57,0$Default,,0,0,0,,You sure don't look the part.
+Dialogue: 0,0:13:16.57,0:13:18.40,0$Default,,0,0,0,,There's a full moon tonight!
+Dialogue: 0,0:13:18.40,0:13:20.82,0$Default,,0,0,0,,I can transform once it appears.
+Dialogue: 0,0:13:23.49,0:13:25.59,0$Default,,0,0,0,,The moon sure is shy tonight.
+Dialogue: 0,0:13:25.59,0:13:27.26,0$Default,,0,0,0,,Patience is rewarding.
+Dialogue: 0,0:13:27.26,0:13:30.29,0$Default,,0,0,0,,Would you like to hear about\Nmy relationship with Vampire?
+Dialogue: 0,0:13:30.29,0:13:32.76,0$Default,,0,0,0,,We'd rather stay awake, so we'll pass.
+Dialogue: 0,0:13:32.76,0:13:36.80,0$Default,,0,0,0,,By the way, you're not gonna like,\Ncharge us for your assistance, right?
+Dialogue: 0,0:13:36.80,0:13:41.96,0$Default,,0,0,0,,I heard there's hitmen in the city\Nthat make a lotta money off their work.
+Dialogue: 0,0:13:41.96,0:13:43.81,0$Default,,0,0,0,,I don't need compensation.
+Dialogue: 0,0:13:43.81,0:13:46.65,0$Default,,0,0,0,,Oh, wow. Didn't think there were\Nsuch kind people here.
+Dialogue: 0,0:13:46.65,0:13:49.98,0$Default,,0,0,0,,I know I will bring about his downfall...
+Dialogue: 0,0:13:49.98,0:13:51.99,0$Default,,0,0,0,,Look, the moon!
+Dialogue: 0,0:13:51.99,0:13:54.47,0$Default,,0,0,0,,Here it comes, here it comes!
+Dialogue: 0,0:13:54.47,0:13:55.49,0$Default,,0,0,0,,Come on out!
+Dialogue: 0,0:13:55.49,0:13:58.73,0$Default,,0,0,0,,– You can do it, moon!\N– At last!
+Dialogue: 0,0:13:58.73,0:14:01.73,0$Default,,0,0,0,,Even his voice is starting\Nto sound more ferocious!
+Dialogue: 0,0:14:04.56,0:14:07.74,0$Default,,0,0,0,,Oh, Vampire...
+Dialogue: 0,0:14:10.03,0:14:12.25,0$Default,,0,0,0,,I will take you down...!
+Dialogue: 0,0:14:12.45,0:14:15.01,0$Default,,0,0,0,,I need to make sure I have a\Ncopy of tomorrow's records.
+Dialogue: 0,0:14:15.01,0:14:16.39,0$Default,,0,0,0,,Aw, come on!
+Dialogue: 0,0:14:16.39,0:14:19.46,0$Default,,0,0,0,,I apologize, but alas, I'm just\Na man without my moon.
+Dialogue: 0,0:14:23.31,0:14:25.48,0$Default,,0,0,0,,Gob-san, what's happening to you?
+Dialogue: 0,0:14:27.65,0:14:29.72,0$Default,,0,0,0,,The Hair Restoral Tonic took effect!
+Dialogue: 0,0:14:29.72,0:14:32.02,0$Default,,0,0,0,,I can't back down! Bunnillaaaa!!
+Dialogue: 0,0:14:35.10,0:14:37.41,0$Default,,0,0,0,,Huh? What happened?
+Dialogue: 0,0:14:37.41,0:14:40.36,0$Default,,0,0,0,,Seems that paper fan smacked it all away.
+Dialogue: 0,0:14:40.52,0:14:42.86,0$Default,,0,0,0,,Yeah, yeah. Heck of a cloudy day, though.
+Dialogue: 0,0:14:42.86,0:14:45.04,0$Default,,0,0,0,,I'm afraid those aren't clouds.
+Dialogue: 0,0:14:45.04,0:14:47.42,0$Default,,0,0,0,,Vinegar Enterprises is polluting the air
+Dialogue: 0,0:14:47.42,0:14:50.92,0$Default,,0,0,0,,with toxic gases emitting from their factory.
+Dialogue: 0,0:14:50.92,0:14:52.87,0$Default,,0,0,0,,Yuck, what the hell?
+Dialogue: 0,0:14:52.87,0:14:55.62,0$Default,,0,0,0,,Vinegar, how dare you go this far...?
+Dialogue: 0,0:14:57.60,0:14:58.63,0$Default,,0,0,0,,Chup, look!
+Dialogue: 0,0:14:58.63,0:15:00.56,0$Default,,0,0,0,,The clouds are out of the way!
+Dialogue: 0,0:15:00.56,0:15:02.38,0$Default,,0,0,0,,Sweet, the moon's free!
+Dialogue: 0,0:15:02.67,0:15:04.89,0$Default,,0,0,0,,Here it comes, here it comes!
+Dialogue: 0,0:15:15.89,0:15:19.85,0$Default,,0,0,0,,Here I am! It's showtime!
+Dialogue: 0,0:15:20.91,0:15:22.32,0$Default,,0,0,0,,He can so do this!
+Dialogue: 0,0:15:23.19,0:15:24.65,0$Default,,0,0,0,,Vampire!
+Dialogue: 0,0:15:24.65,0:15:28.84,0$Default,,0,0,0,,After all these years, our battle\Nwill finally come to an end...!
+Dialogue: 0,0:15:29.22,0:15:31.88,0$Default,,0,0,0,,I better process all the receipts I have piling up.
+Dialogue: 0,0:15:31.88,0:15:33.42,0$Default,,0,0,0,,Come {\i1}on!
+Dialogue: 0,0:15:33.42,0:15:36.83,0$Default,,0,0,0,,I apologize, but alas, I'm just\Nan office worker without my moon.
+Dialogue: 0,0:15:36.83,0:15:39.18,0$Default,,0,0,0,,This is going nowhere!
+Dialogue: 0,0:15:39.18,0:15:41.88,0$Default,,0,0,0,,Are you sure you can't transform\Nwithout the moon?
+Dialogue: 0,0:15:41.88,0:15:46.84,0$Default,,0,0,0,,I think I once transformed when\NI saw something bright and round.
+Dialogue: 0,0:15:46.84,0:15:48.39,0$Default,,0,0,0,,What was it?
+Dialogue: 0,0:15:48.66,0:15:52.94,0$Default,,0,0,0,,It was my first date after I got my job.
+Dialogue: 0,0:15:52.94,0:15:56.35,0$Default,,0,0,0,,I worked up the courage and...\NAre you listening?
+Dialogue: 0,0:15:56.35,0:15:57.20,0$Default,,0,0,0,,Um...?
+Dialogue: 0,0:15:57.20,0:15:59.40,0$Default,,0,0,0,,Oh, what was that after "It was my first?"
+Dialogue: 0,0:15:59.40,0:16:01.83,0$Default,,0,0,0,,It was my first date.
+Dialogue: 0,0:16:01.83,0:16:04.36,0$Default,,0,0,0,,I worked up the courage and\Nasked out Tomoko, the receptionist...
+Dialogue: 0,0:16:06.50,0:16:08.03,0$Default,,0,0,0,,You worked up the courage, and...?
+Dialogue: 0,0:16:08.03,0:16:11.00,0$Default,,0,0,0,,And asked out Tomoko,\Nthe receptionist. I gazed into her...
+Dialogue: 0,0:16:11.00,0:16:13.25,0$Default,,0,0,0,,Aah! You asked her out, and...?
+Dialogue: 0,0:16:13.25,0:16:15.45,0$Default,,0,0,0,,I gazed into her eyes, thoughtlessly...
+Dialogue: 0,0:16:15.45,0:16:17.96,0$Default,,0,0,0,,Oh, I see. She turned you on, didn't she?
+Dialogue: 0,0:16:18.80,0:16:20.78,0$Default,,0,0,0,,You gazed into her eyes, and...?
+Dialogue: 0,0:16:20.78,0:16:22.46,0$Default,,0,0,0,,Thoughtlessly, I...
+Dialogue: 0,0:16:22.46,0:16:24.70,0$Default,,0,0,0,,You were turned on, right?
+Dialogue: 0,0:16:24.70,0:16:27.42,0$Default,,0,0,0,,You transformed after\Nlooking into a girl's eyes?
+Dialogue: 0,0:16:27.42,0:16:31.18,0$Default,,0,0,0,,Yes, but then she dumped me\Nafter I transformed.
+Dialogue: 0,0:16:31.18,0:16:34.11,0$Default,,0,0,0,,So d'ya think you can\Ntransform with Mayone's?
+Dialogue: 0,0:16:34.11,0:16:35.28,0$Default,,0,0,0,,Huh? Hold on, what?
+Dialogue: 0,0:16:35.28,0:16:36.68,0$Default,,0,0,0,,Worth a shot!
+Dialogue: 0,0:16:37.27,0:16:38.74,0$Default,,0,0,0,,Allow me to try.
+Dialogue: 0,0:16:38.74,0:16:40.12,0$Default,,0,0,0,,This is so awkward...
+Dialogue: 0,0:16:40.12,0:16:42.65,0$Default,,0,0,0,,I know you're just some old man, but still...
+Dialogue: 0,0:16:42.85,0:16:45.58,0$Default,,0,0,0,,One girl, one man, hidden away in the city...
+Dialogue: 0,0:16:45.58,0:16:48.66,0$Default,,0,0,0,,They really do look like\Na messy couple from over here.
+Dialogue: 0,0:16:49.01,0:16:51.32,0$Default,,0,0,0,,Oh? I think it's happening.
+Dialogue: 0,0:16:51.32,0:16:52.03,0$Default,,0,0,0,,Really?
+Dialogue: 0,0:16:53.70,0:16:55.04,0$Default,,0,0,0,,I actually worked!
+Dialogue: 0,0:16:56.54,0:17:01.04,0$Default,,0,0,0,,Alright! At last, the time has come...
+Dialogue: 0,0:17:01.04,0:17:03.42,0$Default,,0,0,0,,...to finish the withdrawal and deposit vouchers
+Dialogue: 0,0:17:03.42,0:17:05.77,0$Default,,0,0,0,,and write up a transfer voucher.
+Dialogue: 0,0:17:05.77,0:17:08.35,0$Default,,0,0,0,,Suppose I was wrong. Apologies.
+Dialogue: 0,0:17:08.35,0:17:11.00,0$Default,,0,0,0,,I may not be able to transform\Nwithout Tomoko.
+Dialogue: 0,0:17:11.00,0:17:12.40,0$Default,,0,0,0,,Come on, Mayone.
+Dialogue: 0,0:17:12.40,0:17:14.52,0$Default,,0,0,0,,You're blaming {\i1}me?
+Dialogue: 0,0:17:14.52,0:17:20.70,0$Default,,0,0,0,,For Tomoko, the flames of her love\Nmust have made her eyes glow like the full moon.
+Dialogue: 0,0:17:20.70,0:17:23.12,0$Default,,0,0,0,,You gotta turn up the magic!
+Dialogue: 0,0:17:23.12,0:17:24.83,0$Default,,0,0,0,,But not your literal magic!
+Dialogue: 0,0:17:24.83,0:17:27.44,0$Default,,0,0,0,,Could've done without the quip.
+Dialogue: 0,0:17:27.44,0:17:30.73,0$Default,,0,0,0,,If only Tomoko were here...
+Dialogue: 0,0:17:30.73,0:17:32.91,0$Default,,0,0,0,,Why did she dump me...?
+Dialogue: 0,0:17:34.43,0:17:36.95,0$Default,,0,0,0,,Receptionist Tomoko!
+Dialogue: 0,0:17:37.23,0:17:39.00,0$Default,,0,0,0,,Huh? Wait, is that...?
+Dialogue: 0,0:17:42.47,0:17:43.92,0$Default,,0,0,0,,Tomoko!
+Dialogue: 0,0:17:45.58,0:17:46.96,0$Default,,0,0,0,,Were Wolf?
+Dialogue: 0,0:17:48.10,0:17:49.59,0$Default,,0,0,0,,Weird timing!
+Dialogue: 0,0:17:49.59,0:17:53.22,0$Default,,0,0,0,,Nothing weird about it—\Nthat's the city for you.
+Dialogue: 0,0:17:56.60,0:18:00.15,0$Default,,0,0,0,,Thank goodness Tomoko took over!
+Dialogue: 0,0:18:00.15,0:18:02.70,0$Default,,0,0,0,,We might still have a chance!
+Dialogue: 0,0:18:02.70,0:18:05.74,0$Default,,0,0,0,,These two look just right for each other!
+Dialogue: 0,0:18:05.74,0:18:09.50,0$Default,,0,0,0,,Tomoko's a lot more into\Nbalance than I expected.
+Dialogue: 0,0:18:09.76,0:18:12.49,0$Default,,0,0,0,,Please quiet down, it's distracting.
+Dialogue: 0,0:18:16.15,0:18:18.02,0$Default,,0,0,0,,Tomoko.
+Dialogue: 0,0:18:18.53,0:18:19.81,0$Default,,0,0,0,,Yes?
+Dialogue: 0,0:18:28.09,0:18:30.01,0$Default,,0,0,0,,Tomokooo!
+Dialogue: 0,0:18:30.01,0:18:32.26,0$Default,,0,0,0,,Finally... At last!
+Dialogue: 0,0:18:32.26,0:18:34.43,0$Default,,0,0,0,,I can feel the strength!
+Dialogue: 0,0:18:40.10,0:18:42.03,0$Default,,0,0,0,,I think I'll pass!
+Dialogue: 0,0:18:42.03,0:18:43.77,0$Default,,0,0,0,,Forgive me, Tomoko.
+Dialogue: 0,0:18:53.86,0:18:56.57,0$Default,,0,0,0,,Hey, Vampire! You're going down tonight!
+Dialogue: 0,0:18:57.65,0:18:59.17,0$Default,,0,0,0,,Vat brings you here?
+Dialogue: 0,0:18:59.17,0:19:01.83,0$Default,,0,0,0,,Have you come to taste defeat yet again?
+Dialogue: 0,0:19:01.83,0:19:04.71,0$Default,,0,0,0,,We've got ultra-strong backup today!
+Dialogue: 0,0:19:04.71,0:19:07.97,0$Default,,0,0,0,,Backup? Who could desire\Nto face me head-on?
+Dialogue: 0,0:19:07.97,0:19:09.42,0$Default,,0,0,0,,Could it be...?
+Dialogue: 0,0:19:09.42,0:19:10.34,0$Default,,0,0,0,,Problem?
+Dialogue: 0,0:19:10.96,0:19:13.51,0$Default,,0,0,0,,Looking paler than usual!
+Dialogue: 0,0:19:13.51,0:19:17.34,0$Default,,0,0,0,,Tch... You're at your strongest\Nbecause of the full moon!
+Dialogue: 0,0:19:17.55,0:19:22.02,0$Default,,0,0,0,,I'm no match for you on a day like this!
+Dialogue: 0,0:19:22.80,0:19:26.02,0$Default,,0,0,0,,Time to put an end to our days of youth, Vampire!
+Dialogue: 0,0:21:17.08,0:21:20.55,0$Default,,0,0,0,,You really are the same old Pie, huh?
+Dialogue: 0,0:21:20.55,0:21:23.39,0$Default,,0,0,0,,Pie? Excuse me?
+Dialogue: 0,0:21:26.64,0:21:27.90,0$Default,,0,0,0,,He's so strong!
+Dialogue: 0,0:21:27.90,0:21:30.53,0$Default,,0,0,0,,He's totally gonna win this battle!
+Dialogue: 0,0:21:30.53,0:21:32.19,0$Default,,0,0,0,,Let's help him out!
+Dialogue: 0,0:21:33.14,0:21:35.15,0$Default,,0,0,0,,Fairy Crystal Sword!
+Dialogue: 0,0:21:35.15,0:21:37.24,0$Default,,0,0,0,,Fairy Crystal Shield!
+Dialogue: 0,0:21:37.24,0:21:41.15,0$Default,,0,0,0,,{\i1}Downloading Fairy Electronics.{\i0}
+Dialogue: 0,0:21:42.40,0:21:44.16,0$Default,,0,0,0,,{\i1}Fairy Crystal Sword.{\i0}
+Dialogue: 0,0:21:45.36,0:21:47.16,0$Default,,0,0,0,,{\i1}Fairy Crystal Shield.{\i0}
+Dialogue: 0,0:21:50.70,0:21:52.17,0$Default,,0,0,0,,Fireball!
+Dialogue: 0,0:21:55.47,0:21:56.59,0$Default,,0,0,0,,Fireball!
+Dialogue: 0,0:22:00.26,0:22:00.84,0$Default,,0,0,0,,Now!
+Dialogue: 0,0:22:01.20,0:22:03.94,0$Default,,0,0,0,,Take this, my ultimate spell...!
+Dialogue: 0,0:22:06.88,0:22:09.52,0$Default,,0,0,0,,Guh... I can't move...
+Dialogue: 0,0:22:12.52,0:22:14.77,0$Default,,0,0,0,,Crap, he's too quick!
+Dialogue: 0,0:22:19.28,0:22:20.77,0$Default,,0,0,0,,Say good night!
+Dialogue: 0,0:22:20.77,0:22:22.23,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:22:23.27,0:22:24.50,0$Default,,0,0,0,,His business card?
+Dialogue: 0,0:22:24.50,0:22:25.92,0$Default,,0,0,0,,He transformed back!
+Dialogue: 0,0:22:25.92,0:22:27.53,0$Default,,0,0,0,,What happened?
+Dialogue: 0,0:22:27.53,0:22:31.54,0$Default,,0,0,0,,I turn back when I see anything triangle-shaped.
+Dialogue: 0,0:22:31.54,0:22:33.01,0$Default,,0,0,0,,Triangle-shaped?
+Dialogue: 0,0:22:35.45,0:22:37.54,0$Default,,0,0,0,,...Like a rice ball.
+Dialogue: 0,0:22:45.88,0:22:46.68,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.68,0:22:48.44,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.44,0:22:50.99,0$Default,,0,0,0,,{\an8}Today's lesson is on King Oyster City!
+Dialogue: 0,0:22:50.99,0:22:56.66,0$Default,,0,0,0,,{\an8}King Oyster City is a metropolis\Nhousing Vinegar Enterprises.
+Dialogue: 0,0:22:56.66,0:22:59.54,0$Default,,0,0,0,,{\an8}It's covered by a barrier absorbing the sunlight,
+Dialogue: 0,0:22:59.54,0:23:01.41,0$Default,,0,0,0,,{\an8}run by the power of their factories.
+Dialogue: 0,0:23:01.41,0:23:03.71,0$Default,,0,0,0,,{\an8}The whole city is plunged\Nin eternal night as a result.
+Dialogue: 0,0:23:03.71,0:23:06.29,0$Default,,0,0,0,,{\an8}Grr, Vinegar. I won't let you get away with this!
+Dialogue: 0,0:23:06.29,0:23:09.65,0$Default,,0,0,0,,{\an8}It's a dangerous place, so we'll have to\Nbe prepared for any eventuality!
+Dialogue: 0,0:23:10.86,0:23:13.13,0$Default,,0,0,0,,The final battle against Vampire begins,
+Dialogue: 0,0:23:13.13,0:23:15.17,0$Default,,0,0,0,,with the help of Werewolf and Franken!
+Dialogue: 0,0:23:15.17,0:23:17.54,0$Default,,0,0,0,,And we'll strike the final blow\Nwith this secret weapon!
+Dialogue: 0,0:23:17.54,0:23:20.47,0$Default,,0,0,0,,Next time: "Fire the Sprightly Silver Bullet!"
+Dialogue: 0,0:23:20.47,0:23:23.38,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 2,0:01:02.75,0:01:05.59,0$Default,,0,0,0,,== TS - TITLE==
+Dialogue: 2,0:01:02.75,0:01:05.59,0$EPTITLE,,0,0,0,,{\fade(250,450)\org(960,5880)\blur0.7\bord0\shad0\frz6.708\fsp-34.50\pos(972,799)}E{\frz6.319\fsp-24.80}p{\frz6.039\fsp-23.73}i{\frz5.772\fsp-33.42}s{\frz5.395\fsp-34.50}o{\frz5.006\fsp-32.90}d{\frz4.635\fsp-25.88}e{\frz4.343\fsp-28.55} {\frz4.021\fsp-37.72}2{\frz3.596\fsp-28.03}1{\frz3.280\fsp-18.87}:{\frz3.067\fsp-38.28} {\frz2.635\fsp-46.38}M{\frz2.112\fsp-35.58}o{\frz1.711\fsp-34.50}o{\frz1.322\fsp-24.80}n{\frz1.042\fsp-16.19}l{\frz0.860\fsp-26.14}i{\frz0.565\fsp-34.76}g{\frz0.173\fsp-29.11}h{\frz359.845\fsp-22.09}t{\frz359.596\fsp-31.79} {\frz359.237\fsp-30.19}O{\frz358.897\fsp-24.80}l{\frz358.617\fsp-26.41}d{\frz358.319\fsp-38.28} {\frz357.888\fsp-45.30}M{\frz357.377\fsp-33.42}a{\frz357.000\fsp-26.41}n{\frz356.702\fsp-28.55} {\frz356.380\fsp-35.57}R{\frz355.979\fsp-33.42}h{\frz355.602\fsp-33.42}a{\frz355.225\fsp-32.34}p{\frz354.860\fsp-33.42}s{\frz354.484\fsp-34.50}o{\frz354.095\fsp-35.05}d{\frz353.699\fsp0.00}y
+Dialogue: 1,0:01:02.75,0:01:05.59,0$EPTITLE,,0,0,0,,{\fade(250,450)\org(960,5880)\blur0.7\bord3\shad0\c&HC1C2C4&\frz6.708\fsp-34.50\pos(972,799)}E{\frz6.319\fsp-24.80}p{\frz6.039\fsp-23.73}i{\frz5.772\fsp-33.42}s{\frz5.395\fsp-34.50}o{\frz5.006\fsp-32.90}d{\frz4.635\fsp-25.88}e{\frz4.343\fsp-28.55} {\frz4.021\fsp-37.72}2{\frz3.596\fsp-28.03}1{\frz3.280\fsp-18.87}:{\frz3.067\fsp-38.28} {\frz2.635\fsp-46.38}M{\frz2.112\fsp-35.58}o{\frz1.711\fsp-34.50}o{\frz1.322\fsp-24.80}n{\frz1.042\fsp-16.19}l{\frz0.860\fsp-26.14}i{\frz0.565\fsp-34.76}g{\frz0.173\fsp-29.11}h{\frz359.845\fsp-22.09}t{\frz359.596\fsp-31.79} {\frz359.237\fsp-30.19}O{\frz358.897\fsp-24.80}l{\frz358.617\fsp-26.41}d{\frz358.319\fsp-38.28} {\frz357.888\fsp-45.30}M{\frz357.377\fsp-33.42}a{\frz357.000\fsp-26.41}n{\frz356.702\fsp-28.55} {\frz356.380\fsp-35.57}R{\frz355.979\fsp-33.42}h{\frz355.602\fsp-33.42}a{\frz355.225\fsp-32.34}p{\frz354.860\fsp-33.42}s{\frz354.484\fsp-34.50}o{\frz354.095\fsp-35.05}d{\frz353.699\fsp0.00}y
+Dialogue: 0,0:01:02.75,0:01:05.59,0$EPTITLE,,0,0,0,,{\fade(250,450)\org(965,5884)\blur0.7\bord3\shad0\c&H000000&\3c&H000000&\alpha&HB8&\frz6.708\fsp-34.50\pos(977,803)}E{\frz6.319\fsp-24.80}p{\frz6.039\fsp-23.73}i{\frz5.772\fsp-33.42}s{\frz5.395\fsp-34.50}o{\frz5.006\fsp-32.90}d{\frz4.635\fsp-25.88}e{\frz4.343\fsp-28.55} {\frz4.021\fsp-37.72}2{\frz3.596\fsp-28.03}1{\frz3.280\fsp-18.87}:{\frz3.067\fsp-38.28} {\frz2.635\fsp-46.38}M{\frz2.112\fsp-35.58}o{\frz1.711\fsp-34.50}o{\frz1.322\fsp-24.80}n{\frz1.042\fsp-16.19}l{\frz0.860\fsp-26.14}i{\frz0.565\fsp-34.76}g{\frz0.173\fsp-29.11}h{\frz359.845\fsp-22.09}t{\frz359.596\fsp-31.79} {\frz359.237\fsp-30.19}O{\frz358.897\fsp-24.80}l{\frz358.617\fsp-26.41}d{\frz358.319\fsp-38.28} {\frz357.888\fsp-45.30}M{\frz357.377\fsp-33.42}a{\frz357.000\fsp-26.41}n{\frz356.702\fsp-28.55} {\frz356.380\fsp-35.57}R{\frz355.979\fsp-33.42}h{\frz355.602\fsp-33.42}a{\frz355.225\fsp-32.34}p{\frz354.860\fsp-33.42}s{\frz354.484\fsp-34.50}o{\frz354.095\fsp-35.05}d{\frz353.699\fsp0.00}y
+Comment: 2,0:03:05.37,0:03:09.13,0$Default,,0,0,0,,== TS - NO MAGIC==
+Dialogue: 1,0:03:05.37,0:03:05.42,0$mask,,0,0,0,,{\p1\blur4\c&H445D7D&\pos(-438.31,0)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.37,0:03:05.42,0$mask,,0,0,0,,{\p1\blur4\c&H95B2C6&\pos(-437.31,0)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.37,0:03:05.42,0$Ep21 - No Magic,,0,0,0,,{\blur4\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(622.29,234.63)\pos(618.99,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.42,0:03:05.46,0$mask,,0,0,0,,{\p1\blur3\c&H445D7D&\pos(-198.31,0)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.42,0:03:05.46,0$mask,,0,0,0,,{\p1\blur3\c&H95B2C6&\pos(-197.31,0)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.42,0:03:05.46,0$Ep21 - No Magic,,0,0,0,,{\blur3\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(862.29,234.63)\pos(858.99,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.46,0:03:05.50,0$mask,,0,0,0,,{\p1\blur2\c&H445D7D&\pos(-43.31,0)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.46,0:03:05.50,0$mask,,0,0,0,,{\p1\blur2\c&H95B2C6&\pos(-42.31,0)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.46,0:03:05.50,0$Ep21 - No Magic,,0,0,0,,{\blur1.7\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1017.29,234.63)\pos(1013.99,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.50,0:03:05.54,0$mask,,0,0,0,,{\p1\blur1.5\c&H445D7D&\pos(-17.31,0)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.50,0:03:05.54,0$mask,,0,0,0,,{\p1\blur1.5\c&H95B2C6&\pos(-16.31,0)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.50,0:03:05.54,0$Ep21 - No Magic,,0,0,0,,{\blur1.2\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1043.29,234.63)\pos(1039.99,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.54,0:03:05.58,0$mask,,0,0,0,,{\p1\blur1\c&H445D7D&\pos(-4.31,0)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.54,0:03:05.58,0$mask,,0,0,0,,{\p1\blur1\c&H95B2C6&\pos(-3.31,0)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.54,0:03:05.58,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1052.99,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.58,0:03:05.62,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&\iclip(m 1080.22 196.05 l 1202.86 284.03 902.84 305.5 889.67 179.42)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.58,0:03:05.62,0$mask,,0,0,0,,{\p1\pos(1,0)\blur1\c&H95B2C6&\iclip(m 1080.22 196.05 l 1202.86 284.03 902.84 305.5 889.67 179.42)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.58,0:03:05.62,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)\iclip(m 1080.22 196.05 l 1202.86 284.03 902.84 305.5 889.67 179.42)}NO MAGIC
+Dialogue: 1,0:03:05.62,0:03:05.67,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&\iclip(m 1068.8 294.13 b 1099.11 265.34 1155.2 230.3 1177.99 219.54 1161.22 213.16 1123.93 206.41 1103.4 204.54 l 1117.22 162.73 1272.29 199.56 1197.75 333.16)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.62,0:03:05.67,0$mask,,0,0,0,,{\p1\pos(1,0)\blur1\c&H95B2C6&\iclip(m 1068.8 294.13 b 1099.11 265.34 1155.2 230.3 1177.99 219.54 1161.22 213.16 1123.93 206.41 1103.4 204.54 l 1117.22 162.73 1272.29 199.56 1197.75 333.16)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.62,0:03:05.67,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)\iclip(m 1068.8 294.13 b 1099.11 265.34 1155.2 230.3 1177.99 219.54 1161.22 213.16 1123.93 206.41 1103.4 204.54 l 1117.22 162.73 1272.29 199.56 1197.75 333.16)}NO MAGIC
+Dialogue: 1,0:03:05.67,0:03:05.71,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&\iclip(m 924.32 284.72 b 1001.57 218.39 1100.66 196.57 1193.16 254.93 l 1194.54 311.05)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.67,0:03:05.71,0$mask,,0,0,0,,{\p1\pos(1,0)\blur1\c&H95B2C6&\iclip(m 924.32 284.72 b 1001.57 218.39 1100.66 196.57 1193.16 254.93 l 1194.54 311.05)}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.67,0:03:05.71,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)\iclip(m 924.32 284.72 b 1001.57 218.39 1100.66 196.57 1193.16 254.93 l 1194.54 311.05)}NO MAGIC
+Dialogue: 1,0:03:05.71,0:03:05.75,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&\iclip(m 900.76 278.49 b 938.86 260.31 1022.71 264.8 1058.74 286.1 l 898.68 284.72)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 2,0:03:05.71,0:03:05.75,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)}NO MAGIC
+Dialogue: 1,0:03:05.75,0:03:05.79,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&\iclip(m 899.37 239 b 930.55 246.45 970.05 266.19 993.61 282.64 l 898.68 284.72)}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 2,0:03:05.75,0:03:05.79,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)\iclip(m 899.37 239 b 930.55 246.45 970.05 266.19 993.61 282.64 l 898.68 284.72)}NO MAGIC
+Dialogue: 1,0:03:05.79,0:03:09.13,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H445D7D&}m 927.65 205.71 l 1177.1 204.94 1175.54 270.39 927.65 272.73
+Dialogue: 0,0:03:05.71,0:03:09.13,0$mask,,0,0,0,,{\p1\pos(1,0)\blur1\c&H95B2C6&}m 1173.02 206.44 l 1177.35 205.88 1175.48 269.76 1168.26 268.33
+Dialogue: 2,0:03:05.79,0:03:09.13,0$Ep21 - No Magic,,0,0,0,,{\blur0.9\fax-0.033916\fscx123.94\fscy146.03\frz0.2015\frx-2.5777\fry3.9576\org(1056.29,234.63)\pos(1057.3,234.63)}NO MAGIC
+Comment: 2,0:03:05.37,0:04:55.44,0$Default,,0,0,0,,== TS - PROVERB 1==
+Dialogue: 1,0:04:51.60,0:04:55.44,0$Proverb,,0,0,0,,{\kf51\2aFF\c&HEDECEC&\bord0\fscx73\fscy83\frz359\blur1\pos(1000,355)}Don't call your neighbors{\kf6}\N{\kf76}to annoy them.{\kf4}\N{\kf125}Call about your husband's{\kf8}\N{\kf50}life insurance.{\kf64}
+Dialogue: 0,0:04:51.60,0:04:55.44,0$Proverb,,0,0,0,,{\kf51\2aFF\c&H0B0D11&\bord0\fscx73\fscy83\frz359\blur1\pos(1006,359)}Don't call your neighbors{\kf6}\N{\kf76}to annoy them.{\kf4}\N{\kf125}Call about your husband's{\kf8}\N{\kf50}life insurance.{\kf64}
+Dialogue: 1,0:04:54.77,0:04:55.44,0$Proverb,,0,0,0,,{\kf49\2aFF\c&HEDECEC&\bord0\fscx73\fscy83\frz359\blur1\pos(1196,427)}-Tome{\kf18}
+Dialogue: 0,0:04:54.77,0:04:55.44,0$Proverb,,0,0,0,,{\kf49\2aFF\c&H0B0D11&\bord0\fscx73\fscy83\frz359\blur1\pos(1202,431)}-Tome{\kf18}
+Comment: 2,0:06:28.45,0:06:31.33,0$Default,,0,0,0,,== TS - PROVERB 2==
+Dialogue: 1,0:06:28.45,0:06:31.33,0$Proverb,,0,0,0,,{\kf36\2aFF\c&HF2F1F1&\bord0\fscx73\fscy83\blur1\pos(1142,353)\frz356}A retreating dog{\kf7}\N{\kf69}howls from afar.{\kf6}\N{\kf71}A big dog should be{\kf9}\N{\kf75}kept outside.{\kf15}
+Dialogue: 0,0:06:28.45,0:06:31.33,0$Proverb,,0,0,0,,{\kf36\2aFF\c&H0B0D11&\bord0\fscx73\fscy83\blur1\pos(1148,357)\frz356}A retreating dog{\kf7}\N{\kf69}howls from afar.{\kf6}\N{\kf71}A big dog should be{\kf9}\N{\kf75}kept outside.{\kf15}
+Dialogue: 1,0:06:31.16,0:06:31.33,0$Proverb,,0,0,0,,{\kf6\2aFF\c&HF2F1F1&\bord0\fscx73\fscy83\frz359\blur1\pos(1226,421)}-Tome{\kf10}
+Dialogue: 0,0:06:31.16,0:06:31.33,0$Proverb,,0,0,0,,{\kf6\2aFF\c&H0B0D11&\bord0\fscx73\fscy83\frz359\blur1\pos(1232,425)}-Tome{\kf10}
+Comment: 2,0:05:32.69,0:05:34.86,0$Default,,0,0,0,,== TS - DEMON FUTOHARA==
+Dialogue: 2,0:05:32.68,0:05:32.72,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx344.12\fscy420.95\pos(943.09,881.42)\blur1.6\alpha&H4B&}Demon Futohara
+Dialogue: 1,0:05:32.68,0:05:32.72,0$mask,,0,0,0,,{\fscx160.06\fscy160.06\pos(-564.63,-525.47)\p1\c&H0D0D0D&\blur1.6\alpha&H40&}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 0,0:05:32.68,0:05:32.72,0$mask,,0,0,0,,{\fscx160.06\fscy160.06\pos(-564.63,-525.47)\p1\blur1.6\c&HE5E5E5&\alpha&H7E&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 2,0:05:32.72,0:05:32.77,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx215.44\fscy263.54\pos(942.42,879.46)\blur1}Demon Futohara
+Dialogue: 2,0:05:32.77,0:05:32.81,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx215.27\fscy263.33\pos(942.25,879.34)\blur1}Demon Futohara
+Dialogue: 2,0:05:32.81,0:05:32.85,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx193.02\fscy236.11\pos(929.22,882.33)\blur0.9}Demon Futohara
+Dialogue: 2,0:05:32.85,0:05:32.89,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx214.47\fscy262.36\pos(959.41,871.87)\blur1}Demon Futohara
+Dialogue: 2,0:05:32.89,0:05:32.93,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx203.92\fscy249.44\pos(943.12,889.88)\blur0.95}Demon Futohara
+Dialogue: 2,0:05:32.93,0:05:32.97,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx215.08\fscy263.1\pos(942.06,879.01)\blur1}Demon Futohara
+Dialogue: 2,0:05:32.97,0:05:33.02,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx211.08\fscy258.2\pos(942.31,879.11)\blur0.98}Demon Futohara
+Dialogue: 2,0:05:33.02,0:05:34.86,0$MonsterName,,0,0,0,,{\c&HAD2C95&\fscx215\fscy263\pos(942,879)\blur1}Demon Futohara
+Dialogue: 1,0:05:32.72,0:05:32.77,0$mask,,0,0,0,,{\fscx100.21\fscy100.21\pos(-1.52,-1.35)\p1\c&H0D0D0D&\blur1}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.77,0:05:32.81,0$mask,,0,0,0,,{\fscx100.13\fscy100.13\pos(-0.93,-0.77)\p1\c&H0D0D0D&\blur1}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.81,0:05:32.85,0$mask,,0,0,0,,{\fscx89.77\fscy89.77\pos(83.54,93.21)\p1\c&H0D0D0D&\blur0.9}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.85,0:05:32.89,0$mask,,0,0,0,,{\fscx99.76\fscy99.76\pos(19.72,-4.98)\p1\c&H0D0D0D&\blur1}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.89,0:05:32.93,0$mask,,0,0,0,,{\fscx94.85\fscy94.85\pos(49.67,56.18)\p1\c&H0D0D0D&\blur0.95}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.93,0:05:32.97,0$mask,,0,0,0,,{\fscx100.04\fscy100.04\pos(-0.29,-0.31)\p1\c&H0D0D0D&\blur1}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:32.97,0:05:33.02,0$mask,,0,0,0,,{\fscx98.18\fscy98.18\pos(17.5,16.14)\p1\c&H0D0D0D&\blur0.98}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 1,0:05:33.02,0:05:34.86,0$mask,,0,0,0,,{\fscx100\fscy100\pos(0,0)\p1\c&H0D0D0D&\blur1}m 536.33 927.66 l 499.35 890.67 514.92 827.4 527.09 829.83 514.43 817.18 538.28 812.31 515.89 804.52 516.87 798.68 656.55 805.5 660.44 820.59 677.48 811.83 683.8 832.75 777.73 840.54 792.82 805.01 796.71 821.07 808.88 800.14 814.24 818.15 823.97 801.6 894.46 795.12 926.04 817.77 951.31 803.55 1006.59 820.93 1020.28 842.52 1047.13 823.3 1077.32 834.81 1074.52 817.08 1088.83 822.37 1086.34 805.88 1159.89 787.55 1193.86 826.99 1208.26 803.88 1350.64 788.75 1330.93 797.72 1351.74 798.97 1330.51 810.62 1357.57 810.62 1366.86 891.83 1353.07 963.3 1314.84 952.73 1263.6 971.84 1199.75 958.01 1196.09 968.58 1181.85 962.08 1180.63 972.24 1148.5 953.95 1125.32 977.12 1052.93 966.96 1067.57 958.83 1048.86 956.79 1040.37 944.32 939.12 980.54 951.71 966.7 930.16 972.73 929.73 962.39 883.34 977.36 806.24 964.13 801.33 939.62 772.78 951.94 748.87 942.97 721.12 951.08 693.37 945.96 667.75 949.8 673.73 939.56 637.44 948.52 628.01 966.79 619.01 958.59 612.14 973.4 540.71 980.01 m 528.29 963.93 l 497.01 905.89 528.29 925.39 m 1022.7 834.27 l 1011.55 813.83 1035.24 824.52 m 1110.76 794.15 l 1159.52 771.84 1161.75 782.04 m 1208.13 799.31 l 1207.4 791.63 1341.52 785.79 m 1207.4 787.98 l 1206.3 779.57 1336.76 779.57 1336.03 784.32 m 1206.67 776.65 l 1205.94 770.07 1335.67 777.75 m 1192.86 820.59 l 1165.43 787.04 1205.85 802.22
+Dialogue: 0,0:05:32.72,0:05:32.77,0$mask,,0,0,0,,{\fscx100.21\fscy100.21\pos(-1.52,-1.35)\p1\blur1\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.77,0:05:32.81,0$mask,,0,0,0,,{\fscx100.13\fscy100.13\pos(-0.93,-0.77)\p1\blur1\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.81,0:05:32.85,0$mask,,0,0,0,,{\fscx89.77\fscy89.77\pos(83.54,93.21)\p1\blur0.9\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.85,0:05:32.89,0$mask,,0,0,0,,{\fscx99.76\fscy99.76\pos(19.72,-4.98)\p1\blur1\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.89,0:05:32.93,0$mask,,0,0,0,,{\fscx94.85\fscy94.85\pos(49.67,56.18)\p1\blur0.95\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.93,0:05:32.97,0$mask,,0,0,0,,{\fscx100.04\fscy100.04\pos(-0.29,-0.31)\p1\blur1\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:32.97,0:05:33.02,0$mask,,0,0,0,,{\fscx98.18\fscy98.18\pos(17.5,16.14)\p1\blur0.98\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Dialogue: 0,0:05:33.02,0:05:34.86,0$mask,,0,0,0,,{\fscx100\fscy100\pos(0,0)\p1\blur1\c&HE5E5E5&}m 538.12 995.93 l 481.04 922.75 497.64 799.75 557.32 773.28 687.05 800.79 707.81 822.59 768 813.76 780.45 789.89 890.4 772.33 927.47 794.52 996.47 784.49 1054 812.57 1060.85 799.56 1128.69 753.9 1194.33 757.6 1273.77 750.93 1366.32 782.52 1393.05 876.41 1366.92 972.87 1285.09 989.02 1208.11 976.05 1107.6 996.55 1016.36 973.12 954.5 1000.04 920.52 987.54 814.08 994.54 784.52 959.5 729.28 971.22 666.22 958.39 646.7 982.38
+Comment: 2,0:12:31.11,0:12:33.52,0$Default,,0,0,0,,== TS - WEREWOLF==
+Dialogue: 0,0:12:31.10,0:12:31.14,0$Ep21 - Card,,0,0,0,,{\fscx89.08\fscy89.08\pos(737.87,-106.22)\frz10.91\blur1}Moonlight Press
+Dialogue: 0,0:12:31.14,0:12:31.18,0$Ep21 - Card,,0,0,0,,{\fscx91.59\fscy91.59\pos(751.5,-42.61)\frz10.91\blur1}Moonlight Press
+Dialogue: 0,0:12:31.18,0:12:31.23,0$Ep21 - Card,,0,0,0,,{\fscx93.96\fscy93.96\pos(766.8,22.26)\frz10.91\blur1}Moonlight Press
+Dialogue: 0,0:12:31.23,0:12:31.27,0$Ep21 - Card,,0,0,0,,{\fscx96.23\fscy96.23\pos(781.65,80.14)\frz10.91\blur1}Moonlight Press
+Dialogue: 0,0:12:31.27,0:12:31.31,0$Ep21 - Card,,0,0,0,,{\fscx97.57\fscy97.57\pos(794.01,123.64)\frz10.91\blur1}Moonlight Press
+Dialogue: 0,0:12:31.31,0:12:31.35,0$Ep21 - Card,,0,0,0,,{\fscx99.04\fscy99.04\pos(799.34,140.54)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.35,0:12:31.39,0$Ep21 - Card,,0,0,0,,{\fscx99.16\fscy99.16\pos(801.71,144)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.39,0:12:31.43,0$Ep21 - Card,,0,0,0,,{\fscx99.43\fscy99.43\pos(803.56,146.55)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.43,0:12:31.48,0$Ep21 - Card,,0,0,0,,{\fscx99.56\fscy99.56\pos(805.22,149.09)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.48,0:12:31.52,0$Ep21 - Card,,0,0,0,,{\fscx99.61\fscy99.61\pos(806.63,151.14)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.52,0:12:31.56,0$Ep21 - Card,,0,0,0,,{\fscx99.81\fscy99.81\pos(807.56,152.41)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.56,0:12:31.60,0$Ep21 - Card,,0,0,0,,{\fscx99.97\fscy99.97\pos(808.25,153.43)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.60,0:12:31.64,0$Ep21 - Card,,0,0,0,,{\fscx99.88\fscy99.88\pos(809.13,154.8)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.64,0:12:31.68,0$Ep21 - Card,,0,0,0,,{\fscx99.92\fscy99.92\pos(809.58,155.41)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.68,0:12:31.73,0$Ep21 - Card,,0,0,0,,{\fscx99.9\fscy99.9\pos(809.88,155.87)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.73,0:12:33.52,0$Ep21 - Card,,0,0,0,,{\fscx100\fscy100\pos(810,156)\frz10.91\blur0.7}Moonlight Press
+Dialogue: 0,0:12:31.10,0:12:31.14,0$Ep21 - Card,,0,0,0,,{\fscx89.08\fscy89.08\frz10.91\blur0.7\pos(745,-72.36)\b0}Accounting
+Dialogue: 0,0:12:31.14,0:12:31.18,0$Ep21 - Card,,0,0,0,,{\fscx91.59\fscy91.59\frz10.91\blur1\pos(758.83,-7.81)\b0}Accounting
+Dialogue: 0,0:12:31.18,0:12:31.23,0$Ep21 - Card,,0,0,0,,{\fscx93.96\fscy93.96\frz10.91\blur1\pos(774.32,57.96)\b0}Accounting
+Dialogue: 0,0:12:31.23,0:12:31.27,0$Ep21 - Card,,0,0,0,,{\fscx96.23\fscy96.23\frz10.91\blur1\pos(789.34,116.7)\b0}Accounting
+Dialogue: 0,0:12:31.27,0:12:31.31,0$Ep21 - Card,,0,0,0,,{\fscx97.57\fscy97.57\frz10.91\blur1\pos(801.82,160.72)\b0}Accounting
+Dialogue: 0,0:12:31.31,0:12:31.35,0$Ep21 - Card,,0,0,0,,{\fscx99.04\fscy99.04\frz10.91\blur0.7\pos(807.27,178.17)\b0}Accounting
+Dialogue: 0,0:12:31.35,0:12:31.39,0$Ep21 - Card,,0,0,0,,{\fscx99.16\fscy99.16\frz10.91\blur0.7\pos(809.64,181.68)\b0}Accounting
+Dialogue: 0,0:12:31.39,0:12:31.43,0$Ep21 - Card,,0,0,0,,{\fscx99.43\fscy99.43\frz10.91\blur0.7\pos(811.52,184.34)\b0}Accounting
+Dialogue: 0,0:12:31.43,0:12:31.48,0$Ep21 - Card,,0,0,0,,{\fscx99.56\fscy99.56\frz10.91\blur0.7\pos(813.18,186.92)\b0}Accounting
+Dialogue: 0,0:12:31.48,0:12:31.52,0$Ep21 - Card,,0,0,0,,{\fscx99.61\fscy99.61\frz10.91\blur0.7\pos(814.6,188.99)\b0}Accounting
+Dialogue: 0,0:12:31.52,0:12:31.56,0$Ep21 - Card,,0,0,0,,{\fscx99.81\fscy99.81\frz10.91\blur0.7\pos(815.55,190.34)\b0}Accounting
+Dialogue: 0,0:12:31.56,0:12:31.60,0$Ep21 - Card,,0,0,0,,{\fscx99.97\fscy99.97\frz10.91\blur0.7\pos(816.25,191.42)\b0}Accounting
+Dialogue: 0,0:12:31.60,0:12:31.64,0$Ep21 - Card,,0,0,0,,{\fscx99.88\fscy99.88\frz10.91\blur0.7\pos(817.12,192.75)\b0}Accounting
+Dialogue: 0,0:12:31.64,0:12:31.68,0$Ep21 - Card,,0,0,0,,{\fscx99.92\fscy99.92\frz10.91\blur0.7\pos(817.57,193.38)\b0}Accounting
+Dialogue: 0,0:12:31.68,0:12:31.73,0$Ep21 - Card,,0,0,0,,{\fscx99.9\fscy99.9\frz10.91\blur0.7\pos(817.87,193.84)\b0}Accounting
+Dialogue: 0,0:12:31.73,0:12:33.52,0$Ep21 - Card,,0,0,0,,{\fscx100\fscy100\frz10.91\blur0.7\pos(818,194)\b0}Accounting
+Dialogue: 0,0:12:31.10,0:12:31.14,0$Ep21 - Card,,0,0,0,,{\fscx89.08\fscy89.08\frz10.91\blur1\fs60\pos(753.91,-27.82)}Were Wolf
+Dialogue: 0,0:12:31.14,0:12:31.18,0$Ep21 - Card,,0,0,0,,{\fscx91.59\fscy91.59\frz10.91\blur1\fs60\pos(767.99,37.98)}Were Wolf
+Dialogue: 0,0:12:31.18,0:12:31.23,0$Ep21 - Card,,0,0,0,,{\fscx93.96\fscy93.96\frz10.91\blur1\fs60\pos(783.72,104.94)}Were Wolf
+Dialogue: 0,0:12:31.23,0:12:31.27,0$Ep21 - Card,,0,0,0,,{\fscx96.23\fscy96.23\frz10.91\blur1\fs60\pos(798.97,164.82)}Were Wolf
+Dialogue: 0,0:12:31.27,0:12:31.31,0$Ep21 - Card,,0,0,0,,{\fscx97.57\fscy97.57\frz10.91\blur1\fs60\pos(811.58,209.5)}Were Wolf
+Dialogue: 0,0:12:31.31,0:12:31.35,0$Ep21 - Card,,0,0,0,,{\fscx99.04\fscy99.04\frz10.91\blur0.7\fs60\pos(817.17,227.69)}Were Wolf
+Dialogue: 0,0:12:31.35,0:12:31.39,0$Ep21 - Card,,0,0,0,,{\fscx99.16\fscy99.16\frz10.91\blur0.7\fs60\pos(819.56,231.26)}Were Wolf
+Dialogue: 0,0:12:31.39,0:12:31.43,0$Ep21 - Card,,0,0,0,,{\fscx99.43\fscy99.43\frz10.91\blur0.7\fs60\pos(821.46,234.05)}Were Wolf
+Dialogue: 0,0:12:31.43,0:12:31.48,0$Ep21 - Card,,0,0,0,,{\fscx99.56\fscy99.56\frz10.91\blur0.7\fs60\pos(823.14,236.7)}Were Wolf
+Dialogue: 0,0:12:31.48,0:12:31.52,0$Ep21 - Card,,0,0,0,,{\fscx99.61\fscy99.61\frz10.91\blur0.7\fs60\pos(824.56,238.79)}Were Wolf
+Dialogue: 0,0:12:31.52,0:12:31.56,0$Ep21 - Card,,0,0,0,,{\fscx99.81\fscy99.81\frz10.91\blur0.7\fs60\pos(825.53,240.25)}Were Wolf
+Dialogue: 0,0:12:31.56,0:12:31.60,0$Ep21 - Card,,0,0,0,,{\fscx99.97\fscy99.97\frz10.91\blur0.7\fs60\pos(826.25,241.4)}Were Wolf
+Dialogue: 0,0:12:31.60,0:12:31.64,0$Ep21 - Card,,0,0,0,,{\fscx99.88\fscy99.88\frz10.91\blur0.7\fs60\pos(827.11,242.69)}Were Wolf
+Dialogue: 0,0:12:31.64,0:12:31.68,0$Ep21 - Card,,0,0,0,,{\fscx99.92\fscy99.92\frz10.91\blur0.7\fs60\pos(827.56,243.34)}Were Wolf
+Dialogue: 0,0:12:31.68,0:12:31.73,0$Ep21 - Card,,0,0,0,,{\fscx99.9\fscy99.9\frz10.91\blur\fs60\pos(827.87,243.79)}Were Wolf
+Dialogue: 0,0:12:31.73,0:12:33.52,0$Ep21 - Card,,0,0,0,,{\fscx100\fscy100\frz10.91\blur0.7\fs60\pos(828,244)}Were Wolf
+Comment: 2,0:18:36.14,0:18:38.01,0$Default,,0,0,0,,== TS - WEREWOLF==
+Dialogue: 2,0:18:36.14,0:18:38.01,0$MonsterName,,0,0,0,,{\c&H2720DD&\frz347.4\fscx276\fscy268\pos(528,826)\blur1\fade(525,85)}Werewolf
+Dialogue: 1,0:18:36.14,0:18:38.01,0$mask,,0,0,0,,{\p1\blur1\c&H0C0C0C&\fade(405,55)}m 202.62 827.43 l 198.48 790.83 215.69 752.45 197.96 771.13 229.57 703.24 238.9 706.35 230.87 722.15 240.45 714.64 245.18 717.53 253.1 704.49 331.33 706.54 346.42 738.49 354.85 732.61 360.99 747.18 373.24 729.67 392.7 741.12 399.29 728.19 443.34 729.3 451.29 738.26 451.9 731.13 461.06 741.93 461.98 730.82 485.04 774.13 509.03 770.76 520.4 748.77 536.92 753.54 529.93 743.11 586.24 765.72 581.69 777.23 592.32 772.45 593.41 786.78 606.92 771.59 687.91 781.64 714.32 806.89 714.71 789.41 735.29 794.07 723.25 785.53 726.36 780.86 842.09 813.96 852.08 870.19 836.2 891.85 845.89 890.97 838.84 905.07 854.45 897.24 808.22 964.71 750.8 961.72 729.04 946.97 716.4 954.7 684.11 933.99 648.66 936.09 581.62 900.99 558.73 916.94 510.01 902.53 506.53 894.32 453.84 893.83 458.81 884.88 441.91 886.37 445.39 876.03 388.08 880.77 361.11 860.96 314.03 863.49 308.68 853.06 295.21 860.67 275.07 847.74 274.07 858.18 241.74 838.04 233.53 846.24 m 339.66 868.43 l 360.19 867.07 372.78 877.47 m 488.09 767.46 l 478.57 745 501.8 763.27 m 847.68 821.62 l 864.79 845.31 858.65 857.16 m 576.97 915.06 l 583.11 907.6 623.03 930.85 m 731.59 778.48 l 737.05 765.28 840.43 810
+Dialogue: 0,0:18:36.14,0:18:38.01,0$mask,,0,0,0,,{\p1\blur1\c&HE3E3E3&\fade(525,125)}m 190.56 837.78 l 189.44 736.11 233.89 688.89 327.22 689.44 366.11 718.33 426.67 713.33 495 737.22 510.56 728.89 604.22 754.2 609.92 762.27 677.84 761.32 710.62 777.47 740.93 746.82 860.26 789.57 875.3 854.52 852.47 932.73 813.51 975.58 734.03 976.36 691.17 950.65 627.27 951.43 600.78 934.29 528.31 917.92 511.17 922.6 425.76 891.06 394.71 896.43 322.98 871.43 277.11 875.78
+Comment: 1,0:22:45.05,0:23:25.05,0$Default,,0,0,0,,== TS - POST-ED ==
+Dialogue: 1,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs110\3c&H1E1E1E&\shad0\pos(622,1063.2)}King Oyster City
+Dialogue: 0,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&H030309&\bord4\blur1\fs110\3c&H030309&\shad0\pos(622,1063.2)}King Oyster City
+Dialogue: 1,0:23:10.08,0:23:25.05,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:10.08,0:23:25.05,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:17.54,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(485,0)\pos(972,720)\c&HFFFFFF&\blur0.7}Fire the Sprightly Silver Bullet
+Dialogue: 1,0:23:17.54,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H0302E0&\bord4\fade(485,0)\pos(972,720)\c&H0302E0&\blur0.7}Fire the Sprightly Silver Bullet
+Dialogue: 0,0:23:17.54,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(485,0)\blur15\pos(972,720)}Fire the Sprightly Silver Bullet
+Comment: 1,0:19:30.38,0:19:35.13,1$TSSLyricsEDRomanji,,0,0,0,sync,sync
+Dialogue: 1,0:19:30.38,0:19:35.13,1$TSSLyricsEDRomanji,,0,0,0,,{\kf98\3c&H70BE0E&\2c&H537F17&\bord0}shobokure {\kf40}gao {\kf16}no {\kf70}mobukyara {\kf54}domo {\kf110}ga{\kf87}
+Dialogue: 0,0:19:30.38,0:19:35.13,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}shobokure gao no mobukyara domo ga
+Dialogue: 1,0:19:30.38,0:19:35.13,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}On and on these tired old NPCs
+Dialogue: 0,0:19:30.38,0:19:35.13,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}On and on these tired old NPCs
+Dialogue: 1,0:19:35.13,0:19:40.01,1$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&H70BE0E&\2c&H537F17&\bord0}iiwake {\kf118}shinagara {\kf40}aru{\kf32}ite{\kf90}ru{\kf93}
+Dialogue: 0,0:19:35.13,0:19:40.01,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}iiwake shinagara aruiteru
+Dialogue: 1,0:19:35.13,0:19:40.01,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Keep walking around excusing themselves
+Dialogue: 0,0:19:35.13,0:19:40.01,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Keep walking around excusing themselves
+Dialogue: 1,0:19:40.01,0:19:44.93,1$TSSLyricsEDRomanji,,0,0,0,,{\kf91\3c&H70BE0E&\2c&H537F17&\bord0}itsumo {\kf36}mi{\kf66}teiru {\kf118}michisuga{\kf80}ra{\kf101}
+Dialogue: 0,0:19:40.01,0:19:44.93,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}itsumo miteiru michisugara
+Dialogue: 1,0:19:40.01,0:19:44.93,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}As I took the same old path again
+Dialogue: 0,0:19:40.01,0:19:44.93,1$TSSLyricsEDEng,,0,0,0,,{\1c&H70BE0E&\3c&H1D83E8&\4c&H1D83E8&}As I took the same old path again
+Dialogue: 1,0:19:44.93,0:19:50.11,1$TSSLyricsEDRomanji,,0,0,0,,{\kf63\3c&H70BE0E&\2c&H537F17&\bord0}mita {\kf66}koto {\kf24}mo {\kf76}nai {\kf76}wakuwaku {\kf26}wo {\kf28}mi{\kf118}ta{\kf41}
+Dialogue: 0,0:19:44.93,0:19:50.11,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}mita koto mo nai wakuwaku wo mita
+Dialogue: 1,0:19:44.93,0:19:50.11,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}I found the thrill I've sought for my whole life
+Dialogue: 0,0:19:44.93,0:19:50.11,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}I found the thrill I've sought for my whole life
+Dialogue: 1,0:19:50.11,0:19:55.15,1$TSSLyricsEDRomanji,,0,0,0,,{\kf29\kf66\3c&HDD8623&\2c&H9C6521&\bord0\4c&H3C2116&}itsumade {\kf64}shibon{\kf30}da {\kf28}mama {\kf26}na{\kf66}no{\kf195}
+Dialogue: 0,0:19:50.11,0:19:55.15,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}itsumade shibonda mama nano
+Dialogue: 1,0:19:50.11,0:19:55.15,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}Just how long will I keep drooping around like this?
+Dialogue: 0,0:19:50.11,0:19:55.15,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}Just how long will I keep drooping around like this?
+Dialogue: 1,0:19:55.15,0:19:59.24,1$TSSLyricsEDRomanji,,0,0,0,,{\kf17\kf76\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}minikui {\kf58}ahiru {\kf24}no {\kf26}mama {\kf26}na{\kf78}no{\kf104}
+Dialogue: 0,0:19:55.15,0:19:59.24,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}minikui ahiru no mama nano
+Dialogue: 1,0:19:55.15,0:19:59.24,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}How long will I stay an ugly duckling?
+Dialogue: 0,0:19:55.15,0:19:59.24,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}How long will I stay an ugly duckling?
+Dialogue: 1,0:19:59.24,0:20:02.32,1$TSSLyricsEDRomanji,,0,0,0,,{\kf34\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}ima {\kf24}no {\kf66}rebe{\kf36}ru {\kf30}wa {\kf34}ichi {\kf85}dakedo
+Dialogue: 0,0:19:59.24,0:20:02.32,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima no reberu wa ichi dakedo
+Dialogue: 1,0:19:59.24,0:20:02.32,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}I'm still only level one
+Dialogue: 0,0:19:59.24,0:20:02.32,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}I'm still only level one
+Dialogue: 1,0:20:02.32,0:20:09.55,1$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}i{\kf44}ma {\kf24}ni {\kf62}mitero {\kf38}yo {\kf68}sono {\kf98}uchi{\kf36} {\kf62}JUMP {\kf142}UP{\kf80}
+Dialogue: 0,0:20:02.32,0:20:09.55,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima ni mitero yo sono uchi JUMP UP
+Dialogue: 1,0:20:02.32,0:20:09.55,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}But watch me, soon I'll jump up
+Dialogue: 0,0:20:02.32,0:20:09.55,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}But watch me, soon I'll jump up
+Dialogue: 1,0:20:09.55,0:20:14.63,1$TSSLyricsEDRomanji,,0,0,0,,{\kf146\3c&H342035&\2c&H501F4F&\bord0\4c&H342035&}sai{\kf48}kin {\kf46}no{\kf20} {\kf100}wakai {\kf52}mon {\kf38}wa {\kf59}tte
+Dialogue: 0,0:20:09.55,0:20:14.63,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}saikin no wakai mon wa tte
+Dialogue: 1,0:20:09.55,0:20:14.63,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}"Why, kids these days..."
+Dialogue: 0,0:20:09.55,0:20:14.63,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}"Why, kids these days..."
+Dialogue: 1,0:20:14.63,0:20:19.55,1$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}toshiyori {\kf44}domo {\kf28}ga {\kf48}boyai {\kf40}teru {\kf20}ke{\kf86}do{\kf159}
+Dialogue: 0,0:20:14.63,0:20:19.55,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}toshiyori domo ga boyai teru kedo
+Dialogue: 1,0:20:14.63,0:20:19.55,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}...Our old boomers grumble and complain
+Dialogue: 0,0:20:14.63,0:20:19.55,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}...Our old boomers grumble and complain
+Dialogue: 1,0:20:19.55,0:20:24.47,1$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}soro {\kf100}soro{\kf32} {\kf60}omei {\kf94}henjou {\kf60}da{\kf31}
+Dialogue: 0,0:20:19.55,0:20:24.47,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}soro soro omei henjou da
+Dialogue: 1,0:20:19.55,0:20:24.47,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}But it's not too late to clear my name
+Dialogue: 0,0:20:19.55,0:20:24.47,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}But it's not too late to clear my name
+Dialogue: 1,0:20:24.47,0:20:27.10,1$TSSLyricsEDRomanji,,0,0,0,,{\kf110\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}iya ga ou ni {\kf25}mo {\kf72}mattanashi {\kf56}daze
+Dialogue: 0,0:20:24.47,0:20:27.10,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}iya ga ou ni mo mattanashi daze
+Dialogue: 1,0:20:24.47,0:20:27.10,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I might not like it, but I can't wait any longer
+Dialogue: 0,0:20:24.47,0:20:27.10,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I might not like it, but I can't wait any longer
+Dialogue: 1,0:20:27.10,0:20:33.24,1$TSSLyricsEDRomanji,,0,0,0,,{\kf28\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}ketsu {\kf28}no {\kf26}ana {\kf36}kara {\kf94}jetto{\kf26} {\kf102}funsha{\kf32} {\kf241}daaa
+Dialogue: 0,0:20:27.10,0:20:33.24,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}ketsu no ana kara jetto funsha daaa
+Dialogue: 1,0:20:27.10,0:20:33.24,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I gotta blast free from my cowardly shell!!
+Dialogue: 0,0:20:27.10,0:20:33.24,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I gotta blast free from my cowardly shell!!
+Dialogue: 1,0:20:33.24,0:20:38.07,1$TSSLyricsEDRomanji,,0,0,0,,{\kf59\3c&H76B118&\2c&H537323&\bord0}ore {\kf28}wa {\kf106}itsuka{\kf46} {\kf60}hana {\kf50}ni {\kf32}na{\kf68}ru{\kf35}
+Dialogue: 0,0:20:33.24,0:20:38.07,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}ore wa itsuka hana ni naru
+Dialogue: 1,0:20:33.24,0:20:38.07,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Give me time and I'll bloom like a flower
+Dialogue: 0,0:20:33.24,0:20:38.07,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Give me time and I'll bloom like a flower
+Dialogue: 1,0:20:38.07,0:20:43.03,1$TSSLyricsEDRomanji,,0,0,0,,{\kf61\3c&H76B118&\2c&H537323&\bord0}sora {\kf36}ni {\kf52}nobi{\kf58}ru{\kf38} {\kf70}hana {\kf36}ni {\kf38}na{\kf64}ru{\kf43}
+Dialogue: 0,0:20:38.07,0:20:43.03,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}sora ni nobiru hana ni naru
+Dialogue: 1,0:20:38.07,0:20:43.03,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}A flower spread out to the sky
+Dialogue: 0,0:20:38.07,0:20:43.03,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}A flower spread out to the sky
+Dialogue: 1,0:20:43.03,0:20:50.66,1$TSSLyricsEDRomanji,,0,0,0,,{\kf69\3c&H76B118&\2c&H537323&\fade(0,500)\bord0}kimi {\kf22}ni {\kf56}todo{\kf50}ku{\kf38} {\kf80}ha{\kf62}na {\kf62}ni {\kf56}na{\kf18}r{\kf251}u
+Dialogue: 0,0:20:43.03,0:20:50.66,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&\fade(0,500)}kimi ni todoku hana ni naru
+Dialogue: 1,0:20:43.03,0:20:50.66,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&\fade(0,500)}The flower that reaches you
+Dialogue: 0,0:20:43.03,0:20:50.66,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&\fade(0,500)}The flower that reaches you
+

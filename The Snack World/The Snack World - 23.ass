@@ -1,0 +1,1048 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 23
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$Ep23 - Suspects,DJB Carly Sue Got Married,80,&H00151719,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 1$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 1$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.22,0:00:05.08,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.08,0:00:08.13,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.13,0:00:09.90,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:09.90,0:00:12.20,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.20,0:00:16.62,0$Default,,0,0,0,,My village was burnt down by\Nthe evil land-destroying merchant Vinegar Khan,
+Dialogue: 0,0:00:16.62,0:00:18.83,0$Default,,0,0,0,,so I've embarked on a journey\Nto get my revenge 1000-fold!
+Dialogue: 0,0:00:19.48,0:00:22.78,0$Default,,0,0,0,,At last, my journey has brought me\Nclose to Vinegar.
+Dialogue: 0,0:00:23.25,0:00:28.29,0$Default,,0,0,0,,In order to defeat him, I will overcome\Nany impossible mission that comes my way!
+Dialogue: 0,0:00:54.15,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:05.08,0:01:07.55,0$Default,,0,0,0,,Still not enough mana?
+Dialogue: 0,0:01:07.55,0:01:11.84,0$Default,,0,0,0,,Yes. It'll need a bit more time.
+Dialogue: 0,0:01:11.84,0:01:15.35,0$Default,,0,0,0,,I'm gettin' real tired of waiting.
+Dialogue: 0,0:01:15.59,0:01:20.44,0$Default,,0,0,0,,I've passed the time with the highest-grade coffee\Nmade from civet cat feces,
+Dialogue: 0,0:01:20.44,0:01:22.85,0$Default,,0,0,0,,and my stomach's all bloated now.
+Dialogue: 0,0:01:23.56,0:01:25.94,0$Default,,0,0,0,,{\an8}Would you like a cup?
+Dialogue: 0,0:01:25.94,0:01:27.83,0$Default,,0,0,0,,{\an8}Why, if you're offering...
+Dialogue: 0,0:01:29.15,0:01:32.71,0$Default,,0,0,0,,{\an8}How naïve, thinking\NI'm going to give you a break.
+Dialogue: 0,0:01:32.71,0:01:36.83,0$Default,,0,0,0,,{\an8}You better go gather mana\Nand revive Scardon fast.
+Dialogue: 0,0:01:37.70,0:01:41.47,0$Default,,0,0,0,,Or else I grind you into coffee beans
+Dialogue: 0,0:01:41.47,0:01:44.55,0$Default,,0,0,0,,and make you part of my morning espresso!
+Dialogue: 0,0:01:49.83,0:01:51.22,0$Default,,0,0,0,,Man...
+Dialogue: 0,0:01:51.22,0:01:54.42,0$Default,,0,0,0,,I can't believe Moonlight Highway\Nwas blocked off...
+Dialogue: 0,0:01:54.42,0:01:56.65,0$Default,,0,0,0,,Now all our hard work was for naught...
+Dialogue: 0,0:01:56.65,0:01:58.73,0$Default,,0,0,0,,{\i1}Our{\i0} hard work, you say?
+Dialogue: 0,0:01:58.73,0:02:00.73,0$Default,,0,0,0,,I... I was the morale!
+Dialogue: 0,0:02:00.73,0:02:01.85,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:02:02.10,0:02:03.60,0$Default,,0,0,0,,Vinsant...
+Dialogue: 0,0:02:03.76,0:02:06.40,0$Default,,0,0,0,,Where did he get such a beautiful door...?
+Dialogue: 0,0:02:06.60,0:02:08.40,0$Default,,0,0,0,,You're still fixated on that?
+Dialogue: 0,0:02:08.40,0:02:11.21,0$Default,,0,0,0,,How are we supposed to\Nget to Vinegar Palace now?
+Dialogue: 0,0:02:11.21,0:02:13.96,0$Default,,0,0,0,,I know! How about we disguise ourselves\Nand sneak our way in?
+Dialogue: 0,0:02:13.96,0:02:18.05,0$Default,,0,0,0,,That's perfect! Since it's always night,\Nno one will see us if we're dressed in all black!
+Dialogue: 0,0:02:18.05,0:02:19.04,0$Default,,0,0,0,,Don't bother.
+Dialogue: 0,0:02:19.45,0:02:22.28,0$Default,,0,0,0,,Even if you conceal yourself,\Ntheir sensor will spot you.
+Dialogue: 0,0:02:22.28,0:02:23.43,0$Default,,0,0,0,,Darn...
+Dialogue: 0,0:02:23.43,0:02:25.79,0$Default,,0,0,0,,Guess that plan's a bust.
+Dialogue: 0,0:02:25.79,0:02:27.38,0$Default,,0,0,0,,Huh? What's wrong?
+Dialogue: 0,0:02:27.70,0:02:29.46,0$Default,,0,0,0,,I have business to attend to.
+Dialogue: 0,0:02:29.46,0:02:32.23,0$Default,,0,0,0,,What business do you have\N{\i1}now{\i0} of all times?
+Dialogue: 0,0:02:32.23,0:02:33.69,0$Default,,0,0,0,,Don't just abandon us.
+Dialogue: 0,0:02:33.69,0:02:37.76,0$Default,,0,0,0,,I get it! You've been working part-time\Nas a mover without telling us.
+Dialogue: 0,0:02:38.60,0:02:39.76,0$Default,,0,0,0,,As if.
+Dialogue: 0,0:02:39.76,0:02:40.77,0$Default,,0,0,0,,Can it, poophead.
+Dialogue: 0,0:02:40.97,0:02:42.32,0$Default,,0,0,0,,How dare you!
+Dialogue: 0,0:02:42.32,0:02:45.94,0$Default,,0,0,0,,I am the hero of the Goblin world,\NArnold Gobson Foodenegger!
+Dialogue: 0,0:02:46.81,0:02:48.73,0$Default,,0,0,0,,He ignored me?!
+Dialogue: 0,0:02:50.02,0:02:53.75,0$Default,,0,0,0,,We probably shouldn't dally here either.\NLet's see what leads we can find.
+Dialogue: 0,0:02:53.75,0:02:54.95,0$Default,,0,0,0,,Yeah.
+Dialogue: 0,0:02:55.95,0:02:56.66,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:01.08,0:03:02.58,0$Default,,0,0,0,,Hey, I'm standing here!
+Dialogue: 0,0:03:04.33,0:03:05.67,0$Default,,0,0,0,,Hello, excuse me!
+Dialogue: 0,0:03:06.04,0:03:07.29,0$Default,,0,0,0,,Who are you?
+Dialogue: 0,0:03:07.29,0:03:09.88,0$Default,,0,0,0,,You mean me? I'm...
+Dialogue: 3,0:03:09.91,0:03:12.24,0$Default,,0,0,0,,Inspector Chilipepper!
+Dialogue: 0,0:03:12.71,0:03:14.34,0$Default,,0,0,0,,What's with the pose?
+Dialogue: 0,0:03:14.34,0:03:17.18,0$Default,,0,0,0,,There we go. I'm more ripped today than ever.
+Dialogue: 0,0:03:17.61,0:03:21.23,0$Default,,0,0,0,,Ripped, adj. How a machoman says\Nhis muscles are in good shape.
+Dialogue: 0,0:03:21.23,0:03:22.15,0$Default,,0,0,0,,Wow, really?
+Dialogue: 0,0:03:22.15,0:03:23.56,0$Default,,0,0,0,,No one asked!
+Dialogue: 0,0:03:23.56,0:03:26.19,0$Default,,0,0,0,,Anyways, Inspector, what is it?\NWhy are you here?
+Dialogue: 0,0:03:26.19,0:03:31.33,0$Default,,0,0,0,,Someone has stolen the priceless painting,\N{\i1}The Eternal Rose,
+Dialogue: 0,0:03:31.33,0:03:33.90,0$Default,,0,0,0,,and I can't figure out who did it!
+Dialogue: 0,0:03:33.90,0:03:36.37,0$Default,,0,0,0,,Sounds dandy! I'll help!
+Dialogue: 0,0:03:36.37,0:03:38.33,0$Default,,0,0,0,,What?! What's wrong with you?
+Dialogue: 0,0:03:38.33,0:03:42.45,0$Default,,0,0,0,,We don't have time for that! We're supposed to be\Nfinding a way into Vinegar Palace!
+Dialogue: 0,0:03:43.95,0:03:46.34,0$Default,,0,0,0,,You kids want to visit Vinegar Palace?
+Dialogue: 0,0:03:46.34,0:03:46.91,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:46.91,0:03:51.43,0$Default,,0,0,0,,If you can figure out who stole {\i1}The Eternal Rose,
+Dialogue: 0,0:03:51.43,0:03:55.01,0$Default,,0,0,0,,then I can deal with the palace's security\Nand let you in!
+Dialogue: 0,0:03:55.01,0:03:59.18,0$Default,,0,0,0,,Wow, for real?! Then I'm on it!\NI'll fully, flawlessly figure out who did it!
+Dialogue: 0,0:03:59.18,0:04:01.44,0$Default,,0,0,0,,So you will, huh?
+Dialogue: 0,0:04:01.44,0:04:03.07,0$Default,,0,0,0,,To the crime scene!
+Dialogue: 0,0:04:03.07,0:04:06.52,0$Default,,0,0,0,,The mansion of billionare Sir Fishburger\Nis that-a-way!
+Dialogue: 0,0:04:06.52,0:04:08.27,0$Default,,0,0,0,,Quit flexing already!
+Dialogue: 0,0:04:10.48,0:04:12.27,0$Default,,0,0,0,,This mansion is amazing!
+Dialogue: 0,0:04:18.07,0:04:20.24,0$Default,,0,0,0,,Whoa-ho-ho!!
+Dialogue: 0,0:04:20.53,0:04:23.21,0$Default,,0,0,0,,Look at this Paccarat Lapa collection!
+Dialogue: 0,0:04:23.21,0:04:28.84,0$Default,,0,0,0,,My word, a complete assortment of\Nthe traditional fashion brand Paccarat Lapa...
+Dialogue: 0,0:04:28.84,0:04:30.37,0$Default,,0,0,0,,That's awesome!
+Dialogue: 0,0:04:32.29,0:04:33.91,0$Default,,0,0,0,,Does that catch your fancy?
+Dialogue: 0,0:04:33.91,0:04:36.17,0$Default,,0,0,0,,If it isn't Mr. Fishburger!
+Dialogue: 0,0:04:36.17,0:04:39.14,0$Default,,0,0,0,,How do you like my collection?
+Dialogue: 0,0:04:39.14,0:04:43.43,0$Default,,0,0,0,,I bet you've never seen one so complete!\NThat's a {\i1}lapa{\i0} Paccarat Lapa, right?
+Dialogue: 0,0:04:45.22,0:04:47.03,0$Default,,0,0,0,,Wow, that joke sucked.
+Dialogue: 0,0:04:47.03,0:04:49.10,0$Default,,0,0,0,,He's even laughing at it by himself...
+Dialogue: 0,0:04:49.10,0:04:52.41,0$Default,,0,0,0,,I... I want to collect them too!
+Dialogue: 0,0:04:52.41,0:04:54.41,0$Default,,0,0,0,,Wouldn't you just?
+Dialogue: 0,0:04:54.41,0:04:58.29,0$Default,,0,0,0,,All this Paccarat Lapa\Nis just so pacca-recious to me!
+Dialogue: 0,0:04:59.21,0:05:01.04,0$Default,,0,0,0,,That was awful!\NI'm getting goosebumps!
+Dialogue: 0,0:05:01.04,0:05:02.78,0$Default,,0,0,0,,Keep it to yourself!
+Dialogue: 0,0:05:03.53,0:05:06.83,0$Default,,0,0,0,,Listen here! This wall is where\N{\i1}The Eternal Rose{\i0} was displayed.
+Dialogue: 0,0:05:06.83,0:05:08.54,0$Default,,0,0,0,,Before it vanished!
+Dialogue: 0,0:05:08.70,0:05:12.22,0$Default,,0,0,0,,{\i1}The Eternal Rose{\i0} was like a child to me.
+Dialogue: 0,0:05:12.22,0:05:14.29,0$Default,,0,0,0,,It really was dear to me...
+Dialogue: 0,0:05:14.46,0:05:17.30,0$Default,,0,0,0,,Sounds real unlucky\Nto have it taken away...
+Dialogue: 0,0:05:17.54,0:05:19.84,0$Default,,0,0,0,,It's like my grandmother once said!
+Dialogue: 0,0:05:19.84,0:05:21.80,0$Default,,0,0,0,,From bad luck,\Nget good octopus!
+Dialogue: 0,0:05:21.80,0:05:24.90,0$Default,,0,0,0,,How the heck do you get an octopus from that?
+Dialogue: 0,0:05:24.90,0:05:28.98,0$Default,,0,0,0,,Is it like, "bad luck is like octopi;\Npunch 'em in the face!"?
+Dialogue: 0,0:05:28.98,0:05:31.77,0$Default,,0,0,0,,Here's how the incident occurred.
+Dialogue: 0,0:05:32.20,0:05:38.69,0$Default,,0,0,0,,The night of the crime, while Mr. Fishburger\Nwas sipping tea and reading by the fireplace,
+Dialogue: 0,0:05:39.11,0:05:41.82,0$Default,,0,0,0,,he took a trip to the restroom,\Nand when he came back...
+Dialogue: 0,0:05:41.82,0:05:46.11,0$Default,,0,0,0,,the frame had fallen to the floor,\Nonly the painting itself having been stolen.
+Dialogue: 0,0:05:46.65,0:05:51.32,0$Default,,0,0,0,,He immediately called for security,\Nand the room has not been left unattended since.
+Dialogue: 0,0:05:51.95,0:05:54.04,0$Default,,0,0,0,,There wasn't enough time\Nfor the thief to escape,
+Dialogue: 0,0:05:54.04,0:05:56.71,0$Default,,0,0,0,,so where could the painting have gone?
+Dialogue: 0,0:05:56.71,0:05:58.38,0$Default,,0,0,0,,Very curious...
+Dialogue: 0,0:05:58.38,0:05:59.96,0$Default,,0,0,0,,Have you searched the room?
+Dialogue: 0,0:05:59.96,0:06:02.47,0$Default,,0,0,0,,We've turned it upside down, but no luck.
+Dialogue: 0,0:06:02.47,0:06:04.09,0$Default,,0,0,0,,Any traces of someone getting in?
+Dialogue: 0,0:06:04.09,0:06:04.80,0$Default,,0,0,0,,Nope.
+Dialogue: 0,0:06:04.80,0:06:08.48,0$Default,,0,0,0,,The mansion has tight security,\Nno one gets by them.
+Dialogue: 0,0:06:08.48,0:06:10.84,0$Default,,0,0,0,,Naturally, no one got outside either.
+Dialogue: 0,0:06:10.84,0:06:14.60,0$Default,,0,0,0,,So the crime was pulled off swiftly\Nin a totally locked room...
+Dialogue: 0,0:06:14.60,0:06:17.02,0$Default,,0,0,0,,That's it! I figured out the trick!
+Dialogue: 0,0:06:17.02,0:06:18.48,0$Default,,0,0,0,,You go, Chup!
+Dialogue: 0,0:06:18.48,0:06:19.53,0$Default,,0,0,0,,Spill the beans!
+Dialogue: 0,0:06:19.73,0:06:20.78,0$Default,,0,0,0,,The big clue is...
+Dialogue: 0,0:06:21.69,0:06:22.40,0$Default,,0,0,0,,...the bathroom!
+Dialogue: 0,0:06:22.74,0:06:23.58,0$Default,,0,0,0,,The bathroom?
+Dialogue: 0,0:06:23.58,0:06:25.29,0$Default,,0,0,0,,That's where Mr. Fishburger was.
+Dialogue: 0,0:06:25.29,0:06:27.87,0$Default,,0,0,0,,He went to wipe his butt,\Nbut there was no toilet paper.
+Dialogue: 0,0:06:27.87,0:06:30.58,0$Default,,0,0,0,,He rushed out of the bathroom,
+Dialogue: 0,0:06:30.58,0:06:33.04,0$Default,,0,0,0,,and used the painting to wipe!
+Dialogue: 0,0:06:33.04,0:06:35.46,0$Default,,0,0,0,,Then he flushed it!
+Dialogue: 0,0:06:36.08,0:06:38.38,0$Default,,0,0,0,,That's how the painting went missing!
+Dialogue: 0,0:06:38.38,0:06:40.09,0$Default,,0,0,0,,Huh? That's ridiculous.
+Dialogue: 0,0:06:40.09,0:06:42.21,0$Default,,0,0,0,,Why would he wipe his butt\Nwith a painting he loves?
+Dialogue: 0,0:06:42.21,0:06:44.19,0$Default,,0,0,0,,That's how far he was willing to go!
+Dialogue: 0,0:06:44.19,0:06:47.51,0$Default,,0,0,0,,If we take a look at his butt,\Nthere should be paint left on it!
+Dialogue: 0,0:06:48.18,0:06:52.39,0$Default,,0,0,0,,Please stop! You know I wouldn't\Nuse that painting to wipe my buttocks!
+Dialogue: 0,0:06:52.68,0:06:56.23,0$Default,,0,0,0,,The older, the wiser, as they say!\NI'm on this case!
+Dialogue: 0,0:06:56.23,0:06:57.85,0$Default,,0,0,0,,Did you figure it out?
+Dialogue: 0,0:06:57.85,0:06:59.02,0$Default,,0,0,0,,Obviously!
+Dialogue: 0,0:06:59.02,0:07:01.07,0$Default,,0,0,0,,The key to this trick is...
+Dialogue: 0,0:07:01.65,0:07:02.75,0$Default,,0,0,0,,...the fireplace!
+Dialogue: 0,0:07:02.75,0:07:06.70,0$Default,,0,0,0,,The thief destroyed the painting in the fireplace,\Nthus the lack of any evidence!
+Dialogue: 0,0:07:06.70,0:07:09.53,0$Default,,0,0,0,,That's how it was done, ha-ha-ha!
+Dialogue: 0,0:07:09.53,0:07:11.33,0$Default,,0,0,0,,I'm so smart.
+Dialogue: 0,0:07:11.33,0:07:13.92,0$Default,,0,0,0,,Oh, come on.\NWhat's the point of burning the painting?
+Dialogue: 0,0:07:13.92,0:07:15.26,0$Default,,0,0,0,,Your brain must be rotting.
+Dialogue: 0,0:07:15.26,0:07:17.58,0$Default,,0,0,0,,It is {\i1}not{\i0} rotting!\NIt's soft and smooth.
+Dialogue: 0,0:07:17.58,0:07:19.10,0$Default,,0,0,0,,Aha! I figured it out!
+Dialogue: 0,0:07:19.10,0:07:20.39,0$Default,,0,0,0,,Wait, what?
+Dialogue: 0,0:07:20.39,0:07:21.80,0$Default,,0,0,0,,My deduction goes...
+Dialogue: 0,0:07:21.80,0:07:25.31,0$Default,,0,0,0,,Mr. Fishburger got hungry and {\i1}ate{\i0} the painting!
+Dialogue: 0,0:07:25.31,0:07:27.26,0$Default,,0,0,0,,That's why it went missing!
+Dialogue: 0,0:07:27.26,0:07:29.01,0$Default,,0,0,0,,Case closed, mystery solved!
+Dialogue: 0,0:07:29.01,0:07:31.07,0$Default,,0,0,0,,Would it kill you to {\i1}think{\i0} for one second?
+Dialogue: 0,0:07:31.07,0:07:33.43,0$Default,,0,0,0,,Even if he were a big glutton,\Nwhy would he eat it?
+Dialogue: 0,0:07:33.43,0:07:35.56,0$Default,,0,0,0,,Are you guys sure you can handle this?
+Dialogue: 0,0:07:35.56,0:07:38.15,0$Default,,0,0,0,,Of course! We'll have it solved in 5!
+Dialogue: 0,0:07:38.15,0:07:39.95,0$Default,,0,0,0,,Don't just say that out of nowhere!
+Dialogue: 0,0:07:39.95,0:07:41.36,0$Default,,0,0,0,,Wait, hold on.
+Dialogue: 0,0:07:41.36,0:07:45.32,0$Default,,0,0,0,,If it's a locked room, the thief has to be\Nsomeone who was in here, right?
+Dialogue: 0,0:07:45.32,0:07:49.12,0$Default,,0,0,0,,Inspector, assemble everyone who was\Nin the mansion at the time of the incident!
+Dialogue: 0,0:07:49.45,0:07:50.49,0$Default,,0,0,0,,You got it!
+Dialogue: 0,0:07:51.03,0:07:51.99,0$Default,,0,0,0,,Count on me!
+Dialogue: 0,0:07:51.99,0:07:54.50,0$Default,,0,0,0,,You can do it with your clothes on, thank you!
+Dialogue: 0,0:07:59.20,0:08:02.25,0$Default,,0,0,0,,These three were in the mansion\Nat the time of the crime.
+Dialogue: 0,0:08:02.50,0:08:06.05,0$Default,,0,0,0,,Huh? Andead? Candle?\NWhat are you doing here?
+Dialogue: 0,0:08:06.34,0:08:09.31,0$Default,,0,0,0,,We monsters get a special discount\Non train tickets!
+Dialogue: 0,0:08:09.31,0:08:11.68,0$Default,,0,0,0,,So we got here through the ol' magic barrier.
+Dialogue: 0,0:08:11.68,0:08:15.10,0$Default,,0,0,0,,I left the woods 'cuz of a job offering!\NSomethin' wrong with that?
+Dialogue: 0,0:08:15.10,0:08:17.65,0$Default,,0,0,0,,I employed him here as a servant.
+Dialogue: 0,0:08:17.65,0:08:19.15,0$Default,,0,0,0,,Who's that other monster?
+Dialogue: 6,0:08:19.15,0:08:20.95,0$Default,,0,0,0,,I'm Isabella.
+Dialogue: 6,0:08:20.95,0:08:23.94,0$Default,,0,0,0,,I'm the Fishburger family's trainer.
+Dialogue: 0,0:08:24.69,0:08:28.82,0$Default,,0,0,0,,She's a monster that uses pheremones\Nto weaken her oponents!
+Dialogue: 0,0:08:28.82,0:08:31.82,0$Default,,0,0,0,,You're the only one here\Nwho'd fall for that seductive shmuck.
+Dialogue: 0,0:08:32.11,0:08:33.83,0$Default,,0,0,0,,These three are our suspects!
+Dialogue: 1,0:08:36.53,0:08:39.96,0$Default,,0,0,0,,So? Which one of you\Nhid the painting on the wall?
+Dialogue: 0,0:08:40.24,0:08:42.01,0$Default,,0,0,0,,Have some faith in me!
+Dialogue: 0,0:08:42.01,0:08:43.60,0$Default,,0,0,0,,I didn't do a damn thing!
+Dialogue: 0,0:08:43.60,0:08:46.42,0$Default,,0,0,0,,How dare you treat me\Nlike a criminal! The nerve.
+Dialogue: 0,0:08:46.42,0:08:49.14,0$Default,,0,0,0,,One of you has to be responsible, though.
+Dialogue: 0,0:08:49.14,0:08:50.76,0$Default,,0,0,0,,Alright. Everyone, close your eyes.
+Dialogue: 0,0:08:51.04,0:08:53.76,0$Default,,0,0,0,,If you did it, raise your hand.
+Dialogue: 0,0:08:53.76,0:08:56.19,0$Default,,0,0,0,,If you raise your hand,\NI won't tell anybody,
+Dialogue: 0,0:08:56.19,0:08:57.60,0$Default,,0,0,0,,nor will I get angry.
+Dialogue: 0,0:08:57.60,0:08:59.32,0$Default,,0,0,0,,Oh, yes she will.
+Dialogue: 0,0:08:59.32,0:09:00.98,0$Default,,0,0,0,,She's totally bluffing.
+Dialogue: 0,0:09:01.14,0:09:03.20,0$Default,,0,0,0,,I'll give you three seconds,
+Dialogue: 0,0:09:03.20,0:09:04.79,0$Default,,0,0,0,,then raise your hand.
+Dialogue: 0,0:09:04.79,0:09:05.86,0$Default,,0,0,0,,3...
+Dialogue: 0,0:09:05.86,0:09:06.73,0$Default,,0,0,0,,2...
+Dialogue: 0,0:09:06.73,0:09:07.94,0$Default,,0,0,0,,1!
+Dialogue: 0,0:09:07.94,0:09:09.03,0$Default,,0,0,0,,1!!
+Dialogue: 0,0:09:09.03,0:09:10.11,0$Default,,0,0,0,,I said {\i1}one!!
+Dialogue: 0,0:09:10.11,0:09:12.92,0$Default,,0,0,0,,You little twerps!\NWhy is no one raising their hand?!
+Dialogue: 0,0:09:12.92,0:09:15.70,0$Default,,0,0,0,,I told you I wouldn't get mad, you idiots!
+Dialogue: 0,0:09:16.04,0:09:18.09,0$Default,,0,0,0,,Looking very angry to me.
+Dialogue: 0,0:09:18.09,0:09:20.09,0$Default,,0,0,0,,No one's raising their hand...
+Dialogue: 0,0:09:20.09,0:09:23.21,0$Default,,0,0,0,,Oh, well. We'll have to figure it out by\Nquestioning them.
+Dialogue: 0,0:09:23.21,0:09:24.46,0$Default,,0,0,0,,I'll go first!
+Dialogue: 0,0:09:24.46,0:09:26.88,0$Default,,0,0,0,,So, what brings you here, Andead?
+Dialogue: 0,0:09:27.08,0:09:29.00,0$Default,,0,0,0,,I'm here selling sweets!
+Dialogue: 0,0:09:29.00,0:09:32.97,0$Default,,0,0,0,,Makin' sweets for Mr. Fishburger,\Nwho loves eatin' em!
+Dialogue: 0,0:09:32.97,0:09:34.97,0$Default,,0,0,0,,Not what I expected from his name...
+Dialogue: 0,0:09:35.89,0:09:37.03,0$Default,,0,0,0,,I figured it out!
+Dialogue: 0,0:09:37.03,0:09:38.97,0$Default,,0,0,0,,Andead did it!
+Dialogue: 0,0:09:41.48,0:09:42.82,0$Default,,0,0,0,,How do you figure?
+Dialogue: 0,0:09:42.82,0:09:44.31,0$Default,,0,0,0,,That night...
+Dialogue: 0,0:09:44.82,0:09:48.90,0$Default,,0,0,0,,He fed Mr. Fishburger rotten ohagi...
+Dialogue: 0,0:09:49.94,0:09:51.75,0$Default,,0,0,0,,...and killed him!
+Dialogue: 0,0:09:55.16,0:09:57.25,0$Default,,0,0,0,,I-I-I'm not a murderer...
+Dialogue: 0,0:09:57.25,0:09:59.67,0$Default,,0,0,0,,Why are you making this a murder case?!
+Dialogue: 0,0:09:59.67,0:10:02.12,0$Default,,0,0,0,,We're looking for the painting thief!
+Dialogue: 0,0:10:02.50,0:10:03.72,0$Default,,0,0,0,,Oh, right.
+Dialogue: 0,0:10:03.72,0:10:06.88,0$Default,,0,0,0,,I'm sure Andead's ohagi\Naren't rotten anymore, right?
+Dialogue: 0,0:10:07.08,0:10:08.72,0$Default,,0,0,0,,You can count on it!
+Dialogue: 0,0:10:08.72,0:10:12.72,0$Default,,0,0,0,,Nothing beats my ankoro-mochi\Nwith my special bean paste!
+Dialogue: 0,0:10:12.72,0:10:15.22,0$Default,,0,0,0,,If you don't believe me, try it for yourself!
+Dialogue: 0,0:10:17.84,0:10:19.36,0$Default,,0,0,0,,You're right, this is good.
+Dialogue: 0,0:10:19.36,0:10:20.72,0$Default,,0,0,0,,Indubitably!
+Dialogue: 0,0:10:21.35,0:10:22.53,0$Default,,0,0,0,,Oh, that's good.
+Dialogue: 0,0:10:22.53,0:10:23.53,0$Default,,0,0,0,,Yum!
+Dialogue: 0,0:10:24.53,0:10:26.40,0$Default,,0,0,0,,Like heaven in my mouth!
+Dialogue: 0,0:10:26.60,0:10:28.54,0$Default,,0,0,0,,Not hungry, Gob-san?
+Dialogue: 0,0:10:28.54,0:10:29.90,0$Default,,0,0,0,,Too traumatic.
+Dialogue: 0,0:10:29.90,0:10:32.07,0$Default,,0,0,0,,Just looking at it upsets my stomach...
+Dialogue: 0,0:10:32.27,0:10:35.57,0$Default,,0,0,0,,So, where were you\Nwhen the crime happened?
+Dialogue: 0,0:10:35.73,0:10:38.21,0$Default,,0,0,0,,I was making Mr. Fishburger's\Nlate-night snack!
+Dialogue: 0,0:10:38.21,0:10:41.42,0$Default,,0,0,0,,Kneading anko for mochi in the kitchen.
+Dialogue: 0,0:10:41.42,0:10:44.42,0$Default,,0,0,0,,You have to believe me,\NI didn't do it!
+Dialogue: 0,0:10:44.42,0:10:46.97,0$Default,,0,0,0,,Yeah, I don't really see you\Nresponsible for the theft.
+Dialogue: 0,0:10:46.97,0:10:48.79,0$Default,,0,0,0,,One left! Mine!
+Dialogue: 0,0:10:51.17,0:10:53.48,0$Default,,0,0,0,,That's what happens when you're greedy!
+Dialogue: 0,0:10:53.48,0:10:54.76,0$Default,,0,0,0,,Sorry...
+Dialogue: 0,0:10:54.76,0:10:56.27,0$Default,,0,0,0,,She's awful moody...
+Dialogue: 0,0:10:56.27,0:10:58.43,0$Default,,0,0,0,,No kidding,\Nshe'll snap at the drop of a hat.
+Dialogue: 0,0:10:58.43,0:11:00.26,0$Default,,0,0,0,,Have something to share with me?!
+Dialogue: 0,0:11:00.51,0:11:01.68,0$Default,,0,0,0,,Nope.
+Dialogue: 0,0:11:03.89,0:11:06.27,0$Default,,0,0,0,,So, what were you doing, Candle?
+Dialogue: 0,0:11:07.27,0:11:08.86,0$Default,,0,0,0,,Can't you tell?
+Dialogue: 0,0:11:08.86,0:11:10.62,0$Default,,0,0,0,,I'm the candle lighter.
+Dialogue: 0,0:11:10.62,0:11:13.31,0$Default,,0,0,0,,But if any enemies come,\Nthey can say hello to my little whip!
+Dialogue: 0,0:11:13.31,0:11:16.12,0$Default,,0,0,0,,I get it now! Candle was the one who did it!
+Dialogue: 0,0:11:16.12,0:11:17.16,0$Default,,0,0,0,,Really? How?
+Dialogue: 0,0:11:17.16,0:11:21.16,0$Default,,0,0,0,,He got his whip tangled around the painting\Nand dropped it from the wall.
+Dialogue: 0,0:11:21.16,0:11:24.26,0$Default,,0,0,0,,Then he burned the painting with his flame!
+Dialogue: 0,0:11:24.26,0:11:25.46,0$Default,,0,0,0,,{\i1}Take that!
+Dialogue: 0,0:11:25.62,0:11:27.09,0$Default,,0,0,0,,Case closed! Everyone go home!
+Dialogue: 0,0:11:27.09,0:11:29.05,0$Default,,0,0,0,,Why would he burn it like that?!
+Dialogue: 0,0:11:29.05,0:11:31.05,0$Default,,0,0,0,,I already told you,\Nwhat's the point of burning it?
+Dialogue: 0,0:11:31.05,0:11:32.88,0$Default,,0,0,0,,Oh, I know!
+Dialogue: 0,0:11:32.88,0:11:33.73,0$Default,,0,0,0,,What?
+Dialogue: 0,0:11:33.73,0:11:36.84,0$Default,,0,0,0,,You better not say he whipped it off and ate it.
+Dialogue: 0,0:11:36.84,0:11:37.80,0$Default,,0,0,0,,Uhh...
+Dialogue: 0,0:11:37.80,0:11:40.72,0$Default,,0,0,0,,I knew it! Would it kill you guys\Nto think before you speak?!
+Dialogue: 0,0:11:40.72,0:11:42.97,0$Default,,0,0,0,,Though the whip does make me suspicious...
+Dialogue: 0,0:11:43.33,0:11:46.47,0$Default,,0,0,0,,What are you sussing me for?\NI didn't do quack!
+Dialogue: 0,0:11:46.47,0:11:48.56,0$Default,,0,0,0,,Your anger just concerns me more.
+Dialogue: 0,0:11:48.56,0:11:49.57,0$Default,,0,0,0,,Say what?!
+Dialogue: 0,0:11:49.57,0:11:50.65,0$Default,,0,0,0,,Hold it!
+Dialogue: 0,0:11:51.32,0:11:53.40,0$Default,,0,0,0,,Candle is no criminal!
+Dialogue: 0,0:11:53.40,0:11:54.66,0$Default,,0,0,0,,Master Panpan!
+Dialogue: 0,0:11:54.66,0:11:56.65,0$Default,,0,0,0,,You doing another delivery job?
+Dialogue: 0,0:11:56.65,0:11:58.67,0$Default,,0,0,0,,I've been going through a lot!
+Dialogue: 0,0:11:58.67,0:12:02.45,0$Default,,0,0,0,,Local concerts and limited-edition merch\Ndon't come cheap!
+Dialogue: 0,0:12:02.45,0:12:03.80,0$Default,,0,0,0,,No one cares...
+Dialogue: 0,0:12:03.80,0:12:06.50,0$Default,,0,0,0,,So why are you defending Candle anyways?
+Dialogue: 0,0:12:06.71,0:12:08.79,0$Default,,0,0,0,,Don't underestimate his whip!
+Dialogue: 0,0:12:08.79,0:12:12.18,0$Default,,0,0,0,,One hit to that painting\Nwould snap it right in half!
+Dialogue: 0,0:12:12.18,0:12:15.34,0$Default,,0,0,0,,I've taken his whipping for years,\Nso if anyone can vouch for him, it's me!
+Dialogue: 0,0:12:15.34,0:12:17.68,0$Default,,0,0,0,,We'll have to see him try.
+Dialogue: 0,0:12:20.55,0:12:23.32,0$Default,,0,0,0,,Candle, rope that painting with your whip.
+Dialogue: 0,0:12:23.32,0:12:25.40,0$Default,,0,0,0,,Then we'll know if you're telling the truth.
+Dialogue: 0,0:12:25.40,0:12:27.06,0$Default,,0,0,0,,Tch, fine, whatever.
+Dialogue: 0,0:12:27.42,0:12:28.31,0$Default,,0,0,0,,Let's go!
+Dialogue: 0,0:12:31.06,0:12:33.07,0$Default,,0,0,0,,Oh no, he missed!
+Dialogue: 0,0:12:33.23,0:12:35.61,0$Default,,0,0,0,,Don't hold back, Candle!
+Dialogue: 0,0:12:35.61,0:12:37.57,0$Default,,0,0,0,,Use all your might and go for the center!
+Dialogue: 0,0:12:37.57,0:12:39.71,0$Default,,0,0,0,,Why are you trying to sound cool...?
+Dialogue: 0,0:12:39.71,0:12:41.12,0$Default,,0,0,0,,Roger.
+Dialogue: 0,0:12:44.24,0:12:46.83,0$Default,,0,0,0,,Not bad. I like your fire!
+Dialogue: 0,0:12:46.99,0:12:49.87,0$Default,,0,0,0,,This is starting to feel like\None of those baseball comics!
+Dialogue: 0,0:12:50.30,0:12:52.58,0$Default,,0,0,0,,I know you can break through it,\Ntrust me!
+Dialogue: 0,0:12:52.58,0:12:53.88,0$Default,,0,0,0,,Bring it on!
+Dialogue: 0,0:12:54.25,0:12:55.84,0$Default,,0,0,0,,I'm gonna do it!
+Dialogue: 0,0:13:00.68,0:13:01.77,0$Default,,0,0,0,,Well?
+Dialogue: 0,0:13:01.77,0:13:03.60,0$Default,,0,0,0,,That was amazing, Candle!
+Dialogue: 0,0:13:03.60,0:13:04.77,0$Default,,0,0,0,,Candle!
+Dialogue: 0,0:13:05.72,0:13:06.60,0$Default,,0,0,0,,Panpan!
+Dialogue: 0,0:13:06.76,0:13:07.78,0$Default,,0,0,0,,Candle!
+Dialogue: 0,0:13:07.78,0:13:08.85,0$Default,,0,0,0,,Panpan!
+Dialogue: 0,0:13:13.41,0:13:16.05,0$Default,,0,0,0,,Got it, on my way. Roger.
+Dialogue: 0,0:13:16.81,0:13:19.70,0$Default,,0,0,0,,Just took on an urgent mission.\NI'll be off!
+Dialogue: 0,0:13:19.97,0:13:21.86,0$Default,,0,0,0,,Let me guess. Pizza delivery?
+Dialogue: 0,0:13:21.86,0:13:24.07,0$Default,,0,0,0,,Don't stand behind me!
+Dialogue: 0,0:13:24.07,0:13:25.12,0$Default,,0,0,0,,Bye.
+Dialogue: 0,0:13:25.12,0:13:27.20,0$Default,,0,0,0,,See ya, Master Panpan!
+Dialogue: 0,0:13:27.20,0:13:28.91,0$Default,,0,0,0,,That help clear things up?
+Dialogue: 0,0:13:29.16,0:13:32.46,0$Default,,0,0,0,,Yeah, flinging the painting with your whip\Nwouldn't have been easy.
+Dialogue: 0,0:13:33.39,0:13:35.42,0$Default,,0,0,0,,Oh! I just thought of something!
+Dialogue: 0,0:13:35.42,0:13:36.21,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:13:36.21,0:13:39.47,0$Default,,0,0,0,,That whippersnapper sure knows how to whip!
+Dialogue: 0,0:13:47.97,0:13:50.20,0$Default,,0,0,0,,Looks like we've finally narrowed it down.
+Dialogue: 0,0:13:50.20,0:13:52.06,0$Default,,0,0,0,,So does that mean it was Isabella?
+Dialogue: 0,0:13:52.31,0:13:54.36,0$Default,,0,0,0,,Absolutely not, darling.
+Dialogue: 0,0:13:54.52,0:13:55.86,0$Default,,0,0,0,,What's that spear you've got there?
+Dialogue: 0,0:13:56.06,0:13:57.66,0$Default,,0,0,0,,It's a spear of love.
+Dialogue: 0,0:13:57.66,0:14:01.07,0$Default,,0,0,0,,I use it to poke the bottoms\Nof bad boys who don't behave.
+Dialogue: 0,0:14:01.27,0:14:03.25,0$Default,,0,0,0,,And you used it to steal the painting?
+Dialogue: 0,0:14:04.17,0:14:06.40,0$Default,,0,0,0,,How very impudent of you.
+Dialogue: 0,0:14:06.40,0:14:10.17,0$Default,,0,0,0,,Now, with my spearing skills,\Nthat's not out of the question, but...
+Dialogue: 0,0:14:10.17,0:14:11.50,0$Default,,0,0,0,,That just proves my point.
+Dialogue: 0,0:14:11.66,0:14:13.68,0$Default,,0,0,0,,Then say I did take it.
+Dialogue: 0,0:14:13.68,0:14:17.04,0$Default,,0,0,0,,But where would I have hidden it\Nin such little time?
+Dialogue: 0,0:14:18.35,0:14:20.01,0$Default,,0,0,0,,Well, it's not anywhhere in the room...
+Dialogue: 0,0:14:20.01,0:14:22.22,0$Default,,0,0,0,,Maybe in that pink fur of yours?
+Dialogue: 0,0:14:22.22,0:14:23.85,0$Default,,0,0,0,,Absolutely not!
+Dialogue: 0,0:14:23.85,0:14:26.98,0$Default,,0,0,0,,Are you saying the painting\Nis on my body?
+Dialogue: 0,0:14:26.98,0:14:29.60,0$Default,,0,0,0,,Why, if you doubt me so much,\Nsearch me, why don't you?
+Dialogue: 0,0:14:29.60,0:14:30.78,0$Default,,0,0,0,,I think I'll pass.
+Dialogue: 0,0:14:30.78,0:14:32.10,0$Default,,0,0,0,,Me too.
+Dialogue: 0,0:14:32.26,0:14:34.49,0$Default,,0,0,0,,What's that supposed to mean?!
+Dialogue: 0,0:14:34.49,0:14:37.15,0$Default,,0,0,0,,This should take care of you boys!
+Dialogue: 0,0:14:40.66,0:14:42.58,0$Default,,0,0,0,,Smells like a bring-your-parents-to-school day...
+Dialogue: 0,0:14:42.58,0:14:44.88,0$Default,,0,0,0,,You won't seduce any of us with that smell!
+Dialogue: 0,0:14:44.88,0:14:46.87,0$Default,,0,0,0,,Isabella, darling!
+Dialogue: 0,0:14:48.59,0:14:50.71,0$Default,,0,0,0,,The pheremones won Gob-san over!
+Dialogue: 0,0:14:50.71,0:14:51.91,0$Default,,0,0,0,,You old creepo...
+Dialogue: 0,0:14:51.91,0:14:54.33,0$Default,,0,0,0,,Purr, meow... purr, meow...
+Dialogue: 0,0:14:54.58,0:14:57.24,0$Default,,0,0,0,,Yuck, he's become her slave...
+Dialogue: 0,0:14:58.04,0:15:01.17,0$Default,,0,0,0,,What could be the matter?\NYou think I'm hiding something?
+Dialogue: 0,0:15:01.17,0:15:03.69,0$Default,,0,0,0,,Aah, I give in!
+Dialogue: 0,0:15:03.69,0:15:06.22,0$Default,,0,0,0,,Wake up, you big creep!
+Dialogue: 0,0:15:08.22,0:15:09.43,0$Default,,0,0,0,,I can't with you!
+Dialogue: 0,0:15:11.97,0:15:14.14,0$Default,,0,0,0,,W-What was I doing just now...?
+Dialogue: 0,0:15:17.77,0:15:19.98,0$Default,,0,0,0,,Not a single lead...
+Dialogue: 0,0:15:19.98,0:15:21.28,0$Default,,0,0,0,,This is hopeless.
+Dialogue: 0,0:15:22.83,0:15:25.62,0$Default,,0,0,0,,Ah, well. Let's just arrest the Goblin.
+Dialogue: 0,0:15:25.62,0:15:27.45,0$Default,,0,0,0,,Huh?! For what?
+Dialogue: 0,0:15:27.73,0:15:31.95,0$Default,,0,0,0,,Since the room was locked,\Nsomeone had to have hidden away the painting.
+Dialogue: 0,0:15:32.11,0:15:34.62,0$Default,,0,0,0,,But we can't find it anywhere.
+Dialogue: 0,0:15:34.62,0:15:35.46,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:15:35.46,0:15:37.04,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:15:37.04,0:15:39.33,0$Default,,0,0,0,,Like burying your head\Nwhile baring your butt!
+Dialogue: 0,0:15:39.33,0:15:41.67,0$Default,,0,0,0,,That actually made sense,\Nbut it's still so crude.
+Dialogue: 0,0:15:41.87,0:15:44.43,0$Default,,0,0,0,,Having your butt out sure sounds embarassing.
+Dialogue: 0,0:15:45.47,0:15:48.52,0$Default,,0,0,0,,There has to be some sort of\Nclue that we're missing...
+Dialogue: 0,0:15:51.85,0:15:53.72,0$Default,,0,0,0,,Cool, an ant trail!
+Dialogue: 0,0:15:54.00,0:15:55.64,0$Default,,0,0,0,,It just keeps going!
+Dialogue: 0,0:15:57.06,0:15:58.62,0$Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:15:58.62,0:15:59.69,0$Default,,0,0,0,,What the...?
+Dialogue: 0,0:16:07.67,0:16:08.70,0$Default,,0,0,0,,Butako?
+Dialogue: 0,0:16:14.70,0:16:15.83,0$Default,,0,0,0,,What'd you find?
+Dialogue: 0,0:16:15.83,0:16:18.62,0$Default,,0,0,0,,I've fully, flawlessly solved the mystery!
+Dialogue: 0,0:16:18.62,0:16:20.33,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:16:20.33,0:16:22.13,0$Default,,0,0,0,,Well, who did it?
+Dialogue: 0,0:16:22.13,0:16:23.49,0$Default,,0,0,0,,That would be...
+Dialogue: 0,0:16:24.09,0:16:25.50,0$Default,,0,0,0,,you, Isa—
+Dialogue: 0,0:16:25.50,0:16:28.18,0$Default,,0,0,0,,How'd you figure out it was me?!
+Dialogue: 0,0:16:28.18,0:16:29.89,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:16:30.21,0:16:32.57,0$Default,,0,0,0,,Weren't you about to accuse Isabella?
+Dialogue: 0,0:16:32.57,0:16:34.19,0$Default,,0,0,0,,Nope, nosiree!
+Dialogue: 0,0:16:34.19,0:16:35.68,0$Default,,0,0,0,,I heard you say "Isa"...
+Dialogue: 0,0:16:35.68,0:16:37.39,0$Default,,0,0,0,,Andead did it?
+Dialogue: 0,0:16:37.39,0:16:40.19,0$Default,,0,0,0,,Well, Chup, where is the painting?
+Dialogue: 0,0:16:40.39,0:16:43.57,0$Default,,0,0,0,,Andead hid the painting... uhh...
+Dialogue: 0,0:16:43.84,0:16:45.90,0$Default,,0,0,0,,Are you still trying to figure it out...?
+Dialogue: 0,0:16:46.06,0:16:48.40,0$Default,,0,0,0,,Andead hid the painting on the gsjdgsj!
+Dialogue: 0,0:16:48.57,0:16:49.24,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:16:49.24,0:16:52.41,0$Default,,0,0,0,,How did you figure out I hid it on the wall?!
+Dialogue: 0,0:16:52.57,0:16:54.84,0$Default,,0,0,0,,Did you just try to lie by mumbling?
+Dialogue: 0,0:16:54.84,0:16:56.26,0$Default,,0,0,0,,Nope, not at all!
+Dialogue: 0,0:16:56.26,0:16:58.91,0$Default,,0,0,0,,Right! Andead hid the painting on the wall!
+Dialogue: 0,0:16:59.75,0:17:01.59,0$Default,,0,0,0,,My plan was rock-solid...
+Dialogue: 0,0:17:01.59,0:17:03.97,0$Default,,0,0,0,,If I used anko mixed with kinako\Nto plaster it back on the wall,
+Dialogue: 0,0:17:03.97,0:17:05.92,0$Default,,0,0,0,,no one would ever know!
+Dialogue: 0,0:17:06.12,0:17:07.21,0$Default,,0,0,0,,Excuse me?
+Dialogue: 0,0:17:07.21,0:17:08.69,0$Default,,0,0,0,,Aha! There it is!
+Dialogue: 0,0:17:08.69,0:17:10.18,0$Default,,0,0,0,,Here's {\i1}The Eternal Rose!{\i0}
+Dialogue: 0,0:17:12.02,0:17:14.52,0$Default,,0,0,0,,I see, that's why there were ants on the wall.
+Dialogue: 0,0:17:14.52,0:17:17.36,0$Default,,0,0,0,,No wonder the wall tasted sweet like anko!
+Dialogue: 0,0:17:17.36,0:17:19.64,0$Default,,0,0,0,,You knew that already but didn't figure it out...?
+Dialogue: 0,0:17:19.64,0:17:21.48,0$Default,,0,0,0,,End of the line, Andead!
+Dialogue: 0,0:17:21.48,0:17:23.23,0$Default,,0,0,0,,I saw through your trick from the very start!
+Dialogue: 0,0:17:24.06,0:17:26.20,0$Default,,0,0,0,,That boy needs a filter.
+Dialogue: 0,0:17:26.20,0:17:28.20,0$Default,,0,0,0,,You're under arrest, Andead!
+Dialogue: 0,0:17:28.20,0:17:31.04,0$Default,,0,0,0,,...On that thought,\Nhow did he get the painting off the wall?
+Dialogue: 0,0:17:31.04,0:17:33.66,0$Default,,0,0,0,,Yeah, he's tiny, and doesn't have any tools.
+Dialogue: 0,0:17:33.66,0:17:35.62,0$Default,,0,0,0,,Oh, uh, that would be because...
+Dialogue: 0,0:17:35.62,0:17:38.37,0$Default,,0,0,0,,Ummm, errr...
+Dialogue: 0,0:17:38.37,0:17:38.91,0$Default,,0,0,0,,That!
+Dialogue: 0,0:17:40.33,0:17:42.18,0$Default,,0,0,0,,Urp. That's it.
+Dialogue: 0,0:17:42.18,0:17:45.67,0$Default,,0,0,0,,I stretched out my freshly-pounded mochi\Nto take the painting!
+Dialogue: 0,0:17:45.67,0:17:47.14,0$Default,,0,0,0,,For real? First try!
+Dialogue: 0,0:17:47.14,0:17:50.89,0$Default,,0,0,0,,Why are {\i1}you{\i0} shocked?\NSee, you're clearly pointing at random.
+Dialogue: 0,0:17:50.89,0:17:52.27,0$Default,,0,0,0,,Of course not! It's my intuition!
+Dialogue: 0,0:17:52.27,0:17:53.68,0$Default,,0,0,0,,And a good one at that, Chup!
+Dialogue: 0,0:17:53.68,0:17:55.80,0$Default,,0,0,0,,So that's your trick, eh?
+Dialogue: 0,0:17:55.80,0:17:58.18,0$Default,,0,0,0,,That about solves it! Let's see...
+Dialogue: 0,0:17:58.18,0:18:01.18,0$Default,,0,0,0,,Andead kneads his anko\Nwith mochi in the kitchen...
+Dialogue: 0,0:18:01.18,0:18:04.19,0$Default,,0,0,0,,heads into the living room\Nwhile Mr. Fishburger uses the bathroom...
+Dialogue: 0,0:18:04.19,0:18:06.91,0$Default,,0,0,0,,stretches out his mochi,\Nclings it to the picture frame,
+Dialogue: 0,0:18:06.91,0:18:09.19,0$Default,,0,0,0,,and yanks it to the ground.
+Dialogue: 0,0:18:09.19,0:18:12.45,0$Default,,0,0,0,,He takes out {\i1}The Eternal Rose,{\i0}\Ncoats the back with anko,
+Dialogue: 0,0:18:12.45,0:18:14.87,0$Default,,0,0,0,,{\fade(0,450)}and hides it on a wall of the same color.
+Dialogue: 0,0:18:15.18,0:18:16.65,0$Default,,0,0,0,,That was the trick!
+Dialogue: 0,0:18:16.65,0:18:18.84,0$Default,,0,0,0,,You didn't figure out anything!
+Dialogue: 0,0:18:18.84,0:18:22.05,0$Default,,0,0,0,,I can't believe Andead an-did it!
+Dialogue: 0,0:18:23.34,0:18:24.79,0$Default,,0,0,0,,Not the time!
+Dialogue: 0,0:18:24.79,0:18:26.46,0$Default,,0,0,0,,Alright, Andead!
+Dialogue: 0,0:18:26.96,0:18:28.84,0$Default,,0,0,0,,You're under arrest!
+Dialogue: 0,0:18:29.03,0:18:32.84,0$Default,,0,0,0,,I can't waste away working\Nin a place like this.
+Dialogue: 0,0:18:32.84,0:18:35.22,0$Default,,0,0,0,,I have to open my own restaurant\Nand make a fortune!
+Dialogue: 0,0:18:35.22,0:18:39.38,0$Default,,0,0,0,,I'm going to show everyone\Nwho made fun of me when I was poor!
+Dialogue: 0,0:18:39.38,0:18:40.78,0$Default,,0,0,0,,And in order to do that...!
+Dialogue: 0,0:18:40.78,0:18:42.98,0$Default,,0,0,0,,I need start-up money!
+Dialogue: 0,0:18:43.18,0:18:45.98,0$Default,,0,0,0,,How's stealing other people's stuff\Nsupposed to help?
+Dialogue: 0,0:18:45.98,0:18:47.27,0$Default,,0,0,0,,Shut it!
+Dialogue: 0,0:18:47.27,0:18:49.12,0$Default,,0,0,0,,Stay out of my way!
+Dialogue: 0,0:18:49.12,0:18:50.98,0$Default,,0,0,0,,Take this! Anko Bomb!
+Dialogue: 0,0:18:54.98,0:18:56.53,0$Default,,0,0,0,,Don't do this, Andead!
+Dialogue: 0,0:18:56.78,0:18:58.83,0$Default,,0,0,0,,Fairy Crystal Sword!
+Dialogue: 0,0:18:58.83,0:19:01.65,0$Default,,0,0,0,,Fairy Crystal Shield!
+Dialogue: 0,0:19:03.74,0:19:05.50,0$Default,,0,0,0,,{\i1}Fairy Crystal Sword.
+Dialogue: 0,0:19:06.79,0:19:08.50,0$Default,,0,0,0,,{\i1}Fairy Crystal Shield.
+Dialogue: 0,0:19:09.92,0:19:11.71,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:19:11.71,0:19:14.51,0$Default,,0,0,0,,Crud! Take this too!
+Dialogue: 0,0:19:15.80,0:19:16.81,0$Default,,0,0,0,,Watch out!
+Dialogue: 0,0:19:22.55,0:19:24.95,0$Default,,0,0,0,,Ugh, I'm all out of anko.
+Dialogue: 0,0:19:24.95,0:19:26.02,0$Default,,0,0,0,,Andead!
+Dialogue: 0,0:19:26.60,0:19:30.44,0$Default,,0,0,0,,No one will be happy eating ohagi\Nmade with dirty money like that!
+Dialogue: 0,0:19:30.44,0:19:33.87,0$Default,,0,0,0,,Shut it! I have to make it big\Nand prove everyone wrong!
+Dialogue: 0,0:19:33.87,0:19:36.36,0$Default,,0,0,0,,You don't have to, you're already amazing!
+Dialogue: 0,0:19:36.36,0:19:39.70,0$Default,,0,0,0,,Anyone who made fun of you\Nis a stinky poopypants!
+Dialogue: 0,0:19:39.90,0:19:44.99,0$Default,,0,0,0,,You're amazing, and your yummy ohagi\Nmakes everyone smile!
+Dialogue: 0,0:19:44.99,0:19:46.21,0$Default,,0,0,0,,Good sir...
+Dialogue: 0,0:19:46.21,0:19:48.76,0$Default,,0,0,0,,You only looked at the sweet anko around you
+Dialogue: 0,0:19:48.76,0:19:51.21,0$Default,,0,0,0,,and forgot about the important stuff\Non the inside!
+Dialogue: 0,0:19:51.53,0:19:53.56,0$Default,,0,0,0,,That's very profound coming from him!
+Dialogue: 0,0:19:55.59,0:19:59.30,0$Default,,0,0,0,,I can't believe I let my greed get the best of me!
+Dialogue: 0,0:19:59.30,0:20:02.47,0$Default,,0,0,0,,I'll work myself to the bone\Nto bring others happiness!
+Dialogue: 0,0:20:03.10,0:20:04.22,0$Default,,0,0,0,,Looks like he's reflected.
+Dialogue: 0,0:20:04.22,0:20:08.02,0$Default,,0,0,0,,Reform-and-Fresh-Start Slash!
+Dialogue: 0,0:20:11.06,0:20:11.99,0$Default,,0,0,0,,What the heck?!
+Dialogue: 0,0:20:11.99,0:20:14.90,0$Default,,0,0,0,,You just {\i1}deprived{\i0} him of that fresh start!
+Dialogue: 0,0:21:53.24,0:21:55.50,0$Default,,0,0,0,,Step right up!
+Dialogue: 0,0:21:55.81,0:21:57.60,0$Default,,0,0,0,,Eat up and smile!
+Dialogue: 0,0:21:57.60,0:22:01.09,0$Default,,0,0,0,,{\fade(0,550)}Have a taste of Andead's world-famous ohagi!
+Dialogue: 0,0:22:01.46,0:22:04.27,0$Default,,0,0,0,,Thanks to the money Mr. Fishburger gave him,
+Dialogue: 0,0:22:04.27,0:22:05.85,0$Default,,0,0,0,,he was able to open an ohagi stand.
+Dialogue: 0,0:22:06.01,0:22:07.11,0$Default,,0,0,0,,That's dandy!
+Dialogue: 0,0:22:07.11,0:22:10.03,0$Default,,0,0,0,,Glad to hear Andead got his wish!
+Dialogue: 0,0:22:10.03,0:22:11.73,0$Default,,0,0,0,,Kids!
+Dialogue: 0,0:22:11.73,0:22:14.56,0$Default,,0,0,0,,Well done on solving today's case.
+Dialogue: 0,0:22:14.56,0:22:16.91,0$Default,,0,0,0,,It's nothing for good ol' Chup!
+Dialogue: 0,0:22:16.91,0:22:18.87,0$Default,,0,0,0,,Funny, I don't recall you doing anything.
+Dialogue: 0,0:22:18.87,0:22:20.53,0$Default,,0,0,0,,Alright, now like you said!
+Dialogue: 0,0:22:20.53,0:22:22.69,0$Default,,0,0,0,,Take us to Vinegar Palace!
+Dialogue: 0,0:22:22.69,0:22:24.24,0$Default,,0,0,0,,I can bring you in by yourself!
+Dialogue: 0,0:22:24.24,0:22:25.24,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:22:25.24,0:22:27.50,0$Default,,0,0,0,,I never said I could get {\i1}all{\i0} of you in!
+Dialogue: 0,0:22:27.50,0:22:29.80,0$Default,,0,0,0,,1 case solved, 1 person.
+Dialogue: 0,0:22:29.80,0:22:33.62,0$Default,,0,0,0,,If you all want to go,\Nyou'll have to solve more cases.
+Dialogue: 0,0:22:33.62,0:22:34.71,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:22:35.83,0:22:38.55,0$Default,,0,0,0,,Pleased to be... working with... you!
+Dialogue: 0,0:22:38.79,0:22:41.97,0$Default,,0,0,0,,Aw, come on!
+Dialogue: 0,0:22:46.21,0:22:47.15,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:47.15,0:22:49.15,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:49.15,0:22:51.43,0$Default,,0,0,0,,{\an8}Today's lesson is on Paccarat Lapa!
+Dialogue: 0,0:22:51.43,0:22:55.03,0$Default,,0,0,0,,{\an8}Paccarat Lapa is a traditional brand
+Dialogue: 0,0:22:55.03,0:22:59.57,0$Default,,0,0,0,,{\an8}created by three generations of horse owners,\Ninspired by graceful horses.
+Dialogue: 0,0:22:59.57,0:23:01.54,0$Default,,0,0,0,,{\an8}Thanks to its fashionable reputation,
+Dialogue: 0,0:23:01.54,0:23:04.79,0$Default,,0,0,0,,{\an8}it's grown popular amongst adventurers.
+Dialogue: 0,0:23:04.79,0:23:07.89,0$Default,,0,0,0,,{\an8}I want Paccarat Lapa jaras too!
+Dialogue: 0,0:23:10.66,0:23:13.30,0$Default,,0,0,0,,It's an emergency!\NA murder within Genies?!
+Dialogue: 0,0:23:13.30,0:23:15.75,0$Default,,0,0,0,,And Gob-san was the only one\Non the crime scene!
+Dialogue: 0,0:23:15.75,0:23:18.51,0$Default,,0,0,0,,Did he really do it?\NOr is the killer someone else?!
+Dialogue: 0,0:23:18.51,0:23:21.63,0$Default,,0,0,0,,Next time:\N"The Genies Murder Mystery—Gob-san's the Killer?!"
+Dialogue: 0,0:23:21.63,0:23:24.66,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 2,0:01:01.46,0:01:03.67,0$Default,,0,0,0,,== TS - TITLE==
+Dialogue: 2,0:01:01.46,0:01:03.67,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord0\shad0\fscx80\frz7.274\fsp-34.50}E{\frz6.963\fsp-24.80}p{\frz6.739\fsp-23.73}i{\frz6.525\fsp-33.42}s{\frz6.224\fsp-34.50}o{\frz5.912\fsp-32.90}d{\frz5.616\fsp-25.88}e{\frz5.382\fsp-28.55} {\frz5.124\fsp-37.72}2{\frz4.784\fsp-28.03}3{\frz4.531\fsp-18.87}:{\frz4.361\fsp-29.11} {\frz4.099\fsp-37.20}S{\frz3.763\fsp-25.88}o{\frz3.529\fsp-25.88}l{\frz3.296\fsp-25.88}v{\frz3.062\fsp-24.80}i{\frz2.839\fsp-34.76}n{\frz2.525\fsp-27.74}g{\frz2.275\fsp-26.41} {\frz2.037\fsp-26.41}a{\frz1.798\fsp-38.28} {\frz1.453\fsp-46.92}M{\frz1.030\fsp-33.97}y{\frz0.723\fsp-28.03}s{\frz0.470\fsp-28.59}t{\frz0.213\fsp-30.22}e{\frz359.940\fsp-32.37}r{\frz359.648\fsp-28.03}y{\frz359.395\fsp-22.09} {\frz359.196\fsp-30.19}f{\frz358.923\fsp-31.82}o{\frz358.636\fsp-23.73}r{\frz358.422\fsp-18.31} {\frz358.257\fsp-25.33}I{\frz358.029\fsp-32.34}n{\frz357.737\fsp-32.34}s{\frz357.445\fsp-32.90}p{\frz357.148\fsp-32.38}e{\frz356.856\fsp-28.59}c{\frz356.598\fsp-30.19}t{\frz356.326\fsp-31.82}o{\frz356.039\fsp-23.73}r{\frz355.825\fsp-30.19} {\frz355.553\fsp-37.20}C{\frz355.217\fsp-24.80}h{\frz354.993\fsp-16.19}i{\frz354.847\fsp-16.19}l{\frz354.701\fsp-24.80}i{\frz354.477\fsp-32.90}p{\frz354.181\fsp-32.90}e{\frz353.884\fsp-33.42}p{\frz353.582\fsp-32.90}p{\frz353.286\fsp-30.22}e{\frz353.013\fsp0.00}r
+Dialogue: 1,0:01:01.46,0:01:03.67,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord3\shad0\c&HC1C2C4&\fscx80\frz7.274\fsp-34.50}E{\frz6.963\fsp-24.80}p{\frz6.739\fsp-23.73}i{\frz6.525\fsp-33.42}s{\frz6.224\fsp-34.50}o{\frz5.912\fsp-32.90}d{\frz5.616\fsp-25.88}e{\frz5.382\fsp-28.55} {\frz5.124\fsp-37.72}2{\frz4.784\fsp-28.03}3{\frz4.531\fsp-18.87}:{\frz4.361\fsp-29.11} {\frz4.099\fsp-37.20}S{\frz3.763\fsp-25.88}o{\frz3.529\fsp-25.88}l{\frz3.296\fsp-25.88}v{\frz3.062\fsp-24.80}i{\frz2.839\fsp-34.76}n{\frz2.525\fsp-27.74}g{\frz2.275\fsp-26.41} {\frz2.037\fsp-26.41}a{\frz1.798\fsp-38.28} {\frz1.453\fsp-46.92}M{\frz1.030\fsp-33.97}y{\frz0.723\fsp-28.03}s{\frz0.470\fsp-28.59}t{\frz0.213\fsp-30.22}e{\frz359.940\fsp-32.37}r{\frz359.648\fsp-28.03}y{\frz359.395\fsp-22.09} {\frz359.196\fsp-30.19}f{\frz358.923\fsp-31.82}o{\frz358.636\fsp-23.73}r{\frz358.422\fsp-18.31} {\frz358.257\fsp-25.33}I{\frz358.029\fsp-32.34}n{\frz357.737\fsp-32.34}s{\frz357.445\fsp-32.90}p{\frz357.148\fsp-32.38}e{\frz356.856\fsp-28.59}c{\frz356.598\fsp-30.19}t{\frz356.326\fsp-31.82}o{\frz356.039\fsp-23.73}r{\frz355.825\fsp-30.19} {\frz355.553\fsp-37.20}C{\frz355.217\fsp-24.80}h{\frz354.993\fsp-16.19}i{\frz354.847\fsp-16.19}l{\frz354.701\fsp-24.80}i{\frz354.477\fsp-32.90}p{\frz354.181\fsp-32.90}e{\frz353.884\fsp-33.42}p{\frz353.582\fsp-32.90}p{\frz353.286\fsp-30.22}e{\frz353.013\fsp0.00}r
+Dialogue: 0,0:01:01.46,0:01:03.67,0$EPTITLE,,0,0,0,,{\pos(965,803)\fade(250,550)\org(965,5884)\blur0.7\bord3\shad0\c&H000000&\3c&H000000&\alpha&HB8&\fscx80\frz7.274\fsp-34.50}E{\frz6.963\fsp-24.80}p{\frz6.739\fsp-23.73}i{\frz6.525\fsp-33.42}s{\frz6.224\fsp-34.50}o{\frz5.912\fsp-32.90}d{\frz5.616\fsp-25.88}e{\frz5.382\fsp-28.55} {\frz5.124\fsp-37.72}2{\frz4.784\fsp-28.03}3{\frz4.531\fsp-18.87}:{\frz4.361\fsp-29.11} {\frz4.099\fsp-37.20}S{\frz3.763\fsp-25.88}o{\frz3.529\fsp-25.88}l{\frz3.296\fsp-25.88}v{\frz3.062\fsp-24.80}i{\frz2.839\fsp-34.76}n{\frz2.525\fsp-27.74}g{\frz2.275\fsp-26.41} {\frz2.037\fsp-26.41}a{\frz1.798\fsp-38.28} {\frz1.453\fsp-46.92}M{\frz1.030\fsp-33.97}y{\frz0.723\fsp-28.03}s{\frz0.470\fsp-28.59}t{\frz0.213\fsp-30.22}e{\frz359.940\fsp-32.37}r{\frz359.648\fsp-28.03}y{\frz359.395\fsp-22.09} {\frz359.196\fsp-30.19}f{\frz358.923\fsp-31.82}o{\frz358.636\fsp-23.73}r{\frz358.422\fsp-18.31} {\frz358.257\fsp-25.33}I{\frz358.029\fsp-32.34}n{\frz357.737\fsp-32.34}s{\frz357.445\fsp-32.90}p{\frz357.148\fsp-32.38}e{\frz356.856\fsp-28.59}c{\frz356.598\fsp-30.19}t{\frz356.326\fsp-31.82}o{\frz356.039\fsp-23.73}r{\frz355.825\fsp-30.19} {\frz355.553\fsp-37.20}C{\frz355.217\fsp-24.80}h{\frz354.993\fsp-16.19}i{\frz354.847\fsp-16.19}l{\frz354.701\fsp-24.80}i{\frz354.477\fsp-32.90}p{\frz354.181\fsp-32.90}e{\frz353.884\fsp-33.42}p{\frz353.582\fsp-32.90}p{\frz353.286\fsp-30.22}e{\frz353.013\fsp0.00}r
+Comment: 0,0:05:19.97,0:05:21.80,0$Default,,0,0,0,,== TS - PROVERB ==
+Dialogue: 2,0:05:19.97,0:05:21.80,0$Proverb,,0,0,0,,{\kf33\2aFF\blur0.7\frx356\fry358\pos(1522,269)\fscx81\fscy98\frz356}From bad luck,{\kf21}\N{\kf93}get good octopus.{\kf36}
+Dialogue: 1,0:05:19.97,0:05:21.80,0$Proverb,,0,0,0,,{\kf33\2aFF\blur0.7\c&H2F2E31&\frx356\fry358\pos(1526,271)\fscx81\fscy98\frz356}From bad luck,{\kf21}\N{\kf93}get good octopus.{\kf36}
+Dialogue: 0,0:05:19.97,0:05:21.80,0$Proverb,,0,0,0,,{\kf33\2aFF\blur0.7\c&HFEFFEA&\frx356\fry358\blur15\1a&HA4&\pos(1522,269)\fscx81\fscy98\frz356}From bad luck,{\kf21}\N{\kf93}get good octopus.{\kf36}
+Dialogue: 2,0:05:21.47,0:05:21.80,0$Proverb,,0,0,0,,{\kf11\2aFF\blur0.7\frx0\fry350\fscx78\fscy90\frz357.6\pos(1710,349)}-Tome{\kf22}
+Dialogue: 1,0:05:21.47,0:05:21.80,0$Proverb,,0,0,0,,{\kf11\2aFF\blur0.7\frx0\fry350\fscx78\fscy90\c&H2F2E31&\frz357.6\pos(1712,353)}-Tome{\kf22}
+Dialogue: 0,0:05:21.47,0:05:21.80,0$Proverb,,0,0,0,,{\kf11\2aFF\blur0.7\frx0\fry350\fscx78\fscy90\c&HFEFFEA&\frz357.6\blur15\1a&HA4&\pos(1710,351)}-Tome{\kf22}
+Comment: 0,0:15:37.04,0:15:39.33,0$Default,,0,0,0,,== TS - PROVERB ==
+Dialogue: 2,0:15:37.04,0:15:39.33,0$Proverb,,0,0,0,,{\kf56\2aFF\blur0.7\frx356\fry358\fscx81\fscy98\frz359.7\c&HF2F2F2&\pos(1094,279)}Like burying your head{\kf10}\N{\kf83}while baring your butt.{\kf80}
+Dialogue: 1,0:15:37.04,0:15:39.33,0$Proverb,,0,0,0,,{\kf56\2aFF\blur0.7\c&H121315&\frx356\fry358\fscx81\fscy98\frz359.7\pos(1090,277)}Like burying your head{\kf10}\N{\kf83}while baring your butt.{\kf80}
+Dialogue: 2,0:15:38.58,0:15:39.33,0$Proverb,,0,0,0,,{\kf19\2aFF\blur0.7\frx0\fry350\fscx78\fscy90\frz359.7\c&HF2F2F2&\pos(1282,359)}-Tome{\kf22}
+Dialogue: 1,0:15:38.58,0:15:39.33,0$Proverb,,0,0,0,,{\kf19\2aFF\blur0.7\frx0\fry350\fscx78\fscy90\c&H121315&\frz359.7\pos(1276,359)}-Tome{\kf22}
+Comment: 1,0:03:10.17,0:03:12.55,0$Default,,0,0,0,,== TS - INSPECTOR CHILIPEPPER ==
+Dialogue: 1,0:03:10.17,0:03:12.55,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H0D0D0D&\fade(400,0)}m 544.69 797.73 l 491.29 781.67 492.06 742.5 445.98 703.98 456.74 705.13 450.2 694.75 470.58 677.45 458.66 652.84 562.99 603.51 614.72 624.1 645.86 613.05 674.99 623.6 688.05 613.56 763.88 621.09 765.39 646.69 788.18 629.96 813.46 639.05 809.05 623.1 827.36 621.07 821.94 615.3 890.97 632.66 875.21 636.07 890.55 638.63 897.79 651.83 955.07 647.01 964.28 657.99 966.18 638.96 976.17 649.43 997.58 638.01 1020.42 652.28 1045.73 619.36 1046.73 632.35 1056.22 617.11 1057.97 629.85 1069.2 616.66 1099.42 632.72 1140.86 615.74 1182.83 660.6 1278.09 648.79 1280.96 657.05 1291.37 657.05 1285.62 666.38 1303.22 668.9 1307.17 729.22 1279.07 746.37 1304.67 748.69 1306.53 758.47 1335.85 744.51 1360.99 759.4 1401.77 750.42 1410.53 757.72 1408.34 747.86 1426.22 756.99 1414.91 741.29 1470.75 779.61 1458.7 779.25 1473.99 788.05 1469.24 794.99 1495.88 788.42 1522.41 817.21 1513.65 813.19 1522.41 825.97 1514.38 821.95 1481.49 851.15 1487.68 882.89 1467.05 926.43 1426.25 917.72 1412.03 931.94 1370.28 949.47 1308.6 942.32 1242.46 964.67 1207.6 936.06 1201.34 961.99 1146.82 962.88 1100.34 939.64 1064.58 946.79 1020.78 934.27 996.76 964.78 946.92 964.15 919.51 944.22 883.37 952.94 850.36 937.37 818.59 955.43 769.99 951.12 739.54 939.17 716.57 954.26 678.29 939.12 640.37 958.3 575.29 941.7 581.03 927.66 570.19 932.13 568.91 923.19 560.61 925.74 563.8 895.74 551.04 860.64 578.11 797.87 m 1192.41 649.59 l 1197.95 634.52 1263.47 639.2 m 474.42 777.58 l 459.41 735.26 483.66 745.65 m 1264.47 962.47 l 1306.02 946.1 1370.65 954.08 m 1022.93 941.59 l 1066.91 954.62 1006.62 963.22
+Dialogue: 0,0:03:10.17,0:03:12.55,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&HE5E5E6&\fade(400,0)}m 543.27 820.6 l 460.93 790.61 432.9 700.01 456.37 626.36 580.6 587.24 617.68 608.17 657.74 594.42 795.27 615.2 805.26 597.79 904.8 619.23 914.75 636.64 1015.37 624.45 1033.2 608.5 1155.79 606.89 1181.89 642.13 1204.08 618.63 1265.33 624.45 1328.8 668.99 1322.66 731.43 1374.65 746.32 1411.22 730.37 1473.95 762.15 1480.98 782.05 1503.22 775.61 1552.39 828.29 1512.49 841.35 1494.68 856.31 1507.5 889.08 1479.01 947.49 1426.35 941.63 1399.38 973.17 1244.45 991.76 1150.58 982.15 1101.39 957.74 1042.4 980.52 923.07 983.15 850.27 968.74 757.58 971.25 722.24 982.63 680.28 963.61 637.76 979.27 549.93 951.3 524.76 860.08
+Dialogue: 2,0:03:10.17,0:03:12.55,0$MonsterName,,0,0,0,,{\c&H1915A8&\fscx348\fscy348\pos(896,696)\blur1\fade(400,0)}Inspector
+Dialogue: 2,0:03:10.17,0:03:12.55,0$MonsterName,,0,0,0,,{\c&H1915A8&\fscx348\fscy348\blur1\frz1.728\pos(1038,838)\fade(400,0)}Chilipepper
+Comment: 0,0:08:20.69,0:08:23.94,0$Default,,0,0,0,,== TS - ISABELLA ==
+Dialogue: 2,0:08:20.68,0:08:20.73,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx391.67\fscy414.14\pos(1425.56,834.62)\blur1\alpha&H4B&}Isabella
+Dialogue: 1,0:08:20.68,0:08:20.73,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&H0C0C0C&\alpha&H40&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 0,0:08:20.68,0:08:20.73,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&HE0DFE0&\alpha&H7E&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 5,0:08:20.73,0:08:20.77,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx391.67\fscy414.14\pos(1425.56,834.62)\blur1\alpha&H65&}Isabella
+Dialogue: 4,0:08:20.73,0:08:20.77,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&H0C0C0C&\alpha&H59&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 3,0:08:20.73,0:08:20.77,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&HE0DFE0&\alpha&H90&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 5,0:08:20.77,0:08:20.81,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx391.67\fscy414.14\pos(1425.56,834.62)\blur1\alpha&H88&}Isabella
+Dialogue: 4,0:08:20.77,0:08:20.81,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&H0C0C0C&\alpha&H7C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 3,0:08:20.77,0:08:20.81,0$mask,,0,0,0,,{\fscy160.52\fscx160.52\p1\pos(-861.51,-517.46)\blur1\c&HE0DFE0&\alpha&HC0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 2,0:08:20.73,0:08:20.77,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx245.77\fscy259.87\pos(1425.03,841.78)\blur1}Isabella
+Dialogue: 2,0:08:20.77,0:08:20.81,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx245.04\fscy259.1\pos(1424.96,842)\blur1}Isabella
+Dialogue: 2,0:08:20.81,0:08:20.85,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx219.69\fscy232.29\pos(1412.13,846.95)\blur1}Isabella
+Dialogue: 2,0:08:20.85,0:08:20.89,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx243.69\fscy257.67\pos(1442.36,835.17)\blur1}Isabella
+Dialogue: 2,0:08:20.89,0:08:20.93,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx231.78\fscy245.07\pos(1426.02,853.86)\blur1}Isabella
+Dialogue: 2,0:08:20.93,0:08:20.98,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx243.91\fscy257.9\pos(1424.77,842.35)\blur1}Isabella
+Dialogue: 2,0:08:20.98,0:08:21.02,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx239.6\fscy253.35\pos(1424.87,842.42)\blur1}Isabella
+Dialogue: 2,0:08:21.02,0:08:23.94,0$MonsterName,,0,0,0,,{\c&HAB1F87&\frz9.099\fscx244\fscy258\pos(1424.8,842.32)\blur1}Isabella
+Dialogue: 1,0:08:20.73,0:08:20.77,0$mask,,0,0,0,,{\fscy100.72\fscx100.72\p1\pos(-10.08,-6.64)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.77,0:08:20.81,0$mask,,0,0,0,,{\fscy100.43\fscx100.43\p1\pos(-5.93,-3.92)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.81,0:08:20.85,0$mask,,0,0,0,,{\fscy90.04\fscx90.04\p1\pos(129.29,88.55)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.85,0:08:20.89,0$mask,,0,0,0,,{\fscy99.87\fscx99.87\p1\pos(19.39,-6.07)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.89,0:08:20.93,0$mask,,0,0,0,,{\fscy94.99\fscx94.99\p1\pos(72.6,53.74)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.93,0:08:20.98,0$mask,,0,0,0,,{\fscy99.96\fscx99.96\p1\pos(0.49,0.34)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:20.98,0:08:21.02,0$mask,,0,0,0,,{\fscy98.2\fscx98.2\p1\pos(25.77,15.3)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 1,0:08:21.02,0:08:23.94,0$mask,,0,0,0,,{\fscy100\fscx100\p1\pos(0,0)\blur1\c&H0C0C0C&}m 1224.69 956.05 l 1209.2 926.36 1177.57 925.71 1152.39 901.35 1158.53 891.87 1149.81 895 1205.4 817.89 1248.93 802.69 1244.84 811.75 1265.88 802.78 1288.59 807.38 1316.57 789.99 1338.51 803.98 1341.96 793.65 1350.99 801.39 1352.07 788.27 1361.53 796.23 1374.72 777.33 1425.17 789.34 1434.69 807.4 1439.77 796.08 1473.1 784.48 1468.28 778.28 1478.62 777.93 1478.28 772.07 1522.19 772.71 1515.22 776.2 1528.57 778.23 1530.31 784.61 1549.17 761.4 1566.65 760.73 1560.14 751.4 1655.64 749.88 1657.25 770.01 1666.65 769.47 1661.82 778.87 1673.53 784.03 1663.26 859.17 1633.54 900 1580.37 896.52 1573.48 882.81 1563.71 891.91 1556.63 885.84 1547.87 894.94 1507.75 889.55 1480.45 904.38 1452.47 899.33 1438.65 910.11 1419.41 906.86 1421.68 921.13 1407.09 918.53 1374.35 939.93 1338.36 932.48 1332.85 923.4 1309.03 922.28 1274.51 937.48 1281.16 942.86 1269.44 946.35 1278.94 953.63 m 1187.58 933.98 l 1204.25 929.66 1212.07 949.34 m 1493.93 903.86 l 1508.55 893.17 1535.64 898.87
+Dialogue: 0,0:08:20.73,0:08:20.77,0$mask,,0,0,0,,{\fscy100.72\fscx100.72\p1\pos(-10.08,-6.64)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.77,0:08:20.81,0$mask,,0,0,0,,{\fscy100.43\fscx100.43\p1\pos(-5.93,-3.92)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.81,0:08:20.85,0$mask,,0,0,0,,{\fscy90.04\fscx90.04\p1\pos(129.29,88.55)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.85,0:08:20.89,0$mask,,0,0,0,,{\fscy99.87\fscx99.87\p1\pos(19.39,-6.07)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.89,0:08:20.93,0$mask,,0,0,0,,{\fscy94.99\fscx94.99\p1\pos(72.6,53.74)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.93,0:08:20.98,0$mask,,0,0,0,,{\fscy99.96\fscx99.96\p1\pos(0.49,0.34)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:20.98,0:08:21.02,0$mask,,0,0,0,,{\fscy98.2\fscx98.2\p1\pos(25.77,15.3)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Dialogue: 0,0:08:21.02,0:08:23.94,0$mask,,0,0,0,,{\fscy100\fscx100\p1\pos(0,0)\blur1\c&HE0DFE0&}m 1219.15 975.22 l 1149.04 923.33 1138.66 877.4 1180.45 819.97 1243.43 787.68 1285.65 793.06 1313.61 776.92 1396.44 764.28 1440.09 782.84 1499.48 754.72 1531.72 761.87 1544.6 746.22 1631.75 730.37 1676.66 748.28 1691.63 829.89 1660.36 895.91 1624.58 915.21 1560.28 905.56 1452.56 920.03 1422.7 940.14 1347.79 953.89 1304.65 937.77 1290.9 959.58
+Comment: 0,0:08:33.83,0:08:35.91,0$Default,,0,0,0,,== TS - SUSPECTS ==
+Dialogue: 0,0:08:33.82,0:08:33.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1861.74,195.49)}Suspects in Stealing
+Dialogue: 0,0:08:33.86,0:08:33.90,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1839.02,195.44)}Suspects in Stealing
+Dialogue: 0,0:08:33.90,0:08:33.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1807.85,195.4)}Suspects in Stealing
+Dialogue: 0,0:08:33.95,0:08:33.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1770.47,195.28)}Suspects in Stealing
+Dialogue: 0,0:08:33.99,0:08:34.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1729.1,195.2)}Suspects in Stealing
+Dialogue: 0,0:08:34.03,0:08:34.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1685.95,195.09)}Suspects in Stealing
+Dialogue: 0,0:08:34.07,0:08:34.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1643.24,194.98)}Suspects in Stealing
+Dialogue: 0,0:08:34.11,0:08:34.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1603.28,194.88)}Suspects in Stealing
+Dialogue: 0,0:08:34.16,0:08:34.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1568.3,194.8)}Suspects in Stealing
+Dialogue: 0,0:08:34.20,0:08:34.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1540.52,194.67)}Suspects in Stealing
+Dialogue: 0,0:08:34.24,0:08:34.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1522.17,194.67)}Suspects in Stealing
+Dialogue: 0,0:08:34.28,0:08:34.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1511.78,194.7)}Suspects in Stealing
+Dialogue: 0,0:08:34.32,0:08:34.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1505.68,194.69)}Suspects in Stealing
+Dialogue: 0,0:08:34.36,0:08:34.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1502.53,194.6)}Suspects in Stealing
+Dialogue: 0,0:08:34.41,0:08:34.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1501.45,194.6)}Suspects in Stealing
+Dialogue: 0,0:08:34.45,0:08:34.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1501.01,194.62)}Suspects in Stealing
+Dialogue: 0,0:08:34.49,0:08:34.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1500.18,194.62)}Suspects in Stealing
+Dialogue: 0,0:08:34.53,0:08:34.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1497.72,194.55)}Suspects in Stealing
+Dialogue: 0,0:08:34.57,0:08:34.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1492.64,194.58)}Suspects in Stealing
+Dialogue: 0,0:08:34.61,0:08:34.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1483.59,194.61)}Suspects in Stealing
+Dialogue: 0,0:08:34.66,0:08:34.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1470.83,194.59)}Suspects in Stealing
+Dialogue: 0,0:08:34.70,0:08:34.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1455.67,194.46)}Suspects in Stealing
+Dialogue: 0,0:08:34.74,0:08:34.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1438.42,194.45)}Suspects in Stealing
+Dialogue: 0,0:08:34.78,0:08:34.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1419.61,194.44)}Suspects in Stealing
+Dialogue: 0,0:08:34.82,0:08:34.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1399.75,194.39)}Suspects in Stealing
+Dialogue: 0,0:08:34.86,0:08:34.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1379.22,194.28)}Suspects in Stealing
+Dialogue: 0,0:08:34.91,0:08:34.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1358.47,194.25)}Suspects in Stealing
+Dialogue: 0,0:08:34.95,0:08:34.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1337.96,194.23)}Suspects in Stealing
+Dialogue: 0,0:08:34.99,0:08:35.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1318.2,194.19)}Suspects in Stealing
+Dialogue: 0,0:08:35.03,0:08:35.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1299.56,194.08)}Suspects in Stealing
+Dialogue: 0,0:08:35.07,0:08:35.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1282.56,194.06)}Suspects in Stealing
+Dialogue: 0,0:08:35.11,0:08:35.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1267.58,194.08)}Suspects in Stealing
+Dialogue: 0,0:08:35.16,0:08:35.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1255.15,194.05)}Suspects in Stealing
+Dialogue: 0,0:08:35.20,0:08:35.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1245.74,193.94)}Suspects in Stealing
+Dialogue: 0,0:08:35.24,0:08:35.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1239.71,193.99)}Suspects in Stealing
+Dialogue: 0,0:08:35.28,0:08:35.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1237.7,193.99)}Suspects in Stealing
+Dialogue: 0,0:08:35.32,0:08:35.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1237.97,193.96)}Suspects in Stealing
+Dialogue: 0,0:08:35.36,0:08:35.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1239.15,193.99)}Suspects in Stealing
+Dialogue: 0,0:08:35.41,0:08:35.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1240.72,193.95)}Suspects in Stealing
+Dialogue: 0,0:08:35.45,0:08:35.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1242.73,193.91)}Suspects in Stealing
+Dialogue: 0,0:08:35.49,0:08:35.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1244.98,193.94)}Suspects in Stealing
+Dialogue: 0,0:08:35.53,0:08:35.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1247.5,194)}Suspects in Stealing
+Dialogue: 0,0:08:35.57,0:08:35.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1249.97,193.97)}Suspects in Stealing
+Dialogue: 0,0:08:35.61,0:08:35.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1252.27,193.95)}Suspects in Stealing
+Dialogue: 0,0:08:35.66,0:08:35.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1254.4,193.96)}Suspects in Stealing
+Dialogue: 0,0:08:35.70,0:08:35.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1256.19,194.03)}Suspects in Stealing
+Dialogue: 0,0:08:35.74,0:08:35.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1257.5,194)}Suspects in Stealing
+Dialogue: 0,0:08:35.78,0:08:35.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1258.56,193.98)}Suspects in Stealing
+Dialogue: 0,0:08:35.82,0:08:35.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1259.49,193.97)}Suspects in Stealing
+Dialogue: 0,0:08:33.82,0:08:33.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1861.74,259.49)}The Eternal Rose
+Dialogue: 0,0:08:33.86,0:08:33.90,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1839.02,259.44)}The Eternal Rose
+Dialogue: 0,0:08:33.90,0:08:33.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1807.85,259.4)}The Eternal Rose
+Dialogue: 0,0:08:33.95,0:08:33.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1770.47,259.28)}The Eternal Rose
+Dialogue: 0,0:08:33.99,0:08:34.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1729.1,259.2)}The Eternal Rose
+Dialogue: 0,0:08:34.03,0:08:34.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1685.95,259.09)}The Eternal Rose
+Dialogue: 0,0:08:34.07,0:08:34.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1643.24,258.98)}The Eternal Rose
+Dialogue: 0,0:08:34.11,0:08:34.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1603.28,258.88)}The Eternal Rose
+Dialogue: 0,0:08:34.16,0:08:34.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1568.3,258.8)}The Eternal Rose
+Dialogue: 0,0:08:34.20,0:08:34.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1540.52,258.67)}The Eternal Rose
+Dialogue: 0,0:08:34.24,0:08:34.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1522.17,258.67)}The Eternal Rose
+Dialogue: 0,0:08:34.28,0:08:34.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1511.78,258.7)}The Eternal Rose
+Dialogue: 0,0:08:34.32,0:08:34.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1505.68,258.69)}The Eternal Rose
+Dialogue: 0,0:08:34.36,0:08:34.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1502.53,258.6)}The Eternal Rose
+Dialogue: 0,0:08:34.41,0:08:34.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1501.45,258.6)}The Eternal Rose
+Dialogue: 0,0:08:34.45,0:08:34.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1501.01,258.62)}The Eternal Rose
+Dialogue: 0,0:08:34.49,0:08:34.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1500.18,258.62)}The Eternal Rose
+Dialogue: 0,0:08:34.53,0:08:34.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1497.72,258.55)}The Eternal Rose
+Dialogue: 0,0:08:34.57,0:08:34.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1492.64,258.58)}The Eternal Rose
+Dialogue: 0,0:08:34.61,0:08:34.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1483.59,258.61)}The Eternal Rose
+Dialogue: 0,0:08:34.66,0:08:34.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1470.83,258.59)}The Eternal Rose
+Dialogue: 0,0:08:34.70,0:08:34.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1455.67,258.46)}The Eternal Rose
+Dialogue: 0,0:08:34.74,0:08:34.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1438.42,258.45)}The Eternal Rose
+Dialogue: 0,0:08:34.78,0:08:34.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1419.61,258.44)}The Eternal Rose
+Dialogue: 0,0:08:34.82,0:08:34.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1399.75,258.39)}The Eternal Rose
+Dialogue: 0,0:08:34.86,0:08:34.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1379.22,258.28)}The Eternal Rose
+Dialogue: 0,0:08:34.91,0:08:34.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1358.47,258.25)}The Eternal Rose
+Dialogue: 0,0:08:34.95,0:08:34.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1337.96,258.23)}The Eternal Rose
+Dialogue: 0,0:08:34.99,0:08:35.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1318.2,258.19)}The Eternal Rose
+Dialogue: 0,0:08:35.03,0:08:35.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1299.56,258.08)}The Eternal Rose
+Dialogue: 0,0:08:35.07,0:08:35.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1282.56,258.06)}The Eternal Rose
+Dialogue: 0,0:08:35.11,0:08:35.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1267.58,258.08)}The Eternal Rose
+Dialogue: 0,0:08:35.16,0:08:35.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1255.15,258.05)}The Eternal Rose
+Dialogue: 0,0:08:35.20,0:08:35.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1245.74,257.94)}The Eternal Rose
+Dialogue: 0,0:08:35.24,0:08:35.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1239.71,257.99)}The Eternal Rose
+Dialogue: 0,0:08:35.28,0:08:35.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1237.7,258)}The Eternal Rose
+Dialogue: 0,0:08:35.32,0:08:35.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1237.97,257.96)}The Eternal Rose
+Dialogue: 0,0:08:35.36,0:08:35.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1239.15,257.99)}The Eternal Rose
+Dialogue: 0,0:08:35.41,0:08:35.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1240.72,257.95)}The Eternal Rose
+Dialogue: 0,0:08:35.45,0:08:35.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1242.73,257.91)}The Eternal Rose
+Dialogue: 0,0:08:35.49,0:08:35.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1244.98,257.94)}The Eternal Rose
+Dialogue: 0,0:08:35.53,0:08:35.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1247.5,258)}The Eternal Rose
+Dialogue: 0,0:08:35.57,0:08:35.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1249.97,257.97)}The Eternal Rose
+Dialogue: 0,0:08:35.61,0:08:35.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1252.27,257.95)}The Eternal Rose
+Dialogue: 0,0:08:35.66,0:08:35.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1254.4,257.96)}The Eternal Rose
+Dialogue: 0,0:08:35.70,0:08:35.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1256.19,258.03)}The Eternal Rose
+Dialogue: 0,0:08:35.74,0:08:35.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1257.5,258)}The Eternal Rose
+Dialogue: 0,0:08:35.78,0:08:35.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1258.56,257.98)}The Eternal Rose
+Dialogue: 0,0:08:35.82,0:08:35.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1259.49,257.97)}The Eternal Rose
+Dialogue: 0,0:08:33.82,0:08:33.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1183.74,897.49)}Isabella
+Dialogue: 0,0:08:33.86,0:08:33.90,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1161.02,897.44)}Isabella
+Dialogue: 0,0:08:33.90,0:08:33.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1129.85,897.4)}Isabella
+Dialogue: 0,0:08:33.95,0:08:33.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1092.47,897.28)}Isabella
+Dialogue: 0,0:08:33.99,0:08:34.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1051.1,897.2)}Isabella
+Dialogue: 0,0:08:34.03,0:08:34.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1007.95,897.09)}Isabella
+Dialogue: 0,0:08:34.07,0:08:34.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(965.24,896.98)}Isabella
+Dialogue: 0,0:08:34.11,0:08:34.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(925.28,896.88)}Isabella
+Dialogue: 0,0:08:34.16,0:08:34.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(890.3,896.8)}Isabella
+Dialogue: 0,0:08:34.20,0:08:34.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(862.52,896.67)}Isabella
+Dialogue: 0,0:08:34.24,0:08:34.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(844.17,896.67)}Isabella
+Dialogue: 0,0:08:34.28,0:08:34.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(833.78,896.7)}Isabella
+Dialogue: 0,0:08:34.32,0:08:34.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(827.68,896.69)}Isabella
+Dialogue: 0,0:08:34.36,0:08:34.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(824.53,896.6)}Isabella
+Dialogue: 0,0:08:34.41,0:08:34.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(823.45,896.6)}Isabella
+Dialogue: 0,0:08:34.45,0:08:34.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(823.01,896.62)}Isabella
+Dialogue: 0,0:08:34.49,0:08:34.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(822.18,896.62)}Isabella
+Dialogue: 0,0:08:34.53,0:08:34.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(819.72,896.55)}Isabella
+Dialogue: 0,0:08:34.57,0:08:34.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(814.64,896.58)}Isabella
+Dialogue: 0,0:08:34.61,0:08:34.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(805.59,896.61)}Isabella
+Dialogue: 0,0:08:34.66,0:08:34.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(792.83,896.59)}Isabella
+Dialogue: 0,0:08:34.70,0:08:34.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(777.67,896.46)}Isabella
+Dialogue: 0,0:08:34.74,0:08:34.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(760.42,896.45)}Isabella
+Dialogue: 0,0:08:34.78,0:08:34.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(741.61,896.44)}Isabella
+Dialogue: 0,0:08:34.82,0:08:34.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(721.75,896.39)}Isabella
+Dialogue: 0,0:08:34.86,0:08:34.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(701.22,896.28)}Isabella
+Dialogue: 0,0:08:34.91,0:08:34.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(680.47,896.25)}Isabella
+Dialogue: 0,0:08:34.95,0:08:34.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(659.96,896.23)}Isabella
+Dialogue: 0,0:08:34.99,0:08:35.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(640.2,896.19)}Isabella
+Dialogue: 0,0:08:35.03,0:08:35.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(621.56,896.08)}Isabella
+Dialogue: 0,0:08:35.07,0:08:35.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(604.56,896.06)}Isabella
+Dialogue: 0,0:08:35.11,0:08:35.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(589.58,896.08)}Isabella
+Dialogue: 0,0:08:35.16,0:08:35.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(577.15,896.05)}Isabella
+Dialogue: 0,0:08:35.20,0:08:35.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(567.74,895.94)}Isabella
+Dialogue: 0,0:08:35.24,0:08:35.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(561.71,895.99)}Isabella
+Dialogue: 0,0:08:35.28,0:08:35.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(559.7,896)}Isabella
+Dialogue: 0,0:08:35.32,0:08:35.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(559.97,895.96)}Isabella
+Dialogue: 0,0:08:35.36,0:08:35.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(561.15,895.99)}Isabella
+Dialogue: 0,0:08:35.41,0:08:35.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(562.72,895.95)}Isabella
+Dialogue: 0,0:08:35.45,0:08:35.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(564.73,895.91)}Isabella
+Dialogue: 0,0:08:35.49,0:08:35.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(566.98,895.94)}Isabella
+Dialogue: 0,0:08:35.53,0:08:35.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(569.5,896)}Isabella
+Dialogue: 0,0:08:35.57,0:08:35.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(571.97,895.97)}Isabella
+Dialogue: 0,0:08:35.61,0:08:35.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(574.27,895.95)}Isabella
+Dialogue: 0,0:08:35.66,0:08:35.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(576.4,895.96)}Isabella
+Dialogue: 0,0:08:35.70,0:08:35.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(578.19,896.03)}Isabella
+Dialogue: 0,0:08:35.74,0:08:35.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(579.5,896)}Isabella
+Dialogue: 0,0:08:35.78,0:08:35.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(580.56,895.98)}Isabella
+Dialogue: 0,0:08:35.82,0:08:35.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(581.49,895.97)}Isabella
+Dialogue: 0,0:08:33.82,0:08:33.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1545.74,897.49)}Candle
+Dialogue: 0,0:08:33.86,0:08:33.90,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1523.02,897.44)}Candle
+Dialogue: 0,0:08:33.90,0:08:33.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1491.85,897.4)}Candle
+Dialogue: 0,0:08:33.95,0:08:33.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1454.47,897.28)}Candle
+Dialogue: 0,0:08:33.99,0:08:34.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1413.1,897.2)}Candle
+Dialogue: 0,0:08:34.03,0:08:34.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1369.95,897.09)}Candle
+Dialogue: 0,0:08:34.07,0:08:34.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1327.24,896.98)}Candle
+Dialogue: 0,0:08:34.11,0:08:34.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1287.28,896.88)}Candle
+Dialogue: 0,0:08:34.16,0:08:34.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1252.3,896.8)}Candle
+Dialogue: 0,0:08:34.20,0:08:34.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1224.52,896.67)}Candle
+Dialogue: 0,0:08:34.24,0:08:34.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1206.17,896.67)}Candle
+Dialogue: 0,0:08:34.28,0:08:34.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1195.78,896.7)}Candle
+Dialogue: 0,0:08:34.32,0:08:34.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1189.68,896.69)}Candle
+Dialogue: 0,0:08:34.36,0:08:34.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1186.53,896.6)}Candle
+Dialogue: 0,0:08:34.41,0:08:34.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1185.45,896.6)}Candle
+Dialogue: 0,0:08:34.45,0:08:34.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1185.01,896.62)}Candle
+Dialogue: 0,0:08:34.49,0:08:34.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1184.18,896.62)}Candle
+Dialogue: 0,0:08:34.53,0:08:34.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1181.72,896.55)}Candle
+Dialogue: 0,0:08:34.57,0:08:34.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1176.64,896.58)}Candle
+Dialogue: 0,0:08:34.61,0:08:34.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1167.59,896.61)}Candle
+Dialogue: 0,0:08:34.66,0:08:34.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1154.83,896.59)}Candle
+Dialogue: 0,0:08:34.70,0:08:34.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1139.67,896.46)}Candle
+Dialogue: 0,0:08:34.74,0:08:34.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1122.42,896.45)}Candle
+Dialogue: 0,0:08:34.78,0:08:34.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1103.61,896.44)}Candle
+Dialogue: 0,0:08:34.82,0:08:34.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1083.75,896.39)}Candle
+Dialogue: 0,0:08:34.86,0:08:34.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1063.22,896.28)}Candle
+Dialogue: 0,0:08:34.91,0:08:34.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1042.47,896.25)}Candle
+Dialogue: 0,0:08:34.95,0:08:34.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1021.96,896.23)}Candle
+Dialogue: 0,0:08:34.99,0:08:35.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1002.2,896.19)}Candle
+Dialogue: 0,0:08:35.03,0:08:35.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(983.56,896.08)}Candle
+Dialogue: 0,0:08:35.07,0:08:35.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(966.56,896.06)}Candle
+Dialogue: 0,0:08:35.11,0:08:35.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(951.58,896.08)}Candle
+Dialogue: 0,0:08:35.16,0:08:35.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(939.15,896.05)}Candle
+Dialogue: 0,0:08:35.20,0:08:35.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(929.74,895.94)}Candle
+Dialogue: 0,0:08:35.24,0:08:35.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(923.71,895.99)}Candle
+Dialogue: 0,0:08:35.28,0:08:35.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(921.7,896)}Candle
+Dialogue: 0,0:08:35.32,0:08:35.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(921.97,895.96)}Candle
+Dialogue: 0,0:08:35.36,0:08:35.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(923.15,895.99)}Candle
+Dialogue: 0,0:08:35.41,0:08:35.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(924.72,895.95)}Candle
+Dialogue: 0,0:08:35.45,0:08:35.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(926.73,895.91)}Candle
+Dialogue: 0,0:08:35.49,0:08:35.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(928.98,895.94)}Candle
+Dialogue: 0,0:08:35.53,0:08:35.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(931.5,896)}Candle
+Dialogue: 0,0:08:35.57,0:08:35.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(933.97,895.97)}Candle
+Dialogue: 0,0:08:35.61,0:08:35.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(936.27,895.95)}Candle
+Dialogue: 0,0:08:35.66,0:08:35.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(938.4,895.96)}Candle
+Dialogue: 0,0:08:35.70,0:08:35.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(940.19,896.03)}Candle
+Dialogue: 0,0:08:35.74,0:08:35.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(941.5,896)}Candle
+Dialogue: 0,0:08:35.78,0:08:35.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(942.56,895.98)}Candle
+Dialogue: 0,0:08:35.82,0:08:35.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(943.49,895.97)}Candle
+Dialogue: 0,0:08:33.82,0:08:33.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1911.74,897.49)}Andead
+Dialogue: 0,0:08:33.86,0:08:33.90,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1889.02,897.44)}Andead
+Dialogue: 0,0:08:33.90,0:08:33.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1857.85,897.4)}Andead
+Dialogue: 0,0:08:33.95,0:08:33.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1820.47,897.28)}Andead
+Dialogue: 0,0:08:33.99,0:08:34.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1779.1,897.2)}Andead
+Dialogue: 0,0:08:34.03,0:08:34.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1735.95,897.09)}Andead
+Dialogue: 0,0:08:34.07,0:08:34.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1693.24,896.98)}Andead
+Dialogue: 0,0:08:34.11,0:08:34.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1653.28,896.88)}Andead
+Dialogue: 0,0:08:34.16,0:08:34.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1618.3,896.8)}Andead
+Dialogue: 0,0:08:34.20,0:08:34.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1590.52,896.67)}Andead
+Dialogue: 0,0:08:34.24,0:08:34.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1572.17,896.67)}Andead
+Dialogue: 0,0:08:34.28,0:08:34.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1561.78,896.7)}Andead
+Dialogue: 0,0:08:34.32,0:08:34.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1555.68,896.69)}Andead
+Dialogue: 0,0:08:34.36,0:08:34.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1552.53,896.6)}Andead
+Dialogue: 0,0:08:34.41,0:08:34.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1551.45,896.6)}Andead
+Dialogue: 0,0:08:34.45,0:08:34.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1551.01,896.62)}Andead
+Dialogue: 0,0:08:34.49,0:08:34.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1550.18,896.62)}Andead
+Dialogue: 0,0:08:34.53,0:08:34.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1547.72,896.55)}Andead
+Dialogue: 0,0:08:34.57,0:08:34.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1542.64,896.58)}Andead
+Dialogue: 0,0:08:34.61,0:08:34.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1533.59,896.61)}Andead
+Dialogue: 0,0:08:34.66,0:08:34.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1520.83,896.59)}Andead
+Dialogue: 0,0:08:34.70,0:08:34.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1505.67,896.46)}Andead
+Dialogue: 0,0:08:34.74,0:08:34.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1488.42,896.45)}Andead
+Dialogue: 0,0:08:34.78,0:08:34.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1469.61,896.44)}Andead
+Dialogue: 0,0:08:34.82,0:08:34.86,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1449.75,896.39)}Andead
+Dialogue: 0,0:08:34.86,0:08:34.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1429.22,896.28)}Andead
+Dialogue: 0,0:08:34.91,0:08:34.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1408.47,896.25)}Andead
+Dialogue: 0,0:08:34.95,0:08:34.99,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1387.96,896.23)}Andead
+Dialogue: 0,0:08:34.99,0:08:35.03,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1368.2,896.19)}Andead
+Dialogue: 0,0:08:35.03,0:08:35.07,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1349.56,896.08)}Andead
+Dialogue: 0,0:08:35.07,0:08:35.11,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1332.56,896.06)}Andead
+Dialogue: 0,0:08:35.11,0:08:35.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1317.58,896.08)}Andead
+Dialogue: 0,0:08:35.16,0:08:35.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1305.15,896.05)}Andead
+Dialogue: 0,0:08:35.20,0:08:35.24,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1295.74,895.94)}Andead
+Dialogue: 0,0:08:35.24,0:08:35.28,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1289.71,895.99)}Andead
+Dialogue: 0,0:08:35.28,0:08:35.32,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1287.7,896)}Andead
+Dialogue: 0,0:08:35.32,0:08:35.36,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1287.97,895.96)}Andead
+Dialogue: 0,0:08:35.36,0:08:35.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1289.15,895.99)}Andead
+Dialogue: 0,0:08:35.41,0:08:35.45,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1290.72,895.95)}Andead
+Dialogue: 0,0:08:35.45,0:08:35.49,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1292.73,895.91)}Andead
+Dialogue: 0,0:08:35.49,0:08:35.53,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1294.98,895.94)}Andead
+Dialogue: 0,0:08:35.53,0:08:35.57,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1297.5,896)}Andead
+Dialogue: 0,0:08:35.57,0:08:35.61,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1299.97,895.97)}Andead
+Dialogue: 0,0:08:35.61,0:08:35.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1302.27,895.95)}Andead
+Dialogue: 0,0:08:35.66,0:08:35.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1304.4,895.96)}Andead
+Dialogue: 0,0:08:35.70,0:08:35.74,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1306.19,896.03)}Andead
+Dialogue: 0,0:08:35.74,0:08:35.78,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1307.5,896)}Andead
+Dialogue: 0,0:08:35.78,0:08:35.82,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1308.56,895.98)}Andead
+Dialogue: 0,0:08:35.82,0:08:35.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1309.49,895.97)}Andead
+Dialogue: 0,0:08:35.87,0:08:36.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)}Suspects in Stealing
+Dialogue: 0,0:08:35.87,0:08:36.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)}The Eternal Rose
+Dialogue: 0,0:08:36.66,0:08:36.70,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1389.25 274.33 b 1400.85 262.21 1424.76 256.66 1438.44 254.93 1475.86 223.07 1549.31 227.91 1590.88 236.23 l 1562.47 319.36)}The Eternal Rose
+Dialogue: 0,0:08:36.70,0:08:36.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1330.67 279.26 b 1372.93 235.94 1398.48 234.22 1417.09 230.84 1452.87 199.53 1528.51 196.71 1569.53 212.14 l 1541.12 295.27)}Suspects in Stealing
+Dialogue: 0,0:08:36.70,0:08:36.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1330.67 279.26 b 1372.93 235.94 1398.48 234.22 1417.09 230.84 1452.87 199.53 1528.51 196.71 1569.53 212.14 l 1541.12 295.27)}The Eternal Rose
+Dialogue: 0,0:08:36.75,0:08:36.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1308.95 277.7 b 1332.82 240.13 1384.87 216.12 1411.82 211.2 1436.45 184.87 1493.74 182.1 1512.84 182.26 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.75,0:08:36.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1308.95 277.7 b 1332.82 240.13 1384.87 216.12 1411.82 211.2 1436.45 184.87 1493.74 182.1 1512.84 182.26 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:36.79,0:08:36.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1295.79 277.7 b 1328.43 227.86 1379.61 205.6 1412.7 197.17 1450.48 166.46 1491.11 171.58 1513.72 169.11 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.79,0:08:36.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1295.79 277.7 b 1328.43 227.86 1379.61 205.6 1412.7 197.17 1450.48 166.46 1491.11 171.58 1513.72 169.11 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:36.83,0:08:36.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1294.04 275.95 b 1328.43 227.86 1369.96 203.85 1406.56 194.54 1451.36 163.83 1491.11 168.07 1513.72 166.48 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.83,0:08:36.87,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1294.04 275.95 b 1328.43 227.86 1369.96 203.85 1406.56 194.54 1451.36 163.83 1491.11 168.07 1513.72 166.48 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:36.87,0:08:36.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1296.67 276.83 b 1328.43 227.86 1369.96 203.85 1408.31 195.42 1457.5 165.58 1491.11 168.07 1513.72 166.48 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.87,0:08:36.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1296.67 276.83 b 1328.43 227.86 1369.96 203.85 1408.31 195.42 1457.5 165.58 1491.11 168.07 1513.72 166.48 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:36.91,0:08:36.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1296.67 276.83 b 1325.8 238.38 1369.96 203.85 1412.7 198.05 1458.38 167.33 1491.11 170.7 1513.72 169.99 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.91,0:08:36.95,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1296.67 276.83 b 1325.8 238.38 1369.96 203.85 1412.7 198.05 1458.38 167.33 1491.11 170.7 1513.72 169.99 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:36.95,0:08:37.00,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1300.18 279.46 b 1328.43 237.5 1373.47 207.36 1416.21 199.8 1443.47 178.73 1491.11 170.7 1513.72 171.74 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:36.95,0:08:37.00,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1300.18 279.46 b 1328.43 237.5 1373.47 207.36 1416.21 199.8 1443.47 178.73 1491.11 170.7 1513.72 171.74 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.00,0:08:37.04,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1301.93 280.34 b 1336.32 245.39 1355.05 227.52 1399.54 219.09 1443.47 183.11 1491.11 187.36 1510.21 186.64 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.00,0:08:37.04,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1301.93 280.34 b 1336.32 245.39 1355.05 227.52 1399.54 219.09 1443.47 183.11 1491.11 187.36 1510.21 186.64 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.04,0:08:37.08,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1300.18 280.34 b 1336.32 245.39 1348.91 248.56 1376.74 241.01 1426.8 199.77 1485.85 205.77 1508.46 210.31 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.04,0:08:37.08,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1300.18 280.34 b 1336.32 245.39 1348.91 248.56 1376.74 241.01 1426.8 199.77 1485.85 205.77 1508.46 210.31 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.08,0:08:37.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1275.62 280.34 b 1326.67 239.25 1333.12 248.56 1357.44 241.01 1405.75 198.02 1485.85 211.03 1508.46 219.08 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.08,0:08:37.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1275.62 280.34 b 1326.67 239.25 1333.12 248.56 1357.44 241.01 1405.75 198.02 1485.85 211.03 1508.46 219.08 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.12,0:08:37.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1234.4 280.34 b 1274.04 242.76 1300.67 235.41 1332.01 227.86 1393.47 178.73 1470.06 202.26 1507.97 214.2 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.12,0:08:37.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1234.4 280.34 b 1274.04 242.76 1300.67 235.41 1332.01 227.86 1393.47 178.73 1470.06 202.26 1507.97 214.2 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.16,0:08:37.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1196.29 278.26 b 1233.85 239.3 1261.18 218.78 1305.68 211.23 1377.53 162.1 1456.9 188.4 1508.66 212.12 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.16,0:08:37.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1196.29 278.26 b 1233.85 239.3 1261.18 218.78 1305.68 211.23 1377.53 162.1 1456.9 188.4 1508.66 212.12 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.20,0:08:37.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1158.87 277.57 b 1199.21 228.91 1233.46 203.54 1274.5 198.76 1365.06 137.85 1465.91 184.93 1508.66 214.89 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.20,0:08:37.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1158.87 277.57 b 1199.21 228.91 1233.46 203.54 1274.5 198.76 1365.06 137.85 1465.91 184.93 1508.66 214.89 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.25,0:08:37.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1125.61 277.57 b 1150.01 231.68 1193.97 193.15 1244.71 191.14 1320.72 129.54 1452.05 175.23 1496.19 223.2 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.25,0:08:37.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1125.61 277.57 b 1150.01 231.68 1193.97 193.15 1244.71 191.14 1320.72 129.54 1452.05 175.23 1496.19 223.2 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.29,0:08:37.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1093.04 271.34 b 1131.3 210.9 1183.58 192.46 1211.45 191.83 1290.93 126.77 1429.18 173.15 1466.4 232.21 1464.22 196.66 1469.57 126.95 1537.38 121.19 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.29,0:08:37.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1093.04 271.34 b 1131.3 210.9 1183.58 192.46 1211.45 191.83 1290.93 126.77 1429.18 173.15 1466.4 232.21 1464.22 196.66 1469.57 126.95 1537.38 121.19 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.33,0:08:37.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1066.71 272.03 b 1086.95 238.61 1130.92 203.54 1179.58 201.53 1261.83 133.7 1394.54 191.16 1433.83 239.83 1437.89 185.58 1441.85 138.73 1508.28 133.66 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.33,0:08:37.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1066.71 272.03 b 1086.95 238.61 1130.92 203.54 1179.58 201.53 1261.83 133.7 1394.54 191.16 1433.83 239.83 1437.89 185.58 1441.85 138.73 1508.28 133.66 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.37,0:08:37.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1042.54 266.58 b 1076.82 235.49 1108.31 214.45 1139.04 220.23 1222.85 146.17 1367.26 213.76 1400.31 262.43 1390.34 180.13 1441.85 138.73 1493.47 159.37 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.37,0:08:37.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1042.54 266.58 b 1076.82 235.49 1108.31 214.45 1139.04 220.23 1222.85 146.17 1367.26 213.76 1400.31 262.43 1390.34 180.13 1441.85 138.73 1493.47 159.37 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.41,0:08:37.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1009.8 263.46 b 1048.76 230.04 1072.45 226.92 1096.94 226.46 1200.24 153.18 1308.02 230.12 1355.88 271.78 1352.14 162.21 1444.97 127.04 1487.23 216.25 l 1505.45 291.24)}Suspects in Stealing
+Dialogue: 0,0:08:37.41,0:08:37.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1009.8 263.46 b 1048.76 230.04 1072.45 226.92 1096.94 226.46 1200.24 153.18 1308.02 230.12 1355.88 271.78 1352.14 162.21 1444.97 127.04 1487.23 216.25 l 1505.45 291.24)}The Eternal Rose
+Dialogue: 0,0:08:37.46,0:08:37.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1058.61 226.75 b 1125.46 183.12 1249.79 211.17 1313.52 287.53 1310.79 212.14 1345.09 177.47 1380.56 177.66 1451.69 179.03 1466.89 264.35 1434.35 320.26 l 1046.92 271.95)}Suspects in Stealing
+Dialogue: 0,0:08:37.46,0:08:37.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1058.61 226.75 b 1125.46 183.12 1249.79 211.17 1313.52 287.53 1310.79 212.14 1345.09 177.47 1380.56 177.66 1451.69 179.03 1466.89 264.35 1434.35 320.26 l 1046.92 271.95)}The Eternal Rose
+Dialogue: 0,0:08:37.50,0:08:37.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 1018.85 237.66 b 1089.6 195.59 1207.69 219.74 1278.44 300 1277.27 205.91 1317.81 195.39 1343.92 191.69 1401.8 186.82 1434.15 256.56 1401.61 331.17 l 1046.92 271.95)}Suspects in Stealing
+Dialogue: 0,0:08:37.50,0:08:37.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 1018.85 237.66 b 1089.6 195.59 1207.69 219.74 1278.44 300 1277.27 205.91 1317.81 195.39 1343.92 191.69 1401.8 186.82 1434.15 256.56 1401.61 331.17 l 1046.92 271.95)}The Eternal Rose
+Dialogue: 0,0:08:37.54,0:08:37.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)}Suspects in Stealing
+Dialogue: 0,0:08:37.54,0:08:37.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 986.28 246.67 b 1037.63 201.13 1203.53 222.51 1248.65 316.63 1246.78 205.91 1297.02 200.93 1316.2 200.01 1372.7 199.98 1405.74 265.57 1369.04 347.1 l 998.42 305.2)}The Eternal Rose
+Dialogue: 0,0:08:37.58,0:08:37.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 962.71 231.52 b 1061.53 185.07 1163.83 217.11 1226.69 305.26 1223.64 221.48 1243.26 198.02 1286.93 189.04 1345.63 182.3 1385.73 266.89 1341.57 336.33 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.58,0:08:37.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 962.71 231.52 b 1061.53 185.07 1163.83 217.11 1226.69 305.26 1223.64 221.48 1243.26 198.02 1286.93 189.04 1345.63 182.3 1385.73 266.89 1341.57 336.33 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.62,0:08:37.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 944.69 209.35 b 1035.89 153.2 1163.83 214.34 1205.9 281.71 1202.16 219.4 1210 175.85 1265.45 168.26 1319.3 158.75 1358.71 235.72 1318.7 311.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.62,0:08:37.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 944.69 209.35 b 1035.89 153.2 1163.83 214.34 1205.9 281.71 1202.16 219.4 1210 175.85 1265.45 168.26 1319.3 158.75 1358.71 235.72 1318.7 311.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.66,0:08:37.71,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 929.1 196.88 b 1031.21 139.17 1153.7 203.43 1190.31 273.14 1177.83 198.59 1202.98 164.16 1243.62 155.01 1298.25 149.4 1340.78 224.81 1296.09 299.7 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.66,0:08:37.71,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 929.1 196.88 b 1031.21 139.17 1153.7 203.43 1190.31 273.14 1177.83 198.59 1202.98 164.16 1243.62 155.01 1298.25 149.4 1340.78 224.81 1296.09 299.7 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.71,0:08:37.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1009.65 132.39 1145.69 204.66 1177.99 269.45 1171.67 195.51 1193.74 167.85 1226.37 158.09 1296.4 148.78 1324.76 235.28 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.71,0:08:37.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1009.65 132.39 1145.69 204.66 1177.99 269.45 1171.67 195.51 1193.74 167.85 1226.37 158.09 1296.4 148.78 1324.76 235.28 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.75,0:08:37.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1002.9 142.13 1146.22 203.08 1176.12 278.61 1164.3 196.04 1193.74 170.48 1222.68 162.3 1280.61 150.89 1322.13 234.75 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.75,0:08:37.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1002.9 142.13 1146.22 203.08 1176.12 278.61 1164.3 196.04 1193.74 170.48 1222.68 162.3 1280.61 150.89 1322.13 234.75 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.79,0:08:37.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1007.83 150.13 1146.22 200.62 1174.89 278.61 1161.22 196.66 1193.74 172.33 1222.68 165.99 1273.83 153.97 1320.28 234.75 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.79,0:08:37.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1007.83 150.13 1146.22 200.62 1174.89 278.61 1161.22 196.66 1193.74 172.33 1222.68 165.99 1273.83 153.97 1320.28 234.75 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.83,0:08:37.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1007.83 153.16 1144.49 203.65 1173.59 280.77 1158.39 196.66 1194.61 174.43 1223.11 169.02 1272.1 160.46 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.83,0:08:37.91,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1007.83 153.16 1144.49 203.65 1173.59 280.77 1158.39 196.66 1194.61 174.43 1223.11 169.02 1272.1 160.46 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:37.91,0:08:38.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1007.83 154.8 1144.49 203.65 1173.59 280.77 1158.94 197.21 1195.7 174.98 1223.11 169.02 1271.01 160.46 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:37.91,0:08:38.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1007.83 154.8 1144.49 203.65 1173.59 280.77 1158.94 197.21 1195.7 174.98 1223.11 169.02 1271.01 160.46 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.12,0:08:38.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1008.92 159.18 1140.11 203.65 1173.59 280.77 1156.75 197.21 1195.7 174.98 1225.85 171.21 1268.27 161.55 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.12,0:08:38.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1008.92 159.18 1140.11 203.65 1173.59 280.77 1156.75 197.21 1195.7 174.98 1225.85 171.21 1268.27 161.55 1317.45 234.75 1284.39 295.39 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.16,0:08:38.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 924.79 199.34 b 1005.64 167.39 1134.09 204.2 1171.95 283.51 1159.49 199.4 1201.17 180.45 1225.85 174.49 1267.72 165.38 1317.45 234.75 1287.67 298.13 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.16,0:08:38.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 924.79 199.34 b 1005.64 167.39 1134.09 204.2 1171.95 283.51 1159.49 199.4 1201.17 180.45 1225.85 174.49 1267.72 165.38 1317.45 234.75 1287.67 298.13 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.21,0:08:38.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 931.89 209.02 b 1005.64 175.14 1126.34 202.26 1172.6 290.61 1162.72 199.4 1201.17 186.91 1225.85 180.95 1264.49 170.54 1317.45 234.75 1290.25 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.21,0:08:38.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 931.89 209.02 b 1005.64 175.14 1126.34 202.26 1172.6 290.61 1162.72 199.4 1201.17 186.91 1225.85 180.95 1264.49 170.54 1317.45 234.75 1290.25 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.25,0:08:38.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 931.89 209.02 b 1005.64 185.54 1121.41 199.52 1174.79 293.89 1163.82 200.49 1202.81 187.46 1229.13 182.04 1266.13 172.73 1320.73 228.18 1292.99 301.26 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.25,0:08:38.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 931.89 209.02 b 1005.64 185.54 1121.41 199.52 1174.79 293.89 1163.82 200.49 1202.81 187.46 1229.13 182.04 1266.13 172.73 1320.73 228.18 1292.99 301.26 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.29,0:08:38.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 931.89 209.02 b 1005.64 185.54 1126.88 197.88 1178.07 297.17 1166.01 200.49 1202.81 187.46 1233.51 178.21 1272.15 170.54 1326.75 221.61 1296.82 301.26 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.29,0:08:38.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 931.89 209.02 b 1005.64 185.54 1126.88 197.88 1178.07 297.17 1166.01 200.49 1202.81 187.46 1233.51 178.21 1272.15 170.54 1326.75 221.61 1296.82 301.26 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.33,0:08:38.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 931.89 209.02 b 996.89 166.93 1125.78 201.16 1178.62 288.96 1174.77 192.83 1211.57 179.25 1237.89 175.47 1278.17 166.71 1332.22 215.59 1301.2 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.33,0:08:38.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 931.89 209.02 b 996.89 166.93 1125.78 201.16 1178.62 288.96 1174.77 192.83 1211.57 179.25 1237.89 175.47 1278.17 166.71 1332.22 215.59 1301.2 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.37,0:08:38.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 990.27 159.11 1131.8 201.16 1179.22 287.76 1180.18 191.63 1211.57 179.25 1243.91 174.27 1280.58 166.71 1335.83 215.59 1304.21 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.37,0:08:38.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 990.27 159.11 1131.8 201.16 1179.22 287.76 1180.18 191.63 1211.57 179.25 1243.91 174.27 1280.58 166.71 1335.83 215.59 1304.21 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.41,0:08:38.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 992.46 158.02 1131.25 199.52 1180.86 288.31 1180.18 190.54 1211.57 179.25 1243.91 174.27 1285.64 168.7 1335.83 215.59 1306.4 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.41,0:08:38.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 992.46 158.02 1131.25 199.52 1180.86 288.31 1180.18 190.54 1211.57 179.25 1243.91 174.27 1285.64 168.7 1335.83 215.59 1306.4 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.46,0:08:38.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 992.46 158.02 1134.28 203.27 1180.86 288.31 1180.16 189.24 1217.19 181.85 1239.58 175.14 1284.85 166.48 1335.83 215.59 1306.4 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.46,0:08:38.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 992.46 158.02 1134.28 203.27 1180.86 288.31 1180.16 189.24 1217.19 181.85 1239.58 175.14 1284.85 166.48 1335.83 215.59 1306.4 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:38.50,0:08:39.17,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 990.82 159.66 1135.37 200.53 1180.86 290.5 1181.73 189.24 1217.19 181.85 1239.58 175.14 1290.32 168.67 1337.47 215.59 1306.4 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:38.50,0:08:39.17,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 990.82 159.66 1135.37 200.53 1180.86 290.5 1181.73 189.24 1217.19 181.85 1239.58 175.14 1290.32 168.67 1337.47 215.59 1306.4 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.17,0:08:39.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 991.91 156.92 1134.28 197.25 1180.86 289.41 1183.17 190.2 1214.45 180.21 1239.58 175.14 1290.32 168.67 1337.47 215.04 1306.4 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.17,0:08:39.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 991.91 156.92 1134.28 197.25 1180.86 289.41 1183.17 190.2 1214.45 180.21 1239.58 175.14 1290.32 168.67 1337.47 215.04 1306.4 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.21,0:08:39.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 205.41 b 992.94 155.55 1134.96 198.96 1180.86 286.68 1180.32 196.25 1213.4 176.7 1240.61 173.43 1292.4 166.3 1336.43 215.04 1305.88 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.21,0:08:39.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 205.41 b 992.94 155.55 1134.96 198.96 1180.86 286.68 1180.32 196.25 1213.4 176.7 1240.61 173.43 1292.4 166.3 1336.43 215.04 1305.88 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.25,0:08:39.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 919.27 199.87 b 992.94 155.55 1122.64 194.03 1180.24 282.99 1180.32 196.25 1211.55 176.08 1240.61 170.97 1287.47 162.61 1336.43 215.04 1304.03 300.71 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.25,0:08:39.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 919.27 199.87 b 992.94 155.55 1122.64 194.03 1180.24 282.99 1180.32 196.25 1211.55 176.08 1240.61 170.97 1287.47 162.61 1336.43 215.04 1304.03 300.71 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.29,0:08:39.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 919.27 199.87 b 998.48 154.32 1122.64 194.03 1179.62 281.14 1179.7 196.25 1207.85 176.08 1235.07 169.74 1289.93 162.61 1335.81 213.81 1302.18 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.29,0:08:39.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 919.27 199.87 b 998.48 154.32 1122.64 194.03 1179.62 281.14 1179.7 196.25 1207.85 176.08 1235.07 169.74 1289.93 162.61 1335.81 213.81 1302.18 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.33,0:08:39.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 919.27 199.87 b 996.02 159.86 1122.64 193.41 1176.54 281.76 1177.85 196.87 1202.31 177.31 1230.14 171.59 1287.47 156.45 1329.65 224.28 1298.48 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.33,0:08:39.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 919.27 199.87 b 996.02 159.86 1122.64 193.41 1176.54 281.76 1177.85 196.87 1202.31 177.31 1230.14 171.59 1287.47 156.45 1329.65 224.28 1298.48 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.37,0:08:39.42,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 919.27 208.91 b 994.73 168.25 1131.03 201.8 1175.45 286.69 1170.59 201.86 1199.59 182.3 1229.69 174.76 1270.24 162.8 1329.2 220.65 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.37,0:08:39.42,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 919.27 208.91 b 994.73 168.25 1131.03 201.8 1175.45 286.69 1170.59 201.86 1199.59 182.3 1229.69 174.76 1270.24 162.8 1329.2 220.65 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.42,0:08:39.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 223.07 b 995.35 167.02 1131.03 218.42 1174.22 294.69 1168.13 202.48 1197.12 193.39 1224.15 183.38 1262.23 171.42 1319.34 219.42 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.42,0:08:39.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 223.07 b 995.35 167.02 1131.03 218.42 1174.22 294.69 1168.13 202.48 1197.12 193.39 1224.15 183.38 1262.23 171.42 1319.34 219.42 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.46,0:08:39.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 992.3 179.21 1131.03 220.7 1171.94 299.26 1168.13 211.99 1194.26 201.95 1225.57 192.88 1256.05 186.63 1310.78 220.37 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.46,0:08:39.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 992.3 179.21 1131.03 220.7 1171.94 299.26 1168.13 211.99 1194.26 201.95 1225.57 192.88 1256.05 186.63 1310.78 220.37 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.50,0:08:39.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1006.9 186.02 1138.33 231.89 1173.89 307.53 1163.75 224.16 1192.8 208.28 1219.73 199.2 1257.51 186.14 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.50,0:08:39.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1006.9 186.02 1138.33 231.89 1173.89 307.53 1163.75 224.16 1192.8 208.28 1219.73 199.2 1257.51 186.14 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.54,0:08:39.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 231.89 1173.89 310.81 1165.39 224.16 1192.8 208.28 1219.73 199.48 1257.51 186.14 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.54,0:08:39.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 231.89 1173.89 310.81 1165.39 224.16 1192.8 208.28 1219.73 199.48 1257.51 186.14 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.58,0:08:39.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 234.08 1173.89 310.81 1162.7 227.13 1192.8 208.83 1220 199.49 1257.51 187.23 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.58,0:08:39.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 234.08 1173.89 310.81 1162.7 227.13 1192.8 208.83 1220 199.49 1257.51 187.23 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.62,0:08:39.67,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 234.08 1173.89 310.81 1165.14 224.7 1191.45 209.38 1220 199.23 1258.32 186.43 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.62,0:08:39.67,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1006.9 186.02 1142.16 234.08 1173.89 310.81 1165.14 224.7 1191.45 209.38 1220 199.23 1258.32 186.43 1308.35 225.72 1294.85 299.48 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.67,0:08:39.71,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1006.9 186.02 1143.8 234.08 1173.89 310.81 1165.94 224.16 1192.8 209.92 1220 198.92 1260.22 185.61 1308.35 225.72 1297.59 300.57 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.67,0:08:39.71,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1006.9 186.02 1143.8 234.08 1173.89 310.81 1165.94 224.16 1192.8 209.92 1220 198.92 1260.22 185.61 1308.35 225.72 1297.59 300.57 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.71,0:08:39.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1008.46 182.6 1146.91 236.26 1173.89 310.81 1165.4 224.16 1192.8 209.92 1220.27 197.57 1260.22 185.61 1308.35 225.72 1297.59 300.57 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.71,0:08:39.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1008.46 182.6 1146.91 236.26 1173.89 310.81 1165.4 224.16 1192.8 209.92 1220.27 197.57 1260.22 185.61 1308.35 225.72 1297.59 300.57 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.75,0:08:39.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1011.42 181.49 1150.53 239.22 1173.89 310.81 1166.72 224.16 1190.41 209.12 1220.76 196.94 1261.04 184.79 1308.78 225.5 1297.59 300.57 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.75,0:08:39.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1011.42 181.49 1150.53 239.22 1173.89 310.81 1166.72 224.16 1190.41 209.12 1220.76 196.94 1261.04 184.79 1308.78 225.5 1297.59 300.57 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.79,0:08:39.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1011.42 181.49 1150.53 238.18 1173.89 310.81 1166.72 224.16 1190.17 207.68 1220.76 196.46 1261.04 184.07 1309.67 225.5 1297.59 300.57 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.79,0:08:39.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1011.42 181.49 1150.53 238.18 1173.89 310.81 1166.72 224.16 1190.17 207.68 1220.76 196.46 1261.04 184.07 1309.67 225.5 1297.59 300.57 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:39.83,0:08:39.96,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,194)\iclip(m 918.65 230.69 b 1011.78 180.42 1150.53 237.97 1173.89 310.81 1166.72 224.16 1190.17 207.68 1220.76 196.25 1261.04 184.07 1309.67 225.5 1297.59 300.57 l 956.58 305.26)}Suspects in Stealing
+Dialogue: 0,0:08:39.83,0:08:39.96,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1260,258)\iclip(m 918.65 230.69 b 1011.78 180.42 1150.53 237.97 1173.89 310.81 1166.72 224.16 1190.17 207.68 1220.76 196.25 1261.04 184.07 1309.67 225.5 1297.59 300.57 l 956.58 305.26)}The Eternal Rose
+Dialogue: 0,0:08:35.87,0:08:39.96,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(582,896)}Isabella
+Dialogue: 0,0:08:35.87,0:08:37.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)}Candle
+Dialogue: 0,0:08:37.41,0:08:37.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 987.98 903.33 b 992.97 892.26 993.7 874.49 988.47 864.88 l 1021.57 847.84 1022.05 915.49)}Candle
+Dialogue: 0,0:08:37.46,0:08:37.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 943.59 908.05 b 948.38 880.33 936.08 872.27 933.57 860.35 l 1017.72 866.13 1015.29 881.32 b 1008.76 887.62 990.83 898.4 985.52 908.96)}Candle
+Dialogue: 0,0:08:37.50,0:08:37.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 908.05 906.38 b 904.98 891.26 893.7 882.2 890.28 873.23 888.36 868.87 888.57 863.79 888.57 860.92 l 976.06 863.32 b 983.36 867.94 977.67 879.52 970.46 888.19 962.78 894.89 957.44 898.7 953.16 909.46)}Candle
+Dialogue: 0,0:08:37.54,0:08:37.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 926.85 914.24 b 931.12 902.36 944.79 885.45 946.67 873.57 l 958.29 868.78 b 964.87 869.81 975.29 874.59 984.61 872.89 l 999.3 911.85 1027.67 900.23 1015.36 847.59 858.84 857.85 864.31 910.82)}Candle
+Dialogue: 0,0:08:37.58,0:08:37.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 911.09 905.32 b 915.33 894.75 923.4 882.8 917.4 871.59 l 887.09 879.8 b 885.29 878.92 884.25 876.31 885.87 873.72 889.29 873.63 896.12 872.81 899.54 871.44 l 952.41 864.61 b 957.04 876.46 966.52 894.82 970.94 912 l 1017.72 901.67 1015.29 849.11 862.78 862.78 865.22 910.48)}Candle
+Dialogue: 0,0:08:37.62,0:08:37.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\iclip(m 900.86 905 l 903.83 886.9 b 901.4 872.32 881.42 878.26 871.43 884.74 l 867.11 872.05 b 875.95 874.48 889.32 869.89 890.6 862.33 l 937.86 862.6 950.28 910.4 1017.52 902.84 1016.44 850.44 851.71 856.65 854.95 912.83)}Candle
+Dialogue: 0,0:08:37.66,0:08:37.71,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 895.9 905.92 b 902.51 878.89 882 874.63 868.25 888.91 l 868.56 861.27 925.67 861.57 934.78 911.39)}Candle
+Dialogue: 0,0:08:37.71,0:08:37.75,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 894.46 906.64 b 900.59 884.17 882.24 877.03 868.25 888.91 l 868.56 861.27 918.95 862.77 926.86 907.31)}Candle
+Dialogue: 0,0:08:37.75,0:08:37.79,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 890.7 906.64 b 899.22 884.17 877.8 872.59 858.68 897.11 l 868.56 861.27 915.19 863.45 923.1 903.21)}Candle
+Dialogue: 0,0:08:37.79,0:08:37.83,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.64 906.64 b 895.91 883.76 875.96 873.41 858.68 897.11 l 868.56 861.27 913.95 863.45 920.82 903.42)}Candle
+Dialogue: 0,0:08:37.83,0:08:38.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 887.82 907.46 b 895.91 884.79 875.75 873.41 858.68 897.11 l 868.56 861.27 913.13 863.45 920.41 901.98)}Candle
+Dialogue: 0,0:08:38.12,0:08:38.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 887.82 907.46 b 894.47 884.79 874.93 876.28 858.68 897.11 l 868.56 861.27 912.92 864.68 920.2 901.98)}Candle
+Dialogue: 0,0:08:38.16,0:08:38.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 887.82 907.46 b 895.08 885.6 869.68 881.13 858.68 897.11 l 868.56 861.27 911.51 864.68 919.59 901.98)}Candle
+Dialogue: 0,0:08:38.21,0:08:38.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 887.82 907.46 b 894.47 889.03 866.45 879.51 858.68 897.11 l 868.56 861.27 909.89 864.68 918.18 901.98)}Candle
+Dialogue: 0,0:08:38.25,0:08:38.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.03 907.66 b 889.62 887.01 871.7 879.91 858.68 897.11 l 862.17 883.45 b 869.78 883.11 882.97 875.96 878.86 865.92 l 906.25 860.44 916.97 904)}Candle
+Dialogue: 0,0:08:38.29,0:08:38.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.39 902.66 b 887.53 891.75 881.98 887.71 872.84 888.12 884.65 880.29 881.01 873.12 875.06 865.09 l 903.74 860.65 918.69 915.79)}Candle
+Dialogue: 0,0:08:38.33,0:08:38.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889 902.86 b 887.53 891.75 881.98 887.91 876.48 889.33 884.65 880.29 881.01 874.53 873.65 864.28 l 902.73 860.65 917.07 913.37)}Candle
+Dialogue: 0,0:08:38.37,0:08:38.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889 902.86 b 887.53 892.36 881.98 887.91 876.48 890.54 884.65 880.29 880.4 875.13 873.65 864.28 l 902.53 860.65 916.87 913.37)}Candle
+Dialogue: 0,0:08:38.41,0:08:38.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889 903.67 b 887.53 893.17 881.98 888.72 876.48 891.35 884.65 881.1 880.4 875.94 873.65 865.09 l 902.53 861.46 916.87 914.18)}Candle
+Dialogue: 0,0:08:38.46,0:08:39.17,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889 904.07 b 887.53 893.57 881.98 889.12 876.48 891.75 884.65 881.5 880.4 876.34 873.65 865.49 l 902.53 861.86 916.87 914.58)}Candle
+Dialogue: 0,0:08:39.17,0:08:39.21,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.57 903.86 b 887.53 892.29 881.98 888.91 876.48 891.54 886.14 881.29 879.33 876.13 873.65 865.28 l 902.74 861.01 917.3 914.37)}Candle
+Dialogue: 0,0:08:39.21,0:08:39.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.36 905.99 b 885.61 895.06 883.9 892.11 880.11 890.69 888.06 877.88 874.21 874 874.5 865.28 l 904.02 861.01 917.3 914.37)}Candle
+Dialogue: 0,0:08:39.25,0:08:39.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.36 905.99 b 885.61 895.06 883.9 892.11 880.11 890.69 889.13 877.88 875.28 872.08 874.5 865.28 l 905.09 861.01 918.15 914.37)}Candle
+Dialogue: 0,0:08:39.29,0:08:39.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 887.93 904.92 b 885.61 893.78 883.9 890.83 878.83 890.69 890.41 875.75 875.28 870.8 874.5 864 l 905.09 859.73 918.15 913.09)}Candle
+Dialogue: 0,0:08:39.33,0:08:39.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 888.78 903.21 b 886.46 892.93 883.9 890.83 876.06 888.98 891.48 875.75 874.85 867.39 875.14 860.37 l 905.73 859.73 918.36 913.09)}Candle
+Dialogue: 0,0:08:39.37,0:08:39.42,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.85 903.21 b 886.65 893.75 884.31 887.38 870.53 890.57 l 868.59 887.91 b 896.82 879.17 875.49 864.62 875.14 860.37 l 906.16 859.73 918.79 913.09)}Candle
+Dialogue: 0,0:08:39.42,0:08:39.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.42 902.36 b 887.93 892.9 884.74 886.53 870.1 891.43 l 868.38 886.2 b 896.18 878.53 875.49 864.62 875.78 858.02 l 905.52 859.73 918.79 913.09)}Candle
+Dialogue: 0,0:08:39.46,0:08:39.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.85 902.15 b 887.29 892.69 884.74 886.32 870.53 891.43 l 868.38 886.42 b 896.18 878.32 875.49 864.41 875.78 857.81 l 905.52 859.94 918.79 913.3)}Candle
+Dialogue: 0,0:08:39.50,0:08:39.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 890.28 903.64 b 887.29 892.69 884.74 886.32 870.53 891 l 868.59 886.85 b 895.33 880.45 875.49 864.41 875.78 857.81 l 904.88 859.94 918.79 913.3)}Candle
+Dialogue: 0,0:08:39.54,0:08:39.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.85 903.64 b 888.57 893.97 884.74 886.32 870.1 890.57 l 868.59 887.7 b 895.12 881.09 875.06 865.48 875.78 857.81 l 904.66 859.94 918.36 913.3)}Candle
+Dialogue: 0,0:08:39.58,0:08:39.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.85 903.64 b 888.57 893.97 884.1 886.75 870.1 890.57 l 868.59 888.34 b 894.69 882.37 875.06 865.48 875.78 857.81 l 904.66 859.94 917.93 912.66)}Candle
+Dialogue: 0,0:08:39.62,0:08:39.67,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.64 903.64 b 888.57 893.97 884.1 887.82 873.51 888.86 890.85 877.89 875.7 865.48 873.65 858.45 l 903.59 860.37 917.93 912.66)}Candle
+Dialogue: 0,0:08:39.67,0:08:39.96,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(944,896)\c&H0E1013&\clip(m 889.64 903.64 b 888.57 893.97 884.1 887.82 873.94 888.86 890.85 877.89 875.7 865.48 873.65 858.45 l 903.59 860.37 917.93 912.66)}Candle
+Dialogue: 0,0:08:35.87,0:08:36.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)}Andead
+Dialogue: 0,0:08:36.58,0:08:36.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\iclip(m 1381.93 911.75 b 1351.44 897.26 1329.82 873.04 1319.65 850.33 l 1414.81 840.82 1418.27 913.48)}Andead
+Dialogue: 0,0:08:36.62,0:08:36.66,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\iclip(m 1397.07 893.15 b 1390.09 895.42 1375.87 899.42 1363.77 895.75 1354.25 889.7 1340.89 888.93 1330.03 884.5 1327.11 886.5 1321.27 881.58 1318.35 880.61 1306.78 876.87 1288.51 861.3 1278.56 849.47 l 1391.02 833.46)}Andead
+Dialogue: 0,0:08:36.66,0:08:37.12,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\t(250,380,\c&H000811&)}Andead
+Dialogue: 0,0:08:37.12,0:08:37.16,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1397.5 909.15 b 1392.64 891.75 1377.72 863.42 1374.58 844.71 l 1413.51 844.71 1416.97 910.89)}Andead
+Dialogue: 0,0:08:37.16,0:08:37.20,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1369.39 909.15 b 1365.4 889.15 1349.61 863.42 1346.47 844.71 l 1413.51 844.71 1416.97 910.89)}Andead
+Dialogue: 0,0:08:37.20,0:08:37.25,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1335.22 909.15 b 1332.96 886.56 1318.9 863.42 1314.46 844.71 l 1413.51 844.71 1416.97 910.89)}Andead
+Dialogue: 0,0:08:37.25,0:08:37.29,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1270.34 901.8 b 1276.3 881.8 1267 869.04 1265.58 850.33 l 1413.51 844.71 1416.97 910.89)}Andead
+Dialogue: 0,0:08:37.29,0:08:37.33,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1391.45 909.59 l 1379.34 898.34 1376.74 874.12 1389.29 870.23 1387.12 855.09 1225.36 858.98 1225.36 917.37)}Andead
+Dialogue: 0,0:08:37.33,0:08:37.37,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1344.3 910.89 b 1338.14 899.75 1336.63 884.39 1340.41 864.6 l 1353.38 869.79 b 1358.47 876.18 1370.8 880.72 1381.18 869.36 l 1387.98 856.82 1225.36 858.98 1225.36 917.37)}Andead
+Dialogue: 0,0:08:37.37,0:08:37.41,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1303.36 925.23 b 1295.2 905.68 1305.55 873.76 1306.28 856.6 l 1335.97 860.01 b 1337.73 865.45 1330.98 885.23 1338.89 887.26 1351.3 891.68 1363.8 885.1 1366.63 870.72 l 1379.29 861.47 1392.91 888.24 1400.7 876.56 1384.64 847.35 1223.06 845.89 1224.03 931.07)}Andead
+Dialogue: 0,0:08:37.41,0:08:37.46,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1260.65 920.9 b 1262.62 903.7 1265.13 874.32 1268.53 859.27 1280.72 861.51 1304.01 865.63 1308.67 875.39 1311.18 881.48 1302.93 902.98 1315.83 901.19 1332.23 901.01 1336 889.91 1335.54 877.54 1340.29 878.89 1346.56 875.12 1353.1 872.89 1362.24 888.83 1372.63 901.37 1378.19 912.3 l 1407.57 893.31 1376.75 847.09 1221.95 849.24 1216.93 923.77)}Andead
+Dialogue: 0,0:08:37.46,0:08:37.50,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1235.17 873.13 b 1250.77 875.49 1281.42 870.5 1280.54 882.31 1282.63 887.98 1273.32 902.03 1284.32 904.19 1297.35 905.87 1308.02 903.84 1306.19 882.04 1312.07 882.18 1320.84 879.2 1321.05 872.59 1328.61 886.9 1335.63 900.95 1340.49 910.4 l 1403.68 910.4 b 1405.5 907.56 1402.94 900.54 1396.93 902.3 1391.66 892.98 1378.7 890.01 1368.3 897.43 1362.77 886.77 1353.32 863.81 1348.32 852.6 l 1222.48 853.14)}Andead
+Dialogue: 0,0:08:37.50,0:08:37.54,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1215.84 887.53 b 1231.98 882.01 1249.85 880.57 1249.91 887.53 1250.48 892.5 1240.8 903.17 1250.01 907.42 1262.07 912.65 1275.62 908.71 1274.23 891.85 1279.05 889.16 1283.64 886.66 1286.78 884.93 1290.49 888.42 1295.99 897.79 1295.86 906.56 l 1352.09 909.15 b 1351.09 894.05 1335.64 884.49 1323.11 890.99 1319.38 879.84 1313.38 861.15 1310.13 851.2 l 1226.22 855.96)}Andead
+Dialogue: 0,0:08:37.54,0:08:37.58,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1304.48 910.45 b 1302.65 895.55 1291.69 888.05 1281.41 889.3 l 1279.1 863.15 1205.67 862.77 1222.97 911.21)}Andead
+Dialogue: 0,0:08:37.58,0:08:37.62,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&\iclip(m 1259.24 910.78 b 1258.03 900.99 1249.52 892.03 1243.44 891.04 1244.12 882.46 1247.32 865.29 1246.78 856.71 l 1226.73 853.67 1220.96 907.14)}Andead
+Dialogue: 0,0:08:37.62,0:08:39.96,0$Ep23 - Suspects,,0,0,0,,{\blur1\pos(1310,896)\c&H000811&}Andead
+Comment: 1,0:22:45.05,0:23:25.05,0$Default,,0,0,0,,== TS - POST-ED ==
+Dialogue: 1,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs110\3c&H1E1E1E&\shad0\pos(540,1063.2)}Paccarat Lapa
+Dialogue: 0,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&H030309&\bord4\blur1\fs110\3c&H030309&\shad0\pos(540,1063.2)}Paccarat Lapa
+Dialogue: 1,0:23:10.08,0:23:25.09,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:10.08,0:23:25.09,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:18.50,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(485,0)\pos(972,720)\c&HFFFFFF&\blur0.7\fscx82}The Genies Murder Mystery—Gob-san's the Killer?!
+Dialogue: 1,0:23:18.50,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&HE801D6&\bord4\fade(485,0)\pos(972,720)\c&HE801D6&\blur0.7\fscx82}The Genies Murder Mystery—Gob-san's the Killer?!
+Dialogue: 0,0:23:18.50,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(485,0)\blur15\pos(972,720)\fscx82}The Genies Murder Mystery—Gob-san's the Killer?!
+Dialogue: 0,0:08:35.87,0:08:38.87,0$Ep23 - Suspects,,0,0,0,,
+Comment: 1,0:20:16.02,0:20:20.77,1$TSSLyricsEDRomanji,,0,0,0,sync,sync
+Dialogue: 1,0:20:16.02,0:20:20.76,1$TSSLyricsEDRomanji,,0,0,0,,{\kf98\3c&H70BE0E&\2c&H537F17&\bord0}shobokure {\kf40}gao {\kf16}no {\kf70}mobukyara {\kf54}domo {\kf110}ga{\kf87}
+Dialogue: 0,0:20:16.02,0:20:20.76,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}shobokure gao no mobukyara domo ga
+Dialogue: 1,0:20:16.02,0:20:20.76,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}On and on these tired old NPCs
+Dialogue: 0,0:20:16.02,0:20:20.76,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}On and on these tired old NPCs
+Dialogue: 1,0:20:20.76,0:20:25.65,1$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&H70BE0E&\2c&H537F17&\bord0}iiwake {\kf118}shinagara {\kf40}aru{\kf32}ite{\kf90}ru{\kf93}
+Dialogue: 0,0:20:20.76,0:20:25.65,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}iiwake shinagara aruiteru
+Dialogue: 1,0:20:20.76,0:20:25.65,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Keep walking around excusing themselves
+Dialogue: 0,0:20:20.76,0:20:25.65,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Keep walking around excusing themselves
+Dialogue: 1,0:20:25.65,0:20:30.56,1$TSSLyricsEDRomanji,,0,0,0,,{\kf91\3c&H70BE0E&\2c&H537F17&\bord0}itsumo {\kf36}mi{\kf66}teiru {\kf118}michisuga{\kf80}ra{\kf101}
+Dialogue: 0,0:20:25.65,0:20:30.56,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}itsumo miteiru michisugara
+Dialogue: 1,0:20:25.65,0:20:30.56,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}As I took the same old path again
+Dialogue: 0,0:20:25.65,0:20:30.56,1$TSSLyricsEDEng,,0,0,0,,{\1c&H70BE0E&\3c&H1D83E8&\4c&H1D83E8&}As I took the same old path again
+Dialogue: 1,0:20:30.56,0:20:35.75,1$TSSLyricsEDRomanji,,0,0,0,,{\kf63\3c&H70BE0E&\2c&H537F17&\bord0}mita {\kf66}koto {\kf24}mo {\kf76}nai {\kf76}wakuwaku {\kf26}wo {\kf28}mi{\kf118}ta{\kf41}
+Dialogue: 0,0:20:30.56,0:20:35.75,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}mita koto mo nai wakuwaku wo mita
+Dialogue: 1,0:20:30.56,0:20:35.75,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}I found the thrill I've sought for my whole life
+Dialogue: 0,0:20:30.56,0:20:35.75,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}I found the thrill I've sought for my whole life
+Dialogue: 1,0:20:35.75,0:20:40.78,1$TSSLyricsEDRomanji,,0,0,0,,{\kf29\kf66\3c&HDD8623&\2c&H9C6521&\bord0\4c&H3C2116&}itsumade {\kf64}shibon{\kf30}da {\kf28}mama {\kf26}na{\kf66}no{\kf195}
+Dialogue: 0,0:20:35.75,0:20:40.78,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}itsumade shibonda mama nano
+Dialogue: 1,0:20:35.75,0:20:40.78,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}Just how long will I keep drooping around like this?
+Dialogue: 0,0:20:35.75,0:20:40.78,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}Just how long will I keep drooping around like this?
+Dialogue: 1,0:20:40.78,0:20:44.86,1$TSSLyricsEDRomanji,,0,0,0,,{\kf17\kf76\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}minikui {\kf58}ahiru {\kf24}no {\kf26}mama {\kf26}na{\kf78}no{\kf104}
+Dialogue: 0,0:20:40.78,0:20:44.86,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}minikui ahiru no mama nano
+Dialogue: 1,0:20:40.78,0:20:44.86,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}How long will I stay an ugly duckling?
+Dialogue: 0,0:20:40.78,0:20:44.86,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}How long will I stay an ugly duckling?
+Dialogue: 1,0:20:44.86,0:20:47.95,1$TSSLyricsEDRomanji,,0,0,0,,{\kf34\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}ima {\kf24}no {\kf66}rebe{\kf36}ru {\kf30}wa {\kf34}ichi {\kf85}dakedo
+Dialogue: 0,0:20:44.86,0:20:47.95,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima no reberu wa ichi dakedo
+Dialogue: 1,0:20:44.86,0:20:47.95,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}I'm still only level one
+Dialogue: 0,0:20:44.86,0:20:47.95,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}I'm still only level one
+Dialogue: 1,0:20:47.95,0:20:55.19,1$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}i{\kf44}ma {\kf24}ni {\kf62}mitero {\kf38}yo {\kf68}sono {\kf98}uchi{\kf36} {\kf62}JUMP {\kf142}UP{\kf80}
+Dialogue: 0,0:20:47.95,0:20:55.19,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima ni mitero yo sono uchi JUMP UP
+Dialogue: 1,0:20:47.95,0:20:55.19,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}But watch me, soon I'll jump up
+Dialogue: 0,0:20:47.95,0:20:55.19,1$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}But watch me, soon I'll jump up
+Dialogue: 1,0:20:55.19,0:21:00.25,1$TSSLyricsEDRomanji,,0,0,0,,{\kf146\3c&H342035&\2c&H501F4F&\bord0\4c&H342035&}sai{\kf48}kin {\kf46}no{\kf20} {\kf100}wakai {\kf52}mon {\kf38}wa {\kf59}tte
+Dialogue: 0,0:20:55.19,0:21:00.25,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}saikin no wakai mon wa tte
+Dialogue: 1,0:20:55.19,0:21:00.25,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}"Why, kids these days..."
+Dialogue: 0,0:20:55.19,0:21:00.25,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}"Why, kids these days..."
+Dialogue: 1,0:21:00.25,0:21:05.18,1$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}toshiyori {\kf44}domo {\kf28}ga {\kf48}boyai {\kf40}teru {\kf20}ke{\kf86}do{\kf159}
+Dialogue: 0,0:21:00.25,0:21:05.18,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}toshiyori domo ga boyai teru kedo
+Dialogue: 1,0:21:00.25,0:21:05.18,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}...Our old boomers grumble and complain
+Dialogue: 0,0:21:00.25,0:21:05.18,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}...Our old boomers grumble and complain
+Dialogue: 1,0:21:05.18,0:21:10.11,1$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}soro {\kf100}soro{\kf32} {\kf60}omei {\kf94}henjou {\kf60}da{\kf31}
+Dialogue: 0,0:21:05.18,0:21:10.11,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}soro soro omei henjou da
+Dialogue: 1,0:21:05.18,0:21:10.11,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}But it's not too late to clear my name
+Dialogue: 0,0:21:05.18,0:21:10.11,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}But it's not too late to clear my name
+Dialogue: 1,0:21:10.11,0:21:12.73,1$TSSLyricsEDRomanji,,0,0,0,,{\kf110\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}iya ga ou ni {\kf25}mo {\kf72}mattanashi {\kf56}daze
+Dialogue: 0,0:21:10.11,0:21:12.73,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}iya ga ou ni mo mattanashi daze
+Dialogue: 1,0:21:10.11,0:21:12.73,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I might not like it, but I can't wait any longer
+Dialogue: 0,0:21:10.11,0:21:12.73,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I might not like it, but I can't wait any longer
+Dialogue: 1,0:21:12.73,0:21:18.86,1$TSSLyricsEDRomanji,,0,0,0,,{\kf28\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}ketsu {\kf28}no {\kf26}ana {\kf36}kara {\kf94}jetto{\kf26} {\kf102}funsha{\kf32} {\kf241}daaa
+Dialogue: 0,0:21:12.73,0:21:18.86,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}ketsu no ana kara jetto funsha daaa
+Dialogue: 1,0:21:12.73,0:21:18.86,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I gotta blast free from my cowardly shell!!
+Dialogue: 0,0:21:12.73,0:21:18.86,1$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I gotta blast free from my cowardly shell!!
+Dialogue: 1,0:21:18.86,0:21:23.69,1$TSSLyricsEDRomanji,,0,0,0,,{\kf59\3c&H76B118&\2c&H537323&\bord0}ore {\kf28}wa {\kf106}itsuka{\kf46} {\kf60}hana {\kf50}ni {\kf32}na{\kf68}ru{\kf35}
+Dialogue: 0,0:21:18.86,0:21:23.69,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}ore wa itsuka hana ni naru
+Dialogue: 1,0:21:18.86,0:21:23.69,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Give me time and I'll bloom like a flower
+Dialogue: 0,0:21:18.86,0:21:23.69,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Give me time and I'll bloom like a flower
+Dialogue: 1,0:21:23.69,0:21:28.66,1$TSSLyricsEDRomanji,,0,0,0,,{\kf61\3c&H76B118&\2c&H537323&\bord0}sora {\kf36}ni {\kf52}nobi{\kf58}ru{\kf38} {\kf70}hana {\kf36}ni {\kf38}na{\kf64}ru{\kf43}
+Dialogue: 0,0:21:23.69,0:21:28.66,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}sora ni nobiru hana ni naru
+Dialogue: 1,0:21:23.69,0:21:28.66,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}A flower spread out to the sky
+Dialogue: 0,0:21:23.69,0:21:28.66,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}A flower spread out to the sky
+Dialogue: 1,0:21:28.66,0:21:36.30,1$TSSLyricsEDRomanji,,0,0,0,,{\kf69\3c&H76B118&\2c&H537323&\fade(0,500)\bord0}kimi {\kf22}ni {\kf56}todo{\kf50}ku{\kf38} {\kf80}ha{\kf62}na {\kf62}ni {\kf56}na{\kf18}r{\kf251}u
+Dialogue: 0,0:21:28.66,0:21:36.30,1$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&\fade(0,500)}kimi ni todoku hana ni naru
+Dialogue: 1,0:21:28.66,0:21:36.30,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&\fade(0,500)}The flower that reaches you
+Dialogue: 0,0:21:28.66,0:21:36.30,1$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&\fade(0,500)}The flower that reaches you
+

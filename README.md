@@ -2,14 +2,14 @@ Subtitle scripts for Lumpstud/Seigyoku releases.
 
 These may include updates from original releases for quality purposes. Any updates will likely be used for future batches.
 
-Fully archived / up-to-date with releases:
+Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
+
+Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts)
 - Punirunes
-- The Bears' School Movie: Jackie the Pastry Chef and the Sunny Sweets
+- Ninjala
+- The Bears' School movies
 
-Old Yo-kai Watch releases will be added when I've revised and reworked them. Which might take a while.
-- Yo-kai Watch episodes 183-191, 200
-- Yo-kai Watch! episode 2
-- Yo-kai Watch The Movie: The Flying Whale and the Parallel World Adventure, Meow!
+Old Yo-kai Watch releases will be added once they've been revised in the future.

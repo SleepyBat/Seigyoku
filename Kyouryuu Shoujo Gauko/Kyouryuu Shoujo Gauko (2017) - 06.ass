@@ -1,0 +1,344 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:38.77,0:00:40.85,Default,Toshio,0,0,0,,Freshly-fried croquettes!
+Dialogue: 0,0:00:40.85,0:00:43.61,Default,Toshio,0,0,0,,They're crispy on the outside,\Nfluffy on the inside!
+Dialogue: 0,0:00:43.61,0:00:46.07,Default,Toshio,0,0,0,,They're very delicious!
+Dialogue: 0,0:00:46.44,0:00:48.32,Default,Toshio,0,0,0,,We also have minced... Huh?
+Dialogue: 0,0:00:48.32,0:00:49.20,Default,Toshio,0,0,0,,Naoko?
+Dialogue: 0,0:00:49.20,0:00:51.45,Default,Naoko,0,0,0,,Eek! He saw me!
+Dialogue: 0,0:00:56.20,0:00:58.00,Default,Erika,0,0,0,,What are you doing, Naoko?
+Dialogue: 0,0:00:59.04,0:01:00.29,Default,Naoko,0,0,0,,Don't look!
+Dialogue: 0,0:01:00.29,0:01:02.58,Default,Erika,0,0,0,,What's wrong?\NYou're blushing an awful lot!
+Dialogue: 0,0:01:02.58,0:01:03.92,Default,Kana,0,0,0,,Someone's got a crush.
+Dialogue: 0,0:01:04.75,0:01:06.05,Default,Erika,0,0,0,,Huh? A crush?
+Dialogue: 0,0:01:08.38,0:01:10.38,Default,Erika,0,0,0,,Oh, so you're crushing on someone?
+Dialogue: 0,0:01:10.38,0:01:12.01,Default,Naoko,0,0,0,,N-N-N-N-No I'm not!!
+Dialogue: 0,0:01:12.51,0:01:14.55,Default,Kana,0,0,0,,It's Toshio, the guy\Nselling croquettes, isn't it?
+Dialogue: 0,0:01:14.55,0:01:17.43,Default,Naoko,0,0,0,,I don't have a crush!!
+Dialogue: 0,0:01:17.85,0:01:19.48,Default,Erika,0,0,0,,There's nothing to be embarrassed about.
+Dialogue: 0,0:01:19.48,0:01:20.39,Default,Kana,0,0,0,,Yeah.
+Dialogue: 0,0:01:28.78,0:01:31.36,Default,Mutchan,0,0,0,,We really have to live with\Nall this war, woof...
+Dialogue: 0,0:01:31.36,0:01:33.20,Default,Karen,0,0,0,,I'm really scared...
+Dialogue: 0,0:01:34.66,0:01:39.16,Default,Naoko,0,0,0,,Toshio, oh Toshio,\Nwherefore art thou Toshio?
+Dialogue: 0,0:01:41.58,0:01:43.25,Default,Naoko,0,0,0,,Oh, Toshio...
+Dialogue: 0,0:01:43.25,0:01:44.04,Default,Toshio,0,0,0,,You called?
+Dialogue: 0,0:01:44.46,0:01:45.50,Default,Toshio,0,0,0,,Are you on your way home?
+Dialogue: 0,0:01:49.00,0:01:50.13,Default,Toshio,0,0,0,,Huh, Naoko?
+Dialogue: 0,0:01:50.13,0:01:52.05,Default,Naoko,0,0,0,,What's wrong with you, girl?!
+Dialogue: 0,0:01:52.05,0:01:54.09,Default,Naoko,0,0,0,,Why would you run away?!
+Dialogue: 0,0:01:57.26,0:01:59.68,Default,Mom,0,0,0,,I hope everything will be okay...
+Dialogue: 0,0:02:00.47,0:02:02.64,Default,Dad,0,0,0,,It'll be fine, ribbit...
+Dialogue: 0,0:02:04.31,0:02:05.94,Default,Naoko,0,0,0,,I'm home...
+Dialogue: 0,0:02:05.94,0:02:07.44,Default,Naoko,0,0,0,,Good night...
+Dialogue: 0,0:02:07.44,0:02:09.69,Default,Mom,0,0,0,,What about dinner?
+Dialogue: 0,0:02:09.69,0:02:11.94,Default,Naoko,0,0,0,,I'm not hungry...
+Dialogue: 0,0:02:12.36,0:02:15.32,Default,Dad,0,0,0,,Hmm? What's gotten into her?
+Dialogue: 0,0:02:15.32,0:02:16.62,Default,Mom,0,0,0,,I wonder...
+Dialogue: 0,0:02:17.20,0:02:20.49,Default,Naoko,0,0,0,,I hope I meet Toshio in my dream!
+Comment: 0,0:00:06.03,0:00:14.08,Default,,0,0,0,,{=0}DINO GIRL GAUKO
+Dialogue: 1,0:00:06.02,0:00:06.06,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1620.4,-48.65)\fscx202.27\fscy173.61}Dino Girl
+Dialogue: 1,0:00:06.06,0:00:06.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1608.88,-41.94)\fscx199.44\fscy171.19}Dino Girl
+Dialogue: 1,0:00:06.11,0:00:06.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1597.99,-35.42)\fscx196.94\fscy169.04}Dino Girl
+Dialogue: 1,0:00:06.15,0:00:06.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1586.61,-28.94)\fscx194.55\fscy166.99}Dino Girl
+Dialogue: 1,0:00:06.19,0:00:06.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1575.45,-22.58)\fscx191.81\fscy164.64}Dino Girl
+Dialogue: 1,0:00:06.23,0:00:06.27,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1565.53,-16.46)\fscx189.27\fscy162.46}Dino Girl
+Dialogue: 1,0:00:06.27,0:00:06.31,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1555.52,-10.4)\fscx187.21\fscy160.69}Dino Girl
+Dialogue: 1,0:00:06.31,0:00:06.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1545.66,-4.52)\fscx184.85\fscy158.66}Dino Girl
+Dialogue: 1,0:00:06.36,0:00:06.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1536.41,1.18)\fscx182.58\fscy156.71}Dino Girl
+Dialogue: 1,0:00:06.40,0:00:06.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1526.69,6.85)\fscx180.53\fscy154.96}Dino Girl
+Dialogue: 1,0:00:06.44,0:00:06.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1517.39,12.37)\fscx178.16\fscy152.92}Dino Girl
+Dialogue: 1,0:00:06.48,0:00:06.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1508.42,17.74)\fscx176.07\fscy151.13}Dino Girl
+Dialogue: 1,0:00:06.52,0:00:06.56,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1499.65,22.99)\fscx174.07\fscy149.41}Dino Girl
+Dialogue: 1,0:00:06.56,0:00:06.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1491.7,28.08)\fscx172.07\fscy147.7}Dino Girl
+Dialogue: 1,0:00:06.61,0:00:06.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1483.99,33.06)\fscx170.4\fscy146.26}Dino Girl
+Dialogue: 1,0:00:06.65,0:00:06.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1476.78,37.86)\fscx168.66\fscy144.77}Dino Girl
+Dialogue: 1,0:00:06.69,0:00:06.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1468.69,42.72)\fscx167.09\fscy143.42}Dino Girl
+Dialogue: 1,0:00:06.73,0:00:06.77,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1461.89,47.34)\fscx165.01\fscy141.64}Dino Girl
+Dialogue: 1,0:00:06.77,0:00:06.81,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1454.85,51.89)\fscx163.71\fscy140.52}Dino Girl
+Dialogue: 1,0:00:06.81,0:00:06.86,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1448.13,56.29)\fscx162.03\fscy139.07}Dino Girl
+Dialogue: 1,0:00:06.86,0:00:06.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1440.97,60.71)\fscx160.53\fscy137.78}Dino Girl
+Dialogue: 1,0:00:06.90,0:00:06.94,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1434.26,65.04)\fscx158.77\fscy136.28}Dino Girl
+Dialogue: 1,0:00:06.94,0:00:06.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1428.05,69.25)\fscx157.3\fscy135.01}Dino Girl
+Dialogue: 1,0:00:06.98,0:00:07.02,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1422.18,73.35)\fscx155.95\fscy133.86}Dino Girl
+Dialogue: 1,0:00:07.02,0:00:07.06,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1416.15,77.4)\fscx154.65\fscy132.74}Dino Girl
+Dialogue: 1,0:00:07.06,0:00:07.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1409.79,81.44)\fscx153.21\fscy131.51}Dino Girl
+Dialogue: 1,0:00:07.11,0:00:07.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1403.57,85.41)\fscx151.67\fscy130.18}Dino Girl
+Dialogue: 1,0:00:07.15,0:00:07.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1397.64,89.25)\fscx150.25\fscy128.97}Dino Girl
+Dialogue: 1,0:00:07.19,0:00:07.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1391.97,92.99)\fscx148.93\fscy127.83}Dino Girl
+Dialogue: 1,0:00:07.23,0:00:07.27,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1386.24,96.7)\fscx147.67\fscy126.75}Dino Girl
+Dialogue: 1,0:00:07.27,0:00:07.31,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1379.75,100.5)\fscx146.3\fscy125.57}Dino Girl
+Dialogue: 1,0:00:07.31,0:00:07.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1373.62,104.19)\fscx144.63\fscy124.14}Dino Girl
+Dialogue: 1,0:00:07.36,0:00:07.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1367.89,107.77)\fscx143.27\fscy122.98}Dino Girl
+Dialogue: 1,0:00:07.40,0:00:07.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1362.74,111.19)\fscx142.03\fscy121.91}Dino Girl
+Dialogue: 1,0:00:07.44,0:00:07.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1357.96,114.53)\fscx140.94\fscy120.97}Dino Girl
+Dialogue: 1,0:00:07.48,0:00:07.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1352.63,117.88)\fscx139.91\fscy120.09}Dino Girl
+Dialogue: 1,0:00:07.52,0:00:07.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1347.92,121.11)\fscx138.54\fscy118.92}Dino Girl
+Dialogue: 1,0:00:07.57,0:00:07.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1343.45,124.29)\fscx137.55\fscy118.07}Dino Girl
+Dialogue: 1,0:00:07.61,0:00:07.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1338.69,127.42)\fscx136.56\fscy117.21}Dino Girl
+Dialogue: 1,0:00:07.65,0:00:07.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1333.95,130.54)\fscx135.39\fscy116.21}Dino Girl
+Dialogue: 1,0:00:07.69,0:00:07.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1329.6,133.56)\fscx134.29\fscy115.26}Dino Girl
+Dialogue: 1,0:00:07.73,0:00:07.77,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1324.27,136.7)\fscx133.35\fscy114.45}Dino Girl
+Dialogue: 1,0:00:07.77,0:00:07.82,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1319.44,139.7)\fscx131.89\fscy113.2}Dino Girl
+Dialogue: 1,0:00:07.82,0:00:07.86,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1314.49,142.69)\fscx130.86\fscy112.32}Dino Girl
+Dialogue: 1,0:00:07.86,0:00:07.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1309.38,145.64)\fscx129.69\fscy111.32}Dino Girl
+Dialogue: 1,0:00:07.90,0:00:07.94,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1304.5,148.5)\fscx128.46\fscy110.27}Dino Girl
+Dialogue: 1,0:00:07.94,0:00:07.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1300.01,151.26)\fscx127.37\fscy109.33}Dino Girl
+Dialogue: 1,0:00:07.98,0:00:08.02,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1294.68,154.09)\fscx126.42\fscy108.51}Dino Girl
+Dialogue: 1,0:00:08.02,0:00:08.07,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1289.83,156.85)\fscx125.01\fscy107.3}Dino Girl
+Dialogue: 1,0:00:08.07,0:00:08.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1285.56,159.49)\fscx123.97\fscy106.41}Dino Girl
+Dialogue: 1,0:00:08.11,0:00:08.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1281.43,162.12)\fscx123.1\fscy105.66}Dino Girl
+Dialogue: 1,0:00:08.15,0:00:08.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1276.94,164.77)\fscx122.17\fscy104.86}Dino Girl
+Dialogue: 1,0:00:08.19,0:00:08.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1272.48,167.38)\fscx121.05\fscy103.9}Dino Girl
+Dialogue: 1,0:00:08.23,0:00:08.32,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1270.22,168.69)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.32,0:00:08.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1269.11,169.35)\fscx119.99\fscy102.99}Dino Girl
+Dialogue: 1,0:00:08.36,0:00:08.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.52,0:00:08.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1267.99,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.57,0:00:08.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.65,0:00:08.82,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268.01,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.86,0:00:08.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)}Dino Girl
+Dialogue: 1,0:00:08.90,0:00:08.95,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)\iclip(m 1258.65 143.96 l 1405.92 154.91 1410.85 212.93 1255.36 197.06)}Dino Girl
+Dialogue: 1,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1267.97,170.05)}Dino Girl
+Dialogue: 1,0:00:08.98,0:00:09.03,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1224.14,210.11)}Dino Girl
+Dialogue: 1,0:00:09.03,0:00:09.07,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1237.97,117.51)}Dino Girl
+Dialogue: 1,0:00:09.07,0:00:09.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1296.28,209.81)}Dino Girl
+Dialogue: 1,0:00:09.11,0:00:09.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1304.18,118.18)}Dino Girl
+Dialogue: 1,0:00:09.15,0:00:09.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1225.51,188.91)}Dino Girl
+Dialogue: 1,0:00:09.19,0:00:09.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1240.16,151.77)}Dino Girl
+Dialogue: 1,0:00:09.23,0:00:09.28,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1295.72,190.9)}Dino Girl
+Dialogue: 1,0:00:09.28,0:00:09.32,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1283.99,153.88)}Dino Girl
+Dialogue: 1,0:00:09.32,0:00:09.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1255.67,182.51)}Dino Girl
+Dialogue: 1,0:00:09.36,0:00:09.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1254.6,157.05)}Dino Girl
+Dialogue: 1,0:00:09.40,0:00:09.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1277.84,176.24)}Dino Girl
+Dialogue: 1,0:00:09.44,0:00:09.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.67,160.07)}Dino Girl
+Dialogue: 1,0:00:09.48,0:00:09.53,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1259.91,177.56)}Dino Girl
+Dialogue: 1,0:00:09.53,0:00:09.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1260,162.81)}Dino Girl
+Dialogue: 1,0:00:09.57,0:00:09.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.08,174.86)}Dino Girl
+Dialogue: 1,0:00:09.61,0:00:09.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1271.41,167.03)}Dino Girl
+Dialogue: 1,0:00:09.65,0:00:09.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1265.34,174.32)}Dino Girl
+Dialogue: 1,0:00:09.69,0:00:09.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1266.13,168.37)}Dino Girl
+Dialogue: 1,0:00:09.73,0:00:18.83,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268.74,170.94)}Dino Girl
+Dialogue: 3,0:00:08.90,0:00:08.94,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx325.85\fscy343.78\pos(1490.67,31.41)}Gauko
+Dialogue: 3,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx247.92\fscy261.56\pos(1352.55,168.97)}Gauko
+Dialogue: 3,0:00:08.98,0:00:13.07,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:00:08.90,0:00:08.94,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx325.85\fscy343.78\bord6.52\pos(1490.67,31.41)}Gauko
+Dialogue: 2,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx247.92\fscy261.56\bord4.96\pos(1352.55,168.97)}Gauko
+Dialogue: 2,0:00:08.98,0:00:13.07,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Dialogue: 3,0:00:13.07,0:00:13.11,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,240.98)}Gauko
+Dialogue: 3,0:00:13.11,0:00:13.15,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,227.1)}Gauko
+Dialogue: 3,0:00:13.15,0:00:13.20,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,213.08)}Gauko
+Dialogue: 3,0:00:13.20,0:00:13.24,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,199.45)}Gauko
+Dialogue: 3,0:00:13.24,0:00:13.28,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,186.03)}Gauko
+Dialogue: 3,0:00:13.28,0:00:13.32,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,173.48)}Gauko
+Dialogue: 3,0:00:13.32,0:00:13.36,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,161.96)}Gauko
+Dialogue: 3,0:00:13.36,0:00:13.40,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,151.52)}Gauko
+Dialogue: 3,0:00:13.40,0:00:13.45,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,142.52)}Gauko
+Dialogue: 3,0:00:13.45,0:00:13.49,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,135.3)}Gauko
+Dialogue: 3,0:00:13.49,0:00:13.53,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,130.33)}Gauko
+Dialogue: 3,0:00:13.53,0:00:13.57,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,128.4)}Gauko
+Dialogue: 3,0:00:13.57,0:00:13.61,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,130.33)}Gauko
+Dialogue: 3,0:00:13.61,0:00:13.65,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,135.28)}Gauko
+Dialogue: 3,0:00:13.65,0:00:13.70,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,142.47)}Gauko
+Dialogue: 3,0:00:13.70,0:00:13.74,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,151.5)}Gauko
+Dialogue: 3,0:00:13.74,0:00:13.78,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,161.91)}Gauko
+Dialogue: 3,0:00:13.78,0:00:13.82,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,173.42)}Gauko
+Dialogue: 3,0:00:13.82,0:00:13.86,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,186.02)}Gauko
+Dialogue: 3,0:00:13.86,0:00:13.90,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,199.47)}Gauko
+Dialogue: 3,0:00:13.90,0:00:13.95,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,213.09)}Gauko
+Dialogue: 3,0:00:13.95,0:00:13.99,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,227.11)}Gauko
+Dialogue: 3,0:00:13.99,0:00:14.03,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,240.96)}Gauko
+Dialogue: 3,0:00:14.03,0:00:18.83,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:00:13.07,0:00:13.11,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,240.98)}Gauko
+Dialogue: 2,0:00:13.11,0:00:13.15,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,227.1)}Gauko
+Dialogue: 2,0:00:13.15,0:00:13.20,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,213.08)}Gauko
+Dialogue: 2,0:00:13.20,0:00:13.24,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,199.45)}Gauko
+Dialogue: 2,0:00:13.24,0:00:13.28,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,186.03)}Gauko
+Dialogue: 2,0:00:13.28,0:00:13.32,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,173.48)}Gauko
+Dialogue: 2,0:00:13.32,0:00:13.36,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,161.96)}Gauko
+Dialogue: 2,0:00:13.36,0:00:13.40,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,151.52)}Gauko
+Dialogue: 2,0:00:13.40,0:00:13.45,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,142.52)}Gauko
+Dialogue: 2,0:00:13.45,0:00:13.49,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,135.3)}Gauko
+Dialogue: 2,0:00:13.49,0:00:13.53,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,130.33)}Gauko
+Dialogue: 2,0:00:13.53,0:00:13.57,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,128.4)}Gauko
+Dialogue: 2,0:00:13.57,0:00:13.61,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,130.33)}Gauko
+Dialogue: 2,0:00:13.61,0:00:13.65,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,135.28)}Gauko
+Dialogue: 2,0:00:13.65,0:00:13.70,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,142.47)}Gauko
+Dialogue: 2,0:00:13.70,0:00:13.74,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,151.5)}Gauko
+Dialogue: 2,0:00:13.74,0:00:13.78,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,161.91)}Gauko
+Dialogue: 2,0:00:13.78,0:00:13.82,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,173.42)}Gauko
+Dialogue: 2,0:00:13.82,0:00:13.86,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,186.02)}Gauko
+Dialogue: 2,0:00:13.86,0:00:13.90,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,199.47)}Gauko
+Dialogue: 2,0:00:13.90,0:00:13.95,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,213.09)}Gauko
+Dialogue: 2,0:00:13.95,0:00:13.99,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,227.11)}Gauko
+Dialogue: 2,0:00:13.99,0:00:14.03,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,240.96)}Gauko
+Dialogue: 2,0:00:14.03,0:00:18.83,Signs,,0,0,0,,{=1}{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Comment: 0,0:00:30.01,0:00:32.51,Default,,0,0,0,,{=2}MY PEACEFUL TOWN (EPISODE 6)
+Dialogue: 1,0:00:30.01,0:00:32.51,Signs,,0,0,0,,{\fnDK Bupkis\b0\c&HB1FFFB&\blur0.9\fscx177\fscy147\pos(988,186)}My Peaceful Town
+Dialogue: 0,0:00:30.01,0:00:32.51,Signs,,0,0,0,,{\fnDK Bupkis\b0\blur0.9\4c&H1A264E&\bord5\1a&HFE&\3a&HFE&\xbord7\xshad-2\yshad1\4a&H00&\fscx177\fscy147\pos(988,186)}My Peaceful Town
+Dialogue: 1,0:00:30.05,0:00:32.51,Signs,,0,0,0,,{\fnNunito\b1\blur0.9\fade(400,0)\pos(960,804)}Episode 6
+Dialogue: 0,0:00:30.05,0:00:32.51,Signs,,0,0,0,,{=3}{\fnNunito\b1\blur0.9\fade(400,0)\c&H000000&\bord2\pos(960,804)}Episode 6
+Comment: 0,0:00:40.22,0:00:51.45,Default,,0,0,0,,{=4}MATSUI MEAT SHOP
+Dialogue: 0,0:00:40.22,0:00:40.26,Signs,,0,0,0,,{\fnDK Cover Up\fscx83.21\fscy82.07\pos(933.81,281.52)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.26,0:00:40.31,Signs,,0,0,0,,{\fnDK Cover Up\fscx83.04\fscy81.9\pos(930.97,281.76)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.31,0:00:40.35,Signs,,0,0,0,,{\fnDK Cover Up\fscx82.88\fscy81.75\pos(927.79,281.99)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.35,0:00:40.39,Signs,,0,0,0,,{\fnDK Cover Up\fscx82.73\fscy81.59\pos(924.47,282.24)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.39,0:00:40.43,Signs,,0,0,0,,{\fnDK Cover Up\fscx82.51\fscy81.38\pos(921.31,282.5)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.43,0:00:40.47,Signs,,0,0,0,,{\fnDK Cover Up\fscx82.29\fscy81.16\pos(918.04,282.83)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.47,0:00:40.51,Signs,,0,0,0,,{\fnDK Cover Up\fscx82.08\fscy80.95\pos(914.68,283.09)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.51,0:00:40.56,Signs,,0,0,0,,{\fnDK Cover Up\fscx81.88\fscy80.76\pos(911.24,283.38)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.56,0:00:40.60,Signs,,0,0,0,,{\fnDK Cover Up\fscx81.67\fscy80.55\pos(907.84,283.67)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.60,0:00:40.64,Signs,,0,0,0,,{\fnDK Cover Up\fscx81.47\fscy80.35\pos(904.35,283.96)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.64,0:00:40.68,Signs,,0,0,0,,{\fnDK Cover Up\fscx81.25\fscy80.13\pos(900.95,284.27)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.68,0:00:40.72,Signs,,0,0,0,,{\fnDK Cover Up\fscx81.05\fscy79.94\pos(897.45,284.56)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.72,0:00:40.77,Signs,,0,0,0,,{\fnDK Cover Up\fscx80.84\fscy79.74\pos(893.98,284.83)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.77,0:00:40.81,Signs,,0,0,0,,{\fnDK Cover Up\fscx80.65\fscy79.55\pos(890.5,285.11)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.81,0:00:40.85,Signs,,0,0,0,,{\fnDK Cover Up\fscx80.44\fscy79.34\pos(887.09,285.39)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.85,0:00:40.89,Signs,,0,0,0,,{\fnDK Cover Up\fscx80.23\fscy79.13\pos(883.73,285.7)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.89,0:00:40.93,Signs,,0,0,0,,{\fnDK Cover Up\fscx80.03\fscy78.94\pos(880.34,285.98)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.93,0:00:40.97,Signs,,0,0,0,,{\fnDK Cover Up\fscx79.82\fscy78.73\pos(877,286.28)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:40.97,0:00:41.02,Signs,,0,0,0,,{\fnDK Cover Up\fscx79.63\fscy78.54\pos(873.59,286.55)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.02,0:00:41.06,Signs,,0,0,0,,{\fnDK Cover Up\fscx79.42\fscy78.33\pos(870.34,286.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.06,0:00:41.10,Signs,,0,0,0,,{\fnDK Cover Up\fscx79.25\fscy78.17\pos(866.95,287.06)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.10,0:00:41.14,Signs,,0,0,0,,{\fnDK Cover Up\fscx79.07\fscy77.99\pos(863.63,287.35)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.14,0:00:41.18,Signs,,0,0,0,,{\fnDK Cover Up\fscx78.87\fscy77.79\pos(860.44,287.61)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.18,0:00:41.22,Signs,,0,0,0,,{\fnDK Cover Up\fscx78.67\fscy77.59\pos(857.3,287.88)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.22,0:00:41.27,Signs,,0,0,0,,{\fnDK Cover Up\fscx78.49\fscy77.41\pos(854.12,288.18)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.27,0:00:41.31,Signs,,0,0,0,,{\fnDK Cover Up\fscx78.27\fscy77.2\pos(851.03,288.47)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.31,0:00:41.35,Signs,,0,0,0,,{\fnDK Cover Up\fscx78.1\fscy77.03\pos(847.93,288.68)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.35,0:00:41.39,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.91\fscy76.85\pos(844.9,288.92)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.39,0:00:41.43,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.75\fscy76.68\pos(841.85,289.17)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.43,0:00:41.47,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.54\fscy76.48\pos(838.98,289.48)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.47,0:00:41.52,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.39\fscy76.33\pos(835.97,289.68)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.52,0:00:41.56,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.23\fscy76.18\pos(832.96,289.91)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.56,0:00:41.60,Signs,,0,0,0,,{\fnDK Cover Up\fscx77.06\fscy76\pos(830.17,290.17)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.60,0:00:41.64,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.87\fscy75.82\pos(827.46,290.43)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.64,0:00:41.68,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.71\fscy75.66\pos(824.63,290.65)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.68,0:00:41.72,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.54\fscy75.49\pos(821.9,290.85)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.72,0:00:41.77,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.4\fscy75.35\pos(819.14,291.08)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.77,0:00:41.81,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.23\fscy75.19\pos(816.54,291.3)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.81,0:00:41.85,Signs,,0,0,0,,{\fnDK Cover Up\fscx76.07\fscy75.02\pos(813.99,291.54)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.85,0:00:41.89,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.93\fscy74.89\pos(811.4,291.71)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.89,0:00:41.93,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.77\fscy74.74\pos(808.91,291.95)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.93,0:00:41.97,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.63\fscy74.59\pos(806.43,292.15)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:41.97,0:00:42.02,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.49\fscy74.45\pos(804.03,292.35)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.02,0:00:42.06,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.32\fscy74.28\pos(801.81,292.6)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.06,0:00:42.10,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.21\fscy74.18\pos(799.37,292.75)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.10,0:00:42.14,Signs,,0,0,0,,{\fnDK Cover Up\fscx75.08\fscy74.05\pos(797.05,292.94)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.14,0:00:42.18,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.92\fscy73.9\pos(794.95,293.16)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.18,0:00:42.22,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.81\fscy73.79\pos(792.77,293.31)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.22,0:00:42.27,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.68\fscy73.65\pos(790.68,293.5)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.27,0:00:42.31,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.57\fscy73.55\pos(788.57,293.63)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.31,0:00:42.35,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.43\fscy73.41\pos(786.75,293.85)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.35,0:00:42.39,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.31\fscy73.29\pos(784.8,293.98)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.39,0:00:42.43,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.22\fscy73.21\pos(782.86,294.13)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.43,0:00:42.48,Signs,,0,0,0,,{\fnDK Cover Up\fscx74.13\fscy73.11\pos(781.02,294.25)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.48,0:00:42.52,Signs,,0,0,0,,{\fnDK Cover Up\fscx74\fscy72.99\pos(779.36,294.4)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.52,0:00:42.56,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.9\fscy72.89\pos(777.66,294.56)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.56,0:00:42.60,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.81\fscy72.8\pos(776.03,294.69)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.60,0:00:42.64,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.7\fscy72.69\pos(774.59,294.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.64,0:00:42.68,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.63\fscy72.62\pos(773.09,294.96)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.68,0:00:42.73,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.55\fscy72.54\pos(771.64,295.06)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.73,0:00:42.77,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.48\fscy72.47\pos(770.35,295.16)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.77,0:00:42.81,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.42\fscy72.42\pos(769.03,295.25)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.81,0:00:42.85,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.33\fscy72.33\pos(767.93,295.37)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.85,0:00:42.89,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.28\fscy72.27\pos(766.87,295.43)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.89,0:00:42.93,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.22\fscy72.22\pos(765.87,295.52)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.93,0:00:42.98,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.17\fscy72.17\pos(765,295.6)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:42.98,0:00:43.02,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.1\fscy72.1\pos(764.32,295.7)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.02,0:00:43.06,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.05\fscy72.05\pos(763.7,295.79)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.06,0:00:43.10,Signs,,0,0,0,,{\fnDK Cover Up\fscx73.03\fscy72.03\pos(763.08,295.8)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.10,0:00:43.14,Signs,,0,0,0,,{\fnDK Cover Up\fscx72.97\fscy71.97\pos(762.72,295.87)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.14,0:00:43.18,Signs,,0,0,0,,{\fnDK Cover Up\fscx72.99\fscy71.99\pos(762.27,295.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.18,0:00:43.90,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:43.89,0:00:43.93,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 607.76 269.58 b 609.8 276.24 606.2 283.8 603.2 287.34 598.21 298.39 595.69 308.47 594.07 327.91 l 550.63 309.19 571.75 257.58)}Matsui Meat Shop
+Dialogue: 0,0:00:43.93,0:00:43.98,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 627.55 273.73 b 632.57 282 624.67 291.5 623.29 297.63 620.78 303.39 617.68 312.78 617.1 322.17 l 572.71 317.26 579.97 268.19)}Matsui Meat Shop
+Dialogue: 0,0:00:43.98,0:00:44.02,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 308.72 356.06 b 307.97 347.86 324.1 346.2 316.38 338 309.31 327.38 281.4 317.76 262.18 312.82 242.96 307.48 241.23 297.89 246.85 288.77 256.02 280.47 253.31 274.94 244.66 272.31 238.23 269.98 216.72 268.57 218.93 263.01 l 658.56 268.48 b 661.19 291.91 652.07 306.83 643.48 314.15 628.72 329.59 637.46 337.17 628.45 356.06)}Matsui Meat Shop
+Dialogue: 0,0:00:44.02,0:00:44.06,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 330.07 353.01 b 329.32 344.81 345.45 343.15 337.73 334.95 330.66 324.33 302.75 314.71 283.53 309.77 264.31 304.43 262.58 294.84 268.2 285.72 277.37 277.42 274.66 271.89 266.01 269.26 259.58 266.93 238.07 265.52 240.28 259.96 l 679.91 265.43 b 682.54 288.86 673.42 303.78 664.83 311.1 650.07 326.54 658.81 334.12 649.8 353.01)}Matsui Meat Shop
+Dialogue: 0,0:00:44.06,0:00:44.10,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 351.46 345.37 b 350.71 337.17 366.84 335.51 359.12 327.31 352.05 316.69 324.14 307.07 304.92 302.13 285.7 296.79 283.97 287.2 289.59 278.08 298.76 269.78 296.05 264.25 287.4 261.62 280.97 259.29 259.46 257.88 261.67 252.32 l 701.3 257.79 b 703.93 281.22 694.81 296.14 686.22 303.46 671.46 318.9 680.2 326.48 671.19 345.37)}Matsui Meat Shop
+Dialogue: 0,0:00:44.10,0:00:44.14,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 716.78 267.3 b 715.29 271.32 711.4 277.76 709.91 282.69 709.56 292.97 708.63 310.54 700.26 320.81 l 569.97 321.49 578.34 262.88)}Matsui Meat Shop
+Dialogue: 0,0:00:44.14,0:00:44.19,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 394.15 325.5 b 393.4 317.3 409.53 315.64 401.81 307.44 394.74 296.82 366.83 287.2 347.61 282.26 328.39 276.92 326.66 267.33 332.28 258.21 341.45 249.91 338.74 244.38 330.09 241.75 323.66 239.42 302.15 238.01 304.36 232.45 l 743.99 237.92 b 746.62 261.35 737.5 276.27 728.91 283.59 714.15 299.03 722.89 306.61 713.88 325.5)}Matsui Meat Shop
+Dialogue: 0,0:00:44.19,0:00:44.23,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 752.83 268.14 b 750.16 277.02 751.18 293.33 744.2 301.39 741.53 307.22 731.26 315.81 727.77 323.08 l 575.9 321.77 578.2 265.23)}Matsui Meat Shop
+Dialogue: 0,0:00:44.23,0:00:44.27,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 770.94 275.01 b 769.53 286.02 763.58 304.3 761.13 314.06 l 579.14 317.06 578.19 264.3)}Matsui Meat Shop
+Dialogue: 0,0:00:44.27,0:00:44.31,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 791.36 281.32 l 781.67 322.03 569.37 317.57 576.81 238.34)}Matsui Meat Shop
+Dialogue: 0,0:00:44.31,0:00:44.35,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 813.45 279.37 b 814.49 288.4 811.06 305.04 807 314.89 l 581.36 315.47 580.7 265.87)}Matsui Meat Shop
+Dialogue: 0,0:00:44.35,0:00:44.39,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 836.49 270.53 l 828.4 317.85 571.96 318.36 584.15 260.48)}Matsui Meat Shop
+Dialogue: 0,0:00:44.39,0:00:44.44,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 863.33 275.08 b 863.59 287.39 853.11 296.16 852.08 319.2 l 582.2 317.21 578.51 250.08)}Matsui Meat Shop
+Dialogue: 0,0:00:44.44,0:00:44.48,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 885.23 275.11 b 886.44 291.5 875.93 306.35 874.43 320.24 l 576.29 318.01 581.99 268.1)}Matsui Meat Shop
+Dialogue: 0,0:00:44.48,0:00:44.52,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 564.95 356.08 b 564.2 347.88 580.33 346.22 572.61 338.02 565.54 327.4 537.63 317.78 518.41 312.84 499.19 307.5 497.46 297.91 503.08 288.79 512.25 280.49 509.54 274.96 500.89 272.33 494.46 270 472.95 268.59 475.16 263.03 l 914.79 268.5 b 917.42 291.93 908.3 306.85 899.71 314.17 884.95 329.61 893.69 337.19 884.68 356.08)}Matsui Meat Shop
+Dialogue: 0,0:00:44.52,0:00:44.56,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 586.33 353.04 b 585.58 344.84 601.71 343.18 593.99 334.98 586.92 324.36 559.01 314.74 539.79 309.8 520.57 304.46 518.84 294.87 524.46 285.75 533.63 277.45 530.92 271.91 522.27 269.28 515.84 266.96 494.33 265.55 496.54 259.98 l 936.17 265.46 b 938.8 288.89 929.68 303.81 921.09 311.13 906.33 326.57 915.07 334.15 906.06 353.04)}Matsui Meat Shop
+Dialogue: 0,0:00:44.60,0:00:44.64,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 583.44 285.79 b 603.82 292.77 634.77 303.4 615.75 319.56 l 579.69 316.85)}Matsui Meat Shop
+Dialogue: 0,0:00:44.64,0:00:44.69,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 586.8 270.34 b 615.9 278.17 662.48 291.94 634.06 313.55 l 576.27 315.44)}Matsui Meat Shop
+Dialogue: 0,0:00:44.69,0:00:44.73,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 638.48 272.7 b 662.84 281.82 671.72 290.22 656.96 303.91 653.36 307.57 656 312.49 657.2 315.67 l 577.51 314.71 577.75 266.94)}Matsui Meat Shop
+Dialogue: 0,0:00:44.73,0:00:44.77,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 672.36 285.25 b 672.91 291.08 664.77 295.65 665.11 299.98 665.52 305.97 671.06 310.22 676.2 313.63 l 524.09 326.05 625.92 243.45)}Matsui Meat Shop
+Dialogue: 0,0:00:44.77,0:00:44.81,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 691.78 293.58 b 689.5 297.42 683.5 302.63 687.78 307.91 690.57 313.49 693.87 315.2 701.17 318.11 l 578.29 319.51 582.45 268.75 695.61 270.42)}Matsui Meat Shop
+Dialogue: 0,0:00:44.81,0:00:44.85,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 705.62 279.79 b 714.06 285.81 720.55 295.31 710.75 305.72 l 711.02 317.87 570.68 314.89 575.95 265.39)}Matsui Meat Shop
+Dialogue: 0,0:00:44.85,0:00:44.89,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 716.1 289.28 b 701.41 301.08 712.55 306.34 717 311.21 l 898.27 349.81 955.88 316.3 948.83 266.33 724.85 272.2)}Matsui Meat Shop
+Dialogue: 0,0:00:44.89,0:00:44.94,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 734.5 279.67 b 744.27 285.94 745.18 295.26 733.6 303.39 l 734.24 316.4 948.59 327.04 944.24 267.83 743.23 268.91)}Matsui Meat Shop
+Dialogue: 0,0:00:44.94,0:00:44.98,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 735.52 278.85 b 763.88 287.54 771.9 297.51 754.94 311.07 l 937.72 327.59 946.96 267.83)}Matsui Meat Shop
+Dialogue: 0,0:00:44.98,0:00:45.02,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 821.27 356.09 b 820.52 347.89 836.65 346.23 828.93 338.03 821.85 327.41 793.95 317.79 774.72 312.85 755.51 307.51 753.78 297.92 759.4 288.8 768.57 280.5 765.85 274.97 757.21 272.34 750.78 270.01 729.27 268.6 731.47 263.04 l 1171.1 268.51 b 1173.73 291.94 1164.61 306.86 1156.03 314.18 1141.26 329.62 1150.01 337.2 1140.99 356.09)}Matsui Meat Shop
+Dialogue: 0,0:00:45.02,0:00:45.06,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 842.59 353.05 b 841.84 344.85 857.97 343.19 850.25 334.98 843.18 324.37 815.27 314.75 796.05 309.81 776.83 304.46 775.1 294.88 780.72 285.76 789.89 277.46 787.18 271.93 778.53 269.29 772.1 266.96 750.59 265.56 752.8 259.99 l 1192.43 265.47 b 1195.06 288.9 1185.94 303.82 1177.35 311.14 1162.59 326.58 1171.33 334.16 1162.32 353.05)}Matsui Meat Shop
+Dialogue: 0,0:00:45.06,0:00:45.10,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 863.96 345.38 b 863.21 337.18 879.34 335.52 871.62 327.32 864.55 316.7 836.64 307.08 817.42 302.14 798.2 296.8 796.47 287.21 802.09 278.09 811.26 269.79 808.55 264.26 799.9 261.63 793.47 259.3 771.96 257.89 774.17 252.33 l 1213.8 257.8 b 1216.43 281.23 1207.31 296.15 1198.72 303.47 1183.96 318.91 1192.7 326.49 1183.69 345.38)}Matsui Meat Shop
+Dialogue: 0,0:00:45.10,0:00:45.14,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 814.26 278 l 849.26 289.52 b 867.34 296.24 883.66 303.28 875.5 315.55 l 932.26 330.06 943.57 268.83 817.25 267.76)}Matsui Meat Shop
+Dialogue: 0,0:00:45.14,0:00:45.19,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 869.53 279.07 b 890.17 286.48 909.06 296.83 893.21 308.72 l 923.94 330.06 942.08 306.8 943.36 277.36)}Matsui Meat Shop
+Dialogue: 0,0:00:45.19,0:00:45.23,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 915.62 283.55 b 925.75 292.03 917.43 300.03 912.63 304.88 908.58 308.78 911.99 314.22 914.34 316.83 917.59 320.08 922.39 323.39 928.21 325.58 l 945.7 298.48 943.14 272.24)}Matsui Meat Shop
+Dialogue: 0,0:00:45.23,0:00:45.27,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 928.21 283.33 b 929.38 290.11 920.2 295.34 921.59 302.75 922.61 307.07 928.47 311.23 932.69 314.06 l 944.64 286.11)}Matsui Meat Shop
+Dialogue: 0,0:00:45.27,0:00:50.53,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Dialogue: 0,0:00:50.53,0:00:50.57,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\clip(m 631.29 317.58 b 640.51 299.79 658.97 281.15 666.66 271.06 l 582.84 268.75 582.84 317.58)}Matsui Meat Shop
+Dialogue: 0,0:00:50.57,0:00:50.61,Signs,,0,0,0,,{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9\iclip(m 680.88 268.17 b 691.47 284.97 708.75 311.25 713.98 331.93 l 582.08 328.04 581.6 260.87)}Matsui Meat Shop
+Dialogue: 0,0:00:50.61,0:00:51.45,Signs,,0,0,0,,{=5}{\fnDK Cover Up\fscx73\fscy72\pos(762,295.84)\c&H416074&\blur0.9}Matsui Meat Shop
+Comment: 0,0:02:30.13,0:02:33.13,Default,,0,0,0,,{=6}DINO GIRL GAUKO (TO BE CONTINUED)
+Dialogue: 1,0:02:30.13,0:02:30.46,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268.01,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:02:30.50,0:02:30.55,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)}Dino Girl
+Dialogue: 1,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)\iclip(m 1258.65 143.96 l 1405.92 154.91 1410.85 212.93 1255.36 197.06)}Dino Girl
+Dialogue: 1,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1267.97,170.05)}Dino Girl
+Dialogue: 1,0:02:30.63,0:02:30.67,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1224.14,210.11)}Dino Girl
+Dialogue: 1,0:02:30.67,0:02:30.71,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1237.97,117.51)}Dino Girl
+Dialogue: 1,0:02:30.71,0:02:30.75,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1296.28,209.81)}Dino Girl
+Dialogue: 1,0:02:30.75,0:02:30.80,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1304.18,118.18)}Dino Girl
+Dialogue: 1,0:02:30.80,0:02:30.84,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1225.51,188.91)}Dino Girl
+Dialogue: 1,0:02:30.84,0:02:30.88,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1240.16,151.77)}Dino Girl
+Dialogue: 1,0:02:30.88,0:02:30.92,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1295.72,190.9)}Dino Girl
+Dialogue: 1,0:02:30.92,0:02:30.96,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1283.99,153.88)}Dino Girl
+Dialogue: 1,0:02:30.96,0:02:31.01,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1255.67,182.51)}Dino Girl
+Dialogue: 1,0:02:31.01,0:02:31.05,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1254.6,157.05)}Dino Girl
+Dialogue: 1,0:02:31.05,0:02:31.09,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1277.84,176.24)}Dino Girl
+Dialogue: 1,0:02:31.09,0:02:31.13,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.67,160.07)}Dino Girl
+Dialogue: 1,0:02:31.13,0:02:31.17,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1259.91,177.56)}Dino Girl
+Dialogue: 1,0:02:31.17,0:02:31.21,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1260,162.81)}Dino Girl
+Dialogue: 1,0:02:31.21,0:02:31.26,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.08,174.86)}Dino Girl
+Dialogue: 1,0:02:31.26,0:02:31.30,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1271.41,167.03)}Dino Girl
+Dialogue: 1,0:02:31.30,0:02:31.34,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1265.34,174.32)}Dino Girl
+Dialogue: 1,0:02:31.34,0:02:31.38,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1266.13,168.37)}Dino Girl
+Dialogue: 1,0:02:31.38,0:02:33.13,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268.74,170.94)}Dino Girl
+Dialogue: 3,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx325.85\fscy343.78\pos(1490.67,31.41)}Gauko
+Dialogue: 3,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx247.92\fscy261.56\pos(1352.55,168.97)}Gauko
+Dialogue: 3,0:02:30.63,0:02:33.13,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx325.85\fscy343.78\bord6.52\pos(1490.67,31.41)}Gauko
+Dialogue: 2,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx247.92\fscy261.56\bord4.96\pos(1352.55,168.97)}Gauko
+Dialogue: 2,0:02:30.63,0:02:33.13,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Dialogue: 1,0:02:31.17,0:02:33.13,Signs,,0,0,0,,{\fnNunito\b1\blur0.9\fade(400,0)\pos(1642,818)}To Be Continued
+Dialogue: 0,0:02:31.17,0:02:33.13,Signs,,0,0,0,,{=7}{\fnNunito\b1\blur0.9\fade(400,0)\c&H000000&\bord2\pos(1642,818)}To Be Continued
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
+

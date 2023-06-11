@@ -9,6 +9,7 @@ Up-to-date with releases:
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts)
 - Punirunes
+- Kyouryuu Shoujo Gauko (pilot shorts)
 - Ninjala
 - The Bears' School movies
 

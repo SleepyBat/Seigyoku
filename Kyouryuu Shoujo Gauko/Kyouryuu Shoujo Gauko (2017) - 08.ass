@@ -1,0 +1,224 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:35.14,0:00:38.68,Default,Naoko,0,0,0,,{\i1}I wake up\Nand open the window.
+Dialogue: 0,0:00:38.68,0:00:40.52,Default,Naoko,0,0,0,,{\i1}It's sunny outside.
+Dialogue: 0,0:00:43.44,0:00:47.32,Default,Naoko,0,0,0,,{\i1}If my hair looks good,\Nit'll be a good day.
+Dialogue: 0,0:00:47.32,0:00:50.95,Default,Naoko,0,0,0,,{\i1}If not, then things might not go as planned.
+Dialogue: 0,0:00:52.24,0:00:56.04,Default,Naoko,0,0,0,,{\i1}I eat breakfast with Mom and Dad.
+Dialogue: 0,0:00:56.04,0:01:00.62,Default,Naoko,0,0,0,,{\i1}Miso soup, rolled omelette,\Nand freshly-boiled rice.
+Dialogue: 0,0:01:00.62,0:01:02.08,Default,Mom,0,0,0,,Let us eat!
+Dialogue: 0,0:01:02.08,0:01:04.29,Default,Dad,0,0,0,,Let us eat, ribbit!
+Dialogue: 0,0:01:05.25,0:01:07.55,Default,Naoko,0,0,0,,{\i1}It's as delicious as always.
+Dialogue: 0,0:01:08.17,0:01:09.17,Default,Naoko,0,0,0,,Hey!
+Dialogue: 0,0:01:09.17,0:01:10.30,Default,Naoko,0,0,0,,Hi!
+Dialogue: 0,0:01:11.05,0:01:13.51,Default,Naoko,0,0,0,,{\i1}I meet my friends at school.
+Dialogue: 0,0:01:14.01,0:01:15.64,Default,Kana,0,0,0,,{\an8}Did you see that show yesterday?
+Dialogue: 0,0:01:15.64,0:01:16.89,Default,Erika,0,0,0,,{\an8}Oh, yeah, I did!
+Dialogue: 0,0:01:16.89,0:01:18.43,Default,Kana,0,0,0,,{\an8}Such a good episode!
+Dialogue: 0,0:01:18.43,0:01:19.93,Default,Erika,0,0,0,,{\an8}Probably my favorite so far!
+Dialogue: 0,0:01:19.93,0:01:20.48,Default,Kana,0,0,0,,{\an8}Same!
+Dialogue: 0,0:01:17.14,0:01:20.48,Default,Naoko,0,0,0,,{\i1}They're very excited to talk about\Nthe show they watched yesterday.
+Dialogue: 0,0:01:24.36,0:01:26.44,Default,Naoko,0,0,0,,{\i1}Class is kind of boring.
+Dialogue: 0,0:01:29.07,0:01:30.57,Default,Naoko,0,0,0,,{\i1}My town is very peaceful.
+Dialogue: 0,0:01:31.07,0:01:33.91,Default,Naoko,0,0,0,,{\i1}Like a typical day playing on loop.
+Dialogue: 0,0:01:38.24,0:01:39.79,Default,Naoko,0,0,0,,{\i1}My town is very peaceful.
+Dialogue: 0,0:01:45.54,0:01:47.38,Default,Naoko,0,0,0,,{\i1}And it's very beautiful.
+Dialogue: 0,0:01:59.22,0:02:03.27,Default,Naoko,0,0,0,,{\i1}Every day is the same as the last,\Nnever changing.
+Dialogue: 0,0:02:10.53,0:02:14.24,Default,Naoko,0,0,0,,{\i1}But in truth,\NI'm just blissfully unaware.
+Dialogue: 0,0:02:21.12,0:02:23.21,Default,Naoko,0,0,0,,The sunset is so pretty...
+Comment: 0,0:00:06.03,0:00:14.08,Default,,0,0,0,,{=0}DINO GIRL GAUKO
+Dialogue: 1,0:00:06.02,0:00:06.06,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1620.4,-48.65)\fscx202.27\fscy173.61}Dino Girl
+Dialogue: 1,0:00:06.06,0:00:06.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1608.88,-41.94)\fscx199.44\fscy171.19}Dino Girl
+Dialogue: 1,0:00:06.11,0:00:06.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1597.99,-35.42)\fscx196.94\fscy169.04}Dino Girl
+Dialogue: 1,0:00:06.15,0:00:06.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1586.61,-28.94)\fscx194.55\fscy166.99}Dino Girl
+Dialogue: 1,0:00:06.19,0:00:06.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1575.45,-22.58)\fscx191.81\fscy164.64}Dino Girl
+Dialogue: 1,0:00:06.23,0:00:06.27,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1565.53,-16.46)\fscx189.27\fscy162.46}Dino Girl
+Dialogue: 1,0:00:06.27,0:00:06.31,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1555.52,-10.4)\fscx187.21\fscy160.69}Dino Girl
+Dialogue: 1,0:00:06.31,0:00:06.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1545.66,-4.52)\fscx184.85\fscy158.66}Dino Girl
+Dialogue: 1,0:00:06.36,0:00:06.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1536.41,1.18)\fscx182.58\fscy156.71}Dino Girl
+Dialogue: 1,0:00:06.40,0:00:06.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1526.69,6.85)\fscx180.53\fscy154.96}Dino Girl
+Dialogue: 1,0:00:06.44,0:00:06.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1517.39,12.37)\fscx178.16\fscy152.92}Dino Girl
+Dialogue: 1,0:00:06.48,0:00:06.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1508.42,17.74)\fscx176.07\fscy151.13}Dino Girl
+Dialogue: 1,0:00:06.52,0:00:06.56,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1499.65,22.99)\fscx174.07\fscy149.41}Dino Girl
+Dialogue: 1,0:00:06.56,0:00:06.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1491.7,28.08)\fscx172.07\fscy147.7}Dino Girl
+Dialogue: 1,0:00:06.61,0:00:06.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1483.99,33.06)\fscx170.4\fscy146.26}Dino Girl
+Dialogue: 1,0:00:06.65,0:00:06.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1476.78,37.86)\fscx168.66\fscy144.77}Dino Girl
+Dialogue: 1,0:00:06.69,0:00:06.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1468.69,42.72)\fscx167.09\fscy143.42}Dino Girl
+Dialogue: 1,0:00:06.73,0:00:06.77,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1461.89,47.34)\fscx165.01\fscy141.64}Dino Girl
+Dialogue: 1,0:00:06.77,0:00:06.81,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1454.85,51.89)\fscx163.71\fscy140.52}Dino Girl
+Dialogue: 1,0:00:06.81,0:00:06.86,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1448.13,56.29)\fscx162.03\fscy139.07}Dino Girl
+Dialogue: 1,0:00:06.86,0:00:06.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1440.97,60.71)\fscx160.53\fscy137.78}Dino Girl
+Dialogue: 1,0:00:06.90,0:00:06.94,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1434.26,65.04)\fscx158.77\fscy136.28}Dino Girl
+Dialogue: 1,0:00:06.94,0:00:06.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1428.05,69.25)\fscx157.3\fscy135.01}Dino Girl
+Dialogue: 1,0:00:06.98,0:00:07.02,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1422.18,73.35)\fscx155.95\fscy133.86}Dino Girl
+Dialogue: 1,0:00:07.02,0:00:07.06,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1416.15,77.4)\fscx154.65\fscy132.74}Dino Girl
+Dialogue: 1,0:00:07.06,0:00:07.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1409.79,81.44)\fscx153.21\fscy131.51}Dino Girl
+Dialogue: 1,0:00:07.11,0:00:07.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1403.57,85.41)\fscx151.67\fscy130.18}Dino Girl
+Dialogue: 1,0:00:07.15,0:00:07.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1397.64,89.25)\fscx150.25\fscy128.97}Dino Girl
+Dialogue: 1,0:00:07.19,0:00:07.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1391.97,92.99)\fscx148.93\fscy127.83}Dino Girl
+Dialogue: 1,0:00:07.23,0:00:07.27,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1386.24,96.7)\fscx147.67\fscy126.75}Dino Girl
+Dialogue: 1,0:00:07.27,0:00:07.31,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1379.75,100.5)\fscx146.3\fscy125.57}Dino Girl
+Dialogue: 1,0:00:07.31,0:00:07.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1373.62,104.19)\fscx144.63\fscy124.14}Dino Girl
+Dialogue: 1,0:00:07.36,0:00:07.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1367.89,107.77)\fscx143.27\fscy122.98}Dino Girl
+Dialogue: 1,0:00:07.40,0:00:07.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1362.74,111.19)\fscx142.03\fscy121.91}Dino Girl
+Dialogue: 1,0:00:07.44,0:00:07.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1357.96,114.53)\fscx140.94\fscy120.97}Dino Girl
+Dialogue: 1,0:00:07.48,0:00:07.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1352.63,117.88)\fscx139.91\fscy120.09}Dino Girl
+Dialogue: 1,0:00:07.52,0:00:07.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1347.92,121.11)\fscx138.54\fscy118.92}Dino Girl
+Dialogue: 1,0:00:07.57,0:00:07.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1343.45,124.29)\fscx137.55\fscy118.07}Dino Girl
+Dialogue: 1,0:00:07.61,0:00:07.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1338.69,127.42)\fscx136.56\fscy117.21}Dino Girl
+Dialogue: 1,0:00:07.65,0:00:07.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1333.95,130.54)\fscx135.39\fscy116.21}Dino Girl
+Dialogue: 1,0:00:07.69,0:00:07.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1329.6,133.56)\fscx134.29\fscy115.26}Dino Girl
+Dialogue: 1,0:00:07.73,0:00:07.77,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1324.27,136.7)\fscx133.35\fscy114.45}Dino Girl
+Dialogue: 1,0:00:07.77,0:00:07.82,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1319.44,139.7)\fscx131.89\fscy113.2}Dino Girl
+Dialogue: 1,0:00:07.82,0:00:07.86,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1314.49,142.69)\fscx130.86\fscy112.32}Dino Girl
+Dialogue: 1,0:00:07.86,0:00:07.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1309.38,145.64)\fscx129.69\fscy111.32}Dino Girl
+Dialogue: 1,0:00:07.90,0:00:07.94,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1304.5,148.5)\fscx128.46\fscy110.27}Dino Girl
+Dialogue: 1,0:00:07.94,0:00:07.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1300.01,151.26)\fscx127.37\fscy109.33}Dino Girl
+Dialogue: 1,0:00:07.98,0:00:08.02,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1294.68,154.09)\fscx126.42\fscy108.51}Dino Girl
+Dialogue: 1,0:00:08.02,0:00:08.07,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1289.83,156.85)\fscx125.01\fscy107.3}Dino Girl
+Dialogue: 1,0:00:08.07,0:00:08.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1285.56,159.49)\fscx123.97\fscy106.41}Dino Girl
+Dialogue: 1,0:00:08.11,0:00:08.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1281.43,162.12)\fscx123.1\fscy105.66}Dino Girl
+Dialogue: 1,0:00:08.15,0:00:08.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1276.94,164.77)\fscx122.17\fscy104.86}Dino Girl
+Dialogue: 1,0:00:08.19,0:00:08.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1272.48,167.38)\fscx121.05\fscy103.9}Dino Girl
+Dialogue: 1,0:00:08.23,0:00:08.32,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1270.22,168.69)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.32,0:00:08.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1269.11,169.35)\fscx119.99\fscy102.99}Dino Girl
+Dialogue: 1,0:00:08.36,0:00:08.52,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.52,0:00:08.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1267.99,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.57,0:00:08.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.65,0:00:08.82,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268.01,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:00:08.86,0:00:08.90,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)}Dino Girl
+Dialogue: 1,0:00:08.90,0:00:08.95,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)\iclip(m 1258.65 143.96 l 1405.92 154.91 1410.85 212.93 1255.36 197.06)}Dino Girl
+Dialogue: 1,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1267.97,170.05)}Dino Girl
+Dialogue: 1,0:00:08.98,0:00:09.03,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1224.14,210.11)}Dino Girl
+Dialogue: 1,0:00:09.03,0:00:09.07,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1237.97,117.51)}Dino Girl
+Dialogue: 1,0:00:09.07,0:00:09.11,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1296.28,209.81)}Dino Girl
+Dialogue: 1,0:00:09.11,0:00:09.15,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1304.18,118.18)}Dino Girl
+Dialogue: 1,0:00:09.15,0:00:09.19,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1225.51,188.91)}Dino Girl
+Dialogue: 1,0:00:09.19,0:00:09.23,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1240.16,151.77)}Dino Girl
+Dialogue: 1,0:00:09.23,0:00:09.28,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1295.72,190.9)}Dino Girl
+Dialogue: 1,0:00:09.28,0:00:09.32,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1283.99,153.88)}Dino Girl
+Dialogue: 1,0:00:09.32,0:00:09.36,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1255.67,182.51)}Dino Girl
+Dialogue: 1,0:00:09.36,0:00:09.40,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1254.6,157.05)}Dino Girl
+Dialogue: 1,0:00:09.40,0:00:09.44,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1277.84,176.24)}Dino Girl
+Dialogue: 1,0:00:09.44,0:00:09.48,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.67,160.07)}Dino Girl
+Dialogue: 1,0:00:09.48,0:00:09.53,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1259.91,177.56)}Dino Girl
+Dialogue: 1,0:00:09.53,0:00:09.57,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1260,162.81)}Dino Girl
+Dialogue: 1,0:00:09.57,0:00:09.61,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.08,174.86)}Dino Girl
+Dialogue: 1,0:00:09.61,0:00:09.65,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1271.41,167.03)}Dino Girl
+Dialogue: 1,0:00:09.65,0:00:09.69,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1265.34,174.32)}Dino Girl
+Dialogue: 1,0:00:09.69,0:00:09.73,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1266.13,168.37)}Dino Girl
+Dialogue: 1,0:00:09.73,0:00:18.83,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268.74,170.94)}Dino Girl
+Dialogue: 3,0:00:08.90,0:00:08.94,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx325.85\fscy343.78\pos(1490.67,31.41)}Gauko
+Dialogue: 3,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx247.92\fscy261.56\pos(1352.55,168.97)}Gauko
+Dialogue: 3,0:00:08.98,0:00:13.07,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:00:08.90,0:00:08.94,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx325.85\fscy343.78\bord6.52\pos(1490.67,31.41)}Gauko
+Dialogue: 2,0:00:08.94,0:00:08.98,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx247.92\fscy261.56\bord4.96\pos(1352.55,168.97)}Gauko
+Dialogue: 2,0:00:08.98,0:00:13.07,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Dialogue: 3,0:00:13.07,0:00:13.11,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,240.98)}Gauko
+Dialogue: 3,0:00:13.11,0:00:13.15,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,227.1)}Gauko
+Dialogue: 3,0:00:13.15,0:00:13.20,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,213.08)}Gauko
+Dialogue: 3,0:00:13.20,0:00:13.24,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,199.45)}Gauko
+Dialogue: 3,0:00:13.24,0:00:13.28,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,186.03)}Gauko
+Dialogue: 3,0:00:13.28,0:00:13.32,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,173.48)}Gauko
+Dialogue: 3,0:00:13.32,0:00:13.36,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,161.96)}Gauko
+Dialogue: 3,0:00:13.36,0:00:13.40,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,151.52)}Gauko
+Dialogue: 3,0:00:13.40,0:00:13.45,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,142.52)}Gauko
+Dialogue: 3,0:00:13.45,0:00:13.49,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,135.3)}Gauko
+Dialogue: 3,0:00:13.49,0:00:13.53,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,130.33)}Gauko
+Dialogue: 3,0:00:13.53,0:00:13.57,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,128.4)}Gauko
+Dialogue: 3,0:00:13.57,0:00:13.61,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,130.33)}Gauko
+Dialogue: 3,0:00:13.61,0:00:13.65,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,135.28)}Gauko
+Dialogue: 3,0:00:13.65,0:00:13.70,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,142.47)}Gauko
+Dialogue: 3,0:00:13.70,0:00:13.74,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,151.5)}Gauko
+Dialogue: 3,0:00:13.74,0:00:13.78,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,161.91)}Gauko
+Dialogue: 3,0:00:13.78,0:00:13.82,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,173.42)}Gauko
+Dialogue: 3,0:00:13.82,0:00:13.86,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,186.02)}Gauko
+Dialogue: 3,0:00:13.86,0:00:13.90,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,199.47)}Gauko
+Dialogue: 3,0:00:13.90,0:00:13.95,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,213.09)}Gauko
+Dialogue: 3,0:00:13.95,0:00:13.99,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,227.11)}Gauko
+Dialogue: 3,0:00:13.99,0:00:14.03,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,240.96)}Gauko
+Dialogue: 3,0:00:14.03,0:00:18.83,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:00:13.07,0:00:13.11,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,240.98)}Gauko
+Dialogue: 2,0:00:13.11,0:00:13.15,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,227.1)}Gauko
+Dialogue: 2,0:00:13.15,0:00:13.20,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,213.08)}Gauko
+Dialogue: 2,0:00:13.20,0:00:13.24,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,199.45)}Gauko
+Dialogue: 2,0:00:13.24,0:00:13.28,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,186.03)}Gauko
+Dialogue: 2,0:00:13.28,0:00:13.32,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,173.48)}Gauko
+Dialogue: 2,0:00:13.32,0:00:13.36,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,161.96)}Gauko
+Dialogue: 2,0:00:13.36,0:00:13.40,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,151.52)}Gauko
+Dialogue: 2,0:00:13.40,0:00:13.45,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,142.52)}Gauko
+Dialogue: 2,0:00:13.45,0:00:13.49,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,135.3)}Gauko
+Dialogue: 2,0:00:13.49,0:00:13.53,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,130.33)}Gauko
+Dialogue: 2,0:00:13.53,0:00:13.57,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,128.4)}Gauko
+Dialogue: 2,0:00:13.57,0:00:13.61,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,130.33)}Gauko
+Dialogue: 2,0:00:13.61,0:00:13.65,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,135.28)}Gauko
+Dialogue: 2,0:00:13.65,0:00:13.70,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,142.47)}Gauko
+Dialogue: 2,0:00:13.70,0:00:13.74,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,151.5)}Gauko
+Dialogue: 2,0:00:13.74,0:00:13.78,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,161.91)}Gauko
+Dialogue: 2,0:00:13.78,0:00:13.82,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,173.42)}Gauko
+Dialogue: 2,0:00:13.82,0:00:13.86,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,186.02)}Gauko
+Dialogue: 2,0:00:13.86,0:00:13.90,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,199.47)}Gauko
+Dialogue: 2,0:00:13.90,0:00:13.95,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,213.09)}Gauko
+Dialogue: 2,0:00:13.95,0:00:13.99,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,227.11)}Gauko
+Dialogue: 2,0:00:13.99,0:00:14.03,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,240.96)}Gauko
+Dialogue: 2,0:00:14.03,0:00:18.83,Signs,,0,0,0,,{=1}{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Comment: 0,0:00:30.01,0:00:32.51,Default,,0,0,0,,{=2}THIS BEAUTIFUL WORLD (EPISODE 8)
+Dialogue: 1,0:00:30.01,0:00:32.51,Signs,,0,0,0,,{\fnDK Bupkis\b0\c&H557D32&\blur0.9\fscx177\fscy147\pos(988,256)}This Beautiful World
+Dialogue: 0,0:00:30.01,0:00:32.51,Signs,,0,0,0,,{\fnDK Bupkis\b0\blur0.9\4c&HFFFFFF&\bord5\1a&HFE&\3a&HFE&\xbord7\xshad-2\yshad1\4a&H00&\fscx177\fscy147\pos(988,256)}This Beautiful World
+Dialogue: 1,0:00:30.05,0:00:32.51,Signs,,0,0,0,,{\fnNunito\b1\blur0.9\fade(400,0)\pos(960,804)}Episode 8
+Dialogue: 0,0:00:30.05,0:00:32.51,Signs,,0,0,0,,{=3}{\fnNunito\b1\blur0.9\fade(400,0)\c&H000000&\bord2\pos(960,804)}Episode 8
+Comment: 0,0:02:30.13,0:02:33.13,Default,,0,0,0,,{=4}DINO GIRL GAUKO (TO BE CONTINUED)
+Dialogue: 1,0:02:30.13,0:02:30.46,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\blur0.9\pos(1268.01,170)\fscx120\fscy103}Dino Girl
+Dialogue: 1,0:02:30.50,0:02:30.55,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)}Dino Girl
+Dialogue: 1,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268,170)\iclip(m 1258.65 143.96 l 1405.92 154.91 1410.85 212.93 1255.36 197.06)}Dino Girl
+Dialogue: 1,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1267.97,170.05)}Dino Girl
+Dialogue: 1,0:02:30.63,0:02:30.67,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1224.14,210.11)}Dino Girl
+Dialogue: 1,0:02:30.67,0:02:30.71,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1237.97,117.51)}Dino Girl
+Dialogue: 1,0:02:30.71,0:02:30.75,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1296.28,209.81)}Dino Girl
+Dialogue: 1,0:02:30.75,0:02:30.80,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1304.18,118.18)}Dino Girl
+Dialogue: 1,0:02:30.80,0:02:30.84,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1225.51,188.91)}Dino Girl
+Dialogue: 1,0:02:30.84,0:02:30.88,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1240.16,151.77)}Dino Girl
+Dialogue: 1,0:02:30.88,0:02:30.92,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1295.72,190.9)}Dino Girl
+Dialogue: 1,0:02:30.92,0:02:30.96,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1283.99,153.88)}Dino Girl
+Dialogue: 1,0:02:30.96,0:02:31.01,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1255.67,182.51)}Dino Girl
+Dialogue: 1,0:02:31.01,0:02:31.05,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1254.6,157.05)}Dino Girl
+Dialogue: 1,0:02:31.05,0:02:31.09,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1277.84,176.24)}Dino Girl
+Dialogue: 1,0:02:31.09,0:02:31.13,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.67,160.07)}Dino Girl
+Dialogue: 1,0:02:31.13,0:02:31.17,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1259.91,177.56)}Dino Girl
+Dialogue: 1,0:02:31.17,0:02:31.21,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1260,162.81)}Dino Girl
+Dialogue: 1,0:02:31.21,0:02:31.26,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1274.08,174.86)}Dino Girl
+Dialogue: 1,0:02:31.26,0:02:31.30,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1271.41,167.03)}Dino Girl
+Dialogue: 1,0:02:31.30,0:02:31.34,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1265.34,174.32)}Dino Girl
+Dialogue: 1,0:02:31.34,0:02:31.38,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1266.13,168.37)}Dino Girl
+Dialogue: 1,0:02:31.38,0:02:33.13,Signs,,0,0,0,,{\fnToonacious BB\c&H08070C&\fscx120\fscy103\blur0.9\pos(1268.74,170.94)}Dino Girl
+Dialogue: 3,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx325.85\fscy343.78\pos(1490.67,31.41)}Gauko
+Dialogue: 3,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx247.92\fscy261.56\pos(1352.55,168.97)}Gauko
+Dialogue: 3,0:02:30.63,0:02:33.13,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H4C0EC5&\blur0.9\fscx200\fscy211\pos(1268,253.13)}Gauko
+Dialogue: 2,0:02:30.55,0:02:30.59,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx325.85\fscy343.78\bord6.52\pos(1490.67,31.41)}Gauko
+Dialogue: 2,0:02:30.59,0:02:30.63,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx247.92\fscy261.56\bord4.96\pos(1352.55,168.97)}Gauko
+Dialogue: 2,0:02:30.63,0:02:33.13,Signs,,0,0,0,,{\fnPiekosFX Basic BB\c&H000000&\blur0.9\fscx200\fscy211\bord4\pos(1268,253.13)}Gauko
+Dialogue: 1,0:02:31.17,0:02:33.13,Signs,,0,0,0,,{\fnNunito\b1\blur0.9\fade(400,0)\pos(1642,818)}To Be Continued
+Dialogue: 0,0:02:31.17,0:02:33.13,Signs,,0,0,0,,{=5}{\fnNunito\b1\blur0.9\fade(400,0)\c&H000000&\bord2\pos(1642,818)}To Be Continued
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+

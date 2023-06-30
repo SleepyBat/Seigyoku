@@ -5,11 +5,11 @@ These may include updates from original releases for quality purposes. Any updat
 Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
-- Too Cute Crisis
 
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts)
 - Punirunes
+- Too Cute Crisis
 - Dino Girl Gauko (pilot shorts)
 - Ninjala
 - The Bears' School movies

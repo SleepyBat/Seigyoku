@@ -5,14 +5,14 @@ These may include updates from original releases for quality purposes. Any updat
 Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
-- Noble Farmer
+- Noble Farmer (Hyakushou Kizoku)
 
 Fully archived:
-- Cap Revolution Bottleman DX (series + Side Story shorts)
+- Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)
 - Punirunes
-- Too Cute Crisis
-- Dino Girl Gauko (pilot shorts)
+- Too Cute Crisis (Kawaisugi Crisis)
+- Dino Girl Gauko (pilot shorts) (Kyouryuu Shoujo Gauko)
 - Ninjala
-- The Bears' School movies
+- The Bears' School movies (Kuma no Gakkou)
 
 Old Yo-kai Watch releases will be added once they've been revised in the future.

@@ -5,6 +5,7 @@ These may include updates from original releases for quality purposes. Any updat
 Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
+- Dog Signal
 
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)

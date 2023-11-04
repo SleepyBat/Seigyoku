@@ -1,0 +1,789 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,LTFinnegan Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,4,2,2,100,100,70,1
+Style: Signs,LTFinnegan Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: OP,CasinoHand,75,&H004D4B4A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H6C000000,&H57000000,0,0,0,0,100,100,0,0,1,0,0,8,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 50,0:01:36.58,0:01:39.00,Default,,0,0,0,,My name is Izumi Ritsuka.
+Dialogue: 50,0:01:39.00,0:01:40.20,Default,,0,0,0,,I'm a landlady and a dog groomer!
+Dialogue: 50,0:01:40.58,0:01:43.67,Default,,0,0,0,,I run a dog salon two doors down!
+Dialogue: 50,0:01:45.71,0:01:48.63,Default,,0,0,0,,Oh, you're his landlady! That makes sense.
+Dialogue: 50,0:01:48.63,0:01:50.30,Default,,0,0,0,,Wait, are you his girlfriend too...?
+Dialogue: 50,0:01:50.30,0:01:51.59,Default,,0,0,0,,Perish the thought.
+Dialogue: 50,0:01:51.59,0:01:52.97,Default,,0,0,0,,S-Sorry!
+Dialogue: 50,0:01:53.47,0:01:57.56,Default,,0,0,0,,I'm surprised that anyone would\Nwant to work for Shinichiro, though.
+Dialogue: 50,0:01:57.56,0:01:59.10,Default,,0,0,0,,Everyone's pretty much afraid of him.
+Dialogue: 50,0:01:59.10,0:02:00.27,Default,,0,0,0,,That doesn't surprise me...
+Dialogue: 50,0:02:01.81,0:02:03.77,Default,,0,0,0,,He's actually a sweetheart, you know.
+Dialogue: 50,0:02:04.52,0:02:06.31,Default,,0,0,0,,Just experienced a lot\Nin the past, that's all.
+Dialogue: 50,0:02:06.31,0:02:06.98,Default,,0,0,0,,Huh?
+Dialogue: 50,0:02:07.32,0:02:09.44,Default,,0,0,0,,And he's a damn good dog trainer too!
+Dialogue: 50,0:02:09.44,0:02:11.44,Default,,0,0,0,,But he's wasting those talents of his.
+Dialogue: 50,0:02:12.28,0:02:13.53,Default,,0,0,0,,Ah, I know what you mean!
+Dialogue: 50,0:02:13.53,0:02:18.28,Default,,0,0,0,,My dog got loose from his leash\Nand he saved him from getting run over!
+Dialogue: 50,0:02:18.28,0:02:19.62,Default,,0,0,0,,He just went {\i1}snap!
+Dialogue: 50,0:02:19.62,0:02:21.79,Default,,0,0,0,,It was {\i1}so{\i0} dang cool!
+Dialogue: 50,0:02:21.79,0:02:23.41,Default,,0,0,0,,Almost like magic!
+Dialogue: 50,0:02:23.41,0:02:25.21,Default,,0,0,0,,Miyu-kun, was it?
+Dialogue: 50,0:02:25.21,0:02:27.79,Default,,0,0,0,,You're looking to get paid, right?
+Dialogue: 50,0:02:27.79,0:02:28.50,Default,,0,0,0,,W-Well, yeah.
+Dialogue: 50,0:02:28.50,0:02:31.17,Default,,0,0,0,,Then you oughta get him movin'!
+Dialogue: 50,0:02:31.17,0:02:32.13,Default,,0,0,0,,You can do it!
+Dialogue: 50,0:02:32.88,0:02:35.51,Default,,0,0,0,,Me? Do what? What should I do?
+Dialogue: 50,0:02:35.51,0:02:37.18,Default,,0,0,0,,Just think about it!
+Dialogue: 50,0:02:37.18,0:02:38.26,Default,,0,0,0,,Hold on!
+Dialogue: 50,0:02:38.26,0:02:41.77,Default,,0,0,0,,Get... {\i1}Niwa-san{\i0} moving?
+Dialogue: 50,0:02:41.77,0:02:42.64,Default,,0,0,0,,How...?
+Dialogue: 50,0:02:44.48,0:02:45.48,Default,,0,0,0,,I know...
+Dialogue: 50,0:02:49.27,0:02:51.65,Default,,0,0,0,,{\i1}Crap, it's already past 11:00!
+Dialogue: 50,0:02:51.65,0:02:54.61,Default,,0,0,0,,Sorry. I ended up taking longer than I meant to.
+Dialogue: 50,0:02:54.61,0:02:56.41,Default,,0,0,0,,You little...
+Dialogue: 50,0:02:56.41,0:03:00.03,Default,,0,0,0,,Where the hell did you run off to\Nwhile you made me watch your un-potty-trained dog?
+Dialogue: 50,0:03:01.33,0:03:04.54,Default,,0,0,0,,I-I'm sorry, I had to sort something out.
+Dialogue: 50,0:03:04.54,0:03:07.13,Default,,0,0,0,,But, anyway, you said you'd train us
+Dialogue: 50,0:03:07.13,0:03:10.25,Default,,0,0,0,,whenever you had no customers, right? Right?
+Dialogue: 50,0:03:11.00,0:03:14.30,Default,,0,0,0,,I'll quickly clear this mess up\Nand then how about we head to the park?
+Dialogue: 50,0:03:16.05,0:03:18.72,Default,,0,0,0,,So, what do you wanna tackle?
+Dialogue: 50,0:03:18.72,0:03:20.56,Default,,0,0,0,,Hmm, I dunno.
+Dialogue: 50,0:03:21.10,0:03:22.77,Default,,0,0,0,,{\i1}Any minute now...
+Dialogue: 50,0:03:22.77,0:03:25.56,Default,,0,0,0,,How about you demonstrate something for me?
+Dialogue: 50,0:03:25.56,0:03:26.89,Default,,0,0,0,,Like some cool trick!
+Dialogue: 50,0:03:26.89,0:03:29.23,Default,,0,0,0,,That'll surely get me motivated to learn!
+Dialogue: 50,0:03:30.90,0:03:33.32,Default,,0,0,0,,{\i1}Looks like he's fed up of this already.
+Dialogue: 50,0:03:35.11,0:03:35.95,Default,,0,0,0,,What's that?
+Dialogue: 50,0:03:36.24,0:03:37.74,Default,,0,0,0,,A long leash.
+Dialogue: 50,0:03:37.74,0:03:41.41,Default,,0,0,0,,It allows a dog to train more freely\Nin places that mandate leashes.
+Dialogue: 50,0:03:42.62,0:03:46.66,Default,,0,0,0,,But keep in mind, some parks\Nforbid the use of long leashes.
+Dialogue: 50,0:03:46.66,0:03:48.21,Default,,0,0,0,,Ourson, heel.
+Dialogue: 50,0:03:55.59,0:03:56.22,Default,,0,0,0,,Go!
+Dialogue: 50,0:03:58.13,0:03:58.84,Default,,0,0,0,,{\i1}So cool!
+Dialogue: 50,0:03:59.51,0:04:00.09,Default,,0,0,0,,Stop!
+Dialogue: 50,0:04:03.43,0:04:04.97,Default,,0,0,0,,{\i1}He's signaling him by hand alone...
+Dialogue: 50,0:04:05.52,0:04:06.98,Default,,0,0,0,,{\i1}Even though they're so far apart!
+Dialogue: 50,0:04:10.02,0:04:11.23,Default,,0,0,0,,This is the last one.
+Dialogue: 50,0:04:14.98,0:04:15.61,Default,,0,0,0,,Over!
+Dialogue: 50,0:04:17.28,0:04:19.11,Default,,0,0,0,,{\i1}Izumi-san was right...
+Dialogue: 50,0:04:19.11,0:04:21.70,Default,,0,0,0,,{\i1}It's such a waste...
+Dialogue: 50,0:04:21.70,0:04:23.58,Default,,0,0,0,,{\i1}to keep all of this awesomeness to yourself!
+Dialogue: 50,0:04:25.66,0:04:26.45,Default,,0,0,0,,That was amazing!
+Dialogue: 50,0:04:26.45,0:04:28.71,Default,,0,0,0,,He's so talented!
+Dialogue: 50,0:04:28.71,0:04:31.29,Default,,0,0,0,,Did you enjoy the show, everyone?
+Dialogue: 50,0:04:31.29,0:04:34.34,Default,,0,0,0,,That was only an ounce\Nof what Niwa,
+Dialogue: 50,0:04:34.34,0:04:37.42,Default,,0,0,0,,representative and trainer of Proud Dog,\Ncan accomplish!
+Dialogue: 50,0:04:37.42,0:04:38.88,Default,,0,0,0,,Huh? Hold on...!
+Dialogue: 50,0:04:45.47,0:04:47.85,Default,,0,0,0,,Is {\i1}this{\i0} what you were up to earlier?
+Dialogue: 50,0:04:47.85,0:04:49.19,Default,,0,0,0,,{\an8}How could you...
+Dialogue: 50,0:04:48.35,0:04:49.85,Default,,0,0,0,,To get customers!
+Dialogue: 50,0:04:49.85,0:04:52.61,Default,,0,0,0,,You're not gonna get any by\Nhiding away in your room!
+Dialogue: 50,0:04:52.90,0:04:54.90,Default,,0,0,0,,You're behind on rent, right?
+Dialogue: 50,0:04:54.90,0:04:57.69,Default,,0,0,0,,And I need a salary to live, too!
+Dialogue: 50,0:04:59.61,0:05:00.74,Default,,0,0,0,,Excuse me...
+Dialogue: 50,0:05:01.70,0:05:03.62,Default,,0,0,0,,My name is Eguchi.
+Dialogue: 50,0:05:04.62,0:05:08.20,Default,,0,0,0,,My boy is very aggressive\Nand I don't know what to do...
+Dialogue: 50,0:05:08.20,0:05:10.41,Default,,0,0,0,,He's always acting like this...
+Dialogue: 50,0:05:12.21,0:05:13.58,Default,,0,0,0,,{\i1}"Aggressive..."
+Dialogue: 50,0:05:14.34,0:05:15.46,Default,,0,0,0,,Can you elaborate?
+Dialogue: 50,0:05:15.84,0:05:18.26,Default,,0,0,0,,Whenever he sees other dogs on a walk,
+Dialogue: 50,0:05:18.26,0:05:20.34,Default,,0,0,0,,he'll start barking and trying to pick a fight.
+Dialogue: 50,0:05:23.14,0:05:25.26,Default,,0,0,0,,I thought it'd be nice to make new friends,
+Dialogue: 50,0:05:25.26,0:05:28.47,Default,,0,0,0,,but I can't even walk past them,\Nmuch less talk to them.
+Dialogue: 50,0:05:28.47,0:05:31.10,Default,,0,0,0,,Why does he have to be like this...?
+Dialogue: 50,0:05:31.44,0:05:33.77,Default,,0,0,0,,First of all, please set your dog down.
+Dialogue: 50,0:05:33.77,0:05:36.61,Default,,0,0,0,,I can't! He'll lash out at the other dogs.
+Dialogue: 50,0:05:36.90,0:05:37.98,Default,,0,0,0,,Just do it!
+Dialogue: 50,0:05:38.36,0:05:40.65,Default,,0,0,0,,O-Okay...
+Dialogue: 50,0:05:41.90,0:05:44.87,Default,,0,0,0,,Please be careful, doggies...
+Dialogue: 50,0:05:45.24,0:05:46.95,Default,,0,0,0,,He's really...
+Dialogue: 50,0:05:51.96,0:05:52.42,Default,,0,0,0,,Stop!
+Dialogue: 50,0:05:52.42,0:05:53.12,Default,,0,0,0,,No.
+Dialogue: 50,0:06:08.35,0:06:09.52,Default,,0,0,0,,Wow...
+Dialogue: 50,0:06:09.85,0:06:12.35,Default,,0,0,0,,That's a good boy.
+Dialogue: 50,0:06:13.56,0:06:14.44,Default,,0,0,0,,I can't believe it...
+Dialogue: 50,0:06:14.81,0:06:17.61,Default,,0,0,0,,I want you to try walking around my dog next.
+Dialogue: 50,0:06:18.15,0:06:19.90,Default,,0,0,0,,Bring Ourson over.
+Dialogue: 50,0:06:19.90,0:06:20.65,Default,,0,0,0,,Got it.
+Dialogue: 50,0:06:20.65,0:06:22.28,Default,,0,0,0,,Wait a minute!
+Dialogue: 50,0:06:23.32,0:06:25.95,Default,,0,0,0,,He's even worse with bigger dogs...
+Dialogue: 50,0:06:25.95,0:06:28.37,Default,,0,0,0,,He's really hopeless...
+Dialogue: 50,0:06:29.45,0:06:32.96,Default,,0,0,0,,That's only because you don't believe in him.
+Dialogue: 50,0:06:33.37,0:06:35.17,Default,,0,0,0,,Any dog can still be trained.
+Dialogue: 50,0:06:36.67,0:06:37.63,Default,,0,0,0,,Let me have him.
+Dialogue: 50,0:06:42.67,0:06:44.01,Default,,0,0,0,,What's his name?
+Dialogue: 50,0:06:44.01,0:06:45.22,Default,,0,0,0,,L-Leo...
+Dialogue: 50,0:06:46.26,0:06:46.97,Default,,0,0,0,,Leo.
+Dialogue: 50,0:06:48.10,0:06:50.51,Default,,0,0,0,,Just now, he looked at me when I said his name.
+Dialogue: 50,0:06:51.10,0:06:52.60,Default,,0,0,0,,That's called eye contact.
+Dialogue: 50,0:06:54.31,0:06:57.61,Default,,0,0,0,,I'm going to teach you how and when\Nto initiate eye contact.
+Dialogue: 50,0:06:58.02,0:07:01.90,Default,,0,0,0,,First are the "hows"\Non initiating eye contact with your dog.
+Dialogue: 50,0:07:01.90,0:07:03.61,Default,,0,0,0,,Saying its name.
+Dialogue: 50,0:07:03.61,0:07:06.61,Default,,0,0,0,,Guiding their gaze with hand gestures.
+Dialogue: 50,0:07:06.99,0:07:09.37,Default,,0,0,0,,Guiding them with the smell of a treat.
+Dialogue: 50,0:07:10.20,0:07:13.54,Default,,0,0,0,,Getting their attention with\Na toy that makes noise, etc.
+Dialogue: 50,0:07:14.62,0:07:17.54,Default,,0,0,0,,This will attract the dog's interest to you,
+Dialogue: 50,0:07:17.54,0:07:21.17,Default,,0,0,0,,giving you their {\i1}awareness,{\i0}\Nnot just their gaze.
+Dialogue: 50,0:07:21.17,0:07:23.13,Default,,0,0,0,,That, itself, is fundamental to dog training.
+Dialogue: 50,0:07:24.17,0:07:26.51,Default,,0,0,0,,And now, the "whens."
+Dialogue: 50,0:07:26.93,0:07:30.18,Default,,0,0,0,,If something happens\Nto distract your dog during a walk,
+Dialogue: 50,0:07:30.18,0:07:31.64,Default,,0,0,0,,then just before they get riled up...
+Dialogue: 50,0:07:31.64,0:07:32.52,Default,,0,0,0,,Leo!
+Dialogue: 50,0:07:33.72,0:07:36.02,Default,,0,0,0,,And praise them once you have their attention.
+Dialogue: 50,0:07:36.44,0:07:38.69,Default,,0,0,0,,Good boy, Leo! You're doing great!
+Dialogue: 50,0:07:38.69,0:07:40.56,Default,,0,0,0,,Praise them like there's no tomorrow!
+Dialogue: 50,0:07:40.56,0:07:43.69,Default,,0,0,0,,You're amazing, Leo! You're a superstar!
+Dialogue: 50,0:07:43.69,0:07:47.03,Default,,0,0,0,,You can also give them a treat\Nwhenever they make eye contact.
+Dialogue: 50,0:07:48.61,0:07:50.74,Default,,0,0,0,,Practice this patiently.
+Dialogue: 50,0:07:50.74,0:07:54.66,Default,,0,0,0,,Being on-and-off about praise\Nonly serves to confuse your dog.
+Dialogue: 50,0:07:54.66,0:07:57.79,Default,,0,0,0,,If your dog is already riled up,\Nthen it's too late to initiate.
+Dialogue: 50,0:07:59.83,0:08:02.63,Default,,0,0,0,,Leo! Stop it, Leo!
+Dialogue: 50,0:08:04.63,0:08:08.22,Default,,0,0,0,,Lastly, picking him up the way you did
+Dialogue: 50,0:08:08.22,0:08:10.05,Default,,0,0,0,,won't make him calm down, but the opposite.
+Dialogue: 50,0:08:10.55,0:08:12.93,Default,,0,0,0,,Hey! You have to stop barking.
+Dialogue: 50,0:08:13.51,0:08:16.02,Default,,0,0,0,,When you pick him up to try and stop him,
+Dialogue: 50,0:08:16.02,0:08:21.15,Default,,0,0,0,,he gets the idea that you're {\i1}hugging{\i0} him\Nfor barking, and takes it as praise.
+Dialogue: 50,0:08:21.15,0:08:21.94,Default,,0,0,0,,As a result...
+Dialogue: 50,0:08:23.48,0:08:28.07,Default,,0,0,0,,He starts to think,\N"Barking is a good thing! If I bark, she'll praise me!"
+Dialogue: 50,0:08:28.07,0:08:30.57,Default,,0,0,0,,Cut it out, boy!
+Dialogue: 50,0:08:30.57,0:08:33.33,Default,,0,0,0,,He gets the wrong end of the stick from it.
+Dialogue: 50,0:08:36.91,0:08:38.96,Default,,0,0,0,,Right now, notice how he's looking at Ourson.
+Dialogue: 50,0:08:39.62,0:08:42.92,Default,,0,0,0,,But if you look closely,\Nhis ear is pointing this way.
+Dialogue: 50,0:08:42.92,0:08:45.42,Default,,0,0,0,,It's a sign he's still paying attention to me.
+Dialogue: 50,0:08:45.42,0:08:46.92,Default,,0,0,0,,Which means...
+Dialogue: 50,0:08:47.51,0:08:48.17,Default,,0,0,0,,Leo.
+Dialogue: 50,0:08:49.38,0:08:51.76,Default,,0,0,0,,I can immediately get him to focus on me.
+Dialogue: 50,0:08:51.76,0:08:52.93,Default,,0,0,0,,Good boy.
+Dialogue: 50,0:08:53.93,0:08:59.44,Default,,0,0,0,,{\i1}And then Leo-kun walked all the way\Naround Ourson-senpai without barking even once!
+Dialogue: 50,0:09:00.10,0:09:03.44,Default,,0,0,0,,An owner's emotions play a\Nmajor role in a dog's behavior.
+Dialogue: 50,0:09:03.44,0:09:07.11,Default,,0,0,0,,When you get nervous that he might start barking,
+Dialogue: 50,0:09:07.11,0:09:09.45,Default,,0,0,0,,Leo gets further on edge.
+Dialogue: 50,0:09:09.45,0:09:14.12,Default,,0,0,0,,"She's too freaked out to handle this,\Nso I have to take the initiative."
+Dialogue: 50,0:09:14.70,0:09:20.46,Default,,0,0,0,,Which created a habit of trying to intimidate others\Nby going on the offense.
+Dialogue: 50,0:09:20.92,0:09:24.21,Default,,0,0,0,,When he's really timid, and doesn't want to fight.
+Dialogue: 50,0:09:25.00,0:09:25.96,Default,,0,0,0,,{\i1}Leo...
+Dialogue: 50,0:09:26.46,0:09:28.09,Default,,0,0,0,,I'm so sorry, Leo...
+Dialogue: 50,0:09:28.09,0:09:30.34,Default,,0,0,0,,How can I help him...?
+Dialogue: 50,0:09:30.34,0:09:33.84,Default,,0,0,0,,As long as he can rely on his owner,\Nhe'll feel safe.
+Dialogue: 50,0:09:34.64,0:09:36.72,Default,,0,0,0,,He'll know he doesn't have to fight alone.
+Dialogue: 50,0:09:37.47,0:09:40.98,Default,,0,0,0,,Correcting a dog's behavior\Nstarts with their owner.
+Dialogue: 50,0:09:41.94,0:09:45.02,Default,,0,0,0,,You need to get to know him better,\Nand believe in him.
+Dialogue: 50,0:09:46.48,0:09:49.69,Default,,0,0,0,,If the owner changes, their dog will with them.
+Dialogue: 50,0:09:53.82,0:09:55.07,Default,,0,0,0,,Heck yeah!
+Dialogue: 50,0:09:55.07,0:09:59.87,Default,,0,0,0,,We got two trials booked, including Leo-kun's!
+Dialogue: 50,0:09:59.87,0:10:03.08,Default,,0,0,0,,We'll be flooded with customers\Nin no time!
+Dialogue: 50,0:10:04.88,0:10:08.34,Default,,0,0,0,,What about me?\NDo I get a reward for bringing in customers?
+Dialogue: 50,0:10:08.34,0:10:11.01,Default,,0,0,0,,I don't have any jerky for humans.
+Dialogue: 50,0:10:11.01,0:10:12.84,Default,,0,0,0,,No, not jerky!
+Dialogue: 50,0:10:12.84,0:10:16.18,Default,,0,0,0,,Teach me that magic snap you do!
+Dialogue: 50,0:10:16.18,0:10:19.56,Default,,0,0,0,,This guy won't even so much as\Nlook at me when I try...
+Dialogue: 50,0:10:19.89,0:10:21.68,Default,,0,0,0,,Ourson, wait.
+Dialogue: 50,0:10:21.68,0:10:23.98,Default,,0,0,0,,You won't pull off that snap in a million years.
+Dialogue: 50,0:10:23.98,0:10:26.56,Default,,0,0,0,,Aw, what? What am I doing wrong?
+Dialogue: 50,0:10:27.69,0:10:29.40,Default,,0,0,0,,So, do you have a name?
+Dialogue: 50,0:10:29.40,0:10:31.74,Default,,0,0,0,,How many times do I have to tell you?\NIt's Samura Miy—
+Dialogue: 50,0:10:31.40,0:10:33.53,Default,,0,0,0,,{\an8}For the {\i1}dog,{\i0} not you.
+Dialogue: 50,0:10:37.83,0:10:39.99,Default,,0,0,0,,No clue. I'm kinda shocked.
+Dialogue: 50,0:10:39.99,0:10:41.54,Default,,0,0,0,,I'm {\i1}the one who should be shocked...
+Dialogue: 50,0:10:42.16,0:10:44.37,Default,,0,0,0,,Y'know, I never asked.
+Dialogue: 50,0:10:44.37,0:10:45.83,Default,,0,0,0,,I'll have to call Yuko—
+Dialogue: 50,0:10:45.83,0:10:48.29,Default,,0,0,0,,...Right, she won't pick up.
+Dialogue: 50,0:10:48.29,0:10:52.84,Default,,0,0,0,,To a dog, a name is a special word\Ntheir owner says to them.
+Dialogue: 50,0:10:53.34,0:10:58.14,Default,,0,0,0,,Calling him by a name will bring you closer together,
+Dialogue: 50,0:10:58.14,0:11:00.06,Default,,0,0,0,,and build your trust.
+Dialogue: 50,0:11:00.81,0:11:05.06,Default,,0,0,0,,It doesn't have to be the same as his old name.\NYou're his current owner.
+Dialogue: 50,0:11:05.56,0:11:07.52,Default,,0,0,0,,Give him a name that's easy to understand,
+Dialogue: 50,0:11:07.52,0:11:11.57,Default,,0,0,0,,easy to remember,\Nand that you'll want to call him over and over.
+Dialogue: 50,0:11:12.15,0:11:14.07,Default,,0,0,0,,Only after that can you begin training.
+Dialogue: 50,0:11:14.49,0:11:17.07,Default,,0,0,0,,Though, whenever you call his name,\Nyou need to know...
+Dialogue: 50,0:11:17.07,0:11:20.28,Default,,0,0,0,,Right, gotta move quick!\NSee you later!
+Dialogue: 50,0:11:24.54,0:11:27.04,Default,,0,0,0,,A name... Hmm...
+Dialogue: 50,0:11:28.00,0:11:30.54,Default,,0,0,0,,Koro? Nah, that's too cliché...
+Dialogue: 50,0:11:30.54,0:11:31.63,Default,,0,0,0,,Shiro...?
+Dialogue: 50,0:11:31.63,0:11:33.17,Default,,0,0,0,,He's not even white.
+Dialogue: 50,0:11:33.17,0:11:34.01,Default,,0,0,0,,Kuro?
+Dialogue: 50,0:11:34.01,0:11:35.55,Default,,0,0,0,,He's not even black!
+Dialogue: 50,0:11:35.84,0:11:40.39,Default,,0,0,0,,Agh, coming up with a name is so hard!
+Dialogue: 50,0:11:41.76,0:11:42.68,Default,,0,0,0,,Niwa-saaan!
+Dialogue: 50,0:11:44.48,0:11:46.19,Default,,0,0,0,,Good mooorniiing!
+Dialogue: 50,0:11:46.52,0:11:49.31,Default,,0,0,0,,It's time for work, Niwa-saaan!
+Dialogue: 50,0:11:50.56,0:11:52.44,Default,,0,0,0,,Why are you banging on my door this early...?
+Dialogue: 50,0:11:52.44,0:11:54.82,Default,,0,0,0,,What do you mean "this early?"
+Dialogue: 50,0:11:54.82,0:11:58.82,Default,,0,0,0,,It's opening hours!\NGotta get the shutters open and clean up!
+Dialogue: 50,0:11:58.82,0:12:03.58,Default,,0,0,0,,We have clients coming for trials\Nin just three days!
+Dialogue: 50,0:12:03.58,0:12:04.75,Default,,0,0,0,,Get a move on!
+Dialogue: 50,0:12:09.54,0:12:11.50,Default,,0,0,0,,{\i1}I-I'm scared...
+Dialogue: 50,0:12:11.50,0:12:14.38,Default,,0,0,0,,{\i1}It's probably just as cluttered as his room upstairs...
+Dialogue: 50,0:12:14.38,0:12:16.67,Default,,0,0,0,,This is the training room.
+Dialogue: 50,0:12:18.59,0:12:21.72,Default,,0,0,0,,There's nothing even in here!\NWhere's the spirit?!
+Dialogue: 50,0:12:22.05,0:12:25.27,Default,,0,0,0,,It's a training room.\NIt's {\i1}supposed{\i0} to be empty.
+Dialogue: 50,0:12:25.27,0:12:26.35,Default,,0,0,0,,Wait, really?
+Dialogue: 50,0:12:26.35,0:12:30.90,Default,,0,0,0,,How else will the dogs have room\Nto walk and run around?
+Dialogue: 50,0:12:30.90,0:12:33.48,Default,,0,0,0,,If we need something,\Nwe grab it from the back.
+Dialogue: 50,0:12:33.82,0:12:37.74,Default,,0,0,0,,Sh-Shouldn't there at least be something\Nfor the owners to sit on?
+Dialogue: 50,0:12:38.15,0:12:39.86,Default,,0,0,0,,They can stand just fine.
+Dialogue: 50,0:12:39.86,0:12:41.82,Default,,0,0,0,,{\i1}God, he's hopeless...
+Dialogue: 50,0:12:41.82,0:12:45.66,Default,,0,0,0,,{\i1}He's very considerate about dogs,\Nbut not in the slightest about humans.
+Dialogue: 50,0:12:48.25,0:12:51.08,Default,,0,0,0,,Is that the back?
+Dialogue: 50,0:12:51.08,0:12:51.83,Default,,0,0,0,,Yeah.
+Dialogue: 50,0:12:54.25,0:12:55.59,Default,,0,0,0,,This is the staff room.
+Dialogue: 50,0:12:55.59,0:12:58.38,Default,,0,0,0,,There's a toilet, shower, and kitchenette over here.
+Dialogue: 50,0:12:58.38,0:13:00.26,Default,,0,0,0,,{\i1}Just what I expected!!
+Dialogue: 50,0:13:00.76,0:13:02.59,Default,,0,0,0,,Wait, where's the kitchenette?
+Dialogue: 50,0:13:02.59,0:13:04.85,Default,,0,0,0,,It's behind that, I think.
+Dialogue: 50,0:13:04.85,0:13:06.22,Default,,0,0,0,,You {\i1}think?
+Dialogue: 50,0:13:06.22,0:13:07.77,Default,,0,0,0,,Oh, what's that?
+Dialogue: 50,0:13:07.77,0:13:12.40,Default,,0,0,0,,The dog training equipment.\NDon't touch it without permission.
+Dialogue: 50,0:13:12.40,0:13:15.02,Default,,0,0,0,,{\i1}He {\i0}really{\i1} cares more about the dogs...
+Dialogue: 50,0:13:15.57,0:13:18.32,Default,,0,0,0,,{\i1}Looks like I'll have to be the one\Nthat cares for the humans!
+Dialogue: 50,0:13:18.32,0:13:20.07,Default,,0,0,0,,{\i1}All of the sake of bringing in customers!
+Dialogue: 50,0:13:20.49,0:13:23.03,Default,,0,0,0,,First, I'll need to buy chairs...
+Dialogue: 50,0:13:23.03,0:13:27.49,Default,,0,0,0,,If I check this website for unneeded furniture\Nbeing sold for cheap or given away...
+Dialogue: 50,0:13:28.04,0:13:31.54,Default,,0,0,0,,"Set of 8 chairs for café renovation, ¥1,000!"
+Dialogue: 50,0:13:32.54,0:13:37.25,Default,,0,0,0,,Umm, hi! I wanted to ask about\Nthat eight-chair listing...
+Dialogue: 50,0:13:37.25,0:13:39.47,Default,,0,0,0,,Oh, you have them?\NCan I pick them up today?
+Dialogue: 50,0:13:39.47,0:13:41.43,Default,,0,0,0,,Thank you very much!
+Dialogue: 50,0:13:43.30,0:13:46.47,Default,,0,0,0,,Hi, I'm calling about that free listing...
+Dialogue: 50,0:13:46.47,0:13:47.81,Default,,0,0,0,,Yeah.
+Dialogue: 50,0:13:47.81,0:13:51.52,Default,,0,0,0,,The ones paying for our services\Nare the humans, not the dogs.
+Dialogue: 50,0:13:51.52,0:13:56.82,Default,,0,0,0,,So if you want more customers, we'll have to make it\Ncomfortable for them too, Niwa-san!
+Dialogue: 50,0:13:57.23,0:13:59.32,Default,,0,0,0,,Uh-huh...
+Dialogue: 50,0:14:02.32,0:14:05.99,Default,,0,0,0,,I made a risotto with\Nsome canned foods from the kitchen!
+Dialogue: 50,0:14:05.99,0:14:06.99,Default,,0,0,0,,Dig in.
+Dialogue: 50,0:14:07.66,0:14:11.58,Default,,0,0,0,,Since I saved you money on lunch,\Nyou can cover the cost of the chairs, right?
+Dialogue: 50,0:14:11.58,0:14:14.50,Default,,0,0,0,,Oh, not a fan of tomatos and tuna?\NDo you not want it?
+Dialogue: 50,0:14:14.50,0:14:15.63,Default,,0,0,0,,No, it's fine.
+Dialogue: 50,0:14:18.21,0:14:19.09,Default,,0,0,0,,{\i1}It's so good...
+Dialogue: 50,0:14:20.76,0:14:22.42,Default,,0,0,0,,So, have you decided yet?
+Dialogue: 50,0:14:22.42,0:14:24.18,Default,,0,0,0,,Decided on what?
+Dialogue: 50,0:14:24.18,0:14:25.18,Default,,0,0,0,,His name.
+Dialogue: 50,0:14:27.35,0:14:30.89,Default,,0,0,0,,I'm still, uhh, working on it.\NI just need a bit longer.
+Dialogue: 50,0:14:30.89,0:14:35.35,Default,,0,0,0,,It's no problem with me,\Nbut I'm not training you until you name him.
+Dialogue: 50,0:14:36.52,0:14:38.36,Default,,0,0,0,,I get it!
+Dialogue: 50,0:14:39.90,0:14:41.32,Default,,0,0,0,,See you tomorrow!
+Dialogue: 50,0:14:46.99,0:14:49.33,Default,,0,0,0,,Man, what am I gonna do...?
+Dialogue: 50,0:14:48.66,0:14:50.37,Default,,0,0,0,,{\an8}Thank you!
+Dialogue: 50,0:14:52.87,0:14:55.04,Default,,0,0,0,,See you next month, Sara-chan!
+Dialogue: 50,0:14:55.67,0:14:56.54,Default,,0,0,0,,Izumi-san...
+Dialogue: 50,0:14:56.54,0:14:58.00,Default,,0,0,0,,Ack, Mi-Miyu-kun!
+Dialogue: 50,0:15:00.38,0:15:01.96,Default,,0,0,0,,Struggling with his name, huh?
+Dialogue: 50,0:15:01.96,0:15:03.13,Default,,0,0,0,,Yeah...
+Dialogue: 50,0:15:03.13,0:15:06.30,Default,,0,0,0,,I can't come up with something that fits him...
+Dialogue: 50,0:15:06.30,0:15:07.51,Default,,0,0,0,,I see.
+Dialogue: 50,0:15:08.01,0:15:12.27,Default,,0,0,0,,Well, that customer before was named Sara-chan,\Nand she had a little boy named Riku-kun.
+Dialogue: 50,0:15:12.60,0:15:14.52,Default,,0,0,0,,Riku... Hmm.
+Dialogue: 50,0:15:14.89,0:15:19.86,Default,,0,0,0,,For male dogs, there's Marcy, Ack, Lila, Max...
+Dialogue: 50,0:15:19.86,0:15:24.28,Default,,0,0,0,,Oh, and Japanese names too.\NYakumo-kun, Kamui-kun, Kotetsu...
+Dialogue: 50,0:15:24.28,0:15:26.11,Default,,0,0,0,,{\i1}They can be Japanese too?!
+Dialogue: 50,0:15:27.45,0:15:29.62,Default,,0,0,0,,{\i1}There's so many options!!
+Dialogue: 50,0:15:29.62,0:15:33.54,Default,,0,0,0,,{\i1}It's an endless hell full of names!!
+Dialogue: 50,0:15:31.29,0:15:33.54,Default,,0,0,0,,{\an8\i1}Guess I only added to his confusion.
+Dialogue: 50,0:15:34.50,0:15:36.21,Default,,0,0,0,,My head's gonna explode...
+Dialogue: 50,0:15:36.21,0:15:37.75,Default,,0,0,0,,There's no other choice...
+Dialogue: 50,0:15:37.75,0:15:39.04,Default,,0,0,0,,I'll just have to search for one!
+Dialogue: 50,0:15:39.54,0:15:42.59,Default,,0,0,0,,Kotaro, Ivy, Luke...
+Dialogue: 50,0:15:42.59,0:15:45.55,Default,,0,0,0,,I think those would fit a smarter dog, not him...
+Dialogue: 50,0:15:45.55,0:15:48.05,Default,,0,0,0,,Ritsu, Rocky, Zero...
+Dialogue: 50,0:15:48.84,0:15:51.05,Default,,0,0,0,,He's not nearly that cool...
+Dialogue: 50,0:15:53.72,0:15:54.68,Default,,0,0,0,,Santa...?
+Dialogue: 50,0:15:57.48,0:15:58.94,Default,,0,0,0,,That's the one!
+Dialogue: 50,0:16:00.90,0:16:03.32,Default,,0,0,0,,Why are you here so late...?
+Dialogue: 50,0:16:03.32,0:16:05.90,Default,,0,0,0,,Miyu-kun messaged me to come over.
+Dialogue: 50,0:16:05.90,0:16:07.95,Default,,0,0,0,,Why don't we add each other too?
+Dialogue: 50,0:16:07.95,0:16:11.41,Default,,0,0,0,,Why, so you can nag me about my tab?
+Dialogue: 50,0:16:11.41,0:16:13.45,Default,,0,0,0,,You got me.
+Dialogue: 50,0:16:13.91,0:16:17.21,Default,,0,0,0,,Sorry for the wait!\NI come with an announcement!
+Dialogue: 50,0:16:17.46,0:16:19.29,Default,,0,0,0,,A-An announcement of what?
+Dialogue: 50,0:16:19.29,0:16:20.21,Default,,0,0,0,,{\i1}He brought a scroll?
+Dialogue: 50,0:16:20.58,0:16:21.71,Default,,0,0,0,,Naming!
+Dialogue: 50,0:16:22.17,0:16:25.59,Default,,0,0,0,,My dog's new name is Santa!
+Dialogue: 50,0:16:25.59,0:16:27.55,Default,,0,0,0,,Hey, stop that, Santa!
+Dialogue: 50,0:16:27.55,0:16:29.93,Default,,0,0,0,,Oh, I see. Wow.
+Dialogue: 50,0:16:29.93,0:16:32.22,Default,,0,0,0,,{\i1}Why did he write it out with a brush...?
+Dialogue: 50,0:16:32.60,0:16:35.18,Default,,0,0,0,,Aw, shucks. I gave it a lot of thought,
+Dialogue: 50,0:16:35.18,0:16:37.98,Default,,0,0,0,,and this just fit the best!
+Dialogue: 50,0:16:37.98,0:16:42.40,Default,,0,0,0,,He gave me a present I never expected:\Na future as a dog trainer!
+Dialogue: 50,0:16:42.40,0:16:45.69,Default,,0,0,0,,So I thought, he's like a year-round Santa Claus!
+Dialogue: 50,0:16:45.69,0:16:46.78,Default,,0,0,0,,He's pissing on my floor.
+Dialogue: 50,0:16:46.78,0:16:49.28,Default,,0,0,0,,Anyhoo, I know I worried both of you\Nabout this,
+Dialogue: 50,0:16:49.28,0:16:51.07,Default,,0,0,0,,so I wanted to let you know ASAP!
+Dialogue: 50,0:16:51.07,0:16:52.95,Default,,0,0,0,,That's all. Right, Santa?
+Dialogue: 50,0:16:52.95,0:16:53.49,Default,,0,0,0,,What?
+Dialogue: 50,0:16:53.83,0:16:55.24,Default,,0,0,0,,Come on, let's go, Santa!
+Dialogue: 50,0:16:55.24,0:16:56.50,Default,,0,0,0,,See you tomorrow!
+Dialogue: 50,0:16:56.50,0:16:57.50,Default,,0,0,0,,G'night!
+Dialogue: 50,0:17:01.92,0:17:05.00,Default,,0,0,0,,Well... he seemed very happy.
+Dialogue: 50,0:17:05.50,0:17:08.51,Default,,0,0,0,,{\i1}Don't tell me that he...
+Dialogue: 50,0:17:08.84,0:17:12.84,Default,,0,0,0,,After that, it finally feels official!
+Dialogue: 50,0:17:12.84,0:17:15.89,Default,,0,0,0,,Alright, Santa! Let's walk on home!
+Dialogue: 50,0:17:15.89,0:17:18.52,Default,,0,0,0,,Santa! Wait up, Santa!
+Dialogue: 50,0:17:18.98,0:17:21.27,Default,,0,0,0,,Slow down, Santa!
+Dialogue: 50,0:17:21.27,0:17:23.52,Default,,0,0,0,,Santa! Hello, Santa?
+Dialogue: 50,0:17:23.94,0:17:26.69,Default,,0,0,0,,{\i1}Weird, he's not responding to his name.
+Dialogue: 50,0:17:26.69,0:17:28.15,Default,,0,0,0,,Santa? Hey!
+Dialogue: 50,0:17:30.95,0:17:32.53,Default,,0,0,0,,Stop it, Santa!
+Dialogue: 50,0:17:33.03,0:17:35.33,Default,,0,0,0,,{\i1}Why won't he respond?\NI put a lot of thought into it...
+Dialogue: 50,0:17:35.83,0:17:36.99,Default,,0,0,0,,Cut it out, Santa!
+Dialogue: 50,0:17:36.99,0:17:38.87,Default,,0,0,0,,Don't run from me, Santa!
+Dialogue: 50,0:17:38.87,0:17:42.08,Default,,0,0,0,,Shut up, Santa! Are you listening to me?
+Dialogue: 50,0:17:42.08,0:17:43.54,Default,,0,0,0,,Santa!!
+Dialogue: 50,0:17:49.46,0:17:52.09,Default,,0,0,0,,He tried to run away when you called his name?
+Dialogue: 50,0:17:52.09,0:17:52.97,Default,,0,0,0,,Why?
+Dialogue: 50,0:17:52.97,0:17:55.97,Default,,0,0,0,,No idea...\NAnd after all it took to come up with it...
+Dialogue: 50,0:17:58.68,0:18:01.35,Default,,0,0,0,,Santa! I told you yesterday,\Nyou can't eat tissues!
+Dialogue: 50,0:18:01.35,0:18:02.14,Default,,0,0,0,,Hold it.
+Dialogue: 50,0:18:02.14,0:18:05.06,Default,,0,0,0,,Were you scolding him like that\Nlast night too?
+Dialogue: 50,0:18:05.44,0:18:07.57,Default,,0,0,0,,Well, yeah. He was acting up.
+Dialogue: 50,0:18:07.98,0:18:10.40,Default,,0,0,0,,That about explains it.
+Dialogue: 50,0:18:10.74,0:18:11.36,Default,,0,0,0,,Huh?
+Dialogue: 50,0:18:11.65,0:18:14.32,Default,,0,0,0,,You don't say a dog's name when you scold them.
+Dialogue: 50,0:18:15.62,0:18:17.62,Default,,0,0,0,,You might just be trying to reprimand him,
+Dialogue: 50,0:18:17.62,0:18:23.04,Default,,0,0,0,,but from the dog's point of view,\Nyou're furiously yelling the word "Santa" over and over.
+Dialogue: 50,0:18:23.04,0:18:24.58,Default,,0,0,0,,{\i1}Santa!!
+Dialogue: 50,0:18:25.00,0:18:29.25,Default,,0,0,0,,You gave him a bad impression\Nof the word "Santa" overnight.
+Dialogue: 50,0:18:29.67,0:18:30.92,Default,,0,0,0,,No way...
+Dialogue: 50,0:18:30.92,0:18:33.09,Default,,0,0,0,,Don't {\i1}we{\i0} usually hear our names when we're scolded?
+Dialogue: 50,0:18:33.68,0:18:36.60,Default,,0,0,0,,Yes, because as humans,\Nwe understand how names work.
+Dialogue: 50,0:18:37.22,0:18:39.64,Default,,0,0,0,,Dogs, on the other hand, don't.
+Dialogue: 50,0:18:39.64,0:18:42.73,Default,,0,0,0,,"My owner's always smiling\Nwhen they say this word."
+Dialogue: 50,0:18:42.73,0:18:45.60,Default,,0,0,0,,"If I turn around when they say this,\NI'll be praised."
+Dialogue: 50,0:18:45.60,0:18:49.61,Default,,0,0,0,,To dogs, names are nothing more than "special" words.
+Dialogue: 50,0:18:49.61,0:18:54.61,Default,,0,0,0,,If that word is followed by something they hate,\Nthey hate the word too.
+Dialogue: 50,0:18:54.61,0:18:58.87,Default,,0,0,0,,If you keep calling his name when you scold him,
+Dialogue: 50,0:18:58.87,0:19:00.70,Default,,0,0,0,,then he'll start to hate hearing it.
+Dialogue: 50,0:19:02.33,0:19:03.12,Default,,0,0,0,,Santa.
+Dialogue: 50,0:19:06.75,0:19:08.42,Default,,0,0,0,,That name's too far gone now.
+Dialogue: 50,0:19:09.25,0:19:14.01,Default,,0,0,0,,Aw man, I had no idea!\NWhy didn't you tell me earlier?
+Dialogue: 50,0:19:14.01,0:19:18.01,Default,,0,0,0,,I tried to, but you left before I could say anything.
+Dialogue: 50,0:19:18.01,0:19:19.89,Default,,0,0,0,,{\i1}Oh, yeah, back then...
+Dialogue: 50,0:19:21.01,0:19:25.27,Default,,0,0,0,,What you keep calling "magic"\Ntakes a lot of experience to put to work.
+Dialogue: 50,0:19:25.27,0:19:26.65,Default,,0,0,0,,This is part of that training.
+Dialogue: 50,0:19:27.10,0:19:30.40,Default,,0,0,0,,I'm going to go over some precautions\Nfor calling your dog's name.
+Dialogue: 50,0:19:31.02,0:19:34.90,Default,,0,0,0,,If you say their name while you scold them,\Nit'll plant a bad idea of that name in their mind.
+Dialogue: 50,0:19:34.90,0:19:38.41,Default,,0,0,0,,They'll start to ignore you\Nor run away when they hear it.
+Dialogue: 50,0:19:38.74,0:19:42.41,Default,,0,0,0,,You'll want to call their name during situations\Na dog takes positively.
+Dialogue: 50,0:19:42.79,0:19:44.66,Default,,0,0,0,,Say it when you give treats,
+Dialogue: 50,0:19:44.66,0:19:46.42,Default,,0,0,0,,or whenever you praise them,
+Dialogue: 50,0:19:46.42,0:19:49.84,Default,,0,0,0,,and they'll begin to think of\Nhearing their name as a good thing,
+Dialogue: 50,0:19:49.84,0:19:51.92,Default,,0,0,0,,and turn to look at you when they do.
+Dialogue: 50,0:19:52.38,0:19:55.26,Default,,0,0,0,,You don't want to overdo it, though.
+Dialogue: 50,0:19:55.26,0:19:57.84,Default,,0,0,0,,They might start to find it annoying\Nand ignore you.
+Dialogue: 50,0:19:57.84,0:20:00.93,Default,,0,0,0,,So what do I do when I scold him?
+Dialogue: 50,0:20:01.47,0:20:04.68,Default,,0,0,0,,"Hey," "no," "don't."
+Dialogue: 50,0:20:04.68,0:20:08.44,Default,,0,0,0,,As long as it's consistent, anything goes.\NJust say a short word in a deep voice.
+Dialogue: 50,0:20:08.44,0:20:11.90,Default,,0,0,0,,{\i1}A short word...\N"Hey" sounds embarrassing...
+Dialogue: 50,0:20:11.90,0:20:14.19,Default,,0,0,0,,Okay, I'll go with "Don't."
+Dialogue: 50,0:20:14.19,0:20:15.69,Default,,0,0,0,,– Don...\N– Wait.
+Dialogue: 50,0:20:16.32,0:20:18.36,Default,,0,0,0,,If you don't catch him in the act,
+Dialogue: 50,0:20:18.36,0:20:21.53,Default,,0,0,0,,he won't understand later\Nwhen you show him what he did wrong.
+Dialogue: 50,0:20:22.58,0:20:26.20,Default,,0,0,0,,He'll see your random reprimanding\Nas based on your whims.
+Dialogue: 50,0:20:26.20,0:20:28.71,Default,,0,0,0,,Instead of understanding that\Nwhat he's doing is wrong,
+Dialogue: 50,0:20:29.42,0:20:32.67,Default,,0,0,0,,he'll just think you're annoying and quick to snap.
+Dialogue: 50,0:20:34.88,0:20:36.21,Default,,0,0,0,,{\i1}So annoying.{\i0}
+Dialogue: 50,0:20:36.59,0:20:40.51,Default,,0,0,0,,What do I do...? Everything is so hard\Nfor newcomers like me...
+Dialogue: 50,0:20:40.51,0:20:42.10,Default,,0,0,0,,But I can't just give up!
+Dialogue: 50,0:20:42.10,0:20:43.97,Default,,0,0,0,,Alright, let's deal with his name!
+Dialogue: 50,0:20:43.97,0:20:47.48,Default,,0,0,0,,I can't have him hating his name, right?\NHow do I fix that?
+Dialogue: 50,0:20:47.89,0:20:50.60,Default,,0,0,0,,Pick something else. Simple as that.
+Dialogue: 50,0:20:52.02,0:20:54.61,Default,,0,0,0,,Won't it be confusing to change it on a spur?
+Dialogue: 50,0:20:55.07,0:20:58.86,Default,,0,0,0,,You don't want to change a dog's name\Nafter they've memorized it, no,
+Dialogue: 50,0:20:58.86,0:21:02.62,Default,,0,0,0,,but your dog's already made it a word he hates\Nbefore he's had that opportunity.
+Dialogue: 50,0:21:03.20,0:21:06.79,Default,,0,0,0,,There shouldn't be any problem\Nmaking a name from a completely different word.
+Dialogue: 50,0:21:07.45,0:21:10.62,Default,,0,0,0,,You just have to use that word\Nin a way that he'll like.
+Dialogue: 50,0:21:11.75,0:21:13.88,Default,,0,0,0,,But what do I do about "Santa?"
+Dialogue: 50,0:21:14.25,0:21:19.63,Default,,0,0,0,,As long as you don't use that word regularly,\Nhe should forget about it with time.
+Dialogue: 50,0:21:20.01,0:21:25.22,Default,,0,0,0,,Even though you don't know it, your ex-girlfriend\Nmust've called him something different.
+Dialogue: 50,0:21:25.22,0:21:27.18,Default,,0,0,0,,{\i1}Oh, yeah. He's right...
+Dialogue: 50,0:21:27.18,0:21:28.02,Default,,0,0,0,,Then that means...
+Dialogue: 50,0:21:28.02,0:21:31.69,Default,,0,0,0,,I have to go back to the drawing board!!
+Dialogue: 50,0:21:31.69,0:21:33.15,Default,,0,0,0,,Leave him be, Ourson.
+Dialogue: 50,0:21:33.65,0:21:35.23,Default,,0,0,0,,Come to think of it...
+Dialogue: 50,0:21:35.23,0:21:37.90,Default,,0,0,0,,Where does Ourson-senpai's name come from?
+Dialogue: 50,0:21:39.03,0:21:40.32,Default,,0,0,0,,Ourson...
+Dialogue: 50,0:21:40.90,0:21:42.66,Default,,0,0,0,,...means "bear cub" in French.
+Dialogue: 50,0:21:43.07,0:21:46.24,Default,,0,0,0,,Bear cub? That's oddly fancy coming from you.
+Dialogue: 50,0:21:46.24,0:21:47.24,Default,,0,0,0,,No!
+Dialogue: 50,0:21:48.20,0:21:50.16,Default,,0,0,0,,He used to look like one!
+Dialogue: 50,0:21:50.50,0:21:53.04,Default,,0,0,0,,Y-You're right!!
+Dialogue: 50,0:21:53.04,0:21:58.42,Default,,0,0,0,,And I went with a French name\Nbecause France is where poodles came from.
+Dialogue: 50,0:21:58.42,0:22:00.38,Default,,0,0,0,,I wasn't just following trends!
+Dialogue: 50,0:22:00.38,0:22:04.47,Default,,0,0,0,,Oh, wow. I never knew poodles were a French breed!
+Dialogue: 50,0:22:04.47,0:22:06.35,Default,,0,0,0,,French fits him so well...
+Dialogue: 50,0:22:06.35,0:22:07.56,Default,,0,0,0,,"Singe."
+Dialogue: 50,0:22:07.56,0:22:09.43,Default,,0,0,0,,How is it? It's French.
+Dialogue: 50,0:22:10.18,0:22:13.19,Default,,0,0,0,,Singe... Singe? Singe.
+Dialogue: 50,0:22:13.19,0:22:15.11,Default,,0,0,0,,I like it!
+Dialogue: 50,0:22:15.11,0:22:16.57,Default,,0,0,0,,It sounds very cool!
+Dialogue: 50,0:22:16.57,0:22:18.32,Default,,0,0,0,,Say it gently.
+Dialogue: 50,0:22:18.78,0:22:19.69,Default,,0,0,0,,Singe.
+Dialogue: 50,0:22:20.78,0:22:21.82,Default,,0,0,0,,{\i1}He looked at me!
+Dialogue: 50,0:22:22.24,0:22:23.07,Default,,0,0,0,,Praise him.
+Dialogue: 50,0:22:24.36,0:22:25.99,Default,,0,0,0,,Good dog, Singe.
+Dialogue: 50,0:22:27.08,0:22:30.50,Default,,0,0,0,,{\i1}I'll be sure to say it more carefully\Nso you'll like it this time!
+Dialogue: 50,0:22:31.00,0:22:33.29,Default,,0,0,0,,So he settled on "Singe," huh?
+Dialogue: 50,0:22:33.29,0:22:34.25,Default,,0,0,0,,You like it?
+Dialogue: 50,0:22:34.62,0:22:36.42,Default,,0,0,0,,Why are you here...?
+Dialogue: 50,0:22:36.42,0:22:39.00,Default,,0,0,0,,I was free, so I'm tenant-watching.
+Dialogue: 50,0:22:39.00,0:22:41.76,Default,,0,0,0,,So what does "Singe" mean?
+Dialogue: 50,0:22:42.30,0:22:44.38,Default,,0,0,0,,I wanna know too!
+Dialogue: 50,0:22:44.38,0:22:45.51,Default,,0,0,0,,What's it mean?
+Dialogue: 50,0:22:45.89,0:22:47.05,Default,,0,0,0,,Singe...
+Dialogue: 50,0:22:47.05,0:22:47.89,Default,,0,0,0,,Yeah?
+Dialogue: 50,0:22:48.56,0:22:49.76,Default,,0,0,0,,...is French...
+Dialogue: 50,0:22:49.76,0:22:51.02,Default,,0,0,0,,Go on?
+Dialogue: 50,0:22:52.14,0:22:53.31,Default,,0,0,0,,...for monkey.
+Dialogue: 50,0:22:53.31,0:22:53.98,Default,,0,0,0,,Huh?
+Dialogue: 50,0:22:54.52,0:22:57.44,Default,,0,0,0,,It's a male monkey. Didn't think you'd like it.
+Dialogue: 50,0:22:57.44,0:22:58.61,Default,,0,0,0,,Monkey...
+Dialogue: 50,0:22:58.61,0:23:00.53,Default,,0,0,0,,Monkey?!
+Dialogue: 50,0:23:00.78,0:23:03.03,Default,,0,0,0,,I thought it would mean something cooler!!
+Dialogue: 50,0:23:03.90,0:23:06.53,Default,,0,0,0,,{\i1}But it fits him... uncannily.
+Dialogue: 50,0:23:07.78,0:23:08.78,Default,,0,0,0,,{\i1}...Monkey.
+Dialogue: 50,0:23:09.95,0:23:10.79,Default,,0,0,0,,Singe.
+Dialogue: 50,0:23:13.46,0:23:14.79,Default,,0,0,0,,{\i1}It's cute.
+Dialogue: 50,0:23:15.37,0:23:17.75,Default,,0,0,0,,It's good to meet you again, Singe.
+Dialogue: 50,0:23:18.92,0:23:20.00,Default,,0,0,0,,You're a good boy.
+Dialogue: 50,0:23:20.88,0:23:23.92,Default,,0,0,0,,You've done it again, Shinichiro.
+Dialogue: 50,0:23:23.92,0:23:25.26,Default,,0,0,0,,Good boy.
+Comment: 0,0:01:40.20,0:01:45.21,Default,,0,0,0,,{=0}Your New Name
+Dialogue: 1,0:01:40.20,0:01:45.21,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\pos(960,636)\c&HC6BE58&\blur0.7}Your New Name
+Dialogue: 0,0:01:40.20,0:01:45.21,Signs,,0,0,0,,{=1}{\fnFOT-Kurokane Std EB\fs100\1a&HFE&\3a&HFE&\bord3\shad6\pos(960,636)\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&}Your New Name
+Comment: 0,0:04:39.84,0:04:42.35,Default,,0,0,0,,{=2}Proud Dog Advertisement
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\b1\c&H232321&\blur0.7\fscx83\fscy107\pos(512,76)}Dog Trainer Niwa-sensei presents
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H232321&\blur0.7\fscx83\fscy107\pos(512,164)}A dog training demonstration
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H232321&\blur0.7\fscx83\fscy107\pos(512,224)}+
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H232321&\blur0.7\fscx83\fscy107\pos(512,270)}Free consultation
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H232321&\blur0.7\fscx83\fscy107\pos(512,366)}Today at noon
+Dialogue: 1,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H232321&\blur0.7\fscx83\fscy107\pos(512,434)}by the clock in Central Park
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\b1\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,76)}Dog Trainer Niwa-sensei presents
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,164)}A dog training demonstration
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,224)}+
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,270)}Free consultation
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,366)}Today at noon
+Dialogue: 0,0:04:39.84,0:04:42.35,Signs,,0,0,0,,{=3}{\fnCCGabrielBautistaLito\4c&HFFFFFF&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx83\fscy107\pos(512,434)}by the clock in Central Park
+Comment: 0,0:06:52.60,0:06:57.61,Default,,0,0,0,,{=4}Today's Bench-bark Lesson 1
+Dialogue: 2,0:06:52.60,0:06:57.61,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\c&H060604&\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H98FEFE&}BARK {\fnBrianne's Hand\c&H060604&}Lesson
+Dialogue: 1,0:06:52.60,0:06:57.61,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\3c&HFBF6D2&\c&HFBF6D2&\bord7\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H000000&\3c&H000000&\bord5}BARK {\fnBrianne's Hand\c&HFBF6D2&\3c&HFBF6D2&\bord7}Lesson
+Dialogue: 0,0:06:52.60,0:06:57.61,Signs,,0,0,0,,{=5}{\fnBrianne's hand\blur0.7\c&H000000&\3c&H000000&\bord12\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\bord0}BARK {\fnBrianne's Hand\c&H000000&\3c&H000000&\bord12}Lesson
+Comment: 0,0:07:23.13,0:07:26.51,Default,,0,0,0,,{=6}Today's Bench-bark Lesson 2
+Dialogue: 2,0:07:23.13,0:07:26.51,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\c&H060604&\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H98FEFE&}BARK {\fnBrianne's Hand\c&H060604&}Lesson
+Dialogue: 1,0:07:23.13,0:07:26.51,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\3c&HFBF6D2&\c&HFBF6D2&\bord7\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H000000&\3c&H000000&\bord5}BARK {\fnBrianne's Hand\c&HFBF6D2&\3c&HFBF6D2&\bord7}Lesson
+Dialogue: 0,0:07:23.13,0:07:26.51,Signs,,0,0,0,,{=7}{\fnBrianne's hand\blur0.7\c&H000000&\3c&H000000&\bord12\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\bord0}BARK {\fnBrianne's Hand\c&H000000&\3c&H000000&\bord12}Lesson
+Comment: 0,0:08:02.80,0:08:04.05,Default,,0,0,0,,{=8}Not listening
+Dialogue: 0,0:08:02.80,0:08:04.05,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1}m 698 360 l 1292 360 1292 470 698 470
+Dialogue: 2,0:08:02.80,0:08:04.05,Signs,,0,0,0,,{\fnArial\c&H565656&\fscx123\fscy123\blur0.7\pos(1000.57,413.72)}Not listening
+Dialogue: 1,0:08:02.80,0:08:04.05,Signs,,0,0,0,,{=9}{\fnArial\c&H565656&\fscx123\fscy123\blur3\shad0.01\bord2\1a&HFE&\3a&HFE&\4a&HDF&\pos(1000.57,413.72)}Not listening
+Comment: 0,0:08:04.05,0:08:10.05,Default,,0,0,0,,{=10}Today's Bench-bark Lesson 3
+Dialogue: 2,0:08:04.05,0:08:10.05,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\c&H060604&\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H98FEFE&}BARK {\fnBrianne's Hand\c&H060604&}Lesson
+Dialogue: 1,0:08:04.05,0:08:10.05,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\3c&HFBF6D2&\c&HFBF6D2&\bord7\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H000000&\3c&H000000&\bord5}BARK {\fnBrianne's Hand\c&HFBF6D2&\3c&HFBF6D2&\bord7}Lesson
+Dialogue: 0,0:08:04.05,0:08:10.05,Signs,,0,0,0,,{=11}{\fnBrianne's hand\blur0.7\c&H000000&\3c&H000000&\bord12\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\bord0}BARK {\fnBrianne's Hand\c&H000000&\3c&H000000&\bord12}Lesson
+Comment: 0,0:08:29.70,0:08:33.95,Default,,0,0,0,,{=12}Yap yap yap yap
+Dialogue: 1,0:08:29.69,0:08:29.73,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(514.74,743.73)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:29.73,0:08:29.78,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(507.27,746.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:29.78,0:08:29.82,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(502.02,748.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:29.82,0:08:29.86,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(505.12,747.45)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:29.86,0:08:29.90,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(504.28,747.83)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:29.90,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(504,748)\c&H7D7371&\blur0.7\t(2300,2720,\c&H939799&)}YAP
+Dialogue: 0,0:08:29.69,0:08:29.73,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(514.74,743.73)\c&H3E4450&\bord1.99\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:29.73,0:08:29.78,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(507.27,746.66)\c&H3E4450&\bord3.4\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:29.78,0:08:29.82,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(502.02,748.66)\c&H3E4450&\bord4.39\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:29.82,0:08:29.86,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(505.12,747.45)\c&H3E4450&\bord3.81\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:29.86,0:08:29.90,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(504.28,747.83)\c&H3E4450&\bord3.95\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:29.90,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(504,748)\c&H3E4450&\bord4\blur0.7\3c&H3E4450&\t(2300,2720,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:30.16,0:08:30.20,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1564.74,805.73)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.20,0:08:30.24,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1557.27,808.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.24,0:08:30.28,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1552.02,810.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.28,0:08:30.32,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1555.12,809.45)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.32,0:08:30.36,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1554.28,809.83)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.36,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(1554,810)\c&H7D7371&\blur0.7\t(1800,2250,\c&H939799&)}YAP
+Dialogue: 0,0:08:30.16,0:08:30.20,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1564.74,805.73)\c&H3E4450&\bord1.99\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.20,0:08:30.24,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1557.27,808.66)\c&H3E4450&\bord3.4\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.24,0:08:30.28,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1552.02,810.66)\c&H3E4450&\bord4.39\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.28,0:08:30.32,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1555.12,809.45)\c&H3E4450&\bord3.81\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.32,0:08:30.36,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1554.28,809.83)\c&H3E4450&\bord3.95\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.36,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(1554,810)\c&H3E4450&\bord4\blur0.7\3c&H3E4450&\t(1800,2250,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:30.70,0:08:30.74,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(464.74,165.73)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.74,0:08:30.78,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(457.27,168.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.78,0:08:30.82,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(452.02,170.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.82,0:08:30.87,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(455.12,169.45)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.87,0:08:30.91,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(454.28,169.83)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:30.91,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(454,170)\c&H7D7371&\blur0.7\t(1300,1750,\c&H939799&)}YAP
+Dialogue: 0,0:08:30.70,0:08:30.74,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(464.74,165.73)\c&H3E4450&\bord1.99\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.74,0:08:30.78,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(457.27,168.66)\c&H3E4450&\bord3.4\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.78,0:08:30.82,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(452.02,170.66)\c&H3E4450&\bord4.39\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.82,0:08:30.87,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(455.12,169.45)\c&H3E4450&\bord3.81\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.87,0:08:30.91,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(454.28,169.83)\c&H3E4450&\bord3.95\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:30.91,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(454,170)\c&H3E4450&\bord4\blur0.7\3c&H3E4450&\t(1300,1750,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:31.20,0:08:31.24,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1464.74,415.73)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.24,0:08:31.28,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1457.27,418.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.28,0:08:31.32,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1452.02,420.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.32,0:08:31.37,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1455.12,419.45)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.37,0:08:31.41,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1454.28,419.83)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.41,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(1454,420)\c&H7D7371&\blur0.7\t(800,1250,\c&H939799&)}YAP
+Dialogue: 0,0:08:31.20,0:08:31.24,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1464.74,415.73)\c&H3E4450&\bord1.99\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.24,0:08:31.28,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1457.27,418.66)\c&H3E4450&\bord3.4\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.28,0:08:31.32,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1452.02,420.66)\c&H3E4450&\bord4.39\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.32,0:08:31.37,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1455.12,419.45)\c&H3E4450&\bord3.81\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.37,0:08:31.41,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1454.28,419.83)\c&H3E4450&\bord3.95\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.41,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(1454,420)\c&H3E4450&\bord4\blur0.7\3c&H3E4450&\t(800,1250,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:31.70,0:08:31.74,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(154.74,495.73)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.74,0:08:31.78,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(147.27,498.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.78,0:08:31.82,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(142.02,500.66)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.82,0:08:31.87,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(145.12,499.45)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.87,0:08:31.91,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(144.28,499.83)\c&H7D7371&\blur0.7}YAP
+Dialogue: 1,0:08:31.91,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(144,500)\c&H7D7371&\blur0.7\t(300,750,\c&H939799&)}YAP
+Dialogue: 0,0:08:31.70,0:08:31.74,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(154.74,495.73)\c&H3E4450&\bord1.99\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.74,0:08:31.78,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(147.27,498.66)\c&H3E4450&\bord3.4\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.78,0:08:31.82,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(142.02,500.66)\c&H3E4450&\bord4.39\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.82,0:08:31.87,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(145.12,499.45)\c&H3E4450&\bord3.81\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.87,0:08:31.91,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(144.28,499.83)\c&H3E4450&\bord3.95\blur0.7\3c&H3E4450&}YAP
+Dialogue: 0,0:08:31.91,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(144,500)\c&H3E4450&\bord4\blur0.7\3c&H3E4450&\t(300,750,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:32.20,0:08:32.24,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1804.74,645.73)\c&H7E7472&\blur0.7}YAP
+Dialogue: 1,0:08:32.24,0:08:32.28,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1797.27,648.66)\c&H817B79&\blur0.7}YAP
+Dialogue: 1,0:08:32.28,0:08:32.32,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1792.02,650.66)\c&H837E7D&\blur0.7}YAP
+Dialogue: 1,0:08:32.32,0:08:32.37,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1795.12,649.45)\c&H868181&\blur0.7}YAP
+Dialogue: 1,0:08:32.37,0:08:32.41,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1794.28,649.83)\c&H8A8888&\blur0.7}YAP
+Dialogue: 1,0:08:32.41,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(1794,650)\c&H8C8B8C&\blur0.7\t(20,250,\c&H939799&)}YAP
+Dialogue: 0,0:08:32.20,0:08:32.24,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1804.74,645.73)\c&H525761&\bord1.99\blur0.7\3c&H525761&}YAP
+Dialogue: 0,0:08:32.24,0:08:32.28,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1797.27,648.66)\c&H5F646D&\bord3.4\blur0.7\3c&H5F646D&}YAP
+Dialogue: 0,0:08:32.28,0:08:32.32,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1792.02,650.66)\c&H6D7279&\bord4.39\blur0.7\3c&H6D7279&}YAP
+Dialogue: 0,0:08:32.32,0:08:32.37,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1795.12,649.45)\c&H7C7F85&\bord3.81\blur0.7\3c&H7C7F85&}YAP
+Dialogue: 0,0:08:32.37,0:08:32.41,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1794.28,649.83)\c&H898C91&\bord3.95\blur0.7\3c&H898C91&}YAP
+Dialogue: 0,0:08:32.41,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(1794,650)\c&H97999D&\bord4\blur0.7\3c&H97999D&\t(20,250,\c&HD5D5D3&\3c&HD5D5D3&)}YAP
+Dialogue: 1,0:08:32.70,0:08:32.74,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1174.74,145.73)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:32.74,0:08:32.78,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1167.27,148.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:32.78,0:08:32.83,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1162.02,150.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:32.83,0:08:32.87,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1165.12,149.45)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:32.87,0:08:32.91,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1164.28,149.83)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:32.91,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(1164,150)\c&H939799&\blur0.7}YAP
+Dialogue: 0,0:08:32.70,0:08:32.74,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1174.74,145.73)\c&HD5D5D3&\bord1.99\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:32.74,0:08:32.78,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1167.27,148.66)\c&HD5D5D3&\bord3.4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:32.78,0:08:32.83,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1162.02,150.66)\c&HD5D5D3&\bord4.39\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:32.83,0:08:32.87,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1165.12,149.45)\c&HD5D5D3&\bord3.81\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:32.87,0:08:32.91,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1164.28,149.83)\c&HD5D5D3&\bord3.95\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:32.91,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(1164,150)\c&HD5D5D3&\bord4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 1,0:08:33.20,0:08:33.24,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(194.74,965.73)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.24,0:08:33.28,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(187.27,968.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.28,0:08:33.33,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(182.02,970.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.33,0:08:33.37,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(185.12,969.45)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.37,0:08:33.41,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(184.28,969.83)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.41,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(184,970)\c&H939799&\blur0.7}YAP
+Dialogue: 0,0:08:33.20,0:08:33.24,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(194.74,965.73)\c&HD5D5D3&\bord1.99\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.24,0:08:33.28,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(187.27,968.66)\c&HD5D5D3&\bord3.4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.28,0:08:33.33,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(182.02,970.66)\c&HD5D5D3&\bord4.39\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.33,0:08:33.37,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(185.12,969.45)\c&HD5D5D3&\bord3.81\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.37,0:08:33.41,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(184.28,969.83)\c&HD5D5D3&\bord3.95\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.41,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(184,970)\c&HD5D5D3&\bord4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 1,0:08:33.45,0:08:33.49,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(794.74,995.73)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.49,0:08:33.53,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(787.27,998.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.53,0:08:33.58,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(782.02,1000.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.58,0:08:33.62,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(785.12,999.45)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.62,0:08:33.66,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(784.28,999.83)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.66,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(784,1000)\c&H939799&\blur0.7}YAP
+Dialogue: 0,0:08:33.45,0:08:33.49,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(794.74,995.73)\c&HD5D5D3&\bord1.99\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.49,0:08:33.53,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(787.27,998.66)\c&HD5D5D3&\bord3.4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.53,0:08:33.58,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(782.02,1000.66)\c&HD5D5D3&\bord4.39\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.58,0:08:33.62,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(785.12,999.45)\c&HD5D5D3&\bord3.81\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.62,0:08:33.66,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(784.28,999.83)\c&HD5D5D3&\bord3.95\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.66,0:08:33.95,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx172\fscy172\pos(784,1000)\c&HD5D5D3&\bord4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 1,0:08:33.70,0:08:33.74,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1794.74,95.73)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.74,0:08:33.78,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1787.27,98.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.78,0:08:33.83,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1782.02,100.66)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.83,0:08:33.87,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1785.12,99.45)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.87,0:08:33.91,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1784.28,99.83)\c&H939799&\blur0.7}YAP
+Dialogue: 1,0:08:33.91,0:08:33.95,Signs,,0,0,0,,{=13}{\fnDK Carrot Juice\fscx172\fscy172\pos(1784,100)\c&H939799&\blur0.7}YAP
+Dialogue: 0,0:08:33.70,0:08:33.74,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx85.53\fscy85.53\pos(1794.74,95.73)\c&HD5D5D3&\bord1.99\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.74,0:08:33.78,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx146.24\fscy146.24\pos(1787.27,98.66)\c&HD5D5D3&\bord3.4\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.78,0:08:33.83,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx188.68\fscy188.68\pos(1782.02,100.66)\c&HD5D5D3&\bord4.39\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.83,0:08:33.87,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx163.69\fscy163.69\pos(1785.12,99.45)\c&HD5D5D3&\bord3.81\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.87,0:08:33.91,Signs,,0,0,0,,{=14}{\fnDK Carrot Juice\fscx170.02\fscy170.02\pos(1784.28,99.83)\c&HD5D5D3&\bord3.95\blur0.7\3c&HD5D5D3&}YAP
+Dialogue: 0,0:08:33.91,0:08:33.95,Signs,,0,0,0,,{=14=15}{\fnDK Carrot Juice\fscx172\fscy172\pos(1784,100)\c&HD5D5D3&\bord4\blur0.7\3c&HD5D5D3&}YAP
+Comment: 0,0:11:27.54,0:11:31.05,Default,,0,0,0,,{=16}Dog names 1
+Dialogue: 1,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H181713&\fscx118\fscy143\pos(264,92)\blur0.7}Dog Names
+Dialogue: 1,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\c&H181713&\fscx118\fscy143\blur0.7\pos(76,210)\b0\fsp-8}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Koro
+Dialogue: 1,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\c&H181713&\fscx118\fscy143\blur0.7\b0\fsp-8\pos(76,308)}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Shiro
+Dialogue: 0,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\pos(264,92)}Dog Names
+Dialogue: 0,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\pos(76,210)\b0\fsp-8}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Koro
+Dialogue: 0,0:11:27.54,0:11:31.05,Signs,,0,0,0,,{=17}{\an4\fnCC AstronautsInTrouble\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\b0\fsp-8\pos(76,308)}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Shiro
+Comment: 0,0:11:32.55,0:11:34.05,Default,,0,0,0,,{=18}Dog names 2
+Dialogue: 1,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\c&H181713&\fscx118\fscy143\pos(264,92)\blur0.7}Dog Names
+Dialogue: 1,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\c&H181713&\fscx118\fscy143\blur0.7\pos(76,210)\b0\fsp-8}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Koro
+Dialogue: 1,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\c&H181713&\fscx118\fscy143\blur0.7\b0\fsp-8\pos(76,308)}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Shiro
+Dialogue: 0,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\pos(264,92)}Dog Names
+Dialogue: 0,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{\an4\fnCC AstronautsInTrouble\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\pos(76,210)\b0\fsp-8}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Koro
+Dialogue: 0,0:11:32.55,0:11:34.05,Signs,,0,0,0,,{=19}{\an4\fnCC AstronautsInTrouble\4c&HFBFCFA&\1a&HFE&\3a&HFE&\4a&H00&\bord12\shad0.01\blur3\fscx118\fscy143\b0\fsp-8\pos(76,308)}· {\fsp\fnCCGabrielBautistaLito\b1\fs100}Shiro
+Comment: 0,0:13:15.02,0:13:20.03,Default,,0,0,0,,{=20}Human area vs dog area
+Dialogue: 0,0:13:15.02,0:13:20.03,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1}m 336 214 l 524 214 524 376 336 376 m 1366 220 l 1554 220 1554 382 1366 382
+Dialogue: 0,0:13:15.02,0:13:18.03,Signs,,0,0,0,,{\fnPainfresco\b0\c&H262626&\fscx130\fscy130\pos(446,292)\blur0.7}Human area
+Dialogue: 0,0:13:18.03,0:13:18.15,Signs,,0,0,0,,{\fnPainfresco\b0\c&H262626&\fscx130\fscy130\pos(446,292)\blur0.7\iclip(m 668.14 323.66 b 658.91 322.89 647.29 317.25 640.8 308.62 639.94 315.63 647.46 322.46 650.36 326.39 621.66 319.9 618.58 282.99 620.98 269.32 637.21 268.03 669.68 265.47 685.91 264.19 l 677.71 330.49)}Human area
+Dialogue: 0,0:13:18.15,0:13:20.03,Signs,,0,0,0,,{\fnPainfresco\b0\c&H262626&\fscx130\fscy130\pos(446,292)\blur0.7}Human area
+Dialogue: 0,0:13:15.02,0:13:20.03,Signs,,0,0,0,,{=21}{\fnPainfresco\b0\c&H262626&\fscx130\fscy130\pos(1456,302)\blur0.7}Dog area
+Comment: 0,0:15:37.04,0:15:39.04,Default,,0,0,0,,{=22}100 Dog Names 1
+Dialogue: 1,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\pos(362,106)\fs60}100 Dog Names
+Dialogue: 0,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\c&HD1D984&\3c&HD1D984&\pos(362,106)\fs60}100 Dog Names
+Dialogue: 1,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\pos(362,184)}For those who
+Dialogue: 0,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\pos(362,184)}For those who
+Dialogue: 1,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&HD1D984&\pos(362,254)}just can't decide!
+Dialogue: 0,0:15:37.04,0:15:39.04,Signs,,0,0,0,,{=23}{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\pos(362,254)}just can't decide!
+Comment: 0,0:15:51.05,0:15:53.06,Default,,0,0,0,,{=24}100 Dog Names 2
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\fs60\pos(388,106)}100 Dog Names
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\c&HD1D984&\3c&HD1D984&\fs60\pos(388,106)}100 Dog Names
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\pos(388,184)}For those who
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\pos(388,184)}For those who
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&HD1D984&\pos(388,254)}just can't decide!
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\pos(388,254)}just can't decide!
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\fs50\pos(388,328)}Choco / Chappy / Roy
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\fs50\pos(388,328)}Choco / Chappy / Roy
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\fs50\pos(388,378)}Fuuta / Iroha / Nick / Tarosuke
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\fs50\pos(388,378)}Fuuta / Iroha / Nick / Tarosuke
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\fs50\pos(388,428)}Maya / Nika / Taku / Lily
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\fs50\pos(388,428)}Maya / Nika / Taku / Lily
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\fs50\pos(388,478)}Matthew / Maron / Momo
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\fs50\pos(388,478)}Matthew / Maron / Momo
+Dialogue: 1,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{\fnLucida Bright\b0\blur0.7\c&H6D6D6D&\fs50\pos(388,528)}Nioji / Santa / Robby
+Dialogue: 0,0:15:51.05,0:15:53.06,Signs,,0,0,0,,{=25}{\fnLucida Bright\b0\blur1\bord10\3c&HFFFFFF&\fs50\pos(388,528)}Nioji / Santa / Robby
+Comment: 0,0:16:20.21,0:16:21.71,Default,,0,0,0,,{=26}Santa
+Dialogue: 1,0:16:20.54,0:16:21.71,Signs,,0,0,0,,{=27}{\fnDK Face Your Fears II\c&H464043&\blur0.7\fscx249\fscy262\move(1638,1129.1,1638,285.7,23,1149)}Santa
+Dialogue: 0,0:16:20.54,0:16:21.71,Signs,,0,0,0,,{=28=29}{\fnDK Face Your Fears II\c&HF8FEFE&\bord10\blur3\fscx249\fscy262\move(1638,1129.1,1638,285.7,23,1149)\3c&HF8FEFE&}Santa
+Comment: 0,0:16:21.71,0:16:26.97,Default,,0,0,0,,{=30}Santa
+Dialogue: 1,0:16:21.71,0:16:25.34,Signs,,0,0,0,,{\fnDK Face Your Fears II\c&H464043&\3c&H464043&\bord1\blur0.7\fscx131\fscy134\pos(1726,618)\fad(0,250)}Santa
+Dialogue: 0,0:16:21.71,0:16:25.34,Signs,,0,0,0,,{=31}{\fnDK Face Your Fears II\c&HF8FEFE&\bord10\blur3\3c&HF8FEFE&\fscx131\fscy134\pos(1726,618)\fad(0,250)}Santa
+Comment: 0,0:16:58.91,0:17:01.50,Default,,0,0,0,,{=32}3 minutes
+Dialogue: 0,0:16:58.91,0:17:01.50,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HF2F2F2&}m 376 884 l 1546 884 1546 1020 376 1020
+Dialogue: 3,0:16:58.91,0:17:01.50,Signs,,0,0,0,,{\fnCCBackBeat-Regular\fs90\c&HF2F2F2&\blur0.6\pos(972,953.9)}Took him all of 3 minutes...
+Dialogue: 2,0:16:58.91,0:17:01.50,Signs,,0,0,0,,{=33}{\fnCCBackBeat-Regular\fs90\c&H404040&\blur0.6\3c&H404040&\bord4\shad3\4c&H5F5F5F&\4a&H00&\pos(972,953.9)}Took him all of 3 minutes...
+Comment: 0,0:19:26.65,0:19:30.40,Default,,0,0,0,,{=34}Today's Bench-bark Lesson 4
+Dialogue: 2,0:19:26.65,0:19:30.40,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\c&H060604&\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H98FEFE&}BARK {\fnBrianne's Hand\c&H060604&}Lesson
+Dialogue: 1,0:19:26.65,0:19:30.40,Signs,,0,0,0,,{\fnBrianne's hand\blur0.7\3c&HFBF6D2&\c&HFBF6D2&\bord7\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\c&H000000&\3c&H000000&\bord5}BARK {\fnBrianne's Hand\c&HFBF6D2&\3c&HFBF6D2&\bord7}Lesson
+Dialogue: 0,0:19:26.65,0:19:30.40,Signs,,0,0,0,,{=35}{\fnBrianne's hand\blur0.7\c&H000000&\3c&H000000&\bord12\pos(1125.48,161.67)}Today's Bench{\fnCCBigTopAcrobat\bord0}BARK {\fnBrianne's Hand\c&H000000&\3c&H000000&\bord12}Lesson
+Comment: 0,0:24:58.27,0:25:03.02,Default,,0,0,0,,{=36}Living in Bliss
+Dialogue: 2,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\c&HC6BE58&\blur0.6\fad(500,0)\pos(1344,642)}Next Time:
+Dialogue: 1,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\c&HFEFFFD&\bord5\blur0.6\3c&HFEFFFD&\fad(500,0)\pos(1344,642)}Next Time:
+Dialogue: 0,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\1a&HFE&\3a&HFE&\bord5\shad6\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&\fad(500,0)\pos(1344,642)}Next Time:
+Dialogue: 2,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\c&HC6BE58&\blur0.6\fad(500,0)\pos(1488,720)}Living in Bliss
+Dialogue: 1,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\c&HFEFFFD&\bord5\blur0.6\3c&HFEFFFD&\fad(500,0)\pos(1488,720)}Living in Bliss
+Dialogue: 0,0:24:58.27,0:25:03.02,Signs,,0,0,0,,{=37}{\fnFOT-Kurokane Std EB\fs100\1a&HFE&\3a&HFE&\bord5\shad6\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&\fad(500,0)\pos(1488,720)}Living in Bliss
+Comment: 0,0:00:02.98,0:00:03.02,OP,,0,0,0,sync,sync
+Dialogue: 0,0:00:04.03,0:00:10.41,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}We ran after our adjacent shadows
+Dialogue: 1,0:00:04.03,0:00:10.41,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}We ran after our adjacent shadows
+Dialogue: 0,0:00:10.87,0:00:18.96,OP,,0,0,0,,{\blur0.6\fade(0,920)\c&HFFFFFF&}I'll always be with you
+Dialogue: 1,0:00:10.87,0:00:18.96,OP,,0,0,0,,{\bord0\blur0.6\fade(0,920)\4a&HFF&}I'll always be with you
+Dialogue: 0,0:00:25.76,0:00:32.10,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Just how much light can you bring me
+Dialogue: 1,0:00:25.76,0:00:32.10,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Just how much light can you bring me
+Dialogue: 0,0:00:32.47,0:00:38.48,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Like that which shines through the trees into my dark room
+Dialogue: 1,0:00:32.47,0:00:38.48,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Like that which shines through the trees into my dark room
+Dialogue: 0,0:00:39.14,0:00:45.98,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}My soul was covered in sand, and you were a raincloud in the desert
+Dialogue: 1,0:00:39.14,0:00:45.98,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}My soul was covered in sand, and you were a raincloud in the desert
+Dialogue: 0,0:00:45.98,0:00:51.86,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}That was when we first met
+Dialogue: 1,0:00:45.98,0:00:51.86,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}That was when we first met
+Dialogue: 0,0:00:52.53,0:00:58.91,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I forgot all about your mischievous smile
+Dialogue: 1,0:00:52.53,0:00:58.91,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I forgot all about your mischievous smile
+Dialogue: 0,0:00:59.16,0:01:05.67,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I just love you so much with every passing moment
+Dialogue: 1,0:00:59.16,0:01:05.67,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I just love you so much with every passing moment
+Dialogue: 0,0:01:05.67,0:01:12.26,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Every path takes us back to our first encounter
+Dialogue: 1,0:01:05.67,0:01:12.26,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Every path takes us back to our first encounter
+Dialogue: 0,0:01:12.26,0:01:19.02,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I've always loved you, as childish as it sounds
+Dialogue: 1,0:01:12.26,0:01:19.02,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I've always loved you, as childish as it sounds
+Dialogue: 0,0:01:19.02,0:01:25.27,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I'll always be with you
+Dialogue: 1,0:01:19.02,0:01:25.27,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I'll always be with you
+Dialogue: 0,0:01:25.77,0:01:32.41,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Let's walk to the ends of the earth
+Dialogue: 1,0:01:25.77,0:01:32.41,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Let's walk to the ends of the earth
+Comment: 0,0:23:27.97,0:23:28.01,ED,,0,0,0,sync,sync
+Dialogue: 1,0:23:37.77,0:23:40.07,ED,,0,0,0,,{\blur0.6}Giving a name to chance
+Dialogue: 0,0:23:37.77,0:23:40.07,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Giving a name to chance
+Dialogue: 1,0:23:40.19,0:23:42.65,ED,,0,0,0,,{\blur0.6}Or giving love to fate
+Dialogue: 0,0:23:40.19,0:23:42.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or giving love to fate
+Dialogue: 1,0:23:42.90,0:23:44.65,ED,,0,0,0,,{\blur0.6}If I'm being honest
+Dialogue: 0,0:23:42.90,0:23:44.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}If I'm being honest
+Dialogue: 1,0:23:45.24,0:23:47.24,ED,,0,0,0,,{\blur0.6}It's all the same either way
+Dialogue: 0,0:23:45.24,0:23:47.24,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It's all the same either way
+Dialogue: 1,0:23:47.37,0:23:49.58,ED,,0,0,0,,{\blur0.6}The things that you love
+Dialogue: 0,0:23:47.37,0:23:49.58,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}The things that you love
+Dialogue: 1,0:23:49.70,0:23:52.04,ED,,0,0,0,,{\blur0.6}Are what make me happy
+Dialogue: 0,0:23:49.70,0:23:52.04,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Are what make me happy
+Dialogue: 1,0:23:52.37,0:23:54.25,ED,,0,0,0,,{\blur0.6}It's hilarious
+Dialogue: 0,0:23:52.37,0:23:54.25,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It's hilarious
+Dialogue: 1,0:23:54.62,0:23:56.87,ED,,0,0,0,,{\blur0.6}Just how simple I am
+Dialogue: 0,0:23:54.62,0:23:56.87,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Just how simple I am
+Dialogue: 1,0:23:58.63,0:24:00.75,ED,,0,0,0,,{\blur0.6}Your heartbeat, stuck in my head
+Dialogue: 0,0:23:58.63,0:24:00.75,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Your heartbeat, stuck in my head
+Dialogue: 1,0:24:00.88,0:24:03.09,ED,,0,0,0,,{\blur0.6}It brings back memories
+Dialogue: 0,0:24:00.88,0:24:03.09,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It brings back memories
+Dialogue: 1,0:24:03.34,0:24:07.84,ED,,0,0,0,,{\blur0.6}To when we rushed home, laughing along the way
+Dialogue: 0,0:24:03.34,0:24:07.84,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}To when we rushed home, laughing along the way
+Dialogue: 1,0:24:08.14,0:24:10.26,ED,,0,0,0,,{\blur0.6}I hate being alone
+Dialogue: 0,0:24:08.14,0:24:10.26,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I hate being alone
+Dialogue: 1,0:24:10.51,0:24:12.64,ED,,0,0,0,,{\blur0.6}It makes the night feel so slow
+Dialogue: 0,0:24:10.51,0:24:12.64,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It makes the night feel so slow
+Dialogue: 1,0:24:12.89,0:24:18.19,ED,,0,0,0,,{\blur0.6}So come on, fall for me already
+Dialogue: 0,0:24:12.89,0:24:18.19,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}So come on, fall for me already
+Dialogue: 1,0:24:18.52,0:24:20.65,ED,,0,0,0,,{\blur0.6}Sugarspot
+Dialogue: 0,0:24:18.52,0:24:20.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Sugarspot
+Dialogue: 1,0:24:20.77,0:24:24.44,ED,,0,0,0,,{\blur0.6}You make my days even sweeter
+Dialogue: 0,0:24:20.77,0:24:24.44,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}You make my days even sweeter
+Dialogue: 1,0:24:24.57,0:24:29.70,ED,,0,0,0,,{\blur0.6}With brown freckles just like your spots
+Dialogue: 0,0:24:24.57,0:24:29.70,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}With brown freckles just like your spots
+Dialogue: 1,0:24:29.82,0:24:34.08,ED,,0,0,0,,{\blur0.6}I can get through a scratch or a rough patch
+Dialogue: 0,0:24:29.82,0:24:34.08,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I can get through a scratch or a rough patch
+Dialogue: 1,0:24:34.75,0:24:37.00,ED,,0,0,0,,{\blur0.6}Just like that, the day's over
+Dialogue: 0,0:24:34.75,0:24:37.00,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Just like that, the day's over
+Dialogue: 1,0:24:37.12,0:24:39.33,ED,,0,0,0,,{\blur0.6}And in the deepest depths of my heart
+Dialogue: 0,0:24:37.12,0:24:39.33,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}And in the deepest depths of my heart
+Dialogue: 1,0:24:39.46,0:24:41.71,ED,,0,0,0,,{\blur0.6}Somewhere I feel lonely
+Dialogue: 0,0:24:39.46,0:24:41.71,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Somewhere I feel lonely
+Dialogue: 1,0:24:41.84,0:24:44.01,ED,,0,0,0,,{\blur0.6}Or maybe I miss you
+Dialogue: 0,0:24:41.84,0:24:44.01,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or maybe I miss you
+Dialogue: 1,0:24:44.13,0:24:45.76,ED,,0,0,0,,{\blur0.6}Or a mix of both?
+Dialogue: 0,0:24:44.13,0:24:45.76,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or a mix of both?
+Dialogue: 1,0:24:45.88,0:24:46.97,ED,,0,0,0,,{\blur0.6}I don't know
+Dialogue: 0,0:24:45.88,0:24:46.97,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I don't know
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;5
+Data: 7,_aegi_folddata,e1;1;5
+Data: 8,_aegi_folddata,e0;1;7
+Data: 9,_aegi_folddata,e1;1;7
+Data: 10,_aegi_folddata,e0;1;8
+Data: 11,_aegi_folddata,e1;1;8
+Data: 12,_aegi_folddata,e0;1;9
+Data: 13,a-mo,e{"originalText"#3A"{\\fnDK Carrot Juice\\fscx172\\fscy172\\pos(1438#2C168)\\c&H7D7371&\\blur0.7}YAP"#2C"uuid"#3A"968d07ea-d862-4857-9a5c-614d63a2bd30"}
+Data: 14,a-mo,e{"originalText"#3A"{\\fnDK Carrot Juice\\fscx172\\fscy172\\pos(1438#2C168)\\c&H474A51&\\bord4\\blur0.7\\3c&H474A51&}YAP"#2C"uuid"#3A"4233d76f-ee4c-4f7d-a3fe-f119f3783d3c"}
+Data: 15,_aegi_folddata,e1;1;9
+Data: 16,_aegi_folddata,e0;1;10
+Data: 17,_aegi_folddata,e1;1;10
+Data: 18,_aegi_folddata,e0;1;11
+Data: 19,_aegi_folddata,e1;1;11
+Data: 20,_aegi_folddata,e0;1;12
+Data: 21,_aegi_folddata,e1;1;12
+Data: 22,_aegi_folddata,e0;1;13
+Data: 23,_aegi_folddata,e1;1;13
+Data: 24,_aegi_folddata,e0;1;14
+Data: 25,_aegi_folddata,e1;1;14
+Data: 26,_aegi_folddata,e0;1;15
+Data: 27,a-mo,e{"originalText"#3A"{\\fnDK Face Your Fears II\\c&H464043&\\blur0.7\\fscx249\\fscy262\\pos(1638#2C598)}Santa"#2C"uuid"#3A"3790fd66-4eb0-4028-8fa0-f5c51933d39a"}
+Data: 28,a-mo,e{"originalText"#3A"{\\fnDK Face Your Fears II\\c&HF8FEFE&\\bord10\\blur0.7\\fscx249\\fscy262\\pos(1638#2C598)\\3c&HF8FEFE&}Santa"#2C"uuid"#3A"7cbda73f-d8b8-41e2-9c5a-0d2918156833"}
+Data: 29,_aegi_folddata,e1;1;15
+Data: 30,_aegi_folddata,e0;1;16
+Data: 31,_aegi_folddata,e1;1;16
+Data: 32,_aegi_folddata,e0;1;17
+Data: 33,_aegi_folddata,e1;1;17
+Data: 34,_aegi_folddata,e0;1;20
+Data: 35,_aegi_folddata,e1;1;20
+Data: 36,_aegi_folddata,e0;1;21
+Data: 37,_aegi_folddata,e1;1;21
+

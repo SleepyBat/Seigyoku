@@ -1,0 +1,538 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,LTFinnegan Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,4,2,2,133,133,70,1
+Style: Signs,LTFinnegan Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: OP,CasinoHand,75,&H004D4B4A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H6C000000,&H57000000,0,0,0,0,100,100,0,0,1,0,0,8,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 50,0:00:04.43,0:00:06.24,Default,,0,0,0,,Hey, stop, Ricochet!
+Dialogue: 50,0:00:06.77,0:00:08.49,Default,,0,0,0,,E-Excuse me...
+Dialogue: 50,0:00:10.37,0:00:14.26,Default,,0,0,0,,Hahaha, she's so friendly.
+Dialogue: 50,0:00:14.26,0:00:14.99,Default,,0,0,0,,What's her name?
+Dialogue: 50,0:00:15.89,0:00:17.00,Default,,0,0,0,,It's Ricochet.
+Dialogue: 50,0:00:17.85,0:00:19.83,Default,,0,0,0,,So what are you seeking consultation for?
+Dialogue: 50,0:00:20.39,0:00:21.00,Default,,0,0,0,,Well...
+Dialogue: 50,0:00:21.86,0:00:23.06,Default,,0,0,0,,My dog...
+Dialogue: 50,0:00:23.06,0:00:24.52,Default,,0,0,0,,keeps spinning.
+Dialogue: 50,0:02:00.94,0:02:02.27,Default,,0,0,0,,She keeps spinning?
+Dialogue: 50,0:02:02.64,0:02:06.49,Default,,0,0,0,,Whenever any vehicle on\Nthe road passes by on a walk,
+Dialogue: 50,0:02:06.49,0:02:11.14,Default,,0,0,0,,she suddenly starts spinning\Naround in place trying to go after it.
+Dialogue: 50,0:02:11.14,0:02:14.47,Default,,0,0,0,,I worry she could get run over\Nif I don't stop her somehow...
+Dialogue: 50,0:02:15.68,0:02:16.76,Default,,0,0,0,,I see now.
+Dialogue: 50,0:02:17.78,0:02:19.00,Default,,0,0,0,,Is she acting up otherwise?
+Dialogue: 50,0:02:21.03,0:02:22.54,Default,,0,0,0,,Not as far as I'm concerned.
+Dialogue: 50,0:02:23.24,0:02:24.89,Default,,0,0,0,,Now, how do I stop her...
+Dialogue: 50,0:02:24.89,0:02:27.51,Default,,0,0,0,,Okay, okay, slow down! I hear ya!
+Dialogue: 50,0:02:27.51,0:02:29.55,Default,,0,0,0,,Ricochet! Knock it o—
+Dialogue: 50,0:02:33.70,0:02:34.20,Default,,0,0,0,,Huh?
+Dialogue: 50,0:02:34.93,0:02:37.11,Default,,0,0,0,,I-I'm terribly sorry...
+Dialogue: 50,0:02:37.11,0:02:40.73,Default,,0,0,0,,Oh, d-don't worry about it!\NShe's too cute.
+Dialogue: 50,0:02:40.73,0:02:42.46,Default,,0,0,0,,Feel free to sit back down.
+Dialogue: 50,0:02:42.46,0:02:44.19,Default,,0,0,0,,M-M-My apologies.
+Dialogue: 50,0:02:46.19,0:02:48.80,Default,,0,0,0,,How long of a walk\Ndoes she get every day?
+Dialogue: 50,0:02:48.80,0:02:52.59,Default,,0,0,0,,About half an hour...\N15 minutes in the morning, 15 at dusk.
+Dialogue: 50,0:02:52.59,0:02:56.31,Default,,0,0,0,,That's not enough.\NShe needs at least double that amount.
+Dialogue: 50,0:02:56.31,0:02:59.09,Default,,0,0,0,,Will walking her for longer\Nstop her from spinning?
+Dialogue: 50,0:02:59.09,0:03:00.95,Default,,0,0,0,,Yes, as long as it's done properly.
+Dialogue: 50,0:03:01.31,0:03:05.70,Default,,0,0,0,,But I work during the day.\NI can only walk her for so long.
+Dialogue: 50,0:03:05.70,0:03:07.86,Default,,0,0,0,,Um, do you have any family members?
+Dialogue: 50,0:03:07.86,0:03:10.37,Default,,0,0,0,,I live with my husband\Nand teenage daughter.
+Dialogue: 50,0:03:10.37,0:03:13.97,Default,,0,0,0,,Then if you all take turns walking her,\Nyou can {\i1}triple{\i0} the amount she's getting!
+Dialogue: 50,0:03:15.87,0:03:17.84,Default,,0,0,0,,If only that was a possibility...
+Dialogue: 50,0:03:19.22,0:03:22.96,Default,,0,0,0,,Do your other family members\Nnot like Ricochet-chan?
+Dialogue: 50,0:03:22.96,0:03:26.37,Default,,0,0,0,,No, I wouldn't necessarily say that...
+Dialogue: 50,0:03:32.82,0:03:34.86,Default,,0,0,0,,They've gotten burnt and turned red\Nfrom her saliva.
+Dialogue: 50,0:03:35.37,0:03:38.92,Default,,0,0,0,,Don't let her lick her paws.\NIt's not good conduct.
+Dialogue: 50,0:03:40.22,0:03:42.99,Default,,0,0,0,,I'm sorry... I usually tell her off...
+Dialogue: 50,0:03:43.68,0:03:45.58,Default,,0,0,0,,This goes beyond just spinning.
+Dialogue: 50,0:03:45.58,0:03:45.89,Default,,0,0,0,,What?
+Dialogue: 50,0:03:46.96,0:03:51.06,Default,,0,0,0,,Next time, please bring your family\Nalong for a counseling session.
+Dialogue: 50,0:03:51.06,0:03:54.90,Default,,0,0,0,,Then we'll continue.\NReservations are always open.
+Dialogue: 50,0:03:54.90,0:03:58.95,Default,,0,0,0,,Um, we have a hard time\Nlining up our schedules, though...
+Dialogue: 50,0:03:58.95,0:04:01.82,Default,,0,0,0,,Then make them line up.
+Dialogue: 50,0:04:03.71,0:04:06.78,Default,,0,0,0,,We'll see you again this Sunday at 10 A.M.!
+Dialogue: 50,0:04:06.78,0:04:07.69,Default,,0,0,0,,Okay...
+Dialogue: 50,0:04:07.69,0:04:08.90,Default,,0,0,0,,Goodbye, Ricochet-chan!
+Dialogue: 50,0:04:10.52,0:04:11.37,Default,,0,0,0,,Excuse me...
+Dialogue: 50,0:04:12.26,0:04:14.91,Default,,0,0,0,,I really think it'd be best\Nfor me to come alone.
+Dialogue: 50,0:04:14.91,0:04:17.35,Default,,0,0,0,,Can you still fit her in for a session?
+Dialogue: 50,0:04:17.35,0:04:18.91,Default,,0,0,0,,I'm free right now.
+Dialogue: 50,0:04:19.34,0:04:21.67,Default,,0,0,0,,Not without the rest\Nof the family being there.
+Dialogue: 50,0:04:23.85,0:04:26.29,Default,,0,0,0,,In exchange, how about I send in an assistant?
+Dialogue: 50,0:04:26.29,0:04:26.98,Default,,0,0,0,,Samura.
+Dialogue: 50,0:04:27.77,0:04:30.92,Default,,0,0,0,,Go with her and try to persuade the family.
+Dialogue: 50,0:04:31.17,0:04:32.90,Default,,0,0,0,,Huh, me?!
+Dialogue: 50,0:04:32.90,0:04:36.54,Default,,0,0,0,,If she starts spinning on the way home,\Nget it on video.
+Dialogue: 50,0:04:36.54,0:04:37.13,Default,,0,0,0,,Then...
+Dialogue: 50,0:04:38.70,0:04:40.68,Default,,0,0,0,,Sorry for all the trouble.
+Dialogue: 50,0:04:41.68,0:04:42.55,Default,,0,0,0,,It's fine.
+Dialogue: 50,0:04:43.70,0:04:46.01,Default,,0,0,0,,{\i1}Though I have a bad feeling about this...
+Dialogue: 50,0:04:49.02,0:04:51.10,Default,,0,0,0,,Umm, do you want me to walk her?
+Dialogue: 50,0:04:51.10,0:04:55.05,Default,,0,0,0,,I'm not much better at handing a leash,\Nbut I'm stronger, at least...
+Dialogue: 50,0:04:55.05,0:04:57.30,Default,,0,0,0,,That's quite alright.
+Dialogue: 50,0:04:59.49,0:05:01.30,Default,,0,0,0,,R-Rico!
+Dialogue: 50,0:05:03.79,0:05:04.45,Default,,0,0,0,,{\i1}She's staring...
+Dialogue: 50,0:05:04.80,0:05:05.45,Default,,0,0,0,,Don't!
+Dialogue: 50,0:05:06.11,0:05:07.95,Default,,0,0,0,,Stop it, Ricochet!!
+Dialogue: 50,0:05:08.75,0:05:10.95,Default,,0,0,0,,{\i1}So {\i0}that's{\i1} how she spins?
+Dialogue: 50,0:05:11.71,0:05:13.29,Default,,0,0,0,,{\i1}This is really bad...
+Dialogue: 50,0:05:13.29,0:05:15.96,Default,,0,0,0,,{\i1}She could get seriously hurt.
+Dialogue: 50,0:05:16.94,0:05:18.03,Default,,0,0,0,,I'm home.
+Dialogue: 50,0:05:18.03,0:05:20.02,Default,,0,0,0,,S-Sorry to intrude.
+Dialogue: 50,0:05:20.02,0:05:20.97,Default,,0,0,0,,Come in.
+Dialogue: 50,0:05:23.90,0:05:26.54,Default,,0,0,0,,Do you not wipe her paws?
+Dialogue: 50,0:05:26.54,0:05:29.39,Default,,0,0,0,,No, but this house is filthy anyways.
+Dialogue: 50,0:05:29.39,0:05:30.15,Default,,0,0,0,,Here, use these.
+Dialogue: 50,0:05:30.15,0:05:31.10,Default,,0,0,0,,Oh, thank you.
+Dialogue: 50,0:05:31.10,0:05:33.35,Default,,0,0,0,,Okay, I get it, Rico!
+Dialogue: 50,0:05:33.35,0:05:35.47,Default,,0,0,0,,You're gonna make me spill my tea!
+Dialogue: 50,0:05:36.36,0:05:38.28,Default,,0,0,0,,Oh, do you want my snack?
+Dialogue: 50,0:05:38.28,0:05:39.81,Default,,0,0,0,,I just can't say no to you!
+Dialogue: 50,0:05:39.81,0:05:41.36,Default,,0,0,0,,Just don't tell mommy, okay?
+Dialogue: 50,0:05:41.36,0:05:45.55,Default,,0,0,0,,Darling! You {\i1}know{\i0} I told you\Nnot to give her any human food!
+Dialogue: 50,0:05:45.55,0:05:46.74,Default,,0,0,0,,Oh, cut me some slack.
+Dialogue: 50,0:05:47.07,0:05:49.85,Default,,0,0,0,,A little bit ain't gonna kill her!
+Dialogue: 50,0:05:47.79,0:05:49.90,Default,,0,0,0,,{\an8\i1}I'm starting to see...
+Dialogue: 50,0:05:49.85,0:05:52.15,Default,,0,0,0,,That doesn't matter,\Nyou can't give her {\i1}any!
+Dialogue: 50,0:05:52.15,0:05:56.19,Default,,0,0,0,,Alright. Well, as they say,\Nmany a little makes a prickle.
+Dialogue: 50,0:05:56.19,0:05:57.96,Default,,0,0,0,,Mommy's so sensitive.
+Dialogue: 50,0:05:57.96,0:05:59.83,Default,,0,0,0,,Would you shut up?
+Dialogue: 50,0:05:57.96,0:06:00.38,Default,,0,0,0,,{\an8}Isn't it just awful, Rico~?
+Dialogue: 50,0:06:00.02,0:06:05.89,Default,,0,0,0,,{\i1}I think I can see now why Miyake-san\Ndidn't want to bring her family with her.
+Dialogue: 50,0:06:00.90,0:06:04.18,Default,,0,0,0,,{\an8}You made me send a message\Nto the wrong group chat!
+Dialogue: 50,0:06:06.52,0:06:07.45,Default,,0,0,0,,Huh?
+Dialogue: 50,0:06:07.45,0:06:08.64,Default,,0,0,0,,And who are you?
+Dialogue: 50,0:06:08.64,0:06:11.06,Default,,0,0,0,,{\i1}Shit, I forgot to greet them!
+Dialogue: 50,0:06:11.06,0:06:15.82,Default,,0,0,0,,Sorry to interrupt. I'm Samura\Nfrom Proud Dog's Dog Training.
+Dialogue: 50,0:06:16.60,0:06:19.98,Default,,0,0,0,,No way, {\i1}you're{\i0} the trainer?\NI didn't think you'd be so young!
+Dialogue: 50,0:06:20.50,0:06:23.36,Default,,0,0,0,,I'm still more of an errand boy if anything.
+Dialogue: 50,0:06:24.06,0:06:26.47,Default,,0,0,0,,The trainer asked me to come over with a favor.
+Dialogue: 50,0:06:26.47,0:06:30.84,Default,,0,0,0,,Would you all be open to doing\Na session together next Sunday?
+Dialogue: 50,0:06:33.70,0:06:36.69,Default,,0,0,0,,Please. She doesn't need any sort of training.
+Dialogue: 50,0:06:36.69,0:06:39.37,Default,,0,0,0,,Dogs are meant to be a bit rowdy!\NThat's what makes them cute.
+Dialogue: 50,0:06:39.37,0:06:40.67,Default,,0,0,0,,Ain't that right, Rico?
+Dialogue: 50,0:06:41.20,0:06:44.96,Default,,0,0,0,,Can't. I'm hanging out with\Nmy friends over the weekend.
+Dialogue: 50,0:06:44.96,0:06:48.93,Default,,0,0,0,,Besides, she sleeps with me at night,\Nand I'm very nice to her.
+Dialogue: 50,0:06:49.39,0:06:52.06,Default,,0,0,0,,You should at least consider taking her on walks.
+Dialogue: 50,0:06:52.06,0:06:54.81,Default,,0,0,0,,The missus can handle that by herself.
+Dialogue: 50,0:06:58.47,0:07:01.83,Default,,0,0,0,,Oh, right. Y'think Rico might be\Ngettin' hungry about now?
+Dialogue: 50,0:07:01.83,0:07:02.98,Default,,0,0,0,,Why don't you...
+Dialogue: 50,0:07:02.98,0:07:04.33,Default,,0,0,0,,I'm doing it!!
+Dialogue: 50,0:07:04.86,0:07:06.70,Default,,0,0,0,,Would it kill you to feed her yourself sometimes?!
+Dialogue: 50,0:07:06.70,0:07:13.04,Default,,0,0,0,,Yikes, so scary! You shouldn't act up in front of a guest.
+Dialogue: 50,0:07:07.41,0:07:11.32,Default,,0,0,0,,{\3c&H564100&}You have plenty of time to handle it yourself.
+Dialogue: 50,0:07:10.23,0:07:13.04,Default,,0,0,0,,{\an8\i1}I'm getting a {\i0}really{\i1} bad feeling about this!!
+Dialogue: 50,0:07:13.78,0:07:16.33,Default,,0,0,0,,Dinner's ready, Ricochet!
+Dialogue: 50,0:07:18.86,0:07:20.61,Default,,0,0,0,,{\i1}Can they at least get her to sit?
+Dialogue: 50,0:07:23.79,0:07:25.84,Default,,0,0,0,,{\i1}Did she just drop it for her...?
+Dialogue: 50,0:07:26.70,0:07:29.84,Default,,0,0,0,,Y'know, you're pretty handsome, Samura-kun.
+Dialogue: 50,0:07:29.84,0:07:30.73,Default,,0,0,0,,Huh?
+Dialogue: 50,0:07:30.73,0:07:32.84,Default,,0,0,0,,What's your name?\NHow old are you?
+Dialogue: 50,0:07:33.40,0:07:34.73,Default,,0,0,0,,Are you single?
+Dialogue: 50,0:07:36.06,0:07:38.24,Default,,0,0,0,,My name's Kanon!
+Dialogue: 50,0:07:38.24,0:07:40.12,Default,,0,0,0,,Can I have your number?
+Dialogue: 50,0:07:40.91,0:07:43.22,Default,,0,0,0,,{\i1}If the family doesn't cooperate,
+Dialogue: 50,0:07:43.22,0:07:46.36,Default,,0,0,0,,{\i1}then convince them by any means necessary.
+Dialogue: 50,0:07:47.22,0:07:49.48,Default,,0,0,0,,Sure thing.
+Dialogue: 50,0:07:49.48,0:07:50.65,Default,,0,0,0,,You will?
+Dialogue: 50,0:07:50.65,0:07:52.36,Default,,0,0,0,,On one condition...
+Dialogue: 50,0:07:53.66,0:07:55.50,Default,,0,0,0,,I need you to do something for me.
+Dialogue: 50,0:07:58.90,0:08:00.31,Default,,0,0,0,,Miyu-kun!
+Dialogue: 50,0:08:01.26,0:08:02.48,Default,,0,0,0,,Kanon-chan!
+Dialogue: 50,0:08:02.48,0:08:03.80,Default,,0,0,0,,I got what you asked for.
+Dialogue: 50,0:08:04.63,0:08:06.81,Default,,0,0,0,,It's just stuff we shot inside the house, though.
+Dialogue: 50,0:08:07.49,0:08:08.52,Default,,0,0,0,,That'll do just fine.
+Dialogue: 50,0:08:08.52,0:08:10.65,Default,,0,0,0,,Thank you! Later.
+Dialogue: 50,0:08:10.65,0:08:12.97,Default,,0,0,0,,Wait, you're leaving already?!
+Dialogue: 50,0:08:12.97,0:08:14.12,Default,,0,0,0,,Lame...
+Dialogue: 50,0:08:14.12,0:08:15.69,Default,,0,0,0,,I'm on the clock.
+Dialogue: 50,0:08:19.23,0:08:22.19,Default,,0,0,0,,Do you want Ricochet to be happy?
+Dialogue: 50,0:08:24.76,0:08:27.09,Default,,0,0,0,,Why wouldn't I? She's family.
+Dialogue: 50,0:08:28.65,0:08:30.34,Default,,0,0,0,,Anyways, can we have tea again sometime?
+Dialogue: 50,0:08:30.98,0:08:33.87,Default,,0,0,0,,If you go with your mom to training!
+Dialogue: 50,0:08:31.14,0:08:33.13,Default,,0,0,0,,{\an8\i1}She considers her family...
+Dialogue: 50,0:08:33.96,0:08:35.80,Default,,0,0,0,,Aww, I don't wanna...
+Dialogue: 50,0:08:34.57,0:08:37.56,Default,,0,0,0,,{\an8\i1}Niwa-san might just be able to help!
+Dialogue: 50,0:08:39.33,0:08:40.83,Default,,0,0,0,,I'll start the playback.
+Dialogue: 50,0:08:41.75,0:08:45.60,Default,,0,0,0,,{\i1}Darling, get Ricochet off the couch!\NShe'll shed all over it!
+Dialogue: 50,0:08:45.60,0:08:48.06,Default,,0,0,0,,{\i1}Aw, come on.\NWe can just clean her fur off later.
+Dialogue: 50,0:08:48.80,0:08:52.09,Default,,0,0,0,,{\i1}Sit! Sit {\i0}down!{\i1}\NYou don't get a treat if you don't sit!
+Dialogue: 50,0:08:52.49,0:08:55.48,Default,,0,0,0,,{\i1}Just forget about it, okay?\NRico, come here!
+Dialogue: 50,0:08:56.00,0:08:59.12,Default,,0,0,0,,{\i1}Be quiet, Ricochet!\NShut up, Ricochet!
+Dialogue: 50,0:08:59.12,0:09:03.26,Default,,0,0,0,,{\i1}She gets mad at everything, Rico!\NShe's so scary... It's okay!
+Dialogue: 50,0:09:01.91,0:09:04.32,Default,,0,0,0,,{\an8\i1}Kanon, stop scattering around your slippers!
+Dialogue: 50,0:09:04.32,0:09:05.58,Default,,0,0,0,,{\i1}Yikes...
+Dialogue: 50,0:09:04.32,0:09:06.11,Default,,0,0,0,,{\an8\i1}When you take them off, line them up!
+Dialogue: 50,0:09:07.34,0:09:09.95,Default,,0,0,0,,{\i1}Here's the slippers Mom lined up.
+Dialogue: 50,0:09:10.47,0:09:13.55,Default,,0,0,0,,{\i1}Rico, stop!\NMom will snap at you again!
+Dialogue: 50,0:09:13.55,0:09:15.62,Default,,0,0,0,,{\i1}I said stop! Give it back!
+Dialogue: 50,0:09:16.42,0:09:18.11,Default,,0,0,0,,So they're always like this?
+Dialogue: 50,0:09:18.69,0:09:19.95,Default,,0,0,0,,Yeah.
+Dialogue: 50,0:09:19.95,0:09:22.94,Default,,0,0,0,,Only Mrs. Miyake seems to get angry all the time.
+Dialogue: 50,0:09:22.94,0:09:23.88,Default,,0,0,0,,Oh, and this...
+Dialogue: 50,0:09:26.13,0:09:27.32,Default,,0,0,0,,Is that...?
+Dialogue: 50,0:09:27.32,0:09:29.63,Default,,0,0,0,,Mhm. It's clearly a stress-related behavior.
+Dialogue: 50,0:09:30.60,0:09:31.84,Default,,0,0,0,,Stress...
+Dialogue: 50,0:09:32.65,0:09:35.11,Default,,0,0,0,,Mom says no to this.
+Dialogue: 50,0:09:35.11,0:09:37.12,Default,,0,0,0,,Dad says "it's fine."
+Dialogue: 50,0:09:37.85,0:09:41.33,Default,,0,0,0,,The girl sees her getting scolded\Nand comforts her.
+Dialogue: 50,0:09:41.33,0:09:46.15,Default,,0,0,0,,The family's instructions are all over the place,\Nleaving her in a state of anxiety and confusion.
+Dialogue: 50,0:09:46.57,0:09:49.15,Default,,0,0,0,,And since they don't walk her much,\Nshe doesn't get enough exercise.
+Dialogue: 50,0:09:49.99,0:09:52.09,Default,,0,0,0,,Border Collies, and other sheepdogs,
+Dialogue: 50,0:09:52.09,0:09:55.19,Default,,0,0,0,,need far more exercise than other breeds,
+Dialogue: 50,0:09:55.19,0:09:57.26,Default,,0,0,0,,and have a higher tendency\Nto run after moving objects.
+Dialogue: 50,0:09:57.97,0:10:00.56,Default,,0,0,0,,Barking and spinning\Nin reaction to vehicles
+Dialogue: 50,0:10:00.56,0:10:03.10,Default,,0,0,0,,is a common stress-related\Nbehavior in sheepdogs.
+Dialogue: 50,0:10:03.90,0:10:05.17,Default,,0,0,0,,And there's one more thing.
+Dialogue: 50,0:10:05.85,0:10:07.91,Default,,0,0,0,,The mother is afraid of her.
+Dialogue: 50,0:10:07.91,0:10:08.83,Default,,0,0,0,,Huh?
+Dialogue: 50,0:10:08.83,0:10:11.55,Default,,0,0,0,,I-I noticed that too!!
+Dialogue: 50,0:10:11.55,0:10:15.24,Default,,0,0,0,,I wasn't sure why,\Nbut something felt off...
+Dialogue: 50,0:10:15.24,0:10:19.68,Default,,0,0,0,,Even though she's so worried about her\Nshedding on the couch and chewing up the slippers,
+Dialogue: 50,0:10:19.97,0:10:23.19,Default,,0,0,0,,she didn't wipe her feet\Nwhen they entered the house,
+Dialogue: 50,0:10:23.64,0:10:26.69,Default,,0,0,0,,and at dinner time,\Nshe dropped her food bowl on the ground.
+Dialogue: 50,0:10:27.53,0:10:28.63,Default,,0,0,0,,Shinichiro...
+Dialogue: 50,0:10:29.90,0:10:31.07,Default,,0,0,0,,This is bad...
+Dialogue: 50,0:10:31.75,0:10:35.14,Default,,0,0,0,,We have to intervene\Nor it could get much worse.
+Dialogue: 50,0:10:40.97,0:10:42.25,Default,,0,0,0,,It's their daughter.
+Dialogue: 50,0:10:43.06,0:10:45.25,Default,,0,0,0,,Kanon-chan, what's the—Huh?
+Dialogue: 50,0:10:46.01,0:10:48.33,Default,,0,0,0,,Miyu-kun, Rico just...
+Dialogue: 50,0:10:49.89,0:10:52.88,Default,,0,0,0,,Ricochet...bit your mother...?
+Dialogue: 50,0:10:55.09,0:10:55.96,Default,,0,0,0,,Miyake-san!
+Dialogue: 50,0:10:57.10,0:10:57.93,Default,,0,0,0,,Miyu-kun!
+Dialogue: 50,0:10:58.66,0:11:00.34,Default,,0,0,0,,Rico bit Mom's hand...
+Dialogue: 50,0:11:03.22,0:11:04.52,Default,,0,0,0,,That's a lotta blood...
+Dialogue: 50,0:11:05.34,0:11:06.39,Default,,0,0,0,,Are you alright?!
+Dialogue: 50,0:11:09.85,0:11:14.57,Default,,0,0,0,,She was barking at a motorcycle that passed by\Nand Mom threw this at her!
+Dialogue: 50,0:11:14.92,0:11:16.39,Default,,0,0,0,,So Rico acted out...
+Dialogue: 50,0:11:17.87,0:11:19.59,Default,,0,0,0,,Why would you have something like this?
+Dialogue: 50,0:11:20.01,0:11:24.44,Default,,0,0,0,,I read about a form of scolding called\N"divine punishment" in a book...
+Dialogue: 50,0:11:24.44,0:11:28.90,Default,,0,0,0,,where if you threw something loud nearby,\Nit would startle them into being quiet...
+Dialogue: 50,0:11:29.66,0:11:34.38,Default,,0,0,0,,I didn't mean to hit her directly,\NI just missed my aim...
+Dialogue: 50,0:11:34.68,0:11:37.11,Default,,0,0,0,,No way, you did it on purpose\Nbecause you were mad!
+Dialogue: 50,0:11:37.11,0:11:39.36,Default,,0,0,0,,I didn't, I swear! I was just trying...
+Dialogue: 50,0:11:39.36,0:11:42.18,Default,,0,0,0,,Don't yell so loudly. It'll set off the dog.
+Dialogue: 50,0:11:42.69,0:11:45.40,Default,,0,0,0,,Ricochet isn't going to calm down\Nwhile you're here.
+Dialogue: 50,0:11:45.40,0:11:46.70,Default,,0,0,0,,Go to the hospital now.
+Dialogue: 50,0:11:46.70,0:11:47.55,Default,,0,0,0,,Huh...?
+Dialogue: 50,0:11:47.55,0:11:48.46,Default,,0,0,0,,Samura.
+Dialogue: 50,0:11:48.46,0:11:49.15,Default,,0,0,0,,On it.
+Dialogue: 50,0:11:49.82,0:11:52.76,Default,,0,0,0,,There's a cab waiting outside.\NLet's go.
+Dialogue: 50,0:11:52.76,0:11:53.68,Default,,0,0,0,,But I...
+Dialogue: 50,0:11:53.68,0:11:56.22,Default,,0,0,0,,Let's leave Niwa-san to handle this, okay?
+Dialogue: 50,0:12:01.03,0:12:01.95,Default,,0,0,0,,{\i1}Alright...
+Dialogue: 50,0:12:02.50,0:12:06.11,Default,,0,0,0,,Don't touch her.\NShe might bite you too!
+Dialogue: 50,0:12:06.11,0:12:07.83,Default,,0,0,0,,Stay back.
+Dialogue: 50,0:12:22.22,0:12:23.56,Default,,0,0,0,,He turned his back to her...
+Dialogue: 50,0:12:24.24,0:12:25.72,Default,,0,0,0,,Will he be alright...?
+Dialogue: 50,0:12:36.55,0:12:38.84,Default,,0,0,0,,Come with me.\NEverything's okay.
+Dialogue: 50,0:12:39.61,0:12:41.46,Default,,0,0,0,,That's a good girl.
+Dialogue: 50,0:12:42.10,0:12:43.14,Default,,0,0,0,,Amazing...
+Dialogue: 50,0:12:45.51,0:12:48.73,Default,,0,0,0,,{\i1}When Miyake-san and I\Ngot back from the hospital,
+Dialogue: 50,0:12:48.73,0:12:52.70,Default,,0,0,0,,{\i1}Ricochet had calmed down\Nin a crate we bought from the store.
+Dialogue: 50,0:12:53.91,0:12:55.48,Default,,0,0,0,,She received five stitches,
+Dialogue: 50,0:12:55.48,0:12:58.34,Default,,0,0,0,,but despite the blood loss,\Nthe wound was shallow.
+Dialogue: 50,0:12:59.84,0:13:02.83,Default,,0,0,0,,She wasn't like this before...
+Dialogue: 50,0:13:02.83,0:13:04.62,Default,,0,0,0,,She was. You just didn't notice.
+Dialogue: 50,0:13:04.62,0:13:04.93,Default,,0,0,0,,Huh?
+Dialogue: 50,0:13:05.36,0:13:07.61,Default,,0,0,0,,This isn't the first time this has happened.
+Dialogue: 50,0:13:08.29,0:13:12.36,Default,,0,0,0,,Ricochet has bitten you several times before,\Nhasn't she, Miyake-san?
+Dialogue: 50,0:13:15.08,0:13:16.07,Default,,0,0,0,,{\i1}Huh?
+Dialogue: 50,0:13:16.07,0:13:17.94,Default,,0,0,0,,Wh-What do you mean?
+Dialogue: 50,0:13:18.53,0:13:20.24,Default,,0,0,0,,You know what I mean.
+Dialogue: 50,0:13:20.24,0:13:21.57,Default,,0,0,0,,During our counseling session...
+Dialogue: 50,0:13:22.23,0:13:24.71,Default,,0,0,0,,when Ricochet quickly turned around,
+Dialogue: 50,0:13:24.71,0:13:27.92,Default,,0,0,0,,Miyake-san got panicked,\Nstood up and raised her hands.
+Dialogue: 50,0:13:28.57,0:13:30.95,Default,,0,0,0,,That's the behavior of someone\Nwho either got bit
+Dialogue: 50,0:13:30.95,0:13:34.08,Default,,0,0,0,,or {\i1}nearly{\i0} got bit by a dog.
+Dialogue: 50,0:13:34.08,0:13:36.09,Default,,0,0,0,,{\i1}She didn't wipe her feet,
+Dialogue: 50,0:13:36.52,0:13:38.59,Default,,0,0,0,,{\i1}and she dropped her food bowl on the ground...
+Dialogue: 50,0:13:39.03,0:13:41.87,Default,,0,0,0,,The things you told me earlier\Nconvinced me all the same.
+Dialogue: 50,0:13:42.38,0:13:45.55,Default,,0,0,0,,Those are all situations\Nwhere the dog could easily bite her.
+Dialogue: 50,0:13:45.89,0:13:48.84,Default,,0,0,0,,I-Is that true? This whole time?
+Dialogue: 50,0:13:48.84,0:13:52.27,Default,,0,0,0,,You should've spoken up about that!\NWhy did you hide it from us?!
+Dialogue: 50,0:13:52.69,0:13:54.72,Default,,0,0,0,,How could I tell you...?
+Dialogue: 50,0:13:54.72,0:13:58.23,Default,,0,0,0,,Being bitten by my own dog\Nis just too shameful!
+Dialogue: 50,0:14:00.24,0:14:03.83,Default,,0,0,0,,Ricochet's been a rowdy girl\Never since she was a puppy.
+Dialogue: 50,0:14:03.83,0:14:07.61,Default,,0,0,0,,Besides, all the two of you ever do\Nis dote on her.
+Dialogue: 50,0:14:07.61,0:14:10.83,Default,,0,0,0,,You never help train her\Nor look after her!
+Dialogue: 50,0:14:11.59,0:14:16.89,Default,,0,0,0,,So I started picking up books\Nand trying every training method in them.
+Dialogue: 50,0:14:17.56,0:14:19.05,Default,,0,0,0,,When one day...
+Dialogue: 50,0:14:21.85,0:14:25.47,Default,,0,0,0,,I try so hard to discipline her,\Nbut she's only gotten worse...
+Dialogue: 50,0:14:27.77,0:14:30.43,Default,,0,0,0,,Learning from books isn't a bad idea.
+Dialogue: 50,0:14:31.90,0:14:34.65,Default,,0,0,0,,But even though she repeats the same actions,
+Dialogue: 50,0:14:34.65,0:14:37.36,Default,,0,0,0,,sometimes you ignore her,\Nor throw things at her,
+Dialogue: 50,0:14:37.78,0:14:40.22,Default,,0,0,0,,and the other family members\Npraise her for it,
+Dialogue: 50,0:14:40.22,0:14:43.91,Default,,0,0,0,,which makes the dog confused\Non if what she's doing is right or not.
+Dialogue: 50,0:14:45.36,0:14:50.26,Default,,0,0,0,,Ricochet's problematic behavior\Nis thanks to stress from that confusion.
+Dialogue: 50,0:14:51.20,0:14:54.16,Default,,0,0,0,,She's not really sure what to do anymore.
+Dialogue: 50,0:14:54.89,0:14:56.92,Default,,0,0,0,,She's not getting enough exercise either.
+Dialogue: 50,0:14:57.42,0:15:02.38,Default,,0,0,0,,As a sheepdog, she needs a lot of exercise\Nto relieve stress.
+Dialogue: 50,0:15:02.96,0:15:07.16,Default,,0,0,0,,Only walking her for 30 minutes a day\Nbuilt up her stress over time.
+Dialogue: 50,0:15:07.76,0:15:11.35,Default,,0,0,0,,She's sensitive, so she tends to show\Nsigns of aggression when threatened.
+Dialogue: 50,0:15:12.08,0:15:15.21,Default,,0,0,0,,If you want her to grow healthily,\Nyou need to put in a lot of effort.
+Dialogue: 50,0:15:15.21,0:15:20.84,Default,,0,0,0,,But I read that Border Collies\Nhad high training potential.
+Dialogue: 50,0:15:20.84,0:15:23.19,Default,,0,0,0,,Shouldn't that make them\Neasier to train...?
+Dialogue: 50,0:15:23.54,0:15:28.66,Default,,0,0,0,,A supreme dog can't do everything\Nif you don't teach it anything.
+Dialogue: 50,0:15:29.70,0:15:34.97,Default,,0,0,0,,The same is true for Labrador Retrievers,\Nwhich are used as guide dogs,
+Dialogue: 50,0:15:34.97,0:15:37.78,Default,,0,0,0,,and German Shepherds,\Nwhich are used as police dogs.
+Dialogue: 50,0:15:38.60,0:15:42.86,Default,,0,0,0,,They're specialized in training,\Nbut if you don't teach them properly,
+Dialogue: 50,0:15:42.86,0:15:47.22,Default,,0,0,0,,they tend to grow up to be violent\Nbeyond control.
+Dialogue: 50,0:15:47.99,0:15:50.10,Default,,0,0,0,,They're also very intelligent,
+Dialogue: 50,0:15:50.97,0:15:54.07,Default,,0,0,0,,so they cannot reset\Nsoured relationships with humans.
+Dialogue: 50,0:15:54.60,0:15:57.23,Default,,0,0,0,,In many cases, people simply have to leave them.
+Dialogue: 50,0:15:58.76,0:15:59.94,Default,,0,0,0,,{\i1}Leave...
+Dialogue: 50,0:16:01.03,0:16:01.88,Default,,0,0,0,,{\i1}Rico?
+Dialogue: 50,0:16:03.07,0:16:06.65,Default,,0,0,0,,I know someone who runs a ranch.
+Dialogue: 50,0:16:06.65,0:16:09.71,Default,,0,0,0,,There, she can operate the way\N a sheepdog is meant to,
+Dialogue: 50,0:16:09.71,0:16:14.52,Default,,0,0,0,,and she'd certainly be happier\Nthan she is here.
+Dialogue: 50,0:16:15.42,0:16:16.75,Default,,0,0,0,,But it's your choice.
+Dialogue: 50,0:16:18.63,0:16:20.23,Default,,0,0,0,,Our choice, huh?
+Dialogue: 50,0:16:24.80,0:16:27.96,Default,,0,0,0,,No... Please no. I refuse.
+Dialogue: 50,0:16:27.96,0:16:29.56,Default,,0,0,0,,I don't want to lose her...
+Dialogue: 50,0:16:31.48,0:16:32.42,Default,,0,0,0,,She's family.
+Dialogue: 50,0:16:33.20,0:16:35.43,Default,,0,0,0,,She's my little sister...
+Dialogue: 50,0:16:48.88,0:16:51.56,Default,,0,0,0,,I won't make Mom do all the work anymore...
+Dialogue: 50,0:16:51.56,0:16:54.13,Default,,0,0,0,,I'll walk you and train you the best I can.
+Dialogue: 50,0:16:54.13,0:16:57.88,Default,,0,0,0,,So please don't give her away...
+Dialogue: 50,0:16:58.92,0:17:02.27,Default,,0,0,0,,I want... to stay with Rico...
+Dialogue: 50,0:17:05.20,0:17:06.31,Default,,0,0,0,,{\i1}Kanon-chan.
+Dialogue: 50,0:17:06.82,0:17:07.88,Default,,0,0,0,,She's right.
+Dialogue: 50,0:17:10.52,0:17:14.67,Default,,0,0,0,,I'm really sorry for forcing you\Nto take care of her, honey.
+Dialogue: 50,0:17:14.67,0:17:15.77,Default,,0,0,0,,{\i1}Her husband too...
+Dialogue: 50,0:17:16.27,0:17:19.60,Default,,0,0,0,,Sensei, we'd like to stay with Rico.
+Dialogue: 50,0:17:20.04,0:17:23.33,Default,,0,0,0,,We want everyone in the family\Nto be happy.
+Dialogue: 50,0:17:24.04,0:17:26.77,Default,,0,0,0,,Please teach us the best you can.
+Dialogue: 50,0:17:37.19,0:17:41.03,Default,,0,0,0,,{\i1}And so, the entire Miyake family\Nbegan training together.
+Dialogue: 50,0:17:42.08,0:17:45.34,Default,,0,0,0,,{\i1}They took turns walking her,\Ntripling her exercise.
+Dialogue: 50,0:17:45.82,0:17:50.67,Default,,0,0,0,,{\i1}Niwa-san trained them on\Nholding a leash, walking a dog,
+Dialogue: 50,0:17:45.82,0:17:47.92,Default,,0,0,0,,{\an8\i1}Hook the loop on your thumb.
+Dialogue: 50,0:17:50.67,0:17:53.23,Default,,0,0,0,,{\i1}and giving proper instruction.
+Dialogue: 50,0:17:51.00,0:17:53.23,Default,,0,0,0,,{\an8\i1}Relax your shoulders.
+Dialogue: 50,0:17:53.23,0:17:54.05,Default,,0,0,0,,{\an8\i1}Okay!!
+Dialogue: 50,0:17:55.16,0:17:58.52,Default,,0,0,0,,{\i1}Watching the family come together\Nfor the sake of their dog
+Dialogue: 50,0:17:58.52,0:18:01.23,Default,,0,0,0,,{\i1}with resolve and kindness\Nwas heartwarming.
+Dialogue: 50,0:18:03.07,0:18:08.30,Default,,0,0,0,,{\i1}The family built a uniform attitude towards the dog,\Nused the same commands...
+Dialogue: 50,0:18:08.30,0:18:09.74,Default,,0,0,0,,You're doing great, Dad!
+Dialogue: 50,0:18:09.74,0:18:14.10,Default,,0,0,0,,{\i1}And after a month, Ricochet's behavior\Nhad improved massively.
+Dialogue: 50,0:18:16.10,0:18:20.38,Default,,0,0,0,,Though Mrs. Miyake's still acting a bit uneasy...
+Dialogue: 50,0:18:20.38,0:18:23.92,Default,,0,0,0,,She's traumatized,\Nso it's naturally harder for her.
+Dialogue: 50,0:18:24.47,0:18:30.01,Default,,0,0,0,,She still has to conquer her internal fear\Nthat the dog might bite her again.
+Dialogue: 50,0:18:30.43,0:18:33.07,Default,,0,0,0,,Miyake-san, don't back out.
+Dialogue: 50,0:18:33.07,0:18:34.71,Default,,0,0,0,,O-Okay!
+Dialogue: 50,0:18:34.71,0:18:36.03,Default,,0,0,0,,Stand up straight.
+Dialogue: 50,0:18:36.03,0:18:36.47,Default,,0,0,0,,Okay!
+Dialogue: 50,0:18:36.81,0:18:37.65,Default,,0,0,0,,Straighter!
+Dialogue: 50,0:18:37.65,0:18:38.85,Default,,0,0,0,,Okay!!
+Dialogue: 50,0:18:38.85,0:18:39.93,Default,,0,0,0,,{\i1}You've got this!!
+Dialogue: 50,0:18:40.20,0:18:42.73,Default,,0,0,0,,More dignity, even if you have to fake it!
+Dialogue: 50,0:18:46.41,0:18:48.68,Default,,0,0,0,,You used to play the violin, right?
+Dialogue: 50,0:18:48.68,0:18:49.58,Default,,0,0,0,,I'm sorry?
+Dialogue: 50,0:18:49.58,0:18:51.44,Default,,0,0,0,,From the photos and sheet music in your house.
+Dialogue: 50,0:18:51.98,0:18:55.66,Default,,0,0,0,,Ricochet's the name of\Na violin-playing technique, right?
+Dialogue: 50,0:18:55.66,0:18:58.28,Default,,0,0,0,,Oh my, you know about that, Niwa-sensei?
+Dialogue: 50,0:18:58.82,0:19:04.63,Default,,0,0,0,,I used to do a very good staccato\Nbow bounce when I was still playing!
+Dialogue: 50,0:19:04.63,0:19:06.61,Default,,0,0,0,,That's why I named her that!
+Dialogue: 50,0:19:06.61,0:19:08.25,Default,,0,0,0,,Isn't it just adorable?
+Dialogue: 50,0:19:08.25,0:19:13.70,Default,,0,0,0,,Then I want you to treat the dog and leash\Nlike a violin and bow.
+Dialogue: 50,0:19:14.65,0:19:19.84,Default,,0,0,0,,You are a violinist who's about to step out\Nonto a packed stage.
+Dialogue: 50,0:19:20.50,0:19:26.04,Default,,0,0,0,,You stride onto the stage, chest puffed out,\Nyour precious violin in hand.
+Dialogue: 50,0:19:26.04,0:19:28.32,Default,,0,0,0,,Now walk just like that.
+Dialogue: 50,0:19:30.32,0:19:32.59,Default,,0,0,0,,{\i1}I am a violinist.
+Dialogue: 50,0:19:32.59,0:19:34.15,Default,,0,0,0,,{\i1}Ricochet is my violin.
+Dialogue: 50,0:19:34.92,0:19:38.47,Default,,0,0,0,,{\i1}The audience is waiting\Nto hear my Ricochet.
+Dialogue: 50,0:19:40.30,0:19:42.95,Default,,0,0,0,,{\i1}It's time to take the stage!
+Dialogue: 50,0:19:44.45,0:19:45.62,Default,,0,0,0,,Mom!
+Dialogue: 50,0:19:45.62,0:19:46.96,Default,,0,0,0,,She did it!
+Dialogue: 50,0:19:56.80,0:19:58.76,Default,,0,0,0,,Niwa-saaan!
+Dialogue: 50,0:19:59.16,0:20:02.89,Default,,0,0,0,,How did you do that?\NYou made her practically transform!
+Dialogue: 50,0:20:02.89,0:20:04.93,Default,,0,0,0,,What magic spell was that?
+Dialogue: 50,0:20:04.93,0:20:06.69,Default,,0,0,0,,Where there's a will,\Nthere's a way.
+Dialogue: 50,0:20:06.69,0:20:07.23,Default,,0,0,0,,Now get off me.
+Dialogue: 50,0:20:07.86,0:20:12.06,Default,,0,0,0,,I'm heading back.\NYou go confirm their next appointment.
+Dialogue: 50,0:20:13.41,0:20:15.24,Default,,0,0,0,,Get back here!
+Dialogue: 50,0:20:16.13,0:20:18.81,Default,,0,0,0,,You're not leaving\Nuntil you praise Mrs. Miyake!
+Dialogue: 50,0:20:19.34,0:20:21.02,Default,,0,0,0,,You're crazy.
+Dialogue: 50,0:20:21.02,0:20:24.38,Default,,0,0,0,,Any owner would put in effort\Nfor their dog.
+Dialogue: 50,0:20:25.50,0:20:28.01,Default,,0,0,0,,People and dogs are one in the same!
+Dialogue: 50,0:20:28.01,0:20:30.21,Default,,0,0,0,,Neither can go on\Nif you don't encourage them!
+Dialogue: 50,0:20:30.65,0:20:34.80,Default,,0,0,0,,Niwa-san, owners need praise\Nto make their dogs happy too!
+Dialogue: 50,0:20:37.39,0:20:39.26,Default,,0,0,0,,{\i1}To make their dogs happy...
+Dialogue: 50,0:20:44.00,0:20:44.93,Default,,0,0,0,,Sensei?
+Dialogue: 50,0:20:45.20,0:20:47.74,Default,,0,0,0,,Am I slouching again...?
+Dialogue: 50,0:20:47.74,0:20:50.89,Default,,0,0,0,,Oh, uhh, no.
+Dialogue: 50,0:20:53.10,0:20:53.99,Default,,0,0,0,,You...
+Dialogue: 50,0:20:55.45,0:20:56.19,Default,,0,0,0,,Yes?
+Dialogue: 50,0:21:04.20,0:21:09.87,Default,,0,0,0,,Y-You did... very well... today.
+Dialogue: 50,0:21:10.71,0:21:13.08,Default,,0,0,0,,Th-That's all. Take care.
+Dialogue: 50,0:21:17.29,0:21:19.76,Default,,0,0,0,,{\i1}If people change, dogs will too.
+Dialogue: 50,0:21:20.60,0:21:23.47,Default,,0,0,0,,{\i1}And when dogs change, people do too.
+Dialogue: 50,0:21:26.04,0:21:29.92,Default,,0,0,0,,{\i1}Being a dog trainer really is amazing.
+Dialogue: 50,0:21:33.55,0:21:35.11,Default,,0,0,0,,{\i1}Today, we're at a disc dog tournament.
+Dialogue: 50,0:21:35.74,0:21:38.07,Default,,0,0,0,,{\i1}After their adventures in training,
+Dialogue: 50,0:21:36.84,0:21:38.54,Default,,0,0,0,,{\an8}Miyu-kun!
+Dialogue: 50,0:21:38.63,0:21:41.02,Default,,0,0,0,,{\i1}Miyake-san and Ricochet\Nbegan playing disc dog.
+Dialogue: 50,0:21:38.54,0:21:41.05,Default,,0,0,0,,{\an8}You're late! Gimme my beer!
+Dialogue: 50,0:21:41.02,0:21:44.06,Default,,0,0,0,,Sorry, I had trouble finding a store.
+Dialogue: 50,0:21:44.63,0:21:46.45,Default,,0,0,0,,Where's Ricochet and Miyake-san?
+Dialogue: 50,0:21:46.45,0:21:48.11,Default,,0,0,0,,Over there in the beginner's area.
+Dialogue: 50,0:21:48.11,0:21:49.00,Default,,0,0,0,,The third throw!
+Dialogue: 50,0:21:49.77,0:21:52.79,Default,,0,0,0,,It skewed off-course again!
+Dialogue: 50,0:21:52.79,0:21:54.92,Default,,0,0,0,,{\i1}As they're just starting out,
+Dialogue: 50,0:21:54.92,0:21:57.05,Default,,0,0,0,,{\i1}the two of them aren't doing too hot.
+Dialogue: 50,0:21:54.92,0:21:57.05,Default,,0,0,0,,{\an8}You've got this, Rico!
+Dialogue: 50,0:21:57.05,0:21:57.88,Default,,0,0,0,,{\i1}Go for it!
+Dialogue: 50,0:21:58.36,0:22:00.79,Default,,0,0,0,,Ricochet falls over yet again.
+Dialogue: 50,0:22:00.79,0:22:02.19,Default,,0,0,0,,Sorry, Rico!
+Dialogue: 50,0:22:03.18,0:22:04.85,Default,,0,0,0,,Rico, come back here!
+Dialogue: 50,0:22:05.82,0:22:09.28,Default,,0,0,0,,Uh-oh, and she comes back,\Nbut without the disc!
+Dialogue: 50,0:22:09.28,0:22:11.52,Default,,0,0,0,,You're supposed to bring the disc back, silly!
+Dialogue: 50,0:22:13.19,0:22:14.23,Default,,0,0,0,,{\i1}And that's just fine.
+Dialogue: 50,0:22:14.76,0:22:16.94,Default,,0,0,0,,{\i1}Even if they stink,\Nthey're having fun.
+Dialogue: 50,0:22:17.39,0:22:19.28,Default,,0,0,0,,{\i1}And the whole family is smiling.
+Dialogue: 50,0:22:20.52,0:22:22.46,Default,,0,0,0,,Let's head back, Ourson, Singe.
+Dialogue: 50,0:22:22.46,0:22:24.75,Default,,0,0,0,,What?! Come on, let's stay longer!
+Dialogue: 50,0:22:24.75,0:22:26.20,Default,,0,0,0,,I'm taking the car.
+Dialogue: 50,0:22:26.20,0:22:32.40,Default,,0,0,0,,Ey! You want us to walk home just 'cuz\Nyou hate beer and crowds?
+Dialogue: 50,0:22:36.49,0:22:38.00,Default,,0,0,0,,Hey, long time no see.
+Dialogue: 50,0:22:41.29,0:22:42.69,Default,,0,0,0,,Looks like you're doin' well.
+Dialogue: 50,0:22:44.18,0:22:45.00,Default,,0,0,0,,Right, Shin?
+Dialogue: 50,0:22:47.61,0:22:50.99,Default,,0,0,0,,Didn't we take {\i1}your{\i0} shop's car here, Izumi-san?
+Dialogue: 50,0:22:50.99,0:22:54.98,Default,,0,0,0,,Damn right! He has some nerve acting like that\Nwhen he can't even afford one for his own store.
+Dialogue: 50,0:22:55.40,0:22:57.44,Default,,0,0,0,,Now, you listen here, Shinichi—
+Dialogue: 50,0:23:01.32,0:23:02.32,Default,,0,0,0,,Oh, hey, Ritsu!
+Dialogue: 50,0:23:02.82,0:23:04.33,Default,,0,0,0,,Let's get out of here, Shinichiro.
+Dialogue: 50,0:23:04.33,0:23:05.41,Default,,0,0,0,,You too, Miyu-kun!
+Dialogue: 50,0:23:05.41,0:23:07.37,Default,,0,0,0,,What's going on?\NDo you know that guy?
+Dialogue: 50,0:23:07.37,0:23:08.88,Default,,0,0,0,,No, he's got us mixed up.
+Dialogue: 50,0:23:08.88,0:23:10.12,Default,,0,0,0,,W-Wait, slow down!
+Dialogue: 50,0:23:11.16,0:23:12.20,Default,,0,0,0,,{\i1}A mix-up?
+Dialogue: 50,0:23:16.01,0:23:17.63,Default,,0,0,0,,{\i1}He's strange.
+Comment: 0,0:01:55.01,0:02:00.02,Default,,0,0,0,,{=0}Spinning Dog
+Dialogue: 1,0:01:55.01,0:02:00.02,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\pos(960,636)\c&HC6BE58&\blur0.7}Spinning Dog
+Dialogue: 0,0:01:55.01,0:02:00.02,Signs,,0,0,0,,{=1}{\fnFOT-Kurokane Std EB\fs100\1a&HFE&\3a&HFE&\bord3\shad6\pos(960,636)\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&}Spinning Dog
+Comment: 0,0:10:37.83,0:10:39.79,Default,,0,0,0,,{=2}Miyake Kanon
+Dialogue: 1,0:10:37.83,0:10:39.16,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&}m 634 610 l 1246 314 1442 432 820 728
+Dialogue: 1,0:10:39.16,0:10:39.29,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&\iclip(m 1176.07 571.07 b 1166.94 505.23 1145.73 388.36 1135.62 327.45 l 1381.29 258.41 1504.62 548.38)}m 634 610 l 1246 314 1442 432 820 728
+Dialogue: 1,0:10:39.29,0:10:39.41,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&\iclip(m 1035.81 640.11 b 1028.96 583.65 1019.35 478.56 1019.18 410.3 l 1381.29 258.41 1504.62 548.38)}m 634 610 l 1246 314 1442 432 820 728
+Dialogue: 1,0:10:39.41,0:10:39.54,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&\iclip(m 861.17 715.07 b 854.32 644.8 854.58 506.18 862.3 449.75 l 1381.29 258.41 1504.62 548.38)}m 634 610 l 1246 314 1442 432 820 728
+Dialogue: 0,0:10:39.41,0:10:39.54,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HCBCBC9&}m 847.91 537.23 l 882.79 518.59 b 883.63 550.66 884.02 612.23 886.15 646.88 l 847.51 659.76
+Dialogue: 1,0:10:39.54,0:10:39.66,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&\iclip(m 995.46 679.55 b 997.49 600.4 997.75 467.33 996.59 420.89 l 1381.29 258.41 1504.62 548.38)}m 634 610 l 1246 314 1442 432 820 728
+Dialogue: 0,0:10:39.54,0:10:39.66,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HCBCBC9&}m 976.14 487.8 l 1021.12 468.88 b 1023.36 502.33 1022.04 569.24 1023.76 602.69 l 983.71 612.7
+Dialogue: 1,0:10:39.66,0:10:39.79,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HFEFEFE&}m 758.5 102.64 l 1100.21 -53.62 1209 47.49 917.86 232.85
+Dialogue: 4,0:10:37.83,0:10:39.16,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)}Miyake Kanon
+Dialogue: 3,0:10:37.83,0:10:39.16,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs100\frz24.14\pos(990,540)\1a&HA5&}Miyake Kanon
+Dialogue: 4,0:10:39.16,0:10:39.29,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\iclip(m 1176.07 571.07 b 1168.61 502.56 1145.73 388.36 1135.62 327.45 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 3,0:10:39.16,0:10:39.29,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs100\frz24.14\pos(990,540)\1a&HA5&\iclip(m 1176.07 571.07 b 1166.94 505.23 1145.73 388.36 1135.62 327.45 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 4,0:10:39.29,0:10:39.41,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\iclip(m 1035.81 640.11 b 1029.44 582.69 1020.07 478.56 1019.18 410.3 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 3,0:10:39.29,0:10:39.41,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs100\frz24.14\pos(990,540)\1a&HA5&\iclip(m 1035.81 640.11 b 1028.96 583.65 1019.35 478.56 1019.18 410.3 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 4,0:10:39.41,0:10:39.54,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\iclip(m 861.17 715.07 b 854.32 644.8 854.58 506.18 862.3 449.75 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 3,0:10:39.41,0:10:39.54,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs100\frz24.14\pos(990,540)\1a&HA5&\iclip(m 861.17 715.07 b 854.32 644.8 854.58 506.18 862.3 449.75 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 2,0:10:39.41,0:10:39.54,Signs,,0,0,0,,{=3}{\c&H5F5E5C&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\clip(m 856.51 533.09 l 882.79 518.59 b 883.63 550.66 884.98 612.23 886.15 646.88 l 857.7 656.26 b 854.92 624.03 855.13 563.72 856.51 533.09)}Miyake Kanon
+Dialogue: 4,0:10:39.54,0:10:39.66,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\iclip(m 995.46 679.55 b 997.49 600.4 997.75 467.33 996.59 420.89 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 3,0:10:39.54,0:10:39.66,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs100\frz24.14\pos(990,540)\1a&HA5&\iclip(m 995.46 679.55 b 997.49 600.4 997.75 467.33 996.59 420.89 l 1381.29 258.41 1504.62 548.38)}Miyake Kanon
+Dialogue: 2,0:10:39.54,0:10:39.66,Signs,,0,0,0,,{=3}{\c&H5F5E5C&\fnLucida Bright\b1\fax0.9\blur0.7\fs100\frz24.14\pos(990,540)\clip(m 997.47 478.72 l 1021.12 468.88 b 1023.36 502.33 1022.04 569.24 1023.76 602.69 l 996.87 607.25 b 996.57 574.67 996.41 510.86 997.47 478.72)}Miyake Kanon
+Dialogue: 4,0:10:39.66,0:10:39.79,Signs,,0,0,0,,{=3}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur0.7\fs95\frz22.69\pos(1094,38)\iclip(m 1221.4 41.34 l 1206.31 -12.47 1283.06 -11.81 1292.9 40.02)}Miyake Kanon
+Dialogue: 3,0:10:39.66,0:10:39.79,Signs,,0,0,0,,{=3=4}{\c&H5E5D56&\fnLucida Bright\b1\fax0.9\blur5\fs95\1a&HA5&\frz22.69\pos(1094,38)\iclip(m 1221.4 41.34 l 1206.31 -12.47 1283.06 -11.81 1292.9 40.02)}Miyake Kanon
+Comment: 0,0:24:58.27,0:25:02.98,Default,,0,0,0,,{=5}Farewell Ceremony
+Dialogue: 2,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\c&HC6BE58&\blur0.6\fad(500,0)\pos(1258,642)}Next Time:
+Dialogue: 1,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\c&HFEFFFD&\bord5\blur0.6\3c&HFEFFFD&\fad(500,0)\pos(1258,642)}Next Time:
+Dialogue: 0,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs85\1a&HFE&\3a&HFE&\bord5\shad6\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&\fad(500,0)\pos(1258,642)}Next Time:
+Dialogue: 2,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\c&HC6BE58&\blur0.6\fad(500,0)\pos(1508,720)}Farewell Ceremony
+Dialogue: 1,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{\fnFOT-Kurokane Std EB\fs100\c&HFEFFFD&\bord5\blur0.6\3c&HFEFFFD&\fad(500,0)\pos(1508,720)}Farewell Ceremony
+Dialogue: 0,0:24:58.27,0:25:02.98,Signs,,0,0,0,,{=6}{\fnFOT-Kurokane Std EB\fs100\1a&HFE&\3a&HFE&\bord5\shad6\c&HC6BE58&\blur5\4c&HFFFFFF&\4a&H49&\fad(500,0)\pos(1508,720)}Farewell Ceremony
+Comment: 0,0:00:25.00,0:00:25.04,OP,,0,0,0,sync,sync
+Dialogue: 0,0:00:26.05,0:00:32.43,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}We ran after our adjacent shadows
+Dialogue: 1,0:00:26.05,0:00:32.43,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}We ran after our adjacent shadows
+Dialogue: 0,0:00:32.89,0:00:40.98,OP,,0,0,0,,{\blur0.6\fade(0,920)\c&HFFFFFF&}I'll always be with you
+Dialogue: 1,0:00:32.89,0:00:40.98,OP,,0,0,0,,{\bord0\blur0.6\fade(0,920)\4a&HFF&}I'll always be with you
+Dialogue: 0,0:00:47.78,0:00:54.12,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Just how much light can you bring me
+Dialogue: 1,0:00:47.78,0:00:54.12,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Just how much light can you bring me
+Dialogue: 0,0:00:54.49,0:01:00.50,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Like that which shines through the trees into my dark room
+Dialogue: 1,0:00:54.49,0:01:00.50,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Like that which shines through the trees into my dark room
+Dialogue: 0,0:01:01.16,0:01:08.00,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}My soul was covered in sand, and you were a raincloud in the desert
+Dialogue: 1,0:01:01.16,0:01:08.00,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}My soul was covered in sand, and you were a raincloud in the desert
+Dialogue: 0,0:01:08.00,0:01:13.88,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}That was when we first met
+Dialogue: 1,0:01:08.00,0:01:13.88,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}That was when we first met
+Dialogue: 0,0:01:14.55,0:01:20.93,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I forgot all about your mischievous smile
+Dialogue: 1,0:01:14.55,0:01:20.93,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I forgot all about your mischievous smile
+Dialogue: 0,0:01:21.18,0:01:27.69,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I just love you so much with every passing moment
+Dialogue: 1,0:01:21.18,0:01:27.69,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I just love you so much with every passing moment
+Dialogue: 0,0:01:27.69,0:01:34.28,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Every path takes us back to our first encounter
+Dialogue: 1,0:01:27.69,0:01:34.28,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Every path takes us back to our first encounter
+Dialogue: 0,0:01:34.28,0:01:41.04,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I've always loved you, as childish as it sounds
+Dialogue: 1,0:01:34.28,0:01:41.04,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I've always loved you, as childish as it sounds
+Dialogue: 0,0:01:41.04,0:01:47.29,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}I'll always be with you
+Dialogue: 1,0:01:41.04,0:01:47.29,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}I'll always be with you
+Dialogue: 0,0:01:47.79,0:01:54.43,OP,,0,0,0,,{\blur0.6\c&HFFFFFF&}Let's walk to the ends of the earth
+Dialogue: 1,0:01:47.79,0:01:54.43,OP,,0,0,0,,{\bord0\blur0.6\4a&HFF&}Let's walk to the ends of the earth
+Comment: 0,0:23:27.97,0:23:28.01,ED,,0,0,0,sync,sync
+Dialogue: 1,0:23:37.77,0:23:40.07,ED,,0,0,0,,{\blur0.6}Giving a name to chance
+Dialogue: 0,0:23:37.77,0:23:40.07,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Giving a name to chance
+Dialogue: 1,0:23:40.19,0:23:42.65,ED,,0,0,0,,{\blur0.6}Or giving love to fate
+Dialogue: 0,0:23:40.19,0:23:42.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or giving love to fate
+Dialogue: 1,0:23:42.90,0:23:44.65,ED,,0,0,0,,{\blur0.6}If I'm being honest
+Dialogue: 0,0:23:42.90,0:23:44.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}If I'm being honest
+Dialogue: 1,0:23:45.24,0:23:47.24,ED,,0,0,0,,{\blur0.6}It's all the same either way
+Dialogue: 0,0:23:45.24,0:23:47.24,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It's all the same either way
+Dialogue: 1,0:23:47.37,0:23:49.58,ED,,0,0,0,,{\blur0.6}The things that you love
+Dialogue: 0,0:23:47.37,0:23:49.58,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}The things that you love
+Dialogue: 1,0:23:49.70,0:23:52.04,ED,,0,0,0,,{\blur0.6}Are what make me happy
+Dialogue: 0,0:23:49.70,0:23:52.04,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Are what make me happy
+Dialogue: 1,0:23:52.37,0:23:54.25,ED,,0,0,0,,{\blur0.6}It's hilarious
+Dialogue: 0,0:23:52.37,0:23:54.25,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It's hilarious
+Dialogue: 1,0:23:54.62,0:23:56.87,ED,,0,0,0,,{\blur0.6}Just how simple I am
+Dialogue: 0,0:23:54.62,0:23:56.87,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Just how simple I am
+Dialogue: 1,0:23:58.63,0:24:00.75,ED,,0,0,0,,{\blur0.6}Your heartbeat, stuck in my head
+Dialogue: 0,0:23:58.63,0:24:00.75,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Your heartbeat, stuck in my head
+Dialogue: 1,0:24:00.88,0:24:03.09,ED,,0,0,0,,{\blur0.6}It brings back memories
+Dialogue: 0,0:24:00.88,0:24:03.09,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It brings back memories
+Dialogue: 1,0:24:03.34,0:24:07.84,ED,,0,0,0,,{\blur0.6}To when we rushed home, laughing along the way
+Dialogue: 0,0:24:03.34,0:24:07.84,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}To when we rushed home, laughing along the way
+Dialogue: 1,0:24:08.14,0:24:10.26,ED,,0,0,0,,{\blur0.6}I hate being alone
+Dialogue: 0,0:24:08.14,0:24:10.26,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I hate being alone
+Dialogue: 1,0:24:10.51,0:24:12.64,ED,,0,0,0,,{\blur0.6}It makes the night feel so slow
+Dialogue: 0,0:24:10.51,0:24:12.64,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}It makes the night feel so slow
+Dialogue: 1,0:24:12.89,0:24:18.19,ED,,0,0,0,,{\blur0.6}So come on, fall for me already
+Dialogue: 0,0:24:12.89,0:24:18.19,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}So come on, fall for me already
+Dialogue: 1,0:24:18.52,0:24:20.65,ED,,0,0,0,,{\blur0.6}Sugarspot
+Dialogue: 0,0:24:18.52,0:24:20.65,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Sugarspot
+Dialogue: 1,0:24:20.77,0:24:24.44,ED,,0,0,0,,{\blur0.6}You make my days even sweeter
+Dialogue: 0,0:24:20.77,0:24:24.44,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}You make my days even sweeter
+Dialogue: 1,0:24:24.57,0:24:29.70,ED,,0,0,0,,{\blur0.6}With brown freckles just like your spots
+Dialogue: 0,0:24:24.57,0:24:29.70,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}With brown freckles just like your spots
+Dialogue: 1,0:24:29.82,0:24:34.08,ED,,0,0,0,,{\blur0.6}I can get through a scratch or a rough patch
+Dialogue: 0,0:24:29.82,0:24:34.08,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I can get through a scratch or a rough patch
+Dialogue: 1,0:24:34.75,0:24:37.00,ED,,0,0,0,,{\blur0.6}Just like that, the day's over
+Dialogue: 0,0:24:34.75,0:24:37.00,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Just like that, the day's over
+Dialogue: 1,0:24:37.12,0:24:39.33,ED,,0,0,0,,{\blur0.6}And in the deepest depths of my heart
+Dialogue: 0,0:24:37.12,0:24:39.33,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}And in the deepest depths of my heart
+Dialogue: 1,0:24:39.46,0:24:41.71,ED,,0,0,0,,{\blur0.6}Somewhere I feel lonely
+Dialogue: 0,0:24:39.46,0:24:41.71,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Somewhere I feel lonely
+Dialogue: 1,0:24:41.84,0:24:44.01,ED,,0,0,0,,{\blur0.6}Or maybe I miss you
+Dialogue: 0,0:24:41.84,0:24:44.01,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or maybe I miss you
+Dialogue: 1,0:24:44.13,0:24:45.76,ED,,0,0,0,,{\blur0.6}Or a mix of both?
+Dialogue: 0,0:24:44.13,0:24:45.76,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}Or a mix of both?
+Dialogue: 1,0:24:45.88,0:24:46.97,ED,,0,0,0,,{\blur0.6}I don't know
+Dialogue: 0,0:24:45.88,0:24:46.97,ED,,0,0,0,,{\1a&HFE&\3a&HFE&\blur0.6\bord4.5\shad2}I don't know
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_perspective_ambient_plane,e697.20;606.91#7C1233.63;364.16#7C1377.30;433.43#7C853.65;676.03
+Data: 4,_aegi_folddata,e1;1;2
+Data: 5,_aegi_folddata,e0;1;3
+Data: 6,_aegi_folddata,e1;1;3
+

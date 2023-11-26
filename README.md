@@ -5,12 +5,12 @@ These may include updates from original releases for quality purposes. Any updat
 Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
-- Dog Signal
 
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)
 - Punirunes
 - Noble Farmer (Hyakushou Kizoku)
+- Dog Signal
 - Too Cute Crisis (Kawaisugi Crisis)
 - Dino Girl Gauko (pilot shorts) (Kyouryuu Shoujo Gauko)
 - Ninjala

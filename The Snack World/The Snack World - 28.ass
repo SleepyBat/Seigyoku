@@ -1,0 +1,572 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 28
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.40,0:00:05.08,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.08,0:00:08.20,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.20,0:00:09.90,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:09.90,0:00:11.78,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.20,0:00:16.62,0$Default,,0,0,0,,My village was burnt down by\Nthe evil land-destroying merchant Vinegar Khan,
+Dialogue: 0,0:00:16.62,0:00:18.83,0$Default,,0,0,0,,so I've embarked on a journey\Nto get my revenge 1000-fold!
+Dialogue: 0,0:00:19.48,0:00:22.78,0$Default,,0,0,0,,At last, my journey has brought me\Nclose to Vinegar.
+Dialogue: 0,0:00:23.25,0:00:28.29,0$Default,,0,0,0,,In order to defeat him, I will overcome\Nany impossible mission that comes my way!
+Dialogue: 0,0:00:54.15,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:01.33,0:01:02.04,0$Default,,0,0,0,,{\an8}It's no use...
+Dialogue: 0,0:01:03.00,0:01:04.00,0$Default,,0,0,0,,{\an8}Butako...
+Dialogue: 0,0:01:08.72,0:01:09.72,0$Default,,0,0,0,,Butako!
+Dialogue: 0,0:01:13.05,0:01:14.47,0$Default,,0,0,0,,Awesome!
+Dialogue: 0,0:01:14.47,0:01:15.97,0$Default,,0,0,0,,Good job, girl!
+Dialogue: 0,0:01:19.02,0:01:20.06,0$Default,,0,0,0,,We've been spotted!
+Dialogue: 0,0:01:20.85,0:01:22.02,0$Default,,0,0,0,,Run, Chup!\NLet's get out of here!
+Dialogue: 0,0:01:22.40,0:01:26.02,0$Default,,0,0,0,,You've got some nerve\Nto come swipe the Dragon Heart.
+Dialogue: 0,0:01:26.48,0:01:30.49,0$Default,,0,0,0,,Have them arrested\Nand fed to the dragons.
+Dialogue: 0,0:01:31.65,0:01:33.03,0$Default,,0,0,0,,There's no time to relax.
+Dialogue: 0,0:01:33.03,0:01:35.07,0$Default,,0,0,0,,Pack your bags so we can get going.
+Dialogue: 0,0:01:35.07,0:01:36.58,0$Default,,0,0,0,,Wait, already?
+Dialogue: 0,0:01:36.58,0:01:39.16,0$Default,,0,0,0,,Butako still needs time to heal!
+Dialogue: 0,0:01:39.58,0:01:42.08,0$Default,,0,0,0,,They've placed a bounty on you, Chup.
+Dialogue: 0,0:01:42.08,0:01:44.04,0$Default,,0,0,0,,That little punk!
+Dialogue: 0,0:01:44.04,0:01:45.75,0$Default,,0,0,0,,Couldn't have even used a better pic of me?
+Dialogue: 0,0:01:45.99,0:01:47.92,0$Default,,0,0,0,,Not only are Vinegar's lackeys after you,
+Dialogue: 0,0:01:47.92,0:01:50.30,0$Default,,0,0,0,,but so is the whole town.
+Dialogue: 0,0:01:50.30,0:01:51.26,0$Default,,0,0,0,,We're not safe here.
+Dialogue: 0,0:01:52.55,0:01:54.59,0$Default,,0,0,0,,So where {\i1}do{\i0} we go?
+Dialogue: 0,0:01:54.59,0:01:56.10,0$Default,,0,0,0,,Dragon Shaolin Temple.
+Dialogue: 0,0:01:56.10,0:01:57.60,0$Default,,0,0,0,,Dragon Shaolin Temple?
+Dialogue: 0,0:01:58.10,0:02:00.94,0$Default,,0,0,0,,Vinegar won't be able to mess with us there.
+Dialogue: 0,0:02:00.94,0:02:03.90,0$Default,,0,0,0,,Plus, if we bring the Dragon Heart,
+Dialogue: 0,0:02:03.90,0:02:07.49,0$Default,,0,0,0,,then with the power of Holy Dragon Darefalcon\Nenshrined in the temple,
+Dialogue: 0,0:02:07.49,0:02:10.01,0$Default,,0,0,0,,we'll be able to awaken\Nas Dragon Knights.
+Dialogue: 0,0:02:24.85,0:02:26.33,0$Default,,0,0,0,,Dang, wicked cool!
+Dialogue: 0,0:02:26.33,0:02:28.01,0$Default,,0,0,0,,It's the real Dragon Shaolin Temple!
+Dialogue: 0,0:02:28.01,0:02:30.17,0$Default,,0,0,0,,You think Lee and Jackie\Nare training here too?
+Dialogue: 0,0:02:30.93,0:02:32.17,0$Default,,0,0,0,,Of course not!
+Dialogue: 0,0:02:32.17,0:02:34.13,0$Default,,0,0,0,,Eck, it looks so gross and musty.
+Dialogue: 0,0:02:34.13,0:02:36.14,0$Default,,0,0,0,,Are we supposed to train here?
+Dialogue: 0,0:02:36.14,0:02:37.56,0$Default,,0,0,0,,I'll pass.
+Dialogue: 0,0:02:37.56,0:02:39.94,0$Default,,0,0,0,,You weren't on the team to begin with.
+Dialogue: 0,0:02:39.94,0:02:43.10,0$Default,,0,0,0,,Oh, be quiet!\NBut still, not happening.
+Dialogue: 0,0:02:43.10,0:02:47.56,0$Default,,0,0,0,,But first, we'll have to see\Nif we'll be accepted as taoist priests here.
+Dialogue: 0,0:02:47.86,0:02:49.77,0$Default,,0,0,0,,How do we become taoist?
+Dialogue: 0,0:02:49.77,0:02:54.15,0$Default,,0,0,0,,We can only do so at the approval\Nof Dragon Monk, the head of this temple.
+Dialogue: 0,0:02:54.36,0:02:56.58,0$Default,,0,0,0,,You've been here before, right?
+Dialogue: 0,0:02:56.58,0:02:59.49,0$Default,,0,0,0,,Maybe you can get us all VIP tickets in!
+Dialogue: 0,0:03:00.22,0:03:02.94,0$Default,,0,0,0,,I fled from this temple\Npartway through my training.
+Dialogue: 0,0:03:02.94,0:03:05.46,0$Default,,0,0,0,,I can't guarantee he'll hear me out.
+Dialogue: 0,0:03:05.46,0:03:07.50,0$Default,,0,0,0,,– Laozi!\N– Lord Laozi!
+Dialogue: 0,0:03:14.45,0:03:16.55,0$Default,,0,0,0,,Lord Laozi,\Nit's been quite some time.
+Dialogue: 0,0:03:16.55,0:03:19.77,0$Default,,0,0,0,,Is that you, Vinsant?\NHaven't seen you for a while.
+Dialogue: 0,0:03:19.77,0:03:22.82,0$Default,,0,0,0,,Not since you fled from the temple\Npartway through your training.
+Dialogue: 0,0:03:22.82,0:03:25.14,0$Default,,0,0,0,,How bold of you to waltz back in\Nlike it's nothing!
+Dialogue: 0,0:03:25.48,0:03:26.65,0$Default,,0,0,0,,Lord Laozi.
+Dialogue: 0,0:03:26.65,0:03:29.81,0$Default,,0,0,0,,The enemy of my homeland,\NVinegar Khan,
+Dialogue: 0,0:03:29.81,0:03:33.23,0$Default,,0,0,0,,dug up the bones of Scardon\Nwith intent to resurrect him.
+Dialogue: 0,0:03:33.23,0:03:35.57,0$Default,,0,0,0,,I couldn't hold out\Nto complete my training.
+Dialogue: 0,0:03:35.57,0:03:37.08,0$Default,,0,0,0,,Didn't I tell you?
+Dialogue: 0,0:03:37.08,0:03:40.46,0$Default,,0,0,0,,You do not stand a chance\Nagainst Vinegar as you are.
+Dialogue: 0,0:03:40.46,0:03:45.00,0$Default,,0,0,0,,Much less when you've yet to earn\Nthe title of Dragon Knight.
+Dialogue: 0,0:03:45.20,0:03:47.63,0$Default,,0,0,0,,That is why I've come back.
+Dialogue: 0,0:03:47.63,0:03:50.46,0$Default,,0,0,0,,I'm prepared to endure\Nany harsh training you give.
+Dialogue: 0,0:03:50.46,0:03:53.36,0$Default,,0,0,0,,Some walking doormat you are. Scram.
+Dialogue: 0,0:03:54.03,0:03:55.76,0$Default,,0,0,0,,I've obtained the Dragon Heart!
+Dialogue: 0,0:03:57.13,0:03:58.72,0$Default,,0,0,0,,Have you now?
+Dialogue: 0,0:03:58.72,0:04:02.98,0$Default,,0,0,0,,With the Dragon Heart, I should be able\Nto talk with the Holy Dragon Darefalcon.
+Dialogue: 0,0:04:02.98,0:04:05.98,0$Default,,0,0,0,,Please allow us this opportunity!
+Dialogue: 0,0:04:10.88,0:04:12.36,0$Default,,0,0,0,,Very well.
+Dialogue: 0,0:04:12.36,0:04:13.86,0$Default,,0,0,0,,Come inside.
+Dialogue: 0,0:04:24.12,0:04:25.17,0$Default,,0,0,0,,Whoa!
+Dialogue: 0,0:04:25.17,0:04:26.92,0$Default,,0,0,0,,This really sets the mood!
+Dialogue: 0,0:04:26.92,0:04:28.16,0$Default,,0,0,0,,Here's your tea.
+Dialogue: 0,0:04:31.54,0:04:33.34,0$Default,,0,0,0,,Pinocchio! Hey, buddy!
+Dialogue: 0,0:04:33.34,0:04:34.88,0$Default,,0,0,0,,What are you doing here?
+Dialogue: 0,0:04:35.44,0:04:36.88,0$Default,,0,0,0,,Who would you be?
+Dialogue: 0,0:04:36.88,0:04:40.47,0$Default,,0,0,0,,Aw, did you forget, Pinocchio?\NIt's me!
+Dialogue: 0,0:04:41.62,0:04:42.72,0$Default,,0,0,0,,Unrecognized.
+Dialogue: 0,0:04:42.72,0:04:43.73,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:04:43.73,0:04:44.94,0$Default,,0,0,0,,Well, he {\i1}is{\i0} a robot.
+Dialogue: 0,0:04:44.94,0:04:49.03,0$Default,,0,0,0,,He may look the same as Carbonara's,\Nbut I doubt they're the same one.
+Dialogue: 0,0:04:49.03,0:04:50.23,0$Default,,0,0,0,,Oh, really?
+Dialogue: 0,0:04:50.23,0:04:52.74,0$Default,,0,0,0,,He's an assistant robot\NI bought a while back.
+Dialogue: 0,0:04:52.74,0:04:54.61,0$Default,,0,0,0,,He's quite helpful.
+Dialogue: 0,0:04:55.09,0:04:56.40,0$Default,,0,0,0,,Oh, yeah!
+Dialogue: 0,0:04:56.40,0:04:57.66,0$Default,,0,0,0,,Feast your eyes on my...
+Dialogue: 0,0:04:57.66,0:04:58.82,0$Default,,0,0,0,,Melora Card!
+Dialogue: 0,0:04:59.03,0:05:00.99,0$Default,,0,0,0,,It's her new Mermaid Style card!
+Dialogue: 0,0:05:02.14,0:05:03.49,0$Default,,0,0,0,,What is that?
+Dialogue: 0,0:05:03.49,0:05:05.54,0$Default,,0,0,0,,See, I told you.
+Dialogue: 0,0:05:05.54,0:05:06.49,0$Default,,0,0,0,,Yeah, adds up...
+Dialogue: 0,0:05:06.49,0:05:11.09,0$Default,,0,0,0,,That said, he's an awful lot more\Nrobot-like than Carbonara's.
+Dialogue: 0,0:05:11.09,0:05:16.18,0$Default,,0,0,0,,According to the internet, the new Pinocchio 4.0\Nis designed to conserve battery life
+Dialogue: 0,0:05:16.18,0:05:20.76,0$Default,,0,0,0,,by reducing the amount of time it engages\Nin unnecessary conversations.
+Dialogue: 0,0:05:20.76,0:05:24.10,0$Default,,0,0,0,,So it thinks that {\i1}we're{\i0} unnecessary?!
+Dialogue: 0,0:05:24.10,0:05:25.91,0$Default,,0,0,0,,I will now scan you.
+Dialogue: 0,0:05:28.60,0:05:30.31,0$Default,,0,0,0,,Combat Rank C.
+Dialogue: 0,0:05:30.31,0:05:32.40,0$Default,,0,0,0,,Oh, nice! You're Rank C!
+Dialogue: 0,0:05:32.40,0:05:33.86,0$Default,,0,0,0,,Is that a good thing?
+Dialogue: 0,0:05:33.86,0:05:35.19,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:05:35.19,0:05:36.62,0$Default,,0,0,0,,Combat Rank A.
+Dialogue: 0,0:05:36.62,0:05:38.03,0$Default,,0,0,0,,Combat Rank B.
+Dialogue: 0,0:05:38.03,0:05:39.24,0$Default,,0,0,0,,Combat Rank C.
+Dialogue: 0,0:05:39.24,0:05:40.49,0$Default,,0,0,0,,Combat Rank E.
+Dialogue: 0,0:05:41.15,0:05:42.37,0$Default,,0,0,0,,C? That can't be right...
+Dialogue: 0,0:05:42.37,0:05:44.05,0$Default,,0,0,0,,Ooh, what about me?!
+Dialogue: 0,0:05:46.01,0:05:46.95,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:05:48.77,0:05:51.16,0$Default,,0,0,0,,You heap of trash!\NYou can't just give up!!
+Dialogue: 0,0:05:51.16,0:05:52.51,0$Default,,0,0,0,,Do you wish to know?
+Dialogue: 0,0:05:52.51,0:05:54.08,0$Default,,0,0,0,,Why wouldn't I?!
+Dialogue: 0,0:05:54.08,0:05:55.29,0$Default,,0,0,0,,Combat Rank 0.
+Dialogue: 0,0:05:55.29,0:05:56.42,0$Default,,0,0,0,,Excuse me?!
+Dialogue: 0,0:05:56.42,0:05:57.68,0$Default,,0,0,0,,That checks out.
+Dialogue: 0,0:05:57.68,0:05:58.96,0$Default,,0,0,0,,Mhm.
+Dialogue: 0,0:05:58.96,0:06:00.10,0$Default,,0,0,0,,You're malfunctioning!
+Dialogue: 0,0:06:00.10,0:06:01.64,0$Default,,0,0,0,,I am not.
+Dialogue: 0,0:06:01.64,0:06:02.85,0$Default,,0,0,0,,Then it must be a glitch!
+Dialogue: 0,0:06:02.85,0:06:04.18,0$Default,,0,0,0,,It is not.
+Dialogue: 0,0:06:04.18,0:06:07.49,0$Default,,0,0,0,,So that means my combat ability\Nis immeasurable, no?
+Dialogue: 0,0:06:08.20,0:06:13.35,0$Default,,0,0,0,,Lord Laozi... not only is he weak,\Nbut he's mentally unstable too!
+Dialogue: 0,0:06:13.35,0:06:14.36,0$Default,,0,0,0,,Say what?!
+Dialogue: 0,0:06:14.36,0:06:16.90,0$Default,,0,0,0,,Huh, he's not talking all formal anymore.
+Dialogue: 0,0:06:16.90,0:06:22.90,0$Default,,0,0,0,,You must be joking if you think you're allowed in\Nthe Dragon Shaolin Temple with those Combat Ranks.
+Dialogue: 0,0:06:22.90,0:06:25.36,0$Default,,0,0,0,,We're a lot mightier than we look!
+Dialogue: 0,0:06:25.69,0:06:28.88,0$Default,,0,0,0,,Are you, now? Then why don't you show me\Nby defeating Pinocchio?
+Dialogue: 0,0:06:28.88,0:06:31.68,0$Default,,0,0,0,,If you can, I'll hear you out.
+Dialogue: 0,0:06:32.41,0:06:33.79,0$Default,,0,0,0,,Very well.
+Dialogue: 0,0:06:40.42,0:06:42.17,0$Default,,0,0,0,,It's on, Pinocchio!
+Dialogue: 0,0:06:42.17,0:06:44.43,0$Default,,0,0,0,,Please be gentle with me.
+Dialogue: 0,0:06:45.22,0:06:48.22,0$Default,,0,0,0,,Sorry, but I won't be going easy on you.\NNo hard feelings?
+Dialogue: 0,0:06:49.08,0:06:51.52,0$Default,,0,0,0,,Voice patterns unrecognized.
+Dialogue: 0,0:06:51.52,0:06:53.57,0$Default,,0,0,0,,Chup, kick his butt!
+Dialogue: 0,0:06:53.57,0:06:55.57,0$Default,,0,0,0,,You'll take him out, easy-peasy!
+Dialogue: 0,0:06:55.57,0:06:57.03,0$Default,,0,0,0,,Try your best!
+Dialogue: 0,0:06:58.02,0:07:00.49,0$Default,,0,0,0,,Use whatever arms you wish.
+Dialogue: 0,0:07:00.49,0:07:03.86,0$Default,,0,0,0,,As long as you knock him out,\Nit's a win to me.
+Dialogue: 0,0:07:03.86,0:07:06.70,0$Default,,0,0,0,,Oh, really?\NThis'll be even easier than I thought!
+Dialogue: 0,0:07:08.37,0:07:10.33,0$Default,,0,0,0,,Dettonic Sword!
+Dialogue: 0,0:07:17.94,0:07:19.63,0$Default,,0,0,0,,{\i1}Dettonic Sword.
+Dialogue: 0,0:07:20.69,0:07:21.84,0$Default,,0,0,0,,Here I go!
+Dialogue: 0,0:07:34.10,0:07:35.06,0$Default,,0,0,0,,What was that?!
+Dialogue: 0,0:07:37.73,0:07:39.03,0$Default,,0,0,0,,He's getting played hard...
+Dialogue: 0,0:07:39.03,0:07:40.82,0$Default,,0,0,0,,What's going on here?
+Dialogue: 0,0:07:40.82,0:07:42.98,0$Default,,0,0,0,,I didn't think a robot could\Nbe so good in combat...
+Dialogue: 0,0:07:49.57,0:07:51.96,0$Default,,0,0,0,,Chup's making this too easy...
+Dialogue: 0,0:07:51.96,0:07:53.96,0$Default,,0,0,0,,It's so over.
+Dialogue: 0,0:07:55.08,0:07:57.84,0$Default,,0,0,0,,Dang it! I can't do anything here!
+Dialogue: 0,0:07:57.84,0:08:00.27,0$Default,,0,0,0,,Lord Laozi! Are Snacks allowed?
+Dialogue: 0,0:08:00.27,0:08:02.75,0$Default,,0,0,0,,Yeah, you may fight by any means.
+Dialogue: 0,0:08:04.26,0:08:05.76,0$Default,,0,0,0,,Pinocchio 3.0!
+Dialogue: 0,0:08:18.64,0:08:19.99,0$Default,,0,0,0,,Ooh!
+Dialogue: 0,0:08:19.99,0:08:21.40,0$Default,,0,0,0,,He's leveling the playing field!
+Dialogue: 0,0:08:21.40,0:08:25.65,0$Default,,0,0,0,,Pinocchio! Defeat that fresher,\Nhappier-looking Pinocchio!
+Dialogue: 0,0:08:25.95,0:08:26.84,0$Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:35.52,0:08:36.66,0$Default,,0,0,0,,Alright...
+Dialogue: 0,0:08:41.50,0:08:43.89,0$Default,,0,0,0,,What surprising sportsmanship!
+Dialogue: 0,0:08:43.89,0:08:45.80,0$Default,,0,0,0,,This fight's gonna be real good.
+Dialogue: 0,0:08:50.01,0:08:51.68,0$Default,,0,0,0,,My turn first!
+Dialogue: 0,0:08:51.68,0:08:53.68,0$Default,,0,0,0,,Take this!!
+Dialogue: 0,0:08:55.18,0:08:58.04,0$Default,,0,0,0,,Holy cow! A card from the\Nlimited Melora Swimsuit Set!
+Dialogue: 0,0:08:58.04,0:09:00.94,0$Default,,0,0,0,,Using a powerful technique like that\Nright out of the gate? That's crazy!
+Dialogue: 0,0:09:00.94,0:09:02.77,0$Default,,0,0,0,,Is he expecting a one-hit KO?
+Dialogue: 0,0:09:03.75,0:09:05.32,0$Default,,0,0,0,,What is that supposed to be?
+Dialogue: 0,0:09:05.32,0:09:08.96,0$Default,,0,0,0,,I-It didn't hurt him?!\NThat's impossible!
+Dialogue: 0,0:09:08.96,0:09:09.95,0$Default,,0,0,0,,No way!
+Dialogue: 0,0:09:09.95,0:09:11.36,0$Default,,0,0,0,,Is he some sort of monster?
+Dialogue: 0,0:09:11.36,0:09:13.91,0$Default,,0,0,0,,You really should've seen this coming.
+Dialogue: 0,0:09:15.63,0:09:19.27,0$Default,,0,0,0,,There's nothing left I can do...\NI lose...
+Dialogue: 0,0:09:19.91,0:09:21.42,0$Default,,0,0,0,,You gave up already?!
+Dialogue: 0,0:09:21.42,0:09:22.63,0$Default,,0,0,0,,What power!
+Dialogue: 0,0:09:22.63,0:09:24.92,0$Default,,0,0,0,,He didn't even fight...
+Dialogue: 0,0:09:24.92,0:09:27.00,0$Default,,0,0,0,,Uh... You've got this, Chup!
+Dialogue: 0,0:09:31.32,0:09:32.43,0$Default,,0,0,0,,Get back here!!
+Dialogue: 0,0:09:32.43,0:09:34.43,0$Default,,0,0,0,,Time for my last resort!
+Dialogue: 0,0:09:34.43,0:09:35.48,0$Default,,0,0,0,,My word!
+Dialogue: 0,0:09:35.48,0:09:37.68,0$Default,,0,0,0,,Chup, are you surrendering?!
+Dialogue: 0,0:09:45.73,0:09:46.94,0$Default,,0,0,0,,Oh, you got me!!
+Dialogue: 0,0:09:46.94,0:09:51.41,0$Default,,0,0,0,,What was with that fearless sneer\Nif you were just gonna go out and get beat up?!
+Dialogue: 0,0:09:51.41,0:09:52.24,0$Default,,0,0,0,,On the contrary.
+Dialogue: 0,0:09:52.24,0:09:52.93,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:09:52.93,0:09:53.95,0$Default,,0,0,0,,Look!
+Dialogue: 0,0:09:55.91,0:09:57.70,0$Default,,0,0,0,,Issh like my grammosher shaid...
+Dialogue: 0,0:09:57.70,0:10:01.66,0$Default,,0,0,0,,Sha shung issha roos of calamishies!\NBabreash isshan abussh of powaa!{The tongue is the root of calamities. Bad breath is an abuse of power.}
+Dialogue: 0,0:10:01.66,0:10:04.05,0$Default,,0,0,0,,I'm not sure I caught any of that.
+Dialogue: 0,0:10:04.05,0:10:06.67,0$Default,,0,0,0,,I guess we gotta take in the emotion behind it.
+Dialogue: 0,0:10:08.93,0:10:10.88,0$Default,,0,0,0,,Wh-What?!
+Dialogue: 0,0:10:18.36,0:10:19.31,0$Default,,0,0,0,,Did he win?
+Dialogue: 0,0:10:19.31,0:10:20.62,0$Default,,0,0,0,,My!
+Dialogue: 0,0:10:23.17,0:10:24.06,0$Default,,0,0,0,,Well?
+Dialogue: 0,0:10:24.06,0:10:27.57,0$Default,,0,0,0,,What do you plan to do\Nwith that Dragon Heart?
+Dialogue: 0,0:10:27.57,0:10:30.78,0$Default,,0,0,0,,We'd like to request a ritual\Nfor awakening Darefalcon.
+Dialogue: 0,0:10:30.78,0:10:32.83,0$Default,,0,0,0,,Oh, young Vinsant.
+Dialogue: 0,0:10:32.83,0:10:36.32,0$Default,,0,0,0,,Do you even recognize\Nwhat that entails?
+Dialogue: 0,0:10:36.97,0:10:38.28,0$Default,,0,0,0,,I do.
+Dialogue: 0,0:10:38.61,0:10:41.95,0$Default,,0,0,0,,Being a Dragon Knight is essentially\Nmastering the Way of the Dragon,
+Dialogue: 0,0:10:41.95,0:10:44.33,0$Default,,0,0,0,,after training for it for a long time.
+Dialogue: 0,0:10:44.33,0:10:49.59,0$Default,,0,0,0,,Gaining it through awakening\Nrisks your very life in the process.
+Dialogue: 0,0:10:49.59,0:10:53.59,0$Default,,0,0,0,,Darefalcon is known to devour anyone\Nwith wicked motives in an instant.
+Dialogue: 0,0:10:53.59,0:10:54.26,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:54.26,0:10:55.98,0$Default,,0,0,0,,"Devour?"
+Dialogue: 0,0:10:55.98,0:10:57.10,0$Default,,0,0,0,,What do you mean?
+Dialogue: 0,0:10:57.10,0:10:59.10,0$Default,,0,0,0,,What exactly {\i1}is{\i0} Darefalcon?
+Dialogue: 0,0:10:59.10,0:11:02.65,0$Default,,0,0,0,,In some respects, a wise, holy dragon.\NIn others, a beast.
+Dialogue: 0,0:11:02.65,0:11:06.60,0$Default,,0,0,0,,He will instinctively wipe out anyone\Nlooking to bring harm his way.
+Dialogue: 0,0:11:06.60,0:11:09.32,0$Default,,0,0,0,,I-Is there any way we can {\i1}avoid{\i0} this devouring?
+Dialogue: 0,0:11:09.32,0:11:13.03,0$Default,,0,0,0,,Simple, just don't bear any wicked desires.
+Dialogue: 0,0:11:13.03,0:11:16.33,0$Default,,0,0,0,,Things like, "Once I get stronger,\NI'll wrangle up some monsters and rake in the cash,"
+Dialogue: 0,0:11:16.33,0:11:18.12,0$Default,,0,0,0,,or, "I'll pose as a high celebrity."
+Dialogue: 0,0:11:18.12,0:11:20.08,0$Default,,0,0,0,,We weren't thinking anything like that!
+Dialogue: 0,0:11:20.08,0:11:21.92,0$Default,,0,0,0,,W-Weeell...
+Dialogue: 0,0:11:21.92,0:11:24.63,0$Default,,0,0,0,,You don't suppose if the thought\Nso much as crosses your mind,
+Dialogue: 0,0:11:24.63,0:11:26.50,0$Default,,0,0,0,,he'll just gulp you up in an instant, right?
+Dialogue: 0,0:11:26.50,0:11:27.63,0$Default,,0,0,0,,Mhm.
+Dialogue: 0,0:11:27.63,0:11:31.38,0$Default,,0,0,0,,Can I get my memory wiped?!\NGo all the way back to my childhood!
+Dialogue: 0,0:11:31.38,0:11:33.21,0$Default,,0,0,0,,What do we do...?
+Dialogue: 0,0:11:34.05,0:11:36.26,0$Default,,0,0,0,,I'm well prepared for this.
+Dialogue: 0,0:11:36.26,0:11:37.18,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:11:37.18,0:11:39.76,0$Default,,0,0,0,,I'm not! Don't send me!
+Dialogue: 0,0:11:39.76,0:11:42.06,0$Default,,0,0,0,,You're all prepared, are you?
+Dialogue: 0,0:11:42.06,0:11:44.27,0$Default,,0,0,0,,Last chance to turn back.
+Dialogue: 0,0:11:44.27,0:11:46.09,0$Default,,0,0,0,,I will do no such thing!
+Dialogue: 0,0:11:46.09,0:11:50.65,0$Default,,0,0,0,,Hmph, money really does buy you everything.\NWell, go out there and try!
+Dialogue: 0,0:11:50.65,0:11:52.40,0$Default,,0,0,0,,I'm not ready, I swear!
+Dialogue: 0,0:11:52.40,0:11:56.53,0$Default,,0,0,0,,Vinsant's the only one here who's ready for this!
+Dialogue: 0,0:12:04.72,0:12:06.71,0$Default,,0,0,0,,Is this the dragons' shrine?
+Dialogue: 0,0:12:06.71,0:12:07.79,0$Default,,0,0,0,,Yes.
+Comment: 0,0:12:08.23,0:12:10.15,0$Default,,0,0,0,,Darefalcon's Shrine
+Dialogue: 0,0:12:08.23,0:12:10.15,0$Default,,0,0,0,,It looks amazing...
+Dialogue: 0,0:12:12.54,0:12:15.22,0$Default,,0,0,0,,Where will he come out from to eat us...?
+Dialogue: 0,0:12:15.22,0:12:17.47,0$Default,,0,0,0,,Can I rest up over in that direction?
+Dialogue: 0,0:12:17.47,0:12:20.23,0$Default,,0,0,0,,That's not fair, you don't get to sit this one out.
+Dialogue: 0,0:12:20.23,0:12:22.68,0$Default,,0,0,0,,Wow, rude much? Show some respect!
+Dialogue: 0,0:12:22.68,0:12:24.47,0$Default,,0,0,0,,Show yourself, Drgghcon!
+Dialogue: 0,0:12:24.47,0:12:26.33,0$Default,,0,0,0,,You can't even get his name right!
+Dialogue: 0,0:12:28.14,0:12:29.24,0$Default,,0,0,0,,Your wish...
+Dialogue: 0,0:12:29.24,0:12:30.15,0$Default,,0,0,0,,...is our command!
+Dialogue: 0,0:12:30.15,0:12:32.04,0$Default,,0,0,0,,Ta-dah!
+Dialogue: 0,0:12:34.67,0:12:36.53,0$Default,,0,0,0,,Who are these guys...?
+Dialogue: 0,0:12:38.82,0:12:40.79,0$Default,,0,0,0,,S-So, you're... uhh...
+Dialogue: 0,0:12:40.79,0:12:42.04,0$Default,,0,0,0,,Darefalcon!
+Dialogue: 0,0:12:42.04,0:12:46.93,0$Default,,0,0,0,,So you're Dare, Fal, and Con!\NAll lined up together!
+Dialogue: 0,0:12:47.84,0:12:48.76,0$Default,,0,0,0,,I'm Dare!
+Dialogue: 0,0:12:48.76,0:12:49.71,0$Default,,0,0,0,,I'm Fal!
+Dialogue: 0,0:12:49.71,0:12:51.26,0$Default,,0,0,0,,And I'm Con!
+Dialogue: 0,0:12:51.26,0:12:54.97,0$Default,,0,0,0,,Together, we're Darefalcon!
+Dialogue: 0,0:12:54.97,0:12:56.47,0$Default,,0,0,0,,What? No, we aren't!
+Dialogue: 0,0:12:56.47,0:12:58.47,0$Default,,0,0,0,,They made us follow their lead!
+Dialogue: 0,0:12:58.47,0:13:01.89,0$Default,,0,0,0,,These folks must not know who we are!
+Dialogue: 0,0:13:01.89,0:13:05.11,0$Default,,0,0,0,,Listen here.\NThey call us the Dragon Brothers.
+Dialogue: 0,0:13:05.11,0:13:07.56,0$Default,,0,0,0,,We watch over the dragons' shrine.
+Dialogue: 0,0:13:08.21,0:13:09.98,0$Default,,0,0,0,,The Dragon Brothers?
+Dialogue: 0,0:13:10.58,0:13:11.24,0$Default,,0,0,0,,Bludo!
+Dialogue: 0,0:13:11.24,0:13:11.90,0$Default,,0,0,0,,Redra!
+Dialogue: 0,0:13:11.90,0:13:13.08,0$Default,,0,0,0,,And Gregon!
+Dialogue: 4,0:13:13.08,0:13:18.11,0$Default,,0,0,0,,All together, we're the Dragon Brothers!
+Dialogue: 0,0:13:18.57,0:13:22.57,0$Default,,0,0,0,,You're don't {\i1}sound{\i0} "together!"\NIt would be a lot cooler if you were in sync!
+Dialogue: 0,0:13:22.83,0:13:23.96,0$Default,,0,0,0,,Y'think so?
+Dialogue: 0,0:13:23.96,0:13:26.42,0$Default,,0,0,0,,No wonder, it's been ages since we've done this!
+Dialogue: 0,0:13:26.42,0:13:30.37,0$Default,,0,0,0,,See? I {\i1}told{\i0} you it would pay off to\Npractice every once in a while!
+Dialogue: 0,0:13:30.37,0:13:32.30,0$Default,,0,0,0,,Let us get back on track.
+Dialogue: 0,0:13:32.96,0:13:35.47,0$Default,,0,0,0,,It's been a good decade since\Nsomeone's come to face us.
+Dialogue: 0,0:13:35.47,0:13:36.75,0$Default,,0,0,0,,What dares bring you?
+Dialogue: 0,0:13:36.75,0:13:39.13,0$Default,,0,0,0,,We wish to meet with\NSir Holy Dragon Darefalcon.
+Dialogue: 0,0:13:39.13,0:13:40.14,0$Default,,0,0,0,,Say what?
+Dialogue: 0,0:13:40.14,0:13:43.18,0$Default,,0,0,0,,Are you kids daredevils or somethin'?
+Dialogue: 0,0:13:43.18,0:13:44.85,0$Default,,0,0,0,,Respect, though.
+Dialogue: 0,0:13:44.85,0:13:49.11,0$Default,,0,0,0,,When naive folk like you\Ncome to see Darefalcon,
+Dialogue: 0,0:13:49.11,0:13:51.41,0$Default,,0,0,0,,they don't come out alive.
+Dialogue: 0,0:13:52.32,0:13:53.86,0$Default,,0,0,0,,Right? I thought so.
+Dialogue: 0,0:13:53.86,0:13:58.28,0$Default,,0,0,0,,So, y'know, may as well not waste your time\Nand call it off here and now, right?
+Dialogue: 0,0:13:58.28,0:14:02.07,0$Default,,0,0,0,,M-My word... Even despite that,\Nyou still want to push forward!
+Dialogue: 0,0:14:02.07,0:14:04.25,0$Default,,0,0,0,,I was thinking the opposite, but...
+Dialogue: 0,0:14:04.25,0:14:05.45,0$Default,,0,0,0,,We will!
+Dialogue: 0,0:14:05.45,0:14:06.03,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:14:06.03,0:14:08.62,0$Default,,0,0,0,,We're going to push forward,\Nand become...
+Dialogue: 0,0:14:08.62,0:14:11.02,0$Default,,0,0,0,,Dragon Knights!
+Dialogue: 0,0:14:11.83,0:14:13.67,0$Default,,0,0,0,,This isn't the time to look cool!
+Dialogue: 0,0:14:13.67,0:14:16.04,0$Default,,0,0,0,,Then you'll have to go through us.
+Dialogue: 0,0:14:16.04,0:14:17.29,0$Default,,0,0,0,,I'll take you down!
+Dialogue: 0,0:14:17.29,0:14:19.94,0$Default,,0,0,0,,Hah! What a laugh.\NKid thinks he can beat {\i1}us!
+Dialogue: 0,0:14:19.94,0:14:23.43,0$Default,,0,0,0,,I will! I will, I will, I will!\NCount on it!
+Dialogue: 0,0:14:23.43,0:14:27.68,0$Default,,0,0,0,,You would sacrifice yourself in a fruitless fight?\NWhat a way to go out.
+Dialogue: 0,0:14:27.68,0:14:29.62,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:14:29.62,0:14:32.18,0$Default,,0,0,0,,Life is full of ups and downs!\NUnderwear is full of colors!
+Dialogue: 0,0:14:32.18,0:14:35.03,0$Default,,0,0,0,,I happen to wear white briefs.
+Dialogue: 0,0:14:35.03,0:14:36.74,0$Default,,0,0,0,,Your grandmother doesn't make any sense!!
+Dialogue: 0,0:14:36.74,0:14:39.69,0$Default,,0,0,0,,And why is Vinsant\Nstill holding that pose?!
+Dialogue: 0,0:14:40.02,0:14:42.07,0$Default,,0,0,0,,Exodus Blade!
+Dialogue: 0,0:14:43.38,0:14:45.14,0$Default,,0,0,0,,{\i1}Exodus Blade.
+Dialogue: 0,0:14:46.39,0:14:48.43,0$Default,,0,0,0,,Dettonic Sword!
+Dialogue: 0,0:14:50.02,0:14:51.39,0$Default,,0,0,0,,{\i1}Dettonic Sword.
+Dialogue: 0,0:14:58.54,0:15:00.13,0$Default,,0,0,0,,Flying? That's just dirty!
+Dialogue: 0,0:15:00.55,0:15:02.80,0$Default,,0,0,0,,How are they supposed to attack them?
+Dialogue: 0,0:15:02.80,0:15:05.80,0$Default,,0,0,0,,I know just the trick!
+Dialogue: 0,0:15:07.80,0:15:09.68,0$Default,,0,0,0,,Aw, man! They're too fast!
+Dialogue: 0,0:15:09.68,0:15:11.06,0$Default,,0,0,0,,My turn! Watch!
+Dialogue: 0,0:15:12.98,0:15:16.49,0$Default,,0,0,0,,My word, they're too strong against my attacks!
+Dialogue: 0,0:15:16.49,0:15:19.31,0$Default,,0,0,0,,Your arrows aren't even hitting them...
+Dialogue: 0,0:15:19.31,0:15:21.57,0$Default,,0,0,0,,Brace yourselves, it's our move now!
+Dialogue: 0,0:15:27.41,0:15:31.08,0$Default,,0,0,0,,We have to bundle together!\NThat way, we can ward off attacks from any direction!
+Dialogue: 0,0:15:33.87,0:15:34.75,0$Default,,0,0,0,,I see how it is.
+Dialogue: 0,0:15:34.75,0:15:37.04,0$Default,,0,0,0,,It's time for the next phase.
+Dialogue: 0,0:15:42.36,0:15:43.26,0$Default,,0,0,0,,Huh...?
+Dialogue: 0,0:15:43.26,0:15:44.34,0$Default,,0,0,0,,A hula dance?
+Dialogue: 0,0:15:56.67,0:15:59.40,0$Default,,0,0,0,,Dang it... They made a fool out of us...
+Dialogue: 0,0:15:59.40,0:16:01.16,0$Default,,0,0,0,,Dragons really are something...
+Dialogue: 0,0:16:01.16,0:16:03.79,0$Default,,0,0,0,,They're on another league\Nfrom monsters we've faced before!
+Dialogue: 0,0:16:03.79,0:16:06.12,0$Default,,0,0,0,,I'll have to put my life on the line.
+Dialogue: 0,0:16:06.12,0:16:07.41,0$Default,,0,0,0,,Huh?! What do you mean?
+Dialogue: 0,0:16:07.41,0:16:08.28,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:16:08.28,0:16:09.30,0$Default,,0,0,0,,Yessir!
+Dialogue: 0,0:16:09.30,0:16:11.58,0$Default,,0,0,0,,I'll throw you at the dragons!
+Dialogue: 0,0:16:11.58,0:16:14.58,0$Default,,0,0,0,,You use the force to stab one with your sword!
+Dialogue: 0,0:16:14.58,0:16:17.54,0$Default,,0,0,0,,Doesn't sound like it's {\i1}your{\i0} life\Nbeing put on the line...
+Dialogue: 0,0:16:17.54,0:16:18.97,0$Default,,0,0,0,,Let's do it, Chup!
+Dialogue: 0,0:16:18.97,0:16:22.04,0$Default,,0,0,0,,Strike for the head!\NIt's a gamble, but you have to try!
+Dialogue: 0,0:16:22.04,0:16:23.01,0$Default,,0,0,0,,Aye-aye!
+Dialogue: 0,0:16:23.01,0:16:25.57,0$Default,,0,0,0,,But there's something I gotta tell you first!
+Dialogue: 0,0:16:25.57,0:16:26.48,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:16:26.48,0:16:28.93,0$Default,,0,0,0,,Can I call dibs on the move name?
+Dialogue: 0,0:16:29.41,0:16:30.31,0$Default,,0,0,0,,Y-Yeah, sure!
+Dialogue: 0,0:16:30.31,0:16:31.18,0$Default,,0,0,0,,Heck yeah!
+Dialogue: 0,0:16:31.18,0:16:32.15,0$Default,,0,0,0,,Let's go!
+Dialogue: 0,0:16:35.93,0:16:39.69,0$Default,,0,0,0,,Flying Head-Shot Gamble Strike!
+Dialogue: 0,0:16:39.69,0:16:42.44,0$Default,,0,0,0,,That's practically a description, not a name!
+Dialogue: 0,0:16:49.45,0:16:51.89,0$Default,,0,0,0,,Waaait, whaaat?!
+Dialogue: 0,0:16:53.51,0:16:55.79,0$Default,,0,0,0,,Fore!
+Dialogue: 0,0:17:00.73,0:17:02.79,0$Default,,0,0,0,,Even Vinsant doesn't stand a chance?
+Dialogue: 0,0:17:03.88,0:17:05.64,0$Default,,0,0,0,,You sure have some fight in ya,
+Dialogue: 0,0:17:05.64,0:17:10.43,0$Default,,0,0,0,,but you're still way out of your league\Nagainst us!
+Dialogue: 0,0:17:10.59,0:17:12.35,0$Default,,0,0,0,,I'll be back!
+Dialogue: 0,0:17:12.35,0:17:13.89,0$Default,,0,0,0,,You won't get away with your deeds any—
+Dialogue: 0,0:17:23.98,0:17:26.91,0$Default,,0,0,0,,Do you recognize what you're up against now?
+Dialogue: 0,0:17:27.94,0:17:29.78,0$Default,,0,0,0,,You may have the Dragon Heart,
+Dialogue: 0,0:17:29.78,0:17:33.70,0$Default,,0,0,0,,but your strength doesn't even come close\Nto that of the Dragon Knights.
+Dialogue: 0,0:17:33.70,0:17:36.87,0$Default,,0,0,0,,Even so, I'll spare nothing\Nto become one!
+Dialogue: 0,0:17:36.87,0:17:37.58,0$Default,,0,0,0,,What he said!
+Dialogue: 0,0:17:37.58,0:17:40.21,0$Default,,0,0,0,,You wish to become Dragon Knights that badly?
+Dialogue: 0,0:17:40.21,0:17:41.12,0$Default,,0,0,0,,Yes!
+Dialogue: 0,0:17:41.12,0:17:43.83,0$Default,,0,0,0,,Then you'll have to train for it.
+Dialogue: 0,0:17:43.83,0:17:46.80,0$Default,,0,0,0,,So will you train me once again?!
+Dialogue: 0,0:17:46.80,0:17:47.84,0$Default,,0,0,0,,Will you?!
+Dialogue: 0,0:17:47.84,0:17:51.22,0$Default,,0,0,0,,Hmm, my lessons don't come cheap!
+Dialogue: 0,0:17:52.38,0:17:54.34,0$Default,,0,0,0,,Wait, this costs money?!
+Dialogue: 0,0:17:54.34,0:17:57.60,0$Default,,0,0,0,,Didn't I tell you?\NMoney buys you everything!
+Dialogue: 0,0:17:57.60,0:17:58.27,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:17:58.27,0:17:59.14,0$Default,,0,0,0,,Laozi!
+Dialogue: 0,0:17:59.39,0:18:02.37,0$Default,,0,0,0,,Since I've trained here before,\Ndo I get a discount or something?
+Dialogue: 0,0:18:02.37,0:18:03.50,0$Default,,0,0,0,,Wow, real classy!
+Dialogue: 0,0:18:04.65,0:18:06.19,0$Default,,0,0,0,,A VIP has arrived.
+Dialogue: 0,0:18:06.19,0:18:07.00,0$Default,,0,0,0,,I see.
+Dialogue: 0,0:18:07.00,0:18:07.61,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:18:07.61,0:18:08.48,0$Default,,0,0,0,,A VIP?
+Dialogue: 0,0:18:09.09,0:18:11.74,0$Default,,0,0,0,,Hey there! Good to see you guys!
+Dialogue: 0,0:18:11.74,0:18:12.87,0$Default,,0,0,0,,Princess Melora!
+Dialogue: 0,0:18:12.87,0:18:14.11,0$Default,,0,0,0,,What brings you here?
+Dialogue: 0,0:18:14.11,0:18:17.63,0$Default,,0,0,0,,I saw a commercial for a\NDragon Shaolin Temple Diet,
+Dialogue: 0,0:18:17.63,0:18:19.75,0$Default,,0,0,0,,and I just had to try it for myself!
+Dialogue: 0,0:18:19.75,0:18:23.17,0$Default,,0,0,0,,Huh? I didn't know the temple\Nmarketed itself that way...
+Dialogue: 0,0:18:23.17,0:18:26.52,0$Default,,0,0,0,,Oh, Princess!\NYou've been doing well, I see!
+Dialogue: 0,0:18:26.52,0:18:30.76,0$Default,,0,0,0,,Sir Laozi!\NCan you get my skimpy uniform ready?
+Dialogue: 0,0:18:31.28,0:18:32.51,0$Default,,0,0,0,,At once, Princess!
+Dialogue: 0,0:18:32.51,0:18:36.26,0$Default,,0,0,0,,Oh, wow. Even Sir Laozi\Nis kissing the princess' feet...
+Dialogue: 0,0:18:36.26,0:18:39.09,0$Default,,0,0,0,,You'd be surprised how much it costs\Nto maintain this temple.
+Dialogue: 0,0:18:39.09,0:18:43.23,0$Default,,0,0,0,,Princess Melora here is a VIP\Nwho's donated a lot to our upkeep.
+Dialogue: 0,0:18:43.23,0:18:45.20,0$Default,,0,0,0,,It's only natural I treat her with utmost respect.
+Dialogue: 0,0:18:45.20,0:18:48.02,0$Default,,0,0,0,,Chup, Vinny, let's train together, okay?
+Dialogue: 0,0:18:48.28,0:18:48.90,0$Default,,0,0,0,,Yes, ma'am!
+Dialogue: 0,0:18:48.90,0:18:49.52,0$Default,,0,0,0,,Okay...
+Dialogue: 0,0:18:49.52,0:18:51.37,0$Default,,0,0,0,,What is going on...?
+Dialogue: 0,0:18:51.37,0:18:54.55,0$Default,,0,0,0,,{\i1}Please{\i0} don't put me through another boring mission...
+Dialogue: 0,0:18:58.64,0:19:03.29,0$Default,,0,0,0,,So, Vinsant, I guess this makes us rival taoists, huh?
+Dialogue: 0,0:19:03.29,0:19:05.29,0$Default,,0,0,0,,Rivals? You should call me your master.
+Dialogue: 0,0:19:06.15,0:19:06.79,0$Default,,0,0,0,,Master!
+Dialogue: 0,0:19:06.79,0:19:07.67,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:19:07.67,0:19:08.42,0$Default,,0,0,0,,Master!
+Dialogue: 0,0:19:08.42,0:19:09.17,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:19:09.17,0:19:10.09,0$Default,,0,0,0,,Master!
+Dialogue: 0,0:19:10.09,0:19:11.05,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:19:11.05,0:19:12.09,0$Default,,0,0,0,,Master...
+Dialogue: 0,0:19:12.09,0:19:13.01,0$Default,,0,0,0,,What is it?!
+Dialogue: 0,0:19:13.01,0:19:14.42,0$Default,,0,0,0,,...bate! Pfft.
+Dialogue: 0,0:19:15.39,0:19:17.73,0$Default,,0,0,0,,That aside, I'm still a little worried\Nabout something.
+Dialogue: 0,0:19:17.73,0:19:18.76,0$Default,,0,0,0,,About what?
+Dialogue: 0,0:19:18.76,0:19:22.27,0$Default,,0,0,0,,I've never seen any Dragon Knights in this temple.
+Dialogue: 0,0:19:22.27,0:19:23.89,0$Default,,0,0,0,,Huh... So what?
+Dialogue: 0,0:19:23.89,0:19:27.90,0$Default,,0,0,0,,The goal of the taoists here\Nis to master the Way of the Dragon,
+Dialogue: 0,0:19:27.90,0:19:30.54,0$Default,,0,0,0,,and ultimately become Dragon Knights.
+Dialogue: 0,0:19:30.54,0:19:34.40,0$Default,,0,0,0,,Quite a few people\Nhave already made it to begin with.
+Dialogue: 0,0:19:34.40,0:19:36.33,0$Default,,0,0,0,,But you've never seen any?
+Dialogue: 0,0:19:36.33,0:19:37.25,0$Default,,0,0,0,,Nope.
+Dialogue: 0,0:19:37.25,0:19:38.37,0$Default,,0,0,0,,Do you need glasses?
+Dialogue: 0,0:19:38.37,0:19:39.87,0$Default,,0,0,0,,That's not the issue.
+Dialogue: 0,0:19:39.87,0:19:41.21,0$Default,,0,0,0,,Are they ostracizing you?
+Dialogue: 0,0:19:41.21,0:19:42.79,0$Default,,0,0,0,,It's not that either!
+Dialogue: 0,0:19:42.79,0:19:44.29,0$Default,,0,0,0,,Then what {\i1}do{\i0} you mean?
+Dialogue: 0,0:19:44.29,0:19:46.44,0$Default,,0,0,0,,I have a theory.
+Dialogue: 0,0:19:46.98,0:19:51.22,0$Default,,0,0,0,,Something must have happened\Nto those that reached Dragon Knight-hood.
+Dialogue: 0,0:19:51.22,0:19:52.14,0$Default,,0,0,0,,Like what?
+Dialogue: 0,0:19:52.14,0:19:53.24,0$Default,,0,0,0,,No idea.
+Dialogue: 0,0:19:53.24,0:19:57.88,0$Default,,0,0,0,,But whatever it is,\Nit's made the Dragon Knights vanish.
+Dialogue: 0,0:19:58.41,0:20:00.39,0$Default,,0,0,0,,Made them... vanish?
+Dialogue: 0,0:20:00.64,0:20:03.59,0$Default,,0,0,0,,Yes. I can't back it up,
+Dialogue: 0,0:20:03.59,0:20:06.62,0$Default,,0,0,0,,and Sir Laozi is unwilling to speak on the matter.
+Dialogue: 0,0:20:06.62,0:20:09.40,0$Default,,0,0,0,,There must be some secret behind it.
+Dialogue: 0,0:20:09.72,0:20:12.65,0$Default,,0,0,0,,So y'think we'll figure out\Nonce we become Dragon Knights?
+Dialogue: 0,0:20:13.65,0:20:15.44,0$Default,,0,0,0,,Just a lil' further!
+Dialogue: 0,0:20:16.78,0:20:17.90,0$Default,,0,0,0,,Alright!
+Dialogue: 0,0:20:17.90,0:20:20.55,0$Default,,0,0,0,,We're totally gonna become Dragon Knights!
+Dialogue: 0,0:22:02.16,0:22:05.47,0$Default,,0,0,0,,Good boys. Eat as much as you want.
+Dialogue: 0,0:22:05.72,0:22:09.11,0$Default,,0,0,0,,After a good meal,\NI can put you to work.
+Dialogue: 0,0:22:10.02,0:22:12.32,0$Default,,0,0,0,,I've traced their destination.
+Dialogue: 0,0:22:12.32,0:22:15.46,0$Default,,0,0,0,,They appear to have fled to Dragon Shaolin Temple.
+Dialogue: 0,0:22:15.46,0:22:20.41,0$Default,,0,0,0,,Hmm, Dragon Shaolin Temple, you say?\NThat'll be tricky...
+Dialogue: 0,0:22:20.41,0:22:23.11,0$Default,,0,0,0,,Should we destroy the temple\Nand seize them?
+Dialogue: 0,0:22:23.11,0:22:25.25,0$Default,,0,0,0,,No, don't bother.
+Dialogue: 0,0:22:25.25,0:22:29.04,0$Default,,0,0,0,,I happen to be an alumnus of that temple.
+Dialogue: 0,0:22:29.04,0:22:32.80,0$Default,,0,0,0,,How about we send one of our best men instead?
+Dialogue: 0,0:22:32.80,0:22:34.25,0$Default,,0,0,0,,You know the one...
+Dialogue: 0,0:22:34.25,0:22:35.00,0$Default,,0,0,0,,Who?
+Dialogue: 0,0:22:35.00,0:22:38.32,0$Default,,0,0,0,,Ninja Man Asura.
+Dialogue: 0,0:22:45.95,0:22:46.85,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.85,0:22:48.81,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.81,0:22:51.32,0$Default,,0,0,0,,{\an8}Today's lesson is on Dragon Shaolin Temple!
+Dialogue: 0,0:22:51.32,0:22:55.07,0$Default,,0,0,0,,{\an8}There, people learn the art of dragon power
+Dialogue: 0,0:22:55.07,0:22:57.77,0$Default,,0,0,0,,{\an8}with the goal of becoming Dragon Knights.
+Dialogue: 0,0:22:57.77,0:23:02.58,0$Default,,0,0,0,,{\an8}To train there, you have to gain approval\Nfrom the great Sir Laozi.
+Dialogue: 0,0:23:02.58,0:23:05.00,0$Default,,0,0,0,,{\an8}Do you think we'll find Lee or Jackie...?!
+Dialogue: 0,0:23:05.00,0:23:07.51,0$Default,,0,0,0,,{\an8}Pipe down! Don't go looking for them, y'hear?
+Dialogue: 0,0:23:10.64,0:23:12.75,0$Default,,0,0,0,,The Dragon Monk's training is underway!
+Dialogue: 0,0:23:12.75,0:23:14.80,0$Default,,0,0,0,,What is all this weird training for?
+Dialogue: 0,0:23:14.80,0:23:16.83,0$Default,,0,0,0,,Suddenly, Vinegar sends in a hitman!
+Dialogue: 0,0:23:16.83,0:23:18.48,0$Default,,0,0,0,,He's... crazy strong!
+Dialogue: 0,0:23:18.48,0:23:21.65,0$Default,,0,0,0,,Next time:\N"A Formidable Foe?! Here's Ninja Man Asura"
+Dialogue: 0,0:23:21.65,0:23:24.32,0$Default,,0,0,0,,Alright, time for a big adventure!
+Comment: 0,0:02:11.65,0:02:14.36,0$Default,,0,0,0,,== TS - TITLE ==
+Dialogue: 2,0:02:11.65,0:02:14.36,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord0\shad0\frz7.918\fsp-34.50}E{\frz7.529\fsp-24.80}p{\frz7.250\fsp-23.73}i{\frz6.982\fsp-33.42}s{\frz6.605\fsp-34.50}o{\frz6.216\fsp-32.90}d{\frz5.845\fsp-25.88}e{\frz5.553\fsp-28.55} {\frz5.231\fsp-37.72}2{\frz4.806\fsp-28.03}8{\frz4.490\fsp-18.87}:{\frz4.277\fsp-39.33} {\frz3.834\fsp-45.82}W{\frz3.317\fsp-25.88}e{\frz3.025\fsp-38.28} {\frz2.594\fsp-45.30}M{\frz2.083\fsp-33.42}a{\frz1.706\fsp-32.90}d{\frz1.335\fsp-25.88}e{\frz1.043\fsp-18.31} {\frz0.836\fsp-21.02}I{\frz0.600\fsp-20.49}t{\frz0.368\fsp-17.79}!{\frz0.168\fsp-29.11} {\frz359.840\fsp-33.45}D{\frz359.462\fsp-30.74}r{\frz359.116\fsp-34.76}a{\frz358.724\fsp-35.84}g{\frz358.320\fsp-34.50}o{\frz357.931\fsp-26.41}n{\frz357.633\fsp-29.11} {\frz357.305\fsp-36.13}S{\frz356.897\fsp-33.42}h{\frz356.520\fsp-34.50}a{\frz356.131\fsp-25.88}o{\frz355.840\fsp-16.19}l{\frz355.657\fsp-24.80}i{\frz355.377\fsp-26.41}n{\frz355.079\fsp-30.19} {\frz354.739\fsp-36.68}T{\frz354.325\fsp-41.52}e{\frz353.857\fsp-42.04}m{\frz353.383\fsp-24.80}p{\frz353.104\fsp-24.28}l{\frz352.830\fsp-24.28}e{\frz352.556\fsp-16.19}!{\frz352.373\fsp0.00}!
+Dialogue: 1,0:02:11.65,0:02:14.36,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord3\shad0\c&HC1C2C4&\frz7.918\fsp-34.50}E{\frz7.529\fsp-24.80}p{\frz7.250\fsp-23.73}i{\frz6.982\fsp-33.42}s{\frz6.605\fsp-34.50}o{\frz6.216\fsp-32.90}d{\frz5.845\fsp-25.88}e{\frz5.553\fsp-28.55} {\frz5.231\fsp-37.72}2{\frz4.806\fsp-28.03}8{\frz4.490\fsp-18.87}:{\frz4.277\fsp-39.33} {\frz3.834\fsp-45.82}W{\frz3.317\fsp-25.88}e{\frz3.025\fsp-38.28} {\frz2.594\fsp-45.30}M{\frz2.083\fsp-33.42}a{\frz1.706\fsp-32.90}d{\frz1.335\fsp-25.88}e{\frz1.043\fsp-18.31} {\frz0.836\fsp-21.02}I{\frz0.600\fsp-20.49}t{\frz0.368\fsp-17.79}!{\frz0.168\fsp-29.11} {\frz359.840\fsp-33.45}D{\frz359.462\fsp-30.74}r{\frz359.116\fsp-34.76}a{\frz358.724\fsp-35.84}g{\frz358.320\fsp-34.50}o{\frz357.931\fsp-26.41}n{\frz357.633\fsp-29.11} {\frz357.305\fsp-36.13}S{\frz356.897\fsp-33.42}h{\frz356.520\fsp-34.50}a{\frz356.131\fsp-25.88}o{\frz355.840\fsp-16.19}l{\frz355.657\fsp-24.80}i{\frz355.377\fsp-26.41}n{\frz355.079\fsp-30.19} {\frz354.739\fsp-36.68}T{\frz354.325\fsp-41.52}e{\frz353.857\fsp-42.04}m{\frz353.383\fsp-24.80}p{\frz353.104\fsp-24.28}l{\frz352.830\fsp-24.28}e{\frz352.556\fsp-16.19}!{\frz352.373\fsp0.00}!
+Dialogue: 0,0:02:11.65,0:02:14.36,0$EPTITLE,,0,0,0,,{\pos(965,803)\fade(250,550)\org(965,5884)\blur0.7\bord3\shad0\c&H000000&\3c&H000000&\alpha&HB8&\frz7.918\fsp-34.50}E{\frz7.529\fsp-24.80}p{\frz7.250\fsp-23.73}i{\frz6.982\fsp-33.42}s{\frz6.605\fsp-34.50}o{\frz6.216\fsp-32.90}d{\frz5.845\fsp-25.88}e{\frz5.553\fsp-28.55} {\frz5.231\fsp-37.72}2{\frz4.806\fsp-28.03}8{\frz4.490\fsp-18.87}:{\frz4.277\fsp-39.33} {\frz3.834\fsp-45.82}W{\frz3.317\fsp-25.88}e{\frz3.025\fsp-38.28} {\frz2.594\fsp-45.30}M{\frz2.083\fsp-33.42}a{\frz1.706\fsp-32.90}d{\frz1.335\fsp-25.88}e{\frz1.043\fsp-18.31} {\frz0.836\fsp-21.02}I{\frz0.600\fsp-20.49}t{\frz0.368\fsp-17.79}!{\frz0.168\fsp-29.11} {\frz359.840\fsp-33.45}D{\frz359.462\fsp-30.74}r{\frz359.116\fsp-34.76}a{\frz358.724\fsp-35.84}g{\frz358.320\fsp-34.50}o{\frz357.931\fsp-26.41}n{\frz357.633\fsp-29.11} {\frz357.305\fsp-36.13}S{\frz356.897\fsp-33.42}h{\frz356.520\fsp-34.50}a{\frz356.131\fsp-25.88}o{\frz355.840\fsp-16.19}l{\frz355.657\fsp-24.80}i{\frz355.377\fsp-26.41}n{\frz355.079\fsp-30.19} {\frz354.739\fsp-36.68}T{\frz354.325\fsp-41.52}e{\frz353.857\fsp-42.04}m{\frz353.383\fsp-24.80}p{\frz353.104\fsp-24.28}l{\frz352.830\fsp-24.28}e{\frz352.556\fsp-16.19}!{\frz352.373\fsp0.00}!
+Comment: 0,0:09:58.20,0:10:01.66,0$Default,,0,0,0,,== TS - Proverb 1 ==
+Dialogue: 1,0:09:58.20,0:10:01.66,0$Proverb,,0,0,0,,{\kf25\fs60\frz356.9\pos(1054,317)\c&HF3F0F3&\blur0.7\2a&HFF&}The tongue is{\kf21}\N{\kf45}the root of calamities.{\kf39}\N{\kf29}Bad breath is{\kf21}\N{\kf77}an abuse of power.{\kf89}
+Dialogue: 0,0:09:58.20,0:10:01.66,0$Proverb,,0,0,0,,{\kf25\fs60\frz356.9\c&H303332&\blur0.7\2a&HFF&\pos(1056,321)}The tongue is{\kf21}\N{\kf45}the root of calamities.{\kf39}\N{\kf29}Bad breath is{\kf21}\N{\kf77}an abuse of power.{\kf89}
+Dialogue: 1,0:10:01.00,0:10:01.66,0$Proverb,,0,0,0,,{\kf3\fs60\frz356.9\c&HF3F0F3&\blur0.7\2a&HFF&\pos(1212,383)}-Tome
+Dialogue: 0,0:10:01.00,0:10:01.66,0$Proverb,,0,0,0,,{\kf3\fs60\frz356.9\c&H303332&\blur0.7\2a&HFF&\pos(1214,387)}-Tome
+Comment: 0,0:12:08.33,0:12:12.54,0$Default,,0,0,0,,== TS - Shrine ==
+Dialogue: 3,0:12:08.33,0:12:12.54,0$MonsterName,,0,0,0,,{\c&H252525&\fscx145\fscy145\blur1\fade(500,0)\fnA-OTF TakaHand Std DB\b0\pos(960,723)}Darefalcon's Shrine
+Dialogue: 2,0:12:08.33,0:12:12.54,0$MonsterName,,0,0,0,,{\c&H656565&\fscx145\fscy145\blur1\bord2\fade(500,0)\3c&H656565&\fnA-OTF TakaHand Std DB\b0\pos(960,723)}Darefalcon's Shrine
+Dialogue: 1,0:12:08.33,0:12:12.54,0$MonsterName,,0,0,0,,{\c&H252525&\fscx145\fscy145\blur1\fade(500,0)\3c&HD4D0D4&\c&HD4D0D4&\bord8\fnA-OTF TakaHand Std DB\b0\pos(960,723)}Darefalcon's Shrine
+Dialogue: 0,0:12:08.33,0:12:12.54,0$MonsterName,,0,0,0,,{\3c&H344C6C&\c&H344C6C&\fscx145\fscy145\blur1\fade(500,0)\bord1\fnA-OTF TakaHand Std DB\b0\pos(970,735.4)}Darefalcon's Shrine
+Comment: 0,0:13:10.69,0:13:13.06,0$Default,,0,0,0,,== TS - Dragon Bros 1 ==
+Dialogue: 2,0:13:10.69,0:13:13.06,0$MonsterName,,0,0,0,,{\c&HDCAD6D&\fs150\frz347.4\pos(1525.39,236.31)\blur1\fad(300,0)}Bludo
+Dialogue: 1,0:13:10.69,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&H0C0C0C&\blur1\fad(350,0)}m 1374.71 152.72 l 1438.22 167.5 1472.16 159.84 1485.3 176.81 1495.16 172.98 1489.68 183.92 1503.37 180.09 1502.82 188.85 1504.47 189.4 1517.06 175.71 1565.24 190.49 1566.88 213.48 1576.18 199.8 1583.85 214.58 1587.13 197.61 1595.35 205.82 1611.81 191 1686.31 216.82 1672.54 218.86 1686.31 224.47 1680.7 235.69 1693.46 234.67 1689.38 313.24 1680.19 307.62 1672.54 327.52 1615.39 333.64 1576.1 321.91 1564.88 310.17 1518.96 313.24 1493.96 298.44 1474.06 304.05 1464.87 295.38 1465.89 305.58 1435.28 277.52 1392.93 285.18 1352.11 259.67 1353.13 202.02 m 1403.14 151.01 l 1451.61 149.99 1436.81 161.72 m 1678.66 327.01 l 1682.23 312.22 1688.87 317.83
+Dialogue: 0,0:13:10.69,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&HDCDCDC&\blur1\fad(350,0)}m 1360.28 148.97 l 1408.75 135.7 1485.79 152.54 1496.51 167.33 1544.47 166.31 1592.94 189.78 1615.39 178.55 1697.54 210.18 1713.36 243.85 1699.58 312.73 1682.23 338.23 1602.13 345.89 1556.21 319.87 1549.06 328.03 1454.67 308.13 1439.36 295.38 1389.87 294.36 1347.01 268.34 1338.34 218.35
+Dialogue: 2,0:13:11.27,0:13:13.06,0$MonsterName,,0,0,0,,{\c&H5155BB&\fs150\blur1\frz351.2\fsp-5\pos(1174,848.77)\fad(300,0)}Redra
+Dialogue: 1,0:13:11.27,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&H0C0C0C&\blur1\fad(350,0)}m 1014.75 777.76 l 1026.92 785.06 1029.84 773.38 1035.19 782.14 1042.49 767.05 1096.03 787.98 1104.3 814.75 1113.06 808.42 1118.9 817.18 1130.1 791.87 1175.85 786.03 1183.64 803.06 1194.34 794.3 1232.3 806.96 1221.11 808.42 1231.82 812.31 1229.87 823.02 1265.4 806.96 1313.1 823.51 1311.64 817.18 1324.29 821.56 1321.86 814.26 1352.52 833.73 1344.73 845.89 1354.46 845.41 1347.65 860.5 1355.44 857.09 1333.54 936.91 1280.97 948.1 1274.65 942.26 1272.21 948.1 1267.35 943.24 1265.4 949.08 1244.96 926.2 1251.77 909.65 1238.14 922.79 1184.12 926.2 1192.88 922.79 1162.71 927.17 1166.6 922.31 1118.42 918.9 1113.55 905.76 1099.44 908.68 1095.54 897 1090.68 902.35 1028.87 904.3 1009.4 889.7 m 1006.6 882.25 l 1008.36 830.62 997.09 869.89 m 1202.97 928.84 l 1239.58 926.94 1229.6 935.97
+Dialogue: 0,0:13:11.27,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&HDCDCDC&\blur1\fad(350,0)}m 1016.11 764.84 l 1062.23 759.14 1113.11 789.08 1137.83 777.2 1211.05 784.81 1242.44 807.62 1259.55 798.12 1330.88 803.82 1368.44 837.1 1344.46 933.18 1317.66 953.99 1264.83 956.03 1253.04 944.64 1202.64 934.48 1195.33 941.39 1104.69 924.73 1101.44 915.8 1018.33 914.92 988.73 878.49 994.14 799.38
+Dialogue: 2,0:13:11.85,0:13:13.06,0$MonsterName,,0,0,0,,{\c&H52B69D&\fs150\blur1\frz14.6\pos(422,246.77)\fad(300,0)}Gregon
+Dialogue: 1,0:13:11.85,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&H0C0C0C&\blur1\fad(350,0)}m 200.38 293.4 l 202.02 284.1 210.78 296.69 208.04 281.91 214.06 283.55 233.77 237.02 284.14 232.09 294.54 220.6 317.54 229.9 319.18 219.5 369.55 195.97 362.43 204.18 372.83 201.44 372.28 208.56 406.84 195.35 420.46 206.91 427.01 202.61 420.77 198.76 430.85 196.6 422.45 193 474.06 188.92 492.3 167.8 513.18 176.2 516.3 169 526.63 177.64 551.37 158.25 597.23 178.21 615.72 172.3 624.59 180.8 630.88 172.3 633.84 186.72 638.64 174.15 645.3 251.05 587.61 282.85 579.48 279.15 582.8 289.87 574.67 287.29 576.15 294.68 541.02 288.76 535.47 282.85 529.55 295.79 446.72 323.89 444.87 320.56 457.07 316.49 438.21 315.75 434.88 309.47 418.21 336.77 375.89 335.34 371.62 310.81 360.96 319.7 351.71 315.43 353.49 334.28 319.7 337.48 307.26 352.06 273.83 370.19 231.24 350.28 m 569.16 156.17 l 613.28 160.56 606.35 172.34 m 320.88 340.13 l 339.87 339.89 312.23 353.35
+Dialogue: 0,0:13:11.85,0:13:13.06,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\c&HDCDCDC&\blur1\fad(350,0)}m 191.73 281.65 l 228.69 224.89 315.98 211.5 370.39 184.76 413.23 186.02 474.54 170.06 489.24 158.3 521.99 161.24 559.79 144.45 640.84 155.37 656.31 237.13 644.57 273.52 578.04 303.65 546.73 302.09 476.08 329.93 437.84 330.31 416.86 349.66 346.51 339.6 328.59 360.58 265.52 380.87 221.81 357.39
+Comment: 0,0:13:15.32,0:13:18.11,0$Default,,0,0,0,,== TS - Dragon Bros 2 ==
+Dialogue: 2,0:13:15.32,0:13:18.11,0$MonsterName,,0,0,0,,{\c&H3B9DAF&\fs200\frz8.605\pos(800,726)\blur1\fad(350,0)}Dragon
+Dialogue: 2,0:13:15.32,0:13:18.11,0$MonsterName,,0,0,0,,{\c&H3B9DAF&\fs200\frz8.605\blur1\pos(1067.76,829.95)\fad(350,0)}Brothers
+Dialogue: 1,0:13:15.32,0:13:18.11,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H0C0C0C&\fad(400,0)}m 496.29 713.29 l 505.76 722.17 504.58 704.4 518.79 714.47 516.13 692.54 611.77 690.77 617.89 706.85 626.37 693.12 638.05 709.77 645.65 684.35 756.33 651.89 743.66 662.6 758.3 660.41 755.46 669.15 770.97 663.91 782.34 689.04 805.5 674.18 800.25 666.97 809 667.41 811.18 664.56 799.82 660.41 871.49 659.99 895.16 635.06 915.56 651.68 923.36 642.86 933.43 655.2 952.57 633.55 1020.22 662.77 1049.18 656.48 1063.45 668.23 1060.09 651.02 1099.96 700.13 1078.56 732.03 1081.2 751.15 1101.29 763.59 1129.67 760.4 1138.6 772.84 1143.71 762.95 1160.83 794.65 1207.76 773.6 1252.62 785.67 1260.91 761.18 1277.81 759.11 1264.01 752.89 1279.19 748.75 1264.36 742.2 1402.85 738.68 1402.25 759.66 1411.24 750.37 1425.02 815.69 1417.45 846.02 1428.69 839.39 1406.5 889.24 1337.61 880.34 1316.3 900.07 1290.65 900.07 1261.85 874.42 1220.02 897.7 1173.07 885.86 1171.49 897.7 1136.91 905.68 1131.46 921.93 1122.06 908.7 1101.39 937.52 1047.16 925.9 1024.77 909.11 1013.15 919.44 985.18 928.05 997.66 929.25 936.15 962.67 896.84 948.86 891.44 935.96 877.94 944.96 847.31 943.21 842.62 920.28 823.86 965.1 773.56 984.63 724.01 962 735.47 960 725.73 951.41 736.9 947.97 726.3 941.96 729.45 918.76 693.37 895.27 697.5 834.85 710.03 829.84 691.23 821.07 691.65 827.33 647.8 832.34 649.05 811.46 625.24 817.31 612.29 846.96 540.04 866.17 m 993.95 635.66 l 1041.42 647.53 1025.28 657.02 m 1305.94 732.51 l 1378.31 721.15 1371.15 727.33 1392.88 725.35 1398.56 733.99 m 842.17 933.32 l 843.45 954.61 829.82 962.06 m 685.23 844.07 l 688.02 908.33 674.05 901.19
+Dialogue: 0,0:13:15.32,0:13:18.11,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HE3E3E3&\fad(400,0)}m 508.24 675.62 l 637.66 676.03 746.07 638.11 787.7 658.31 797.18 642.85 916.36 622.91 932.36 636 982.91 616.36 1076.01 642.51 1112.43 705.91 1097.14 745.03 1153.8 748.18 1169.54 774.7 1244.18 751.77 1273.61 723.1 1403.41 714.9 1436.99 772.87 1436.78 868.81 1410.5 899.79 1358.53 895.53 1287.38 914.27 1258.42 892.54 1196.65 912.14 1149.36 907.88 1128.23 945.88 1040.71 944.09 1016.72 932.6 956.17 971.59 890.81 972.22 851.6 956.28 835.97 981.79 758.61 1000.61 712.65 967.5 706.86 943.07 667.97 902.25 665.56 849.97 647.76 842.43 557.38 884.54 523.27 864.35 481.11 734.35
+Comment: 0,0:14:29.89,0:14:32.18,0$Default,,0,0,0,,== TS - Proverb 2 ==
+Dialogue: 1,0:14:29.89,0:14:32.18,0$Proverb,,0,0,0,,{\kf75\fs60\frz356.9\c&HFCFEFE&\blur0.7\2a&HFF&\pos(1156,319)}Life is full of{\kf17}\N{\kf33}ups and downs.{\kf4}\N{\kf33}Underwear is{\kf5}\N{\kf36}full of colors.{\kf26}
+Dialogue: 0,0:14:29.89,0:14:32.18,0$Proverb,,0,0,0,,{\kf75\pos(1158,322.22)\fs60\frz356.9\c&H000000&\blur0.7\2a&HFF&}Life is full of{\kf17}\N{\kf33}ups and downs.{\kf4}\N{\kf33}Underwear is{\kf5}\N{\kf36}full of colors.{\kf26}
+Dialogue: 1,0:14:31.98,0:14:32.18,0$Proverb,,0,0,0,,{\fs60\frz356.9\c&HFCFEFE&\blur0.7\2a&HFF&\pos(1256,375)}-Tome
+Dialogue: 0,0:14:31.98,0:14:32.18,0$Proverb,,0,0,0,,{\fs60\frz356.9\c&H000000&\blur0.7\2a&HFF&\pos(1258,379)}-Tome
+Comment: 0,0:22:44.93,0:22:48.56,0$Default,,0,0,0,,== TS - POST-ED ==
+Dialogue: 1,0:22:44.93,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.93,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.56,0:23:09.95,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs110\3c&H1E1E1E&\shad0\pos(646,869.2)}Dragon Shaolin Temple
+Dialogue: 0,0:22:48.56,0:23:09.95,0$Take H,,0,0,0,,{\c&H030309&\bord4\blur1\fs110\3c&H030309&\shad0\pos(646,869.2)}Dragon Shaolin Temple
+Dialogue: 1,0:23:09.95,0:23:24.93,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:09.95,0:23:24.93,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:18.67,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(485,0)\pos(972,720)\c&HFFFFFF&\blur0.7}A Formidable Foe?! Here's Ninja Man Asura
+Dialogue: 1,0:23:18.67,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&H1EA900&\bord4\fade(485,0)\pos(972,720)\c&H1EA900&\blur0.7}A Formidable Foe?! Here's Ninja Man Asura
+Dialogue: 0,0:23:18.67,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(485,0)\blur15\pos(972,720)}A Formidable Foe?! Here's Ninja Man Asura
+Dialogue: 1,0:20:20.53,0:20:25.29,0$TSSLyricsEDRomanji,,0,0,0,,{\kf98\3c&H70BE0E&\2c&H537F17&\bord0}shobokure {\kf40}gao {\kf16}no {\kf70}mobukyara {\kf54}domo {\kf110}ga{\kf87}
+Dialogue: 0,0:20:20.53,0:20:25.29,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}shobokure gao no mobukyara domo ga
+Dialogue: 1,0:20:20.53,0:20:25.29,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}On and on these tired old NPCs
+Dialogue: 0,0:20:20.53,0:20:25.29,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}On and on these tired old NPCs
+Dialogue: 1,0:20:25.29,0:20:30.21,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&H70BE0E&\2c&H537F17&\bord0}iiwake {\kf118}shinagara {\kf40}aru{\kf32}ite{\kf90}ru{\kf93}
+Dialogue: 0,0:20:25.29,0:20:30.21,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}iiwake shinagara aruiteru
+Dialogue: 1,0:20:25.29,0:20:30.21,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Keep walking around excusing themselves
+Dialogue: 0,0:20:25.29,0:20:30.21,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Keep walking around excusing themselves
+Dialogue: 1,0:20:30.21,0:20:35.09,0$TSSLyricsEDRomanji,,0,0,0,,{\kf91\3c&H70BE0E&\2c&H537F17&\bord0}itsumo {\kf36}mi{\kf66}teiru {\kf118}michisuga{\kf80}ra{\kf101}
+Dialogue: 0,0:20:30.21,0:20:35.09,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}itsumo miteiru michisugara
+Dialogue: 1,0:20:30.21,0:20:35.09,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}As I took the same old path again
+Dialogue: 0,0:20:30.21,0:20:35.09,0$TSSLyricsEDEng,,0,0,0,,{\1c&H70BE0E&\3c&H1D83E8&\4c&H1D83E8&}As I took the same old path again
+Dialogue: 1,0:20:35.09,0:20:40.30,0$TSSLyricsEDRomanji,,0,0,0,,{\kf63\3c&H70BE0E&\2c&H537F17&\bord0}mita {\kf66}koto {\kf24}mo {\kf76}nai {\kf76}wakuwaku {\kf26}wo {\kf28}mi{\kf118}ta{\kf41}
+Dialogue: 0,0:20:35.09,0:20:40.30,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}mita koto mo nai wakuwaku wo mita
+Dialogue: 1,0:20:35.09,0:20:40.30,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}I found the thrill I've sought for my whole life
+Dialogue: 0,0:20:35.09,0:20:40.30,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}I found the thrill I've sought for my whole life
+Dialogue: 1,0:20:40.30,0:20:45.31,0$TSSLyricsEDRomanji,,0,0,0,,{\kf29\kf66\3c&HDD8623&\2c&H9C6521&\bord0\4c&H3C2116&}itsumade {\kf64}shibon{\kf30}da {\kf28}mama {\kf26}na{\kf66}no{\kf195}
+Dialogue: 0,0:20:40.30,0:20:45.31,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}itsumade shibonda mama nano
+Dialogue: 1,0:20:40.30,0:20:45.31,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}Just how long will I keep drooping around like this?
+Dialogue: 0,0:20:40.30,0:20:45.31,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}Just how long will I keep drooping around like this?
+Dialogue: 1,0:20:45.31,0:20:49.39,0$TSSLyricsEDRomanji,,0,0,0,,{\kf17\kf76\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}minikui {\kf58}ahiru {\kf24}no {\kf26}mama {\kf26}na{\kf78}no{\kf104}
+Dialogue: 0,0:20:45.31,0:20:49.39,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}minikui ahiru no mama nano
+Dialogue: 1,0:20:45.31,0:20:49.39,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}How long will I stay an ugly duckling?
+Dialogue: 0,0:20:45.31,0:20:49.39,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}How long will I stay an ugly duckling?
+Dialogue: 1,0:20:49.39,0:20:52.48,0$TSSLyricsEDRomanji,,0,0,0,,{\kf34\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}ima {\kf24}no {\kf66}rebe{\kf36}ru {\kf30}wa {\kf34}ichi {\kf85}dakedo
+Dialogue: 0,0:20:49.39,0:20:52.48,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima no reberu wa ichi dakedo
+Dialogue: 1,0:20:49.39,0:20:52.48,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}I'm still only level one
+Dialogue: 0,0:20:49.39,0:20:52.48,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}I'm still only level one
+Dialogue: 1,0:20:52.48,0:20:59.74,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}i{\kf44}ma {\kf24}ni {\kf62}mitero {\kf38}yo {\kf68}sono {\kf98}uchi{\kf36} {\kf62}JUMP {\kf142}UP{\kf80}
+Dialogue: 0,0:20:52.48,0:20:59.74,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima ni mitero yo sono uchi JUMP UP
+Dialogue: 1,0:20:52.48,0:20:59.74,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}But watch me, soon I'll jump up
+Dialogue: 0,0:20:52.48,0:20:59.74,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}But watch me, soon I'll jump up
+Dialogue: 1,0:20:59.74,0:21:04.79,0$TSSLyricsEDRomanji,,0,0,0,,{\kf146\3c&H342035&\2c&H501F4F&\bord0\4c&H342035&}sai{\kf48}kin {\kf46}no{\kf20} {\kf100}wakai {\kf52}mon {\kf38}wa {\kf59}tte
+Dialogue: 0,0:20:59.74,0:21:04.79,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}saikin no wakai mon wa tte
+Dialogue: 1,0:20:59.74,0:21:04.79,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}"Why, kids these days..."
+Dialogue: 0,0:20:59.74,0:21:04.79,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}"Why, kids these days..."
+Dialogue: 1,0:21:04.79,0:21:09.71,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}toshiyori {\kf44}domo {\kf28}ga {\kf48}boyai {\kf40}teru {\kf20}ke{\kf86}do{\kf159}
+Dialogue: 0,0:21:04.79,0:21:09.71,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}toshiyori domo ga boyai teru kedo
+Dialogue: 1,0:21:04.79,0:21:09.71,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}...Our old boomers grumble and complain
+Dialogue: 0,0:21:04.79,0:21:09.71,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}...Our old boomers grumble and complain
+Dialogue: 1,0:21:09.71,0:21:14.67,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}soro {\kf100}soro{\kf32} {\kf60}omei {\kf94}henjou {\kf60}da{\kf31}
+Dialogue: 0,0:21:09.71,0:21:14.67,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}soro soro omei henjou da
+Dialogue: 1,0:21:09.71,0:21:14.67,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}But it's not too late to clear my name
+Dialogue: 0,0:21:09.71,0:21:14.67,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}But it's not too late to clear my name
+Dialogue: 1,0:21:14.67,0:21:17.26,0$TSSLyricsEDRomanji,,0,0,0,,{\kf110\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}iya ga ou ni {\kf25}mo {\kf72}mattanashi {\kf56}daze
+Dialogue: 0,0:21:14.67,0:21:17.26,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}iya ga ou ni mo mattanashi daze
+Dialogue: 1,0:21:14.67,0:21:17.26,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I might not like it, but I can't wait any longer
+Dialogue: 0,0:21:14.67,0:21:17.26,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I might not like it, but I can't wait any longer
+Dialogue: 1,0:21:17.26,0:21:23.39,0$TSSLyricsEDRomanji,,0,0,0,,{\kf28\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}ketsu {\kf28}no {\kf26}ana {\kf36}kara {\kf94}jetto{\kf26} {\kf102}funsha{\kf32} {\kf241}daaa
+Dialogue: 0,0:21:17.26,0:21:23.39,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}ketsu no ana kara jetto funsha daaa
+Dialogue: 1,0:21:17.26,0:21:23.39,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I gotta blast free from my cowardly shell!!
+Dialogue: 0,0:21:17.26,0:21:23.39,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I gotta blast free from my cowardly shell!!
+Dialogue: 1,0:21:23.39,0:21:28.23,0$TSSLyricsEDRomanji,,0,0,0,,{\kf59\3c&H76B118&\2c&H537323&\bord0}ore {\kf28}wa {\kf106}itsuka{\kf46} {\kf60}hana {\kf50}ni {\kf32}na{\kf68}ru{\kf35}
+Dialogue: 0,0:21:23.39,0:21:28.23,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}ore wa itsuka hana ni naru
+Dialogue: 1,0:21:23.39,0:21:28.23,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Give me time and I'll bloom like a flower
+Dialogue: 0,0:21:23.39,0:21:28.23,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Give me time and I'll bloom like a flower
+Dialogue: 1,0:21:28.23,0:21:33.19,0$TSSLyricsEDRomanji,,0,0,0,,{\kf61\3c&H76B118&\2c&H537323&\bord0}sora {\kf36}ni {\kf52}nobi{\kf58}ru{\kf38} {\kf70}hana {\kf36}ni {\kf38}na{\kf64}ru{\kf43}
+Dialogue: 0,0:21:28.23,0:21:33.19,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}sora ni nobiru hana ni naru
+Dialogue: 1,0:21:28.23,0:21:33.19,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}A flower spread out to the sky
+Dialogue: 0,0:21:28.23,0:21:33.19,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}A flower spread out to the sky
+Dialogue: 1,0:21:33.19,0:21:40.82,0$TSSLyricsEDRomanji,,0,0,0,,{\kf69\3c&H76B118&\2c&H537323&\fade(0,500)\bord0}kimi {\kf22}ni {\kf56}todo{\kf50}ku{\kf38} {\kf80}ha{\kf62}na {\kf62}ni {\kf56}na{\kf18}r{\kf251}u
+Dialogue: 0,0:21:33.19,0:21:40.82,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&\fade(0,500)}kimi ni todoku hana ni naru
+Dialogue: 1,0:21:33.19,0:21:40.82,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&\fade(0,500)}The flower that reaches you
+Dialogue: 0,0:21:33.19,0:21:40.82,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&\fade(0,500)}The flower that reaches you
+

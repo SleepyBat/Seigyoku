@@ -1,0 +1,803 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: Songs,Nunito,83,&H00FCFCFA,&H000000FF,&H000A0A0A,&H82000000,-1,0,0,0,100,100,0,0,1,0,0,2,167,167,167,1
+Style: Karaoke (ED1),Conformity,105,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,0,7,75,75,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:38.02,0:01:40.64,Default,,0,0,0,,Aw man, another rainy day...
+Dialogue: 0,0:01:44.90,0:01:45.42,Default,,0,0,0,,What?!
+Dialogue: 0,0:01:47.99,0:01:49.86,Default,,0,0,0,,Look at me!
+Dialogue: 0,0:01:49.86,0:01:53.47,Default,,0,0,0,,Who do you think I am?\NAnd what about you?
+Dialogue: 0,0:01:54.95,0:01:57.68,Default,,0,0,0,,It's so refreshing after rainfall!
+Dialogue: 0,0:02:00.04,0:02:01.56,Default,,0,0,0,,Hey, Brown!
+Dialogue: 0,0:02:01.56,0:02:03.95,Default,,0,0,0,,What are ya up to out here?
+Dialogue: 0,0:02:04.80,0:02:05.56,Default,,0,0,0,,What's that?
+Dialogue: 0,0:02:06.00,0:02:07.33,Default,,0,0,0,,An iron ball?
+Dialogue: 0,0:02:07.33,0:02:09.00,Default,,0,0,0,,Or is it bronze?
+Dialogue: 0,0:02:12.93,0:02:13.99,Default,,0,0,0,,Mud?
+Dialogue: 0,0:02:13.99,0:02:14.91,Default,,0,0,0,,A mud ball?
+Dialogue: 0,0:02:15.37,0:02:17.05,Default,,0,0,0,,Nah, you're joshing me.
+Dialogue: 0,0:02:17.05,0:02:19.64,Default,,0,0,0,,That's obviously gotta be some sort of metal.
+Dialogue: 0,0:02:21.02,0:02:23.94,Default,,0,0,0,,I mean, look at it! It's all smooth and shiny!
+Dialogue: 0,0:02:23.94,0:02:26.08,Default,,0,0,0,,Though it's sorta light for metal.
+Dialogue: 0,0:02:26.57,0:02:29.15,Default,,0,0,0,,A ball of mud can't look this polished.
+Dialogue: 0,0:02:29.15,0:02:31.05,Default,,0,0,0,,Where on earth did you find this?
+Dialogue: 0,0:02:32.03,0:02:32.81,Default,,0,0,0,,What?
+Dialogue: 0,0:02:32.81,0:02:35.11,Default,,0,0,0,,You rolled that soil into this ball?
+Dialogue: 0,0:02:37.04,0:02:38.87,Default,,0,0,0,,That's a good one.
+Dialogue: 0,0:02:38.87,0:02:42.23,Default,,0,0,0,,There's no way you made such a clean ball\Njust by rolling mud!
+Dialogue: 0,0:02:46.67,0:02:47.25,Default,,0,0,0,,...No way.
+Dialogue: 0,0:02:48.84,0:02:51.08,Default,,0,0,0,,It really {\i1}is{\i0} made of mud!
+Dialogue: 0,0:02:52.18,0:02:54.57,Default,,0,0,0,,Oh, sorry, uh...
+Dialogue: 0,0:02:55.64,0:02:57.42,Default,,0,0,0,,You can just make another one?!
+Dialogue: 0,0:03:02.77,0:03:04.97,Default,,0,0,0,,My word... You're an artisan.
+Dialogue: 0,0:03:04.97,0:03:06.83,Default,,0,0,0,,I'm watching an artisan at work!
+Dialogue: 0,0:03:07.44,0:03:09.99,Default,,0,0,0,,Master! That is, Mud Ball Master!
+Dialogue: 0,0:03:09.99,0:03:12.61,Default,,0,0,0,,Please make me your apprentice!
+Dialogue: 0,0:03:12.61,0:03:18.80,Default,,0,0,0,,I moon-st know your ways of making\Nsuch beautiful mud balls!
+Dialogue: 0,0:03:19.54,0:03:22.10,Default,,0,0,0,,Thank you very moon-ch!
+Dialogue: 0,0:03:24.08,0:03:25.42,Default,,0,0,0,,So, what first?
+Dialogue: 0,0:03:25.42,0:03:28.52,Default,,0,0,0,,Knead the soil like clay.\NKnead, knead, knead.
+Dialogue: 0,0:03:29.01,0:03:33.42,Default,,0,0,0,,Then grip it firmly\Nto squeeze out the water.
+Dialogue: 0,0:03:41.89,0:03:45.37,Default,,0,0,0,,Sprinkle some dry soil on it...
+Dialogue: 0,0:03:45.37,0:03:48.89,Default,,0,0,0,,and shape it into a nice, round ball.
+Dialogue: 0,0:03:50.57,0:03:53.90,Default,,0,0,0,,Master, it's not getting any rounder!
+Dialogue: 0,0:03:56.12,0:03:58.53,Default,,0,0,0,,I need to have patience?
+Dialogue: 0,0:03:59.45,0:04:01.52,Default,,0,0,0,,Take it one step at a time...
+Dialogue: 0,0:04:01.52,0:04:05.29,Default,,0,0,0,,Devote myself, have patience,\Nmake it nice and round...
+Dialogue: 0,0:04:05.29,0:04:08.56,Default,,0,0,0,,Make it roooound...
+Dialogue: 0,0:04:11.84,0:04:13.34,Default,,0,0,0,,I got impatient.
+Dialogue: 0,0:04:13.34,0:04:14.79,Default,,0,0,0,,Lesson learned.
+Dialogue: 0,0:04:16.09,0:04:18.71,Default,,0,0,0,,May as well make it a big one\Nwhile I'm at it!
+Dialogue: 0,0:04:22.81,0:04:23.70,Default,,0,0,0,,What's that?
+Dialogue: 0,0:04:23.70,0:04:25.02,Default,,0,0,0,,I shouldn't be greedy?
+Dialogue: 0,0:04:25.02,0:04:26.64,Default,,0,0,0,,G-Got it.
+Dialogue: 0,0:04:27.81,0:04:30.12,Default,,0,0,0,,Huh? Free myself of my inhibitions?
+Dialogue: 0,0:04:30.12,0:04:32.92,Default,,0,0,0,,Empty my mind and focus on rolling it into a ball...
+Dialogue: 0,0:04:34.20,0:04:36.63,Default,,0,0,0,,Becoming an artisan is real tough!
+Dialogue: 0,0:04:42.37,0:04:43.95,Default,,0,0,0,,I did it!
+Dialogue: 0,0:04:46.46,0:04:47.86,Default,,0,0,0,,Say, Master.
+Dialogue: 0,0:04:47.86,0:04:51.27,Default,,0,0,0,,I got the round part down,\Nbut it doesn't look very smooth or shiny.
+Dialogue: 0,0:04:53.63,0:04:55.73,Default,,0,0,0,,Start polishing it with a cloth?
+Dialogue: 0,0:04:56.15,0:04:58.65,Default,,0,0,0,,Geez, no way!
+Dialogue: 0,0:04:58.65,0:05:01.61,Default,,0,0,0,,Becoming an artisan is no feeble task,\Nis it, Master?
+Dialogue: 0,0:05:23.49,0:05:25.76,Default,,0,0,0,,It's finished! Master, look at this!
+Dialogue: 0,0:05:28.62,0:05:30.04,Default,,0,0,0,,After all these years,
+Dialogue: 0,0:05:30.04,0:05:33.19,Default,,0,0,0,,I've finally become a mud ball artisan of my own!
+Dialogue: 0,0:05:33.65,0:05:35.66,Default,,0,0,0,,Hear that, Ma?!
+Dialogue: 0,0:05:39.14,0:05:39.61,Default,,0,0,0,,Hm?
+Dialogue: 0,0:05:42.97,0:05:45.80,Default,,0,0,0,,You want me to roll the mud ball\Ndown this slide?
+Dialogue: 0,0:05:56.28,0:05:58.69,Default,,0,0,0,,Did you see that?\NThat was marvelous!
+Dialogue: 0,0:05:59.20,0:05:59.81,Default,,0,0,0,,What?!
+Dialogue: 0,0:06:15.05,0:06:16.16,Default,,0,0,0,,I was naïve...
+Dialogue: 0,0:06:16.59,0:06:19.21,Default,,0,0,0,,My mud balls still have\Na long way to go...
+Dialogue: 0,0:06:19.21,0:06:23.92,Default,,0,0,0,,The path to being a mud ball artisan\Nis not kind to my inexperience.
+Dialogue: 0,0:06:25.60,0:06:28.04,Default,,0,0,0,,But I won't give up, Pa!
+Dialogue: 0,0:06:28.04,0:06:31.62,Default,,0,0,0,,Not until I've become a shining star\Namong mud ball makers!
+Dialogue: 0,0:06:34.69,0:06:36.58,Default,,0,0,0,,I'll have to start from square one!
+Dialogue: 0,0:06:37.40,0:06:39.71,Default,,0,0,0,,Watch me, Master!
+Dialogue: 0,0:06:39.71,0:06:44.53,Default,,0,0,0,,I'll make an even better mud ball than yours—\Nthe {\i1}ultimate{\i0} mud ball!
+Dialogue: 0,0:06:46.04,0:06:48.97,Default,,0,0,0,,Jessica, did you see Sally's text?
+Dialogue: 0,0:06:49.24,0:06:54.06,Default,,0,0,0,,Yeah, she invited us to have dinner\Nat her place tonight!
+Dialogue: 0,0:06:54.06,0:06:57.45,Default,,0,0,0,,I wonder what kind of food she's making!
+Dialogue: 0,0:06:57.45,0:06:58.82,Default,,0,0,0,,Could it be Italian?
+Dialogue: 0,0:06:58.82,0:07:00.42,Default,,0,0,0,,What about French?
+Dialogue: 0,0:07:00.42,0:07:02.05,Default,,0,0,0,,I can't wait!
+Dialogue: 0,0:07:02.05,0:07:04.64,Default,,0,0,0,,I could go for Chinese\Nor Japanese too!
+Dialogue: 0,0:07:04.64,0:07:06.39,Default,,0,0,0,,Oh, did you know?
+Dialogue: 0,0:07:06.39,0:07:09.91,Default,,0,0,0,,Apparently German chocolate cake\Nisn't German at all!
+Dialogue: 0,0:07:09.91,0:07:14.69,Default,,0,0,0,,It's an American cake named after Samuel German!
+Dialogue: 0,0:07:14.69,0:07:17.28,Default,,0,0,0,,Oh, now I'm craving German chocolate cake!
+Dialogue: 0,0:07:17.28,0:07:18.57,Default,,0,0,0,,Well, not really.
+Dialogue: 0,0:07:18.57,0:07:20.55,Default,,0,0,0,,Cony, you'll gain your weight back like that.
+Dialogue: 0,0:07:20.55,0:07:22.28,Default,,0,0,0,,Hey, Moon, Brown!
+Dialogue: 0,0:07:22.28,0:07:24.59,Default,,0,0,0,,Are you two gonna be there too?
+Dialogue: 0,0:07:27.37,0:07:29.70,Default,,0,0,0,,Why are you ignoring me?!
+Dialogue: 0,0:07:29.70,0:07:30.58,Default,,0,0,0,,Quiet.
+Dialogue: 0,0:07:30.58,0:07:32.07,Default,,0,0,0,,Don't get in our way.
+Dialogue: 0,0:07:32.07,0:07:33.79,Default,,0,0,0,,Rude much?
+Dialogue: 0,0:07:33.79,0:07:35.24,Default,,0,0,0,,What are you up to?
+Dialogue: 0,0:07:35.24,0:07:39.08,Default,,0,0,0,,We are busy crafting.
+Dialogue: 0,0:07:39.08,0:07:40.21,Default,,0,0,0,,Crafting?
+Dialogue: 0,0:07:40.21,0:07:41.95,Default,,0,0,0,,Crafting what exactly?
+Dialogue: 0,0:07:41.95,0:07:42.93,Default,,0,0,0,,Mud balls.
+Dialogue: 0,0:07:42.93,0:07:44.34,Default,,0,0,0,,Mud balls?
+Dialogue: 0,0:07:44.34,0:07:44.78,Default,,0,0,0,,Look.
+Dialogue: 0,0:07:45.34,0:07:46.35,Default,,0,0,0,,It's certainly mud.
+Dialogue: 0,0:07:46.35,0:07:47.38,Default,,0,0,0,,And it is a ball.
+Dialogue: 0,0:07:47.38,0:07:48.55,Default,,0,0,0,,Got that right!
+Dialogue: 0,0:07:48.55,0:07:51.24,Default,,0,0,0,,So, what are you making them for?
+Dialogue: 0,0:07:51.60,0:07:52.27,Default,,0,0,0,,I'm sorry?
+Dialogue: 0,0:07:52.27,0:07:53.94,Default,,0,0,0,,Well, you can't eat them.
+Dialogue: 0,0:07:53.94,0:07:55.37,Default,,0,0,0,,Of course not!
+Dialogue: 0,0:07:55.37,0:07:57.21,Default,,0,0,0,,So what {\i1}are{\i0} they for?
+Dialogue: 0,0:07:57.82,0:07:59.68,Default,,0,0,0,,Uh, what was it for again...?
+Dialogue: 0,0:08:01.32,0:08:03.44,Default,,0,0,0,,They serve their own purpose!
+Dialogue: 0,0:08:04.38,0:08:06.37,Default,,0,0,0,,That's disgusting!
+Dialogue: 0,0:08:06.37,0:08:09.80,Default,,0,0,0,,It's that "disgusting" mud\Nwhich gives birth to a beautiful mud ball!
+Dialogue: 0,0:08:10.24,0:08:12.01,Default,,0,0,0,,This is what all men dream of!
+Dialogue: 0,0:08:12.54,0:08:13.61,Default,,0,0,0,,Right, Brown?
+Dialogue: 0,0:08:14.87,0:08:16.13,Default,,0,0,0,,Beautiful, you say?
+Dialogue: 0,0:08:16.13,0:08:18.62,Default,,0,0,0,,It just looks gross to me.
+Dialogue: 0,0:08:18.62,0:08:20.48,Default,,0,0,0,,It hasn't become beautiful yet!
+Dialogue: 0,0:08:21.34,0:08:24.71,Default,,0,0,0,,We're about to give it the ultimate beauty treatment!
+Dialogue: 0,0:08:26.84,0:08:27.85,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,0:08:27.85,0:08:29.36,Default,,0,0,0,,Well, have fun with that.
+Dialogue: 0,0:08:29.36,0:08:30.16,Default,,0,0,0,,Later!
+Dialogue: 0,0:08:34.52,0:08:36.58,Default,,0,0,0,,Those girls just don't get it.
+Dialogue: 0,0:08:37.31,0:08:40.51,Default,,0,0,0,,I'm going to make the ultimate\Nbeautiful mud ball.
+Dialogue: 0,0:08:40.51,0:08:46.44,Default,,0,0,0,,It'll be as beautiful as the\Nfull moon in the night sky.
+Dialogue: 0,0:08:47.95,0:08:48.76,Default,,0,0,0,,Full moon?!
+Dialogue: 0,0:08:51.83,0:08:53.33,Default,,0,0,0,,I'd like this, please!
+Dialogue: 0,0:08:53.33,0:08:57.25,Default,,0,0,0,,Sir, we have these smaller packets\Nfor home use.
+Dialogue: 0,0:08:57.25,0:08:58.25,Default,,0,0,0,,I want this.
+Dialogue: 0,0:08:58.25,0:08:59.96,Default,,0,0,0,,Why, though?
+Dialogue: 0,0:08:59.96,0:09:01.02,Default,,0,0,0,,Dreams, that's why!
+Dialogue: 0,0:09:01.02,0:09:01.73,Default,,0,0,0,,Beams?
+Dialogue: 0,0:09:02.16,0:09:03.37,Default,,0,0,0,,Dreams!
+Dialogue: 0,0:09:03.37,0:09:05.19,Default,,0,0,0,,And I've got big ones!
+Dialogue: 0,0:09:08.64,0:09:10.05,Default,,0,0,0,,Check this out, Brown.
+Dialogue: 0,0:09:10.05,0:09:13.51,Default,,0,0,0,,I'm gonna make a special mud ball.
+Dialogue: 0,0:09:13.51,0:09:16.43,Default,,0,0,0,,The ultimate mud ball: Moon Special!
+Dialogue: 0,0:09:23.98,0:09:24.88,Default,,0,0,0,,It's done!
+Dialogue: 0,0:09:25.82,0:09:26.86,Default,,0,0,0,,Behold!
+Dialogue: 0,0:09:26.86,0:09:30.12,Default,,0,0,0,,My round ball, beautiful and white\Nas the full moon!
+Dialogue: 0,0:09:30.12,0:09:32.58,Default,,0,0,0,,The ultimate mud ball: Moon Special!
+Dialogue: 0,0:09:32.58,0:09:34.85,Default,,0,0,0,,The salty version!
+Dialogue: 0,0:09:36.62,0:09:37.53,Default,,0,0,0,,Wow!
+Dialogue: 0,0:09:37.53,0:09:39.74,Default,,0,0,0,,The Brown Special is beautiful as well!
+Dialogue: 0,0:09:40.21,0:09:41.77,Default,,0,0,0,,My Moon Special!
+Dialogue: 0,0:09:41.77,0:09:43.65,Default,,0,0,0,,Your Brown Special!
+Dialogue: 0,0:09:43.65,0:09:45.77,Default,,0,0,0,,Which one will come out on top?
+Dialogue: 0,0:09:48.51,0:09:50.19,Default,,0,0,0,,Ready, go!
+Dialogue: 0,0:09:52.89,0:09:55.01,Default,,0,0,0,,Look at that! They're neck-in-neck!
+Dialogue: 0,0:10:32.26,0:10:33.01,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:33.01,0:10:35.61,Default,,0,0,0,,Moon, Brown, what are you two doing?
+Dialogue: 0,0:10:36.47,0:10:39.45,Default,,0,0,0,,We... We were just...
+Dialogue: 0,0:10:39.45,0:10:42.58,Default,,0,0,0,,...reflecting on how fleeting life is.
+Dialogue: 0,0:10:42.91,0:10:43.68,Default,,0,0,0,,What..?
+Dialogue: 0,0:10:44.44,0:10:45.90,Default,,0,0,0,,What's gotten into you guys?
+Dialogue: 0,0:10:45.90,0:10:48.03,Default,,0,0,0,,Are you poets now or something?
+Dialogue: 0,0:10:48.03,0:10:51.03,Default,,0,0,0,,Anyways, did you get Sally's text?
+Dialogue: 0,0:10:51.03,0:10:51.69,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:53.20,0:10:55.01,Default,,0,0,0,,What's wrong with them?
+Dialogue: 0,0:10:55.41,0:10:59.54,Default,,0,0,0,,They keep talking about\Nwhat men dream of.
+Dialogue: 0,0:10:59.54,0:11:01.50,Default,,0,0,0,,But I don't understand.
+Dialogue: 0,0:11:01.50,0:11:04.59,Default,,0,0,0,,Maybe it doesn't matter, then.
+Dialogue: 0,0:11:04.59,0:11:05.98,Default,,0,0,0,,Who else is hungry?
+Dialogue: 0,0:11:06.53,0:11:09.32,Default,,0,0,0,,Okay! It's time for us to make dinner!
+Dialogue: 0,0:11:09.70,0:11:12.65,Default,,0,0,0,,Huh? You're not making it?
+Dialogue: 0,0:11:13.08,0:11:16.33,Default,,0,0,0,,It's more fun if we do it together!
+Dialogue: 0,0:11:16.33,0:11:20.18,Default,,0,0,0,,Cony and Jessica, I want you to\Ncut the vegetables for the salad.
+Dialogue: 0,0:11:20.18,0:11:21.12,Default,,0,0,0,,Okay!
+Dialogue: 0,0:11:21.75,0:11:24.19,Default,,0,0,0,,Boys, I want you to knead the hamburger meat!
+Dialogue: 0,0:11:24.19,0:11:25.37,Default,,0,0,0,,Okay!
+Dialogue: 0,0:11:26.65,0:11:27.98,Default,,0,0,0,,Nice and round!
+Dialogue: 0,0:11:28.78,0:11:30.19,Default,,0,0,0,,We can get even rounder!
+Dialogue: 0,0:11:30.19,0:11:34.55,Default,,0,0,0,,Guys, burgers are supposed to be flat, not round!\NLike this!
+Dialogue: 0,0:11:34.55,0:11:35.95,Default,,0,0,0,,Oh, no...
+Dialogue: 0,0:11:35.95,0:11:38.05,Default,,0,0,0,,It's not going to cook well\Nif you keep kneading it like that...
+Dialogue: 0,0:11:38.43,0:11:41.12,Default,,0,0,0,,Quiet! Stay out of our way!
+Dialogue: 0,0:11:41.12,0:11:42.77,Default,,0,0,0,,Hamburgers are what all men dream of!
+Dialogue: 0,0:11:43.27,0:11:44.79,Default,,0,0,0,,Are the burgers ready yet?
+Dialogue: 0,0:11:44.79,0:11:46.46,Default,,0,0,0,,I'm hungry...
+Dialogue: 0,0:11:46.46,0:11:48.44,Default,,0,0,0,,I know, but these guys...
+Dialogue: 0,0:11:48.84,0:11:52.28,Default,,0,0,0,,Alright, I'm gonna make the ultimate,\Nperfectly-round hamburger!
+Dialogue: 0,0:11:52.28,0:11:53.90,Default,,0,0,0,,The Moon Special!
+Dialogue: 0,0:11:54.32,0:11:58.59,Default,,0,0,0,,Knead-knead, knead-knead, knead-knead!
+Dialogue: 0,0:12:05.60,0:12:08.43,Default,,0,0,0,,Yes, I finally got one!
+Dialogue: 0,0:12:08.43,0:12:10.79,Default,,0,0,0,,A ticket to the Silk5's dream concert!
+Dialogue: 0,0:12:10.79,0:12:14.05,Default,,0,0,0,,And it was the last one in stock!\N{\i1}And{\i0} it's a front row seat!
+Dialogue: 0,0:12:14.05,0:12:16.94,Default,,0,0,0,,I can't believe I get to meet them in person!
+Dialogue: 0,0:12:18.16,0:12:19.82,Default,,0,0,0,,Yippee!
+Dialogue: 0,0:12:21.04,0:12:22.95,Default,,0,0,0,,Huh? What's Moon texting about?
+Dialogue: 0,0:12:22.95,0:12:26.58,Default,,0,0,0,,"Don't be late to the bus tour\Ntomorrow, you hear?"
+Dialogue: 0,0:12:26.58,0:12:29.73,Default,,0,0,0,,Please, you don't gotta remind me.
+Dialogue: 0,0:12:31.42,0:12:32.33,Default,,0,0,0,,Tomorrow?
+Dialogue: 0,0:12:33.51,0:12:35.28,Default,,0,0,0,,Whaaaat?!
+Dialogue: 0,0:12:35.59,0:12:39.46,Default,,0,0,0,,What? No way! Huh? Oh, no, oh no!
+Dialogue: 0,0:12:42.02,0:12:45.64,Default,,0,0,0,,Play with the dolphins,\Na day-trip bus tour of the aquarium...
+Dialogue: 0,0:12:45.64,0:12:47.55,Default,,0,0,0,,It really {\i1}is{\i0} tomorrow...
+Dialogue: 0,0:12:48.81,0:12:50.02,Default,,0,0,0,,What do I do now?
+Dialogue: 0,0:12:55.07,0:12:55.99,Default,,0,0,0,,She's late!
+Dialogue: 0,0:12:55.99,0:12:58.45,Default,,0,0,0,,Wasn't she the one who picked this out?
+Dialogue: 0,0:12:58.45,0:13:02.57,Default,,0,0,0,,I had a feeling this would happen,\Nso I sent her a text, and she {\i1}still{\i0} forgot!
+Dialogue: 0,0:13:05.25,0:13:06.18,Default,,0,0,0,,It's Cony!
+Dialogue: 0,0:13:06.79,0:13:08.46,Default,,0,0,0,,Hey, we're waiting for you!
+Dialogue: 0,0:13:08.46,0:13:09.39,Default,,0,0,0,,Where are you?
+Dialogue: 0,0:13:09.76,0:13:12.09,Default,,0,0,0,,I think I have a cold...
+Dialogue: 0,0:13:12.09,0:13:15.12,Default,,0,0,0,,I woke up this morning with a fever\Nand a cough...
+Dialogue: 0,0:13:15.93,0:13:17.64,Default,,0,0,0,,{\i1}Aw! Are you alright?
+Dialogue: 0,0:13:17.64,0:13:20.01,Default,,0,0,0,,I think it'll get better with some rest.
+Dialogue: 0,0:13:20.01,0:13:24.62,Default,,0,0,0,,Sorry! Please play with the dolphins for me, okay?
+Dialogue: 0,0:13:25.09,0:13:27.18,Default,,0,0,0,,We will! Take care, okay?
+Dialogue: 0,0:13:27.81,0:13:29.33,Default,,0,0,0,,She's staying home with a cold.
+Dialogue: 0,0:13:29.77,0:13:31.67,Default,,0,0,0,,Say what?
+Dialogue: 0,0:13:31.67,0:13:34.11,Default,,0,0,0,,I can see dolphins any day,
+Dialogue: 0,0:13:34.11,0:13:37.63,Default,,0,0,0,,but meeting Silk5 in person\Nis a once-in-a-lifetime experience!
+Dialogue: 0,0:13:38.36,0:13:39.11,Default,,0,0,0,,All done!
+Dialogue: 0,0:13:39.11,0:13:41.09,Default,,0,0,0,,Cheering fan, finished!
+Dialogue: 0,0:13:41.83,0:13:43.39,Default,,0,0,0,,{\i1}Happi{\i0} coat, check!
+Dialogue: 0,0:13:44.24,0:13:46.32,Default,,0,0,0,,Headband, check!
+Dialogue: 0,0:13:46.32,0:13:50.27,Default,,0,0,0,,And lastly, all five glowsticks\Nso I can go nuts!
+Dialogue: 0,0:13:50.27,0:13:53.65,Default,,0,0,0,,Silk, silk,\Nsoy milk and salt!
+Dialogue: 0,0:13:57.34,0:13:59.36,Default,,0,0,0,,It's a bit early,
+Dialogue: 0,0:13:59.36,0:14:00.99,Default,,0,0,0,,but I just can't wait!
+Dialogue: 0,0:14:00.99,0:14:01.63,Default,,0,0,0,,Oh?
+Dialogue: 0,0:14:02.64,0:14:04.92,Default,,0,0,0,,"'I'm on my way,' from Moon".
+Dialogue: 0,0:14:07.27,0:14:08.52,Default,,0,0,0,,Cough-cough!
+Dialogue: 0,0:14:08.52,0:14:11.40,Default,,0,0,0,,Hey, Moon! Where are you on your way to?
+Dialogue: 0,0:14:11.40,0:14:13.52,Default,,0,0,0,,Where do you think? Your house!
+Dialogue: 0,0:14:13.52,0:14:15.03,Default,,0,0,0,,Wh-huh? Why?
+Dialogue: 0,0:14:15.03,0:14:17.28,Default,,0,0,0,,My house isn't near the aquarium!
+Dialogue: 0,0:14:17.28,0:14:18.13,Default,,0,0,0,,Cough-cough...
+Dialogue: 0,0:14:18.13,0:14:20.61,Default,,0,0,0,,The bus is having troubles,\Nso it got called off!
+Dialogue: 0,0:14:20.61,0:14:21.59,Default,,0,0,0,,What?!
+Dialogue: 0,0:14:22.07,0:14:24.73,Default,,0,0,0,,It's not too far away, so we'll be there soon.
+Dialogue: 0,0:14:25.54,0:14:26.19,Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:26.66,0:14:27.95,Default,,0,0,0,,She hung up!
+Dialogue: 0,0:14:28.50,0:14:30.31,Default,,0,0,0,,Why did it turn out like this?!
+Dialogue: 0,0:14:40.51,0:14:42.30,Default,,0,0,0,,Sorry, were you in bed?
+Dialogue: 0,0:14:42.30,0:14:43.55,Default,,0,0,0,,You look terrible.
+Dialogue: 0,0:14:43.55,0:14:47.35,Default,,0,0,0,,Thanks for coming here, but my cough is real bad,\Nso maybe you shouldn't...
+Dialogue: 0,0:14:44.35,0:14:45.01,Default,,0,0,0,,{\an8}'Sup.
+Dialogue: 0,0:14:47.35,0:14:49.30,Default,,0,0,0,,Don't just come in!
+Dialogue: 0,0:14:48.77,0:14:50.39,Default,,0,0,0,,{\an8}Game time!
+Dialogue: 0,0:14:51.10,0:14:54.47,Default,,0,0,0,,What's your problem?\NAren't you here to check on me?
+Dialogue: 0,0:14:54.90,0:14:59.74,Default,,0,0,0,,Check up on you? After you stood us up?\NWhy would I do that?
+Dialogue: 0,0:14:59.74,0:15:01.51,Default,,0,0,0,,What was I {\i1}supposed{\i0} to do?
+Dialogue: 0,0:15:01.51,0:15:03.18,Default,,0,0,0,,Cough, cough, cough...
+Dialogue: 0,0:15:03.18,0:15:07.52,Default,,0,0,0,,I just came here because I remembered\Nyou had this new video game.
+Dialogue: 0,0:15:07.52,0:15:09.70,Default,,0,0,0,,{\i1}That's{\i0} why you're here?!
+Dialogue: 0,0:15:10.46,0:15:12.08,Default,,0,0,0,,I'm getting dizzy...
+Dialogue: 0,0:15:12.08,0:15:14.12,Default,,0,0,0,,Are you alright, Cony?
+Dialogue: 0,0:15:14.12,0:15:16.20,Default,,0,0,0,,Should I carry you to your bed?
+Dialogue: 0,0:15:16.88,0:15:18.25,Default,,0,0,0,,Thank you...
+Dialogue: 0,0:15:19.51,0:15:21.92,Default,,0,0,0,,Let's go!
+Dialogue: 0,0:15:26.72,0:15:28.70,Default,,0,0,0,,I kinda want to get some sleep!
+Dialogue: 0,0:15:29.29,0:15:33.44,Default,,0,0,0,,The porridge is almost done,\Nso you can sleep after you eat!
+Dialogue: 0,0:15:33.44,0:15:35.27,Default,,0,0,0,,Porridge for lunch, huh?
+Dialogue: 0,0:15:35.27,0:15:37.67,Default,,0,0,0,,How about we have pork cutlet for dinner, then?
+Dialogue: 0,0:15:38.00,0:15:39.94,Default,,0,0,0,,What d'ya mean dinner?!
+Dialogue: 0,0:15:39.94,0:15:42.63,Default,,0,0,0,,This is {\i1}my{\i0} house! So scram!
+Dialogue: 0,0:15:46.49,0:15:49.90,Default,,0,0,0,,Why is she mad at us?\NWe're just looking after her.
+Dialogue: 0,0:15:50.95,0:15:52.83,Default,,0,0,0,,La-la-la, Silk!
+Dialogue: 0,0:15:52.83,0:15:55.79,Default,,0,0,0,,Better than cotton,\Nit's silk!
+Dialogue: 0,0:15:55.79,0:15:56.49,Default,,0,0,0,,What's that?
+Dialogue: 0,0:15:56.96,0:15:57.75,Default,,0,0,0,,Jessica?
+Dialogue: 0,0:15:57.75,0:15:59.88,Default,,0,0,0,,Hey, what's up?
+Dialogue: 0,0:15:59.88,0:16:03.07,Default,,0,0,0,,I'm in a bit of a rush.
+Dialogue: 0,0:16:03.31,0:16:05.76,Default,,0,0,0,,A rush? Where are you going?
+Dialogue: 0,0:16:05.76,0:16:08.14,Default,,0,0,0,,I heard you were in bed with a cold,
+Dialogue: 0,0:16:08.14,0:16:10.03,Default,,0,0,0,,so I came to come see you...
+Dialogue: 0,0:16:10.34,0:16:11.18,Default,,0,0,0,,Huh?
+Dialogue: 0,0:16:11.18,0:16:13.48,Default,,0,0,0,,I'm at your door,
+Dialogue: 0,0:16:13.48,0:16:17.68,Default,,0,0,0,,but you didn't respond to the doorbell,\Nso I got confused.
+Dialogue: 0,0:16:25.41,0:16:26.28,Default,,0,0,0,,I'm here...
+Dialogue: 0,0:16:26.28,0:16:27.57,Default,,0,0,0,,You're covered in sweat!
+Dialogue: 0,0:16:27.57,0:16:29.43,Default,,0,0,0,,You must be very sick...
+Dialogue: 0,0:16:29.73,0:16:31.25,Default,,0,0,0,,Cough, cough...
+Dialogue: 0,0:16:31.25,0:16:33.14,Default,,0,0,0,,Sorry to bother you...
+Dialogue: 0,0:16:33.14,0:16:35.27,Default,,0,0,0,,Sleep is important for a cold!
+Dialogue: 0,0:16:35.27,0:16:39.21,Default,,0,0,0,,I'll have a delicious treat prepared\Nfor when you wake up, so hang in there!
+Dialogue: 0,0:16:39.21,0:16:40.27,Default,,0,0,0,,A treat?
+Dialogue: 0,0:16:40.87,0:16:41.79,Default,,0,0,0,,Yep!
+Dialogue: 0,0:16:41.79,0:16:47.13,Default,,0,0,0,,I've been meaning to try making this salmon paella\Nrecipe my friend taught me!
+Dialogue: 0,0:16:47.59,0:16:49.53,Default,,0,0,0,,How long will that take?
+Dialogue: 0,0:16:49.53,0:16:52.73,Default,,0,0,0,,I still have to make the clam broth,
+Dialogue: 0,0:16:52.73,0:16:54.45,Default,,0,0,0,,so it'll be a few hours.
+Dialogue: 0,0:16:54.45,0:16:56.08,Default,,0,0,0,,Sorry, I have no appetite!
+Dialogue: 0,0:16:57.98,0:17:00.22,Default,,0,0,0,,Bye, another time maybe!
+Dialogue: 0,0:17:01.07,0:17:03.85,Default,,0,0,0,,Maybe I shouldn't have said\NI'll "try" making it...
+Dialogue: 0,0:17:05.28,0:17:08.12,Default,,0,0,0,,People keep getting in my way left and right!
+Dialogue: 0,0:17:08.12,0:17:11.15,Default,,0,0,0,,I have to hurry up or I won't make it in time!
+Dialogue: 0,0:17:12.12,0:17:13.12,Default,,0,0,0,,Another call?!
+Dialogue: 0,0:17:13.12,0:17:15.18,Default,,0,0,0,,What now, Moon?
+Dialogue: 0,0:17:15.18,0:17:16.25,Default,,0,0,0,,Wait, James?
+Dialogue: 0,0:17:16.25,0:17:18.60,Default,,0,0,0,,I had to borrow Moon's phone.
+Dialogue: 0,0:17:18.85,0:17:23.31,Default,,0,0,0,,Looks like I left mine at your house by mistake.
+Dialogue: 0,0:17:23.63,0:17:24.84,Default,,0,0,0,,Whaaat?
+Dialogue: 0,0:17:24.84,0:17:28.26,Default,,0,0,0,,I've been calling my phone nonstop since I noticed.
+Dialogue: 0,0:17:28.26,0:17:29.76,Default,,0,0,0,,Didn't you hear it ringing?
+Dialogue: 0,0:17:29.76,0:17:31.53,Default,,0,0,0,,Oh, uh, no...
+Dialogue: 0,0:17:31.89,0:17:33.64,Default,,0,0,0,,Ah, no worries. You were asleep, right?
+Dialogue: 0,0:17:33.64,0:17:35.39,Default,,0,0,0,,I'll come and get it now!
+Dialogue: 0,0:17:35.39,0:17:37.49,Default,,0,0,0,,{\i1}Aaagh, wait, hold on!
+Dialogue: 0,0:17:38.05,0:17:41.42,Default,,0,0,0,,I'm feeling much, {\i1}much{\i0} worse than earlier...
+Dialogue: 0,0:17:41.42,0:17:42.54,Default,,0,0,0,,{\i1}In what places?
+Dialogue: 0,0:17:42.54,0:17:45.92,Default,,0,0,0,,My throat, my head, my joints...
+Dialogue: 0,0:17:45.92,0:17:48.30,Default,,0,0,0,,Practically my whole body!
+Dialogue: 0,0:17:48.30,0:17:49.34,Default,,0,0,0,,So don't come!
+Dialogue: 0,0:17:49.70,0:17:51.62,Default,,0,0,0,,It's that bad?!
+Dialogue: 0,0:17:51.62,0:17:53.30,Default,,0,0,0,,I'll be right over!
+Dialogue: 0,0:17:53.66,0:17:56.11,Default,,0,0,0,,I just said {\i1}don't{\i0} come!
+Dialogue: 0,0:17:54.70,0:17:57.16,Default,,0,0,0,,{\an8}Would you like a special burger?
+Dialogue: 0,0:17:57.79,0:18:01.03,Default,,0,0,0,,{\i1}Huh, what was that? Are you outside?
+Dialogue: 0,0:18:01.03,0:18:03.13,Default,,0,0,0,,Huh? Did you hear something?
+Dialogue: 0,0:18:03.13,0:18:05.71,Default,,0,0,0,,I-I sure didn't!
+Dialogue: 0,0:18:04.71,0:18:06.86,Default,,0,0,0,,{\an8}You cray-cray!
+Dialogue: 0,0:18:06.86,0:18:07.98,Default,,0,0,0,,Ayyy...
+Dialogue: 0,0:18:07.98,0:18:10.01,Default,,0,0,0,,{\i1}Are you at the hospital?
+Dialogue: 0,0:18:10.01,0:18:11.28,Default,,0,0,0,,Huh? The hospital?
+Dialogue: 0,0:18:11.62,0:18:13.64,Default,,0,0,0,,O-Oh, yeah, yeah, that's it.
+Dialogue: 0,0:18:13.64,0:18:15.91,Default,,0,0,0,,I'm actually at the hospital!
+Dialogue: 0,0:18:15.91,0:18:19.79,Default,,0,0,0,,So I can grab your phone tomorrow,\Nif you don't mind waiting.
+Dialogue: 0,0:18:19.79,0:18:24.02,Default,,0,0,0,,I'm actually driving near the hospital now,\Nso let me pick you up!
+Dialogue: 0,0:18:25.19,0:18:27.19,Default,,0,0,0,,Wait, James!!
+Dialogue: 0,0:18:32.03,0:18:34.22,Default,,0,0,0,,Why is it all the way up there?!
+Dialogue: 0,0:18:40.79,0:18:42.60,Default,,0,0,0,,Huh? It's closed!
+Dialogue: 0,0:18:45.40,0:18:49.09,Default,,0,0,0,,Cony! The hospital seems to be closed.
+Dialogue: 0,0:18:49.09,0:18:51.53,Default,,0,0,0,,I begged hard enough\Nand they let me in.
+Dialogue: 0,0:18:51.53,0:18:53.10,Default,,0,0,0,,We have to hurry!
+Dialogue: 0,0:18:53.10,0:18:54.24,Default,,0,0,0,,There's not much time!
+Dialogue: 0,0:18:54.57,0:18:56.68,Default,,0,0,0,,Huh? Not much time for what?
+Dialogue: 0,0:18:56.68,0:18:57.98,Default,,0,0,0,,Doesn't matter!
+Dialogue: 0,0:18:57.98,0:18:58.58,Default,,0,0,0,,Okay!
+Dialogue: 0,0:19:05.36,0:19:07.04,Default,,0,0,0,,What the?!
+Dialogue: 0,0:19:07.99,0:19:10.44,Default,,0,0,0,,Wh-Why are you guys here?!
+Dialogue: 0,0:19:10.95,0:19:12.70,Default,,0,0,0,,You left your door unlocked!
+Dialogue: 0,0:19:12.70,0:19:13.51,Default,,0,0,0,,You're so careless.
+Dialogue: 0,0:19:14.02,0:19:16.83,Default,,0,0,0,,Oh, I see. I guess I forgot to lock it on my way out.
+Dialogue: 0,0:19:16.83,0:19:17.82,Default,,0,0,0,,Thanks for pointing—
+Dialogue: 0,0:19:17.82,0:19:19.20,Default,,0,0,0,,No, that's not the point!
+Dialogue: 0,0:19:19.20,0:19:21.47,Default,,0,0,0,,You can't just waltz into my house!
+Dialogue: 0,0:19:21.83,0:19:23.20,Default,,0,0,0,,Think nothing of it.
+Dialogue: 0,0:19:23.83,0:19:25.37,Default,,0,0,0,,I'll think {\i1}everything{\i0} of it!
+Dialogue: 0,0:19:25.92,0:19:28.20,Default,,0,0,0,,I'm thinking about that cherry.
+Dialogue: 0,0:19:29.98,0:19:31.46,Default,,0,0,0,,Nah, just messing.
+Dialogue: 0,0:19:31.46,0:19:33.30,Default,,0,0,0,,Wasn't that a funny bit, Cony?
+Dialogue: 0,0:19:33.30,0:19:35.74,Default,,0,0,0,,If it was, feel free to laugh.
+Dialogue: 0,0:19:35.74,0:19:38.24,Default,,0,0,0,,It absolutely wasn't!
+Dialogue: 0,0:19:38.42,0:19:41.10,Default,,0,0,0,,My house isn't an arcade!
+Dialogue: 0,0:19:41.10,0:19:42.89,Default,,0,0,0,,Now scram already!
+Dialogue: 0,0:19:42.89,0:19:45.52,Default,,0,0,0,,Not until I'm finished with this game!
+Dialogue: 0,0:19:45.52,0:19:48.89,Default,,0,0,0,,{\an8}Get outta here! Scram! Shoo!
+Dialogue: 0,0:19:48.40,0:19:49.69,Default,,0,0,0,,What've you got there, Brown?
+Dialogue: 0,0:19:49.69,0:19:51.56,Default,,0,0,0,,{\an8}Why, you little...!
+Dialogue: 0,0:19:54.03,0:19:56.02,Default,,0,0,0,,D-Don't worry about that!
+Dialogue: 0,0:19:56.45,0:19:58.36,Default,,0,0,0,,H-Huh? It's so late!
+Dialogue: 0,0:19:59.49,0:20:00.60,Default,,0,0,0,,I gotta pee!
+Dialogue: 0,0:20:09.71,0:20:13.48,Default,,0,0,0,,I won't give up, even if I only make it for their final song!
+Dialogue: 0,0:20:13.48,0:20:16.35,Default,,0,0,0,,Silk, silk, silk!
+Dialogue: 0,0:20:16.35,0:20:19.31,Default,,0,0,0,,Soy milk, salt, cold tofu,
+Dialogue: 0,0:20:19.31,0:20:20.77,Default,,0,0,0,,boiled tofu, soy pulp!
+Dialogue: 0,0:20:20.77,0:20:21.93,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:20:23.35,0:20:23.97,Default,,0,0,0,,...Huh?
+Dialogue: 0,0:20:25.98,0:20:27.26,Default,,0,0,0,,It's already over?
+Dialogue: 0,0:20:29.52,0:20:32.73,Default,,0,0,0,,My Silk5...!
+Dialogue: 0,0:20:31.61,0:20:33.95,Default,,0,0,0,,{\an8}Oh, is that you, Cony?
+Dialogue: 0,0:20:33.95,0:20:35.82,Default,,0,0,0,,Huh? Sally?
+Dialogue: 0,0:20:35.82,0:20:40.70,Default,,0,0,0,,The concert was postponed\Nbecause one of the members was feeling sick.
+Dialogue: 0,0:20:40.70,0:20:43.68,Default,,0,0,0,,Huh? For real?!
+Dialogue: 0,0:20:45.21,0:20:47.17,Default,,0,0,0,,I just found out too!
+Dialogue: 0,0:20:47.17,0:20:49.52,Default,,0,0,0,,But I'm surprised to see you here!
+Dialogue: 0,0:20:49.88,0:20:54.23,Default,,0,0,0,,I was gonna say that!\NI didn't know you were into Silk5!
+Dialogue: 0,0:20:54.50,0:20:56.72,Default,,0,0,0,,I saw their videos and fell in love!
+Dialogue: 0,0:20:56.72,0:20:57.60,Default,,0,0,0,,Huh?
+Dialogue: 0,0:20:57.60,0:20:58.65,Default,,0,0,0,,What's up?
+Dialogue: 0,0:20:58.65,0:21:00.70,Default,,0,0,0,,Do you have a cold?
+Dialogue: 0,0:21:01.07,0:21:02.82,Default,,0,0,0,,No, I was just faking it...
+Dialogue: 0,0:21:03.85,0:21:04.76,Default,,0,0,0,,What the?
+Dialogue: 0,0:21:10.65,0:21:12.44,Default,,0,0,0,,Your temperature is very high!
+Dialogue: 0,0:21:12.44,0:21:15.63,Default,,0,0,0,,That's what you get for lying to us!
+Dialogue: 0,0:21:15.63,0:21:20.13,Default,,0,0,0,,You should've just told us you wanted\Nto go to the concert over the aquarium!
+Dialogue: 0,0:21:20.39,0:21:21.73,Default,,0,0,0,,But I...
+Dialogue: 0,0:21:25.04,0:21:26.43,Default,,0,0,0,,Good evening!
+Dialogue: 0,0:21:30.25,0:21:34.02,Default,,0,0,0,,The salmon paella came out\Nbetter than I expected!
+Dialogue: 0,0:21:34.55,0:21:38.49,Default,,0,0,0,,I was hoping you would get to\Nhave some with us, but...
+Dialogue: 0,0:21:38.82,0:21:40.34,Default,,0,0,0,,You need to rest, don't you?
+Dialogue: 0,0:21:42.31,0:21:44.18,Default,,0,0,0,,I'm so hungry...
+Dialogue: 0,0:21:44.18,0:21:47.48,Default,,0,0,0,,Nope. Sorry, Cony, but you need to get some sleep.
+Dialogue: 0,0:21:47.48,0:21:49.10,Default,,0,0,0,,We'll eat it for you!
+Dialogue: 0,0:21:49.60,0:21:50.41,Default,,0,0,0,,Aw, what?
+Dialogue: 0,0:21:50.90,0:21:53.56,Default,,0,0,0,,It's time for a paella party!
+Dialogue: 0,0:21:53.56,0:21:55.38,Default,,0,0,0,,Let's raise the roof, guys!
+Dialogue: 0,0:21:55.75,0:21:58.09,Default,,0,0,0,,W-Wait, come on...
+Dialogue: 0,0:21:59.87,0:22:02.30,Default,,0,0,0,,Don't listen to him.\NWe'll leave some leftover.
+Dialogue: 0,0:22:02.91,0:22:05.57,Default,,0,0,0,,So rest your head and relax, okay?
+Dialogue: 0,0:22:12.63,0:22:14.59,Default,,0,0,0,,This is great!
+Dialogue: 0,0:22:14.59,0:22:17.09,Default,,0,0,0,,It's exquisite! Juby-julee-{\i1}bonne!{\i0}
+Dialogue: 0,0:22:17.09,0:22:18.86,Default,,0,0,0,,I really like the mussels!
+Dialogue: 0,0:22:19.18,0:22:20.64,Default,,0,0,0,,I'm glad!
+Dialogue: 0,0:22:20.64,0:22:23.17,Default,,0,0,0,,Brown, you're making a mess!
+Dialogue: 0,0:22:24.47,0:22:25.63,Default,,0,0,0,,Brown!
+Dialogue: 0,0:22:28.23,0:22:29.34,Default,,0,0,0,,Hey!
+Dialogue: 0,0:24:00.47,0:24:02.23,Default,,0,0,0,,{\an8}Next time on {\i1}Line Town...
+Dialogue: 0,0:24:02.23,0:24:05.02,Default,,0,0,0,,{\an8}Gâteau au chocolat,\Nframboise choux à la crème...
+Dialogue: 0,0:24:05.02,0:24:08.16,Default,,0,0,0,,{\an8}Desserts can sound so sweet\Njust by their names alone!
+Dialogue: 0,0:24:08.16,0:24:12.78,Default,,0,0,0,,{\an8}On the other hand—boiled eggs,\Nfish cakes, pig's trotters... don't sound as sweet.
+Dialogue: 0,0:24:12.78,0:24:15.82,Default,,0,0,0,,{\an8}Oh, not to wage a war on oden!
+Dialogue: 0,0:24:15.82,0:24:17.63,Default,,0,0,0,,{\an8}Next time: "The Oden Strikes Back!"
+Dialogue: 0,0:24:17.63,0:24:19.15,Default,,0,0,0,,{\an8}Wait, nope.
+Comment: 0,0:00:00.00,0:00:00.01,Default,,0,0,0,,Typesetting
+Comment: 0,0:01:29.99,0:01:34.95,Default,,0,0,0,,{=0}Title Card A
+Dialogue: 0,0:01:29.99,0:01:34.95,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\c&HFEFEFE&\p1}m 973.17 941.18 b 913.98 941.18 878.8 886.74 878.8 842.18 l 878.8 753.5 b 879.05 746.76 880.42 739.5 881.13 735.67 862.8 722.76 839.55 690.88 837.57 664.05 853.55 679.63 887.42 687.76 909.05 688 922.43 671.76 953.05 659.13 974.3 659.13 l 1689.13 659.13 b 1746.01 659.26 1787.76 710.18 1787.76 753.17 l 1787.76 847.68 b 1787.76 890.67 1746.01 941.18 1689.13 941.18
+Dialogue: 1,0:01:29.99,0:01:34.95,Signs,,0,0,0,,{\an7\c&HC9CBC6&\p1\blur75\clip(m 973.17 941.18 b 913.98 941.18 878.8 886.74 878.8 842.18 l 878.8 753.5 b 879.05 746.76 880.42 739.5 881.13 735.67 862.8 722.76 839.55 690.88 837.57 664.05 853.55 679.63 887.42 687.76 909.05 688 922.43 671.76 953.05 659.13 974.3 659.13 l 1689.13 659.13 b 1746.01 659.26 1787.76 710.18 1787.76 753.17 l 1787.76 847.68 b 1787.76 890.67 1746.01 941.18 1689.13 941.18)}m 465 720 l 1902 720 1902 996 465 996{\p0}
+Dialogue: 3,0:01:29.99,0:01:34.95,Signs,,0,0,0,,{\c&H35D179&\blur0.7\fnFOT-Seurat ProN B\b1\fscx260\fscy262\pos(1333.77,797.15)}mud balls
+Dialogue: 2,0:01:29.99,0:01:34.95,Signs,,0,0,0,,{=1}{\bord10.5\c&H35D179&\blur0.7\fnFOT-Seurat ProN B\b1\c&H1B1B1B&\3c&H1B1B1B&\fscx260\fscy262\pos(1333.77,797.15)}mud balls
+Comment: 0,0:11:59.91,0:12:04.91,Default,,0,0,0,,{=2}Title Card B
+Dialogue: 0,0:11:59.91,0:12:04.91,Signs,,0,0,0,,{\an7\c&H79EDC5&\blur0.7\p1\pos(0,0)}m 412.52 945.32 b 330.8 942.32 271.81 874.78 274.81 793.45 276.31 721.89 330.8 652.2 419.44 652.2 l 901.03 652.2 b 931.27 653.7 967.07 660.2 1000.07 693.7 l 1000.07 693.7 b 1032.95 690.95 1073.07 685.32 1100.9 658.85 1095.95 699.08 1072.82 732.83 1039.11 761.7 1062.63 859.36 990.95 945.32 902.33 945.32
+Dialogue: 1,0:11:59.91,0:12:04.91,Signs,,0,0,0,,{\an7\c&H30CB7D&\p1\blur75\clip(m 412.52 945.32 b 330.8 942.32 271.81 874.78 274.81 793.45 276.31 721.89 330.8 652.2 419.44 652.2 l 901.03 652.2 b 931.27 653.7 967.07 660.2 1000.07 693.7 l 1000.07 693.7 b 1032.95 690.95 1073.07 685.32 1100.9 658.85 1095.95 699.08 1072.82 732.83 1039.11 761.7 1062.63 859.36 990.95 945.32 902.33 945.32)\pos(203.62,414.61)}m 21 450 l 1332 450 1332 675 21 675
+Dialogue: 3,0:11:59.91,0:12:04.91,Signs,,0,0,0,,{\fscx210\fscy250\blur0.7\fnFOT-Seurat ProN B\b1\3c&H1B1B1B&\fsp-3\pos(659.3,797.13)}faking sick
+Dialogue: 2,0:11:59.91,0:12:04.91,Signs,,0,0,0,,{=3}{\fscx210\fscy250\bord10.5\blur0.7\c&H1B1B1B&\fnFOT-Seurat ProN B\b1\3c&H1B1B1B&\fsp-3\pos(659.3,797.13)}faking sick
+Comment: 0,0:18:38.64,0:18:42.60,Signs,,0,0,0,,{=4}Closed 1
+Dialogue: 0,0:18:38.63,0:18:38.68,Signs,,0,0,0,,{=5}{\fscy149.2\fscx149.2\p1\pos(-135.42,-561.14)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.68,0:18:38.72,Signs,,0,0,0,,{=5}{\fscy147.47\fscx147.47\p1\pos(-130.65,-541.4)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.72,0:18:38.76,Signs,,0,0,0,,{=5}{\fscy145.8\fscx145.8\p1\pos(-126.11,-522.23)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.76,0:18:38.80,Signs,,0,0,0,,{=5}{\fscy144.13\fscx144.13\p1\pos(-121.45,-503.27)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.80,0:18:38.84,Signs,,0,0,0,,{=5}{\fscy142.52\fscx142.52\p1\pos(-117.05,-484.91)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.84,0:18:38.88,Signs,,0,0,0,,{=5}{\fscy140.95\fscx140.95\p1\pos(-112.79,-466.99)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.88,0:18:38.93,Signs,,0,0,0,,{=5}{\fscy139.41\fscx139.41\p1\pos(-108.55,-449.38)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.93,0:18:38.97,Signs,,0,0,0,,{=5}{\fscy137.88\fscx137.88\p1\pos(-104.27,-432.03)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:38.97,0:18:39.01,Signs,,0,0,0,,{=5}{\fscy136.42\fscx136.42\p1\pos(-100.29,-415.27)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.01,0:18:39.05,Signs,,0,0,0,,{=5}{\fscy134.98\fscx134.98\p1\pos(-96.36,-398.8)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.05,0:18:39.09,Signs,,0,0,0,,{=5}{\fscy133.55\fscx133.55\p1\pos(-92.36,-382.54)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.09,0:18:39.13,Signs,,0,0,0,,{=5}{\fscy132.16\fscx132.16\p1\pos(-88.55,-366.74)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.13,0:18:39.18,Signs,,0,0,0,,{=5}{\fscy130.81\fscx130.81\p1\pos(-84.84,-351.28)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.18,0:18:39.22,Signs,,0,0,0,,{=5}{\fscy129.46\fscx129.46\p1\pos(-81.1,-336.02)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.22,0:18:39.26,Signs,,0,0,0,,{=5}{\fscy128.16\fscx128.16\p1\pos(-77.48,-321.12)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.26,0:18:39.30,Signs,,0,0,0,,{=5}{\fscy126.89\fscx126.89\p1\pos(-74.01,-306.61)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.30,0:18:39.34,Signs,,0,0,0,,{=5}{\fscy125.64\fscx125.64\p1\pos(-70.62,-292.36)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.34,0:18:39.38,Signs,,0,0,0,,{=5}{\fscy124.42\fscx124.42\p1\pos(-67.27,-278.39)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.38,0:18:39.43,Signs,,0,0,0,,{=5}{\fscy123.2\fscx123.2\p1\pos(-63.91,-264.6)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.43,0:18:39.47,Signs,,0,0,0,,{=5}{\fscy122.01\fscx122.01\p1\pos(-60.58,-251.04)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.47,0:18:39.51,Signs,,0,0,0,,{=5}{\fscy120.85\fscx120.85\p1\pos(-57.39,-237.81)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.51,0:18:39.55,Signs,,0,0,0,,{=5}{\fscy119.72\fscx119.72\p1\pos(-54.31,-224.91)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.55,0:18:39.59,Signs,,0,0,0,,{=5}{\fscy118.62\fscx118.62\p1\pos(-51.32,-212.25)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.59,0:18:39.63,Signs,,0,0,0,,{=5}{\fscy117.51\fscx117.51\p1\pos(-48.2,-199.66)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.63,0:18:39.68,Signs,,0,0,0,,{=5}{\fscy116.43\fscx116.43\p1\pos(-45.23,-187.4)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.68,0:18:39.72,Signs,,0,0,0,,{=5}{\fscy115.37\fscx115.37\p1\pos(-42.28,-175.29)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.72,0:18:39.76,Signs,,0,0,0,,{=5}{\fscy114.33\fscx114.33\p1\pos(-39.37,-163.44)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.76,0:18:39.80,Signs,,0,0,0,,{=5}{\fscy113.32\fscx113.32\p1\pos(-36.68,-151.92)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.80,0:18:39.84,Signs,,0,0,0,,{=5}{\fscy112.32\fscx112.32\p1\pos(-33.92,-140.5)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.84,0:18:39.89,Signs,,0,0,0,,{=5}{\fscy111.34\fscx111.34\p1\pos(-31.26,-129.34)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.89,0:18:39.93,Signs,,0,0,0,,{=5}{\fscy110.37\fscx110.37\p1\pos(-28.56,-118.27)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.93,0:18:39.97,Signs,,0,0,0,,{=5}{\fscy109.42\fscx109.42\p1\pos(-25.91,-107.43)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:39.97,0:18:40.01,Signs,,0,0,0,,{=5}{\fscy108.5\fscx108.5\p1\pos(-23.45,-96.9)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.01,0:18:40.05,Signs,,0,0,0,,{=5}{\fscy107.58\fscx107.58\p1\pos(-20.87,-86.4)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.05,0:18:40.09,Signs,,0,0,0,,{=5}{\fscy106.66\fscx106.66\p1\pos(-18.33,-76.02)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.09,0:18:40.14,Signs,,0,0,0,,{=5}{\fscy105.78\fscx105.78\p1\pos(-15.91,-65.95)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.14,0:18:40.18,Signs,,0,0,0,,{=5}{\fscy104.91\fscx104.91\p1\pos(-13.52,-56)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.18,0:18:40.22,Signs,,0,0,0,,{=5}{\fscy104.08\fscx104.08\p1\pos(-11.2,-46.6)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.22,0:18:40.26,Signs,,0,0,0,,{=5}{\fscy103.35\fscx103.35\p1\pos(-9.21,-38.24)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.26,0:18:40.30,Signs,,0,0,0,,{=5}{\fscy102.71\fscx102.71\p1\pos(-7.5,-30.89)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.30,0:18:40.34,Signs,,0,0,0,,{=5}{\fscy102.13\fscx102.13\p1\pos(-5.9,-24.29)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.34,0:18:40.39,Signs,,0,0,0,,{=5}{\fscy101.62\fscx101.62\p1\pos(-4.46,-18.49)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.39,0:18:40.43,Signs,,0,0,0,,{=5}{\fscy101.19\fscx101.19\p1\pos(-3.27,-13.52)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.43,0:18:40.47,Signs,,0,0,0,,{=5}{\fscy100.81\fscx100.81\p1\pos(-2.17,-9.25)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.47,0:18:40.51,Signs,,0,0,0,,{=5}{\fscy100.54\fscx100.54\p1\pos(-1.55,-6.07)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.51,0:18:40.55,Signs,,0,0,0,,{=5}{\fscy100.29\fscx100.29\p1\pos(-0.81,-3.3)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.55,0:18:40.59,Signs,,0,0,0,,{=5}{\fscy100.12\fscx100.12\p1\pos(-0.32,-1.44)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.59,0:18:40.64,Signs,,0,0,0,,{=5}{\fscy100.03\fscx100.03\p1\pos(-0.09,-0.35)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.64,0:18:40.68,Signs,,0,0,0,,{=5}{\fscy100\fscx100\p1\pos(0,-0.03)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 0,0:18:40.68,0:18:42.60,Signs,,0,0,0,,{=5}{\fscy100\fscx100\p1\pos(0,0)\an7\blur1\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54
+Dialogue: 1,0:18:38.63,0:18:38.68,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx134.05\fscy177.12\frz7.4229\frx0.3267\fry0.1957\org(1021.36,553.91)\pos(1024.51,553.91)}CLOSED
+Dialogue: 1,0:18:38.68,0:18:38.72,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx132.49\fscy175.06\frz7.4229\frx0.3267\fry0.1957\org(1012.7,560.71)\pos(1015.82,560.71)}CLOSED
+Dialogue: 1,0:18:38.72,0:18:38.76,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx130.99\fscy173.08\frz7.4229\frx0.3267\fry0.1957\org(1004.27,567.37)\pos(1007.34,567.37)}CLOSED
+Dialogue: 1,0:18:38.76,0:18:38.80,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx129.49\fscy171.1\frz7.4229\frx0.3267\fry0.1957\org(995.99,573.85)\pos(999.03,573.85)}CLOSED
+Dialogue: 1,0:18:38.80,0:18:38.84,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx128.04\fscy169.19\frz7.4229\frx0.3267\fry0.1957\org(987.92,580.19)\pos(990.93,580.19)}CLOSED
+Dialogue: 1,0:18:38.84,0:18:38.88,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx126.63\fscy167.33\frz7.4229\frx0.3267\fry0.1957\org(980.03,586.4)\pos(983,586.4)}CLOSED
+Dialogue: 1,0:18:38.88,0:18:38.93,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx125.25\fscy165.49\frz7.4229\frx0.3267\fry0.1957\org(972.3,592.48)\pos(975.24,592.48)}CLOSED
+Dialogue: 1,0:18:38.93,0:18:38.97,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx123.87\fscy163.68\frz7.4229\frx0.3267\fry0.1957\org(964.73,598.4)\pos(967.64,598.4)}CLOSED
+Dialogue: 1,0:18:38.97,0:18:39.01,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx122.56\fscy161.94\frz7.4229\frx0.3267\fry0.1957\org(957.36,604.22)\pos(960.24,604.22)}CLOSED
+Dialogue: 1,0:18:39.01,0:18:39.05,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx121.26\fscy160.23\frz7.4229\frx0.3267\fry0.1957\org(950.11,609.92)\pos(952.96,609.92)}CLOSED
+Dialogue: 1,0:18:39.05,0:18:39.09,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx119.98\fscy158.53\frz7.4229\frx0.3267\fry0.1957\org(943.02,615.48)\pos(945.84,615.48)}CLOSED
+Dialogue: 1,0:18:39.09,0:18:39.13,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx118.73\fscy156.89\frz7.4229\frx0.3267\fry0.1957\org(936.1,620.94)\pos(938.88,620.94)}CLOSED
+Dialogue: 1,0:18:39.13,0:18:39.18,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx117.52\fscy155.28\frz7.4229\frx0.3267\fry0.1957\org(929.3,626.27)\pos(932.06,626.27)}CLOSED
+Dialogue: 1,0:18:39.18,0:18:39.22,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx116.31\fscy153.69\frz7.4229\frx0.3267\fry0.1957\org(922.64,631.51)\pos(925.37,631.51)}CLOSED
+Dialogue: 1,0:18:39.22,0:18:39.26,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx115.14\fscy152.13\frz7.4229\frx0.3267\fry0.1957\org(916.12,636.63)\pos(918.82,636.63)}CLOSED
+Dialogue: 1,0:18:39.26,0:18:39.30,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx114\fscy150.63\frz7.4229\frx0.3267\fry0.1957\org(909.74,641.65)\pos(912.42,641.65)}CLOSED
+Dialogue: 1,0:18:39.30,0:18:39.34,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx112.88\fscy149.15\frz7.4229\frx0.3267\fry0.1957\org(903.48,646.59)\pos(906.13,646.59)}CLOSED
+Dialogue: 1,0:18:39.34,0:18:39.38,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx111.78\fscy147.69\frz7.4229\frx0.3267\fry0.1957\org(897.33,651.41)\pos(899.95,651.41)}CLOSED
+Dialogue: 1,0:18:39.38,0:18:39.43,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx110.69\fscy146.26\frz7.4229\frx0.3267\fry0.1957\org(891.3,656.15)\pos(893.9,656.15)}CLOSED
+Dialogue: 1,0:18:39.43,0:18:39.47,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx109.62\fscy144.84\frz7.4229\frx0.3267\fry0.1957\org(885.38,660.8)\pos(887.96,660.8)}CLOSED
+Dialogue: 1,0:18:39.47,0:18:39.51,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx108.57\fscy143.46\frz7.4229\frx0.3267\fry0.1957\org(879.58,665.36)\pos(882.13,665.36)}CLOSED
+Dialogue: 1,0:18:39.51,0:18:39.55,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx107.56\fscy142.12\frz7.4229\frx0.3267\fry0.1957\org(873.91,669.82)\pos(876.43,669.82)}CLOSED
+Dialogue: 1,0:18:39.55,0:18:39.59,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx106.57\fscy140.81\frz7.4229\frx0.3267\fry0.1957\org(868.33,674.23)\pos(870.84,674.23)}CLOSED
+Dialogue: 1,0:18:39.59,0:18:39.63,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx105.57\fscy139.5\frz7.4229\frx0.3267\fry0.1957\org(862.85,678.52)\pos(865.33,678.52)}CLOSED
+Dialogue: 1,0:18:39.63,0:18:39.68,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx104.6\fscy138.22\frz7.4229\frx0.3267\fry0.1957\org(857.48,682.74)\pos(859.93,682.74)}CLOSED
+Dialogue: 1,0:18:39.68,0:18:39.72,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx103.65\fscy136.95\frz7.4229\frx0.3267\fry0.1957\org(852.17,686.89)\pos(854.6,686.89)}CLOSED
+Dialogue: 1,0:18:39.72,0:18:39.76,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx102.71\fscy135.72\frz7.4229\frx0.3267\fry0.1957\org(846.99,690.95)\pos(849.41,690.95)}CLOSED
+Dialogue: 1,0:18:39.76,0:18:39.80,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx101.81\fscy134.53\frz7.4229\frx0.3267\fry0.1957\org(841.91,694.97)\pos(844.3,694.97)}CLOSED
+Dialogue: 1,0:18:39.80,0:18:39.84,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx100.91\fscy133.33\frz7.4229\frx0.3267\fry0.1957\org(836.89,698.9)\pos(839.26,698.9)}CLOSED
+Dialogue: 1,0:18:39.84,0:18:39.89,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx100.03\fscy132.18\frz7.4229\frx0.3267\fry0.1957\org(831.99,702.77)\pos(834.34,702.77)}CLOSED
+Dialogue: 1,0:18:39.89,0:18:39.93,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx99.16\fscy131.02\frz7.4229\frx0.3267\fry0.1957\org(827.15,706.56)\pos(829.48,706.56)}CLOSED
+Dialogue: 1,0:18:39.93,0:18:39.97,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx98.3\fscy129.89\frz7.4229\frx0.3267\fry0.1957\org(822.41,710.29)\pos(824.72,710.29)}CLOSED
+Dialogue: 1,0:18:39.97,0:18:40.01,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx97.48\fscy128.8\frz7.4229\frx0.3267\fry0.1957\org(817.76,713.96)\pos(820.05,713.96)}CLOSED
+Dialogue: 1,0:18:40.01,0:18:40.05,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx96.65\fscy127.71\frz7.4229\frx0.3267\fry0.1957\org(813.18,717.57)\pos(815.45,717.57)}CLOSED
+Dialogue: 1,0:18:40.05,0:18:40.09,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx95.83\fscy126.62\frz7.4229\frx0.3267\fry0.1957\org(808.64,721.11)\pos(810.89,721.11)}CLOSED
+Dialogue: 1,0:18:40.09,0:18:40.14,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx95.04\fscy125.58\frz7.4229\frx0.3267\fry0.1957\org(804.22,724.6)\pos(806.46,724.6)}CLOSED
+Dialogue: 1,0:18:40.14,0:18:40.18,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx94.25\fscy124.54\frz7.4229\frx0.3267\fry0.1957\org(799.86,728.03)\pos(802.08,728.03)}CLOSED
+Dialogue: 1,0:18:40.18,0:18:40.22,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx93.51\fscy123.56\frz7.4229\frx0.3267\fry0.1957\org(795.76,731.24)\pos(797.95,731.24)}CLOSED
+Dialogue: 1,0:18:40.22,0:18:40.26,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx92.85\fscy122.69\frz7.4229\frx0.3267\fry0.1957\org(792.07,734.14)\pos(794.25,734.14)}CLOSED
+Dialogue: 1,0:18:40.26,0:18:40.30,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx92.28\fscy121.93\frz7.4229\frx0.3267\fry0.1957\org(788.82,736.7)\pos(790.99,736.7)}CLOSED
+Dialogue: 1,0:18:40.30,0:18:40.34,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx91.76\fscy121.24\frz7.4229\frx0.3267\fry0.1957\org(785.93,738.98)\pos(788.08,738.98)}CLOSED
+Dialogue: 1,0:18:40.34,0:18:40.39,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx91.3\fscy120.64\frz7.4229\frx0.3267\fry0.1957\org(783.41,740.96)\pos(785.56,740.96)}CLOSED
+Dialogue: 1,0:18:40.39,0:18:40.43,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx90.91\fscy120.12\frz7.4229\frx0.3267\fry0.1957\org(781.23,742.67)\pos(783.36,742.67)}CLOSED
+Dialogue: 1,0:18:40.43,0:18:40.47,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx90.56\fscy119.67\frz7.4229\frx0.3267\fry0.1957\org(779.38,744.1)\pos(781.51,744.1)}CLOSED
+Dialogue: 1,0:18:40.47,0:18:40.51,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx90.32\fscy119.35\frz7.4229\frx0.3267\fry0.1957\org(777.92,745.27)\pos(780.04,745.27)}CLOSED
+Dialogue: 1,0:18:40.51,0:18:40.55,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx90.1\fscy119.05\frz7.4229\frx0.3267\fry0.1957\org(776.74,746.19)\pos(778.85,746.19)}CLOSED
+Dialogue: 1,0:18:40.55,0:18:40.59,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx89.95\fscy118.86\frz7.4229\frx0.3267\fry0.1957\org(775.94,746.81)\pos(778.05,746.81)}CLOSED
+Dialogue: 1,0:18:40.59,0:18:40.64,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx89.87\fscy118.75\frz7.4229\frx0.3267\fry0.1957\org(775.45,747.21)\pos(777.56,747.21)}CLOSED
+Dialogue: 1,0:18:40.64,0:18:40.68,Signs,,0,0,0,,{=6=7}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx89.84\fscy118.71\frz7.4229\frx0.3267\fry0.1957\org(775.31,747.31)\pos(777.42,747.31)}CLOSED
+Dialogue: 1,0:18:40.68,0:18:42.60,Signs,,0,0,0,,{=6=7=8}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs200\blur1\fax-0.023472\fscx89.84\fscy118.71\frz7.4229\frx0.3267\fry0.1957\org(775.3,747.33)\pos(777.41,747.33)}CLOSED
+Comment: 0,0:18:45.06,0:18:51.53,Signs,,0,0,0,,{=9}Closed 2
+Dialogue: 0,0:18:45.06,0:18:45.69,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:45.06,0:18:45.69,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)}CLOSED
+Dialogue: 0,0:18:45.69,0:18:45.81,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 793.79 822.53 b 796.71 819.61 800.13 814.26 805.48 810.85 818.74 807.57 836.5 811.71 846.84 815.23 867.04 819 891.87 812.92 908.17 803.06 919.85 791.99 929.1 784.94 925.69 749.04 925.44 729.57 916.2 712.54 901.35 706.21 l 755.83 725.68)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:45.69,0:18:45.81,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 793.79 822.53 b 796.71 819.61 800.13 814.26 805.48 810.85 818.74 807.57 836.5 811.71 846.84 815.23 867.04 819 891.87 812.92 908.17 803.06 919.85 791.99 929.1 784.94 925.69 749.04 925.44 729.57 916.2 712.54 901.35 706.21 l 755.83 725.68)}CLOSED
+Dialogue: 0,0:18:45.81,0:18:45.94,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 780.15 759.78 b 802.84 774.95 849.38 821.19 854.74 830.15 861.56 836.37 881.2 842.42 891.84 859.4 l 798.22 900.46)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:45.81,0:18:45.94,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 780.15 759.78 b 802.84 774.95 849.38 821.19 854.74 830.15 861.56 836.37 881.2 842.42 891.84 859.4 l 798.22 900.46)}CLOSED
+Dialogue: 0,0:18:45.94,0:18:48.32,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:45.94,0:18:48.44,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)}CLOSED
+Dialogue: 0,0:18:48.32,0:18:48.44,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 793.69 811.41 b 813.05 830.65 840.08 863.96 855.54 881.47 l 798.02 888.39)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 0,0:18:48.44,0:18:48.57,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 785.9 779.29 b 832.52 821.4 866.85 850.82 876.95 870.76 l 798.02 888.39)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:48.44,0:18:48.57,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 785.9 779.29 b 832.52 821.4 866.85 850.82 876.95 870.76 l 798.02 888.39)}CLOSED
+Dialogue: 0,0:18:48.57,0:18:48.69,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 780.9 756.22 b 807.06 774.42 841.37 796.63 858.85 817.52 874.12 831.19 877.93 847.56 875.8 870.76 l 798.02 888.39)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:48.57,0:18:48.69,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 780.9 756.22 b 807.06 774.42 841.37 796.63 858.85 817.52 874.12 831.19 877.93 847.56 875.8 870.76 l 798.02 888.39)}CLOSED
+Dialogue: 0,0:18:48.69,0:18:48.82,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 799.75 837.36 b 810.99 852.6 827 871.85 836.08 887.96 l 804.51 889.26)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:48.69,0:18:50.44,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)}CLOSED
+Dialogue: 0,0:18:48.82,0:18:50.32,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 0,0:18:50.32,0:18:50.44,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 778.18 779.24 b 808.34 765.57 856.36 736.18 879.69 709.52 l 756.31 735.49)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 0,0:18:50.44,0:18:50.57,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 780.92 823.58 b 841.74 815.93 937.39 810.08 1007.25 713.35 l 1001.12 666.99 756.31 735.49)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:50.44,0:18:50.57,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 780.92 823.58 b 841.74 815.93 937.39 810.08 1007.25 713.35 l 1001.12 666.99 756.31 735.49)}CLOSED
+Dialogue: 0,0:18:50.82,0:18:50.90,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&\iclip(m 998.49 669.45 l 1022.18 803.93 809.57 887.46 806.02 876.8 b 839.68 851.93 911.27 821.91 946.57 812.15 912.45 794.67 871.16 748.53 852.81 719.21)}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:50.82,0:18:50.90,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)\iclip(m 998.49 669.45 l 1022.18 803.93 809.57 887.46 806.02 876.8 b 839.68 851.93 911.27 821.91 946.57 812.15 912.45 794.67 871.16 748.53 852.81 719.21)}CLOSED
+Dialogue: 0,0:18:50.90,0:18:51.53,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H439747&}m 782.53 746.28 l 995.37 675.11 1015.32 796.17 812.62 880.5
+Dialogue: 1,0:18:50.90,0:18:51.53,Signs,,0,0,0,,{=10=11}{\fnCCHeroSandwichMeat\c&HECF9FD&\fs100\blur1\fax-0.193949\fscx77.93\fscy102.31\frz20.6451\frx-5.1117\fry8.7188\org(906.42,773.5)\pos(913.98,773.5)}CLOSED
+Comment: 0,0:18:54.24,0:18:58.58,Signs,,0,0,0,,{=12}Closed 3
+Dialogue: 0,0:18:54.24,0:18:57.37,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 440.49 1086.44 b 458.55 1018.85 487.5 936.59 521.3 879.02 l 551.33 876.16 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:54.24,0:18:57.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)\iclip(m 440.49 1086.44 b 458.55 1018.85 487.5 936.59 521.3 879.02 l 551.33 876.16 562.06 1090.01)}CLOSED
+Dialogue: 0,0:18:57.37,0:18:57.49,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 378.55 1086.44 b 419.23 1005.08 487.95 904.05 513.79 879.02 l 551.33 876.16 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:57.37,0:18:57.49,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)\iclip(m 378.55 1086.44 b 419.23 1005.08 487.95 904.05 513.79 879.02 l 551.33 876.16 562.06 1090.01)}CLOSED
+Dialogue: 0,0:18:57.49,0:18:57.62,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 334.31 1086.44 b 366.14 1023.58 434.86 941.04 493.68 879.02 l 551.33 876.16 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:57.49,0:18:57.62,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)\iclip(m 334.31 1086.44 b 366.14 1023.58 434.86 941.04 493.68 879.02 l 551.33 876.16 562.06 1090.01)}CLOSED
+Dialogue: 0,0:18:57.62,0:18:57.74,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 314.69 1086.44 b 351.43 1019.5 434.04 931.24 490.41 879.02 l 551.33 876.16 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:57.62,0:18:57.74,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)\iclip(m 314.69 1086.44 b 351.43 1019.5 434.04 931.24 490.41 879.02 l 551.33 876.16 562.06 1090.01)}CLOSED
+Dialogue: 0,0:18:57.74,0:18:57.87,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 294.66 1086.44 b 327.11 1025.94 425.46 915.5 473.96 879.02 l 551.33 876.16 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:57.74,0:18:57.87,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)\iclip(m 294.66 1086.44 b 327.11 1025.94 425.46 915.5 473.96 879.02 l 551.33 876.16 562.06 1090.01)}CLOSED
+Dialogue: 0,0:18:57.87,0:18:57.99,Signs,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H3D9648&\iclip(m 488.03 1086.44 b 498.32 1058.75 517.95 1026.39 541.22 992.48 l 562.06 1090.01)}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Dialogue: 1,0:18:57.87,0:18:58.58,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HECF9FD&\fs170\blur1\frz5.914\pos(302,1024)}CLOSED
+Dialogue: 0,0:18:57.99,0:18:58.58,Signs,,0,0,0,,{=13}{\p1\pos(0,0)\an7\blur1\c&H3D9648&}m 49.81 944.69 l 522.96 883.26 547.03 1090.79 63.09 1096.6
+Comment: 0,0:23:59.93,0:24:19.88,Default,,0,0,0,,{=14}Preview
+Dialogue: 0,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur3\p1\bord4\1a&HFE&\3a&HFE&\yshad5\4c&H000000&\4a&HAF&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 0,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur3\p1\bord4\1a&HFE&\3a&HFE&\yshad5\4c&H000000&\4a&HAF&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 1,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H000000&\bord3\3c&H000000&\alpha&H59&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 1,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H004A12&\bord3\3c&H004A12&\alpha&H59&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 2,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&HFFFFFF&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 2,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H79EDC5&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 3,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\p1\c&HBEBFBD&\blur30\clip(m 183.75 1012.12 b 133.38 1010.62 117 958 125.88 932.12 113.12 922.5 99.62 906 99.62 888 120.62 903 133.75 902.12 143.62 900.75 153 891 171.38 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.88 553.5 1012.12)\pos(0,56.86)}m 15 913.5 l 748.5 913.5 748.5 1062 15 1062
+Dialogue: 3,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\an7\p1\c&H30CB7D&\clip(m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375)\blur30\pos(1093.71,56.86)}m 15 913.5 l 748.5 913.5 748.5 1062 15 1062
+Dialogue: 5,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\c&H2BD775&\fscx133\fscy135\fnFOT-Seurat ProN B\b1\blur0.7\pos(370.01,946.6)}typhoon
+Dialogue: 5,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\fscx133\fscy135\blur0.7\fnFOT-Seurat ProN B\b1\pos(1547.94,944.6)}headline
+Dialogue: 4,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\c&H2BD775&\fscx133\fscy135\blur0.7\fnFOT-Seurat ProN B\b1\bord6\c&H1B1B1B&\3c&H1B1B1B&\pos(370.01,946.6)}typhoon
+Dialogue: 4,0:23:59.93,0:24:09.93,Signs,,0,0,0,,{\fscx133\fscy135\bord6\blur0.7\fnFOT-Seurat ProN B\b1\c&H1B1B1B&\3c&H1B1B1B&\pos(1547.94,944.6)}headline
+Dialogue: 0,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur3\p1\bord4\1a&HFE&\3a&HFE&\yshad5\4c&H000000&\4a&HAF&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 0,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur3\p1\bord4\1a&HFE&\3a&HFE&\yshad5\4c&H000000&\4a&HAF&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 1,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H000000&\bord3\3c&H000000&\alpha&H59&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 1,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H004A12&\bord3\3c&H004A12&\alpha&H59&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 2,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&HFFFFFF&}m 183.75 1012.125 b 133.375 1010.625 117 958 125.875 932.125 113.125 922.5 99.625 906 99.625 888 120.625 903 133.75 902.125 143.625 900.75 153 891 171.375 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.875 553.5 1012.125
+Dialogue: 2,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\pos(0,0)\blur0.7\p1\c&H79EDC5&}m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375
+Dialogue: 3,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\p1\c&HBEBFBD&\blur30\clip(m 183.75 1012.12 b 133.38 1010.62 117 958 125.88 932.12 113.12 922.5 99.62 906 99.62 888 120.62 903 133.75 902.12 143.62 900.75 153 891 171.38 883.25 196.5 883.25 l 552 884.75 b 576 883.25 617.25 904.5 615.75 952.5 614.25 993 576 1012.88 553.5 1012.12)\pos(0,56.86)}m 15 913.5 l 748.5 913.5 748.5 1062 15 1062
+Dialogue: 3,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\an7\p1\c&H30CB7D&\clip(m 1369.25 1014.875 b 1327.125 1015.875 1304.5 978 1306 949.5 1307.5 900 1342.5 881.875 1379.75 883.375 l 1720.5 883.375 b 1740 883.375 1755 886.5 1773.75 903 1786.5 902 1799.625 901 1818.25 887.75 1815.75 909.875 1804.5 918 1790.375 933.375 1802.875 989.625 1754.5 1013.375 1733.5 1013.375)\blur30\pos(1093.71,56.86)}m 15 913.5 l 748.5 913.5 748.5 1062 15 1062
+Dialogue: 5,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\c&H2BD775&\fscx133\fscy135\fnFOT-Seurat ProN B\b1\blur0.7\pos(370.01,946.6)}typhoon
+Dialogue: 5,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\fscx133\fscy135\blur0.7\fnFOT-Seurat ProN B\b1\pos(1547.94,944.6)}headline
+Dialogue: 4,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{\c&H2BD775&\fscx133\fscy135\blur0.7\fnFOT-Seurat ProN B\b1\bord6\c&H1B1B1B&\3c&H1B1B1B&\pos(370.01,946.6)}typhoon
+Dialogue: 4,0:24:09.93,0:24:19.88,Signs,,0,0,0,,{=15}{\fscx133\fscy135\bord6\blur0.7\fnFOT-Seurat ProN B\b1\c&H1B1B1B&\3c&H1B1B1B&\pos(1547.94,944.6)}headline
+Comment: 0,0:00:00.00,0:00:00.02,Songs,,0,0,0,sync,sync
+Dialogue: 1,0:00:00.40,0:00:03.57,Songs,,0,0,0,,{\blur0.6}A-B-C-D-E-F-G
+Dialogue: 1,0:00:03.57,0:00:07.28,Songs,,0,0,0,,{\blur0.6}H-I-J-K-L-M-N-O-P
+Dialogue: 1,0:00:07.28,0:00:11.16,Songs,,0,0,0,,{\blur0.6}Q-R-S-T-U-V-W
+Dialogue: 1,0:00:11.16,0:00:12.74,Songs,,0,0,0,,{\blur0.6}X-Y and Z
+Dialogue: 1,0:00:14.79,0:00:16.62,Songs,,0,0,0,,{\blur0.6}Now you know your ABCs
+Dialogue: 1,0:00:33.55,0:00:36.77,Songs,,0,0,0,,{\blur0.6}Isn't it bizarre, the way we string together\Nletters from A to Z?
+Dialogue: 1,0:00:36.77,0:00:40.23,Songs,,0,0,0,,{\blur0.6}Whether it be out loud or by text,\Nlet's find something to talk about!
+Dialogue: 1,0:00:40.23,0:00:43.56,Songs,,0,0,0,,{\blur0.6}How will the world end? What's for dinner?
+Dialogue: 1,0:00:43.56,0:00:47.36,Songs,,0,0,0,,{\blur0.6}Let's share those moments of laughter and tears
+Dialogue: 1,0:00:47.36,0:00:50.45,Songs,,0,0,0,,{\blur0.6}I decide what I like and hate
+Dialogue: 1,0:00:50.45,0:00:53.95,Songs,,0,0,0,,{\blur0.6}But that too is a barrier I can break down
+Dialogue: 1,0:00:53.95,0:00:57.62,Songs,,0,0,0,,{\blur0.6}Don't you see? Our words make us who we are
+Dialogue: 1,0:00:57.62,0:01:01.46,Songs,,0,0,0,,{\blur0.6}There's something I want to talk about with you
+Dialogue: 1,0:01:01.46,0:01:04.75,Songs,,0,0,0,,{\blur0.6}Just thinking about that gets me all giddy
+Dialogue: 1,0:01:04.75,0:01:08.51,Songs,,0,0,0,,{\blur0.6}Whether you're right next to me or not
+Dialogue: 1,0:01:08.51,0:01:11.88,Songs,,0,0,0,,{\blur0.6}You always brighten up my day
+Dialogue: 1,0:01:11.88,0:01:15.39,Songs,,0,0,0,,{\blur0.6}Of all the things you've spoken to me
+Dialogue: 1,0:01:15.39,0:01:18.64,Songs,,0,0,0,,{\blur0.6}I cherish every last word
+Dialogue: 1,0:01:18.64,0:01:22.40,Songs,,0,0,0,,{\blur0.6}It feels good to think about somebody
+Dialogue: 1,0:01:22.40,0:01:27.98,Songs,,0,0,0,,{\blur0.6}And it feels good to put that into words
+Dialogue: 0,0:00:00.40,0:00:03.57,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}A-B-C-D-E-F-G
+Dialogue: 0,0:00:03.57,0:00:07.28,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}H-I-J-K-L-M-N-O-P
+Dialogue: 0,0:00:07.28,0:00:11.16,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Q-R-S-T-U-V-W
+Dialogue: 0,0:00:11.16,0:00:12.74,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}X-Y and Z
+Dialogue: 0,0:00:14.79,0:00:16.62,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Now you know your ABCs
+Dialogue: 0,0:00:33.55,0:00:36.77,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Isn't it bizarre, the way we string together\Nletters from A to Z?
+Dialogue: 0,0:00:36.77,0:00:40.23,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Whether it be out loud or by text,\Nlet's find something to talk about!
+Dialogue: 0,0:00:40.23,0:00:43.56,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}How will the world end? What's for dinner?
+Dialogue: 0,0:00:43.56,0:00:47.36,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Let's share those moments of laughter and tears
+Dialogue: 0,0:00:47.36,0:00:50.45,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I decide what I like and hate
+Dialogue: 0,0:00:50.45,0:00:53.95,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}But that too is a barrier I can break down
+Dialogue: 0,0:00:53.95,0:00:57.62,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Don't you see? Our words make us who we are
+Dialogue: 0,0:00:57.62,0:01:01.46,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}There's something I want to talk about with you
+Dialogue: 0,0:01:01.46,0:01:04.75,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Just thinking about that gets me all giddy
+Dialogue: 0,0:01:04.75,0:01:08.51,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Whether you're right next to me or not
+Dialogue: 0,0:01:08.51,0:01:11.88,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}You always brighten up my day
+Dialogue: 0,0:01:11.88,0:01:15.39,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Of all the things you've spoken to me
+Dialogue: 0,0:01:15.39,0:01:18.64,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I cherish every last word
+Dialogue: 0,0:01:18.64,0:01:22.40,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}It feels good to think about somebody
+Dialogue: 0,0:01:22.40,0:01:27.98,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}And it feels good to put that into words
+Comment: 0,0:22:29.87,0:22:29.91,Songs,,0,0,0,sync,sync
+Dialogue: 1,0:22:30.29,0:22:35.96,Songs,,0,0,0,,{\blur0.6}I want to see you once a thousand nights have passed
+Dialogue: 1,0:22:36.92,0:22:40.13,Songs,,0,0,0,,{\blur0.6}I dreamt I was flying through the night sky
+Dialogue: 1,0:22:40.13,0:22:43.01,Songs,,0,0,0,,{\blur0.6}On a magic carpet
+Dialogue: 1,0:22:43.51,0:22:48.77,Songs,,0,0,0,,{\blur0.6}And I just wanted you to see it
+Dialogue: 1,0:22:49.68,0:22:52.94,Songs,,0,0,0,,{\blur0.6}Oh, did I wake you? I'm so sorry
+Dialogue: 1,0:22:52.94,0:22:55.77,Songs,,0,0,0,,{\blur0.6}I thought you sounded half-asleep
+Dialogue: 1,0:22:56.27,0:23:01.57,Songs,,0,0,0,,{\blur0.6}And it made me swoon
+Dialogue: 1,0:23:03.86,0:23:09.70,Songs,,0,0,0,,{\blur0.6}Just like the glittering scent of rose tea
+Dialogue: 1,0:23:10.29,0:23:17.79,Songs,,0,0,0,,{\blur0.6}When my heart starts pounding, I lock up
+Dialogue: 1,0:23:18.30,0:23:24.01,Songs,,0,0,0,,{\blur0.6}I want to see you once a thousand nights have passed
+Dialogue: 1,0:23:24.68,0:23:30.89,Songs,,0,0,0,,{\blur0.6}Even though I could just type a <3 and send it to you
+Dialogue: 1,0:23:31.14,0:23:36.69,Songs,,0,0,0,,{\blur0.6}It's hard to sum up the way I feel for you
+Dialogue: 1,0:23:37.48,0:23:40.65,Songs,,0,0,0,,{\blur0.6}It's like a millefeuille
+Dialogue: 1,0:23:40.65,0:23:45.32,Songs,,0,0,0,,{\blur0.6}With all of my smiles and tears mixed in
+Dialogue: 1,0:23:45.53,0:23:51.87,Songs,,0,0,0,,{\blur0.6}I feel happy, I feel painful
+Dialogue: 1,0:23:51.87,0:23:58.29,Songs,,0,0,0,,{\blur0.6}I feel longing — I'm in love
+Dialogue: 0,0:22:30.29,0:22:35.96,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I want to see you once a thousand nights have passed
+Dialogue: 0,0:22:36.92,0:22:40.13,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I dreamt I was flying through the night sky
+Dialogue: 0,0:22:40.13,0:22:43.01,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}On a magic carpet
+Dialogue: 0,0:22:43.51,0:22:48.77,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}And I just wanted you to see it
+Dialogue: 0,0:22:49.68,0:22:52.94,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Oh, did I wake you? I'm so sorry
+Dialogue: 0,0:22:52.94,0:22:55.77,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I thought you sounded half-asleep
+Dialogue: 0,0:22:56.27,0:23:01.57,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}And it made me swoon
+Dialogue: 0,0:23:03.86,0:23:09.70,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Just like the glittering scent of rose tea
+Dialogue: 0,0:23:10.29,0:23:17.79,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}When my heart starts pounding, I lock up
+Dialogue: 0,0:23:18.30,0:23:24.01,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I want to see you once a thousand nights have passed
+Dialogue: 0,0:23:24.68,0:23:30.89,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}Even though I could just type a <3 and send it to you
+Dialogue: 0,0:23:31.14,0:23:36.69,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}It's hard to sum up the way I feel for you
+Dialogue: 0,0:23:37.48,0:23:40.65,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}It's like a millefeuille
+Dialogue: 0,0:23:40.65,0:23:45.32,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}With all of my smiles and tears mixed in
+Dialogue: 0,0:23:45.53,0:23:51.87,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I feel happy, I feel painful
+Dialogue: 0,0:23:51.87,0:23:58.29,Songs,,0,0,0,,{\bord3.5\blur0.6\c&H0A0A0A&}I feel longing — I'm in love
+Dialogue: 0,0:22:30.29,0:22:33.38,Karaoke (ED1),,0,0,0,,{\c&HFBE6FD&\2c&HFBE6FD&\3c&HFBE6FD&\blur0.6\fade(100,100)}sen no yoru wo koete
+Dialogue: 1,0:22:30.29,0:22:33.38,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H9E8AA2&\4a&HFF&\blur0.6\kf9\kf45\fade(100,100)}sen {\kf41}no {\kf45}yo{\kf15}ru {\kf17}wo {\kf24}ko{\kf33}e{\kf54}te{\kf25}
+Dialogue: 0,0:22:33.38,0:22:36.75,Karaoke (ED1),,0,0,0,,{\c&HFBE6FD&\2c&HFBE6FD&\3c&HFBE6FD&\blur0.6\clip(21,33,582,180)\t(2320,2847,\clip(21,33,62,180))\fade(100,100)}imasugu aitai no
+Dialogue: 1,0:22:33.38,0:22:36.75,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H9E8AA2&\4a&HFF&\blur0.6\clip(21,33,582,180)\t(2320,2847,\clip(21,33,62,180))\kf5\kf40\fade(100,100)}i{\kf17}ma{\kf43}su{\kf39}gu {\kf46}ai{\kf19}ta{\kf36}i {\kf71}no{\kf22}
+Dialogue: 2,0:22:33.38,0:22:36.75,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HFEC6CE&\3c&HFEC6CE&\blur0.6\clip(584,33,582,180)\t(2320,2847,\clip(21,33,582,180))\fade(100,100)}imasugu aitai no
+Dialogue: 3,0:22:33.38,0:22:36.75,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\clip(584,33,582,180)\t(2320,2847,\clip(21,33,582,180))\kf5\kf40\fade(100,100)}i{\kf17}ma{\kf43}su{\kf39}gu {\kf46}ai{\kf19}ta{\kf36}i {\kf71}no{\kf22}
+Dialogue: 0,0:22:36.92,0:22:40.17,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HFEC6CE&\3c&HFEC6CE&\blur0.6\fade(100,100)}mahou no juutan ni notte
+Dialogue: 1,0:22:36.92,0:22:40.17,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf7\kf24\fade(100,100)}ma{\kf37}hou {\kf24}no {\kf18}ju{\kf19}u{\kf31}ta{\kf32}n {\kf18}ni {\kf41}no{\kf18}t{\kf39}te{\kf17}
+Dialogue: 0,0:22:40.17,0:22:43.51,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HFEC6CE&\3c&HFEC6CE&\blur0.6\fade(100,100)}tondeku yozora no yume
+Dialogue: 1,0:22:40.17,0:22:43.51,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf4\kf42\fade(100,100)}ton{\kf50}deku {\kf28}yo{\kf27}zo{\kf58}ra {\kf38}no {\kf18}yu{\kf47}me{\kf22}
+Dialogue: 0,0:22:43.51,0:22:43.68,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HFEC6CE&\3c&HFEC6CE&\blur0.6\fade(100,0)}kimi ni mo
+Dialogue: 1,0:22:43.51,0:22:43.68,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf8\kf47\fade(100,0)}ki{\kf38}mi {\kf38}ni {\kf29}m{\kf132}o{\kf21}
+Dialogue: 0,0:22:43.68,0:22:43.72,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HFEC6CE&\3c&HFEC6CE&\blur0.6\clip(48,39,258,152)}kimi ni mo
+Dialogue: 1,0:22:43.68,0:22:43.72,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\clip(48,39,258,152)\kf11}ki{\kf38}mi {\kf38}ni {\kf29}m{\kf132}o{\kf21}
+Dialogue: 2,0:22:43.68,0:22:43.72,Karaoke (ED1),,0,0,0,,{\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\clip(258,39,390,152)}kimi ni mo
+Dialogue: 3,0:22:43.68,0:22:43.72,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\clip(258,39,390,152)\kf11}ki{\kf38}mi {\kf38}ni {\kf29}m{\kf132}o{\kf21}
+Dialogue: 0,0:22:43.72,0:22:49.68,Karaoke (ED1),,0,0,0,,{\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\fade(0,100)}kimi ni mo
+Dialogue: 1,0:22:43.72,0:22:49.68,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\kf6\fade(0,100)}ki{\kf38}mi {\kf38}ni {\kf29}m{\kf132}o{\kf21}
+Dialogue: 0,0:22:45.10,0:22:48.43,Karaoke (ED1),,0,0,0,,{\an9\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\fade(100,100)}kimi ni mo
+Dialogue: 1,0:22:45.10,0:22:48.43,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\kf5\kf45\fade(100,100)}ki{\kf44}mi {\kf39}ni {\kf32}m{\kf154}o{\kf15}
+Dialogue: 2,0:22:46.64,0:22:49.68,Karaoke (ED1),,0,0,0,,{\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\fade(100,100)\alphaFF}kimi ni mo {\alpha0}misetakute
+Dialogue: 3,0:22:46.64,0:22:49.68,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\kf0\fade(100,100)\alphaFF}kimi ni mo {\alpha0\kf10}{\kf40}mi{\kf46}se{\kf40}ta{\kf64}ku{\kf91}te{\kf13}
+Dialogue: 0,0:22:48.43,0:22:51.35,Karaoke (ED1),,0,0,0,,{\an9\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\fade(100,100)}misetai
+Dialogue: 1,0:22:48.43,0:22:51.35,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\kf5\kf36\fade(100,100)}mi{\kf36}se{\kf48}ta{\kf156}i{\kf11}
+Dialogue: 0,0:22:49.68,0:22:52.98,Karaoke (ED1),,0,0,0,,{\c&HFEEFCC&\2c&HFEEFCC&\3c&HFEEFCC&\blur0.6\clip(48,36,1002,177)\t(2398,2774,\clip(48,36,63,177))\fade(100,100)}okoshichatta kana? gomen ne
+Dialogue: 1,0:22:49.68,0:22:52.98,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H99917B&\4a&HFF&\blur0.6\clip(48,36,1002,177)\t(2398,2774,\clip(48,36,63,177))\kf9\kf25\fade(100,100)}o{\kf17}ko{\kf22}shi{\kf25}cha{\kf18}t{\kf20}ta {\kf20}ka{\kf41}na? {\kf19}go{\kf31}me{\kf25}n {\kf32}ne{\kf26}
+Dialogue: 2,0:22:49.68,0:22:52.98,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H80BDFE&\3c&H80BDFE&\blur0.6\clip(1007,36,1002,177)\t(2398,2774,\clip(48,36,1002,177))\fade(100,100)}okoshichatta kana? gomen ne
+Dialogue: 3,0:22:49.68,0:22:52.98,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\clip(1007,36,1002,177)\t(2398,2774,\clip(48,36,1002,177))\kf9\kf25\fade(100,100)}o{\kf17}ko{\kf22}shi{\kf25}cha{\kf18}t{\kf20}ta {\kf20}ka{\kf41}na? {\kf19}go{\kf31}me{\kf25}n {\kf32}ne{\kf26}
+Dialogue: 0,0:22:52.98,0:22:56.27,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H80BDFE&\3c&H80BDFE&\blur0.6\fade(100,100)}neboketa kotobatachi ni
+Dialogue: 1,0:22:52.98,0:22:56.27,Karaoke (ED1),,0,0,0,,{\bord0\c&HFFFFFF&\2c&H456486&\4a&HFF&\blur0.6\kf9\kf20\fade(100,100)}ne{\kf18}bo{\kf24}ke{\kf28}ta {\kf30}ko{\kf18}to{\kf60}ba{\kf36}ta{\kf23}chi {\kf48}ni{\kf15}
+Dialogue: 0,0:22:56.27,0:23:00.74,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H80BDFE&\3c&H80BDFE&\blur0.6\fade(100,0)}nandaka
+Dialogue: 1,0:22:56.27,0:23:00.74,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\kf9\kf48\fade(100,0)}na{\kf36}n{\kf40}da{\kf163}ka{\kf451}
+Dialogue: 0,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H80BDFE&\3c&H80BDFE&\blur0.6\clip(m 188.25 165.24 l 289.74 28.5 34 32 30 156)}nandaka
+Dialogue: 1,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\clip(m 188.25 165.24 l 289.74 28.5 34 32 30 156)}nandaka
+Dialogue: 2,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\c&HC7FFD3&\2c&HC7FFD3&\3c&HC7FFD3&\blur0.6\clip(m 188.25 165.24 l 289.74 28.5 348.41 54.38 337.69 173.91)}nandaka
+Dialogue: 3,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 188.25 165.24 l 289.74 28.5 348.41 54.38 337.69 173.91)}nandaka
+Dialogue: 0,0:23:00.78,0:23:03.86,Karaoke (ED1),,0,0,0,,{\c&HC7FFD3&\2c&H6B9573&\3c&HC7FFD3&\blur0.6\fade(0,100)}nandaka
+Dialogue: 1,0:23:00.78,0:23:03.86,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\fade(0,100)}nandaka
+Dialogue: 0,0:22:57.98,0:23:00.69,Karaoke (ED1),,0,0,0,,{\an9\c&H80BDFE&\2c&H456486&\3c&H80BDFE&\blur0.6\kf39\fade(100,0)}na{\kf38}n{\kf46}da{\kf173}ka{\kf29}
+Dialogue: 1,0:22:57.98,0:23:00.69,Karaoke (ED1),,0,0,0,,{\an9\bord0\2c&H456486&\4a&HFF&\blur0.6\kf39\fade(100,0)}na{\kf38}n{\kf46}da{\kf173}ka{\kf29}
+Dialogue: 2,0:22:57.98,0:23:00.82,Karaoke (ED1),,0,0,0,,{\an9\c&H80BDFE&\2c&H456486&\3c&H80BDFE&\alpha&HFF&\blur0.6\iclip(m 1665.14 148.26 b 1649.36 125.37 1614.01 88.9 1590.93 69.79 l 1568 158)\t(2700,2701,\alpha&H00&)\kf39}na{\kf38}n{\kf46}da{\kf173}ka{\kf29}
+Dialogue: 3,0:22:57.98,0:23:00.82,Karaoke (ED1),,0,0,0,,{\an9\bord0\2c&H456486&\alpha&HFF&\blur0.6\iclip(m 1665.14 148.26 b 1649.36 125.37 1614.01 88.9 1590.93 69.79 l 1568 158)\t(2700,2701,\alpha&H00&)\kf39}na{\kf38}n{\kf46}da{\kf173}ka{\kf29}
+Dialogue: 4,0:23:00.69,0:23:00.74,Karaoke (ED1),,0,0,0,,{\an9\bord7.5\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 1665.14 148.26 b 1649.36 125.37 1614.01 88.9 1590.93 69.79 l 1568 158)}nandaka
+Dialogue: 5,0:23:00.69,0:23:00.74,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 1665.14 148.26 b 1649.36 125.37 1614.01 88.9 1590.93 69.79 l 1568 158)}nandaka
+Dialogue: 4,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\an9\bord7.5\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 1796.17 150.39 b 1782.93 122.12 1754.39 72.07 1736.35 46.88 l 1594 54 1568 158)}nandaka
+Dialogue: 5,0:23:00.74,0:23:00.78,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 1796.17 150.39 b 1782.93 122.12 1754.39 72.07 1736.35 46.88 l 1594 54 1568 158)}nandaka
+Dialogue: 4,0:23:00.78,0:23:00.82,Karaoke (ED1),,0,0,0,,{\an9\bord7.5\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 1846.75 148 l 1796.25 46.875 1594 54 1568 158)}nandaka
+Dialogue: 5,0:23:00.78,0:23:00.82,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 1846.75 148 l 1796.25 46.875 1594 54 1568 158)}nandaka
+Dialogue: 4,0:23:00.82,0:23:01.24,Karaoke (ED1),,0,0,0,,{\an9\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\fade(0,100)}nandaka
+Dialogue: 5,0:23:00.82,0:23:01.24,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\fade(0,100)}nandaka
+Dialogue: 4,0:22:59.53,0:23:00.74,Karaoke (ED1),,0,0,0,,{\c&H80BDFC&\2c&H456486&\3c&H80BDFC&\blur0.6\fade(100,0)\alphaFF}nandaka {\alpha0}kyun to kita
+Dialogue: 5,0:22:59.53,0:23:00.74,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\kf0\fade(100,0)\alphaFF}nandaka{\kf11} {\kf35}{\alpha0}kyu{\kf40}n {\kf42}to {\kf53}ki{\kf219}ta{\kf34}
+Dialogue: 6,0:23:00.69,0:23:00.74,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 636 148 l 740 36 756 176)\alphaFF}nandaka {\alpha0}kyun to kita
+Dialogue: 7,0:23:00.69,0:23:00.74,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 636 148 l 740 36 756 176)\kf0\alphaFF}nandaka{\kf11} {\kf35}{\alpha0}kyu{\kf40}n {\kf42}to {\kf53}ki{\kf219}ta{\kf34}
+Dialogue: 6,0:23:00.74,0:23:03.86,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\fade(0,100)\alphaFF}nandaka {\alpha0}kyun to kita
+Dialogue: 7,0:23:00.74,0:23:03.86,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\fade(0,100)\alphaFF}nandaka {\alpha0}kyun to {\kf53}ki{\kf219}ta{\kf34}
+Dialogue: 0,0:23:01.24,0:23:03.86,Karaoke (ED1),,0,0,0,,{\an9\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\fade(100,100)}kyun kyun
+Dialogue: 1,0:23:01.24,0:23:03.86,Karaoke (ED1),,0,0,0,,{\an9\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\kf10\kf37\fade(100,100)}kyu{\kf35}n {\kf22}kyu{\kf147}n{\kf12}
+Dialogue: 0,0:23:03.86,0:23:10.29,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(50,51,1335,158)\t(1231,2836,\clip(50,51,69,158))\fade(100,100)}kirameku kaori no roozu tii mitai ni
+Dialogue: 1,0:23:03.86,0:23:10.29,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(50,51,1335,158)\t(1231,2836,\clip(50,51,69,158))\kf8\kf46\fade(100,100)}kira{\kf42}me{\kf36}ku {\kf44}kao{\kf36}ri {\kf87}no{\kf30} {\kf43}roo{\kf43}zu {\kf42}ti{\kf25}i {\kf35}mi{\kf24}ta{\kf18}i {\kf71}ni{\kf12}
+Dialogue: 2,0:23:03.86,0:23:09.83,Karaoke (ED1),,0,0,0,,{\c&H9FA1FE&\2c&H6364A1&\3c&H9FA1FE&\blur0.6\clip(1395,51,1335,158)\t(1155,2860,\clip(50,51,1335,158))\fade(100,0)}kirameku kaori no roozu tii mitai ni
+Dialogue: 3,0:23:03.86,0:23:09.83,Karaoke (ED1),,0,0,0,,{\bord0\2c&H6364A1&\4a&HFF&\blur0.6\clip(1395,51,1335,158)\t(1155,2860,\clip(50,51,1335,158))\kf8\kf46\fade(100,0)}kira{\kf42}me{\kf36}ku {\kf44}kao{\kf36}ri {\kf87}no{\kf30} {\kf43}roo{\kf43}zu {\kf42}ti{\kf25}i {\kf35}mi{\kf24}ta{\kf18}i {\kf71}ni{\kf12}
+Dialogue: 2,0:23:09.83,0:23:10.29,Karaoke (ED1),,0,0,0,,{\c&H9FA1FE&\2c&H6364A1&\3c&H9FA1FE&\blur0.6\clip(375,26,1316,183)\t(19,227,\clip(1316,26,1316,183))\fade(0,100)}kirameku kaori no roozu tii mitai ni
+Dialogue: 3,0:23:09.83,0:23:10.29,Karaoke (ED1),,0,0,0,,{\bord0\2c&H6364A1&\4a&HFF&\blur0.6\clip(375,26,1316,183)\t(19,227,\clip(1316,26,1316,183))\fade(0,100)}kirameku kaori no roozu tii mitai {\kf2}n{\kf34}i{\kf0}
+Dialogue: 4,0:23:09.83,0:23:10.29,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(32,26,375,183)\t(19,227,\clip(32,26,1316,183))\fade(0,100)}kirameku kaori no roozu tii mitai ni
+Dialogue: 5,0:23:09.83,0:23:10.29,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(32,26,375,183)\t(19,227,\clip(32,26,1316,183))\fade(0,100)}kirameku kaori no roozu tii mitai {\kf2}n{\kf34}i{\kf0}
+Dialogue: 0,0:23:10.29,0:23:11.79,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(52,42,906,160)\t(1103,1477,\clip(52,42,180,160))\fade(100,0)}dokidoki no sono shunkan
+Dialogue: 1,0:23:10.29,0:23:11.79,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(52,42,906,160)\t(1103,1477,\clip(52,42,180,160))\kf16\kf40\fade(100,0)}do{\kf24}ki{\kf40}do{\kf16}ki {\kf42}no {\kf42}so{\kf15}no {\kf40}shu{\kf23}n{\kf40}ka{\kf106}n{\kf27}
+Dialogue: 2,0:23:11.41,0:23:11.79,Karaoke (ED1),,0,0,0,,{\c&HC3FFFE&\2c&H789799&\3c&HC3FFFE&\blur0.6\clip(824,42,872,160)\t(25,357,\clip(180,42,872,160))}dokidoki no sono shunkan
+Dialogue: 3,0:23:11.41,0:23:11.79,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H789799&\4a&HFF&\blur0.6\clip(824,42,872,160)\t(25,357,\clip(180,42,872,160))}dokido{\kf24}ki {\kf42}no {\kf42}so{\kf15}no {\kf40}shu{\kf23}n{\kf40}ka{\kf106}n{\kf27}
+Dialogue: 2,0:23:11.79,0:23:15.00,Karaoke (ED1),,0,0,0,,{\c&HC3FFFE&\2c&H789799&\3c&HC3FFFE&\blur0.6\fade(0,100)}dokidoki no sono shunkan
+Dialogue: 3,0:23:11.79,0:23:15.00,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H789799&\4a&HFF&\blur0.6\fade(0,100)}dokidoki n{\kf28}o {\kf42}so{\kf15}no {\kf40}shu{\kf23}n{\kf40}ka{\kf106}n{\kf27}
+Dialogue: 0,0:23:15.00,0:23:17.67,Karaoke (ED1),,0,0,0,,{\c&HC3FFFE&\2c&H789799&\3c&HC3FFFE&\blur0.6\fade(100,0)}tojikomeru
+Dialogue: 1,0:23:15.00,0:23:17.67,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H789799&\4a&HFF&\blur0.6\kf24\fade(100,0)}to{\kf39}ji{\kf24}ko{\kf36}me{\kf154}ru{\kf11}
+Dialogue: 0,0:23:17.67,0:23:17.71,Karaoke (ED1),,0,0,0,,{\c&HC3FFFE&\2c&H789799&\3c&HC3FFFE&\blur0.6\clip(54,54,397,94)}tojikomeru
+Dialogue: 1,0:23:17.67,0:23:17.71,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H789799&\4a&HFF&\blur0.6\clip(54,54,397,94)}tojikomeru
+Dialogue: 2,0:23:17.67,0:23:17.71,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\clip(54,94,397,154)}tojikomeru
+Dialogue: 3,0:23:17.67,0:23:17.71,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\clip(54,94,397,154)}tojikomeru
+Dialogue: 2,0:23:17.71,0:23:17.88,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\fade(0,100)}tojikomeru
+Dialogue: 3,0:23:17.71,0:23:17.88,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\fade(0,100)}tojikomeru
+Dialogue: 0,0:23:18.30,0:23:21.38,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\t(17,224,\clip(909,36,909,178))\fade(100,100)}sen no yoru wo koete
+Dialogue: 1,0:23:18.30,0:23:21.38,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\t(17,224,\clip(909,36,909,178))\kf49\fade(100,100)}sen {\kf44}no {\kf42}yo{\kf20}ru {\kf20}wo {\kf31}ko{\kf31}e{\kf50}te{\kf21}
+Dialogue: 2,0:23:18.30,0:23:21.38,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(0,36,0,178)\t(17,224,\clip(0,36,909,178))\fade(100,100)}sen no yoru wo koete
+Dialogue: 3,0:23:18.30,0:23:21.38,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\clip(0,36,0,178)\t(17,224,\clip(0,36,909,178))\kf49\fade(100,100)}sen {\kf44}no {\kf42}yo{\kf20}ru {\kf20}wo {\kf31}ko{\kf31}e{\kf50}te{\kf21}
+Dialogue: 0,0:23:21.38,0:23:24.68,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\fade(100,100)}imasugu aitai no
+Dialogue: 1,0:23:21.38,0:23:24.68,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\kf9\kf34\fade(100,100)}i{\kf22}ma{\kf41}su{\kf39}gu {\kf46}ai{\kf22}ta{\kf32}i {\kf72}no{\kf13}
+Dialogue: 0,0:23:24.68,0:23:27.93,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\t(1400,1401,\3c&HFBE6FD&\c&HFBE6FD&\2c&H9E8AA2&)\fade(100,100)}yubisaki haato wo nosete
+Dialogue: 1,0:23:24.68,0:23:27.93,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\t(1400,1401,\2c&H9E8AA2&)\kf15\kf22\fade(100,100)}yu{\kf20}bi{\kf38}sa{\kf37}ki {\kf43}haa{\kf44}to {\kf34}wo {\kf22}no{\kf22}se{\kf28}te
+Dialogue: 0,0:23:27.93,0:23:31.14,Karaoke (ED1),,0,0,0,,{\c&HFBE6FD&\2c&H9E8AA2&\3c&HFBE6FD&\blur0.6\clip(36,40,746,164)\t(2326,2760,\clip(36,40,36,164))\fade(100,100)}tsutawattara ii no ni
+Dialogue: 1,0:23:27.93,0:23:31.14,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H9E8AA2&\4a&HFF&\blur0.6\clip(36,40,746,164)\t(2326,2760,\clip(36,40,36,164))\kf39\fade(100,100)}tsu{\kf33}ta{\kf28}wa{\kf24}t{\kf20}ta{\kf24}ra {\kf77}ii{\kf0} {\kf46}no {\kf17}ni{\kf13}
+Dialogue: 2,0:23:27.93,0:23:31.14,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\clip(746,40,746,164)\t(2326,2760,\clip(36,40,746,164))\fade(100,100)}tsutawattara ii no ni
+Dialogue: 3,0:23:27.93,0:23:31.14,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\clip(746,40,746,164)\t(2326,2760,\clip(36,40,746,164))\kf39\fade(100,100)}tsu{\kf33}ta{\kf28}wa{\kf24}t{\kf20}ta{\kf24}ra {\kf77}ii{\kf0} {\kf46}no {\kf17}ni{\kf13}
+Dialogue: 0,0:23:31.14,0:23:34.14,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\fade(100,100)}kimi e no kono kimochi
+Dialogue: 1,0:23:31.14,0:23:34.14,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf22\fade(100,100)}ki{\kf29}mi {\kf34}e {\kf44}no {\kf21}ko{\kf17}no {\kf26}ki{\kf36}mo{\kf56}chi{\kf15}
+Dialogue: 0,0:23:34.14,0:23:37.48,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\fade(100,100)}hitokoto ja tarinai
+Dialogue: 1,0:23:34.14,0:23:37.48,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf10\kf40\fade(100,100)}hi{\kf19}to{\kf44}ko{\kf29}to {\kf29}ja {\kf24}ta{\kf16}ri{\kf39}na{\kf73}i{\kf11}
+Dialogue: 0,0:23:37.48,0:23:40.78,Karaoke (ED1),,0,0,0,,{\c&HFEC6CE&\2c&HAA8487&\3c&HFEC6CE&\blur0.6\fade(100,100)}egao mo namida mo zenbu
+Dialogue: 1,0:23:37.48,0:23:40.78,Karaoke (ED1),,0,0,0,,{\bord0\2c&HAA8487&\4a&HFF&\blur0.6\kf11\kf25\fade(100,100)}e{\kf20}ga{\kf43}o {\kf33}mo {\kf24}na{\kf23}mi{\kf37}da {\kf33}mo {\kf49}zen{\kf32}bu
+Dialogue: 0,0:23:40.78,0:23:45.53,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H456486&\3c&H80BDFE&\blur0.6\fade(100,100)}tsumikasaneta mirufiiyu
+Dialogue: 1,0:23:40.78,0:23:45.53,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\kf36\fade(100,100)}tsu{\kf30}mi{\kf22}ka{\kf29}sa{\kf32}ne{\kf17}ta {\kf45}mi{\kf35}ru{\kf76}fii{\kf128}yu{\kf25}
+Dialogue: 0,0:23:45.53,0:23:49.58,Karaoke (ED1),,0,0,0,,{\c&H80BDFE&\2c&H456486&\3c&H80BDFE&\blur0.6\fade(100,0)}ureshii setsunai itoshii
+Dialogue: 1,0:23:45.53,0:23:49.58,Karaoke (ED1),,0,0,0,,{\bord0\2c&H456486&\4a&HFF&\blur0.6\kf11\kf56\fade(100,0)}u{\kf57}re{\kf50}shi{\kf109}i{\kf47} {\kf60}se{\kf60}tsu{\kf41}na{\kf115}i{\kf50} {\kf58}i{\kf50}to{\kf48}shi{\kf115}i{\kf11}
+Dialogue: 2,0:23:49.45,0:23:49.49,Karaoke (ED1),,0,0,0,,{\bord7\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 719.46 149.01 l 795.23 80.66 799.54 179.18)}ureshii setsunai itoshii
+Dialogue: 3,0:23:49.45,0:23:49.49,Karaoke (ED1),,0,0,0,,{\bord0\c&H6B9573&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 719.46 149.01 l 795.23 80.66 799.54 179.18)}ureshii setsu{\kf41}na{\kf115}i{\kf50} {\kf58}i{\kf50}to{\kf48}shi{\kf115}i{\kf11}
+Dialogue: 2,0:23:49.49,0:23:49.53,Karaoke (ED1),,0,0,0,,{\bord7\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 642.51 168.88 l 491.84 25.82 823.32 32.27 799.64 173.19)}ureshii setsunai itoshii
+Dialogue: 3,0:23:49.49,0:23:49.53,Karaoke (ED1),,0,0,0,,{\bord0\c&H6B9573&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 642.51 168.88 l 491.84 25.82 823.32 32.27 799.64 173.19)}ureshii setsunai itoshii
+Dialogue: 2,0:23:49.53,0:23:49.58,Karaoke (ED1),,0,0,0,,{\bord7\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\clip(m 487.44 144.75 b 510.77 115.4 522.83 62.32 532.48 27.34 l 783.44 37.8 786.66 176.11)}ureshii setsunai itoshii
+Dialogue: 3,0:23:49.53,0:23:49.58,Karaoke (ED1),,0,0,0,,{\bord0\c&H6B9573&\2c&H6B9573&\4a&HFF&\blur0.6\clip(m 487.44 144.75 b 510.77 115.4 522.83 62.32 532.48 27.34 l 783.44 37.8 786.66 176.11)}ureshii setsunai itoshii
+Dialogue: 2,0:23:49.58,0:23:54.91,Karaoke (ED1),,0,0,0,,{\c&HC6FED0&\2c&H6B9573&\3c&HC6FED0&\blur0.6\fade(0,100)}ureshii setsunai itoshii
+Dialogue: 3,0:23:49.58,0:23:54.91,Karaoke (ED1),,0,0,0,,{\bord0\c&H515151&\2c&H6B9573&\4a&HFF&\blur0.6\fade(0,100)}ureshii se{\kf1}t{\kf46}su{\kf41}na{\kf115}i{\kf50} {\kf58}i{\kf50}to{\kf48}shi{\kf115}i{\kf11}
+Dialogue: 0,0:23:55.21,0:23:58.63,Karaoke (ED1),,0,0,0,,{\c&H516D57&\2c&H515151&\3c&H516D57&\blur0.6\fade(100,100)}ko{\c&H986A6E&\3c&H986A6E&}i{\c&H789799&\3c&H789799&}shi{\c&H4B79AC&\3c&H4B79AC&}te{\c&H6C6CC8&\3c&H6C6CC8&}ru
+Dialogue: 1,0:23:55.21,0:23:58.63,Karaoke (ED1),,0,0,0,,{\bord0\c&HC7FFD1&\2c&H515151&\4a&HFF&\blur0.6\k47\fade(100,100)}ko{\k31}{\c&HFCC7CC&}i{\k44}{\c&HC3FEFF&}shi{\k40}{\c&H81BEFF&}te{\k180}{\c&H9FA0FF&}ru
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;4
+Data: 1,_aegi_folddata,e1;1;4
+Data: 2,_aegi_folddata,e0;1;5
+Data: 3,_aegi_folddata,e1;1;5
+Data: 4,_aegi_folddata,e0;1;6
+Data: 5,a-mo,e{"originalText"#3A"{\\p1\\pos(0#2C0)\\an7\\blur1\\c&H449848&}m 511.08 646.03 l 1001.44 582.9 1032.02 847.23 541.44 913.54"#2C"uuid"#3A"cd86972f-a686-4a9c-8a84-7010ff5c4354"}
+Data: 6,_aegi_perspective_ambient_plane,e513.58;645.48#7C999.74;583.02#7C1030.42;846.52#7C542.26;910.98
+Data: 7,a-mo,e{"originalText"#3A"{\\fnCCHeroSandwichMeat\\c&HECF9FD&\\fs200\\blur1\\fax-0.023472\\fscx89.84\\fscy118.71\\frz7.4229\\frx0.3267\\fry0.1957\\org(775.3#2C747.33)\\pos(777.41#2C747.33)}CLOSED"#2C"uuid"#3A"fcd6a73b-d40d-4297-81cf-705dcebdd78b"}
+Data: 8,_aegi_folddata,e1;1;6
+Data: 9,_aegi_folddata,e0;1;7
+Data: 10,_aegi_perspective_ambient_plane,e780.81;748.27#7C996.42;672.54#7C1016.44;797.23#7C813.31;879.23
+Data: 11,_aegi_folddata,e1;1;7
+Data: 12,_aegi_folddata,e0;1;8
+Data: 13,_aegi_folddata,e1;1;8
+Data: 14,_aegi_folddata,e0;1;9
+Data: 15,_aegi_folddata,e1;1;9
+

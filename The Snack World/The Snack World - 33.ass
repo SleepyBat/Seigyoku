@@ -1,0 +1,975 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 33
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.40,0:00:05.08,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.08,0:00:08.20,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.20,0:00:09.90,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:09.90,0:00:11.78,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.20,0:00:16.62,0$Default,,0,0,0,,My village was burnt down by\Nthe evil land-destroying merchant Vinegar Khan,
+Dialogue: 0,0:00:16.62,0:00:18.83,0$Default,,0,0,0,,so I've embarked on a journey\Nto get my revenge 1000-fold!
+Dialogue: 0,0:00:19.48,0:00:22.78,0$Default,,0,0,0,,At last, my journey has brought me\Nclose to Vinegar.
+Dialogue: 0,0:00:23.25,0:00:28.29,0$Default,,0,0,0,,In order to defeat him, I will overcome\Nany impossible mission that comes my way!
+Dialogue: 0,0:00:54.15,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:00.92,0:01:02.54,0$Default,,0,0,0,,{\an8}Hmm...
+Dialogue: 0,0:01:02.54,0:01:05.84,0$Default,,0,0,0,,{\an8}It's sure taking a while\Nto get all those stmaps.
+Dialogue: 0,0:01:05.84,0:01:07.07,0$Default,,0,0,0,,{\an8}Hey, Darefalcon?
+Dialogue: 0,0:01:07.07,0:01:09.01,0$Default,,0,0,0,,{\an8}Who do you want me to fight next?
+Dialogue: 0,0:01:09.01,0:01:11.49,0$Default,,0,0,0,,{\an8}One moment, Chup, Vinsant.
+Dialogue: 0,0:01:11.49,0:01:13.51,0$Default,,0,0,0,,{\an8}There's something I'd like to show you.
+Dialogue: 0,0:01:16.68,0:01:17.48,0$Default,,0,0,0,,What the?
+Dialogue: 0,0:01:17.48,0:01:19.27,0$Default,,0,0,0,,What are you doing to me?!
+Dialogue: 0,0:01:24.28,0:01:28.90,0$Default,,0,0,0,,Now, tell me. Which one of these three chests\Nis Gob-san inside?
+Dialogue: 0,0:01:28.90,0:01:30.30,0$Default,,0,0,0,,Ooh, is this a magic trick?
+Dialogue: 0,0:01:30.30,0:01:32.59,0$Default,,0,0,0,,I was watching! It's this one!
+Dialogue: 0,0:01:32.59,0:01:33.32,0$Default,,0,0,0,,I was too.
+Dialogue: 0,0:01:33.32,0:01:34.35,0$Default,,0,0,0,,It is!
+Dialogue: 0,0:01:34.35,0:01:35.37,0$Default,,0,0,0,,I agree!
+Dialogue: 0,0:01:35.37,0:01:37.08,0$Default,,0,0,0,,Is that your final answer?
+Dialogue: 0,0:01:37.08,0:01:39.12,0$Default,,0,0,0,,The answer was... this one!
+Dialogue: 0,0:01:39.12,0:01:40.25,0$Default,,0,0,0,,Here I am!
+Dialogue: 0,0:01:40.91,0:01:44.06,0$Default,,0,0,0,,Dang it! It should've been that one, I swear!
+Dialogue: 0,0:01:44.06,0:01:45.52,0$Default,,0,0,0,,Thanks a lot, Gob-san!
+Dialogue: 0,0:01:45.52,0:01:47.38,0$Default,,0,0,0,,Can't you read the room?
+Dialogue: 0,0:01:47.38,0:01:49.71,0$Default,,0,0,0,,Huh? Why are you booing me?
+Dialogue: 0,0:01:49.71,0:01:52.53,0$Default,,0,0,0,,Sir Darefalcon, what is the purpose\Nof this magic trick?
+Dialogue: 0,0:01:52.53,0:01:55.74,0$Default,,0,0,0,,I wanted you to recognize\Na quality that you are lacking.
+Dialogue: 0,0:01:55.74,0:01:57.31,0$Default,,0,0,0,,A quality that I'm lacking?
+Dialogue: 0,0:01:57.31,0:01:59.02,0$Default,,0,0,0,,Forgiveness for Gob-san?
+Dialogue: 0,0:01:59.02,0:01:59.58,0$Default,,0,0,0,,Hey.
+Dialogue: 0,0:01:59.58,0:02:02.04,0$Default,,0,0,0,,You lack that indeed,\Nbut that is not it.
+Dialogue: 0,0:02:02.04,0:02:05.27,0$Default,,0,0,0,,What you lack are mind's eyes!
+Dialogue: 0,0:02:05.27,0:02:06.52,0$Default,,0,0,0,,What's that mean?
+Dialogue: 0,0:02:06.52,0:02:09.30,0$Default,,0,0,0,,The ability to see that which is invisible\Nusing your heart.
+Dialogue: 0,0:02:09.30,0:02:14.05,0$Default,,0,0,0,,If you can acquire it, you won't be fooled\Nby treasure chests like these anymore.
+Dialogue: 0,0:02:14.05,0:02:16.05,0$Default,,0,0,0,,You'll be able to see the truth clearly.
+Dialogue: 0,0:02:16.05,0:02:19.66,0$Default,,0,0,0,,Read your opponent's minds,\Npredict their moves.
+Dialogue: 0,0:02:19.66,0:02:20.79,0$Default,,0,0,0,,That sounds awesome!
+Dialogue: 0,0:02:20.79,0:02:23.29,0$Default,,0,0,0,,And at its ultimate level is...
+Dialogue: 0,0:02:23.29,0:02:26.04,0$Default,,0,0,0,,Dragon Chakra!
+Dialogue: 0,0:02:26.04,0:02:27.54,0$Default,,0,0,0,,Dragon Chakra?
+Dialogue: 0,0:02:27.54,0:02:32.93,0$Default,,0,0,0,,The ultimate form of the mind's eye,\Nsaid that only Dragon Knights can acquire.
+Dialogue: 0,0:02:33.80,0:02:35.57,0$Default,,0,0,0,,That's even cooler!
+Dialogue: 0,0:02:35.57,0:02:37.76,0$Default,,0,0,0,,I'm gonna master Dragon Chakra!
+Dialogue: 0,0:02:37.76,0:02:40.74,0$Default,,0,0,0,,If you wish to train your mind's eye\Nand acquire Dragon Chakra,
+Dialogue: 0,0:02:40.74,0:02:44.08,0$Default,,0,0,0,,you must battle against\Nthe strongest out there.
+Dialogue: 0,0:02:44.08,0:02:45.14,0$Default,,0,0,0,,I shall lead you.
+Dialogue: 0,0:02:53.37,0:02:56.20,0$Default,,0,0,0,,Dragon...
+Dialogue: 0,0:02:56.20,0:02:58.38,0$Default,,0,0,0,,Warp!
+Dialogue: 0,0:03:01.75,0:03:03.56,0$Default,,0,0,0,,Oh, it's the woods!
+Dialogue: 0,0:03:03.56,0:03:06.27,0$Default,,0,0,0,,The strongest lies in these woods.
+Dialogue: 0,0:03:06.27,0:03:08.63,0$Default,,0,0,0,,This place seems pretty familiar.
+Comment: 0,0:03:09.13,0:03:10.13,0$Default,,0,0,0,,Snow White and the Seven Kinokos
+Dialogue: 0,0:03:10.13,0:03:12.69,0$Default,,0,0,0,,Don't tell me {\i1}she's{\i0} the strongest...!
+Dialogue: 0,0:03:12.69,0:03:14.63,0$Default,,0,0,0,,Indeed. Snow White.
+Dialogue: 0,0:03:15.51,0:03:19.01,0$Default,,0,0,0,,Yeah, so we'd like to battle\Nagainst Snow White.
+Dialogue: 0,0:03:19.01,0:03:21.31,0$Default,,0,0,0,,It'll have to wait,\Nit's our princess's dinnertime!
+Dialogue: 0,0:03:21.31,0:03:23.31,0$Default,,0,0,0,,She's probably deep asleep right now.
+Dialogue: 0,0:03:23.68,0:03:26.12,0$Default,,0,0,0,,Princess, it's dinnertime.
+Dialogue: 0,0:03:28.81,0:03:31.55,0$Default,,0,0,0,,Just as mighty of a snore\Nas the last time we saw her.
+Dialogue: 0,0:03:31.55,0:03:33.67,0$Default,,0,0,0,,Beating a sleeping woman\Nwill be a piece of cake!
+Dialogue: 0,0:03:33.67,0:03:35.28,0$Default,,0,0,0,,Have some mercy, Chup.
+Dialogue: 0,0:03:35.32,0:03:36.53,0$Default,,0,0,0,,Here I go!
+Dialogue: 0,0:03:37.84,0:03:40.16,0$Default,,0,0,0,,Thanks, I needed this chopped.
+Dialogue: 0,0:03:40.53,0:03:41.24,0$Default,,0,0,0,,Say what?!
+Dialogue: 0,0:03:42.83,0:03:44.37,0$Default,,0,0,0,,So juicy.
+Dialogue: 0,0:03:44.37,0:03:45.23,0$Default,,0,0,0,,Oh my...
+Dialogue: 0,0:03:45.23,0:03:46.37,0$Default,,0,0,0,,I see.
+Dialogue: 0,0:03:46.37,0:03:47.54,0$Default,,0,0,0,,How's this on for size?
+Dialogue: 0,0:03:55.97,0:03:57.18,0$Default,,0,0,0,,That was excellent.
+Dialogue: 0,0:03:57.18,0:03:59.82,0$Default,,0,0,0,,How can she move like this\Nin her sleep?!
+Dialogue: 0,0:03:59.82,0:04:01.58,0$Default,,0,0,0,,She's using her mind's eye.
+Dialogue: 0,0:04:01.58,0:04:02.51,0$Default,,0,0,0,,That's right!
+Dialogue: 0,0:04:03.06,0:04:06.08,0$Default,,0,0,0,,Our princess does so much in her sleep
+Dialogue: 0,0:04:06.08,0:04:08.82,0$Default,,0,0,0,,that she managed to master her mind's eye!
+Dialogue: 0,0:04:08.82,0:04:09.83,0$Default,,0,0,0,,Wowza!
+Dialogue: 0,0:04:09.83,0:04:11.81,0$Default,,0,0,0,,I thought she was just slacking off.
+Dialogue: 0,0:04:11.81,0:04:13.94,0$Default,,0,0,0,,Do you still wish to acquire a mind's eye?
+Dialogue: 0,0:04:13.94,0:04:15.63,0$Default,,0,0,0,,Absolutely, yes!
+Dialogue: 0,0:04:15.63,0:04:16.57,0$Default,,0,0,0,,Me too, yes.
+Dialogue: 0,0:04:16.57,0:04:18.34,0$Default,,0,0,0,,Very well then.
+Dialogue: 0,0:04:18.34,0:04:21.62,0$Default,,0,0,0,,You shall face Snow White\Nin blindfolded dodgeball!
+Dialogue: 0,0:04:22.25,0:04:24.08,0$Default,,0,0,0,,Blindfolded dodgeball?
+Dialogue: 0,0:04:24.41,0:04:28.02,0$Default,,0,0,0,,I'm sure you all played dodgeball as kids, no?
+Dialogue: 0,0:04:28.02,0:04:31.11,0$Default,,0,0,0,,'Twas originally created\Nat Dragon Shaolin Temple
+Dialogue: 0,0:04:31.11,0:04:34.38,0$Default,,0,0,0,,as a form of training for\Nmastering your mind's eye.
+Dialogue: 0,0:04:34.38,0:04:37.09,0$Default,,0,0,0,,We called it Du Xi Bo Liu!
+Dialogue: 0,0:04:37.09,0:04:39.22,0$Default,,0,0,0,,You're just calling it dodgeball!
+Dialogue: 0,0:04:39.22,0:04:43.16,0$Default,,0,0,0,,I want you to sense the movements\Nof both your opponent and the ball.
+Dialogue: 0,0:04:43.16,0:04:45.10,0$Default,,0,0,0,,Snow White won't be easy on you.
+Dialogue: 0,0:04:47.86,0:04:49.81,0$Default,,0,0,0,,Heave-ho! Heave-ho!
+Dialogue: 0,0:04:49.81,0:04:51.81,0$Default,,0,0,0,,Good luck, Chup!
+Dialogue: 0,0:04:51.81,0:04:53.67,0$Default,,0,0,0,,We're all watching!
+Dialogue: 0,0:04:53.67,0:04:56.82,0$Default,,0,0,0,,It's two-on-one!\NThe numbers are on your side!
+Dialogue: 0,0:04:57.38,0:04:58.92,0$Default,,0,0,0,,Yeah! We're gonna win this!
+Dialogue: 0,0:04:58.92,0:04:59.90,0$Default,,0,0,0,,Never mind.
+Dialogue: 0,0:05:00.86,0:05:02.91,0$Default,,0,0,0,,Let the game... begin!
+Dialogue: 0,0:05:02.91,0:05:05.68,0$Default,,0,0,0,,Alright. I'mma take her out in one shot!
+Dialogue: 0,0:05:05.68,0:05:07.73,0$Default,,0,0,0,,Chup, be conscious of your mind's eye.
+Dialogue: 0,0:05:07.73,0:05:09.25,0$Default,,0,0,0,,Got it. My mind's eye...
+Dialogue: 0,0:05:10.37,0:05:11.33,0$Default,,0,0,0,,Now!
+Dialogue: 0,0:05:13.75,0:05:15.61,0$Default,,0,0,0,,Chup, what are you doing?
+Dialogue: 0,0:05:15.61,0:05:16.63,0$Default,,0,0,0,,What's wrong?
+Dialogue: 0,0:05:16.84,0:05:18.26,0$Default,,0,0,0,,Out you go!
+Dialogue: 0,0:05:21.80,0:05:23.49,0$Default,,0,0,0,,The ball smells like an old man.
+Dialogue: 0,0:05:23.49,0:05:26.97,0$Default,,0,0,0,,Vinsant, don't worry about the scent!
+Dialogue: 0,0:05:28.10,0:05:29.77,0$Default,,0,0,0,,Got it. That way!
+Dialogue: 0,0:05:29.77,0:05:31.02,0$Default,,0,0,0,,Looking good!
+Dialogue: 0,0:05:32.35,0:05:33.77,0$Default,,0,0,0,,What's with her stomach?!
+Dialogue: 0,0:05:33.77,0:05:35.13,0$Default,,0,0,0,,That's playing dirty!
+Dialogue: 0,0:05:36.61,0:05:38.80,0$Default,,0,0,0,,Vinsant, dodge it!
+Dialogue: 0,0:05:38.80,0:05:40.11,0$Default,,0,0,0,,What's happening?
+Dialogue: 0,0:05:42.07,0:05:43.07,0$Default,,0,0,0,,Vinsant?!
+Dialogue: 0,0:05:43.58,0:05:46.95,0$Default,,0,0,0,,If you catch the ball before it hits the ground,\NVinsant will be safe!
+Dialogue: 0,0:05:47.54,0:05:48.58,0$Default,,0,0,0,,I'm on it!
+Dialogue: 0,0:05:48.58,0:05:49.95,0$Default,,0,0,0,,Gotcha!
+Dialogue: 0,0:05:50.87,0:05:52.85,0$Default,,0,0,0,,Vinsant's out!
+Dialogue: 0,0:05:52.85,0:05:55.42,0$Default,,0,0,0,,Why do you keep coming after me...?
+Dialogue: 0,0:05:58.09,0:05:59.67,0$Default,,0,0,0,,Now it's 1-on-1...
+Dialogue: 0,0:05:59.67,0:06:03.26,0$Default,,0,0,0,,There's no way you can sense your surroundings\Nin blindfolded dodgeball.
+Dialogue: 0,0:06:03.26,0:06:05.05,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:06:05.05,0:06:06.10,0$Default,,0,0,0,,Chup, go right, go right!
+Dialogue: 0,0:06:06.10,0:06:07.14,0$Default,,0,0,0,,Wait, a bit to the left!
+Dialogue: 0,0:06:07.14,0:06:09.43,0$Default,,0,0,0,,Good, that's perfect! Now, hit it!
+Dialogue: 0,0:06:09.43,0:06:11.62,0$Default,,0,0,0,,What's that from,\Nwatermelon-splitting?
+Dialogue: 0,0:06:11.62,0:06:13.92,0$Default,,0,0,0,,It's a good summer activity!
+Dialogue: 0,0:06:13.92,0:06:18.52,0$Default,,0,0,0,,Chup, don't aim at her body!\NIt'll just sink in again!
+Dialogue: 0,0:06:19.28,0:06:20.63,0$Default,,0,0,0,,So where {\i1}do{\i0} I aim?
+Dialogue: 0,0:06:20.63,0:06:21.90,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:06:21.90,0:06:25.91,0$Default,,0,0,0,,Eliminate your distractions\Nand picture Snow White in front of you.
+Dialogue: 0,0:06:25.91,0:06:28.68,0$Default,,0,0,0,,That'll help you find her weak spot!
+Dialogue: 0,0:06:28.68,0:06:30.05,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:06:35.67,0:06:36.52,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:06:36.52,0:06:37.67,0$Default,,0,0,0,,What's he planning?
+Dialogue: 0,0:06:38.92,0:06:42.72,0$Default,,0,0,0,,If The Body Won't Work,\NShoot For The Face Bazooka!
+Dialogue: 0,0:06:43.22,0:06:44.51,0$Default,,0,0,0,,You've got this!
+Dialogue: 0,0:06:46.18,0:06:46.97,0$Default,,0,0,0,,Did it work?
+Dialogue: 0,0:06:50.72,0:06:51.83,0$Default,,0,0,0,,No way!
+Dialogue: 0,0:06:51.83,0:06:52.75,0$Default,,0,0,0,,What the heck?
+Dialogue: 0,0:06:52.75,0:06:53.94,0$Default,,0,0,0,,Huh? What happened?
+Dialogue: 0,0:06:53.94,0:06:58.73,0$Default,,0,0,0,,Her lips developed in an abnormal way\Nbecause of her desire to kiss a man.
+Dialogue: 0,0:06:58.73,0:07:00.94,0$Default,,0,0,0,,So it has nothing to do with her mind's eye?
+Dialogue: 0,0:07:03.53,0:07:04.72,0$Default,,0,0,0,,Chup, jump for it!
+Dialogue: 0,0:07:04.72,0:07:05.70,0$Default,,0,0,0,,Get down!
+Dialogue: 0,0:07:05.70,0:07:07.11,0$Default,,0,0,0,,Which way?
+Dialogue: 0,0:07:07.99,0:07:09.21,0$Default,,0,0,0,,Up I go!
+Dialogue: 0,0:07:12.37,0:07:14.29,0$Default,,0,0,0,,That's gotta leave a mark.
+Dialogue: 0,0:07:16.21,0:07:16.77,0$Default,,0,0,0,,I lose.
+Dialogue: 0,0:07:21.96,0:07:25.26,0$Default,,0,0,0,,There's no way we can do this\Nas we are now.
+Dialogue: 0,0:07:25.26,0:07:27.39,0$Default,,0,0,0,,How are we supposed to open our mind's eyes?!
+Dialogue: 0,0:07:27.39,0:07:28.70,0$Default,,0,0,0,,I know!
+Dialogue: 0,0:07:28.70,0:07:31.60,0$Default,,0,0,0,,Why don't we have Snow White\Ntell you your fortunes?
+Dialogue: 0,0:07:31.60,0:07:32.20,0$Default,,0,0,0,,Ooh!
+Dialogue: 0,0:07:32.20,0:07:33.22,0$Default,,0,0,0,,Good idea!
+Dialogue: 0,0:07:33.52,0:07:36.04,0$Default,,0,0,0,,Snow White, we admit defeat.
+Dialogue: 0,0:07:36.04,0:07:40.48,0$Default,,0,0,0,,But we'd like to ask, how could we acquire\Nour mind's eyes like you?
+Dialogue: 0,0:07:40.48,0:07:41.86,0$Default,,0,0,0,,I can tell you.
+Dialogue: 0,0:07:41.86,0:07:44.90,0$Default,,0,0,0,,Since I enjoyed that game,\NI'll look at your fortune.
+Dialogue: 0,0:07:46.70,0:07:48.89,0$Default,,0,0,0,,Go to the castle in French Toaster.
+Dialogue: 0,0:07:48.89,0:07:49.80,0$Default,,0,0,0,,The castle?
+Dialogue: 0,0:07:49.80,0:07:53.29,0$Default,,0,0,0,,There are three monsters there\Nwhich will guide you.
+Dialogue: 0,0:07:53.87,0:07:55.29,0$Default,,0,0,0,,Three monsters?
+Dialogue: 0,0:07:55.29,0:07:56.31,0$Default,,0,0,0,,I see it.
+Dialogue: 0,0:07:56.31,0:07:59.29,0$Default,,0,0,0,,A sneering white face\Nand a deadly armor.
+Dialogue: 0,0:07:59.29,0:08:00.94,0$Default,,0,0,0,,A sneering white face?
+Dialogue: 0,0:08:00.94,0:08:02.44,0$Default,,0,0,0,,A deadly armor?
+Dialogue: 0,0:08:02.44,0:08:04.09,0$Default,,0,0,0,,Giving me the heebie-jeebies.
+Dialogue: 0,0:08:04.09,0:08:05.86,0$Default,,0,0,0,,And there's one more.
+Dialogue: 0,0:08:05.86,0:08:08.41,0$Default,,0,0,0,,Once you reach the droppings of a beast,
+Dialogue: 0,0:08:08.41,0:08:12.60,0$Default,,0,0,0,,you will acquire the ultimate technique\Nof opening your mind's eyes.
+Dialogue: 0,0:08:12.60,0:08:14.39,0$Default,,0,0,0,,The droppings of a beast?
+Dialogue: 0,0:08:14.39,0:08:16.10,0$Default,,0,0,0,,I'm not sure I follow,\Nbut it sounds strong!
+Dialogue: 0,0:08:16.10,0:08:19.25,0$Default,,0,0,0,,I'll be waiting once you acquire your mind's eye!
+Dialogue: 0,0:08:19.25,0:08:21.46,0$Default,,0,0,0,,I'll be taking a deep nap until then.
+Dialogue: 0,0:08:21.46,0:08:23.44,0$Default,,0,0,0,,Nyam nyam nyam...
+Dialogue: 0,0:08:23.44,0:08:24.19,0$Default,,0,0,0,,There you go!
+Dialogue: 0,0:08:24.82,0:08:27.76,0$Default,,0,0,0,,You will have a rematch\Nafter you visit the castle.
+Dialogue: 0,0:08:27.76,0:08:29.82,0$Default,,0,0,0,,For the time being...
+Dialogue: 0,0:08:31.39,0:08:32.41,0$Default,,0,0,0,,What's the big deal?
+Dialogue: 0,0:08:32.99,0:08:34.04,0$Default,,0,0,0,,We're blindfolded again?
+Dialogue: 0,0:08:34.04,0:08:38.60,0$Default,,0,0,0,,I've made it so you can't remove them\Nuntil you find your mind's eye.
+Dialogue: 0,0:08:38.60,0:08:40.46,0$Default,,0,0,0,,To the castle we go!
+Dialogue: 0,0:08:44.47,0:08:47.05,0$Default,,0,0,0,,Well, we're here at the castle...
+Dialogue: 0,0:08:47.05,0:08:49.09,0$Default,,0,0,0,,but where are those three monsters?
+Dialogue: 0,0:08:49.62,0:08:51.45,0$Default,,0,0,0,,Chup, Vinny!
+Dialogue: 0,0:08:51.45,0:08:53.08,0$Default,,0,0,0,,How's the training going?
+Dialogue: 0,0:08:53.08,0:08:54.85,0$Default,,0,0,0,,That sounds like Melora!
+Dialogue: 0,0:08:56.22,0:08:58.73,0$Default,,0,0,0,,What could be the matter, Chup?
+Dialogue: 0,0:08:58.73,0:09:01.53,0$Default,,0,0,0,,Um, Princess, this is part of our training!
+Dialogue: 0,0:09:02.65,0:09:03.40,0$Default,,0,0,0,,Oh, my!
+Dialogue: 0,0:09:03.40,0:09:06.28,0$Default,,0,0,0,,My cleavage just got so itchy!
+Dialogue: 0,0:09:07.67,0:09:08.82,0$Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:09:08.82,0:09:12.34,0$Default,,0,0,0,,Me? I was going to try out\Nthis brand new face mask!
+Dialogue: 0,0:09:12.34,0:09:13.37,0$Default,,0,0,0,,Oh, hey!
+Dialogue: 0,0:09:13.37,0:09:16.64,0$Default,,0,0,0,,I might put some lotion on my arms after,
+Dialogue: 0,0:09:16.64,0:09:18.35,0$Default,,0,0,0,,if you boys would like to help out.
+Dialogue: 0,0:09:20.23,0:09:22.17,0$Default,,0,0,0,,You guys don't learn your lesson...
+Dialogue: 0,0:09:22.17,0:09:24.38,0$Default,,0,0,0,,Y'know, I haven't heard\Nthe king's voice at all!
+Dialogue: 0,0:09:24.38,0:09:27.48,0$Default,,0,0,0,,He's been groaning in his sleep every night\Nbecause of nightmares,
+Dialogue: 0,0:09:27.48,0:09:29.22,0$Default,,0,0,0,,so he's been bedridden\Nfor about three days...
+Dialogue: 0,0:09:32.64,0:09:35.53,0$Default,,0,0,0,,Huh? Pepperon, {\i1}you're{\i0} worried\Nabout your skin too?
+Dialogue: 0,0:09:35.53,0:09:38.31,0$Default,,0,0,0,,No! This thing stuck itself on my face...
+Dialogue: 0,0:09:38.31,0:09:39.35,0$Default,,0,0,0,,Pepperon?!
+Dialogue: 0,0:09:41.19,0:09:43.69,0$Default,,0,0,0,,I love being stuck on people's faces!
+Dialogue: 0,0:09:43.69,0:09:46.17,0$Default,,0,0,0,,Something's off about him!
+Dialogue: 0,0:09:46.17,0:09:49.61,0$Default,,0,0,0,,It's Pack, a monster that\Nclings onto faces!
+Dialogue: 0,0:09:49.61,0:09:50.13,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:09:50.13,0:09:53.45,0$Default,,0,0,0,,If we don't defeat him,\Nhe'll possess Pepperon forever!
+Dialogue: 0,0:09:55.57,0:09:59.83,0$Default,,0,0,0,,This must be that "sneering white face"\Nshe was referring to.
+Dialogue: 0,0:09:59.83,0:10:01.48,0$Default,,0,0,0,,Go on, take me down!
+Dialogue: 0,0:10:01.48,0:10:04.02,0$Default,,0,0,0,,But watch where you aim,
+Dialogue: 0,0:10:04.02,0:10:06.36,0$Default,,0,0,0,,or you'll split this guy in half, yo!
+Dialogue: 0,0:10:06.36,0:10:07.84,0$Default,,0,0,0,,What are you doing?!
+Dialogue: 0,0:10:07.84,0:10:11.34,0$Default,,0,0,0,,Be careful, Chup!\NPepperon is very nimble right now!
+Dialogue: 0,0:10:11.85,0:10:13.63,0$Default,,0,0,0,,Dettonic Sword!
+Dialogue: 0,0:10:14.21,0:10:15.55,0$Default,,0,0,0,,{\i1}Dettonic Sword.
+Dialogue: 0,0:10:18.10,0:10:20.10,0$Default,,0,0,0,,Exodus Blade!
+Dialogue: 0,0:10:20.10,0:10:21.89,0$Default,,0,0,0,,{\i1}Exodus Blade.
+Dialogue: 0,0:10:23.35,0:10:25.54,0$Default,,0,0,0,,Chup, concentrate on your consciousness.
+Dialogue: 0,0:10:25.54,0:10:27.31,0$Default,,0,0,0,,My consciousness... consciousness...
+Dialogue: 0,0:10:27.31,0:10:28.82,0$Default,,0,0,0,,My consciousness of what?!
+Dialogue: 0,0:10:28.82,0:10:30.59,0$Default,,0,0,0,,C'mon now, hey, hey!
+Dialogue: 0,0:10:30.59,0:10:31.24,0$Default,,0,0,0,,Take this!
+Dialogue: 0,0:10:31.24,0:10:32.03,0$Default,,0,0,0,,Hey, hey!
+Dialogue: 0,0:10:34.32,0:10:35.70,0$Default,,0,0,0,,Hey, hey, hey!
+Dialogue: 0,0:10:38.54,0:10:40.41,0$Default,,0,0,0,,Hey!
+Dialogue: 0,0:10:40.41,0:10:43.66,0$Default,,0,0,0,,Chup, Vinsant, hurry up\Nand slice that guy!
+Dialogue: 0,0:10:43.66,0:10:45.35,0$Default,,0,0,0,,Easier said than done!
+Dialogue: 0,0:10:45.35,0:10:46.38,0$Default,,0,0,0,,Where is he?!
+Dialogue: 0,0:10:47.67,0:10:49.34,0$Default,,0,0,0,,Look out, Vinsant!
+Dialogue: 0,0:10:49.34,0:10:50.34,0$Default,,0,0,0,,Go!
+Dialogue: 0,0:10:51.30,0:10:53.20,0$Default,,0,0,0,,Here I go!
+Dialogue: 0,0:10:53.97,0:10:54.72,0$Default,,0,0,0,,Yuck, nasty!
+Dialogue: 0,0:10:54.72,0:10:57.51,0$Default,,0,0,0,,Chup, follow that scent\Nto find the enemy!
+Dialogue: 0,0:10:58.64,0:10:59.72,0$Default,,0,0,0,,Nasty!
+Dialogue: 0,0:10:59.72,0:11:03.23,0$Default,,0,0,0,,There he is, Vinsant!\NUse your move: the Fart Radar Slash!
+Dialogue: 0,0:11:03.23,0:11:05.14,0$Default,,0,0,0,,I don't really want to,\Nbut I'll do it!
+Dialogue: 0,0:11:10.40,0:11:11.51,0$Default,,0,0,0,,We beat him!
+Dialogue: 0,0:11:11.51,0:11:14.26,0$Default,,0,0,0,,I admire your will to win...
+Dialogue: 0,0:11:14.26,0:11:17.16,0$Default,,0,0,0,,...But that didn't have anything\Nto do with your mind's eye.
+Dialogue: 0,0:11:18.43,0:11:20.74,0$Default,,0,0,0,,That's the king! What's going on?
+Dialogue: 0,0:11:22.20,0:11:26.21,0$Default,,0,0,0,,Oh, Melora... Why would you marry\Na man like him?
+Dialogue: 0,0:11:26.46,0:11:30.50,0$Default,,0,0,0,,He must be having a nightmare\Nabout Melora hitching it off with a weird guy.
+Dialogue: 0,0:11:30.50,0:11:32.63,0$Default,,0,0,0,,Gob-san can't be the one for you...
+Dialogue: 0,0:11:32.63,0:11:34.13,0$Default,,0,0,0,,{\i1}I'm{\i0} her fiance?
+Dialogue: 0,0:11:34.13,0:11:36.45,0$Default,,0,0,0,,{\i1}You're{\i0} marrying Melora?\NHow could you!
+Dialogue: 0,0:11:36.45,0:11:38.62,0$Default,,0,0,0,,What dirty tricks did you play,\Nyou old man?
+Dialogue: 0,0:11:38.62,0:11:41.68,0$Default,,0,0,0,,Just like you to cause problems\Neven in someone's dreams.
+Dialogue: 0,0:11:41.68,0:11:44.16,0$Default,,0,0,0,,Oh come on, you can't get mad at me for {\i1}that!
+Dialogue: 0,0:11:44.16,0:11:46.44,0$Default,,0,0,0,,Your majesty! You gotta wake up!
+Dialogue: 0,0:11:46.94,0:11:48.96,0$Default,,0,0,0,,King! Your majesty!!
+Dialogue: 0,0:11:48.96,0:11:52.07,0$Default,,0,0,0,,Isn't it a bit weird he's been\Nsleeping for three days straight?
+Dialogue: 0,0:11:55.24,0:11:56.82,0$Default,,0,0,0,,There you are!
+Dialogue: 0,0:11:56.82,0:11:57.86,0$Default,,0,0,0,,Yeowch!
+Dialogue: 4,0:11:57.86,0:12:00.13,0$Default,,0,0,0,,You've figured me out!
+Dialogue: 0,0:12:00.62,0:12:03.08,0$Default,,0,0,0,,{\i1}You're{\i0} the one possessing the king!
+Dialogue: 0,0:12:03.08,0:12:04.41,0$Default,,0,0,0,,Chup, behind you.
+Dialogue: 0,0:12:05.13,0:12:09.65,0$Default,,0,0,0,,This is Knightmare, a vicious monster\Nthat gives people bad dreams.
+Dialogue: 0,0:12:09.65,0:12:14.11,0$Default,,0,0,0,,This must be the "deadly armor"\Nfrom Snow White's fortune!
+Dialogue: 0,0:12:14.11,0:12:17.93,0$Default,,0,0,0,,But how is he supposed to help them\Nwith their "mind's eyes"?
+Dialogue: 0,0:12:17.93,0:12:20.30,0$Default,,0,0,0,,I just thought of something!
+Dialogue: 0,0:12:20.68,0:12:23.29,0$Default,,0,0,0,,Maybe if you train under his sleep spell,
+Dialogue: 0,0:12:23.29,0:12:25.87,0$Default,,0,0,0,,you'll be able to use your mind's eye\Nlike Snow White!
+Dialogue: 0,0:12:25.87,0:12:27.31,0$Default,,0,0,0,,I get what you mean!
+Dialogue: 0,0:12:27.31,0:12:29.27,0$Default,,0,0,0,,Is that a good idea...?
+Dialogue: 0,0:12:29.27,0:12:32.25,0$Default,,0,0,0,,If push comes to shove,\NI'll wake you up with full power!
+Dialogue: 0,0:12:32.25,0:12:33.69,0$Default,,0,0,0,,So don't worry.
+Dialogue: 0,0:12:33.69,0:12:36.44,0$Default,,0,0,0,,Alright, Knightmare!\NHit us with your worst!
+Dialogue: 0,0:12:36.44,0:12:39.34,0$Default,,0,0,0,,You {\i1}want{\i0} me to put you to sleep? That's odd.
+Dialogue: 0,0:12:39.34,0:12:41.82,0$Default,,0,0,0,,Dream tight!
+Dialogue: 0,0:12:42.49,0:12:43.22,0$Default,,0,0,0,,What's wrong?
+Dialogue: 0,0:12:43.22,0:12:44.72,0$Default,,0,0,0,,I just remembered!
+Dialogue: 0,0:12:44.72,0:12:48.39,0$Default,,0,0,0,,His hosts are the target\Nof eternal slumber!
+Dialogue: 0,0:12:48.39,0:12:50.52,0$Default,,0,0,0,,What?! You shouldv'e said that sooner!!
+Dialogue: 0,0:12:50.52,0:12:52.11,0$Default,,0,0,0,,Guys, don't do it!
+Dialogue: 0,0:12:52.11,0:12:54.30,0$Default,,0,0,0,,Don't fall asleep, Chup!
+Dialogue: 0,0:12:54.30,0:12:56.28,0$Default,,0,0,0,,Wait, {\i1}don't?{\i0} I'm about to...
+Dialogue: 0,0:12:56.28,0:12:59.26,0$Default,,0,0,0,,Chup, we'll stay awake\Nif we attack ourselves.
+Dialogue: 0,0:13:01.53,0:13:03.80,0$Default,,0,0,0,,Owww! I'm not sleeping like this.
+Dialogue: 0,0:13:03.80,0:13:06.08,0$Default,,0,0,0,,Mayone, this is your responsibility too!
+Dialogue: 0,0:13:06.08,0:13:08.41,0$Default,,0,0,0,,Don't you have a spell or sometihng\Nfor staying awake?
+Dialogue: 0,0:13:08.41,0:13:11.48,0$Default,,0,0,0,,Huh?! I'll try out a new spell of mine...
+Dialogue: 0,0:13:13.11,0:13:14.32,0$Default,,0,0,0,,Menzol!
+Dialogue: 0,0:13:15.88,0:13:17.82,0$Default,,0,0,0,,My eyes feel so refreshed!
+Dialogue: 0,0:13:17.82,0:13:19.88,0$Default,,0,0,0,,What's this spell do?
+Dialogue: 0,0:13:19.88,0:13:23.60,0$Default,,0,0,0,,It covers your eyes with menthol.\NIt's supposed to be good for all-nighters.
+Dialogue: 0,0:13:23.60,0:13:25.95,0$Default,,0,0,0,,Like late-night study sessions\Nin the old days.
+Dialogue: 0,0:13:25.95,0:13:28.00,0$Default,,0,0,0,,Fresh, fresh, super fresh...
+Dialogue: 0,0:13:28.00,0:13:29.94,0$Default,,0,0,0,,Freshly tired... bed time...
+Dialogue: 0,0:13:29.94,0:13:31.60,0$Default,,0,0,0,,It's not working!!
+Dialogue: 0,0:13:32.54,0:13:35.09,0$Default,,0,0,0,,We can't fall asleep!
+Dialogue: 0,0:13:35.47,0:13:36.80,0$Default,,0,0,0,,What was that for?!
+Dialogue: 0,0:13:36.80,0:13:40.17,0$Default,,0,0,0,,You were about to fall asleep!\NCome on, hit me back!
+Dialogue: 0,0:13:40.17,0:13:41.51,0$Default,,0,0,0,,Okay!
+Dialogue: 0,0:13:43.66,0:13:47.77,0$Default,,0,0,0,,They may as well defeat each other\Nbefore the enemy has a chance.
+Dialogue: 0,0:13:47.77,0:13:49.06,0$Default,,0,0,0,,This is hopeless...
+Dialogue: 0,0:13:49.39,0:13:52.54,0$Default,,0,0,0,,Finally, allow me to escort you\Ninto eternal slumber.
+Dialogue: 0,0:13:52.54,0:13:54.10,0$Default,,0,0,0,,Dream tight!
+Dialogue: 0,0:13:54.10,0:13:56.07,0$Default,,0,0,0,,Don't fall asleep!!
+Dialogue: 0,0:13:57.11,0:14:00.86,0$Default,,0,0,0,,Special attack: Dozing Off Slash!
+Dialogue: 0,0:14:05.45,0:14:06.83,0$Default,,0,0,0,,That was close...
+Dialogue: 0,0:14:06.83,0:14:08.93,0$Default,,0,0,0,,Instead of relying on\Nswinging his sword,
+Dialogue: 0,0:14:08.93,0:14:11.06,0$Default,,0,0,0,,he let his sleepiness take care of it.
+Dialogue: 0,0:14:11.06,0:14:13.98,0$Default,,0,0,0,,Well, I admire you breaking the spell.
+Dialogue: 0,0:14:13.98,0:14:16.73,0$Default,,0,0,0,,But this has even less to do\Nwith that mind's eye stuff.
+Dialogue: 0,0:14:18.67,0:14:20.26,0$Default,,0,0,0,,I slept like a baby.
+Dialogue: 0,0:14:20.71,0:14:23.28,0$Default,,0,0,0,,Why do you look like that?
+Dialogue: 0,0:14:23.28,0:14:25.32,0$Default,,0,0,0,,Uh, it's part of our training...
+Dialogue: 0,0:14:26.39,0:14:28.39,0$Default,,0,0,0,,Good morning, Daddy!
+Dialogue: 0,0:14:28.39,0:14:29.79,0$Default,,0,0,0,,It's you, Melora!
+Dialogue: 0,0:14:29.79,0:14:31.35,0$Default,,0,0,0,,That's good to see!
+Dialogue: 0,0:14:31.60,0:14:33.35,0$Default,,0,0,0,,I'm glad you're okay, your majesty!
+Dialogue: 0,0:14:33.35,0:14:35.73,0$Default,,0,0,0,,N-Not Gob-san!!
+Dialogue: 0,0:14:37.06,0:14:39.44,0$Default,,0,0,0,,He must'a really hated that dream.
+Dialogue: 0,0:14:43.33,0:14:46.62,0$Default,,0,0,0,,You deserve a reward for\Nrescuing me from my nightmare.
+Dialogue: 0,0:14:46.62,0:14:48.08,0$Default,,0,0,0,,Minister!
+Dialogue: 0,0:14:49.60,0:14:53.08,0$Default,,0,0,0,,This is a Clanarine, the reliable brand\Nbeloved by nobility!
+Dialogue: 0,0:14:53.08,0:14:57.54,0$Default,,0,0,0,,And this is their product catered to mages,\Nit's both light and powerful—
+Dialogue: 0,0:14:57.54,0:14:59.71,0$Default,,0,0,0,,the Clan Metal Staff!
+Dialogue: 0,0:15:00.13,0:15:01.99,0$Default,,0,0,0,,Which means it's all for me!
+Dialogue: 0,0:15:01.99,0:15:02.90,0$Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:15:02.90,0:15:06.70,0$Default,,0,0,0,,We've met two of the monsters\Nfrom Snow White's fortunes so far,
+Dialogue: 0,0:15:06.70,0:15:09.08,0$Default,,0,0,0,,but they still haven't figured out\Nthose mind's eyes.
+Dialogue: 0,0:15:09.08,0:15:12.50,0$Default,,0,0,0,,Huh? What's the third monster\Nsupposed to be anyways?
+Dialogue: 0,0:15:12.50,0:15:13.98,0$Default,,0,0,0,,Gob-san, what do you... Huh?
+Dialogue: 0,0:15:14.56,0:15:15.27,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:15:15.27,0:15:18.00,0$Default,,0,0,0,,Why would you fall asleep here?!
+Dialogue: 0,0:15:19.71,0:15:22.40,0$Default,,0,0,0,,Did you get caught in that nightmare spell?
+Dialogue: 0,0:15:22.40,0:15:26.38,0$Default,,0,0,0,,Nope, I can fall asleep at will\Nwhenever I want to.
+Dialogue: 0,0:15:26.38,0:15:29.14,0$Default,,0,0,0,,It's good whenever it's time\Nto pay the check at a drinking party.
+Dialogue: 0,0:15:29.14,0:15:31.77,0$Default,,0,0,0,,Since I just got finished\Nintroducing the weapon,
+Dialogue: 0,0:15:31.77,0:15:33.63,0$Default,,0,0,0,,I thought I'd get some rest in.
+Dialogue: 0,0:15:33.63,0:15:36.62,0$Default,,0,0,0,,Ugh, you shouldn't be slacking off at all!
+Dialogue: 0,0:15:36.62,0:15:38.40,0$Default,,0,0,0,,You finally made it here.
+Dialogue: 0,0:15:38.96,0:15:40.17,0$Default,,0,0,0,,Made it where exactly?
+Dialogue: 0,0:15:40.17,0:15:43.49,0$Default,,0,0,0,,That is the ultimate technique\Nto opening your mind's eyes:
+Dialogue: 0,0:15:43.49,0:15:45.76,0$Default,,0,0,0,,sleeping at will!
+Dialogue: 0,0:15:45.76,0:15:47.26,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:15:47.26,0:15:48.80,0$Default,,0,0,0,,Sleep brings unconsciousness.
+Dialogue: 0,0:15:48.80,0:15:50.58,0$Default,,0,0,0,,By controlling your sleep at will,
+Dialogue: 0,0:15:50.58,0:15:54.89,0$Default,,0,0,0,,that unconsciousness—your mind—\Nwill be free, unbound.
+Dialogue: 0,0:15:54.89,0:15:58.19,0$Default,,0,0,0,,You'll be able to sense your enemy's movements\Nduring a battle
+Dialogue: 0,0:15:58.19,0:16:00.09,0$Default,,0,0,0,,by momentarily going unconscious.
+Dialogue: 0,0:16:00.09,0:16:02.61,0$Default,,0,0,0,,That is using your mind's eye!
+Dialogue: 0,0:16:02.61,0:16:03.65,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:16:03.65,0:16:08.59,0$Default,,0,0,0,,Wait, does that mean Gob-san\Nwas the third monster guiding them?
+Dialogue: 0,0:16:08.59,0:16:10.18,0$Default,,0,0,0,,The droppings of a beast...
+Dialogue: 0,0:16:10.18,0:16:12.87,0$Default,,0,0,0,,Was it his "manure"?
+Dialogue: 0,0:16:12.87,0:16:15.02,0$Default,,0,0,0,,You love that bit, don'tcha?
+Dialogue: 0,0:16:15.02,0:16:16.04,0$Default,,0,0,0,,Watch!
+Dialogue: 0,0:16:16.04,0:16:17.04,0$Default,,0,0,0,,Manure!
+Dialogue: 0,0:16:17.04,0:16:20.67,0$Default,,0,0,0,,Master Gob-san, please teach us\Nhow to use the ultimate technique!
+Dialogue: 0,0:16:21.59,0:16:24.30,0$Default,,0,0,0,,Very well. Follow me!
+Dialogue: 0,0:16:30.31,0:16:32.53,0$Default,,0,0,0,,Was there a reason for bringing us to the pub?
+Dialogue: 0,0:16:32.53,0:16:35.31,0$Default,,0,0,0,,I think Gob-san just wanted\Nto fill his stomach.
+Dialogue: 0,0:16:37.31,0:16:39.79,0$Default,,0,0,0,,So, let's say you enjoyed this drinking party.
+Dialogue: 0,0:16:39.79,0:16:41.25,0$Default,,0,0,0,,Pepperon, you're the organizer.
+Dialogue: 0,0:16:41.25,0:16:43.11,0$Default,,0,0,0,,Oh, m-me?
+Dialogue: 0,0:16:43.11,0:16:44.57,0$Default,,0,0,0,,We should pay the check soon.
+Dialogue: 0,0:16:44.57,0:16:46.52,0$Default,,0,0,0,,When you hear "check", fall asleep!
+Dialogue: 0,0:16:48.07,0:16:49.72,0$Default,,0,0,0,,If you fall asleep now,
+Dialogue: 0,0:16:49.72,0:16:51.97,0$Default,,0,0,0,,I have to cover the whole cost!
+Dialogue: 0,0:16:51.97,0:16:54.28,0$Default,,0,0,0,,Now he's pretending it's training\Nso he doesn't have to pay.
+Dialogue: 0,0:16:54.28,0:16:55.58,0$Default,,0,0,0,,What a stingy pest.
+Dialogue: 0,0:16:56.33,0:16:57.54,0$Default,,0,0,0,,It's a babe! Wake up!
+Dialogue: 0,0:16:58.08,0:16:59.83,0$Default,,0,0,0,,Aren't you gonna pay?
+Dialogue: 0,0:16:59.83,0:17:00.71,0$Default,,0,0,0,,Sleep!
+Dialogue: 0,0:17:01.94,0:17:03.67,0$Default,,0,0,0,,A babe! Wake up!
+Dialogue: 0,0:17:03.67,0:17:06.53,0$Default,,0,0,0,,Isn't this supposed to be\Ntraining for your mind's eye?
+Dialogue: 0,0:17:06.53,0:17:08.05,0$Default,,0,0,0,,You really oughta...
+Dialogue: 0,0:17:08.05,0:17:08.67,0$Default,,0,0,0,,Sleep!
+Dialogue: 0,0:17:08.67,0:17:10.86,0$Default,,0,0,0,,If you fall asleep for real,\Nyou don't gotta pay!
+Dialogue: 0,0:17:10.86,0:17:11.80,0$Default,,0,0,0,,Okay, so...
+Dialogue: 0,0:17:12.18,0:17:15.18,0$Default,,0,0,0,,What do you do if the waitress\Nwith the check is a babe?
+Dialogue: 0,0:17:15.85,0:17:17.83,0$Default,,0,0,0,,Well, I'd pay it myself, obviously!
+Dialogue: 0,0:17:17.83,0:17:19.69,0$Default,,0,0,0,,Ugh.
+Dialogue: 0,0:17:20.60,0:17:21.69,0$Default,,0,0,0,,How did it go?
+Dialogue: 0,0:17:21.69,0:17:23.94,0$Default,,0,0,0,,Have you opened your mind's eye yet?
+Dialogue: 0,0:17:23.94,0:17:25.30,0$Default,,0,0,0,,Yeah, totally!
+Dialogue: 0,0:17:25.30,0:17:27.44,0$Default,,0,0,0,,We'd like a dodgeball rematch!
+Dialogue: 0,0:17:27.44,0:17:30.90,0$Default,,0,0,0,,Okay. Then perhaps I should go all-out!
+Dialogue: 0,0:17:30.90,0:17:32.95,0$Default,,0,0,0,,Is she going to wake up?
+Dialogue: 0,0:17:39.20,0:17:41.21,0$Default,,0,0,0,,O-Our princess stood up!!
+Dialogue: 0,0:17:43.21,0:17:44.81,0$Default,,0,0,0,,She's not moving.
+Dialogue: 0,0:17:44.81,0:17:47.36,0$Default,,0,0,0,,Is she holding back until the battle?
+Dialogue: 0,0:17:47.36,0:17:48.84,0$Default,,0,0,0,,Everyone, stay on guard!
+Dialogue: 0,0:17:50.34,0:17:51.61,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:17:51.61,0:17:53.22,0$Default,,0,0,0,,Is she standing in her sleep?
+Dialogue: 0,0:17:53.22,0:17:54.09,0$Default,,0,0,0,,No.
+Dialogue: 0,0:17:54.09,0:17:57.51,0$Default,,0,0,0,,It's the first time she's stood in 10 years,\Nso her feet are all tingly.
+Dialogue: 0,0:18:00.86,0:18:02.98,0$Default,,0,0,0,,I'll go first this time!
+Dialogue: 0,0:18:02.98,0:18:05.61,0$Default,,0,0,0,,She looks intense...\NShe can't still be asleep, right?
+Dialogue: 0,0:18:05.61,0:18:06.46,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:18:06.46,0:18:09.32,0$Default,,0,0,0,,Snow White's going all-out!\NBe careful!
+Dialogue: 0,0:18:13.66,0:18:14.74,0$Default,,0,0,0,,How's that?!
+Dialogue: 0,0:18:14.74,0:18:16.05,0$Default,,0,0,0,,Wh-Whoa...
+Dialogue: 0,0:18:16.05,0:18:17.12,0$Default,,0,0,0,,Not bad.
+Dialogue: 0,0:18:17.12,0:18:17.97,0$Default,,0,0,0,,Vinsant!
+Dialogue: 0,0:18:17.97,0:18:18.83,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:18:20.08,0:18:24.63,0$Default,,0,0,0,,Take this! Our You-Can't-Run-Because-\NWe-Can-See-You-With-Our-Mind's-Eyes...
+Dialogue: 0,0:18:24.63,0:18:26.59,0$Default,,0,0,0,,Bazooka!
+Dialogue: 0,0:18:27.59,0:18:28.84,0$Default,,0,0,0,,As if!
+Dialogue: 0,0:18:28.84,0:18:30.84,0$Default,,0,0,0,,Oh no, she saw it with her own mind's eye!
+Dialogue: 0,0:18:36.27,0:18:38.47,0$Default,,0,0,0,,Did you read my moves?!
+Dialogue: 0,0:18:38.47,0:18:39.06,0$Default,,0,0,0,,How's {\i1}that?!
+Dialogue: 0,0:18:39.06,0:18:41.29,0$Default,,0,0,0,,Good going, Chup!
+Dialogue: 0,0:18:41.29,0:18:43.52,0$Default,,0,0,0,,You think you defeated me already?
+Dialogue: 0,0:18:44.81,0:18:45.81,0$Default,,0,0,0,,What do you mean?
+Dialogue: 0,0:18:45.81,0:18:47.71,0$Default,,0,0,0,,My heart is a dungeon.
+Dialogue: 0,0:18:47.71,0:18:50.09,0$Default,,0,0,0,,And there's another me deep within it.
+Dialogue: 0,0:18:50.09,0:18:52.67,0$Default,,0,0,0,,You haven't defeated me\Nuntil you've defeated her, no?
+Dialogue: 0,0:18:53.28,0:18:55.36,0$Default,,0,0,0,,Another Snow White inside her?
+Dialogue: 0,0:18:55.36,0:18:59.22,0$Default,,0,0,0,,What's this about? Are you saying\Nyou have two personalities?
+Dialogue: 0,0:18:59.22,0:19:00.20,0$Default,,0,0,0,,Yes!
+Dialogue: 0,0:19:00.20,0:19:05.58,0$Default,,0,0,0,,The princess on the inside is responsible\Nfor giving us her fortunes and advice.
+Dialogue: 0,0:19:05.58,0:19:06.21,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:19:06.54,0:19:10.11,0$Default,,0,0,0,,Alright! We'll send that ball flying\Ntowards the Snow White on the inside!
+Dialogue: 0,0:19:10.11,0:19:11.51,0$Default,,0,0,0,,How are we supposed to do that?
+Dialogue: 0,0:19:11.51,0:19:15.45,0$Default,,0,0,0,,If you wish to enter my heart,\Nthen fall asleep touching me,
+Dialogue: 0,0:19:15.45,0:19:17.72,0$Default,,0,0,0,,and send your consciousnesses inside.
+Dialogue: 0,0:19:19.26,0:19:23.20,0$Default,,0,0,0,,But do you think you can defeat the other me?
+Dialogue: 0,0:19:27.78,0:19:29.19,0$Default,,0,0,0,,Hm? Is this...
+Dialogue: 0,0:19:29.65,0:19:31.23,0$Default,,0,0,0,,...the door to her heart?
+Dialogue: 0,0:19:31.56,0:19:33.55,0$Default,,0,0,0,,It's quite sturdy, how elegant.
+Dialogue: 0,0:19:33.55,0:19:36.33,0$Default,,0,0,0,,It was a common style\Nfor castles around 300 years ago.
+Dialogue: 0,0:19:39.00,0:19:42.62,0$Default,,0,0,0,,That must be the Snow White on the inside.
+Dialogue: 0,0:19:42.62,0:19:43.93,0$Default,,0,0,0,,She's so slim and beautiful.
+Dialogue: 0,0:19:43.93,0:19:46.79,0$Default,,0,0,0,,She almost looks like Melora from behind!
+Dialogue: 0,0:19:46.79,0:19:47.62,0$Default,,0,0,0,,You're right.
+Dialogue: 0,0:19:47.62,0:19:49.67,0$Default,,0,0,0,,Good job making it this far.
+Dialogue: 0,0:19:50.38,0:19:52.42,0$Default,,0,0,0,,Perhaps I should greet you...
+Dialogue: 0,0:19:53.55,0:19:55.26,0$Default,,0,0,0,,...with a kiss!
+Dialogue: 0,0:19:58.64,0:20:00.22,0$Default,,0,0,0,,Get back here!!
+Dialogue: 0,0:20:00.60,0:20:01.97,0$Default,,0,0,0,,I'mma kiss you!!
+Dialogue: 0,0:20:01.97,0:20:05.04,0$Default,,0,0,0,,Chup, if we briefly fall asleep\Nwe can get out of this!
+Dialogue: 0,0:20:05.04,0:20:08.06,0$Default,,0,0,0,,Good idea! Wait, we're {\i1}already{\i0} asleep!
+Dialogue: 0,0:20:08.06,0:20:09.23,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:20:09.60,0:20:12.15,0$Default,,0,0,0,,I'mma kiss you!!
+Dialogue: 0,0:20:13.71,0:20:15.74,0$Default,,0,0,0,,Stop it!
+Dialogue: 0,0:20:13.71,0:20:15.74,0$Default,,0,0,0,,{\an8}Get away!
+Dialogue: 0,0:22:00.01,0:22:01.05,0$Default,,0,0,0,,Where am I...?
+Dialogue: 0,0:22:04.30,0:22:06.16,0$Default,,0,0,0,,Darefalcon, we did it!
+Dialogue: 0,0:22:07.18,0:22:10.31,0$Default,,0,0,0,,You've finally reached\NDragon Chakra.
+Dialogue: 0,0:22:10.31,0:22:11.77,0$Default,,0,0,0,,Dragon Chakra?
+Dialogue: 0,0:22:11.77,0:22:13.81,0$Default,,0,0,0,,Was that what I felt earlier?
+Dialogue: 0,0:22:13.81,0:22:18.88,0$Default,,0,0,0,,It was unleashed thanks to your aversion\Nto being kissed by the inner Snow White.
+Dialogue: 0,0:22:18.88,0:22:20.07,0$Default,,0,0,0,,Nice!
+Dialogue: 0,0:22:20.92,0:22:23.04,0$Default,,0,0,0,,So, Darefalcon!
+Dialogue: 0,0:22:24.70,0:22:27.24,0$Default,,0,0,0,,You've defeated a lot today,\Nso I'll give you a special deal!
+Dialogue: 0,0:22:31.08,0:22:31.60,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:22:31.60,0:22:35.21,0$Default,,0,0,0,,Didn't we just defeat the strongest being?\NWhy didn't you stamp all of them?
+Dialogue: 0,0:22:35.21,0:22:38.53,0$Default,,0,0,0,,There's one opponent remaining.
+Dialogue: 0,0:22:38.53,0:22:39.92,0$Default,,0,0,0,,None other than me.
+Dialogue: 0,0:22:39.92,0:22:41.97,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:22:45.89,0:22:46.82,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.82,0:22:48.68,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.68,0:22:50.87,0$Default,,0,0,0,,{\an8}Today's lesson is on Dragon Knights!
+Dialogue: 0,0:22:50.87,0:22:54.17,0$Default,,0,0,0,,{\an8}"Dragon Knight" is a title\Ngiven to dragon-blooded people
+Dialogue: 0,0:22:54.17,0:22:58.32,0$Default,,0,0,0,,{\an8}who endure training to receive\Ngreat powers.
+Dialogue: 0,0:22:58.32,0:23:03.11,0$Default,,0,0,0,,{\an8}The legendary warrior who sealed away\Nthe dragon overlord Scardon was one of them!
+Dialogue: 0,0:23:03.11,0:23:04.86,0$Default,,0,0,0,,{\an8}I'm gonna become one too!
+Dialogue: 0,0:23:04.86,0:23:06.14,0$Default,,0,0,0,,{\an8}I won't give up, no matter what!
+Dialogue: 0,0:23:06.14,0:23:09.51,0$Default,,0,0,0,,{\an8}Good, Chup! Don't forget that!
+Dialogue: 0,0:23:11.04,0:23:13.54,0$Default,,0,0,0,,The final trial: defeating Darefalcon!
+Dialogue: 0,0:23:13.54,0:23:15.67,0$Default,,0,0,0,,It's an all-out battle,\Nwith the help of our monsters!
+Dialogue: 0,0:23:15.67,0:23:18.08,0$Default,,0,0,0,,Which monsters would you pick?
+Dialogue: 0,0:23:18.08,0:23:21.63,0$Default,,0,0,0,,Next time: "A Challenge to the Holy Dragon!\NThe Final Match of Ups and Downs!"
+Dialogue: 0,0:23:21.63,0:23:24.17,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 0,0:01:01.58,0:01:04.25,0$Default,,0,0,0,,== TS - TITLE ==
+Dialogue: 2,0:01:01.58,0:01:04.25,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord0\shad0.01\frz6.860\fsp-34.50}E{\frz6.471\fsp-24.80}p{\frz6.192\fsp-23.73}i{\frz5.924\fsp-33.42}s{\frz5.547\fsp-34.50}o{\frz5.158\fsp-32.90}d{\frz4.787\fsp-25.88}e{\frz4.495\fsp-28.55} {\frz4.173\fsp-37.72}3{\frz3.748\fsp-28.03}3{\frz3.432\fsp-18.87}:{\frz3.219\fsp-29.11} {\frz2.891\fsp-36.13}S{\frz2.483\fsp-34.50}n{\frz2.094\fsp-42.59}o{\frz1.614\fsp-34.50}w{\frz1.225\fsp-39.33} {\frz0.782\fsp-46.34}W{\frz0.259\fsp-24.80}h{\frz359.979\fsp-20.49}i{\frz359.748\fsp-28.59}t{\frz359.426\fsp-22.13}e{\frz359.176\fsp-21.57}'{\frz358.933\fsp-25.33}s{\frz358.648\fsp-29.11} {\frz358.319\fsp-36.13}D{\frz357.912\fsp-33.42}a{\frz357.535\fsp-34.76}n{\frz357.143\fsp-34.23}g{\frz356.757\fsp-30.22}e{\frz356.416\fsp-31.82}r{\frz356.057\fsp-34.50}o{\frz355.668\fsp-32.34}u{\frz355.304\fsp-25.33}s{\frz355.018\fsp-28.55} {\frz354.696\fsp-36.65}Z{\frz354.283\fsp-34.50}o{\frz353.894\fsp-32.90}n{\frz353.523\fsp0.00}e
+Dialogue: 1,0:01:01.58,0:01:04.25,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz6.860\fsp-34.50}E{\frz6.471\fsp-24.80}p{\frz6.192\fsp-23.73}i{\frz5.924\fsp-33.42}s{\frz5.547\fsp-34.50}o{\frz5.158\fsp-32.90}d{\frz4.787\fsp-25.88}e{\frz4.495\fsp-28.55} {\frz4.173\fsp-37.72}3{\frz3.748\fsp-28.03}3{\frz3.432\fsp-18.87}:{\frz3.219\fsp-29.11} {\frz2.891\fsp-36.13}S{\frz2.483\fsp-34.50}n{\frz2.094\fsp-42.59}o{\frz1.614\fsp-34.50}w{\frz1.225\fsp-39.33} {\frz0.782\fsp-46.34}W{\frz0.259\fsp-24.80}h{\frz359.979\fsp-20.49}i{\frz359.748\fsp-28.59}t{\frz359.426\fsp-22.13}e{\frz359.176\fsp-21.57}'{\frz358.933\fsp-25.33}s{\frz358.648\fsp-29.11} {\frz358.319\fsp-36.13}D{\frz357.912\fsp-33.42}a{\frz357.535\fsp-34.76}n{\frz357.143\fsp-34.23}g{\frz356.757\fsp-30.22}e{\frz356.416\fsp-31.82}r{\frz356.057\fsp-34.50}o{\frz355.668\fsp-32.34}u{\frz355.304\fsp-25.33}s{\frz355.018\fsp-28.55} {\frz354.696\fsp-36.65}Z{\frz354.283\fsp-34.50}o{\frz353.894\fsp-32.90}n{\frz353.523\fsp0.00}e
+Dialogue: 0,0:01:01.58,0:01:04.25,0$EPTITLE,,0,0,0,,{\pos(965,803)\fade(250,550)\org(965,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz6.860\fsp-34.50}E{\frz6.471\fsp-24.80}p{\frz6.192\fsp-23.73}i{\frz5.924\fsp-33.42}s{\frz5.547\fsp-34.50}o{\frz5.158\fsp-32.90}d{\frz4.787\fsp-25.88}e{\frz4.495\fsp-28.55} {\frz4.173\fsp-37.72}3{\frz3.748\fsp-28.03}3{\frz3.432\fsp-18.87}:{\frz3.219\fsp-29.11} {\frz2.891\fsp-36.13}S{\frz2.483\fsp-34.50}n{\frz2.094\fsp-42.59}o{\frz1.614\fsp-34.50}w{\frz1.225\fsp-39.33} {\frz0.782\fsp-46.34}W{\frz0.259\fsp-24.80}h{\frz359.979\fsp-20.49}i{\frz359.748\fsp-28.59}t{\frz359.426\fsp-22.13}e{\frz359.176\fsp-21.57}'{\frz358.933\fsp-25.33}s{\frz358.648\fsp-29.11} {\frz358.319\fsp-36.13}D{\frz357.912\fsp-33.42}a{\frz357.535\fsp-34.76}n{\frz357.143\fsp-34.23}g{\frz356.757\fsp-30.22}e{\frz356.416\fsp-31.82}r{\frz356.057\fsp-34.50}o{\frz355.668\fsp-32.34}u{\frz355.304\fsp-25.33}s{\frz355.018\fsp-28.55} {\frz354.696\fsp-36.65}Z{\frz354.283\fsp-34.50}o{\frz353.894\fsp-32.90}n{\frz353.523\fsp0.00}e
+Comment: 0,0:03:09.13,0:03:10.13,0$Default,,0,0,0,,== TS - SNOW WHITE SIGN ==
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1381.53,702.2)\frz359.3\blur4.22}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1317.82,616.39)\frz359.3\blur3.73}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1256.91,531.4)\frz359.3\blur3.21}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1199.48,450.34)\frz359.3\blur2.7}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1146.7,375.79)\frz359.3\blur2.24}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1100.16,309.74)\frz359.3\blur1.83}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1061.27,254.53)\frz359.3\blur1.48}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1031.21,212.68)\frz359.3\blur1.23}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1012.42,185.97)\frz359.3\blur1.06}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1005.14,175.92)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1004.37,175.43)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1003.72,174.76)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1003.08,174.28)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1002.51,173.82)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1001.94,173.32)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1001.39,172.74)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1000.86,172.4)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1000.39,171.99)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.92,171.64)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.37,171.2)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.07,170.92)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998.69,170.66)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998.32,170.35)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998,170)\frz359.3\blur1}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1381.53,702.2)\frz359.3\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1317.82,616.39)\frz359.3\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1256.91,531.4)\frz359.3\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1199.48,450.34)\frz359.3\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1146.7,375.79)\frz359.3\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1100.16,309.74)\frz359.3\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1061.27,254.53)\frz359.3\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1031.21,212.68)\frz359.3\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1012.42,185.97)\frz359.3\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1005.14,175.92)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1004.37,175.43)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1003.72,174.76)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1003.08,174.28)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1002.51,173.82)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1001.94,173.32)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1001.39,172.74)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1000.86,172.4)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(1000.39,171.99)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.92,171.64)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.37,171.2)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(999.07,170.92)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998.69,170.66)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998.32,170.35)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs50\b1\c&H1C3553&\pos(998,170)\frz359.3\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H6CBBDD&}Snow White and the Seven Kinokos
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur4.22\pos(1321.12,828.71)\frz1.778}MD
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur3.73\pos(1240.5,778.3)\frz1.778}MD
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur3.21\pos(1161.95,730.26)\frz1.778}MD
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur2.7\pos(1087.39,685.08)\frz1.778}MD
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur2.24\pos(1018.88,643.45)\frz1.778}MD
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1.83\pos(958.29,606.83)\frz1.778}MD
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1.48\pos(907.64,576.24)\frz1.778}MD
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1.23\pos(868.95,552.48)\frz1.778}MD
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1.06\pos(844.44,537.75)\frz1.778}MD
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(835.1,531.99)\frz1.778}MD
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(834.4,531.36)\frz1.778}MD
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(833.74,530.73)\frz1.778}MD
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(833.09,530.27)\frz1.778}MD
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(832.53,529.79)\frz1.778}MD
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(831.94,529.3)\frz1.778}MD
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(831.36,528.8)\frz1.778}MD
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(830.88,528.37)\frz1.778}MD
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(830.38,528.01)\frz1.778}MD
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(829.92,527.63)\frz1.778}MD
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(829.44,527.05)\frz1.778}MD
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(829.1,526.86)\frz1.778}MD
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(828.72,526.6)\frz1.778}MD
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(828.35,526.28)\frz1.778}MD
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H26334D&\blur1\pos(828,526)\frz1.778}MD
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H5E93CB&\pos(1321.12,828.71)\frz1.778}MD
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H5E93CB&\pos(1240.5,778.3)\frz1.778}MD
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H5E93CB&\pos(1161.95,730.26)\frz1.778}MD
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H5E93CB&\pos(1087.39,685.08)\frz1.778}MD
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H5E93CB&\pos(1018.88,643.45)\frz1.778}MD
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H5E93CB&\pos(958.29,606.83)\frz1.778}MD
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H5E93CB&\pos(907.64,576.24)\frz1.778}MD
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H5E93CB&\pos(868.95,552.48)\frz1.778}MD
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H5E93CB&\pos(844.44,537.75)\frz1.778}MD
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(835.1,531.99)\frz1.778}MD
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(834.4,531.36)\frz1.778}MD
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(833.74,530.73)\frz1.778}MD
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(833.09,530.27)\frz1.778}MD
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(832.53,529.79)\frz1.778}MD
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(831.94,529.3)\frz1.778}MD
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(831.36,528.8)\frz1.778}MD
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(830.88,528.37)\frz1.778}MD
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(830.38,528.01)\frz1.778}MD
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(829.92,527.63)\frz1.778}MD
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(829.44,527.05)\frz1.778}MD
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(829.1,526.86)\frz1.778}MD
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(828.72,526.6)\frz1.778}MD
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(828.35,526.28)\frz1.778}MD
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5E93CB&\pos(828,526)\frz1.778}MD
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur4.22\pos(1423.47,820.18)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur3.73\pos(1371.48,767.39)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur3.21\pos(1322.82,716.85)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur2.7\pos(1277.29,669.25)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur2.24\pos(1235.42,625.41)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1.83\pos(1198.64,586.8)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1.48\pos(1167.9,554.55)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1.23\pos(1143.84,529.57)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1.06\pos(1129.02,514.03)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1123.16,507.99)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1122.35,507.36)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1121.71,506.73)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1121.08,506.28)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1120.51,505.8)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1119.93,505.3)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1119.41,504.8)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1118.86,504.37)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1118.4,504.01)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1117.92,503.63)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1117.32,503.06)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1117.05,502.87)\frz359.7}Grumpers
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1116.67,502.6)\frz359.7}Grumpers
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1116.3,502.29)\frz359.7}Grumpers
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132C53&\blur1\pos(1116,502)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H4D9ECE&\pos(1423.47,820.18)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H4D9ECE&\pos(1371.48,767.39)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H4D9ECE&\pos(1322.82,716.85)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H4D9ECE&\pos(1277.29,669.25)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H4D9ECE&\pos(1235.42,625.41)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H4D9ECE&\pos(1198.64,586.8)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H4D9ECE&\pos(1167.9,554.55)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H4D9ECE&\pos(1143.84,529.57)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H4D9ECE&\pos(1129.02,514.03)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1123.16,507.99)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1122.35,507.36)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1121.71,506.73)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1121.08,506.28)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1120.51,505.8)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1119.93,505.3)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1119.41,504.8)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1118.86,504.37)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1118.4,504.01)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1117.92,503.63)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1117.32,503.06)\frz359.7}Grumpers
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1117.05,502.87)\frz359.7}Grumpers
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1116.67,502.6)\frz359.7}Grumpers
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1116.3,502.29)\frz359.7}Grumpers
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4D9ECE&\pos(1116,502)\frz359.7}Grumpers
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur4.22\frz357.5\pos(1284.87,889.12)}Spreezy
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.73\frz357.5\pos(1194.11,855.62)}Spreezy
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.21\frz357.5\pos(1104.98,825.21)}Spreezy
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.7\frz357.5\pos(1020.13,797.18)}Spreezy
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.24\frz357.5\pos(942.19,771.27)}Spreezy
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.83\frz357.5\pos(873.17,748.7)}Spreezy
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.48\frz357.5\pos(815.47,729.86)}Spreezy
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.23\frz357.5\pos(771.6,714.74)}Spreezy
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.06\frz357.5\pos(743.65,705.73)}Spreezy
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(733.08,702.03)}Spreezy
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(732.42,701.33)}Spreezy
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(731.75,700.71)}Spreezy
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(731.09,700.27)}Spreezy
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(730.53,699.78)}Spreezy
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(729.95,699.29)}Spreezy
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(729.34,698.83)}Spreezy
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(728.88,698.36)}Spreezy
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(728.38,698.02)}Spreezy
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(727.93,697.62)}Spreezy
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(727.48,696.98)}Spreezy
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(727.11,696.84)}Spreezy
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(726.74,696.57)}Spreezy
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(726.37,696.25)}Spreezy
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(726,696)}Spreezy
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H4597C9&\frz357.5\pos(1284.87,889.12)}Spreezy
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H4597C9&\frz357.5\pos(1194.11,855.62)}Spreezy
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H4597C9&\frz357.5\pos(1104.98,825.21)}Spreezy
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H4597C9&\frz357.5\pos(1020.13,797.18)}Spreezy
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H4597C9&\frz357.5\pos(942.19,771.27)}Spreezy
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H4597C9&\frz357.5\pos(873.17,748.7)}Spreezy
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H4597C9&\frz357.5\pos(815.47,729.86)}Spreezy
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H4597C9&\frz357.5\pos(771.6,714.74)}Spreezy
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H4597C9&\frz357.5\pos(743.65,705.73)}Spreezy
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(733.08,702.03)}Spreezy
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(732.42,701.33)}Spreezy
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(731.75,700.71)}Spreezy
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(731.09,700.27)}Spreezy
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(730.53,699.78)}Spreezy
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(729.95,699.29)}Spreezy
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(729.34,698.83)}Spreezy
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(728.88,698.36)}Spreezy
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(728.38,698.02)}Spreezy
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(727.93,697.62)}Spreezy
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(727.48,696.98)}Spreezy
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(727.11,696.84)}Spreezy
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(726.74,696.57)}Spreezy
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(726.37,696.25)}Spreezy
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(726,696)}Spreezy
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur4.22\frz357.5\pos(1346.71,892.67)}Clumsy
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.73\frz357.5\pos(1273.25,860.17)}Clumsy
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.21\frz357.5\pos(1202.17,830.8)}Clumsy
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.7\frz357.5\pos(1134.86,803.77)}Clumsy
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.24\frz357.5\pos(1073.01,778.79)}Clumsy
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.83\frz357.5\pos(1018.38,757.04)}Clumsy
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.48\frz357.5\pos(972.71,738.9)}Clumsy
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.23\frz357.5\pos(937.68,724.28)}Clumsy
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.06\frz357.5\pos(915.58,715.61)}Clumsy
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(907.12,712.03)}Clumsy
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(906.39,711.33)}Clumsy
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(905.73,710.71)}Clumsy
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(905.08,710.27)}Clumsy
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(904.52,709.78)}Clumsy
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(903.94,709.29)}Clumsy
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(903.37,708.83)}Clumsy
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(902.87,708.36)}Clumsy
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(902.39,708.02)}Clumsy
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(901.92,707.62)}Clumsy
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(901.41,706.98)}Clumsy
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(901.09,706.84)}Clumsy
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(900.71,706.57)}Clumsy
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(900.34,706.25)}Clumsy
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz357.5\pos(900,706)}Clumsy
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H4597C9&\frz357.5\pos(1346.71,892.67)}Clumsy
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H4597C9&\frz357.5\pos(1273.25,860.17)}Clumsy
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H4597C9&\frz357.5\pos(1202.17,830.8)}Clumsy
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H4597C9&\frz357.5\pos(1134.86,803.77)}Clumsy
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H4597C9&\frz357.5\pos(1073.01,778.79)}Clumsy
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H4597C9&\frz357.5\pos(1018.38,757.04)}Clumsy
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H4597C9&\frz357.5\pos(972.71,738.9)}Clumsy
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H4597C9&\frz357.5\pos(937.68,724.28)}Clumsy
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H4597C9&\frz357.5\pos(915.58,715.61)}Clumsy
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(907.12,712.03)}Clumsy
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(906.39,711.33)}Clumsy
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(905.73,710.71)}Clumsy
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(905.08,710.27)}Clumsy
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(904.52,709.78)}Clumsy
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(903.94,709.29)}Clumsy
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(903.37,708.83)}Clumsy
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(902.87,708.36)}Clumsy
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(902.39,708.02)}Clumsy
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(901.92,707.62)}Clumsy
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(901.41,706.98)}Clumsy
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(901.09,706.84)}Clumsy
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(900.71,706.57)}Clumsy
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(900.34,706.25)}Clumsy
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz357.5\pos(900,706)}Clumsy
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur4.22\pos(1435.55,886.28)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.73\pos(1386.95,851.98)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.21\pos(1341.82,820.75)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.7\pos(1299.71,791.9)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.24\pos(1260.98,765.25)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.83\pos(1227.01,742.02)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.48\pos(1198.63,722.63)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.23\pos(1176.3,707.1)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.06\pos(1162.61,697.82)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1157.17,694.02)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1156.34,693.33)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1155.71,692.71)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1155.08,692.27)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1154.5,691.78)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1153.93,691.29)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1153.42,690.83)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1152.85,690.36)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1152.4,690.02)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1151.92,689.63)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1151.31,688.98)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1151.05,688.84)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1150.66,688.57)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1150.29,688.25)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(1150,688)\frz4.171}Huffy{\c&H273753&}
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H5F99CD&\pos(1435.55,886.28)\frz4.171}Huffy
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H5F99CD&\pos(1386.95,851.98)\frz4.171}Huffy
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H5F99CD&\pos(1341.82,820.75)\frz4.171}Huffy
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H5F99CD&\pos(1299.71,791.9)\frz4.171}Huffy
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H5F99CD&\pos(1260.98,765.25)\frz4.171}Huffy
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H5F99CD&\pos(1227.01,742.02)\frz4.171}Huffy
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H5F99CD&\pos(1198.63,722.63)\frz4.171}Huffy
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H5F99CD&\pos(1176.3,707.1)\frz4.171}Huffy
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H5F99CD&\pos(1162.61,697.82)\frz4.171}Huffy
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1157.17,694.02)\frz4.171}Huffy
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1156.34,693.33)\frz4.171}Huffy
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1155.71,692.71)\frz4.171}Huffy
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1155.08,692.27)\frz4.171}Huffy
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1154.5,691.78)\frz4.171}Huffy
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1153.93,691.29)\frz4.171}Huffy
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1153.42,690.83)\frz4.171}Huffy
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1152.85,690.36)\frz4.171}Huffy
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1152.4,690.02)\frz4.171}Huffy
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1151.92,689.63)\frz4.171}Huffy
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1151.31,688.98)\frz4.171}Huffy
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1151.05,688.84)\frz4.171}Huffy
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1150.66,688.57)\frz4.171}Huffy
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1150.29,688.25)\frz4.171}Huffy
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H5F99CD&\pos(1150,688)\frz4.171}Huffy
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur4.22\pos(1317.39,925.53)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.73\pos(1235.73,902.22)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.21\pos(1156.09,882.45)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.7\pos(1080.46,864.74)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.24\pos(1010.99,848.31)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.83\pos(949.53,834.21)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.48\pos(898.16,822.46)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.23\pos(858.93,812.54)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.06\pos(834.06,806.98)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(824.6,804.52)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(823.91,803.78)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(823.24,803.17)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(822.59,802.74)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(822.03,802.24)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(821.45,801.75)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(820.86,801.32)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(820.38,800.82)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(819.88,800.49)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(819.42,800.09)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(818.94,799.41)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(818.6,799.29)\frz0.4992}Smashful
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(818.22,799.02)\frz0.4992}Smashful
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(817.85,798.7)\frz0.4992}Smashful
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\pos(817.5,798.47)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H4597C9&\pos(1317.39,925.53)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H4597C9&\pos(1235.73,902.22)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H4597C9&\pos(1156.09,882.45)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H4597C9&\pos(1080.46,864.74)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H4597C9&\pos(1010.99,848.31)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H4597C9&\pos(949.53,834.21)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H4597C9&\pos(898.16,822.46)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H4597C9&\pos(858.93,812.54)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H4597C9&\pos(834.06,806.98)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(824.6,804.52)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(823.91,803.78)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(823.24,803.17)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(822.59,802.74)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(822.03,802.24)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(821.45,801.75)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(820.86,801.32)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(820.38,800.82)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(819.88,800.49)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(819.42,800.09)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(818.94,799.41)\frz0.4992}Smashful
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(818.6,799.29)\frz0.4992}Smashful
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(818.22,799.02)\frz0.4992}Smashful
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(817.85,798.7)\frz0.4992}Smashful
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\pos(817.5,798.47)\frz0.4992}Smashful
+Dialogue: 1,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur4.22\frz349.8\pos(1438.7,921.33)}Carefree
+Dialogue: 1,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.73\frz349.8\pos(1390.99,896.84)}Carefree
+Dialogue: 1,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur3.21\frz349.8\pos(1346.78,875.84)}Carefree
+Dialogue: 1,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.7\frz349.8\pos(1305.57,856.94)}Carefree
+Dialogue: 1,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur2.24\frz349.8\pos(1267.66,839.42)}Carefree
+Dialogue: 1,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.83\frz349.8\pos(1234.42,824.34)}Carefree
+Dialogue: 1,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.48\frz349.8\pos(1206.65,811.77)}Carefree
+Dialogue: 1,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.23\frz349.8\pos(1184.77,801.25)}Carefree
+Dialogue: 1,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1.06\frz349.8\pos(1171.39,795.29)}Carefree
+Dialogue: 1,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1166.05,792.68)}Carefree
+Dialogue: 1,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1165.22,791.95)}Carefree
+Dialogue: 1,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1164.59,791.34)}Carefree
+Dialogue: 1,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1163.96,790.91)}Carefree
+Dialogue: 1,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1163.38,790.42)}Carefree
+Dialogue: 1,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1162.81,789.92)}Carefree
+Dialogue: 1,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1162.3,789.49)}Carefree
+Dialogue: 1,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1161.73,788.99)}Carefree
+Dialogue: 1,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1161.28,788.66)}Carefree
+Dialogue: 1,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1160.8,788.26)}Carefree
+Dialogue: 1,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1160.18,787.58)}Carefree
+Dialogue: 1,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1159.93,787.47)}Carefree
+Dialogue: 1,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1159.54,787.19)}Carefree
+Dialogue: 1,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1159.17,786.87)}Carefree
+Dialogue: 1,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H132E55&\blur1\frz349.8\pos(1158.88,786.64)}Carefree
+Dialogue: 0,0:03:09.12,0:03:09.16,0$mask,,0,0,0,,{\fscx35.54\fscy35.54\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur4.22\1a&HFE\3a&HFE&\shad0.01\bord2.13\4c&H4597C9&\frz349.8\pos(1438.7,921.33)}Carefree
+Dialogue: 0,0:03:09.16,0:03:09.21,0$mask,,0,0,0,,{\fscx45.48\fscy45.48\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.73\1a&HFE\3a&HFE&\shad0.01\bord2.73\4c&H4597C9&\frz349.8\pos(1390.99,896.84)}Carefree
+Dialogue: 0,0:03:09.21,0:03:09.25,0$mask,,0,0,0,,{\fscx55.86\fscy55.86\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur3.21\1a&HFE\3a&HFE&\shad0.01\bord3.35\4c&H4597C9&\frz349.8\pos(1346.78,875.84)}Carefree
+Dialogue: 0,0:03:09.25,0:03:09.29,0$mask,,0,0,0,,{\fscx65.94\fscy65.94\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.7\1a&HFE\3a&HFE&\shad0.01\bord3.96\4c&H4597C9&\frz349.8\pos(1305.57,856.94)}Carefree
+Dialogue: 0,0:03:09.29,0:03:09.33,0$mask,,0,0,0,,{\fscx75.19\fscy75.19\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur2.24\1a&HFE\3a&HFE&\shad0.01\bord4.51\4c&H4597C9&\frz349.8\pos(1267.66,839.42)}Carefree
+Dialogue: 0,0:03:09.33,0:03:09.37,0$mask,,0,0,0,,{\fscx83.45\fscy83.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.83\1a&HFE\3a&HFE&\shad0.01\bord5.01\4c&H4597C9&\frz349.8\pos(1234.42,824.34)}Carefree
+Dialogue: 0,0:03:09.37,0:03:09.41,0$mask,,0,0,0,,{\fscx90.37\fscy90.37\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.48\1a&HFE\3a&HFE&\shad0.01\bord5.42\4c&H4597C9&\frz349.8\pos(1206.65,811.77)}Carefree
+Dialogue: 0,0:03:09.41,0:03:09.46,0$mask,,0,0,0,,{\fscx95.45\fscy95.45\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.23\1a&HFE\3a&HFE&\shad0.01\bord5.73\4c&H4597C9&\frz349.8\pos(1184.77,801.25)}Carefree
+Dialogue: 0,0:03:09.46,0:03:09.50,0$mask,,0,0,0,,{\fscx98.81\fscy98.81\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1.06\1a&HFE\3a&HFE&\shad0.01\bord5.93\4c&H4597C9&\frz349.8\pos(1171.39,795.29)}Carefree
+Dialogue: 0,0:03:09.50,0:03:09.54,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1166.05,792.68)}Carefree
+Dialogue: 0,0:03:09.54,0:03:09.58,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1165.22,791.95)}Carefree
+Dialogue: 0,0:03:09.58,0:03:09.62,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1164.59,791.34)}Carefree
+Dialogue: 0,0:03:09.62,0:03:09.66,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1163.96,790.91)}Carefree
+Dialogue: 0,0:03:09.66,0:03:09.71,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1163.38,790.42)}Carefree
+Dialogue: 0,0:03:09.71,0:03:09.75,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1162.81,789.92)}Carefree
+Dialogue: 0,0:03:09.75,0:03:09.79,0$mask,,0,0,0,,{\fscx100.02\fscy100.02\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1162.3,789.49)}Carefree
+Dialogue: 0,0:03:09.79,0:03:09.83,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1161.73,788.99)}Carefree
+Dialogue: 0,0:03:09.83,0:03:09.87,0$mask,,0,0,0,,{\fscx100.01\fscy100.01\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1161.28,788.66)}Carefree
+Dialogue: 0,0:03:09.87,0:03:09.91,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1160.8,788.26)}Carefree
+Dialogue: 0,0:03:09.91,0:03:09.96,0$mask,,0,0,0,,{\fscx99.96\fscy99.96\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1160.18,787.58)}Carefree
+Dialogue: 0,0:03:09.96,0:03:10.00,0$mask,,0,0,0,,{\fscx99.99\fscy99.99\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1159.93,787.47)}Carefree
+Dialogue: 0,0:03:10.00,0:03:10.04,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1159.54,787.19)}Carefree
+Dialogue: 0,0:03:10.04,0:03:10.08,0$mask,,0,0,0,,{\fscx99.98\fscy99.98\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1159.17,786.87)}Carefree
+Dialogue: 0,0:03:10.08,0:03:10.12,0$mask,,0,0,0,,{\fscx100\fscy100\an5\fnCCJScottCampbellLower\fs40\b0\c&H1C3553&\blur1\1a&HFE\3a&HFE&\shad0.01\bord6\4c&H4597C9&\frz349.8\pos(1158.88,786.64)}Carefree
+Comment: 0,0:06:05.09,0:06:09.43,0$Default,,0,0,0,,== TS - PROVERB(?) ==
+Dialogue: 1,0:06:05.09,0:06:09.43,0$Proverb,,0,0,0,,{\kf20\fs50\pos(1384,305)\c&HFCFCFA&\blur0.8\2aFF}Chup,{\kf19} {\kf25}go right, go right!{\kf39}\N{\kf27}Wait,{\kf4} {\kf52}a bit to the left!{\kf36}\N{\kf65}Good, that's perfect!{\kf13}\N{\kf55}Now hit it!{\kf79}
+Dialogue: 0,0:06:05.09,0:06:09.43,0$Proverb,,0,0,0,,{\kf20\fs50\c&H313131&\blur0.8\2aFF\pos(1386.76,307.09)}Chup,{\kf19} {\kf25}go right, go right!{\kf39}\N{\kf27}Wait,{\kf4} {\kf52}a bit to the left!{\kf36}\N{\kf65}Good, that's perfect!{\kf13}\N{\kf55}Now hit it!{\kf79}
+Dialogue: 1,0:06:08.89,0:06:09.43,0$Proverb,,0,0,0,,{\kf10\fs50\c&HFCFCFA&\blur0.8\2aFF\pos(1538,341)}-Tome
+Dialogue: 0,0:06:08.89,0:06:09.43,0$Proverb,,0,0,0,,{\kf10\fs50\c&H313131&\blur0.8\2aFF\pos(1540.76,343.09)}-Tome
+Comment: 0,0:11:58.61,0:12:00.62,0$Default,,0,0,0,,== TS - KNIGHTMARE ==
+Dialogue: 2,0:11:58.45,0:12:00.62,0$MonsterName,,0,0,0,,{\c&H2021CE&\blur1\fs180\fscx85\frz13.21\pos(1374,814)\fad(400,0)}Knightmare
+Dialogue: 1,0:11:58.45,0:12:00.62,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H0C0C0C&\fad(400,0)}m 1005.68 864.04 l 1065.37 818.15 1063.91 796.79 1081.43 796.74 1076.2 781.63 1093.97 785.39 1091.58 774.11 1164.71 792.23 1166.76 808.29 1182.48 798.72 1221.79 792.57 1256.99 757.37 1294.36 753.48 1310.82 721.29 1315.66 733.15 1324.61 721.05 1332.6 736.54 1335.75 721.77 1392.14 728.79 1409.07 758.83 1425.65 746.82 1437.9 759.8 1440.06 732.41 1476.42 726.47 1520.35 685.47 1564.76 695.61 1573.61 682.02 1605.32 676.34 1595.7 670.65 1614.07 666.28 1597.89 661.03 1728 653.11 1727.75 663.03 1710.64 664.02 1732.47 671.71 1729.98 759.27 1705.46 812.79 1673.01 845.24 1623.95 858.62 1603.42 844.44 1581.34 858.1 1566.46 853.06 1520.87 893.05 1521.35 878.74 1507.05 891.59 1502.2 875.83 1487.89 890.87 1415.87 885.05 1419.51 896.69 1405.45 901.78 1422.42 904.69 1356.05 929.14 1324.52 908.33 1317.69 929.44 1263.79 949.65 1259.69 940.57 1257.08 941.82 1255.23 955.94 1220.07 932.51 1169.48 943.78 1150.67 976.55 1145.96 960.87 1138.13 976.15 1131.46 965.57 1126.37 978.9 1066.15 981.64 m 1010.5 853.17 l 1055.83 817.55 1050.43 800.5 m 1455.15 712.61 l 1501.39 689.8 1476.39 721.35 m 1684.36 840.84 l 1707.37 817.84 1729.37 777.89 1716.22 826.43
+Dialogue: 0,0:11:58.45,0:12:00.62,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&HDFE3E3&\fad(400,0)}m 989.03 862.38 l 1025.38 799.78 1104.84 756.28 1191.69 786.05 1280 731.11 1290.1 709.52 1399.89 706.45 1417.81 732.12 1500.32 669.16 1562.32 672.3 1637.11 635.1 1743.53 644.71 1752.94 750.89 1742.13 818.21 1678.23 868.05 1585.67 868.55 1527 905.48 1446.1 907.75 1420.77 931.24 1313.47 943.99 1261.01 972.21 1193.65 952.92 1143.05 998.5 1041.66 986.11
+Comment: 0,0:22:45.01,0:23:25.09,0$Default,,0,0,0,,== POST-ED ==
+Dialogue: 1,0:22:45.01,0:22:48.68,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:45.01,0:22:48.68,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.68,0:23:10.04,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs110\3c&H1E1E1E&\shad0\pos(586,1063.2)}Dragon Knights
+Dialogue: 0,0:22:48.68,0:23:10.04,0$Take H,,0,0,0,,{\c&H030309&\bord4\blur1\fs110\3c&H030309&\shad0\pos(586,1063.2)}Dragon Knights
+Dialogue: 1,0:23:10.04,0:23:25.09,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:10.04,0:23:25.09,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,348)}A Challenge to the Holy Dragon!
+Dialogue: 1,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H1FAB00&\bord4\fade(450,0)\c&H1FAB00&\blur0.7\pos(972,348)}A Challenge to the Holy Dragon!
+Dialogue: 0,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,348)}A Challenge to the Holy Dragon!
+Dialogue: 2,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,806)}The Final Match of Ups and Downs!
+Dialogue: 1,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H1FAB00&\bord4\fade(450,0)\c&H1FAB00&\blur0.7\pos(972,806)}The Final Match of Ups and Downs!
+Dialogue: 0,0:23:18.04,0:23:25.09,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,806)}The Final Match of Ups and Downs!
+Dialogue: 1,0:20:21.07,0:20:25.87,0$TSSLyricsEDRomanji,,0,0,0,,{\kf98\3c&H70BE0E&\2c&H537F17&\bord0}shobokure {\kf40}gao {\kf16}no {\kf70}mobukyara {\kf54}domo {\kf110}ga{\kf87}
+Dialogue: 0,0:20:21.07,0:20:25.87,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}shobokure gao no mobukyara domo ga
+Dialogue: 1,0:20:21.07,0:20:25.87,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}On and on these tired old NPCs
+Dialogue: 0,0:20:21.07,0:20:25.87,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}On and on these tired old NPCs
+Dialogue: 1,0:20:25.87,0:20:30.75,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&H70BE0E&\2c&H537F17&\bord0}iiwake {\kf118}shinagara {\kf40}aru{\kf32}ite{\kf90}ru{\kf93}
+Dialogue: 0,0:20:25.87,0:20:30.75,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}iiwake shinagara aruiteru
+Dialogue: 1,0:20:25.87,0:20:30.75,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Keep walking around excusing themselves
+Dialogue: 0,0:20:25.87,0:20:30.75,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Keep walking around excusing themselves
+Dialogue: 1,0:20:30.75,0:20:35.67,0$TSSLyricsEDRomanji,,0,0,0,,{\kf91\3c&H70BE0E&\2c&H537F17&\bord0}itsumo {\kf36}mi{\kf66}teiru {\kf118}michisuga{\kf80}ra{\kf101}
+Dialogue: 0,0:20:30.75,0:20:35.67,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}itsumo miteiru michisugara
+Dialogue: 1,0:20:30.75,0:20:35.67,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}As I took the same old path again
+Dialogue: 0,0:20:30.75,0:20:35.67,0$TSSLyricsEDEng,,0,0,0,,{\1c&H70BE0E&\3c&H1D83E8&\4c&H1D83E8&}As I took the same old path again
+Dialogue: 1,0:20:35.67,0:20:40.84,0$TSSLyricsEDRomanji,,0,0,0,,{\kf63\3c&H70BE0E&\2c&H537F17&\bord0}mita {\kf66}koto {\kf24}mo {\kf76}nai {\kf76}wakuwaku {\kf26}wo {\kf28}mi{\kf118}ta{\kf41}
+Dialogue: 0,0:20:35.67,0:20:40.84,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}mita koto mo nai wakuwaku wo mita
+Dialogue: 1,0:20:35.67,0:20:40.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}I found the thrill I've sought for my whole life
+Dialogue: 0,0:20:35.67,0:20:40.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}I found the thrill I've sought for my whole life
+Dialogue: 1,0:20:40.84,0:20:45.89,0$TSSLyricsEDRomanji,,0,0,0,,{\kf29\kf66\3c&HDD8623&\2c&H9C6521&\bord0\4c&H3C2116&}itsumade {\kf64}shibon{\kf30}da {\kf28}mama {\kf26}na{\kf66}no{\kf195}
+Dialogue: 0,0:20:40.84,0:20:45.89,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}itsumade shibonda mama nano
+Dialogue: 1,0:20:40.84,0:20:45.89,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}Just how long will I keep drooping around like this?
+Dialogue: 0,0:20:40.84,0:20:45.89,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}Just how long will I keep drooping around like this?
+Dialogue: 1,0:20:45.89,0:20:49.98,0$TSSLyricsEDRomanji,,0,0,0,,{\kf17\kf76\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}minikui {\kf58}ahiru {\kf24}no {\kf26}mama {\kf26}na{\kf78}no{\kf104}
+Dialogue: 0,0:20:45.89,0:20:49.98,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}minikui ahiru no mama nano
+Dialogue: 1,0:20:45.89,0:20:49.98,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}How long will I stay an ugly duckling?
+Dialogue: 0,0:20:45.89,0:20:49.98,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}How long will I stay an ugly duckling?
+Dialogue: 1,0:20:49.98,0:20:53.06,0$TSSLyricsEDRomanji,,0,0,0,,{\kf34\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}ima {\kf24}no {\kf66}rebe{\kf36}ru {\kf30}wa {\kf34}ichi {\kf85}dakedo
+Dialogue: 0,0:20:49.98,0:20:53.06,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima no reberu wa ichi dakedo
+Dialogue: 1,0:20:49.98,0:20:53.06,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}I'm still only level one
+Dialogue: 0,0:20:49.98,0:20:53.06,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}I'm still only level one
+Dialogue: 1,0:20:53.06,0:21:00.28,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}i{\kf44}ma {\kf24}ni {\kf62}mitero {\kf38}yo {\kf68}sono {\kf98}uchi{\kf36} {\kf62}JUMP {\kf142}UP{\kf80}
+Dialogue: 0,0:20:53.06,0:21:00.28,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima ni mitero yo sono uchi JUMP UP
+Dialogue: 1,0:20:53.06,0:21:00.28,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}But watch me, soon I'll jump up
+Dialogue: 0,0:20:53.06,0:21:00.28,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}But watch me, soon I'll jump up
+Dialogue: 1,0:21:00.28,0:21:05.37,0$TSSLyricsEDRomanji,,0,0,0,,{\kf146\3c&H342035&\2c&H501F4F&\bord0\4c&H342035&}sai{\kf48}kin {\kf46}no{\kf20} {\kf100}wakai {\kf52}mon {\kf38}wa {\kf59}tte
+Dialogue: 0,0:21:00.28,0:21:05.37,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}saikin no wakai mon wa tte
+Dialogue: 1,0:21:00.28,0:21:05.37,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}"Why, kids these days..."
+Dialogue: 0,0:21:00.28,0:21:05.37,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}"Why, kids these days..."
+Dialogue: 1,0:21:05.37,0:21:10.29,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}toshiyori {\kf44}domo {\kf28}ga {\kf48}boyai {\kf40}teru {\kf20}ke{\kf86}do{\kf159}
+Dialogue: 0,0:21:05.37,0:21:10.29,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}toshiyori domo ga boyai teru kedo
+Dialogue: 1,0:21:05.37,0:21:10.29,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}...Our old boomers grumble and complain
+Dialogue: 0,0:21:05.37,0:21:10.29,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}...Our old boomers grumble and complain
+Dialogue: 1,0:21:10.29,0:21:15.21,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}soro {\kf100}soro{\kf32} {\kf60}omei {\kf94}henjou {\kf60}da{\kf31}
+Dialogue: 0,0:21:10.29,0:21:15.21,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}soro soro omei henjou da
+Dialogue: 1,0:21:10.29,0:21:15.21,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}But it's not too late to clear my name
+Dialogue: 0,0:21:10.29,0:21:15.21,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}But it's not too late to clear my name
+Dialogue: 1,0:21:15.21,0:21:17.84,0$TSSLyricsEDRomanji,,0,0,0,,{\kf110\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}iya ga ou ni {\kf25}mo {\kf72}mattanashi {\kf56}daze
+Dialogue: 0,0:21:15.21,0:21:17.84,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}iya ga ou ni mo mattanashi daze
+Dialogue: 1,0:21:15.21,0:21:17.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I might not like it, but I can't wait any longer
+Dialogue: 0,0:21:15.21,0:21:17.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I might not like it, but I can't wait any longer
+Dialogue: 1,0:21:17.84,0:21:23.97,0$TSSLyricsEDRomanji,,0,0,0,,{\kf28\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}ketsu {\kf28}no {\kf26}ana {\kf36}kara {\kf94}jetto{\kf26} {\kf102}funsha{\kf32} {\kf241}daaa
+Dialogue: 0,0:21:17.84,0:21:23.97,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}ketsu no ana kara jetto funsha daaa
+Dialogue: 1,0:21:17.84,0:21:23.97,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I gotta blast free from my cowardly shell!!
+Dialogue: 0,0:21:17.84,0:21:23.97,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I gotta blast free from my cowardly shell!!
+Dialogue: 1,0:21:23.97,0:21:28.81,0$TSSLyricsEDRomanji,,0,0,0,,{\kf59\3c&H76B118&\2c&H537323&\bord0}ore {\kf28}wa {\kf106}itsuka{\kf46} {\kf60}hana {\kf50}ni {\kf32}na{\kf68}ru{\kf35}
+Dialogue: 0,0:21:23.97,0:21:28.81,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}ore wa itsuka hana ni naru
+Dialogue: 1,0:21:23.97,0:21:28.81,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Give me time and I'll bloom like a flower
+Dialogue: 0,0:21:23.97,0:21:28.81,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Give me time and I'll bloom like a flower
+Dialogue: 1,0:21:28.81,0:21:33.77,0$TSSLyricsEDRomanji,,0,0,0,,{\kf61\3c&H76B118&\2c&H537323&\bord0}sora {\kf36}ni {\kf52}nobi{\kf58}ru{\kf38} {\kf70}hana {\kf36}ni {\kf38}na{\kf64}ru{\kf43}
+Dialogue: 0,0:21:28.81,0:21:33.77,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}sora ni nobiru hana ni naru
+Dialogue: 1,0:21:28.81,0:21:33.77,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}A flower spread out to the sky
+Dialogue: 0,0:21:28.81,0:21:33.77,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}A flower spread out to the sky
+Dialogue: 1,0:21:33.77,0:21:41.40,0$TSSLyricsEDRomanji,,0,0,0,,{\kf69\3c&H76B118&\2c&H537323&\fade(0,500)\bord0}kimi {\kf22}ni {\kf56}todo{\kf50}ku{\kf38} {\kf80}ha{\kf62}na {\kf62}ni {\kf56}na{\kf18}r{\kf251}u
+Dialogue: 0,0:21:33.77,0:21:41.40,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&\fade(0,500)}kimi ni todoku hana ni naru
+Dialogue: 1,0:21:33.77,0:21:41.40,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&\fade(0,500)}The flower that reaches you
+Dialogue: 0,0:21:33.77,0:21:41.40,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&\fade(0,500)}The flower that reaches you
+

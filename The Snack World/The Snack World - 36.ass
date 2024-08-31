@@ -1,0 +1,1278 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 36
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E7E5E3,&H00DC9BD5,&H00E80D6A,&H00334C12,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00D9A6A5,&H00F33485,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+Style: 0$Ep36 INS,CCBigTopBeardedLady,70,&H00E7E7E7,&H000000FF,&H0070054A,&H86000000,0,0,0,0,100,100,0,0,1,4,0,7,80,80,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.36,0:00:05.19,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.19,0:00:08.13,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.13,0:00:10.08,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.08,0:00:12.37,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.37,0:00:16.50,0$Default,,0,0,0,,My village was burnt down by\Nthe evil land-destroying merchant Vinegar Khan,
+Dialogue: 0,0:00:16.50,0:00:19.08,0$Default,,0,0,0,,so I've embarked on a journey\Nto get my revenge 1000-fold!
+Dialogue: 0,0:00:19.92,0:00:23.63,0$Default,,0,0,0,,The final battle is here at last!
+Dialogue: 0,0:00:23.96,0:00:26.34,0$Default,,0,0,0,,He's going down!
+Dialogue: 0,0:00:54.41,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:05.17,0:01:08.49,0$Default,,0,0,0,,{\an8}We've prepared the ritual\Nfor Scardon's resurrection.
+Dialogue: 0,0:01:08.49,0:01:10.47,0$Default,,0,0,0,,{\an8}The palace is fully-guarded as well.
+Dialogue: 0,0:01:10.47,0:01:13.45,0$Default,,0,0,0,,{\an8}No intruders will have a chance\Nof swiping the Dragon Heart.
+Dialogue: 0,0:01:13.45,0:01:15.10,0$Default,,0,0,0,,{\an8}I'd better hope not!
+Dialogue: 0,0:01:15.10,0:01:18.41,0$Default,,0,0,0,,The ritual will take place at noon.
+Dialogue: 0,0:01:18.41,0:01:19.56,0$Default,,0,0,0,,At your command.
+Dialogue: 0,0:01:19.56,0:01:24.46,0$Default,,0,0,0,,Today's going to be one hell of a day\Nto remember.
+Dialogue: 0,0:01:33.16,0:01:34.60,0$Default,,0,0,0,,We're back.
+Dialogue: 0,0:01:34.60,0:01:37.62,0$Default,,0,0,0,,Have you said goodbye\Nto your loved ones?
+Dialogue: 0,0:01:37.62,0:01:38.22,0$Default,,0,0,0,,Yes.
+Dialogue: 0,0:01:38.22,0:01:39.58,0$Default,,0,0,0,,Okay.
+Dialogue: 0,0:01:39.58,0:01:44.04,0$Default,,0,0,0,,Then I'm sure when I turn my head,\NI will see you looking vigorous and prepared...
+Dialogue: 0,0:01:44.04,0:01:46.07,0$Default,,0,0,0,,What's with the weird looks?!
+Dialogue: 0,0:01:46.07,0:01:47.57,0$Default,,0,0,0,,We didn't get any sleep...
+Dialogue: 0,0:01:47.57,0:01:50.11,0$Default,,0,0,0,,The seats on the train were so stiff...
+Dialogue: 0,0:01:50.11,0:01:52.63,0$Default,,0,0,0,,Wish we had gotten a sleeper train.
+Dialogue: 0,0:01:52.63,0:01:56.39,0$Default,,0,0,0,,I thought you kids were capable\Nof falling asleep at a moment's notice!
+Dialogue: 0,0:01:56.39,0:01:59.18,0$Default,,0,0,0,,Oh, shoot! I forgot I could do that!
+Dialogue: 0,0:01:59.89,0:02:04.00,0$Default,,0,0,0,,I was going to,\Nbut I was cramped next to Pepperon!
+Dialogue: 0,0:02:04.00,0:02:05.75,0$Default,,0,0,0,,Now I have a crick in my neck.
+Dialogue: 0,0:02:05.75,0:02:08.90,0$Default,,0,0,0,,Where even {\i1}is{\i0} your neck,\NGob-san?
+Dialogue: 0,0:02:08.90,0:02:11.69,0$Default,,0,0,0,,But I've made up my mind.
+Dialogue: 0,0:02:12.34,0:02:14.91,0$Default,,0,0,0,,I'm gonna defeat Vinegar,\Nfully, flawlessly...
+Dialogue: 0,0:02:14.91,0:02:16.95,0$Default,,0,0,0,,Don't say that while you're yawning!
+Dialogue: 0,0:02:16.95,0:02:19.12,0$Default,,0,0,0,,Are you sure I should send you out there?
+Dialogue: 0,0:02:19.12,0:02:21.66,0$Default,,0,0,0,,Our sleep deprivation isn't of any concern!
+Dialogue: 0,0:02:21.66,0:02:25.92,0$Default,,0,0,0,,If we want to stop Scardon's resurrection\Nand defeat Vinegar, it's now or never.
+Dialogue: 0,0:02:25.92,0:02:28.17,0$Default,,0,0,0,,Yeah, just like my grandmother said!
+Dialogue: 0,0:02:28.17,0:02:30.17,0$Default,,0,0,0,,Opportunity knocks!\NFacing south is a clock!
+Dialogue: 0,0:02:30.17,0:02:32.09,0$Default,,0,0,0,,That's not good feng shui!
+Dialogue: 0,0:02:32.09,0:02:35.45,0$Default,,0,0,0,,What?! My old home\Nhas a clock facing south!
+Dialogue: 0,0:02:35.45,0:02:37.49,0$Default,,0,0,0,,Which direction should it be facing?
+Dialogue: 0,0:02:37.49,0:02:39.10,0$Default,,0,0,0,,Can we move on?
+Dialogue: 0,0:02:39.10,0:02:43.46,0$Default,,0,0,0,,I would suppose Vinegar is looking\Nto hurry up Scardon's resurrection.
+Dialogue: 0,0:02:43.46,0:02:45.50,0$Default,,0,0,0,,If you're prepared for it,\Nthen follow me.
+Dialogue: 0,0:02:45.50,0:02:47.73,0$Default,,0,0,0,,There's something I'd like to besto—hey!!
+Dialogue: 0,0:02:49.11,0:02:50.61,0$Default,,0,0,0,,Stay awake!!
+Dialogue: 0,0:02:56.93,0:02:58.95,0$Default,,0,0,0,,Whoa, sick!
+Dialogue: 0,0:02:58.95,0:03:02.39,0$Default,,0,0,0,,The sword is called Sky Hawk,\Nand the shield is Turtle Shell.
+Dialogue: 0,0:03:02.39,0:03:06.00,0$Default,,0,0,0,,They're the most powerful sword and shield,\Nreserved for Dragon Knights.
+Dialogue: 0,0:03:06.00,0:03:07.13,0$Default,,0,0,0,,Bring them with you.
+Dialogue: 0,0:03:07.13,0:03:08.98,0$Default,,0,0,0,,We can have these bad boys?
+Dialogue: 0,0:03:08.98,0:03:10.63,0$Default,,0,0,0,,What a score!
+Dialogue: 0,0:03:10.63,0:03:14.84,0$Default,,0,0,0,,However, you may only equip them\Nwhen your Dragon Knight has awakened.
+Dialogue: 0,0:03:15.93,0:03:17.95,0$Default,,0,0,0,,Can't we just use them like any old weapons?
+Dialogue: 0,0:03:19.14,0:03:20.03,0$Default,,0,0,0,,Wait, what?
+Dialogue: 0,0:03:21.43,0:03:22.64,0$Default,,0,0,0,,Yeah, no dice.
+Dialogue: 0,0:03:22.64,0:03:25.23,0$Default,,0,0,0,,I told you, you can't equip them.
+Dialogue: 0,0:03:25.23,0:03:29.71,0$Default,,0,0,0,,It's like when an RPG tells you\Nyou can't equip something.
+Dialogue: 0,0:03:29.71,0:03:32.86,0$Default,,0,0,0,,But what's the point of carrying around\Na sword you can't use?
+Dialogue: 0,0:03:32.86,0:03:34.40,0$Default,,0,0,0,,Thanks to their training,
+Dialogue: 0,0:03:34.40,0:03:37.41,0$Default,,0,0,0,,Chup and Vinsant are both very close\Nto becoming Dragon Knights.
+Dialogue: 0,0:03:37.41,0:03:41.01,0$Default,,0,0,0,,It's very possible they may awaken\Namidst their battle.
+Dialogue: 0,0:03:41.01,0:03:42.74,0$Default,,0,0,0,,It's best you bring them in that case.
+Dialogue: 0,0:03:42.74,0:03:44.38,0$Default,,0,0,0,,Thank you very much.
+Dialogue: 0,0:03:44.38,0:03:47.60,0$Default,,0,0,0,,Sir Darefalcon, can I ask you\None more favor?
+Dialogue: 0,0:03:47.60,0:03:48.67,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:03:48.67,0:03:51.17,0$Default,,0,0,0,,I'd like the assistance\Nof the Dragon Brothers.
+Dialogue: 0,0:03:51.84,0:03:52.67,0$Default,,0,0,0,,Come again?
+Dialogue: 0,0:03:53.88,0:03:54.99,0$Default,,0,0,0,,Your wish...
+Dialogue: 0,0:03:54.99,0:03:55.99,0$Default,,0,0,0,,...is our command!
+Dialogue: 0,0:03:55.99,0:03:58.05,0$Default,,0,0,0,,Ta-dah!
+Dialogue: 0,0:04:01.10,0:04:01.95,0$Default,,0,0,0,,Bludo!
+Dialogue: 0,0:04:01.95,0:04:02.56,0$Default,,0,0,0,,Redra!
+Dialogue: 0,0:04:02.56,0:04:03.35,0$Default,,0,0,0,,Gregon!
+Dialogue: 0,0:04:03.72,0:04:07.33,0$Default,,0,0,0,,All together, we're the Dragon Brothers!
+Dialogue: 0,0:04:09.40,0:04:12.02,0$Default,,0,0,0,,You're still not all together here!
+Dialogue: 0,0:04:12.38,0:04:15.53,0$Default,,0,0,0,,What brings you to seek their assistance?
+Dialogue: 0,0:04:15.94,0:04:19.34,0$Default,,0,0,0,,I was thinking of launching an attack\Non Vinegar Palace from the skies.
+Dialogue: 0,0:04:19.34,0:04:20.45,0$Default,,0,0,0,,The skies, you say?
+Dialogue: 0,0:04:20.45,0:04:22.54,0$Default,,0,0,0,,The ground is heavily guarded.
+Dialogue: 0,0:04:22.54,0:04:26.29,0$Default,,0,0,0,,We've yet to find another route\Nthat will take us to Vinegar.
+Dialogue: 0,0:04:26.29,0:04:31.46,0$Default,,0,0,0,,But with them, all five of us can ride\Ntowards the palace on our own dragons.
+Dialogue: 0,0:04:31.46,0:04:34.86,0$Default,,0,0,0,,I suppose. But there's only three Dragon Brothers.
+Dialogue: 0,0:04:34.86,0:04:37.47,0$Default,,0,0,0,,You won't have enough for all five of you.
+Dialogue: 0,0:04:40.14,0:04:42.48,0$Default,,0,0,0,,I have Beaujolais.
+Dialogue: 0,0:04:42.89,0:04:44.58,0$Default,,0,0,0,,You're covered too, Chup.
+Dialogue: 0,0:04:44.58,0:04:46.66,0$Default,,0,0,0,,Huh? I can't fly!
+Dialogue: 0,0:04:46.66,0:04:48.06,0$Default,,0,0,0,,Not like that!
+Dialogue: 0,0:04:48.06,0:04:49.73,0$Default,,0,0,0,,You have a dragon right there!
+Dialogue: 0,0:04:50.83,0:04:52.31,0$Default,,0,0,0,,Oh, right! Butako!
+Dialogue: 0,0:04:58.49,0:05:02.59,0$Default,,0,0,0,,Hm? That dragon's capable\Nof something special, isn't she?
+Dialogue: 0,0:05:02.59,0:05:05.54,0$Default,,0,0,0,,Yeah! She just got her flying license yesterday!
+Dialogue: 0,0:05:05.54,0:05:06.37,0$Default,,0,0,0,,Ain't that right?
+Dialogue: 0,0:05:09.21,0:05:11.21,0$Default,,0,0,0,,Okay, so, Chup: you ride Butako.
+Dialogue: 0,0:05:11.21,0:05:12.08,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:05:12.96,0:05:13.98,0$Default,,0,0,0,,Mayone: you ride Bludo.
+Dialogue: 0,0:05:13.98,0:05:14.92,0$Default,,0,0,0,,Let's do our best!
+Dialogue: 0,0:05:14.92,0:05:15.59,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:05:15.59,0:05:16.73,0$Default,,0,0,0,,Pepperon: Redra.
+Dialogue: 0,0:05:16.73,0:05:18.21,0$Default,,0,0,0,,I'm counting on you!
+Dialogue: 0,0:05:18.21,0:05:19.17,0$Default,,0,0,0,,Leave it to me!
+Dialogue: 0,0:05:19.17,0:05:20.57,0$Default,,0,0,0,,Gob-san: Gregon.
+Dialogue: 0,0:05:20.57,0:05:22.09,0$Default,,0,0,0,,Let's make this a good one!
+Dialogue: 0,0:05:22.09,0:05:24.30,0$Default,,0,0,0,,Uh, can we do rock-paper-scissors instead?
+Dialogue: 0,0:05:24.30,0:05:26.43,0$Default,,0,0,0,,Why are you so brazenly disappointed?
+Dialogue: 0,0:05:26.43,0:05:29.71,0$Default,,0,0,0,,I wanted a human to ride me.\NMayone would've been nice...
+Dialogue: 0,0:05:29.71,0:05:31.42,0$Default,,0,0,0,,Well, too bad, too sad!
+Dialogue: 0,0:05:31.42,0:05:33.65,0$Default,,0,0,0,,Do they even need this guy anyways?
+Dialogue: 0,0:05:33.65,0:05:35.00,0$Default,,0,0,0,,Of course they do!
+Dialogue: 0,0:05:35.00,0:05:38.71,0$Default,,0,0,0,,I still have my ultimate spell\Nkept under seal!
+Dialogue: 0,0:05:38.71,0:05:41.20,0$Default,,0,0,0,,Brag about it once you've actually used it.
+Dialogue: 0,0:05:41.82,0:05:42.86,0$Default,,0,0,0,,Over here, guys.
+Dialogue: 0,0:05:44.41,0:05:48.02,0$Default,,0,0,0,,I received this map while\Nsearching for an infiltration route.
+Dialogue: 0,0:05:48.02,0:05:49.45,0$Default,,0,0,0,,If we come in from the sky,
+Dialogue: 0,0:05:49.45,0:05:52.46,0$Default,,0,0,0,,can't we just crash right into\Nwherever Vinegar is?
+Dialogue: 0,0:05:52.46,0:05:54.80,0$Default,,0,0,0,,Easier said than done.
+Dialogue: 0,0:05:54.80,0:05:58.43,0$Default,,0,0,0,,The palace still has heavy defense\Neven above ground.
+Dialogue: 0,0:05:58.43,0:06:01.10,0$Default,,0,0,0,,They have attack systems\Nat every corner,
+Dialogue: 0,0:06:01.10,0:06:05.28,0$Default,,0,0,0,,and the moment you enter his property,\Nyou'll get attacked by his dragon slaves.
+Dialogue: 0,0:06:05.28,0:06:10.25,0$Default,,0,0,0,,So how are you planning on breaking\Nthrough his defenses?
+Dialogue: 0,0:06:10.25,0:06:13.48,0$Default,,0,0,0,,We won't have much time,\Nso there's only one way to go.
+Dialogue: 0,0:06:13.83,0:06:15.44,0$Default,,0,0,0,,A frontal assault!
+Dialogue: 0,0:06:24.62,0:06:25.66,0$Default,,0,0,0,,Vinegar Khan.
+Dialogue: 0,0:06:25.66,0:06:28.56,0$Default,,0,0,0,,We will soon begin the resurrection ritual.
+Dialogue: 0,0:06:28.56,0:06:30.87,0$Default,,0,0,0,,Please come to the underground laboratory.
+Dialogue: 0,0:06:30.87,0:06:32.76,0$Default,,0,0,0,,Sounds good.
+Dialogue: 0,0:06:33.34,0:06:35.00,0$Default,,0,0,0,,I've made it, Vinegar!
+Dialogue: 0,0:06:35.88,0:06:37.31,0$Default,,0,0,0,,Who might you be?
+Dialogue: 0,0:06:37.31,0:06:39.07,0$Default,,0,0,0,,It is I, Devil Bowie!
+Dialogue: 0,0:06:39.07,0:06:40.34,0$Default,,0,0,0,,Who?
+Dialogue: 0,0:06:40.64,0:06:43.24,0$Default,,0,0,0,,The big new talent, Devil Bowie!
+Dialogue: 0,0:06:43.24,0:06:46.72,0$Default,,0,0,0,,The talent chosen by your project\Nto be produced into a new artist!
+Dialogue: 0,0:06:46.72,0:06:50.37,0$Default,,0,0,0,,Ah, yes. I do recall such a project.
+Dialogue: 0,0:06:50.37,0:06:52.98,0$Default,,0,0,0,,Leave! Vinegar doesn't have\Ntime for the likes of you.
+Dialogue: 0,0:06:52.98,0:06:55.62,0$Default,,0,0,0,,I have but one question.
+Dialogue: 0,0:06:55.62,0:06:58.86,0$Default,,0,0,0,,When will I be able to make my major debut?
+Dialogue: 0,0:06:59.25,0:07:00.36,0$Default,,0,0,0,,Come again?
+Dialogue: 0,0:07:00.36,0:07:02.55,0$Default,,0,0,0,,I finished recording my first song,
+Dialogue: 0,0:07:02.55,0:07:05.20,0$Default,,0,0,0,,and I've done a lot of marketing.
+Dialogue: 0,0:07:05.20,0:07:08.14,0$Default,,0,0,0,,The video I took of myself performing
+Dialogue: 0,0:07:08.14,0:07:10.99,0$Default,,0,0,0,,got over 100,000 views online!
+Dialogue: 0,0:07:10.99,0:07:15.62,0$Default,,0,0,0,,I have the popularity to become\Na top musician and break the charts...!
+Dialogue: 0,0:07:14.98,0:07:16.46,0$Default,,0,0,0,,{\an8}Bowie.
+Dialogue: 0,0:07:16.83,0:07:23.34,0$Default,,0,0,0,,What is the most important thing you need\Nto become a successful musician?
+Dialogue: 0,0:07:23.34,0:07:25.59,0$Default,,0,0,0,,I-I don't know, what?
+Dialogue: 0,0:07:25.59,0:07:30.10,0$Default,,0,0,0,,Not making me upset.
+Dialogue: 0,0:07:30.93,0:07:35.02,0$Default,,0,0,0,,I have important things to attend,\Nso if you keep babbling,
+Dialogue: 0,0:07:35.02,0:07:39.08,0$Default,,0,0,0,,you'll become Scardon's first meal.
+Dialogue: 0,0:07:41.20,0:07:43.42,0$Default,,0,0,0,,{\i1}We have intruders in\Nthe palace's airspace!
+Dialogue: 0,0:07:43.42,0:07:46.61,0$Default,,0,0,0,,{\i1}There are unidentified dragons\Ncoming in at high speed!
+Dialogue: 0,0:07:46.61,0:07:47.24,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:07:50.24,0:07:52.37,0$Default,,0,0,0,,Vinegar Palace, up ahead!
+Dialogue: 0,0:07:52.37,0:07:54.87,0$Default,,0,0,0,,Let's keep moving! Stay in formation!
+Dialogue: 0,0:07:54.87,0:07:55.75,0$Default,,0,0,0,,Aye!
+Dialogue: 0,0:07:56.34,0:07:58.75,0$Default,,0,0,0,,Who are the intruders?
+Dialogue: 0,0:07:58.75,0:08:00.31,0$Default,,0,0,0,,We've identified them!
+Dialogue: 0,0:08:00.31,0:08:03.25,0$Default,,0,0,0,,It's the bounty Chup and his party!
+Dialogue: 0,0:08:03.25,0:08:07.40,0$Default,,0,0,0,,Looks like they're coming to take\Nthe Dragon Heart back.
+Dialogue: 0,0:08:07.40,0:08:10.52,0$Default,,0,0,0,,Those kids never learn their lesson.
+Dialogue: 0,0:08:10.52,0:08:11.92,0$Default,,0,0,0,,Oh!
+Dialogue: 0,0:08:11.92,0:08:15.56,0$Default,,0,0,0,,Devil Bowie, prepare to make your debut!
+Dialogue: 0,0:08:15.56,0:08:17.56,0$Default,,0,0,0,,R-Really? When?
+Dialogue: 0,0:08:17.56,0:08:18.85,0$Default,,0,0,0,,Why, today!
+Dialogue: 0,0:08:18.85,0:08:20.42,0$Default,,0,0,0,,Huh? Vinegar!
+Dialogue: 0,0:08:20.42,0:08:24.11,0$Default,,0,0,0,,Today's a big day, so go nuts out there!
+Dialogue: 0,0:08:24.41,0:08:26.76,0$Default,,0,0,0,,It's showtime!
+Dialogue: 0,0:08:40.08,0:08:41.86,0$Default,,0,0,0,,I didn't think there'd be so many!
+Dialogue: 0,0:08:41.86,0:08:43.65,0$Default,,0,0,0,,Looks like around 15 of them.
+Dialogue: 0,0:08:43.65,0:08:47.51,0$Default,,0,0,0,,5-vs-15... Looks like we have to\Ntake out three each.
+Dialogue: 0,0:08:47.51,0:08:49.01,0$Default,,0,0,0,,Let's go, Butako!
+Dialogue: 0,0:08:49.01,0:08:52.14,0$Default,,0,0,0,,Gain speed with potato power!
+Dialogue: 0,0:09:09.99,0:09:11.53,0$Default,,0,0,0,,What's going on?!
+Dialogue: 0,0:09:11.53,0:09:14.60,0$Default,,0,0,0,,It's their attack lasers!\NNo one stop!
+Dialogue: 0,0:09:14.60,0:09:17.09,0$Default,,0,0,0,,If you do, you're done for!
+Dialogue: 0,0:09:17.75,0:09:18.91,0$Default,,0,0,0,,Move, Butako!
+Dialogue: 0,0:09:28.84,0:09:29.53,0$Default,,0,0,0,,What the?!
+Dialogue: 0,0:09:29.53,0:09:30.51,0$Default,,0,0,0,,It's a barrier.
+Dialogue: 0,0:09:31.09,0:09:31.72,0$Default,,0,0,0,,Fall back!
+Dialogue: 0,0:09:31.72,0:09:33.55,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:09:33.55,0:09:35.55,0$Default,,0,0,0,,Oh no, Chup...
+Dialogue: 0,0:09:39.68,0:09:41.00,0$Default,,0,0,0,,What's that down there?
+Dialogue: 0,0:09:41.00,0:09:42.02,0$Default,,0,0,0,,Isn't that...?
+Dialogue: 0,0:09:47.91,0:09:49.66,0$Default,,0,0,0,,Is that Devil Bowie?!
+Dialogue: 0,0:10:02.62,0:10:04.10,0$Default,,0,0,0,,This feels off.
+Dialogue: 0,0:10:04.10,0:10:05.42,0$Default,,0,0,0,,This is painful to listen to.
+Dialogue: 0,0:10:05.42,0:10:08.21,0$Default,,0,0,0,,Stay focused, pay him no mind!
+Dialogue: 0,0:10:34.24,0:10:35.34,0$Default,,0,0,0,,We got one!
+Dialogue: 0,0:10:36.20,0:10:38.33,0$Default,,0,0,0,,What a weak baby dragon.
+Dialogue: 0,0:10:40.13,0:10:41.66,0$Default,,0,0,0,,You let your guard down!!
+Dialogue: 0,0:10:41.66,0:10:42.54,0$Default,,0,0,0,,Damn it...
+Dialogue: 0,0:10:42.54,0:10:43.50,0$Default,,0,0,0,,Gregon!
+Dialogue: 0,0:10:43.50,0:10:44.52,0$Default,,0,0,0,,Gob-san!
+Dialogue: 0,0:10:45.92,0:10:46.92,0$Default,,0,0,0,,Pepperon!
+Dialogue: 0,0:10:49.47,0:10:52.88,0$Default,,0,0,0,,Sorry, it's 2-vs-13 now!\NMuch, much worse!
+Dialogue: 0,0:10:52.88,0:10:56.52,0$Default,,0,0,0,,Forget them! You'll get shot down too!
+Dialogue: 0,0:10:59.43,0:11:01.33,0$Default,,0,0,0,,Is that all you got?
+Dialogue: 0,0:11:01.33,0:11:05.02,0$Default,,0,0,0,,I thought I'd get to play a bit longer.
+Dialogue: 0,0:11:14.55,0:11:16.95,0$Default,,0,0,0,,What are those snipers aiming at?!
+Dialogue: 0,0:11:17.91,0:11:19.12,0$Default,,0,0,0,,Let's go!
+Dialogue: 0,0:11:19.12,0:11:20.51,0$Default,,0,0,0,,I struck another one!
+Dialogue: 0,0:11:20.51,0:11:23.20,0$Default,,0,0,0,,Pepperon, take down the barrier!
+Dialogue: 0,0:11:23.20,0:11:25.62,0$Default,,0,0,0,,I'm on it!
+Dialogue: 0,0:11:36.63,0:11:38.16,0$Default,,0,0,0,,Good job, Pepperon!
+Dialogue: 0,0:11:38.16,0:11:40.14,0$Default,,0,0,0,,Let's go, Chup! Time to break  in!
+Dialogue: 0,0:11:40.14,0:11:40.85,0$Default,,0,0,0,,You got it!
+Dialogue: 0,0:11:40.85,0:11:42.64,0$Default,,0,0,0,,Say your prayers, Vinegar!
+Dialogue: 0,0:11:49.78,0:11:54.49,0$Default,,0,0,0,,So how are you planning on breaking\Nthrough his defenses?
+Dialogue: 0,0:11:54.90,0:11:57.82,0$Default,,0,0,0,,We won't have much time,\Nso there's only one way to go.
+Dialogue: 0,0:11:58.37,0:11:59.82,0$Default,,0,0,0,,A frontal assault!
+Dialogue: 0,0:12:01.33,0:12:03.64,0$Default,,0,0,0,,But then I thought about it more\Nyesterday,
+Dialogue: 0,0:12:03.64,0:12:05.79,0$Default,,0,0,0,,and decided we're better off with a plan
+Dialogue: 0,0:12:05.79,0:12:08.92,0$Default,,0,0,0,,that gives us even barely\Na better chance of survival.
+Dialogue: 0,0:12:08.92,0:12:10.90,0$Default,,0,0,0,,Mayone, Gob-san, Pepperon.
+Dialogue: 0,0:12:10.90,0:12:13.67,0$Default,,0,0,0,,You need to show some fight\Nthen get struck down.
+Dialogue: 0,0:12:14.26,0:12:15.67,0$Default,,0,0,0,,Get struck down?
+Dialogue: 0,0:12:15.67,0:12:17.93,0$Default,,0,0,0,,Rather, pretend to.
+Dialogue: 0,0:12:17.93,0:12:19.66,0$Default,,0,0,0,,Once you've fallen to thte ground,
+Dialogue: 0,0:12:19.66,0:12:22.45,0$Default,,0,0,0,,Mayone, Gob-san,\Nyou'll take control of their attack lasers.
+Dialogue: 0,0:12:22.45,0:12:24.85,0$Default,,0,0,0,,Move outta the way!
+Dialogue: 0,0:12:24.85,0:12:26.31,0$Default,,0,0,0,,What do I do?
+Dialogue: 0,0:12:26.31,0:12:28.85,0$Default,,0,0,0,,You'll go after the barrier device.
+Dialogue: 0,0:12:29.48,0:12:32.36,0$Default,,0,0,0,,Use your superhuman strength\Nto destroy it.
+Dialogue: 0,0:12:32.36,0:12:34.70,0$Default,,0,0,0,,Alright, I'm on it!
+Dialogue: 0,0:12:43.58,0:12:45.55,0$Default,,0,0,0,,All according to plan.
+Dialogue: 0,0:12:46.33,0:12:47.77,0$Default,,0,0,0,,It's over, Vinegar!
+Dialogue: 0,0:12:47.77,0:12:51.96,0$Default,,0,0,0,,Today, I get you back 10 times, 100 times,\N1,000 times!
+Dialogue: 0,0:13:01.01,0:13:04.03,0$Default,,0,0,0,,You don't know when to give up.
+Dialogue: 0,0:13:04.03,0:13:06.27,0$Default,,0,0,0,,Stand back, Worcester.
+Dialogue: 0,0:13:06.27,0:13:07.02,0$Default,,0,0,0,,But Khan...
+Dialogue: 0,0:13:07.02,0:13:11.65,0$Default,,0,0,0,,If you stay by me, I can't guarantee\NI won't kill you.
+Dialogue: 0,0:13:12.31,0:13:13.84,0$Default,,0,0,0,,U-Understood.
+Dialogue: 0,0:13:13.84,0:13:16.82,0$Default,,0,0,0,,It's been too long since I've used my powers.
+Comment: 0,0:13:30.87,0:13:30.91,0$Default,,0,0,0,,Dark Dragon knight Vinegar
+Dialogue: 0,0:13:37.40,0:13:38.49,0$Default,,0,0,0,,Could it be?
+Dialogue: 0,0:13:38.49,0:13:40.34,0$Default,,0,0,0,,It's the power of\Nthe Dark Dragon Knight.
+Dialogue: 0,0:13:40.34,0:13:43.47,0$Default,,0,0,0,,You sure know your stuff!
+Dialogue: 0,0:13:47.66,0:13:49.56,0$Default,,0,0,0,,Cut it out! What are you doing?!
+Dialogue: 0,0:13:49.56,0:13:52.62,0$Default,,0,0,0,,If this is enough to hold you down,
+Dialogue: 0,0:13:52.62,0:13:55.79,0$Default,,0,0,0,,then how could you possibly\Nget me back 1,000 times?
+Dialogue: 0,0:13:55.79,0:13:59.01,0$Default,,0,0,0,,Would you mind if I keep crushing you?
+Dialogue: 0,0:14:04.55,0:14:06.46,0$Default,,0,0,0,,Chup, Vinsant! Are you guys okay?
+Dialogue: 0,0:14:06.46,0:14:08.10,0$Default,,0,0,0,,Say your prayers, Vinegar!
+Dialogue: 0,0:14:08.10,0:14:11.71,0$Default,,0,0,0,,At last, I shall set loose\Nmy ultimate spell...!
+Dialogue: 0,0:14:19.03,0:14:20.53,0$Default,,0,0,0,,I got cut off again...
+Dialogue: 0,0:14:20.53,0:14:22.67,0$Default,,0,0,0,,Doubt you'll ever get to use it.
+Dialogue: 0,0:14:22.67,0:14:27.49,0$Default,,0,0,0,,Do you realize how annoying it is\Nto squash insects who are in over their heads?
+Dialogue: 0,0:14:27.49,0:14:31.45,0$Default,,0,0,0,,I think I'll dispose of all of you first.
+Dialogue: 0,0:14:36.21,0:14:37.88,0$Default,,0,0,0,,Pepperon, what are you doing?
+Dialogue: 0,0:14:37.88,0:14:40.15,0$Default,,0,0,0,,My body's moving on its own!
+Dialogue: 0,0:14:41.24,0:14:43.15,0$Default,,0,0,0,,Vinegar's controlling him!
+Dialogue: 0,0:14:43.15,0:14:45.16,0$Default,,0,0,0,,S-Stop, Vinegar!
+Dialogue: 0,0:14:45.16,0:14:46.95,0$Default,,0,0,0,,I'm not gonna!
+Dialogue: 0,0:14:46.95,0:14:50.52,0$Default,,0,0,0,,There's nothing better than the look of despair.
+Dialogue: 0,0:14:52.70,0:14:54.19,0$Default,,0,0,0,,P-Pepperon?!
+Dialogue: 0,0:14:54.19,0:14:55.75,0$Default,,0,0,0,,Restrain yourself, Pepperon!
+Dialogue: 0,0:14:55.75,0:14:59.31,0$Default,,0,0,0,,I-I'm trying, but I can't!
+Dialogue: 0,0:15:06.64,0:15:11.27,0$Default,,0,0,0,,Stop it!!
+Dialogue: 0,0:15:16.27,0:15:17.52,0$Default,,0,0,0,,Close call...
+Dialogue: 0,0:15:18.23,0:15:20.05,0$Default,,0,0,0,,Wh-What's the meaning of this?
+Dialogue: 0,0:15:20.94,0:15:22.32,0$Default,,0,0,0,,Don't tell me...
+Comment: 0,0:15:35.21,0:15:35.25,0$Default,,0,0,0,,Dragon Knight Chup
+Dialogue: 0,0:15:39.56,0:15:41.50,0$Default,,0,0,0,,His Dragon Knight awakened!
+Dialogue: 0,0:15:42.50,0:15:43.49,0$Default,,0,0,0,,Wait, for real?!
+Dialogue: 0,0:15:43.49,0:15:45.74,0$Default,,0,0,0,,I'm actually a Dragon Knight?!
+Dialogue: 0,0:15:45.74,0:15:48.05,0$Default,,0,0,0,,Aah, I wanna see!
+Dialogue: 0,0:15:48.05,0:15:49.95,0$Default,,0,0,0,,Mayone, you got a mirror?
+Dialogue: 0,0:15:49.95,0:15:51.89,0$Default,,0,0,0,,I gotta take a selfie!
+Dialogue: 0,0:15:51.89,0:15:53.29,0$Default,,0,0,0,,Oh, for crying out loud!
+Dialogue: 0,0:15:55.43,0:15:56.98,0$Default,,0,0,0,,You beat me to the punch.
+Dialogue: 0,0:15:58.31,0:16:01.06,0$Default,,0,0,0,,Aw, what? Come on, let me see!
+Dialogue: 0,0:16:01.06,0:16:02.02,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:16:02.02,0:16:06.07,0$Default,,0,0,0,,Now's the time to take out\Nthe sword and shield from Darefalcon!
+Dialogue: 0,0:16:06.78,0:16:07.86,0$Default,,0,0,0,,Oh, you're right!
+Dialogue: 0,0:16:09.11,0:16:10.87,0$Default,,0,0,0,,Sky Hawk!
+Dialogue: 0,0:16:10.87,0:16:12.84,0$Default,,0,0,0,,Turtle Shell!
+Dialogue: 0,0:16:13.33,0:16:16.83,0$Default,,0,0,0,,{\i1}Force and magic, Britannia Enchant
+Dialogue: 0,0:16:18.55,0:16:19.83,0$Default,,0,0,0,,{\i1}Sky Hawk.
+Dialogue: 0,0:16:21.55,0:16:22.84,0$Default,,0,0,0,,{\i1}Turtle Shell.
+Dialogue: 0,0:16:25.84,0:16:28.84,0$Default,,0,0,0,,Wow! You look so cool, Chup!
+Dialogue: 0,0:16:31.51,0:16:33.81,0$Default,,0,0,0,,I'll back you up, Chup.
+Dialogue: 0,0:16:33.81,0:16:35.06,0$Default,,0,0,0,,Good luck.
+Dialogue: 0,0:16:40.07,0:16:41.48,0$Default,,0,0,0,,A-Am I...?
+Comment: 0,0:16:41.94,0:16:41.98,0$Default,,0,0,0,,Dragon Knight Vinsant
+Dialogue: 0,0:16:44.32,0:16:46.34,0$Default,,0,0,0,,Vinsant's a Dragon Knight now too!
+Dialogue: 0,0:16:46.34,0:16:49.55,0$Default,,0,0,0,,Is it really just as easy\Nas making contact with him?
+Dialogue: 0,0:16:49.55,0:16:52.20,0$Default,,0,0,0,,Maybe he was already\Nmoments away from awakening.
+Dialogue: 0,0:16:52.20,0:16:53.68,0$Default,,0,0,0,,B-But, hey,
+Dialogue: 0,0:16:53.68,0:16:56.33,0$Default,,0,0,0,,since I was Dragon Knight first,\NI get the weapons, okay?
+Dialogue: 0,0:16:56.33,0:16:58.08,0$Default,,0,0,0,,All good with me.
+Dialogue: 0,0:16:58.08,0:16:59.87,0$Default,,0,0,0,,I'll use my usual.
+Dialogue: 0,0:17:01.21,0:17:02.88,0$Default,,0,0,0,,Exodus Blade!
+Dialogue: 0,0:17:10.43,0:17:11.84,0$Default,,0,0,0,,{\i1}Exodus Blade.
+Dialogue: 0,0:17:11.84,0:17:15.35,0$Default,,0,0,0,,Vinegar! We're gonna defeat you,\Nfully, flawlessly!
+Dialogue: 0,0:17:16.43,0:17:19.16,0$Default,,0,0,0,,So you've become Dragon Knights, eh?
+Dialogue: 0,0:17:19.16,0:17:22.60,0$Default,,0,0,0,,Well, that certainly makes things\Nmuch easier for me.
+Dialogue: 0,0:17:23.44,0:17:24.27,0$Default,,0,0,0,,Explain yourself!
+Dialogue: 0,0:17:31.33,0:17:33.53,0$Default,,0,0,0,,You'll figure it out soon enough!
+Dialogue: 0,0:17:38.12,0:17:39.79,0$Default,,0,0,0,,Whew, I feel so light!
+Dialogue: 0,0:17:39.79,0:17:42.00,0$Default,,0,0,0,,This must be Dragon Knight\Npowers at play!
+Dialogue: 0,0:17:48.59,0:17:52.78,0$Default,,0,0,0,,Fighting two Dragon Knights at once\Ntakes up a lot of energy.
+Dialogue: 0,0:17:52.78,0:17:54.97,0$Default,,0,0,0,,Then I'll have to play my next card...
+Dialogue: 0,0:17:54.97,0:17:57.61,0$Default,,0,0,0,,Wave of Darkness!
+Dialogue: 0,0:17:59.64,0:18:00.66,0$Default,,0,0,0,,Vinsant!!
+Dialogue: 0,0:18:00.66,0:18:02.77,0$Default,,0,0,0,,What did you do to me?!
+Dialogue: 0,0:18:02.77,0:18:06.15,0$Default,,0,0,0,,That darkness is born from your soul:
+Dialogue: 0,0:18:06.15,0:18:07.96,0$Default,,0,0,0,,your grudges, jealousy, envy...
+Dialogue: 0,0:18:07.96,0:18:11.86,0$Default,,0,0,0,,Things that Dragon Knights are not immune to.
+Dialogue: 0,0:18:12.70,0:18:14.09,0$Default,,0,0,0,,There it is!
+Dialogue: 0,0:18:14.09,0:18:17.24,0$Default,,0,0,0,,I spy a deep jealousy\Ninside of you!
+Dialogue: 0,0:18:19.04,0:18:22.35,0$Default,,0,0,0,,You're far more considerate\Nthan the man beside you,
+Dialogue: 0,0:18:22.35,0:18:25.23,0$Default,,0,0,0,,and yet he beat you to the finish line.
+Dialogue: 0,0:18:26.21,0:18:27.17,0$Default,,0,0,0,,That's enough!
+Dialogue: 0,0:18:27.88,0:18:31.28,0$Default,,0,0,0,,Am I really the one you hate?
+Dialogue: 0,0:18:31.28,0:18:33.01,0$Default,,0,0,0,,After all, if he was gone...
+Dialogue: 0,0:18:33.01,0:18:36.49,0$Default,,0,0,0,,Oh, if he was gone, you would be\Nmore recognized for your efforts!
+Dialogue: 0,0:18:36.49,0:18:39.79,0$Default,,0,0,0,,That's what you're really thinking,\Nis it not?
+Dialogue: 0,0:18:47.90,0:18:49.86,0$Default,,0,0,0,,What's happening to him?!
+Dialogue: 0,0:18:50.65,0:18:52.82,0$Default,,0,0,0,,Snap out of it, Vinsant!
+Dialogue: 0,0:18:54.37,0:18:55.78,0$Default,,0,0,0,,Stay back!
+Dialogue: 0,0:18:56.20,0:18:57.72,0$Default,,0,0,0,,Is he going to attack Chup?
+Dialogue: 0,0:18:57.72,0:18:59.72,0$Default,,0,0,0,,Vinegar's your enemy, not him!
+Dialogue: 0,0:18:59.72,0:19:01.91,0$Default,,0,0,0,,Open your eyes, Vinsant!
+Dialogue: 0,0:19:03.91,0:19:05.67,0$Default,,0,0,0,,Vinsant...
+Dialogue: 0,0:19:16.22,0:19:17.43,0$Default,,0,0,0,,Vinsant!!
+Dialogue: 0,0:19:31.17,0:19:33.07,0$Default,,0,0,0,,Vinsant turned into a dragon?!
+Dialogue: 0,0:21:13.77,0:21:14.88,0$Default,,0,0,0,,What's gotten into you?
+Dialogue: 0,0:21:14.88,0:21:16.40,0$Default,,0,0,0,,Vinsant!!
+Dialogue: 0,0:21:16.40,0:21:18.11,0$Default,,0,0,0,,I was too late.
+Dialogue: 0,0:21:18.92,0:21:20.24,0$Default,,0,0,0,,Darefalcon!
+Dialogue: 0,0:21:20.24,0:21:21.64,0$Default,,0,0,0,,Apologies I didn't come sooner.
+Dialogue: 0,0:21:21.64,0:21:23.74,0$Default,,0,0,0,,Being a ghost is not easy.
+Dialogue: 0,0:21:23.74,0:21:27.81,0$Default,,0,0,0,,There he is, Darefalcon,\Nthe Holy Dragon.
+Dialogue: 0,0:21:27.81,0:21:32.15,0$Default,,0,0,0,,And yet you're utterly powerless\Nas a ghost! What a shame.
+Dialogue: 0,0:21:32.82,0:21:35.11,0$Default,,0,0,0,,He turned Vinsant into a dragon!
+Dialogue: 0,0:21:35.11,0:21:36.55,0$Default,,0,0,0,,Indeed. Vinegar can do that...
+Dialogue: 0,0:21:36.55,0:21:39.00,0$Default,,0,0,0,,as a Dark Dragon Knight!
+Dialogue: 0,0:21:40.49,0:21:42.22,0$Default,,0,0,0,,I mentioned it previously.
+Dialogue: 0,0:21:42.22,0:21:48.42,0$Default,,0,0,0,,Dark Dragon Knights can turn Dragon Knights\Ninto dragons and control their movements.
+Dialogue: 0,0:21:49.25,0:21:51.83,0$Default,,0,0,0,,You know your stuff too!
+Dialogue: 0,0:21:51.83,0:21:55.36,0$Default,,0,0,0,,The dragons you fought against earlier
+Dialogue: 0,0:21:55.36,0:22:00.47,0$Default,,0,0,0,,were also Dragon Knights I transformed myself!
+Dialogue: 0,0:22:01.01,0:22:04.59,0$Default,,0,0,0,,Oh yeah, Darefalcon mentioned it\Nwhen we first met him...
+Dialogue: 0,0:22:04.82,0:22:10.02,0$Default,,0,0,0,,He's found their mental weak spots\Nand pulled them into the darkness.
+Dialogue: 0,0:22:10.02,0:22:11.66,0$Default,,0,0,0,,Those he won over
+Dialogue: 0,0:22:11.66,0:22:14.98,0$Default,,0,0,0,,became his dragon servants.
+Dialogue: 0,0:22:15.81,0:22:19.76,0$Default,,0,0,0,,Indeed. Of those who awakened their Dragon Knights\Nat Dragon Shaolin Temple,
+Dialogue: 0,0:22:19.76,0:22:23.32,0$Default,,0,0,0,,Vinegar transformed every last one\Ninto dragons!
+Dialogue: 0,0:22:24.43,0:22:25.57,0$Default,,0,0,0,,No way...
+Dialogue: 0,0:22:28.58,0:22:30.43,0$Default,,0,0,0,,Go on, Vinsant.
+Dialogue: 0,0:22:30.43,0:22:33.42,0$Default,,0,0,0,,Show these heroes to their graves!
+Dialogue: 0,0:22:37.29,0:22:38.55,0$Default,,0,0,0,,How could you...
+Dialogue: 0,0:22:38.55,0:22:41.97,0$Default,,0,0,0,,How could you, Vinsant?!
+Dialogue: 0,0:22:45.93,0:22:46.91,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.91,0:22:48.72,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.72,0:22:51.79,0$Default,,0,0,0,,{\an8}Today's lesson is on\NSky Hawk and Turtle Shell!
+Dialogue: 0,0:22:51.79,0:22:57.61,0$Default,,0,0,0,,{\an8}Sky Hawk and Turtle Shell are a top-class\Nsword and shield that Dragon Knights can equip!
+Dialogue: 0,0:22:57.61,0:23:00.07,0$Default,,0,0,0,,{\an8}They're from Britannia Enchant.
+Dialogue: 0,0:23:00.07,0:23:03.59,0$Default,,0,0,0,,{\an8}They're amazing equipment\Nand the result of lots of research.
+Dialogue: 0,0:23:03.59,0:23:05.18,0$Default,,0,0,0,,{\an8}These are so cool!
+Dialogue: 0,0:23:05.18,0:23:07.74,0$Default,,0,0,0,,{\an8}Thanks, Darefalcon!
+Dialogue: 0,0:23:10.71,0:23:13.39,0$Default,,0,0,0,,I must battle against Vinsant,\Nwho's under Vinegar's control.
+Dialogue: 0,0:23:13.39,0:23:15.19,0$Default,,0,0,0,,Please, snap out of it!
+Dialogue: 0,0:23:15.19,0:23:17.00,0$Default,,0,0,0,,Just when I think it's all over,
+Dialogue: 0,0:23:17.00,0:23:19.42,0$Default,,0,0,0,,a miracle befalls me!
+Dialogue: 0,0:23:19.42,0:23:22.17,0$Default,,0,0,0,,Next time: "The Battle Continues! Chup Cries Out!"
+Dialogue: 0,0:23:22.17,0:23:24.65,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Dialogue: 0,0:09:45.19,0:09:47.32,0$Ep36 INS,,0,0,0,,You're a little imp
+Dialogue: 0,0:09:47.32,0:09:50.44,0$Ep36 INS,,0,0,0,,And I'm your devil
+Dialogue: 0,0:09:48.03,0:09:49.36,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(150,0)}(Yes! Sun's going down!)
+Dialogue: 0,0:09:49.36,0:09:50.44,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9}(Yes! Flap your wings!)
+Dialogue: 0,0:09:50.44,0:09:52.99,0$Ep36 INS,,0,0,0,,I'll pierce through your heart
+Dialogue: 0,0:09:52.99,0:09:56.03,0$Ep36 INS,,0,0,0,,With my wicked blade
+Dialogue: 0,0:09:53.66,0:09:55.12,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(150,0)}(Yes! Sun's going down!)
+Dialogue: 0,0:09:55.12,0:09:56.03,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9}(Yes! Flap your wings!)
+Dialogue: 0,0:09:57.54,0:10:02.62,0$Ep36 INS,,0,0,0,,I lurk within the twilight
+Dialogue: 0,0:10:02.62,0:10:08.84,0$Ep36 INS,,0,0,0,,With a strong bloodlust
+Dialogue: 0,0:10:09.13,0:10:14.43,0$Ep36 INS,,0,0,0,,{\fad(150,0)}You're unable to call for help in the dark of night
+Dialogue: 0,0:10:14.43,0:10:18.47,0$Ep36 INS,,0,0,0,,It's time for the grim reaper's feast
+Dialogue: 0,0:10:18.47,0:10:20.29,0$Ep36 INS,,0,0,0,,I'm partying tonight
+Dialogue: 0,0:10:20.29,0:10:22.75,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&}My perfectly broken heart
+Dialogue: 0,0:10:22.75,0:10:25.27,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&}This dangerously broken world
+Dialogue: 0,0:10:25.27,0:10:28.61,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&}My gorgeous broken body
+Dialogue: 0,0:10:28.61,0:10:31.24,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&}This pleasurous broken ecstasy
+Dialogue: 0,0:10:31.24,0:10:36.87,0$Ep36 INS,,0,0,0,,I love you so much I want you dead
+Dialogue: 0,0:10:36.87,0:10:39.83,0$Ep36 INS,,0,0,0,,Gonna embrace you from behind
+Dialogue: 0,0:10:39.83,0:10:44.17,0$Ep36 INS,,0,0,0,,With my devillish hate
+Dialogue: 0,0:10:43.04,0:10:44.17,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(150,150)}(Crush crush crush)
+Dialogue: 0,0:10:44.17,0:10:46.92,0$Ep36 INS,,0,0,0,,You're a little imp
+Dialogue: 0,0:10:46.92,0:10:50.00,0$Ep36 INS,,0,0,0,,And I'm your devil
+Dialogue: 0,0:10:47.46,0:10:48.92,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(150,0)}(Yes! Sun's going down!)
+Dialogue: 0,0:10:48.92,0:10:50.00,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(0,150)}(Yes! Flap your wings!)
+Dialogue: 0,0:10:50.00,0:10:52.42,0$Ep36 INS,,0,0,0,,I'll pierce through your heart
+Dialogue: 0,0:10:52.42,0:10:55.93,0$Ep36 INS,,0,0,0,,With my wicked blade
+Dialogue: 0,0:10:53.05,0:10:54.51,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(150,0)}(Yes! Sun's going down!)
+Dialogue: 0,0:10:54.51,0:10:55.93,0$Ep36 INS,,0,0,0,,{\c&H181818&\3c&H8FFAB5&\an9\fad(0,150)}(Yes! Flap your wings!)
+Dialogue: 0,0:10:55.93,0:10:58.64,0$Ep36 INS,,0,0,0,,And come sunset in Hades
+Dialogue: 0,0:10:58.64,0:11:01.56,0$Ep36 INS,,0,0,0,,I'll dress you up like a maid
+Dialogue: 0,0:11:01.56,0:11:03.81,0$Ep36 INS,,0,0,0,,And sing from the depths of hell
+Dialogue: 0,0:11:03.81,0:11:06.06,0$Ep36 INS,,0,0,0,,For my name is Devil Bowie
+Dialogue: 0,0:11:06.07,0:11:09.48,0$Ep36 INS,,0,0,0,,Broken heart
+Comment: 0,0:01:01.46,0:01:04.67,0$Default,,0,0,0,,== TS - TITLE ==
+Dialogue: 2,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord0\shad0.01\frz5.556\fsp-37.73}W{\frz5.131\fsp-16.19}i{\frz4.949\fsp-16.19}l{\frz4.766\fsp-17.79}l{\frz4.565\fsp-39.33} {\frz4.122\fsp-45.82}W{\frz3.605\fsp-25.88}e{\frz3.313\fsp-29.11} {\frz2.985\fsp-35.60}S{\frz2.584\fsp-30.22}e{\frz2.243\fsp-31.82}r{\frz1.884\fsp-33.98}v{\frz1.501\fsp-25.88}e{\frz1.209\fsp-22.09} {\frz0.960\fsp-29.11}J{\frz0.632\fsp-32.34}u{\frz0.267\fsp-28.03}s{\frz359.951\fsp-20.49}t{\frz359.720\fsp-24.28}i{\frz359.446\fsp-32.38}c{\frz359.081\fsp-25.88}e{\frz358.789\fsp-28.55} {\frz358.467\fsp-37.72}1{\frz358.042\fsp-37.72}0{\frz357.616\fsp-37.72}0{\frz357.191\fsp-29.63}0{\frz356.857\fsp-28.03}-{\frz356.541\fsp-35.05}F{\frz356.146\fsp-25.88}o{\frz355.854\fsp-24.80}l{\frz355.574\fsp-35.57}d{\frz355.173\fsp-26.95}?{\frz354.869\fsp0.00}!
+Dialogue: 1,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(960,799)\fade(250,550)\org(960,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz5.556\fsp-37.73}W{\frz5.131\fsp-16.19}i{\frz4.949\fsp-16.19}l{\frz4.766\fsp-17.79}l{\frz4.565\fsp-39.33} {\frz4.122\fsp-45.82}W{\frz3.605\fsp-25.88}e{\frz3.313\fsp-29.11} {\frz2.985\fsp-35.60}S{\frz2.584\fsp-30.22}e{\frz2.243\fsp-31.82}r{\frz1.884\fsp-33.98}v{\frz1.501\fsp-25.88}e{\frz1.209\fsp-22.09} {\frz0.960\fsp-29.11}J{\frz0.632\fsp-32.34}u{\frz0.267\fsp-28.03}s{\frz359.951\fsp-20.49}t{\frz359.720\fsp-24.28}i{\frz359.446\fsp-32.38}c{\frz359.081\fsp-25.88}e{\frz358.789\fsp-28.55} {\frz358.467\fsp-37.72}1{\frz358.042\fsp-37.72}0{\frz357.616\fsp-37.72}0{\frz357.191\fsp-29.63}0{\frz356.857\fsp-28.03}-{\frz356.541\fsp-35.05}F{\frz356.146\fsp-25.88}o{\frz355.854\fsp-24.80}l{\frz355.574\fsp-35.57}d{\frz355.173\fsp-26.95}?{\frz354.869\fsp0.00}!
+Dialogue: 0,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(965,803)\fade(250,550)\org(965,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz5.556\fsp-37.73}W{\frz5.131\fsp-16.19}i{\frz4.949\fsp-16.19}l{\frz4.766\fsp-17.79}l{\frz4.565\fsp-39.33} {\frz4.122\fsp-45.82}W{\frz3.605\fsp-25.88}e{\frz3.313\fsp-29.11} {\frz2.985\fsp-35.60}S{\frz2.584\fsp-30.22}e{\frz2.243\fsp-31.82}r{\frz1.884\fsp-33.98}v{\frz1.501\fsp-25.88}e{\frz1.209\fsp-22.09} {\frz0.960\fsp-29.11}J{\frz0.632\fsp-32.34}u{\frz0.267\fsp-28.03}s{\frz359.951\fsp-20.49}t{\frz359.720\fsp-24.28}i{\frz359.446\fsp-32.38}c{\frz359.081\fsp-25.88}e{\frz358.789\fsp-28.55} {\frz358.467\fsp-37.72}1{\frz358.042\fsp-37.72}0{\frz357.616\fsp-37.72}0{\frz357.191\fsp-29.63}0{\frz356.857\fsp-28.03}-{\frz356.541\fsp-35.05}F{\frz356.146\fsp-25.88}o{\frz355.854\fsp-24.80}l{\frz355.574\fsp-35.57}d{\frz355.173\fsp-26.95}?{\frz354.869\fsp0.00}!
+Dialogue: 2,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(960,737)\fade(250,550)\org(960,5880)\blur0.7\bord0\shad0.01\frz6.586\fsp-34.50}E{\frz6.202\fsp-24.80}p{\frz5.925\fsp-23.73}i{\frz5.661\fsp-33.42}s{\frz5.289\fsp-34.50}o{\frz4.904\fsp-32.90}d{\frz4.538\fsp-25.88}e{\frz4.250\fsp-28.55} {\frz3.931\fsp-37.72}3{\frz3.511\fsp-28.03}6{\frz3.199\fsp-18.87}:{\frz2.989\fsp-30.19} {\frz2.652\fsp-37.20}T{\frz2.238\fsp-32.90}h{\frz1.871\fsp-25.88}e{\frz1.583\fsp-27.48} {\frz1.277\fsp-34.50}B{\frz0.893\fsp-29.11}a{\frz0.568\fsp-24.80}t{\frz0.292\fsp-20.49}t{\frz0.064\fsp-24.28}l{\frz359.793\fsp-25.88}e{\frz359.505\fsp-26.41} {\frz359.211\fsp-29.11}a{\frz358.886\fsp-22.09}t{\frz358.640\fsp-31.27} {\frz358.292\fsp-29.66}V{\frz357.961\fsp-24.80}i{\frz357.685\fsp-32.90}n{\frz357.319\fsp-34.23}e{\frz356.937\fsp-34.76}g{\frz356.550\fsp-30.74}a{\frz356.208\fsp-23.73}r{\frz355.943\fsp-27.48} {\frz355.637\fsp-34.50}P{\frz355.253\fsp-24.80}a{\frz354.976\fsp-24.80}l{\frz354.700\fsp-32.90}a{\frz354.333\fsp-32.38}c{\frz353.973\fsp-24.28}e{\frz353.702\fsp0.00}!
+Dialogue: 1,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(960,737)\fade(250,550)\org(960,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz6.586\fsp-34.50}E{\frz6.202\fsp-24.80}p{\frz5.925\fsp-23.73}i{\frz5.661\fsp-33.42}s{\frz5.289\fsp-34.50}o{\frz4.904\fsp-32.90}d{\frz4.538\fsp-25.88}e{\frz4.250\fsp-28.55} {\frz3.931\fsp-37.72}3{\frz3.511\fsp-28.03}6{\frz3.199\fsp-18.87}:{\frz2.989\fsp-30.19} {\frz2.652\fsp-37.20}T{\frz2.238\fsp-32.90}h{\frz1.871\fsp-25.88}e{\frz1.583\fsp-27.48} {\frz1.277\fsp-34.50}B{\frz0.893\fsp-29.11}a{\frz0.568\fsp-24.80}t{\frz0.292\fsp-20.49}t{\frz0.064\fsp-24.28}l{\frz359.793\fsp-25.88}e{\frz359.505\fsp-26.41} {\frz359.211\fsp-29.11}a{\frz358.886\fsp-22.09}t{\frz358.640\fsp-31.27} {\frz358.292\fsp-29.66}V{\frz357.961\fsp-24.80}i{\frz357.685\fsp-32.90}n{\frz357.319\fsp-34.23}e{\frz356.937\fsp-34.76}g{\frz356.550\fsp-30.74}a{\frz356.208\fsp-23.73}r{\frz355.943\fsp-27.48} {\frz355.637\fsp-34.50}P{\frz355.253\fsp-24.80}a{\frz354.976\fsp-24.80}l{\frz354.700\fsp-32.90}a{\frz354.333\fsp-32.38}c{\frz353.973\fsp-24.28}e{\frz353.702\fsp0.00}!
+Dialogue: 0,0:01:01.46,0:01:04.67,0$EPTITLE,,0,0,0,,{\pos(965,741)\fade(250,550)\org(965,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz6.586\fsp-34.50}E{\frz6.202\fsp-24.80}p{\frz5.925\fsp-23.73}i{\frz5.661\fsp-33.42}s{\frz5.289\fsp-34.50}o{\frz4.904\fsp-32.90}d{\frz4.538\fsp-25.88}e{\frz4.250\fsp-28.55} {\frz3.931\fsp-37.72}3{\frz3.511\fsp-28.03}6{\frz3.199\fsp-18.87}:{\frz2.989\fsp-30.19} {\frz2.652\fsp-37.20}T{\frz2.238\fsp-32.90}h{\frz1.871\fsp-25.88}e{\frz1.583\fsp-27.48} {\frz1.277\fsp-34.50}B{\frz0.893\fsp-29.11}a{\frz0.568\fsp-24.80}t{\frz0.292\fsp-20.49}t{\frz0.064\fsp-24.28}l{\frz359.793\fsp-25.88}e{\frz359.505\fsp-26.41} {\frz359.211\fsp-29.11}a{\frz358.886\fsp-22.09}t{\frz358.640\fsp-31.27} {\frz358.292\fsp-29.66}V{\frz357.961\fsp-24.80}i{\frz357.685\fsp-32.90}n{\frz357.319\fsp-34.23}e{\frz356.937\fsp-34.76}g{\frz356.550\fsp-30.74}a{\frz356.208\fsp-23.73}r{\frz355.943\fsp-27.48} {\frz355.637\fsp-34.50}P{\frz355.253\fsp-24.80}a{\frz354.976\fsp-24.80}l{\frz354.700\fsp-32.90}a{\frz354.333\fsp-32.38}c{\frz353.973\fsp-24.28}e{\frz353.702\fsp0.00}!
+Comment: 0,0:02:28.29,0:02:32.09,0$EPTITLE,,0,0,0,,== TS - PROVERB ==
+Dialogue: 1,0:02:28.29,0:02:32.09,0$Proverb,,0,0,0,,{\kf30\fs55\pos(1022,265)\c&HFFFFFF&\blur0.8\2aFF}Opportunity knocks.{\kf58}\N{\kf74}Facing south is a clock.{\kf42}\N{\kf136}That's not good feng shui.{\kf40}
+Dialogue: 0,0:02:28.29,0:02:32.09,0$Proverb,,0,0,0,,{\kf30\fs55\c&H000100&\blur0.8\2aFF\pos(1026,269)}Opportunity knocks.{\kf58}\N{\kf74}Facing south is a clock.{\kf42}\N{\kf136}That's not good feng shui.{\kf40}
+Dialogue: 1,0:02:31.76,0:02:32.09,0$Proverb,,0,0,0,,{\kf20\fs55\c&HFFFFFF&\blur0.8\2aFF\pos(1270,319)}-Tome
+Dialogue: 0,0:02:31.76,0:02:32.09,0$Proverb,,0,0,0,,{\kf20\fs55\c&H000100&\blur0.8\2aFF\pos(1274,323)}-Tome
+Comment: 0,0:13:29.87,0:13:32.58,0$Default,,0,0,0,,== TS - DARK DK VINEGAR ==
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,728,1338,729)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D480C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,729,1338,730)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D470C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,730,1338,731)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D470C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,731,1338,732)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D470D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,732,1338,733)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D460D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,733,1338,734)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D460E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,734,1338,735)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5D460E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,735,1338,736)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E450F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,736,1338,737)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E450F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,737,1338,738)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E4510&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,738,1338,739)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E4410&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,739,1338,740)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E4410&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,740,1338,741)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E4411&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,741,1338,742)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5E4311&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,742,1338,743)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4312&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,743,1338,744)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4312&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,744,1338,745)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4213&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,745,1338,746)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4213&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,746,1338,747)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4214&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,747,1338,748)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4114&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,748,1338,749)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H5F4114&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,749,1338,750)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H604115&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,750,1338,751)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H604015&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,751,1338,752)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H604016&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,752,1338,753)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H604016&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,753,1338,754)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H603F17&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,754,1338,755)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H603F17&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,755,1338,756)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613F18&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,756,1338,757)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613E18&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,757,1338,758)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613E18&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,758,1338,759)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613E19&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,759,1338,760)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613D19&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,760,1338,761)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613D1A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,761,1338,762)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H613D1A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,762,1338,763)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623C1B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,763,1338,764)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623C1B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,764,1338,765)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623C1C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,765,1338,766)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623B1C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,766,1338,767)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623B1D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,767,1338,768)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623B1D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,768,1338,769)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H623B1D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,769,1338,770)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H633A1E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,770,1338,771)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H633A1E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,771,1338,772)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H633A1F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,772,1338,773)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H63391F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,773,1338,774)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H633920&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,774,1338,775)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H633920&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,775,1338,776)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643821&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,776,1338,777)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643821&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,777,1338,778)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643821&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,778,1338,779)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643722&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,779,1338,780)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643722&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,780,1338,781)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643723&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,781,1338,782)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H643623&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,782,1338,783)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653624&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,783,1338,784)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653624&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,784,1338,785)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653525&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,785,1338,786)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653525&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,786,1338,787)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653525&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,787,1338,788)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653426&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,788,1338,789)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H653426&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,789,1338,790)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663427&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,790,1338,791)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663327&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,791,1338,792)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663328&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,792,1338,793)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663328&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,793,1338,794)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663229&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,794,1338,795)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663229&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,795,1338,796)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H663229&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,796,1338,797)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67312A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,797,1338,798)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67312A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,798,1338,799)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67312B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,799,1338,800)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67302B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,800,1338,801)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67302C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,801,1338,802)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H67302C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,802,1338,803)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682F2D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,803,1338,804)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682F2D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,804,1338,805)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682F2E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,805,1338,806)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682F2E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,806,1338,807)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682E2E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,807,1338,808)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682E2F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,808,1338,809)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H682E2F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,809,1338,810)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692D30&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,810,1338,811)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692D30&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,811,1338,812)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692D31&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,812,1338,813)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692C31&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,813,1338,814)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692C32&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,814,1338,815)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692C32&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,815,1338,816)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H692B32&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,816,1338,817)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2B33&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,817,1338,818)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2B33&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,818,1338,819)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2A34&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,819,1338,820)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2A34&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,820,1338,821)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2A35&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,821,1338,822)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6A2935&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,822,1338,823)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2936&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,823,1338,824)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2936&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,824,1338,825)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2836&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,825,1338,826)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2837&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,826,1338,827)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2837&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,827,1338,828)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2738&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,828,1338,829)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6B2738&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,829,1338,830)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C2739&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,830,1338,831)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C2639&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,831,1338,832)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C263A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,832,1338,833)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C263A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,833,1338,834)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C253A&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,834,1338,835)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C253B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,835,1338,836)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6C253B&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,836,1338,837)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D243C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,837,1338,838)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D243C&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,838,1338,839)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D243D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,839,1338,840)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D233D&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,840,1338,841)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D233E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,841,1338,842)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6D233E&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(583,842,1338,843)\pos(958.03,779.55)\frz3.282\fs97\blur1\c&H6E233F&\fad(350,150)}Dark Dragon Knight
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,850,1255,851)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741752&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,851,1255,852)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741752&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,852,1255,853)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741752&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,853,1255,854)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741753&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,854,1255,855)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741853&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,855,1255,856)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741854&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,856,1255,857)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H741854&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,857,1255,858)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751955&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,858,1255,859)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751955&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,859,1255,860)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751956&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,860,1255,861)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751A56&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,861,1255,862)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751A57&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,862,1255,863)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H751A57&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,863,1255,864)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761B58&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,864,1255,865)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761B58&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,865,1255,866)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761B59&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,866,1255,867)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761C59&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,867,1255,868)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761C5A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,868,1255,869)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H761C5A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,869,1255,870)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771D5B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,870,1255,871)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771D5B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,871,1255,872)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771D5C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,872,1255,873)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771E5C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,873,1255,874)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771E5D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,874,1255,875)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H771E5D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,875,1255,876)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H781F5D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,876,1255,877)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H781F5E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,877,1255,878)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H781F5E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,878,1255,879)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H78205F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,879,1255,880)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H78205F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,880,1255,881)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H782060&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,881,1255,882)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792060&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,882,1255,883)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792161&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,883,1255,884)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792161&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,884,1255,885)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792162&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,885,1255,886)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792262&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,886,1255,887)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H792263&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,887,1255,888)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2263&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,888,1255,889)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2364&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,889,1255,890)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2364&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,890,1255,891)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2365&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,891,1255,892)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2465&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,892,1255,893)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7A2466&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,893,1255,894)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2466&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,894,1255,895)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2567&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,895,1255,896)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2567&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,896,1255,897)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2568&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,897,1255,898)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2668&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,898,1255,899)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7B2668&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,899,1255,900)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C2669&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,900,1255,901)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C2769&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,901,1255,902)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C276A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,902,1255,903)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C276A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,903,1255,904)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C286B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,904,1255,905)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7C286B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,905,1255,906)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D286C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,906,1255,907)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D296C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,907,1255,908)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D296D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,908,1255,909)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D296D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,909,1255,910)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D296E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,910,1255,911)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7D2A6E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,911,1255,912)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2A6F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,912,1255,913)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2A6F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,913,1255,914)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2B70&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,914,1255,915)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2B70&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,915,1255,916)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2B71&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,916,1255,917)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7E2C71&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,917,1255,918)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2C72&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,918,1255,919)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2C72&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,919,1255,920)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2D73&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,920,1255,921)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2D73&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,921,1255,922)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2D73&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,922,1255,923)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2E74&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,923,1255,924)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H7F2E74&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,924,1255,925)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H802E75&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,925,1255,926)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H802F75&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,926,1255,927)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H802F76&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,927,1255,928)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H802F76&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,928,1255,929)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H803077&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,929,1255,930)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H803077&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,930,1255,931)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H813078&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,931,1255,932)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H813178&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,932,1255,933)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H813179&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,933,1255,934)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H813179&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,934,1255,935)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H81327A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,935,1255,936)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H81327A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,936,1255,937)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82327B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,937,1255,938)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82327B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,938,1255,939)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82337C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,939,1255,940)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82337C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,940,1255,941)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82337D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,941,1255,942)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H82347D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,942,1255,943)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H83347E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,943,1255,944)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H83347E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,944,1255,945)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H83357E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,945,1255,946)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H83357F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,946,1255,947)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H83357F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,947,1255,948)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H833680&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,948,1255,949)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843680&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,949,1255,950)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843681&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,950,1255,951)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843781&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,951,1255,952)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843782&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,952,1255,953)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843782&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,953,1255,954)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H843883&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,954,1255,955)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853883&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,955,1255,956)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853884&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,956,1255,957)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853984&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,957,1255,958)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853985&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,958,1255,959)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853985&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,959,1255,960)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H853A86&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,960,1255,961)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863A86&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,961,1255,962)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863A87&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,962,1255,963)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863B87&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,963,1255,964)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863B88&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,964,1255,965)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863B88&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,965,1255,966)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H863B89&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,966,1255,967)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873C89&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,967,1255,968)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873C89&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,968,1255,969)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873C8A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,969,1255,970)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873D8A&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,970,1255,971)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873D8B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,971,1255,972)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H873D8B&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,972,1255,973)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883E8C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,973,1255,974)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883E8C&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,974,1255,975)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883E8D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,975,1255,976)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883F8D&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,976,1255,977)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883F8E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,977,1255,978)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H883F8E&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,978,1255,979)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H89408F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,979,1255,980)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H89408F&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,980,1255,981)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H894090&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,981,1255,982)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H894190&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,982,1255,983)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H894191&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,983,1255,984)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H894191&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,984,1255,985)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4292&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,985,1255,986)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4292&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,986,1255,987)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4293&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,987,1255,988)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4393&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,988,1255,989)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4394&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,989,1255,990)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8A4394&\fad(350,150)}Vinegar
+Dialogue: 2,0:13:29.87,0:13:32.62,0$MonsterName,,0,0,0,,{\clip(712,990,1255,991)\pos(983.56,899.43)\fs178\blur1\frz1.952\c&H8B4495&\fad(350,150)}Vinegar
+Dialogue: 1,0:13:29.87,0:13:32.62,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H0D0D0D&\fad(350,150)}m 593.63 746.77 l 634.65 749.51 651.39 744.04 673.26 762.15 698.9 753.95 730.34 761.47 746.06 731.39 749.47 741.64 757.34 730.71 800.06 740.96 806.55 731.61 858.55 729.69 868.4 741.1 873.32 731.71 891.44 727.9 882.27 722.76 944.78 720.75 955.6 730.45 967.1 719.85 1009.51 724.13 1010.86 716.02 1031.57 726.09 1062.96 712.24 1092.06 733.06 1105.04 721.64 1128.1 723.66 1129.96 710.59 1150.45 711.34 1139.45 703.34 1199.94 710.34 1211.18 726.33 1236.18 705.59 1265.82 704.71 1276.84 696.11 1314.98 701.63 1321.82 731.83 1345.85 740.43 1349.36 757.65 1356.25 747.64 1346.25 784.99 1325.11 810.32 1273.09 823.4 1266.06 815.74 1244.68 829.47 1209.26 823.72 1183.72 859.15 1230.64 859.15 1252.02 870 1247.23 855.96 1256.17 849.57 1278.37 924.73 1267.58 910.02 1257.76 962.21 1175.73 977.25 1128.01 968.74 1122.59 992.14 1061.39 1016.65 1065.49 1005.58 1048.39 1011.12 1053.21 995.94 1036.35 1005.09 980.47 988.72 921.52 1011.19 880.73 999.06 870.48 1004.29 855.42 988.81 851.08 998.61 749.02 1001.35 743.75 991.02 737 1003.88 730.04 991.86 724.56 1001.77 695.46 860.02 703.83 843.28 681.44 850.19 664.91 836.16 630.17 866.09 633.91 852.78 608.98 863.79 575.96 847.59 564.72 787.42 m 1062.71 704.55 l 1076.99 700.81 1087.1 722.12 m 1323.21 703.12 l 1340.08 730.12 1325.01 726.75 m 964.76 1008.54 l 979.98 995 999.85 1003.25 m 678.4 911.67 l 689.21 890.98 712.35 983.85
+Dialogue: 0,0:13:29.87,0:13:32.62,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HE5E5E5&\fad(350,150)}m 600.43 723.26 l 674.79 736.3 725.01 731.41 737.41 717.07 796.87 713.31 807.38 720.96 865.69 712.35 878.75 703.43 959.26 709.27 982.77 700.79 1029.88 707.2 1073.66 691.38 1111.89 701.46 1123.36 691.73 1214.8 697.21 1277.45 679.63 1340.37 692.52 1366.49 727.06 1359.99 795.44 1325.3 836.88 1268.53 838.99 1293.86 877.98 1281.56 969.6 1235.58 1001.23 1156.51 994.2 1064.06 1031.55 1004.95 1012.04 912.98 1032.59 850.99 1014.62 708.46 1018.98 674.08 956.73 666.3 886.58 668.53 872.46 657.06 865.53 628.12 878.44 582.06 874.84 554.86 834.97 552.97 759.81
+Comment: 0,0:15:34.37,0:15:38.00,0$Default,,0,0,0,,== TS - DK CHUP ==
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,724,1250,725)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9B536C&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,725,1250,726)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9B536B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,726,1250,727)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9B536B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,727,1250,728)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9B536B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,728,1250,729)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9B536B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,729,1250,730)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9C546B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,730,1250,731)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9C546B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,731,1250,732)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9C546B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,732,1250,733)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9C546B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,733,1250,734)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9D556B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,734,1250,735)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9D556B&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,735,1250,736)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9D556A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,736,1250,737)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9D556A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,737,1250,738)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9E566A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,738,1250,739)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9E566A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,739,1250,740)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9E566A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,740,1250,741)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9E566A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,741,1250,742)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9E566A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,742,1250,743)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9F576A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,743,1250,744)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9F576A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,744,1250,745)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9F576A&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,745,1250,746)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&H9F5769&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,746,1250,747)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA05869&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,747,1250,748)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA05869&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,748,1250,749)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA05869&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,749,1250,750)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA05869&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,750,1250,751)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA15969&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,751,1250,752)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA15969&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,752,1250,753)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA15969&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,753,1250,754)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA15969&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,754,1250,755)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA15969&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,755,1250,756)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA25A69&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,756,1250,757)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA25A68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,757,1250,758)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA25A68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,758,1250,759)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA25A68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,759,1250,760)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA35B68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,760,1250,761)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA35B68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,761,1250,762)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA35B68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,762,1250,763)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA35B68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,763,1250,764)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA45C68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,764,1250,765)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA45C68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,765,1250,766)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA45C68&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,766,1250,767)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA45C67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,767,1250,768)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA45C67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,768,1250,769)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA55D67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,769,1250,770)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA55D67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,770,1250,771)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA55D67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,771,1250,772)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA55D67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,772,1250,773)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA65E67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,773,1250,774)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA65E67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,774,1250,775)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA65E67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,775,1250,776)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA65E67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,776,1250,777)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA75F67&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,777,1250,778)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA75F66&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,778,1250,779)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA75F66&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,779,1250,780)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA75F66&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,780,1250,781)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA75F66&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,781,1250,782)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA86066&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,782,1250,783)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA86066&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,783,1250,784)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA86066&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,784,1250,785)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA86066&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,785,1250,786)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA96166&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,786,1250,787)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA96166&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,787,1250,788)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA96165&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,788,1250,789)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HA96165&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,789,1250,790)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAA6265&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,790,1250,791)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAA6265&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,791,1250,792)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAA6265&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,792,1250,793)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAA6265&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,793,1250,794)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAB6365&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,794,1250,795)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAB6365&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,795,1250,796)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAB6365&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,796,1250,797)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAB6365&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,797,1250,798)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAB6364&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,798,1250,799)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAC6464&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,799,1250,800)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAC6464&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,800,1250,801)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAC6464&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,801,1250,802)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAC6464&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,802,1250,803)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAD6564&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,803,1250,804)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAD6564&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,804,1250,805)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAD6564&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,805,1250,806)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAD6564&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,806,1250,807)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAE6664&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,807,1250,808)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAE6664&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,808,1250,809)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAE6663&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,809,1250,810)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAE6663&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,810,1250,811)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAE6663&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,811,1250,812)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAF6763&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,812,1250,813)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAF6763&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,813,1250,814)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAF6763&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,814,1250,815)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HAF6763&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,815,1250,816)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB06863&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,816,1250,817)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB06863&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,817,1250,818)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB06863&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,818,1250,819)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB06862&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,819,1250,820)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB16962&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,820,1250,821)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB16962&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,821,1250,822)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB16962&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,822,1250,823)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB16962&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,823,1250,824)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB16962&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,824,1250,825)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB26A62&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,825,1250,826)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB26A62&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,826,1250,827)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB26A62&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,827,1250,828)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB26A62&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,828,1250,829)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB36B62&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,829,1250,830)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB36B61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,830,1250,831)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB36B61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,831,1250,832)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB36B61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,832,1250,833)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB46C61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,833,1250,834)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB46C61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,834,1250,835)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB46C61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,835,1250,836)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB46C61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,836,1250,837)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB46C61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,837,1250,838)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB56D61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,838,1250,839)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB56D61&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,839,1250,840)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB56D60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,840,1250,841)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB56D60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,841,1250,842)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB66E60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,842,1250,843)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB66E60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,843,1250,844)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB66E60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,844,1250,845)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB66E60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,845,1250,846)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB76F60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,846,1250,847)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB76F60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,847,1250,848)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB76F60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,848,1250,849)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB76F60&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(628,849,1250,850)\pos(936,780)\fs110\frz4.146\blur1\fad(350,350)\c&HB87060&}Dragon Knight
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,843,1272,844)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC37A59&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,844,1272,845)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC37A58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,845,1272,846)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC37A58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,846,1272,847)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC37A58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,847,1272,848)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC37A58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,848,1272,849)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC47B58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,849,1272,850)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC47B58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,850,1272,851)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC47B58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,851,1272,852)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC47B58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,852,1272,853)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC47C58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,853,1272,854)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC57C58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,854,1272,855)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC57C58&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,855,1272,856)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC57C57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,856,1272,857)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC57D57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,857,1272,858)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC57D57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,858,1272,859)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC67D57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,859,1272,860)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC67D57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,860,1272,861)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC67E57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,861,1272,862)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC67E57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,862,1272,863)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC67E57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,863,1272,864)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC77E57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,864,1272,865)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC77F57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,865,1272,866)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC77F57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,866,1272,867)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC77F57&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,867,1272,868)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC77F56&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,868,1272,869)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC88056&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,869,1272,870)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC88056&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,870,1272,871)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC88056&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,871,1272,872)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC88056&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,872,1272,873)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC88056&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,873,1272,874)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC98156&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,874,1272,875)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC98156&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,875,1272,876)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC98156&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,876,1272,877)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HC98156&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,877,1272,878)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCA8256&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,878,1272,879)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCA8255&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,879,1272,880)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCA8255&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,880,1272,881)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCA8255&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,881,1272,882)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCA8355&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,882,1272,883)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCB8355&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,883,1272,884)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCB8355&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,884,1272,885)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCB8355&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,885,1272,886)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCB8455&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,886,1272,887)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCB8455&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,887,1272,888)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCC8455&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,888,1272,889)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCC8455&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,889,1272,890)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCC8555&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,890,1272,891)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCC8554&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,891,1272,892)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCC8554&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,892,1272,893)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCD8554&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,893,1272,894)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCD8654&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,894,1272,895)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCD8654&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,895,1272,896)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCD8654&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,896,1272,897)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCD8654&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,897,1272,898)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCE8654&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,898,1272,899)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCE8754&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,899,1272,900)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCE8754&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,900,1272,901)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCE8754&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,901,1272,902)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCE8753&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,902,1272,903)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCF8853&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,903,1272,904)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCF8853&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,904,1272,905)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCF8853&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,905,1272,906)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HCF8853&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,906,1272,907)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD08953&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,907,1272,908)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD08953&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,908,1272,909)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD08953&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,909,1272,910)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD08953&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,910,1272,911)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD08A53&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,911,1272,912)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD18A53&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,912,1272,913)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD18A53&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,913,1272,914)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD18A52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,914,1272,915)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD18B52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,915,1272,916)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD18B52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,916,1272,917)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD28B52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,917,1272,918)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD28B52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,918,1272,919)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD28C52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,919,1272,920)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD28C52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,920,1272,921)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD28C52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,921,1272,922)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD38C52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,922,1272,923)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD38C52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,923,1272,924)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD38D52&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,924,1272,925)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD38D51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,925,1272,926)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD38D51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,926,1272,927)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD48D51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,927,1272,928)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD48E51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,928,1272,929)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD48E51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,929,1272,930)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD48E51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,930,1272,931)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD48E51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,931,1272,932)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD58F51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,932,1272,933)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD58F51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,933,1272,934)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD58F51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,934,1272,935)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD58F51&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,935,1272,936)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD69051&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,936,1272,937)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD69050&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,937,1272,938)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD69050&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,938,1272,939)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD69050&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,939,1272,940)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD69150&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,940,1272,941)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD79150&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,941,1272,942)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD79150&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,942,1272,943)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD79150&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,943,1272,944)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD79250&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,944,1272,945)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD79250&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,945,1272,946)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD89250&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,946,1272,947)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD89250&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,947,1272,948)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD8924F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,948,1272,949)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD8934F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,949,1272,950)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD8934F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,950,1272,951)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD9934F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,951,1272,952)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD9934F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,952,1272,953)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD9944F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,953,1272,954)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD9944F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,954,1272,955)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HD9944F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,955,1272,956)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDA944F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,956,1272,957)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDA954F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,957,1272,958)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDA954F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,958,1272,959)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDA954F&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,959,1272,960)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDA954E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,960,1272,961)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDB964E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,961,1272,962)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDB964E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,962,1272,963)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDB964E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,963,1272,964)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDB964E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,964,1272,965)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDC974E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,965,1272,966)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDC974E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,966,1272,967)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDC974E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,967,1272,968)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDC974E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,968,1272,969)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDC984E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,969,1272,970)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDD984E&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,970,1272,971)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDD984D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,971,1272,972)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDD984D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,972,1272,973)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDD984D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,973,1272,974)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDD994D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,974,1272,975)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDE994D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,975,1272,976)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDE994D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,976,1272,977)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDE994D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,977,1272,978)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDE9A4D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,978,1272,979)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDE9A4D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,979,1272,980)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDF9A4D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,980,1272,981)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDF9A4D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,981,1272,982)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDF9B4D&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,982,1272,983)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDF9B4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,983,1272,984)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HDF9B4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,984,1272,985)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE09B4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,985,1272,986)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE09C4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,986,1272,987)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE09C4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,987,1272,988)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE09C4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,988,1272,989)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE09C4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,989,1272,990)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE19D4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,990,1272,991)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE19D4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,991,1272,992)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE19D4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,992,1272,993)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE19D4C&}Chup
+Dialogue: 2,0:15:34.37,0:15:38.04,0$MonsterName,,0,0,0,,{\clip(798,993,1272,994)\pos(1041.57,897.37)\fs200\fsp15\fscx110\blur1\frz3.229\fad(350,350)\c&HE29E4C&}Chup
+Dialogue: 1,0:15:34.37,0:15:38.04,0$mask,,0,0,0,,{\p1\an7\pos(0,0)\blur1\c&H0D0D0D&\fad(350,350)}m 599.24 750.02 l 611.07 760.86 613.37 737.2 690.29 740.82 700.81 753.96 706.4 738.84 729.08 732.93 713.63 726.35 790.88 724.71 803.72 735.57 817.24 723.92 866.69 728.28 867.93 718.34 893.08 731.24 929.54 714.99 964.17 740.44 978.53 725.59 1002.4 727.11 1004.18 711.88 1027.79 712.13 1014.59 704.01 1086.43 711.99 1096.52 730.5 1129.52 705 1164.32 708.66 1180.3 694.17 1225.64 702.12 1234.08 737.89 1267.19 744.72 1268.91 758.27 1279.75 748.91 1254.94 817.58 1247.99 812.11 1226.72 821.37 1248.98 836.41 1310.87 914.09 1307.7 941.21 1282.01 947.91 1261.22 1003.04 1211.51 1006.72 1215.54 1019.01 1142.2 987.36 1094.33 1022.49 1093.17 1008.59 1084.94 1013.56 1080.9 1001.43 1073.07 1006.48 1031.63 986.53 983.63 1018.03 963.57 1000.64 967.13 1017.14 920.91 980.71 903.71 1000.74 897.83 980.49 887.59 1001.18 852.59 1019.05 784.47 999.43 798.17 998.63 798.98 995.81 787.09 991.58 796.62 976.01 773.84 970.87 752.29 920.64 761.76 907.12 740.72 872.32 708.99 884.48 706.35 867.56 693.61 877.66 690.09 860.75 682.18 871.29 633.9 872.45 m 929.67 706.25 l 945.82 701.67 959.35 726.11 m 1236.3 704.96 l 1255.43 736.33 1236.94 732.04 m 1252.05 835.08 l 1264.85 827.4 1313.43 906.34 1311.41 911.32 m 1266.07 826.46 l 1275.33 821.11 1318.28 900.16 1314.53 904.35 m 1276.78 820.61 l 1282.56 818.33 1321.75 897.6 1319.59 898.86 m 1013.96 1010.1 l 1034.32 994.5 1054 1002.64 m 599.71 856.38 l 599.33 785.56 620.11 862.54 m 1292.05 813.64 l 1321.04 828.83 1323.44 890.95
+Dialogue: 0,0:15:34.37,0:15:38.04,0$mask,,0,0,0,,{\p1\an7\pos(0,0)\blur1\c&HE8E5E5&\fad(350,350)}m 582.47 737.8 l 650.15 710.72 699.45 722.38 754.31 705.84 811.91 714.6 906.11 704.15 921.57 691.3 979.32 705.3 1053.62 691.9 1105.21 701.02 1157.38 677.47 1255.48 692.48 1295.89 752.24 1282.6 792.98 1334.79 825.07 1337.44 930 1282.39 1008.21 1213.59 1033.73 1145.72 1010.43 1098.11 1034.41 1061.64 1020.56 971.16 1032.02 922.56 1008.61 832.78 1035.26 760.15 1004.97 731.81 914.49 737.01 898.55 679.08 884.53 624.64 891.43 591.21 861.17
+Comment: 0,0:16:41.48,0:16:43.94,0$Default,,0,0,0,,== TS - DK VINSANT ==
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,793,1113,794)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB6997A&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,794,1113,795)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB59879&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,795,1113,796)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB59879&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,796,1113,797)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB59879&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,797,1113,798)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB49878&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,798,1113,799)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB49878&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,799,1113,800)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB49778&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,800,1113,801)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB39777&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,801,1113,802)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB39777&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,802,1113,803)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB39777&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,803,1113,804)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB39777&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,804,1113,805)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB29676&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,805,1113,806)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB29676&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,806,1113,807)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB29676&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,807,1113,808)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB19675&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,808,1113,809)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB19675&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,809,1113,810)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB19575&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,810,1113,811)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB19574&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,811,1113,812)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB09574&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,812,1113,813)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB09574&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,813,1113,814)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HB09574&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,814,1113,815)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAF9473&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,815,1113,816)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAF9473&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,816,1113,817)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAF9473&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,817,1113,818)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAF9472&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,818,1113,819)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAE9472&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,819,1113,820)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAE9372&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,820,1113,821)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAE9371&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,821,1113,822)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAD9371&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,822,1113,823)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAD9371&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,823,1113,824)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAD9371&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,824,1113,825)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAD9270&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,825,1113,826)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAC9270&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,826,1113,827)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAC9270&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,827,1113,828)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAC926F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,828,1113,829)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAB926F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,829,1113,830)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAB916F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,830,1113,831)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAB916E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,831,1113,832)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAA916E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,832,1113,833)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAA916E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,833,1113,834)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAA916E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,834,1113,835)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HAA906D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,835,1113,836)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA9906D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,836,1113,837)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA9906D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,837,1113,838)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA9906C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,838,1113,839)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA8906C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,839,1113,840)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA88F6C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,840,1113,841)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA88F6B&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,841,1113,842)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA88F6B&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,842,1113,843)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA78F6B&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,843,1113,844)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA78F6B&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,844,1113,845)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA78E6A&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,845,1113,846)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA68E6A&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,846,1113,847)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA68E6A&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,847,1113,848)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA68E69&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,848,1113,849)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA68E69&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,849,1113,850)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA58D69&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,850,1113,851)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA58D68&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,851,1113,852)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA58D68&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,852,1113,853)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA48D68&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,853,1113,854)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA48D68&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,854,1113,855)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA48C67&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,855,1113,856)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA48C67&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,856,1113,857)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA38C67&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,857,1113,858)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA38C66&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,858,1113,859)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA38C66&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,859,1113,860)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA28B66&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,860,1113,861)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA28B65&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,861,1113,862)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA28B65&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,862,1113,863)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA18B65&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,863,1113,864)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA18B65&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,864,1113,865)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA18A64&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,865,1113,866)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA18A64&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,866,1113,867)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA08A64&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,867,1113,868)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA08A63&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,868,1113,869)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&HA08A63&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,869,1113,870)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9F8963&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,870,1113,871)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9F8962&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,871,1113,872)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9F8962&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,872,1113,873)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9F8962&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,873,1113,874)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9E8962&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,874,1113,875)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9E8861&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,875,1113,876)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9E8861&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,876,1113,877)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9D8861&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,877,1113,878)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9D8860&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,878,1113,879)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9D8860&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,879,1113,880)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9D8760&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,880,1113,881)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9C875F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,881,1113,882)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9C875F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,882,1113,883)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9C875F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,883,1113,884)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9B875F&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,884,1113,885)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9B865E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,885,1113,886)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9B865E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,886,1113,887)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9B865E&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,887,1113,888)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9A865D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,888,1113,889)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9A865D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,889,1113,890)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H9A855D&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,890,1113,891)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H99855C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,891,1113,892)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H99855C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,892,1113,893)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H99855C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(625,893,1113,894)\pos(866,838)\fs88\fsp-1\frz3.928\blur1\fad(350,0)\c&H99855C&}Dragon Knight
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,892,1288,893)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H867A4B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,893,1288,894)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H85794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,894,1288,895)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H85794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,895,1288,896)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H85794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,896,1288,897)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H85794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,897,1288,898)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H85794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,898,1288,899)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H84794A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,899,1288,900)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H847949&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,900,1288,901)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H847949&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,901,1288,902)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H847949&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,902,1288,903)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H847949&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,903,1288,904)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H837849&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,904,1288,905)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H837849&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,905,1288,906)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H837848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,906,1288,907)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H837848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,907,1288,908)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H837848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,908,1288,909)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H827848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,909,1288,910)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H827848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,910,1288,911)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H827848&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,911,1288,912)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H827847&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,912,1288,913)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H827847&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,913,1288,914)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H817847&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,914,1288,915)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H817747&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,915,1288,916)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H817747&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,916,1288,917)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H817747&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,917,1288,918)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H817747&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,918,1288,919)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H807746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,919,1288,920)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H807746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,920,1288,921)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H807746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,921,1288,922)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H807746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,922,1288,923)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H807746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,923,1288,924)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7F7746&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,924,1288,925)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7F7745&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,925,1288,926)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7F7645&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,926,1288,927)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7F7645&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,927,1288,928)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7F7645&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,928,1288,929)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7E7645&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,929,1288,930)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7E7645&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,930,1288,931)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7E7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,931,1288,932)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7E7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,932,1288,933)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7E7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,933,1288,934)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7D7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,934,1288,935)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7D7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,935,1288,936)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7D7644&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,936,1288,937)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7D7544&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,937,1288,938)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7D7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,938,1288,939)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7C7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,939,1288,940)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7C7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,940,1288,941)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7C7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,941,1288,942)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7C7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,942,1288,943)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7C7543&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,943,1288,944)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7B7542&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,944,1288,945)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7B7542&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,945,1288,946)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7B7542&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,946,1288,947)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7B7542&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,947,1288,948)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7B7442&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,948,1288,949)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7A7442&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,949,1288,950)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7A7441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,950,1288,951)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7A7441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,951,1288,952)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7A7441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,952,1288,953)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H7A7441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,953,1288,954)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H797441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,954,1288,955)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H797441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,955,1288,956)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H797441&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,956,1288,957)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H797440&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,957,1288,958)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H797440&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,958,1288,959)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H787340&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,959,1288,960)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H787340&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,960,1288,961)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H787340&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,961,1288,962)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H787340&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,962,1288,963)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H78733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,963,1288,964)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H77733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,964,1288,965)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H77733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,965,1288,966)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H77733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,966,1288,967)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H77733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,967,1288,968)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H77733F&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,968,1288,969)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H76733E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,969,1288,970)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H76723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,970,1288,971)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H76723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,971,1288,972)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H76723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,972,1288,973)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H76723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,973,1288,974)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H75723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,974,1288,975)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H75723E&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,975,1288,976)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H75723D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,976,1288,977)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H75723D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,977,1288,978)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H75723D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,978,1288,979)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H74723D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,979,1288,980)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H74723D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,980,1288,981)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H74713D&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,981,1288,982)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H74713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,982,1288,983)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H74713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,983,1288,984)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H73713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,984,1288,985)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H73713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,985,1288,986)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H73713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,986,1288,987)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H73713C&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,987,1288,988)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H73713B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,988,1288,989)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H72713B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,989,1288,990)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H72713B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,990,1288,991)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H72713B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,991,1288,992)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H72703B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,992,1288,993)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H72703B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,993,1288,994)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H71703B&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,994,1288,995)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H71703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,995,1288,996)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H71703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,996,1288,997)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H71703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,997,1288,998)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H71703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,998,1288,999)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H70703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,999,1288,1000)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H70703A&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1000,1288,1001)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H707039&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1001,1288,1002)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H707039&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1002,1288,1003)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H706F39&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1003,1288,1004)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6F6F39&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1004,1288,1005)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6F6F39&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1005,1288,1006)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6F6F39&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1006,1288,1007)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6F6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1007,1288,1008)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6F6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1008,1288,1009)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6E6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1009,1288,1010)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6E6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1010,1288,1011)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6E6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1011,1288,1012)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6E6F38&}Vinsant
+Dialogue: 2,0:16:41.48,0:16:43.94,0$MonsterName,,0,0,0,,{\clip(719,1012,1288,1013)\pos(1004.58,942.75)\fs160\fsp5\fscx110\blur1\frz0.618\fad(350,0)\c&H6E6F38&}Vinsant
+Dialogue: 1,0:16:41.48,0:16:43.94,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&H0C0C0C&\fad(350,0)}m 599.78 815.55 l 610.01 824.9 611.47 805.62 672.23 807.95 679.83 819.35 684.21 806.49 703.2 802.69 690.64 798.02 751.99 795.97 761.05 804.74 773.02 795.68 811.3 799.48 812.76 791.59 833.11 801.69 862.16 788.03 888.66 808.6 901.93 796.73 918.87 798.83 920.48 785.9 942.11 786.5 930.39 780.44 986.38 786.7 994.21 801.34 1019.83 780.66 1046.54 783.55 1060.62 771.75 1095.96 778.76 1102.23 806.53 1128.66 812.35 1128.88 822.43 1138.07 816.61 1118.81 868.57 1112.98 864.76 1097.54 872.79 1119.08 890.02 1127.49 883.56 1190.52 893.89 1195.38 909.78 1225.21 876.06 1224.24 884.17 1265.73 880.92 1273.19 905.89 1320.85 937.99 1309.35 995.44 1273.24 1008.42 1282.11 1010.64 1216.23 1026.16 1203.56 1007.16 1197.86 1016.34 1186.46 1008.42 1183.93 1016.34 1127.87 1022.36 1110.9 1011.4 1089.72 1024.64 1078.41 1023.92 1083.7 1032.34 1031.48 1014.53 1031.48 1005.63 994.43 1017.87 977.83 1009.35 966.15 1020.68 925.59 1020.04 921.28 1027.8 899.6 1009.6 886.78 1028.23 818.85 1018.39 826.68 1014.85 819.61 1008.54 831.23 1003.99 807.74 1003.99 768.86 1028.49 734.52 1013.34 739.06 1000.71 715.18 988.54 710.42 974.51 704.4 989.04 700.64 969.24 695.88 976.26 691.87 921.38 700.39 915.62 689.12 899.33 674.83 917.62 671.82 904.09 665.06 911.86 627.3 912.94 m 861.52 781.06 l 874.04 778.25 884.84 797.26 m 1103.9 780.67 l 1120.7 805.87 1104.46 801.11 m 1279.74 887.73 l 1301.04 911.4 1280.26 905.87 m 970.99 1024.74 l 979.93 1013.52 994.2 1024.05 m 599.55 900.15 l 599.77 843.63 616.63 905.4
+Dialogue: 0,0:16:41.48,0:16:43.94,0$mask,,0,0,0,,{\p1\pos(0,0)\blur1\c&HE4E2E2&\fad(350,0)}m 587.12 806.91 l 640.1 784.84 678.65 794.26 723.68 780.72 768.41 788.66 842.56 779.35 854.54 769.88 900.79 779.91 958.62 770.04 999.91 777.19 1042.07 758.77 1118.9 770.39 1151.41 817.9 1134.14 865.03 1199.27 882.29 1226.76 863.14 1295.34 877.35 1334.67 938.28 1318.58 1007.66 1234.67 1038.41 1193.45 1027.92 1127.62 1036.24 1110.63 1026.11 1075.99 1043.13 1012.75 1016.47 994.6 1034.5 908.61 1034.18 871.03 1045.09 806.65 1026.41 755.49 1044.27 688.68 994.39 677.19 931.01 663.1 922.86 619.37 927.3 593.42 904.32
+Comment: 0,0:22:45.05,0:23:25.05,0$Default,,0,0,0,,== POST-ED ==
+Dialogue: 1,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:45.05,0:22:48.72,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(672,1037.2)}Sky Hawk and Turtle Shell
+Dialogue: 0,0:22:48.72,0:23:10.08,0$Take H,,0,0,0,,{\c&H030309&\bord4\blur1\fs90\3c&H030309&\shad0\pos(672,1037.2)}Sky Hawk and Turtle Shell
+Dialogue: 1,0:23:10.08,0:23:25.05,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:10.08,0:23:25.05,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:19.50,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,720)}The Battle Continues! Chup Cries Out!
+Dialogue: 1,0:23:19.50,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H0401F0&\bord4\fade(450,0)\c&H0401F0&\blur0.7\pos(972,720)}The Battle Continues! Chup Cries Out!
+Dialogue: 0,0:23:19.50,0:23:25.05,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,720)}The Battle Continues! Chup Cries Out!
+Dialogue: 1,0:19:33.07,0:19:37.82,0$TSSLyricsEDRomanji,,0,0,0,,{\kf98\3c&H70BE0E&\2c&H537F17&\bord0}shobokure {\kf40}gao {\kf16}no {\kf70}mobukyara {\kf54}domo {\kf110}ga{\kf87}
+Dialogue: 0,0:19:33.07,0:19:37.82,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}shobokure gao no mobukyara domo ga
+Dialogue: 1,0:19:33.07,0:19:37.82,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}On and on these tired old NPCs
+Dialogue: 0,0:19:33.07,0:19:37.82,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}On and on these tired old NPCs
+Dialogue: 1,0:19:37.82,0:19:42.74,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&H70BE0E&\2c&H537F17&\bord0}iiwake {\kf118}shinagara {\kf40}aru{\kf32}ite{\kf90}ru{\kf93}
+Dialogue: 0,0:19:37.82,0:19:42.74,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}iiwake shinagara aruiteru
+Dialogue: 1,0:19:37.82,0:19:42.74,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Keep walking around excusing themselves
+Dialogue: 0,0:19:37.82,0:19:42.74,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Keep walking around excusing themselves
+Dialogue: 1,0:19:42.74,0:19:47.62,0$TSSLyricsEDRomanji,,0,0,0,,{\kf91\3c&H70BE0E&\2c&H537F17&\bord0}itsumo {\kf36}mi{\kf66}teiru {\kf118}michisuga{\kf80}ra{\kf101}
+Dialogue: 0,0:19:42.74,0:19:47.62,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}itsumo miteiru michisugara
+Dialogue: 1,0:19:42.74,0:19:47.62,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}As I took the same old path again
+Dialogue: 0,0:19:42.74,0:19:47.62,0$TSSLyricsEDEng,,0,0,0,,{\1c&H70BE0E&\3c&H1D83E8&\4c&H1D83E8&}As I took the same old path again
+Dialogue: 1,0:19:47.62,0:19:52.80,0$TSSLyricsEDRomanji,,0,0,0,,{\kf63\3c&H70BE0E&\2c&H537F17&\bord0}mita {\kf66}koto {\kf24}mo {\kf76}nai {\kf76}wakuwaku {\kf26}wo {\kf28}mi{\kf118}ta{\kf41}
+Dialogue: 0,0:19:47.62,0:19:52.80,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H72A902&\3c&H72A902&\4c&H72A902&}mita koto mo nai wakuwaku wo mita
+Dialogue: 1,0:19:47.62,0:19:52.80,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}I found the thrill I've sought for my whole life
+Dialogue: 0,0:19:47.62,0:19:52.80,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}I found the thrill I've sought for my whole life
+Dialogue: 1,0:19:52.80,0:19:57.84,0$TSSLyricsEDRomanji,,0,0,0,,{\kf29\kf66\3c&HDD8623&\2c&H9C6521&\bord0\4c&H3C2116&}itsumade {\kf64}shibon{\kf30}da {\kf28}mama {\kf26}na{\kf66}no{\kf195}
+Dialogue: 0,0:19:52.80,0:19:57.84,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}itsumade shibonda mama nano
+Dialogue: 1,0:19:52.80,0:19:57.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}Just how long will I keep drooping around like this?
+Dialogue: 0,0:19:52.80,0:19:57.84,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}Just how long will I keep drooping around like this?
+Dialogue: 1,0:19:57.84,0:20:01.93,0$TSSLyricsEDRomanji,,0,0,0,,{\kf17\kf76\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}minikui {\kf58}ahiru {\kf24}no {\kf26}mama {\kf26}na{\kf78}no{\kf104}
+Dialogue: 0,0:19:57.84,0:20:01.93,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}minikui ahiru no mama nano
+Dialogue: 1,0:19:57.84,0:20:01.93,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}How long will I stay an ugly duckling?
+Dialogue: 0,0:19:57.84,0:20:01.93,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}How long will I stay an ugly duckling?
+Dialogue: 1,0:20:01.93,0:20:05.02,0$TSSLyricsEDRomanji,,0,0,0,,{\kf34\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}ima {\kf24}no {\kf66}rebe{\kf36}ru {\kf30}wa {\kf34}ichi {\kf85}dakedo
+Dialogue: 0,0:20:01.93,0:20:05.02,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima no reberu wa ichi dakedo
+Dialogue: 1,0:20:01.93,0:20:05.02,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}I'm still only level one
+Dialogue: 0,0:20:01.93,0:20:05.02,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}I'm still only level one
+Dialogue: 1,0:20:05.02,0:20:12.27,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HDD8623&\2c&H9C6521&\4c&H3C2116&\bord0}i{\kf44}ma {\kf24}ni {\kf62}mitero {\kf38}yo {\kf68}sono {\kf98}uchi{\kf36} {\kf62}JUMP {\kf142}UP{\kf80}
+Dialogue: 0,0:20:05.02,0:20:12.27,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HDD8623&\3c&HDD8623&\4c&HDD8623&}ima ni mitero yo sono uchi JUMP UP
+Dialogue: 1,0:20:05.02,0:20:12.27,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\bord0\4c&H470D96&}But watch me, soon I'll jump up
+Dialogue: 0,0:20:05.02,0:20:12.27,0$TSSLyricsEDEng,,0,0,0,,{\3c&H5000EF&\4c&H5000EF&}But watch me, soon I'll jump up
+Dialogue: 1,0:20:12.27,0:20:17.32,0$TSSLyricsEDRomanji,,0,0,0,,{\kf146\3c&H342035&\2c&H501F4F&\bord0\4c&H342035&}sai{\kf48}kin {\kf46}no{\kf20} {\kf100}wakai {\kf52}mon {\kf38}wa {\kf59}tte
+Dialogue: 0,0:20:12.27,0:20:17.32,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}saikin no wakai mon wa tte
+Dialogue: 1,0:20:12.27,0:20:17.32,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}"Why, kids these days..."
+Dialogue: 0,0:20:12.27,0:20:17.32,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}"Why, kids these days..."
+Dialogue: 1,0:20:17.32,0:20:22.24,0$TSSLyricsEDRomanji,,0,0,0,,{\kf67\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}toshiyori {\kf44}domo {\kf28}ga {\kf48}boyai {\kf40}teru {\kf20}ke{\kf86}do{\kf159}
+Dialogue: 0,0:20:17.32,0:20:22.24,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}toshiyori domo ga boyai teru kedo
+Dialogue: 1,0:20:17.32,0:20:22.24,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}...Our old boomers grumble and complain
+Dialogue: 0,0:20:17.32,0:20:22.24,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}...Our old boomers grumble and complain
+Dialogue: 1,0:20:22.24,0:20:27.16,0$TSSLyricsEDRomanji,,0,0,0,,{\kf115\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}soro {\kf100}soro{\kf32} {\kf60}omei {\kf94}henjou {\kf60}da{\kf31}
+Dialogue: 0,0:20:22.24,0:20:27.16,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}soro soro omei henjou da
+Dialogue: 1,0:20:22.24,0:20:27.16,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}But it's not too late to clear my name
+Dialogue: 0,0:20:22.24,0:20:27.16,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}But it's not too late to clear my name
+Dialogue: 1,0:20:27.16,0:20:29.79,0$TSSLyricsEDRomanji,,0,0,0,,{\kf110\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}iya ga ou ni {\kf25}mo {\kf72}mattanashi {\kf56}daze
+Dialogue: 0,0:20:27.16,0:20:29.79,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}iya ga ou ni mo mattanashi daze
+Dialogue: 1,0:20:27.16,0:20:29.79,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I might not like it, but I can't wait any longer
+Dialogue: 0,0:20:27.16,0:20:29.79,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I might not like it, but I can't wait any longer
+Dialogue: 1,0:20:29.79,0:20:35.92,0$TSSLyricsEDRomanji,,0,0,0,,{\kf28\3c&HA0009F&\2c&H501F4F&\4c&H342035&\bord0}ketsu {\kf28}no {\kf26}ana {\kf36}kara {\kf94}jetto{\kf26} {\kf102}funsha{\kf32} {\kf241}daaa
+Dialogue: 0,0:20:29.79,0:20:35.92,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&HA20BB4&\3c&HA20BB4&\4c&HA20BB4&}ketsu no ana kara jetto funsha daaa
+Dialogue: 1,0:20:29.79,0:20:35.92,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\bord0\4c&H9E7022&}I gotta blast free from my cowardly shell!!
+Dialogue: 0,0:20:29.79,0:20:35.92,0$TSSLyricsEDEng,,0,0,0,,{\3c&HE4A530&\4c&HE4A530&}I gotta blast free from my cowardly shell!!
+Dialogue: 1,0:20:35.92,0:20:40.76,0$TSSLyricsEDRomanji,,0,0,0,,{\kf59\3c&H76B118&\2c&H537323&\bord0}ore {\kf28}wa {\kf106}itsuka{\kf46} {\kf60}hana {\kf50}ni {\kf32}na{\kf68}ru{\kf35}
+Dialogue: 0,0:20:35.92,0:20:40.76,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}ore wa itsuka hana ni naru
+Dialogue: 1,0:20:35.92,0:20:40.76,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}Give me time and I'll bloom like a flower
+Dialogue: 0,0:20:35.92,0:20:40.76,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}Give me time and I'll bloom like a flower
+Dialogue: 1,0:20:40.76,0:20:45.72,0$TSSLyricsEDRomanji,,0,0,0,,{\kf61\3c&H76B118&\2c&H537323&\bord0}sora {\kf36}ni {\kf52}nobi{\kf58}ru{\kf38} {\kf70}hana {\kf36}ni {\kf38}na{\kf64}ru{\kf43}
+Dialogue: 0,0:20:40.76,0:20:45.72,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&}sora ni nobiru hana ni naru
+Dialogue: 1,0:20:40.76,0:20:45.72,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&}A flower spread out to the sky
+Dialogue: 0,0:20:40.76,0:20:45.72,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&}A flower spread out to the sky
+Dialogue: 1,0:20:45.72,0:20:53.36,0$TSSLyricsEDRomanji,,0,0,0,,{\kf69\3c&H76B118&\2c&H537323&\fade(0,500)\bord0}kimi {\kf22}ni {\kf56}todo{\kf50}ku{\kf38} {\kf80}ha{\kf62}na {\kf62}ni {\kf56}na{\kf18}r{\kf251}u
+Dialogue: 0,0:20:45.72,0:20:53.36,0$TSSLyricsEDRomanji,,0,0,0,,{\1c&H75AA00&\3c&H75AA00&\4c&H75AA00&\fade(0,500)}kimi ni todoku hana ni naru
+Dialogue: 1,0:20:45.72,0:20:53.36,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\bord0\4c&H306CB1&\fade(0,500)}The flower that reaches you
+Dialogue: 0,0:20:45.72,0:20:53.36,0$TSSLyricsEDEng,,0,0,0,,{\3c&H1D83E8&\4c&H1D83E8&\fade(0,500)}The flower that reaches you
+

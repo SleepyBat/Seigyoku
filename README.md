@@ -5,6 +5,8 @@ These may include updates from original releases for quality purposes. Any updat
 Up-to-date with releases:
 - The Snack World (series + short-films)
 - Line Town
+- Noble Farmer (Hyakushou Kizoku) 2nd Season / 15+
+- Punirunes Puni2
 
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)

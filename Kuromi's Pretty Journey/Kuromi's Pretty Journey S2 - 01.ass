@@ -1,0 +1,52 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.48,0:00:07.48,RiskySubs,Kuromi,0,0,0,,Whaaat?!
+Dialogue: 0,0:00:09.98,0:00:11.90,RiskySubs,Kuromi,0,0,0,,{\i1}Halloween, Halloween!
+Dialogue: 0,0:00:11.90,0:00:14.02,RiskySubs,Kuromi,0,0,0,,It may be Halloween for everyone else,
+Dialogue: 0,0:00:14.02,0:00:15.98,RiskySubs,Kuromi,0,0,0,,but it's got nothing to do with me!
+Dialogue: 0,0:00:16.75,0:00:18.35,RiskySubs,Kuromi,0,0,0,,'Cuz today...
+Dialogue: 0,0:00:18.73,0:00:20.77,RiskySubs,Kuromi,0,0,0,,is my birthday!
+Dialogue: 0,0:00:20.77,0:00:23.23,RiskySubs,Baku,0,0,0,,Gotta set out the cake and drinks.
+Dialogue: 0,0:00:23.23,0:00:24.77,RiskySubs,Kuromi,0,0,0,,What the heck?!
+Dialogue: 0,0:00:24.77,0:00:26.60,RiskySubs,Collimo,0,0,0,,What are you huffing about?
+Dialogue: 0,0:00:27.60,0:00:28.98,RiskySubs,Collimo,0,0,0,,Have a snack!
+Dialogue: 0,0:00:29.98,0:00:31.19,RiskySubs,Kuromi,0,0,0,,Yo, Baku!
+Dialogue: 0,0:00:31.19,0:00:32.98,RiskySubs,Kuromi,0,0,0,,Why are you decorating\Nfor Halloween?
+Dialogue: 0,0:00:32.98,0:00:35.23,RiskySubs,Baku,0,0,0,,I have your cake right here, Miss Kuromi.
+Dialogue: 0,0:00:35.23,0:00:37.10,RiskySubs,Gureco,0,0,0,,Today's a big day!
+Dialogue: 0,0:00:37.10,0:00:39.60,RiskySubs,Kuromi,0,0,0,,I knew you'd get it, Gureco!
+Dialogue: 0,0:00:40.98,0:00:43.48,RiskySubs,Gureco,0,0,0,,I got you the perfect costume!
+Dialogue: 0,0:00:43.48,0:00:46.64,RiskySubs,Gureco,0,0,0,,But I couldn't decide what was best,\Nso I bought quite a few.
+Dialogue: 0,0:00:47.30,0:00:49.12,RiskySubs,Collimo,0,0,0,,That's way more than "a few..."
+Dialogue: 0,0:00:50.56,0:00:52.23,RiskySubs,Kuromi,0,0,0,,I can't believe you guys...
+Dialogue: 0,0:00:52.23,0:00:54.92,RiskySubs,Kuromi,0,0,0,,Why are you getting into the Halloween spirit?!
+Dialogue: 0,0:00:54.92,0:00:56.81,RiskySubs,Kuromi,0,0,0,,You {\i1}know{\i0} today's my birthday!
+Dialogue: 0,0:01:00.77,0:01:02.69,RiskySubs,Koni,0,0,0,,Oni...
+Dialogue: 0,0:01:06.65,0:01:10.27,RiskySubs,Kuromi,0,0,0,,They're unbelievable.\NAll they care about is Halloween.
+Dialogue: 0,0:01:10.27,0:01:12.81,RiskySubs,Kuromi,0,0,0,,What happened to celebrating my birthday?
+Dialogue: 0,0:01:12.81,0:01:15.02,RiskySubs,Kuromi,0,0,0,,I feel so stupid for getting my hopes up.
+Dialogue: 0,0:01:15.77,0:01:17.44,RiskySubs,Kuromi,0,0,0,,This world stinks...
+Dialogue: 0,0:01:17.44,0:01:19.69,RiskySubs,Kuromi,0,0,0,,I hate it so much!
+Dialogue: 0,0:01:21.77,0:01:22.77,RiskySubs,Kuromi,0,0,0,,What the?
+Dialogue: 0,0:01:36.64,0:01:38.28,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.28,0:01:40.19,RiskySubs,Kuromi,0,0,0,,"A mysterious dashing prince."
+Dialogue: 0,0:01:40.19,0:01:42.19,RiskySubs,Kuromi,0,0,0,,What's a prince doing in a zombie world?
+Dialogue: 0,0:01:42.19,0:01:43.94,RiskySubs,Kuromi,0,0,0,,Could it be...?
+Dialogue: 0,0:00:09.98,0:00:10.98,Sign,Sign,0,0,0,,{\pos(994,500)\fade(0,355)}October 31st, 10:31
+Dialogue: 0,0:01:02.69,0:01:04.46,Sign,,0,0,0,,{\pos(1110,502)\fade(0,150)}"Miss Kuromi's Birthday Plan! \N(And Halloween Celebration)"
+Dialogue: 0,0:01:06.65,0:01:12.40,Sign,,0,0,0,,{\pos(966,670)}Kuromi's Truth Bombs {Screen name / Lifting from dub bc I like}
+

@@ -7,6 +7,7 @@ Up-to-date with releases:
 - Line Town
 - Noble Farmer (Hyakushou Kizoku) 2nd Season / 15+
 - Punirunes Puni2
+- Kuromi's Pretty Journey S2
 
 Fully archived:
 - Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)

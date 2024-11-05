@@ -2,21 +2,19 @@ Subtitle scripts for Lumpstud/Seigyoku releases.
 
 These may include updates from original releases for quality purposes. Any updates will likely be used for future batches.
 
-Up-to-date with releases:
-- The Snack World (series + short-films)
+Ongoing Projects:
+- The Snack World
 - Line Town
-- Noble Farmer (Hyakushou Kizoku) 2nd Season / 15+
-- Punirunes Puni2
+- Hyakushou Kizoku (Noble Farmer)
+- Punirunes / Punirunes Puni2
 - Kuromi's Pretty Journey S2
 
-Fully archived:
-- Cap Revolution Bottleman DX (series + Side Story shorts) (Cap Kakumei Bottleman DX)
-- Punirunes
-- Noble Farmer (Hyakushou Kizoku)
-- Dog Signal
-- Too Cute Crisis (Kawaisugi Crisis)
-- Dino Girl Gauko (pilot shorts) (Kyouryuu Shoujo Gauko)
-- Ninjala
-- The Bears' School movies (Kuma no Gakkou)
+Finished Projects:
+- Cap Kakumei Bottleman DX / Cap Kakumei Bottleman DX Side Story (Cap Revolution Bottleman DX)
+- Kawaisugi Crisis (Too Cute Crisis)
+- Kuma no Gakkou films (The Bears' School)
+- Kyouryuu Shoujo Gauko (2017) (Dino Girl Gauko)
 
-Old Yo-kai Watch releases will be added once they've been revised in the future.
+Dropped Projects:
+- Dog Signal (eps 1-5)
+- Ninjala (eps 1-19)

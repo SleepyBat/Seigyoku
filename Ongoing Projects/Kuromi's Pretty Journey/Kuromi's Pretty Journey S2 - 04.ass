@@ -1,0 +1,64 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.35,RiskySubs,Nico,0,0,0,,Oh, it's the Kuromi from this world!
+Dialogue: 0,0:00:02.35,0:00:04.28,RiskySubs,Kuromi,0,0,0,,I-I'm so cute, even as a zombie!
+Dialogue: 0,0:00:04.28,0:00:05.24,RiskySubs,Zom!Kuromi,0,0,0,,Thanks for comin'!
+Dialogue: 0,0:00:05.24,0:00:06.54,RiskySubs,Zom!Kuromi,0,0,0,,Want a candy, hun?
+Dialogue: 0,0:00:07.90,0:00:10.77,RiskySubs,Zom!Kuromi,0,0,0,,Now you can be part'a\Nthe ZOMBIfy the World Project too!
+Dialogue: 0,0:00:10.77,0:00:12.52,RiskySubs,Kuromi,0,0,0,,ZOMBIfy the World Project?
+Dialogue: 0,0:00:12.52,0:00:15.90,RiskySubs,Zom!Kuromi,0,0,0,,Got that right! Zombies don't gotta\Nthink about anythin'!
+Dialogue: 0,0:00:15.90,0:00:18.15,RiskySubs,Zom!Kuromi,0,0,0,,The world's way happier like this!
+Dialogue: 0,0:00:18.15,0:00:20.02,RiskySubs,Gureco,0,0,0,,I'm happy bein' a zombie!
+Dialogue: 0,0:00:20.02,0:00:22.85,RiskySubs,Zom!Kuromi,0,0,0,,We make more zombies\Nthrough this scallion cola!
+Dialogue: 0,0:00:22.85,0:00:24.60,RiskySubs,Zombies,0,0,0,,Scallion for life!
+Dialogue: 0,0:00:24.60,0:00:27.27,RiskySubs,Kuromi,0,0,0,,What?! I already drank it!
+Dialogue: 0,0:00:27.27,0:00:29.27,RiskySubs,Collimo,0,0,0,,You should get zombified\Nreal soon!
+Dialogue: 0,0:00:30.30,0:00:32.10,RiskySubs,Kuromi,0,0,0,,I can feel it...
+Dialogue: 0,0:00:32.10,0:00:32.98,RiskySubs,Kuromi,0,0,0,,Nothing.
+Dialogue: 0,0:00:32.98,0:00:36.00,RiskySubs,Nico,0,0,0,,I suppose since you forget\Nyour troubles overnight,
+Dialogue: 0,0:00:36.00,0:00:37.40,RiskySubs,Nico,0,0,0,,it won't work on you.
+Dialogue: 0,0:00:37.40,0:00:38.80,RiskySubs,Zombies,0,0,0,,It won't?!
+Dialogue: 0,0:00:38.80,0:00:39.94,RiskySubs,Kuromi,0,0,0,,Of course not!
+Dialogue: 0,0:00:39.94,0:00:42.77,RiskySubs,Kuromi,0,0,0,,Besides, life's no fun\Nwithout a few challenges!
+Dialogue: 0,0:00:42.78,0:00:44.60,RiskySubs,Zom!Kuromi,0,0,0,,Ugh, you sure are difficult.
+Dialogue: 0,0:00:44.60,0:00:46.44,RiskySubs,Zom!Kuromi,0,0,0,,Get rid of that eyesore!
+Dialogue: 0,0:00:46.44,0:00:49.19,RiskySubs,Nico,0,0,0,,Welp, I can't interfere,\Nbut I can cheer you on!
+Dialogue: 0,0:00:49.19,0:00:50.56,RiskySubs,Kuromi,0,0,0,,You have one job, dude!
+Dialogue: 0,0:00:50.56,0:00:51.27,RiskySubs,Kuromi,0,0,0,,Oh, right!
+Dialogue: 0,0:00:53.90,0:00:55.52,RiskySubs,Collimo,0,0,0,,So spicy!!
+Dialogue: 0,0:00:56.31,0:00:58.02,RiskySubs,Zom!Kuromi,0,0,0,,Heat! It's every zombie's weakness!
+Dialogue: 0,0:00:58.35,0:00:59.94,RiskySubs,Nico,0,0,0,,Kuromi, take MM!
+Dialogue: 0,0:01:00.27,0:01:02.77,RiskySubs,Nico,0,0,0,,Tap it against zombie-you!
+Dialogue: 0,0:01:03.35,0:01:03.90,RiskySubs,Kuromi,0,0,0,,Boop.
+Dialogue: 0,0:01:03.90,0:01:05.06,RiskySubs,MM,0,0,0,,Universe!
+Dialogue: 0,0:01:06.15,0:01:08.24,RiskySubs,Kuromi,0,0,0,,Huh?! What just happened?
+Dialogue: 0,0:01:08.24,0:01:10.98,RiskySubs,MM,0,0,0,,I am the Multiverse Mobile,\Nor MM for short.
+Dialogue: 0,0:01:10.98,0:01:13.26,RiskySubs,MM,0,0,0,,An equipment used by\NUniverse Patrol.
+Dialogue: 0,0:01:13.26,0:01:16.34,RiskySubs,MM,0,0,0,,Tapping me against a key\Nopens the door between dimensions.
+Dialogue: 0,0:01:16.34,0:01:18.15,RiskySubs,Kuromi,0,0,0,,Wait, so I'm the key?
+Dialogue: 0,0:01:18.15,0:01:22.10,RiskySubs,Nico,0,0,0,,It just happens to look like you!\NFunny coincidence, right?
+Dialogue: 0,0:01:22.10,0:01:23.06,RiskySubs,Kuromi,0,0,0,,Freaky.
+Dialogue: 0,0:01:23.06,0:01:24.81,RiskySubs,Kuromi,0,0,0,,So if I step through this door...?
+Dialogue: 0,0:01:24.81,0:01:26.85,RiskySubs,Nico,0,0,0,,You'll go back to your home world!
+Dialogue: 0,0:01:26.85,0:01:28.35,RiskySubs,Nico,0,0,0,,And my mission will be complete.
+Dialogue: 0,0:01:28.35,0:01:29.98,RiskySubs,Zombies,0,0,0,,Have a safe trip!
+Dialogue: 0,0:01:36.35,0:01:38.35,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.35,0:01:39.98,RiskySubs,Kuromi,0,0,0,,"A villainess!"
+Dialogue: 0,0:01:40.35,0:01:43.19,RiskySubs,Kuromi,0,0,0,,I look totally cute like this!
+Dialogue: 0,0:00:12.52,0:00:20.02,Sign,Sign,0,0,0,,{\pos(960,298.667)}#ZOMBIFYTHEWORLDProject
+

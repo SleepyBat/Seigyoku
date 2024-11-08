@@ -1,0 +1,58 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,67,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.48,0:00:07.48,RiskySubs,Kuromi,0,0,0,,Ugh, where are we?
+Dialogue: 0,0:00:07.48,0:00:09.98,RiskySubs,Nico,0,0,0,,Huh? That's odd.
+Dialogue: 0,0:00:09.98,0:00:12.10,RiskySubs,Nico,0,0,0,,We're in a different world entirely.
+Dialogue: 0,0:00:14.98,0:00:16.27,RiskySubs,Kuromi,0,0,0,,What's the big idea?!
+Dialogue: 0,0:00:16.27,0:00:17.98,RiskySubs,Nico,0,0,0,,I swear, I followed the manual...
+Dialogue: 0,0:00:17.98,0:00:22.98,RiskySubs,Kuromi,0,0,0,,Do we have to tap the me\Nfrom this world to get out?
+Dialogue: 0,0:00:22.98,0:00:25.31,RiskySubs,Nico,0,0,0,,Don't worry. I'll get you home safe and sound.
+Dialogue: 0,0:00:25.31,0:00:28.19,RiskySubs,Kuromi,0,0,0,,Bold words, considering you've done\Nnothing right so far.
+Dialogue: 0,0:00:28.19,0:00:28.98,RiskySubs,Baku,0,0,0,,Kuromi!
+Dialogue: 0,0:00:28.98,0:00:30.35,RiskySubs,Baku,0,0,0,,What are you doing?
+Dialogue: 0,0:00:30.35,0:00:31.85,RiskySubs,Kuromi,0,0,0,,Hey, it's you, Baku!
+Dialogue: 0,0:00:32.27,0:00:33.85,RiskySubs,Baku,0,0,0,,Don't act so cocky, Kuromi!
+Dialogue: 0,0:00:33.85,0:00:34.98,RiskySubs,Baku,0,0,0,,Get cleaning!
+Dialogue: 0,0:00:37.98,0:00:39.77,RiskySubs,Kuromi,0,0,0,,{\i1}I'm{\i0} not cocky! {\i1}You're{\i0} cocky!
+Dialogue: 0,0:00:39.77,0:00:42.06,RiskySubs,Nico,0,0,0,,That's this world's Baku, not yours.
+Dialogue: 0,0:00:42.06,0:00:43.23,RiskySubs,Gothic!Kuromi,0,0,0,,Who could you be?
+Dialogue: 0,0:00:43.98,0:00:45.44,RiskySubs,Kuromi,0,0,0,,Is that this world's me?
+Dialogue: 0,0:00:45.44,0:00:47.98,RiskySubs,Gothic!Kuromi,0,0,0,,You bare a striking resemblance to me...
+Dialogue: 0,0:00:47.98,0:00:49.40,RiskySubs,Kuromi/Nico,0,0,0,,Hip hip hooray!
+Dialogue: 0,0:00:49.40,0:00:50.81,RiskySubs,Kuromi,0,0,0,,Alright, pal, put 'em up!
+Dialogue: 0,0:00:50.81,0:00:52.48,RiskySubs,Nico,0,0,0,,You look terrifying...
+Dialogue: 0,0:00:55.48,0:00:59.60,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}My engagement got broken off\NAnd now I'm getting picked on
+Dialogue: 0,0:00:56.60,0:00:57.48,Sign,Sign,0,0,0,,{\an5\fs50\pos(1160,368)}The Ballad of a Hapless,\NYet Beautiful Fair Maiden
+Dialogue: 0,0:00:59.60,0:01:01.94,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}In Count Baku's castle
+Dialogue: 0,0:01:01.94,0:01:05.19,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}This is all My Melody's fault
+Dialogue: 0,0:01:05.19,0:01:07.23,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}She drives me nuts
+Dialogue: 0,0:01:07.23,0:01:09.90,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}Though Count Baku's a big meanie too
+Dialogue: 0,0:01:09.90,0:01:15.40,RiskySubs,Gothic!Kuromi,0,0,0,,{\an8\i1}I hope I can break free from here someday
+Dialogue: 0,0:01:02.48,0:01:04.60,RiskySubs,Nico,0,0,0,,Is this song just her venting?
+Dialogue: 0,0:01:04.60,0:01:07.73,RiskySubs,Nico,0,0,0,,This world's Kuromi sure\Nlived through some hardships...
+Dialogue: 0,0:01:07.73,0:01:10.06,RiskySubs,Kuromi,0,0,0,,Her concept seems familiar.
+Dialogue: 0,0:01:10.06,0:01:12.56,RiskySubs,Kuromi,0,0,0,,Is she... a villainess?!
+Dialogue: 0,0:01:17.48,0:01:19.48,RiskySubs,Kuromi,0,0,0,,I can't tap her yet...
+Dialogue: 0,0:01:19.48,0:01:21.48,RiskySubs,Kuromi,0,0,0,,I gotta save her first!
+Dialogue: 0,0:01:21.48,0:01:24.48,RiskySubs,Kuromi,0,0,0,,The villainess always gets\Npunished in the end!
+Dialogue: 0,0:01:24.65,0:01:29.98,Sign,Sign,0,0,0,,{\fade(250,0)\i1\pos(955.333,81.333)}I became a princess to save the villainess Kuromi!{\i0}
+Dialogue: 0,0:01:26.85,0:01:27.56,RiskySubs,Kuromi,0,0,0,,It's a plan!
+Dialogue: 0,0:01:27.56,0:01:28.48,RiskySubs,Nico,0,0,0,,Say what?!
+Dialogue: 0,0:01:36.40,0:01:38.35,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.35,0:01:39.94,RiskySubs,Kuromi,0,0,0,,"An evil look!"
+

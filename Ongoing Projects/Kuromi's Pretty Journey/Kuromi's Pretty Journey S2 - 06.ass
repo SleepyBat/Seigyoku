@@ -1,0 +1,63 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:03.15,RiskySubs,Kuromi,0,0,0,,The villainess is a role in a tragedy work:
+Dialogue: 0,0:00:03.15,0:00:05.98,RiskySubs,Kuromi,0,0,0,,a character born into villainy,\Nfated to punishment.
+Dialogue: 0,0:00:05.98,0:00:08.15,RiskySubs,Kuromi,0,0,0,,But I'm gonna show that\NCount Baku who's boss,
+Dialogue: 0,0:00:08.15,0:00:10.06,RiskySubs,Kuromi,0,0,0,,and save this world's me!
+Dialogue: 0,0:00:10.27,0:00:11.60,RiskySubs,Baku,0,0,0,,Have you finished cleaning?
+Dialogue: 0,0:00:11.60,0:00:12.94,RiskySubs,Kuromi,0,0,0,,All done!
+Dialogue: 0,0:00:13.77,0:00:15.77,RiskySubs,Baku,0,0,0,,It's empty!!
+Dialogue: 0,0:00:15.77,0:00:17.81,RiskySubs,Kuromi,0,0,0,,I made the room sparkling clean!
+Dialogue: 0,0:00:17.81,0:00:19.94,RiskySubs,Kuromi,0,0,0,,Oh, and prepared your\Ntakoyaki lunch!
+Dialogue: 0,0:00:19.94,0:00:21.27,RiskySubs,Baku,0,0,0,,Looks delish!
+Dialogue: 0,0:00:21.27,0:00:22.73,RiskySubs,Kuromi,0,0,0,,Oh no! Gotta test for poison.
+Dialogue: 0,0:00:24.10,0:00:26.15,RiskySubs,Kuromi,0,0,0,,Oh, I better clean the paintings too!
+Dialogue: 0,0:00:26.15,0:00:27.40,RiskySubs,Baku,0,0,0,,You're ripping them!!
+Dialogue: 0,0:00:27.10,0:00:28.69,RiskySubs,Kuromi,0,0,0,,{\an8}Let's open up the windows!
+Dialogue: 0,0:00:28.69,0:00:30.27,RiskySubs,Baku,0,0,0,,You're {\i1}smashing{\i0} them!!
+Dialogue: 0,0:00:30.27,0:00:32.19,RiskySubs,Kuromi,0,0,0,,How about I open the doors too?
+Dialogue: 0,0:00:32.19,0:00:34.19,RiskySubs,Kuromi,0,0,0,,Oh my, so sorry!
+Dialogue: 0,0:00:33.27,0:00:34.56,RiskySubs,Baku,0,0,0,,{\an8}That's enough!!
+Dialogue: 0,0:00:34.56,0:00:36.56,RiskySubs,Baku,0,0,0,,{\an8}Cut it out!!
+Dialogue: 0,0:00:38.27,0:00:40.19,RiskySubs,Baku,0,0,0,,You two are twins...?
+Dialogue: 0,0:00:40.19,0:00:42.65,RiskySubs,Kuromi,0,0,0,,You don't want anymore, do ya?
+Dialogue: 0,0:00:42.65,0:00:45.73,RiskySubs,Kuromi,0,0,0,,Then promise you won't\Npick on Kuromi no more!
+Dialogue: 0,0:00:47.23,0:00:48.90,RiskySubs,Baku,0,0,0,,I promise, Kuromi!
+Dialogue: 0,0:00:48.90,0:00:51.02,RiskySubs,Baku,0,0,0,,I apologize for everything!
+Dialogue: 0,0:00:51.02,0:00:52.19,RiskySubs,Kuromi,0,0,0,,That's {\i1}Miss{\i0} Kuromi!
+Dialogue: 0,0:00:52.19,0:00:53.48,RiskySubs,Baku,0,0,0,,Miss Kuromi!!
+Dialogue: 0,0:00:54.35,0:00:56.44,RiskySubs,Kuromi,0,0,0,,Welp, that's that!
+Dialogue: 0,0:00:56.44,0:00:59.48,RiskySubs,Kuromi,0,0,0,,Time to tap you\Nand go back to my own... world?
+Dialogue: 0,0:00:59.48,0:01:01.23,RiskySubs,Gothic!Kuromi,0,0,0,,I cannot allow you to leave.
+Dialogue: 0,0:01:01.23,0:01:03.31,RiskySubs,Kuromi,0,0,0,,What?! But I saved your butt!
+Dialogue: 0,0:01:03.31,0:01:06.65,RiskySubs,Gothic!Kuromi,0,0,0,,Maybe so, but your actions\Nwere truly heinous!
+Dialogue: 0,0:01:06.65,0:01:07.40,RiskySubs,Nico,0,0,0,,She's right...
+Dialogue: 0,0:01:07.40,0:01:08.98,RiskySubs,Kuromi,0,0,0,,Don't listen to her!!
+Dialogue: 0,0:01:08.98,0:01:12.52,RiskySubs,Gothic!Kuromi,0,0,0,,You taught me that I can change my fate.
+Dialogue: 0,0:01:12.52,0:01:16.02,RiskySubs,Gothic!Kuromi,0,0,0,,So I must work harder as a villain!
+Dialogue: 0,0:01:17.23,0:01:17.77,RiskySubs,Kuromi,0,0,0,,Huh?
+Dialogue: 0,0:01:17.77,0:01:20.06,RiskySubs,Gothic!Kuromi,0,0,0,,Villainy is justice here!
+Dialogue: 0,0:01:20.06,0:01:23.15,RiskySubs,Gothic!Kuromi,0,0,0,,I'm going to become a villainess queen!
+Dialogue: 0,0:01:23.15,0:01:24.56,RiskySubs,Kuromi/Nico,0,0,0,,S-Say what?!
+Dialogue: 0,0:01:24.56,0:01:25.90,RiskySubs,Baku,0,0,0,,Oh, Miss Kuromi!
+Dialogue: 0,0:01:25.90,0:01:29.98,RiskySubs,Gothic!Kuromi,0,0,0,,I challenge you to see which one of us\Nis more fit to be this world's villainess queen!
+Dialogue: 0,0:01:37.44,0:01:38.98,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:39.48,0:01:42.40,RiskySubs,Kuromi,0,0,0,,"Infinity tempest crossover!"
+Dialogue: 0,0:01:43.19,0:01:43.94,RiskySubs,Kuromi,0,0,0,,The heck?
+Dialogue: 0,0:01:15.91,0:01:17.23,Sign,Sign,0,0,0,,{\pos(957.33,759.33)}#VILLAINIFYTHEWORLDProject
+

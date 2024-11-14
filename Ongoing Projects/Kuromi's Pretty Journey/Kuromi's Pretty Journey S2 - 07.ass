@@ -1,0 +1,55 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.81,Sign,Sign,0,0,0,,{\pos(966,230)}Kuromi and Nico rescued the villainess Kuromi,\Nbut now they're competing for the name of true villainess?!
+Dialogue: 0,0:00:01.81,0:00:02.98,RiskySubs,Gothic!Kuromi,0,0,0,,We shall compete...
+Dialogue: 0,0:00:02.98,0:00:06.28,RiskySubs,Gothic!Kuromi,0,0,0,,...in infinity tempest crossover!
+Dialogue: 0,0:00:06.62,0:00:07.98,RiskySubs,Kuromi,0,0,0,,Y'mean ping pong?!
+Dialogue: 0,0:00:08.36,0:00:11.56,RiskySubs,Baku,0,0,0,,The first to five points\Nis the villainess queen!
+Dialogue: 0,0:00:07.98,0:00:11.56,Sign,Sign,0,0,0,,{\pos(1469.333,368.667)}Rules: First to five wins!
+Dialogue: 0,0:00:11.56,0:00:14.56,RiskySubs,Kuromi,0,0,0,,Villainess queen, eh?\NI could take a liking to that!
+Dialogue: 0,0:00:16.98,0:00:18.98,RiskySubs,Kuromi,0,0,0,,Take this...!
+Dialogue: 0,0:00:21.62,0:00:22.31,RiskySubs,Kuromi,0,0,0,,Wait, what?
+Dialogue: 0,0:00:23.23,0:00:24.73,RiskySubs,Gothic!Kuromi,0,0,0,,How terrible you are!
+Dialogue: 0,0:00:24.73,0:00:26.15,RiskySubs,Kuromi,0,0,0,,Say that again!!
+Dialogue: 0,0:00:26.48,0:00:27.81,RiskySubs,Gothic!Kuromi,0,0,0,,Here I go!
+Dialogue: 0,0:00:31.02,0:00:32.60,RiskySubs,Kuromi,0,0,0,,You're literally no better!
+Dialogue: 0,0:00:32.60,0:00:34.40,RiskySubs,Gothic!Kuromi,0,0,0,,Time out!
+Dialogue: 0,0:00:36.15,0:00:37.94,RiskySubs,Kuromi,0,0,0,,Now that's just dirty!
+Dialogue: 0,0:00:37.94,0:00:40.73,RiskySubs,Baku,0,0,0,,What could you mean?\NI, Baku, am Miss Kuromi!
+Dialogue: 0,0:00:40.73,0:00:41.35,RiskySubs,Baku,0,0,0,,Take this!
+Dialogue: 0,0:00:42.10,0:00:43.10,RiskySubs,Baku,0,0,0,,Take this!
+Dialogue: 0,0:00:43.90,0:00:45.15,RiskySubs,Baku,0,0,0,,Smash!
+Dialogue: 0,0:00:46.80,0:00:48.77,RiskySubs,Kuromi,0,0,0,,Nico, you gotta help me!
+Dialogue: 0,0:00:48.77,0:00:51.19,RiskySubs,Nico,0,0,0,,Remember, I can't interfere.
+Dialogue: 0,0:00:51.19,0:00:52.40,RiskySubs,Kuromi,0,0,0,,Oh, just shuddup!
+Dialogue: 0,0:00:54.40,0:00:56.10,RiskySubs,Kuromi,0,0,0,,Get 'im good, Nico!
+Dialogue: 0,0:00:56.10,0:00:58.40,RiskySubs,Nico,0,0,0,,{\i1}This is for the mission...!
+Dialogue: 0,0:01:05.23,0:01:06.48,RiskySubs,Nico,0,0,0,,Huh?
+Dialogue: 0,0:01:06.48,0:01:08.10,RiskySubs,Gothic!Kuromi,0,0,0,,Victory is mine!
+Dialogue: 0,0:01:08.10,0:01:11.04,RiskySubs,Gothic!Kuromi,0,0,0,,I've become the villainess queen!
+Dialogue: 0,0:01:12.66,0:01:14.44,RiskySubs,Nico,0,0,0,,I'm sorry, Kuromi.
+Dialogue: 0,0:01:14.80,0:01:15.56,RiskySubs,Kuromi/Nico,0,0,0,,Wait.
+Dialogue: 0,0:01:15.85,0:01:18.15,RiskySubs,Kuromi/Nico,0,0,0,,Why were we fighting them?
+Dialogue: 0,0:01:18.15,0:01:21.90,RiskySubs,Kuromi,0,0,0,,Whatever. Looks like the me here is happy.
+Dialogue: 0,0:01:23.73,0:01:25.02,RiskySubs,MM,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:01:27.44,0:01:28.60,RiskySubs,Kuromi,0,0,0,,Goodbye!
+Dialogue: 0,0:01:36.46,0:01:38.31,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.31,0:01:40.00,RiskySubs,Kuromi,0,0,0,,"New Kuromi merch!"
+Dialogue: 0,0:01:40.27,0:01:41.82,RiskySubs,Kuromi,0,0,0,,New merch of me?
+Dialogue: 0,0:01:41.82,0:01:43.42,RiskySubs,Kuromi,0,0,0,,I wanna see what it is!
+

@@ -1,0 +1,56 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.15,0:00:07.10,RiskySubs,Toy!Kuromi,0,0,0,,Another taker, eh?
+Dialogue: 0,0:00:07.10,0:00:08.73,RiskySubs,Toy!Kuromi,0,0,0,,See ya later!
+Dialogue: 0,0:00:08.73,0:00:11.23,RiskySubs,Collimo,0,0,0,,They grabbed Kuromi again...
+Dialogue: 0,0:00:11.48,0:00:14.15,RiskySubs,Gureco,0,0,0,,Well, we are new characters.
+Dialogue: 0,0:00:14.15,0:00:16.10,RiskySubs,Baku,0,0,0,,Not me!
+Dialogue: 0,0:00:16.10,0:00:18.60,RiskySubs,Kuromi,0,0,0,,Huh? What world am I in now?
+Dialogue: 0,0:00:19.69,0:00:21.94,RiskySubs,Kuromi,0,0,0,,Oh no! I'm in trouble, aren't I?!
+Dialogue: 0,0:00:23.85,0:00:24.73,RiskySubs,Nico,0,0,0,,Kuromi!
+Dialogue: 0,0:00:24.73,0:00:27.23,RiskySubs,Kuromi,0,0,0,,Nico! C'mon and help me!
+Dialogue: 0,0:00:27.40,0:00:30.12,RiskySubs,Nico,0,0,0,,Your Universe Patrol rescue\Nis on the way!
+Dialogue: 0,0:00:30.40,0:00:31.23,RiskySubs,Collimo,0,0,0,,Hey!
+Dialogue: 0,0:00:31.23,0:00:33.40,RiskySubs,Collimo,0,0,0,,That's no fair, Kuromi!
+Dialogue: 0,0:00:34.73,0:00:37.31,RiskySubs,Kuromi,0,0,0,,What's your problem?\NI'm in a bit of a jam here!
+Dialogue: 0,0:00:37.31,0:00:38.94,RiskySubs,Kuromi,0,0,0,,Beg someone else to grab you!
+Dialogue: 0,0:00:38.94,0:00:39.73,RiskySubs,Gureco,0,0,0,,Huh?
+Dialogue: 0,0:00:39.73,0:00:41.35,RiskySubs,Gureco,0,0,0,,Are you new Kuromi merch?
+Dialogue: 0,0:00:41.35,0:00:42.73,RiskySubs,Gureco,0,0,0,,So cute!
+Dialogue: 0,0:00:42.90,0:00:44.98,RiskySubs,Baku,0,0,0,,Of course only Miss Kuromi\Ngets new merch...
+Dialogue: 0,0:00:45.15,0:00:48.16,RiskySubs,Collimo,0,0,0,,Well, that's what stinks\Nabout being new characters.
+Dialogue: 0,0:00:48.16,0:00:50.73,RiskySubs,Collimo,0,0,0,,We're just not popular enough\Nto have variants.
+Dialogue: 0,0:00:50.90,0:00:53.10,RiskySubs,Baku,0,0,0,,I already told you,\NI'm not new!
+Dialogue: 0,0:00:54.90,0:00:56.73,RiskySubs,Kuromi,0,0,0,,Nico, you're crushing my face!
+Dialogue: 0,0:00:56.73,0:00:59.73,RiskySubs,Nico,0,0,0,,Really? A video told me\Nthis was the way to grab you.
+Dialogue: 0,0:00:59.94,0:01:02.02,RiskySubs,Collimo,0,0,0,,I won't let you get ahead!
+Dialogue: 0,0:01:03.96,0:01:06.23,RiskySubs,Kuromi,0,0,0,,Hey, cut it out!
+Dialogue: 0,0:01:06.65,0:01:07.48,RiskySubs,Romina,0,0,0,,Jealous!
+Dialogue: 0,0:01:09.64,0:01:11.48,RiskySubs,Collimo,0,0,0,,Wh-Who a-are you?!
+Dialogue: 0,0:01:13.48,0:01:14.27,RiskySubs,Romina,0,0,0,,Kuromi!
+Dialogue: 0,0:01:14.27,0:01:15.98,RiskySubs,Romina,0,0,0,,Ignore me and get out of here!
+Dialogue: 0,0:01:16.22,0:01:18.42,RiskySubs,Kuromi,0,0,0,,Dunno who you are, but thanks!
+Dialogue: 0,0:01:19.62,0:01:20.81,RiskySubs,Nico,0,0,0,,I did it!
+Dialogue: 0,0:01:20.81,0:01:23.74,RiskySubs,Nico,0,0,0,,Now we can tap your plush\Nand move out!
+Dialogue: 0,0:01:25.88,0:01:27.16,RiskySubs,MM,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:01:28.10,0:01:29.98,RiskySubs,Gureco,0,0,0,,Someone buy us...
+Dialogue: 0,0:01:36.38,0:01:38.28,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.28,0:01:39.56,RiskySubs,Kuromi,0,0,0,,"The dark side!"
+Dialogue: 0,0:01:40.10,0:01:42.78,RiskySubs,Kuromi,0,0,0,,Am I destined to succumb\Nto the darkness...?
+Dialogue: 0,0:01:42.78,0:01:44.06,RiskySubs,Kuromi,0,0,0,,As if!
+

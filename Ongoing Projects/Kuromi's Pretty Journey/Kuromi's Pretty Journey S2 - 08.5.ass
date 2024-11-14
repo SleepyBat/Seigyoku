@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.31,RiskySubs,Kuromi,0,0,0,,{\an8}Whew...
+Dialogue: 0,0:00:01.31,0:00:04.52,RiskySubs,Kuromi,0,0,0,,{\an8}I'm so cute, even as a plush!
+Dialogue: 0,0:00:03.94,0:00:04.73,RiskySubs,Nico,0,0,0,,You sure are!
+Dialogue: 0,0:00:04.90,0:00:07.19,RiskySubs,Nico,0,0,0,,Personally, I really liked both
+Dialogue: 0,0:00:07.19,0:00:10.02,RiskySubs,Nico,0,0,0,,zombie Kuromi and villainess Kuromi!
+Dialogue: 0,0:00:09.60,0:00:11.60,RiskySubs,Kuromi,0,0,0,,{\an8}Ugh, you made my heart skip a beat.
+Dialogue: 0,0:00:11.85,0:00:15.06,RiskySubs,Kuromi,0,0,0,,{\an8}This is why I can't stand natural born hotties.
+Dialogue: 0,0:00:17.02,0:00:19.52,RiskySubs,Kuromi,0,0,0,,{\an8}I want that plush of me so bad!
+Dialogue: 0,0:00:19.02,0:00:22.15,RiskySubs,Nico,0,0,0,,That's too bad. She turned into\Nthe door between dimensions,
+Dialogue: 0,0:00:22.15,0:00:24.44,RiskySubs,Nico,0,0,0,,so we can't get her.
+Dialogue: 0,0:00:24.69,0:00:25.77,RiskySubs,Kuromi,0,0,0,,{\an8}So you're saying...
+Dialogue: 0,0:00:25.35,0:00:25.77,RiskySubs,Nico,0,0,0,,Mhm.
+Dialogue: 0,0:00:25.77,0:00:26.85,RiskySubs,Kuromi,0,0,0,,{\an8}if we had grabbed two,
+Dialogue: 0,0:00:26.85,0:00:28.98,RiskySubs,Kuromi,0,0,0,,{\an8}I could'a taken one home!
+Dialogue: 0,0:00:28.60,0:00:29.10,RiskySubs,Nico,0,0,0,,Huh?
+Dialogue: 0,0:00:29.10,0:00:31.31,RiskySubs,Kuromi,0,0,0,,{\an8}Alright! Back we go!
+Dialogue: 0,0:00:30.69,0:00:31.94,RiskySubs,Nico,0,0,0,,We can't!
+Dialogue: 0,0:00:31.94,0:00:35.15,RiskySubs,Nico,0,0,0,, Besides, we're not supposed to bring\Nthings home with us anyways!
+Dialogue: 0,0:00:35.40,0:00:37.35,RiskySubs,Kuromi,0,0,0,,{\an8}You meanie!!
+Dialogue: 0,0:00:37.52,0:00:38.48,RiskySubs,Kuromi,0,0,0,,{\an8}Then again...
+Dialogue: 0,0:00:38.69,0:00:42.40,RiskySubs,Kuromi,0,0,0,,{\an8}It was cramped in that crane machine,\Nso I can live.
+Dialogue: 0,0:00:41.90,0:00:42.65,RiskySubs,Nico,0,0,0,,Phew...
+Dialogue: 0,0:00:42.60,0:00:43.52,RiskySubs,Kuromi,0,0,0,,{\an8}Also, y'know...
+Dialogue: 0,0:00:43.90,0:00:46.02,RiskySubs,Kuromi,0,0,0,,{\an8}I'm starvin'!
+Dialogue: 0,0:00:46.60,0:00:47.23,RiskySubs,Nico,0,0,0,,Kuromi.
+Dialogue: 0,0:00:47.40,0:00:49.52,RiskySubs,Nico,0,0,0,,Do you smell something good?
+Dialogue: 0,0:00:49.90,0:00:50.77,RiskySubs,Kuromi,0,0,0,,{\an8}F'real?!
+Dialogue: 0,0:00:50.65,0:00:51.27,RiskySubs,Nico,0,0,0,,Yeah.
+Dialogue: 0,0:00:51.27,0:00:53.19,RiskySubs,Kuromi,0,0,0,,{\an8}Sniff sniff sniff...
+Dialogue: 0,0:00:53.94,0:00:55.06,RiskySubs,Kuromi,0,0,0,,{\an8}You're right!
+Dialogue: 0,0:00:55.06,0:00:56.10,RiskySubs,Kuromi,0,0,0,,{\an8}Is this smell...
+Dialogue: 0,0:00:56.10,0:00:57.44,RiskySubs,Kuromi,0,0,0,,{\an8}takoyaki?!
+Dialogue: 0,0:00:57.19,0:00:58.40,RiskySubs,Nico,0,0,0,, It must be!
+Dialogue: 0,0:00:58.40,0:00:58.98,RiskySubs,Nico,0,0,0,,(Hits him)
+Dialogue: 0,0:00:58.98,0:01:00.31,RiskySubs,Kuromi,0,0,0,,{\an8}AAAH!!
+Dialogue: 0,0:00:58.98,0:01:00.31,RiskySubs,Nico,0,0,0,,AAAH!!
+Dialogue: 0,0:01:00.73,0:01:02.81,RiskySubs,Kuromi,0,0,0,,{\an8}Nico. Nico!
+Dialogue: 0,0:01:02.31,0:01:03.77,RiskySubs,Nico,0,0,0,,Uhhhhh...
+Dialogue: 0,0:01:03.31,0:01:05.40,RiskySubs,Kuromi,0,0,0,,{\an8}Are you hiding takoyaki in your sleeve?
+Dialogue: 0,0:01:05.40,0:01:08.35,RiskySubs,Kuromi,0,0,0,,{\an8}The same takoyaki from episode 7?!
+Dialogue: 0,0:01:07.81,0:01:09.44,RiskySubs,Nico,0,0,0,,Shoot, I forgot!
+Dialogue: 0,0:01:09.35,0:01:13.19,RiskySubs,Kuromi,0,0,0,,{\an8}You know that's bringing home\Nstuff from another world!
+Dialogue: 0,0:01:13.35,0:01:15.02,RiskySubs,Kuromi,0,0,0,,{\an8}That's not allowed!
+Dialogue: 0,0:01:14.48,0:01:17.81,RiskySubs,Nico,0,0,0,,It's for research purposes, so it's okay!
+Dialogue: 0,0:01:16.90,0:01:18.73,RiskySubs,Kuromi,0,0,0,,{\an8}Why are you defending yourself?
+Dialogue: 0,0:01:18.44,0:01:21.10,RiskySubs,Nico,0,0,0,,Managing delicious foods\Nacross universes
+Dialogue: 0,0:01:21.10,0:01:23.23,RiskySubs,Nico,0,0,0,,is all in the work of Universe Patrol!
+Dialogue: 0,0:01:23.31,0:01:24.65,RiskySubs,Kuromi,0,0,0,,{\an8}No fair!
+Dialogue: 0,0:01:23.94,0:01:25.10,RiskySubs,Nico,0,0,0,,Ah, Kuromi.
+Dialogue: 0,0:01:25.10,0:01:27.31,RiskySubs,Nico,0,0,0,,Is the hunger making you cranky?
+Dialogue: 0,0:01:27.94,0:01:28.94,RiskySubs,Kuromi,0,0,0,,{\an8}'Course not!
+Dialogue: 0,0:01:29.40,0:01:30.77,RiskySubs,Kuromi,0,0,0,,{\an8}Just gimme them!
+Dialogue: 0,0:01:30.31,0:01:31.60,RiskySubs,Nico,0,0,0,,Wait, no! Kuromi!
+Dialogue: 0,0:01:31.60,0:01:33.81,RiskySubs,Nico,0,0,0,,I need this, it's a research sample!
+Dialogue: 0,0:01:34.23,0:01:35.77,RiskySubs,Kuromi,0,0,0,,{\an8}Aaah!
+Dialogue: 0,0:01:34.23,0:01:35.73,RiskySubs,Nico,0,0,0,,Aaah!
+Dialogue: 0,0:01:36.98,0:01:41.10,RiskySubs,Kuromi,0,0,0,,{\an8}I lost my takoyaki\Nto the ends of spacetime...
+Dialogue: 0,0:01:39.98,0:01:42.02,RiskySubs,Nico,0,0,0,,Aw man...
+Dialogue: 0,0:01:43.02,0:01:45.02,RiskySubs,Kuromi,0,0,0,,{\an8}S-S-Sorry, Nico...
+Dialogue: 0,0:01:46.02,0:01:47.81,RiskySubs,Nico,0,0,0,,Kuromi, look!
+Dialogue: 0,0:01:47.81,0:01:49.48,RiskySubs,Nico,0,0,0,,The scattered takoyaki
+Dialogue: 0,0:01:49.48,0:01:52.23,RiskySubs,Nico,0,0,0,,looks like a planet! Isn't it beautiful?
+Dialogue: 0,0:01:54.10,0:01:58.56,RiskySubs,Nico,0,0,0,,{\fade(0,1000)}No food was wasted\Nin the making of this episode.
+

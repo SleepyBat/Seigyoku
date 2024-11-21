@@ -1,0 +1,57 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,74,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.02,0:00:05.44,RiskySubs,Baku,0,0,0,,We'd best not speak one word\Nabout Halloween today.
+Dialogue: 0,0:00:05.98,0:00:06.98,RiskySubs,Collimo,0,0,0,,Yes, sir.
+Dialogue: 0,0:00:06.98,0:00:08.23,RiskySubs,Gureco,0,0,0,,Yessir.
+Dialogue: 0,0:00:08.23,0:00:10.23,RiskySubs,Baku,0,0,0,,How is Miss Kuromi?
+Dialogue: 0,0:00:10.23,0:00:11.98,RiskySubs,Gureco,0,0,0,,Haven't heard from her.
+Dialogue: 0,0:00:12.27,0:00:16.02,RiskySubs,Collimo,0,0,0,,Kuromi should be getting hungry soon.
+Dialogue: 0,0:00:17.98,0:00:21.98,RiskySubs,Baku,0,0,0,,I'll lure her out with my\Nspecial bavarian cream!
+Dialogue: 0,0:00:22.44,0:00:25.90,RiskySubs,Gureco,0,0,0,,I've finished up the decorations\Non her birthday cake too!
+Dialogue: 0,0:00:25.90,0:00:27.48,RiskySubs,Gureco,0,0,0,,And just in case...
+Dialogue: 0,0:00:27.48,0:00:31.40,RiskySubs,Gureco,0,0,0,,this scallion chocolate terrine\Ndessert should fix up her mood!
+Dialogue: 0,0:00:31.40,0:00:33.65,RiskySubs,Collimo,0,0,0,,All you're doing is adding more food...
+Dialogue: 0,0:00:33.65,0:00:35.98,RiskySubs,Collimo,0,0,0,,But it should work on Kuromi!
+Dialogue: 0,0:00:35.98,0:00:38.35,RiskySubs,Baku,0,0,0,,All ready!\NShe'll be here any moment!
+Dialogue: 0,0:00:38.35,0:00:39.85,RiskySubs,All,0,0,0,,Let's go!
+Dialogue: 0,0:00:40.48,0:00:41.77,RiskySubs,Baku,0,0,0,,Miss Kuromi!
+Dialogue: 0,0:00:41.77,0:00:42.85,RiskySubs,Collimo/Gureco,0,0,0,,Kuromi!
+Dialogue: 0,0:00:43.23,0:00:46.10,RiskySubs,Baku,0,0,0,,Sorry for all the confusion earlier!
+Dialogue: 0,0:00:46.35,0:00:47.69,RiskySubs,Dark!Kuromi,0,0,0,,It's fine!
+Dialogue: 0,0:00:47.69,0:00:49.85,RiskySubs,Dark!Kuromi,0,0,0,,After all, we're friends!
+Dialogue: 0,0:00:49.85,0:00:52.56,RiskySubs,Gureco,0,0,0,,Oh, Kuromi! You're so considerate!
+Dialogue: 0,0:00:52.56,0:00:55.35,RiskySubs,Collimo,0,0,0,,Then let's get your birthday party\Nback on track!
+Dialogue: 0,0:00:55.35,0:00:56.85,RiskySubs,Dark!Kuromi,0,0,0,,Birthday party?
+Dialogue: 0,0:00:56.85,0:00:58.27,RiskySubs,Dark!Kuromi,0,0,0,,What the heck?
+Dialogue: 0,0:00:58.27,0:01:02.35,RiskySubs,Dark!Kuromi,0,0,0,,I spend my birthdays by myself\Neating cake that tastes like grass.
+Dialogue: 0,0:01:02.35,0:01:04.85,RiskySubs,Dark!Kuromi,0,0,0,,Who does this Kuromi think she is?
+Dialogue: 0,0:01:06.35,0:01:08.85,RiskySubs,All,0,0,0,,She's {\i1}really{\i0} mad at us!
+Dialogue: 0,0:01:09.69,0:01:12.06,RiskySubs,Dark!Kuromi,0,0,0,,I'm gonna go find where she is...
+Dialogue: 0,0:01:12.06,0:01:15.23,RiskySubs,Dark!Kuromi,0,0,0,,and trap her in the Dark World.
+Dialogue: 0,0:01:17.23,0:01:20.23,RiskySubs,Gureco,0,0,0,,She's so much more mysterious\Nthan usual!
+Dialogue: 0,0:01:20.23,0:01:22.73,RiskySubs,Gureco,0,0,0,,She's tugging at my heartstrings!
+Dialogue: 0,0:01:23.65,0:01:25.94,RiskySubs,Baku,0,0,0,,Gureco, stop! Your magic's going crazy!
+Dialogue: 0,0:01:25.94,0:01:28.40,RiskySubs,Gureco,0,0,0,,Hehehe, Kuromi...
+Dialogue: 0,0:01:28.40,0:01:31.23,RiskySubs,Collimo,0,0,0,,We can't show this, we'll get banned...
+Dialogue: 0,0:01:33.10,0:01:34.98,RiskySubs,Dark!Kuromi,0,0,0,,Just you wait, Kuromi.
+Dialogue: 0,0:01:41.27,0:01:43.15,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:43.44,0:01:45.52,RiskySubs,Kuromi,0,0,0,,"A prince on a white steed!"
+Dialogue: 0,0:01:46.48,0:01:48.27,RiskySubs,Kuromi,0,0,0,,A big bonus for me!!
+Dialogue: 0,0:00:00.02,0:00:01.48,Sign,,0,0,0,,{\fade(450,00,)\pos(982,464)}Meanwhile
+

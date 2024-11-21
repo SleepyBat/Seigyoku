@@ -1,0 +1,71 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.23,Sign,Sign,0,0,0,,{\pos(958,136)}Deadline: 1 Away!
+Dialogue: 0,0:00:03.65,0:00:05.98,RiskySubs,Artist!Kuromi,0,0,0,,My deadline's in an hour.
+Dialogue: 0,0:00:07.69,0:00:09.19,RiskySubs,Artist!Kuromi,0,0,0,,I want beef bowl...
+Dialogue: 0,0:00:09.19,0:00:10.48,RiskySubs,Gureco,0,0,0,,Beef bowl?
+Dialogue: 0,0:00:10.48,0:00:11.23,Sign,Sign,0,0,0,,{\pos(636,480)}Beef Bowl
+Dialogue: 0,0:00:10.48,0:00:11.23,Sign,Sign,0,0,0,,{\pos(1248,910)}BAM
+Dialogue: 0,0:00:11.48,0:00:14.85,RiskySubs,Gureco,0,0,0,,You're so cute when you're\Ncraving beef bowl!
+Dialogue: 0,0:00:15.81,0:00:18.98,RiskySubs,Gureco,0,0,0,,But it's going to take an act of god\Nto wrap this up on time!
+Dialogue: 0,0:00:23.65,0:00:25.98,RiskySubs,Kuromi,0,0,0,,Where's the rest of the manga?
+Dialogue: 0,0:00:25.98,0:00:27.73,RiskySubs,Kuromi,0,0,0,,Oh hey, it's me.
+Dialogue: 0,0:00:28.31,0:00:29.85,RiskySubs,Kuromi,0,0,0,,Tapping time!
+Dialogue: 0,0:00:29.85,0:00:31.73,RiskySubs,Gureco,0,0,0,,Are you the god of manga?
+Dialogue: 0,0:00:32.10,0:00:33.73,RiskySubs,Kuromi,0,0,0,,Are you the Gureco here?
+Dialogue: 0,0:00:35.15,0:00:40.35,RiskySubs,Gureco,0,0,0,,We swore we would use this manga\Nto make a world full of maidens!
+Dialogue: 0,0:00:39.90,0:00:40.73,Sign 2,Sign,0,0,0,,{\pos(966,346)}#MAIDENIFYTHEWORLDProject
+Dialogue: 0,0:00:41.15,0:00:44.15,RiskySubs,Gureco,0,0,0,,But we're running out of time!
+Dialogue: 0,0:00:44.15,0:00:46.27,RiskySubs,Gureco,0,0,0,,Please help us finish this!
+Dialogue: 0,0:00:46.27,0:00:49.48,RiskySubs,Kuromi,0,0,0,,Okay, fine. I'll help.
+Dialogue: 0,0:00:50.35,0:00:51.23,RiskySubs,Nico,0,0,0,,Kuromi.
+Dialogue: 0,0:00:52.56,0:00:53.94,RiskySubs,Nico,0,0,0,,I'll help too.
+Dialogue: 0,0:00:54.23,0:00:56.23,RiskySubs,Artist!Kuromi,0,0,0,,A monster came out of a hole...
+Dialogue: 0,0:00:57.06,0:00:59.73,RiskySubs,Kuromi,0,0,0,,Aha! I'll add this detail...
+Dialogue: 0,0:01:02.10,0:01:02.98,RiskySubs,Kuromi,0,0,0,,There!
+Dialogue: 0,0:01:04.90,0:01:06.23,RiskySubs,Gureco,0,0,0,,M-M-My goodness!!
+Dialogue: 0,0:01:06.23,0:01:08.15,RiskySubs,Gureco,0,0,0,,That's the work of a god of manga!
+Dialogue: 0,0:01:08.15,0:01:11.23,RiskySubs,Gureco,0,0,0,,I'm exploding with inspiration!
+Dialogue: 0,0:01:11.23,0:01:12.48,RiskySubs,Kuromi,0,0,0,,All done!
+Dialogue: 0,0:01:12.65,0:01:14.81,RiskySubs,Kuromi,0,0,0,,Now get that manuscript in!
+Dialogue: 0,0:01:14.81,0:01:15.98,RiskySubs,Gureco,0,0,0,,I'm on it!
+Dialogue: 0,0:01:16.31,0:01:18.60,RiskySubs,Nico,0,0,0,,You look like you had fun, Kuromi.
+Dialogue: 0,0:01:18.60,0:01:20.65,RiskySubs,Kuromi,0,0,0,,Oh? Of course I did!
+Dialogue: 0,0:01:21.15,0:01:24.73,RiskySubs,Kuromi,0,0,0,,No matter the world,\NI only do what I wanna do!
+Dialogue: 0,0:01:25.60,0:01:27.23,RiskySubs,Nico,0,0,0,,What you want to do, huh?
+Dialogue: 0,0:01:27.77,0:01:28.73,RiskySubs,MM,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:01:29.06,0:01:30.81,RiskySubs,Artist!Kuromi,0,0,0,,Beeef booowl...
+Dialogue: 0,0:01:30.81,0:01:31.73,RiskySubs,Gureco,0,0,0,,Kuromi!
+Dialogue: 0,0:01:32.48,0:01:34.31,RiskySubs,Gureco,0,0,0,,Your manga's finished up!
+Dialogue: 0,0:01:36.48,0:01:37.73,RiskySubs,Artist!Kuromi,0,0,0,,Huh?!
+Dialogue: 0,0:01:36.98,0:01:37.73,Sign,Sign,0,0,0,,{\pos(1514,274)}Ain't easy\Nbeing popular!
+Dialogue: 0,0:01:36.98,0:01:37.73,Sign 2,Sign,0,0,0,,{\pos(1620,910)}Artist: Kuromi
+Dialogue: 0,0:01:37.73,0:01:38.48,Sign,Sign,0,0,0,,{\pos(1800,382)}Now, now.
+Dialogue: 0,0:01:37.73,0:01:38.48,Sign,Sign,0,0,0,,{\pos(304,426)}Don't fight over me.
+Dialogue: 0,0:01:37.73,0:01:38.48,Sign 2,Sign,0,0,0,,{\pos(230,946)}Artist: Nico
+Dialogue: 0,0:01:38.48,0:01:40.48,Sign,Sign,0,0,0,,{\pos(1402,186)}Don't fall for me now!
+Dialogue: 0,0:01:38.48,0:01:40.48,Sign 2,Sign,0,0,0,,{\pos(1638,946)}Artist: Gureco
+Dialogue: 0,0:01:38.48,0:01:40.48,RiskySubs,Artist!Kuromi,0,0,0,,What on earth is this manuscript?!
+Dialogue: 0,0:01:40.48,0:01:41.73,RiskySubs,Artist!Kuromi,0,0,0,,Who drew these?
+Dialogue: 0,0:01:42.48,0:01:44.73,RiskySubs,Gureco,0,0,0,,The god of manga!
+Dialogue: 0,0:01:51.02,0:01:52.98,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:53.23,0:01:54.65,RiskySubs,Kuromi,0,0,0,,"Warp gate!"
+Dialogue: 0,0:01:55.02,0:01:57.35,RiskySubs,Kuromi,0,0,0,,I become a warp gate?
+

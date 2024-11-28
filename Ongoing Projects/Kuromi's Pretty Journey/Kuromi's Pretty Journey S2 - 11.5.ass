@@ -1,0 +1,112 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.35,RiskySubs,Kuromi,0,0,0,,{\an8}Hey, Nico.
+Dialogue: 0,0:00:01.27,0:00:01.90,RiskySubs,Nico,0,0,0,,Yeah?
+Dialogue: 0,0:00:02.02,0:00:03.98,RiskySubs,Kuromi,0,0,0,,{\an8}Y'know, when we were in that manga world,
+Dialogue: 0,0:00:03.77,0:00:04.23,RiskySubs,Nico,0,0,0,,Mhm?
+Dialogue: 0,0:00:03.98,0:00:05.90,RiskySubs,Kuromi,0,0,0,,{\an8}something hit me.
+Dialogue: 0,0:00:05.73,0:00:06.40,RiskySubs,Nico,0,0,0,,What is it?
+Dialogue: 0,0:00:06.65,0:00:07.69,RiskySubs,Kuromi,0,0,0,,{\an8}I've got...
+Dialogue: 0,0:00:07.52,0:00:07.98,RiskySubs,Nico,0,0,0,,Yeah?
+Dialogue: 0,0:00:08.10,0:00:10.48,RiskySubs,Kuromi,0,0,0,,{\an8}a real talent for drawing!
+Dialogue: 0,0:00:10.44,0:00:11.40,RiskySubs,Nico,0,0,0,,You sure do!
+Dialogue: 0,0:00:11.69,0:00:13.60,RiskySubs,Nico,0,0,0,,I love drawing too!
+Dialogue: 0,0:00:13.73,0:00:14.90,RiskySubs,Kuromi,0,0,0,,{\an8}Now slow down.
+Dialogue: 0,0:00:14.90,0:00:16.85,RiskySubs,Kuromi,0,0,0,,{\an8\i1}I{\i0} love drawing!
+Dialogue: 0,0:00:17.15,0:00:18.73,RiskySubs,Nico,0,0,0,,Me too.
+Dialogue: 0,0:00:18.27,0:00:18.81,RiskySubs,Kuromi,0,0,0,,{\an8}Excuse me?!
+Dialogue: 0,0:00:19.10,0:00:20.98,RiskySubs,Kuromi,0,0,0,,{\an8}No, {\i1}I{\i0} do!
+Dialogue: 0,0:00:21.31,0:00:22.90,RiskySubs,Nico,0,0,0,,I do too!
+Dialogue: 0,0:00:22.56,0:00:23.10,RiskySubs,Kuromi,0,0,0,,{\an8\i1}Excuse{\i0} me?!
+Dialogue: 0,0:00:23.56,0:00:28.31,RiskySubs,Kuromi,0,0,0,,{\an8}No, me! No, me! No, me! No, me! No, me!\NNo, me! No, me! No, me! No, me! No, me!
+Dialogue: 0,0:00:24.27,0:00:27.65,RiskySubs,Nico,0,0,0,,Me too! Me too! Me too! Me too! Me too!\NMe too! Me too! Me too! Me too!
+Dialogue: 0,0:00:28.31,0:00:28.81,RiskySubs,Kuromi,0,0,0,,{\an8}YEAH!
+Dialogue: 0,0:00:29.19,0:00:30.35,RiskySubs,Kuromi,0,0,0,,{\an8}I said more than y—
+Dialogue: 0,0:00:30.52,0:00:31.69,RiskySubs,Kuromi,0,0,0,,{\an8}AH-CHOO!!
+Dialogue: 0,0:00:32.65,0:00:33.65,RiskySubs,Nico,0,0,0,,lol.
+Dialogue: 0,0:00:33.65,0:00:35.40,RiskySubs,Kuromi,0,0,0,,{\an8}lolol
+Dialogue: 0,0:00:33.65,0:00:35.35,RiskySubs,Nico,0,0,0,,lolol
+Dialogue: 0,0:00:35.35,0:00:37.52,RiskySubs,Nico,0,0,0,,That was one powerful sneeze!
+Dialogue: 0,0:00:36.52,0:00:38.23,RiskySubs,Kuromi,0,0,0,,{\an8}You can spare me the compliment!
+Dialogue: 0,0:00:38.73,0:00:39.90,RiskySubs,Nico,0,0,0,,Hatchu!
+Dialogue: 0,0:00:40.35,0:00:40.90,RiskySubs,Kuromi,0,0,0,,{\an8}Nico?
+Dialogue: 0,0:00:41.19,0:00:43.90,RiskySubs,Nico,0,0,0,,Your sneeze was contagious!
+Dialogue: 0,0:00:44.15,0:00:44.69,RiskySubs,Kuromi,0,0,0,,{\an8}Say what?
+Dialogue: 0,0:00:44.77,0:00:46.52,RiskySubs,Nico,0,0,0,,They usually say that about yawns,
+Dialogue: 0,0:00:46.52,0:00:48.15,RiskySubs,Nico,0,0,0,,but sneezes are contagious too!
+Dialogue: 0,0:00:48.56,0:00:49.56,RiskySubs,Kuromi,0,0,0,,{\an8}That's not...
+Dialogue: 0,0:00:49.56,0:00:53.35,RiskySubs,Kuromi,0,0,0,,{\an8}You don't get to sneeze cuter than me!!
+Dialogue: 0,0:00:52.94,0:00:54.35,RiskySubs,Nico,0,0,0,,Oh, really?
+Dialogue: 0,0:00:54.23,0:00:55.06,RiskySubs,Kuromi,0,0,0,,{\an8}Also...
+Dialogue: 0,0:00:55.06,0:00:58.23,RiskySubs,Kuromi,0,0,0,,{\an8}it's kinda chilly in this warp gate.
+Dialogue: 0,0:00:57.60,0:00:59.02,RiskySubs,Nico,0,0,0,,It sure is.
+Dialogue: 0,0:00:59.02,0:01:00.56,RiskySubs,Kuromi,0,0,0,,{\an8}I really wanna go home
+Dialogue: 0,0:01:00.56,0:01:02.98,RiskySubs,Kuromi,0,0,0,,{\an8}and have some of Baku's\Nwarm home cooking!
+Dialogue: 0,0:01:02.31,0:01:03.10,RiskySubs,Nico,0,0,0,,Mhm!
+Dialogue: 0,0:01:03.19,0:01:05.73,RiskySubs,Nico,0,0,0,,Like Baku's scallion pasta!
+Dialogue: 0,0:01:05.73,0:01:08.44,RiskySubs,Nico,0,0,0,,It's your favorite!
+Dialogue: 0,0:01:07.02,0:01:08.02,RiskySubs,Kuromi,0,0,0,,{\an8}It is!
+Dialogue: 0,0:01:08.44,0:01:09.60,RiskySubs,Nico,0,0,0,,Yup.
+Dialogue: 0,0:01:10.15,0:01:10.52,RiskySubs,Nico,0,0,0,,Hm?
+Dialogue: 0,0:01:10.69,0:01:13.02,RiskySubs,Kuromi,0,0,0,,{\an8}Wait, how do you know that?
+Dialogue: 0,0:01:13.19,0:01:13.56,RiskySubs,Nico,0,0,0,,What?
+Dialogue: 0,0:01:13.77,0:01:17.90,RiskySubs,Kuromi,0,0,0,,{\an8}How do you know I like scallion pasta...?
+Dialogue: 0,0:01:17.52,0:01:18.23,RiskySubs,Nico,0,0,0,,Uh...
+Dialogue: 0,0:01:18.56,0:01:19.77,RiskySubs,Kuromi,0,0,0,,{\an8}That's kinda...
+Dialogue: 0,0:01:19.77,0:01:21.23,RiskySubs,Kuromi,0,0,0,,{\an8}creepy...
+Dialogue: 0,0:01:20.73,0:01:21.48,RiskySubs,Nico,0,0,0,,Wait, what?!
+Dialogue: 0,0:01:21.60,0:01:23.60,RiskySubs,Kuromi,0,0,0,,{\an8}Are you like...
+Dialogue: 0,0:01:23.02,0:01:24.56,RiskySubs,Nico,0,0,0,,No-no-no! It's not what you think!
+Dialogue: 0,0:01:24.44,0:01:27.69,RiskySubs,Kuromi,0,0,0,,{\an8}a huge stalker-fan of me?!
+Dialogue: 0,0:01:26.31,0:01:27.65,RiskySubs,Nico,0,0,0,,No, that's not it!
+Dialogue: 0,0:01:27.77,0:01:30.77,RiskySubs,Nico,0,0,0,,The other Kuromis like scallion pasta too!
+Dialogue: 0,0:01:30.77,0:01:32.44,RiskySubs,Nico,0,0,0,,That's where I picked it up!
+Dialogue: 0,0:01:32.40,0:01:33.81,RiskySubs,Kuromi,0,0,0,,{\an8}Uh-huhhh...
+Dialogue: 0,0:01:33.81,0:01:35.65,RiskySubs,Kuromi,0,0,0,,{\an8}Tell me, which Kuromis?
+Dialogue: 0,0:01:35.23,0:01:37.31,RiskySubs,Nico,0,0,0,,I can't, that would be a violation!
+Dialogue: 0,0:01:37.27,0:01:39.10,RiskySubs,Kuromi,0,0,0,,{\an8}A violation, huh?
+Dialogue: 0,0:01:39.10,0:01:41.73,RiskySubs,Kuromi,0,0,0,,{\an8}Glaaaaare...
+Dialogue: 0,0:01:40.69,0:01:42.23,RiskySubs,Nico,0,0,0,,I'm serious!
+Dialogue: 0,0:01:42.06,0:01:44.48,RiskySubs,Kuromi,0,0,0,,{\an8\i1}Glaaaaare...
+Dialogue: 0,0:01:43.35,0:01:45.48,RiskySubs,Nico,0,0,0,,To name a few, 8-bit Kuromi,
+Dialogue: 0,0:01:45.48,0:01:47.85,RiskySubs,Nico,0,0,0,,samurai Kuromi, macho Kuromi...
+Dialogue: 0,0:01:48.27,0:01:50.40,RiskySubs,Nico,0,0,0,,I said too much!!
+Dialogue: 0,0:01:49.35,0:01:51.19,RiskySubs,Kuromi,0,0,0,,{\an8}There's a {\i1}macho{\i0} me?!
+Dialogue: 0,0:01:50.81,0:01:51.60,RiskySubs,Nico,0,0,0,,Oh dear...
+Dialogue: 0,0:01:52.06,0:01:53.48,RiskySubs,Kuromi,0,0,0,,{\an8}She's gotta be just as cute as me!
+Dialogue: 0,0:01:53.98,0:01:55.40,RiskySubs,Kuromi,0,0,0,,{\an8}Mind if I take a peek?
+Dialogue: 0,0:01:55.90,0:01:58.60,RiskySubs,Nico,0,0,0,,Okay! I'll install a new feature on MM!
+Dialogue: 0,0:01:58.06,0:01:59.77,RiskySubs,Kuromi,0,0,0,,{\an8}Uh, Nico, slow your roll...
+Dialogue: 0,0:01:58.77,0:02:01.98,RiskySubs,Nico,0,0,0,,The peeking feature works like this,\Nand to activate it...
+Dialogue: 0,0:02:00.10,0:02:01.77,RiskySubs,Kuromi,0,0,0,,{\an8}Hang on. Earth to Nico!
+Dialogue: 0,0:02:01.77,0:02:04.31,RiskySubs,Kuromi,0,0,0,,{\an8}Nope-nope-nope! I change my mind!
+Dialogue: 0,0:02:03.77,0:02:04.15,RiskySubs,Nico,0,0,0,,Huh?
+Dialogue: 0,0:02:04.31,0:02:06.31,RiskySubs,Kuromi,0,0,0,,{\an8}It'll make the episode too complex!
+Dialogue: 0,0:02:06.06,0:02:06.44,RiskySubs,Nico,0,0,0,,What?
+Dialogue: 0,0:02:06.60,0:02:11.15,RiskySubs,Kuromi,0,0,0,,{\an8}I feel like all this "multiverse"\Nand "Universe Patrol" talk
+Dialogue: 0,0:02:11.15,0:02:15.77,RiskySubs,Kuromi,0,0,0,,{\an8}is making the show way too hard\Nfor people to follow!
+Dialogue: 0,0:02:15.65,0:02:17.19,RiskySubs,Nico,0,0,0,,Don't worry about that!
+Dialogue: 0,0:02:17.19,0:02:19.10,RiskySubs,Nico,0,0,0,,Your cuteness makes up for all of it!
+Dialogue: 0,0:02:20.02,0:02:21.35,RiskySubs,Kuromi,0,0,0,,{\an8}Oh!
+Dialogue: 0,0:02:21.35,0:02:22.73,RiskySubs,Kuromi,0,0,0,,{\an8}Good point!
+Dialogue: 0,0:02:22.73,0:02:24.27,RiskySubs,Kuromi,0,0,0,,{\an8}I really am that cute!
+Dialogue: 0,0:02:25.15,0:02:27.35,RiskySubs,Kuromi,0,0,0,,{\an8\fad(0,620)}lolol
+Dialogue: 0,0:02:25.15,0:02:27.35,RiskySubs,Nico,0,0,0,,{\fad(0,620)}lolol
+

@@ -1,0 +1,61 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.12,0:00:03.90,RiskySubs,,0,0,0,,Huh?
+Dialogue: 0,0:00:03.90,0:00:05.81,RiskySubs,,0,0,0,,It's Kuromi Base...
+Dialogue: 0,0:00:05.81,0:00:07.77,RiskySubs,,0,0,0,,We made it!
+Dialogue: 0,0:00:08.81,0:00:11.02,RiskySubs,,0,0,0,,Hey guys!
+Dialogue: 0,0:00:11.02,0:00:12.90,RiskySubs,,0,0,0,,...Wait, what?
+Dialogue: 0,0:00:12.90,0:00:14.81,RiskySubs,,0,0,0,,There's another me.
+Dialogue: 0,0:00:14.81,0:00:17.10,RiskySubs,,0,0,0,,Maybe it's another world after all.
+Dialogue: 0,0:00:17.10,0:00:18.98,RiskySubs,,0,0,0,,Darn, you got my hopes up.
+Dialogue: 0,0:00:19.22,0:00:21.10,RiskySubs,,0,0,0,,Alright, let's get a move on.
+Dialogue: 0,0:00:23.54,0:00:24.40,RiskySubs,,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:00:24.40,0:00:24.98,RiskySubs,,0,0,0,,Huh?
+Dialogue: 0,0:00:26.52,0:00:29.31,RiskySubs,,0,0,0,,Kuromi turned into a space-time portal!
+Dialogue: 0,0:00:29.52,0:00:31.60,RiskySubs,,0,0,0,,I've been awaiting this moment.
+Dialogue: 0,0:00:31.60,0:00:33.23,RiskySubs,,0,0,0,,It can't be...
+Dialogue: 0,0:00:33.23,0:00:35.15,RiskySubs,,0,0,0,,Are you the Dark Kuromi?!
+Dialogue: 0,0:00:35.15,0:00:37.56,RiskySubs,,0,0,0,,This is my world.
+Dialogue: 0,0:00:37.56,0:00:40.06,RiskySubs,,0,0,0,,It is very dark and sorrowful.
+Dialogue: 0,0:00:40.77,0:00:43.94,RiskySubs,,0,0,0,,In order to escape from this world,
+Dialogue: 0,0:00:43.94,0:00:46.50,RiskySubs,,0,0,0,,I had to take your place.
+Dialogue: 0,0:00:47.52,0:00:50.27,RiskySubs,,0,0,0,,Who knew you would end up here.
+Dialogue: 0,0:00:50.27,0:00:53.02,RiskySubs,,0,0,0,,Hmm, yeah, what a predicament.
+Dialogue: 0,0:00:53.02,0:00:54.98,RiskySubs,,0,0,0,,You can talk like that?!
+Dialogue: 0,0:00:54.98,0:00:58.69,RiskySubs,,0,0,0,,You live a happier life\Nthan any other Kuromi.
+Dialogue: 0,0:00:58.69,0:01:00.02,RiskySubs,,0,0,0,,It's so unfair.
+Dialogue: 0,0:01:00.02,0:01:01.77,RiskySubs,,0,0,0,,That ain't true!
+Dialogue: 0,0:01:02.10,0:01:04.98,RiskySubs,,0,0,0,,My friends forgot my birthday!
+Dialogue: 0,0:01:05.00,0:01:09.52,RiskySubs,,0,0,0,,At least you {\i1}had{\i0} friends\Nto forget about you.
+Dialogue: 0,0:01:09.52,0:01:14.04,RiskySubs,,0,0,0,,You know what it's like here?\NI tried to make a social media site from scratch,
+Dialogue: 0,0:01:14.04,0:01:17.76,RiskySubs,,0,0,0,,but there's no one here, so I got no followers.\NIt hurt so bad, I made up 10,000 users,
+Dialogue: 0,0:01:17.76,0:01:21.27,RiskySubs,,0,0,0,,made a mannequin and took a picture of it,\Nliked it from 10,000 accounts, and went trending!
+Dialogue: 0,0:01:21.27,0:01:22.77,RiskySubs,,0,0,0,,What value do I even have?
+Dialogue: 0,0:01:22.77,0:01:24.27,RiskySubs,,0,0,0,,Jeez, you're miserable...
+Dialogue: 0,0:01:24.77,0:01:28.16,RiskySubs,,0,0,0,,So how about we trade lives?
+Dialogue: 0,0:01:28.06,0:01:29.54,Sign,,0,0,0,,{\fade(200,0)\pos(930,464)}#SWAPIFYTHEKUROMISProject
+Dialogue: 0,0:01:29.54,0:01:31.64,RiskySubs,,0,0,0,,Huh? No way! I'm going home!
+Dialogue: 0,0:01:31.64,0:01:33.48,RiskySubs,,0,0,0,,My world is mine and only mine!
+Dialogue: 0,0:01:33.48,0:01:34.27,RiskySubs,,0,0,0,,Hold it!
+Dialogue: 0,0:01:35.10,0:01:37.02,RiskySubs,,0,0,0,,Give my Mom and Dad back!
+Dialogue: 0,0:01:43.40,0:01:45.38,RiskySubs,,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:45.38,0:01:47.02,RiskySubs,,0,0,0,,"Nico's true identity!"
+Dialogue: 0,0:01:47.44,0:01:50.60,RiskySubs,,0,0,0,,Who could you {\i1}really{\i0} be?
+

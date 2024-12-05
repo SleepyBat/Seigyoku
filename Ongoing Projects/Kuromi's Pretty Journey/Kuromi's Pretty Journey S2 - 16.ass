@@ -1,0 +1,60 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.02,0:00:03.77,RiskySubs,Dark!Kuromi,0,0,0,,You don't understand\Na single thing about me.
+Dialogue: 0,0:00:03.77,0:00:05.31,RiskySubs,Dark!Kuromi,0,0,0,,You good-for-nothing friends.
+Dialogue: 0,0:00:05.73,0:00:08.10,RiskySubs,Baku,0,0,0,,P-Please, Miss Kuromi,\Nyou have to stop!
+Dialogue: 0,0:00:08.10,0:00:10.31,RiskySubs,Gureco,0,0,0,,Ever since Kuromi changed like this,
+Dialogue: 0,0:00:10.31,0:00:13.36,RiskySubs,Gureco,0,0,0,,she's turned half the world to darkness!
+Dialogue: 0,0:00:18.06,0:00:19.35,RiskySubs,Kooni,0,0,0,,Oni! Oni!
+Dialogue: 0,0:00:19.35,0:00:20.77,RiskySubs,Nico,0,0,0,,{\i1}My powers are restored,
+Dialogue: 0,0:00:20.77,0:00:22.94,RiskySubs,Nico,0,0,0,,{\i1}but without MM, I can't become Nico again!
+Dialogue: 0,0:00:23.40,0:00:25.23,RiskySubs,Dark!Kuromi,0,0,0,,Begone with all of you.
+Dialogue: 0,0:00:26.81,0:00:27.81,RiskySubs,Kooni,0,0,0,,Oni!!
+Dialogue: 0,0:00:27.81,0:00:29.02,RiskySubs,Kuromi,0,0,0,,Hold it!
+Dialogue: 0,0:00:29.02,0:00:29.56,RiskySubs,Dark!Kuromi,0,0,0,,Huh?
+Dialogue: 0,0:00:29.56,0:00:30.65,RiskySubs,Kuromi,0,0,0,,Hey, guys.
+Dialogue: 0,0:00:30.65,0:00:31.73,RiskySubs,Kooni,0,0,0,,Oni!
+Dialogue: 0,0:00:31.73,0:00:33.44,RiskySubs,Friends,0,0,0,,There's two of them?!
+Dialogue: 0,0:00:33.44,0:00:37.10,RiskySubs,Kuromi,0,0,0,,Hey, you! Stop muckin' up my world!
+Dialogue: 0,0:00:37.10,0:00:40.06,RiskySubs,Dark!Kuromi,0,0,0,,Tch. How'd you get out of the Dark World?
+Dialogue: 0,0:00:40.06,0:00:43.23,RiskySubs,Kuromi,0,0,0,,The word "impossible" is not in my diary!
+Dialogue: 0,0:00:43.23,0:00:44.40,RiskySubs,Baku/Collimo,0,0,0,,Gah!
+Dialogue: 0,0:00:44.40,0:00:46.44,RiskySubs,Baku,0,0,0,,The saying goes "dictionary!"
+Dialogue: 0,0:00:46.44,0:00:50.90,RiskySubs,Collimo,0,0,0,,Only the real Kuromi would\Nflub on a catchphrase like that!
+Dialogue: 0,0:00:50.90,0:00:53.48,RiskySubs,Gureco,0,0,0,,Wow, Kuromi's just so cool!
+Dialogue: 0,0:00:54.52,0:00:57.77,RiskySubs,Dark!Kuromi,0,0,0,,You're getting along better than I did...
+Dialogue: 0,0:00:57.77,0:00:58.77,RiskySubs,Dark!Kuromi,0,0,0,,I get it now!
+Dialogue: 0,0:00:58.77,0:01:01.81,RiskySubs,Dark!Kuromi,0,0,0,,If you weren't here,\NI wouldn't be so sad!
+Dialogue: 0,0:01:01.81,0:01:04.81,RiskySubs,Dark!Kuromi,0,0,0,,I'm gonna paint you in pure darkness!
+Dialogue: 0,0:01:04.98,0:01:06.27,RiskySubs,Kuromi,0,0,0,,I-I can't dodge that!
+Dialogue: 0,0:01:06.27,0:01:08.65,RiskySubs,Collimo,0,0,0,,You came in with a cool line\Nand {\i1}not{\i0} a plan?!
+Dialogue: 0,0:01:09.65,0:01:10.31,RiskySubs,Romina,0,0,0,,Watch out!
+Dialogue: 0,0:01:12.81,0:01:14.90,RiskySubs,Kuromi,0,0,0,,Huh? We're saved?
+Dialogue: 0,0:01:16.02,0:01:18.68,RiskySubs,Romina,0,0,0,,{\an8}I'll back you up from afar, Kuromi!
+Dialogue: 0,0:01:16.90,0:01:19.23,Sign,Sign,0,0,0,,{\pos(626,908)}Wanna know who I am? Check out the first season!
+Dialogue: 0,0:01:19.23,0:01:20.40,RiskySubs,Dark!Kuromi,0,0,0,,What was that?
+Dialogue: 0,0:01:20.58,0:01:22.31,RiskySubs,Kuromi,0,0,0,,Alright. No other choice!
+Dialogue: 0,0:01:22.31,0:01:23.10,RiskySubs,Kuromi,0,0,0,,Take this!
+Dialogue: 0,0:01:23.10,0:01:24.69,RiskySubs,Dark!Kuromi,0,0,0,,Not if I get you first!
+Dialogue: 0,0:01:25.65,0:01:27.06,RiskySubs,MM,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:01:36.27,0:01:38.06,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.73,0:01:40.94,RiskySubs,Kuromi,0,0,0,,"Dark Kuromi's backstory!"
+Dialogue: 0,0:01:40.94,0:01:44.48,RiskySubs,Dark!Kuromi,0,0,0,,My backstory is worthless.
+

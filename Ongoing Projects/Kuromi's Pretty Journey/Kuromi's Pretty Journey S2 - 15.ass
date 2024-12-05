@@ -1,0 +1,60 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.81,0:00:11.15,RiskySubs,Kuromi,0,0,0,,Why are My Melody and I\Nacting all chummy?!
+Dialogue: 0,0:00:11.15,0:00:12.78,RiskySubs,Nico's Mother,0,0,0,,Is she not your friend?
+Dialogue: 0,0:00:12.78,0:00:14.02,RiskySubs,Kuromi,0,0,0,,Of course not!
+Dialogue: 0,0:00:14.02,0:00:16.38,RiskySubs,Kuromi,0,0,0,,We're {\i1}rivals!
+Dialogue: 0,0:00:16.40,0:00:18.60,RiskySubs,My Melody,0,0,0,,Oh? When did you get over here?
+Dialogue: 0,0:00:18.60,0:00:20.31,RiskySubs,Kuromi,0,0,0,,M-M-M-My Melody?!
+Dialogue: 0,0:00:20.31,0:00:21.69,RiskySubs,My Melody,0,0,0,,Wanna play?
+Dialogue: 0,0:00:21.69,0:00:23.15,RiskySubs,Kuromi,0,0,0,,What do {\i1}you{\i0} think?!
+Dialogue: 0,0:00:23.15,0:00:25.10,RiskySubs,Kuromi,0,0,0,,I ain't your world's Kuro—hey!
+Dialogue: 0,0:00:25.10,0:00:28.36,RiskySubs,Nico's Father,0,0,0,,Hey! You can't tell strangers\Nabout the extended universe!
+Dialogue: 0,0:00:28.36,0:00:31.19,RiskySubs,Kuromi,0,0,0,,I-I mean, sure, let's play!
+Dialogue: 0,0:00:33.69,0:00:35.77,RiskySubs,My Melody,0,0,0,,Wait up, little butterfly!
+Dialogue: 0,0:00:35.02,0:00:36.85,RiskySubs,Kuromi,0,0,0,,{\an8}Wait up!
+Dialogue: 0,0:00:37.15,0:00:37.65,RiskySubs,My Melody,0,0,0,,There!
+Dialogue: 0,0:00:37.65,0:00:38.85,RiskySubs,Kuromi,0,0,0,,Bah-hah.
+Dialogue: 0,0:00:39.60,0:00:41.60,RiskySubs,My Melody,0,0,0,,Kuromi, say "ahh!"
+Dialogue: 0,0:00:41.60,0:00:42.60,RiskySubs,Kuromi,0,0,0,,Bah...{nyo}
+Dialogue: 0,0:00:42.60,0:00:43.69,RiskySubs,My Melody,0,0,0,,Kuromi?
+Dialogue: 0,0:00:44.27,0:00:45.02,RiskySubs,My Melody,0,0,0,,Is it yummy?
+Dialogue: 0,0:00:45.02,0:00:45.85,RiskySubs,Kuromi,0,0,0,,Mhm!
+Dialogue: 0,0:00:45.85,0:00:47.94,RiskySubs,Nico's Father,0,0,0,,Could this be kawaii chaos?
+Dialogue: 0,0:00:49.23,0:00:51.10,RiskySubs,Kuromi,0,0,0,,I'm actually having a lot of fun.
+Dialogue: 0,0:00:51.10,0:00:53.52,RiskySubs,Kuromi,0,0,0,,{\i1}But I really should get home soon.
+Dialogue: 0,0:00:53.81,0:00:55.90,RiskySubs,Kuromi,0,0,0,,{\i1}I made everyone really mad.
+Dialogue: 0,0:00:57.06,0:00:58.90,RiskySubs,My Melody,0,0,0,,Wanna play with me?
+Dialogue: 0,0:00:58.90,0:01:02.60,RiskySubs,Kuromi,0,0,0,,Baw, if I have to, sure.
+Dialogue: 0,0:01:02.60,0:01:04.69,RiskySubs,My Melody,0,0,0,,You're such a sweetheart, Kuromi.
+Dialogue: 0,0:01:04.69,0:01:06.31,RiskySubs,Kuromi,0,0,0,,I... am?
+Dialogue: 0,0:01:06.31,0:01:08.27,RiskySubs,Kuromi,0,0,0,,I don't think so.
+Dialogue: 0,0:01:08.27,0:01:12.10,RiskySubs,Kuromi,0,0,0,,I'm only running for myself,\Nnot for anyone else.
+Dialogue: 0,0:01:12.10,0:01:14.44,RiskySubs,Kuromi,0,0,0,,It's all so selfish.
+Dialogue: 0,0:01:14.44,0:01:18.56,RiskySubs,My Melody,0,0,0,,But I have lots more fun when you're here!
+Dialogue: 0,0:01:18.56,0:01:19.31,RiskySubs,Kuromi,0,0,0,,Huh?
+Dialogue: 0,0:01:21.31,0:01:24.44,RiskySubs,Kuromi,0,0,0,,I guess... I should go home!
+Dialogue: 0,0:01:24.85,0:01:25.60,RiskySubs,My Melody,0,0,0,,Okay!
+Dialogue: 0,0:01:26.90,0:01:28.52,RiskySubs,Kuromi,0,0,0,,I'm on my way, guys.
+Dialogue: 0,0:01:28.52,0:01:29.66,RiskySubs,MM,0,0,0,,{\i1}Universe!
+Dialogue: 0,0:01:36.42,0:01:38.02,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.69,0:01:40.02,RiskySubs,Kuromi,0,0,0,,"Final boss."
+Dialogue: 0,0:01:40.44,0:01:43.31,RiskySubs,Kuromi,0,0,0,,Oh no! I gotta get back quick!
+

@@ -13,6 +13,7 @@ Finished Projects:
 - Cap Kakumei Bottleman DX / Cap Kakumei Bottleman DX Side Story (Cap Revolution Bottleman DX)
 - Kawaisugi Crisis (Too Cute Crisis)
 - Kuma no Gakkou films (The Bears' School)
+- Kuromi's Pretty Journey S2
 - Kyouryuu Shoujo Gauko (2017) (Dino Girl Gauko)
 
 Dropped Projects:

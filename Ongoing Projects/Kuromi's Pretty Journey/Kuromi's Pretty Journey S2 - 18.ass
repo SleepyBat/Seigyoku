@@ -1,0 +1,58 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.19,0:00:02.48,RiskySubs,Kuromi,0,0,0,,What do you {\i1}mean{\i0} "arrested?"
+Dialogue: 0,0:00:02.69,0:00:05.48,RiskySubs,Nico's Father,0,0,0,,Have you not seen the chaos\Nshe turned this world to?
+Dialogue: 0,0:00:05.73,0:00:08.98,RiskySubs,Nico's Mother,0,0,0,,We have to keep her under watch\Nto prevent any further evil.
+Dialogue: 0,0:00:08.98,0:00:11.52,RiskySubs,Dark!Kuromi,0,0,0,,I'll pay for my crimes.
+Dialogue: 0,0:00:15.15,0:00:19.15,RiskySubs,Kuromi,0,0,0,,How could you say that?\NYou ain't thinking about her at all!
+Dialogue: 0,0:00:19.15,0:00:22.65,RiskySubs,Kuromi,0,0,0,,You can't take her home\Nover your stupid rules!
+Dialogue: 0,0:00:24.69,0:00:27.65,RiskySubs,Nico's Father,0,0,0,,But there's nothing left\Nwe can do about this world.
+Dialogue: 0,0:00:27.90,0:00:28.60,RiskySubs,Koni,0,0,0,,Oni!
+Dialogue: 0,0:00:29.52,0:00:30.85,RiskySubs,Nico,0,0,0,,Mom, Dad.
+Dialogue: 0,0:00:32.90,0:00:33.98,RiskySubs,Kuromi,0,0,0,,Nico!
+Dialogue: 0,0:00:33.98,0:00:35.65,RiskySubs,Nico,0,0,0,,I'll turn back time!
+Dialogue: 0,0:00:35.65,0:00:37.15,RiskySubs,All,0,0,0,,What?!
+Dialogue: 0,0:00:37.15,0:00:41.06,RiskySubs,Nico's Father,0,0,0,,But that technique is for emergencies,\Nit will deplete your power!
+Dialogue: 0,0:00:41.06,0:00:43.90,RiskySubs,Nico's Father,0,0,0,,We can't assure you'll ever come back\Nto Universe Patrol!
+Dialogue: 0,0:00:43.90,0:00:44.81,RiskySubs,Kuromi,0,0,0,,Nico...
+Dialogue: 0,0:00:44.81,0:00:46.27,RiskySubs,Nico,0,0,0,,It's fine, Kuromi.
+Dialogue: 0,0:00:46.90,0:00:48.15,RiskySubs,Nico,0,0,0,,Because now...
+Dialogue: 0,0:00:48.15,0:00:50.15,RiskySubs,Nico,0,0,0,,when I see someone suffering,
+Dialogue: 0,0:00:50.15,0:00:51.90,RiskySubs,Nico,0,0,0,,I want to come to their rescue!
+Dialogue: 0,0:00:51.90,0:00:53.92,RiskySubs,MM,0,0,0,,{\i1}Launching full-power mode!
+Dialogue: 0,0:00:55.60,0:00:57.35,RiskySubs,Nico's Father,0,0,0,,You've made a brave decision, Nico.
+Dialogue: 0,0:00:57.35,0:00:58.77,RiskySubs,Nico,0,0,0,,Mom, Dad...
+Dialogue: 0,0:00:58.77,0:01:00.90,RiskySubs,Nico's Mother,0,0,0,,We'll join you.
+Dialogue: 0,0:01:00.90,0:01:01.85,RiskySubs,Kuromi,0,0,0,,Nico!
+Dialogue: 0,0:01:01.85,0:01:03.90,RiskySubs,Kuromi,0,0,0,,You better not give up, ya hear?
+Dialogue: 0,0:01:04.73,0:01:06.90,RiskySubs,Kuromi,0,0,0,,You're gonna be Universe Patrol, right?
+Dialogue: 0,0:01:06.90,0:01:09.98,RiskySubs,Kuromi,0,0,0,,Don't stop pushing towards your goals!
+Dialogue: 0,0:01:09.98,0:01:11.98,RiskySubs,Kuromi,0,0,0,,Now or ever, got it?!
+Dialogue: 0,0:01:11.98,0:01:13.19,RiskySubs,Nico,0,0,0,,Oh, Kuromi.
+Dialogue: 0,0:01:13.19,0:01:16.92,RiskySubs,Nico,0,0,0,,Your selfishness made me brave\Nenough to push forward.
+Dialogue: 0,0:01:18.85,0:01:22.23,RiskySubs,Nico,0,0,0,,I'll be an outsanding member\Nof Universe Patrol!
+Dialogue: 0,0:01:23.65,0:01:25.60,RiskySubs,Kuromi,0,0,0,,You better, Nico!
+Dialogue: 0,0:01:25.60,0:01:27.06,RiskySubs,MM,0,0,0,,{\i1}I'll be back!
+Dialogue: 0,0:01:28.34,0:01:29.98,Sign 2,Sign,0,0,0,,{\org(1108,386)\fade(200,0)\frz342.9\pos(1102,420)}October 31st
+Dialogue: 0,0:01:36.36,0:01:38.20,RiskySubs,Narrator,0,0,0,,{\i1}Kuromi's keyword!
+Dialogue: 0,0:01:38.65,0:01:41.15,RiskySubs,Kuromi,0,0,0,,"October 31st!"
+Dialogue: 0,0:01:41.15,0:01:42.90,RiskySubs,Kuromi,0,0,0,,Next one's the season finale!
+Dialogue: 0,0:01:42.90,0:01:44.77,RiskySubs,Kuromi,0,0,0,,Don't stop now!
+

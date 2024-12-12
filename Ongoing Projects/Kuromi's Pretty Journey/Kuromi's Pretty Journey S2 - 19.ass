@@ -1,0 +1,71 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RiskySubs,Aller,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Sign,Aller,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,10,10,40,1
+Style: Credits,Aller,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,10,1
+Style: Sign 2,Aller,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,40,1
+Style: Song,Aller,73,&H00E0ABFA,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,3,2,8,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.77,0:00:05.02,RiskySubs,Kuromi,0,0,0,,Wh-Where am I?
+Dialogue: 0,0:00:05.02,0:00:05.81,RiskySubs,Kuromi,0,0,0,,And when?
+Dialogue: 0,0:00:05.81,0:00:07.06,Sign,Sign,0,0,0,,{\pos(954.667,573.333)}October 31st
+Dialogue: 0,0:00:07.27,0:00:09.48,RiskySubs,Kuromi,0,0,0,,I'm really back! Nico!
+Dialogue: 0,0:00:10.81,0:00:13.81,RiskySubs,Gureco/Collimo,0,0,0,,Happy birthday, Kuromi!
+Dialogue: 0,0:00:10.81,0:00:13.81,RiskySubs,Baku,0,0,0,,{\an8}Happy birthday, Miss Kuromi!
+Dialogue: 0,0:00:13.81,0:00:16.44,RiskySubs,Kuromi,0,0,0,,D-Did you guys lose your memories?
+Dialogue: 0,0:00:16.44,0:00:19.81,RiskySubs,Baku,0,0,0,,Nope, we remember!\NThe whole world was in a real doozy!
+Dialogue: 0,0:00:19.81,0:00:22.19,RiskySubs,Collimo,0,0,0,,But since we got to go back,
+Dialogue: 0,0:00:22.19,0:00:24.06,RiskySubs,Collimo,0,0,0,,why not have your birthday party?
+Dialogue: 0,0:00:24.06,0:00:26.56,RiskySubs,Gureco,0,0,0,,No more Halloween under our roof!
+Dialogue: 0,0:00:27.81,0:00:30.81,RiskySubs,Baku,0,0,0,,We're sorry for misleading you,\NMiss Kuromi.
+Dialogue: 0,0:00:30.81,0:00:31.94,RiskySubs,Kuromi,0,0,0,,Uh... Hmph!
+Dialogue: 0,0:00:31.94,0:00:34.48,RiskySubs,Kuromi,0,0,0,,You don't think I'd get {\i1}that{\i0} angry, no?
+Dialogue: 0,0:00:35.23,0:00:38.56,RiskySubs,Kuromi,0,0,0,,Seriously though, I wonder what happened\Nto Nico and his parents?
+Dialogue: 0,0:00:38.56,0:00:39.48,RiskySubs,Koni,0,0,0,,Oni!
+Dialogue: 0,0:00:40.52,0:00:42.14,RiskySubs,Baku,0,0,0,,What's the matter, Koni?
+Dialogue: 0,0:00:42.60,0:00:43.85,RiskySubs,Koni,0,0,0,,Oni-oni!
+Dialogue: 0,0:00:44.52,0:00:47.85,RiskySubs,Baku,0,0,0,,Oh, yeah. Koni can draw the future.
+Dialogue: 0,0:00:47.85,0:00:50.40,RiskySubs,Kuromi,0,0,0,,So I really {\i1}will{\i0} see Nico again!
+Dialogue: 0,0:00:50.56,0:00:51.35,RiskySubs,Kuromi,0,0,0,,Yay, Nico!
+Dialogue: 0,0:00:51.35,0:00:52.90,RiskySubs,Gureco,0,0,0,,Good for you, girl!
+Dialogue: 0,0:00:55.23,0:00:55.98,Sign,Sign(Father),0,0,0,,{\pos(954,950)}Are you holding your power in Kuromi's world?{going to skip "oni" dialogue here to prevent clutter}
+Dialogue: 0,0:00:56.40,0:00:57.81,Sign,Sign(Koni),0,0,0,,{\pos(932,960)}Yeah, there's more I have to learn here!
+Dialogue: 0,0:00:57.81,0:00:59.23,Sign,Sign(Mother),0,0,0,,{\pos(1450,958)}Good for you.
+Dialogue: 0,0:00:57.81,0:00:59.23,Sign,Sign(Father),0,0,0,,{\pos(514,958)}Good to hear.
+Dialogue: 0,0:00:59.23,0:01:01.10,Sign,Sign(Mother),0,0,0,,{\pos(942,958)\fade(0,600)}But your identity must remain a secret.
+Dialogue: 0,0:01:00.15,0:01:03.90,RiskySubs,Nico,0,0,0,,{\an8\i1}"Nico" will be back once I've grown,
+Dialogue: 0,0:01:03.90,0:01:05.23,RiskySubs,Nico,0,0,0,,{\an8\i1}so hang in there.
+Dialogue: 0,0:01:05.23,0:01:08.35,RiskySubs,Kuromi,0,0,0,,Y'know, I realized something\Nfrom my journey!
+Dialogue: 0,0:01:08.52,0:01:11.85,RiskySubs,Kuromi,0,0,0,,When I do my favorite things,\Neveryone else wants to join in!
+Dialogue: 0,0:01:11.98,0:01:14.10,RiskySubs,Kuromi,0,0,0,,So do the people around me!
+Dialogue: 0,0:01:14.10,0:01:17.69,RiskySubs,Kuromi,0,0,0,,Then the whole world starts following\Ntheir dreams and becoming happy!
+Dialogue: 0,0:01:17.69,0:01:20.81,RiskySubs,Baku,0,0,0,,Sounds like you learned a multitude\Nof things in the multiverse!
+Dialogue: 0,0:01:21.69,0:01:24.35,RiskySubs,Kuromi,0,0,0,,Be selfish! Be the person you wanna be!
+Dialogue: 0,0:01:24.35,0:01:26.98,RiskySubs,Kuromi,0,0,0,,That's the true spirit of Kuromifying the World!
+Dialogue: 0,0:01:26.98,0:01:28.23,Sign,Sign,0,0,0,,{\fade(0,400)\pos(973,420)}#KUROMIfyTheWorldProject
+Dialogue: 0,0:01:53.56,0:01:56.02,RiskySubs,Koni,0,0,0,,Oni-ni... Oni...
+Dialogue: 0,0:01:55.06,0:01:56.27,RiskySubs,Gureco,0,0,0,,{\an8}This is awesome!
+Dialogue: 0,0:01:56.27,0:01:58.19,RiskySubs,Baku,0,0,0,,{\an8}Miss Kuromi, we have bavarian cream!
+Dialogue: 0,0:01:58.19,0:01:59.06,RiskySubs,Kuromi,0,0,0,,{\an8}Say what?!
+Dialogue: 0,0:01:58.44,0:01:59.06,RiskySubs,Collimo,0,0,0,,Huh?!
+Dialogue: 0,0:01:59.65,0:02:00.52,RiskySubs,Kuromi,0,0,0,,{\an8\i1}So{\i0} good!
+Dialogue: 0,0:02:00.52,0:02:01.48,RiskySubs,Koni,0,0,0,,Oni!
+Dialogue: 0,0:02:01.48,0:02:03.98,RiskySubs,Koni,0,0,0,,Oni-oni-oni-oni...
+Dialogue: 0,0:01:30.02,0:01:34.27,Song,Song,0,0,0,,I'm just minding my business\NAnd I can't help the quirks
+Dialogue: 0,0:01:34.27,0:01:38.73,Song,Song,0,0,0,,But like, what else am I supposed to do?
+Dialogue: 0,0:01:38.73,0:01:43.77,Song,Song,0,0,0,,When people say something's weird
+Dialogue: 0,0:01:43.77,0:01:48.90,Song,Song,0,0,0,,It's no weirder than the things you see everyday
+Dialogue: 0,0:01:48.90,0:01:53.27,Song,Song,0,0,0,,Am I mad? Nah, I'm used to it
+

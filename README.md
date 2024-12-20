@@ -5,12 +5,12 @@ These may include updates from original releases for quality purposes. Any updat
 Ongoing Projects:
 - The Snack World
 - Line Town
-- Hyakushou Kizoku (Noble Farmer)
 - Punirunes / Punirunes Puni2
 - Kuromi's Pretty Journey S2
 
 Finished Projects:
 - Cap Kakumei Bottleman DX / Cap Kakumei Bottleman DX Side Story (Cap Revolution Bottleman DX)
+- Hyakushou Kizoku (Noble Farmer) S1+S2
 - Kawaisugi Crisis (Too Cute Crisis)
 - Kuma no Gakkou films (The Bears' School)
 - Kuromi's Pretty Journey S2

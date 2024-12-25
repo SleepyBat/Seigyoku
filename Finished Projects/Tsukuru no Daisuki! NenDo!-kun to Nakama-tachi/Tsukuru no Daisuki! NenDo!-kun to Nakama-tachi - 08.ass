@@ -1,0 +1,42 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\pos(518,762)\c&H02F1FD&\blur1}NenDo{\c&H27C082&\fsp-5}!{\c&H02F1FD&\fsp}-kun {\c&H1000E5&}and {\c&H3426E3&\blur0.7}F{\c&H2E7DEE&}r{\c&H3426E3&}i{\c&H2E7DEE&}e{\c&H3426E3&}n{\c&H2E7DEE&}d{\c&H3426E3&}s
+Dialogue: 2,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HAB5C00&\3c&HAB5C00&\bord5\blur2\pos(331,762)}NenDo{\fsp-5}!{\fsp}-kun
+Dialogue: 1,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&HC88941&\3c&HC88941&\bord5\blur0.7\pos(329.42,761.01)}NenDo{\fsp-5}!{\fsp}-kun
+Dialogue: 1,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&H9E4800&\3c&H9E4800&\bord5\blur0.7\pos(332.87,763.7)}NenDo{\fsp-5}!{\fsp}-kun
+Dialogue: 0,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&H000000&\blur2\pos(521.33,766.22)\1a&HFE&}NenDo{\fsp-5}!{\fsp}-kun {\1a&HE4&}and Friends
+Dialogue: 3,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&H3426E3&\blur0.7\pos(518,822)}L{\c&H2E7DEE&}o{\c&H3426E3&}v{\c&H2E7DEE&}e {\c&H3426E3&}t{\c&H2E7DEE&}o {\c&H3426E3&}C{\c&H2E7DEE&}r{\c&H3426E3&}e{\c&H2E7DEE&}a{\c&H3426E3&}t{\c&H2E7DEE&}e{\c&H3426E3&}!
+Dialogue: 0,0:00:06.15,0:00:10.37,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\c&H000000&\blur2\1a&HE4&\pos(521.33,826.22)}Love to Create!
+Dialogue: 1,0:00:12.20,0:00:18.75,Signs,,0,0,0,,{\fnTw Cen MT\b1\pos(960,326)\c&H005EE9&\blur0.7\fad(950,950)}Twinkling Stars
+Dialogue: 0,0:00:12.20,0:00:18.75,Signs,,0,0,0,,{\fnTw Cen MT\b1\pos(960,326)\1a&HFE&\3a&HFE&\shad0.01\bord4\blur0.7\fad(950,950)\4c&HFFFFFF&\4a&H00&}Twinkling Stars
+Dialogue: 0,0:00:12.58,0:00:16.66,Default,,0,0,0,,{\i1}NenDo!-kun and friends visit\Na field at night.
+Dialogue: 0,0:00:16.66,0:00:19.04,Default,,0,0,0,,{\i1}Shooting stars fly all over.
+Dialogue: 0,0:00:19.54,0:00:21.38,Default,,0,0,0,,Wow, shooting stars!
+Dialogue: 0,0:00:21.67,0:00:23.21,Default,,0,0,0,,Let's catch some!
+Dialogue: 0,0:00:23.63,0:00:25.80,Default,,0,0,0,,I'm gonna get a ton!
+Dialogue: 0,0:00:25.80,0:00:27.22,Default,,0,0,0,,How do we do that?
+Dialogue: 0,0:00:29.43,0:00:30.47,Default,,0,0,0,,I know!
+Dialogue: 0,0:00:37.56,0:00:41.02,Default,,0,0,0,,{\i1}With wings on their backs\Nand butterfly nets in hand,
+Dialogue: 0,0:00:41.02,0:00:42.90,Default,,0,0,0,,{\i1}they soar into the sky.
+Dialogue: 0,0:00:46.32,0:00:47.90,Default,,0,0,0,,I caught one!
+Dialogue: 0,0:00:51.11,0:00:53.07,Default,,0,0,0,,Mom? Where are you?
+Dialogue: 0,0:00:53.07,0:00:55.45,Default,,0,0,0,,I want to see my mom again...
+Dialogue: 0,0:00:55.95,0:00:56.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:04.84,0:01:07.01,Default,,0,0,0,,Really, after all that work?
+Dialogue: 0,0:01:07.01,0:01:09.80,Default,,0,0,0,,I know, but look how pretty it is!
+Dialogue: 0,0:01:10.38,0:01:15.72,Default,,0,0,0,,{\i1}Many shooting stars fly by\Nthe Clay Kingdom of Clay Planet.
+

@@ -15,6 +15,7 @@ Finished Projects:
 - Kuma no Gakkou films (The Bears' School)
 - Kuromi's Pretty Journey S2
 - Kyouryuu Shoujo Gauko (2017) (Dino Girl Gauko)
+- Tsukuru no Daisuki! NenDo!-kun to Nakama-tachi (NenDo!-kun and Friends Love to Create!)
 
 Dropped Projects:
 - Dog Signal (eps 1-5)

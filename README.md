@@ -6,7 +6,6 @@ Ongoing Projects:
 - The Snack World
 - Line Town
 - Punirunes / Punirunes Puni2
-- Kuromi's Pretty Journey S2
 
 Finished Projects:
 - Cap Kakumei Bottleman DX / Cap Kakumei Bottleman DX Side Story (Cap Revolution Bottleman DX)

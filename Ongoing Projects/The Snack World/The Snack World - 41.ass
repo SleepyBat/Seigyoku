@@ -1,0 +1,739 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 41
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E4E6E3,&H00DEA4D9,&H00F0236F,&H00434343,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00DBA9A4,&H00FA4789,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.36,0:00:05.13,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.13,0:00:08.28,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.28,0:00:10.28,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.28,0:00:12.17,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.70,0:00:16.66,0$Default,,0,0,0,,After a long battle,\NI've finally defeated the evil merchant Vinegar Khan,
+Dialogue: 0,0:00:16.66,0:00:19.46,0$Default,,0,0,0,,and now I'm moving towards a new goal!
+Dialogue: 0,0:00:20.30,0:00:22.54,0$Default,,0,0,0,,Whatever perils await me,
+Dialogue: 0,0:00:22.54,0:00:26.01,0$Default,,0,0,0,,I'll fully, flawlessly overcome them!
+Dialogue: 0,0:00:54.45,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:00.84,0:01:02.04,0$Default,,0,0,0,,Hmm...
+Dialogue: 0,0:01:02.54,0:01:04.23,0$Default,,0,0,0,,{\an8}In order to perfect this airship,
+Dialogue: 0,0:01:04.23,0:01:08.46,0$Default,,0,0,0,,{\an8}we'll need finely-made instruments\Nthat can measure to a nano-level.
+Dialogue: 0,0:01:08.46,0:01:11.82,0$Default,,0,0,0,,{\an8}So our next stop will be Peffany\Nto borrow their embossing tech.
+Dialogue: 0,0:01:11.82,0:01:14.91,0$Default,,0,0,0,,{\an8}Awesome! Let's go hitch a ride\Nto their headquarters!
+Dialogue: 0,0:01:14.91,0:01:16.81,0$Default,,0,0,0,,{\an8}Also, what's embossing?
+Dialogue: 0,0:01:17.18,0:01:21.17,0$Default,,0,0,0,,It's a way of crafting\Nvery precise devices and molds.
+Dialogue: 0,0:01:21.17,0:01:25.54,0$Default,,0,0,0,,They started out as an accessory manufacturer\Nknown for their high-quality embossing.
+Dialogue: 0,0:01:25.54,0:01:26.65,0$Default,,0,0,0,,They're the best!
+Dialogue: 0,0:01:26.65,0:01:29.92,0$Default,,0,0,0,,As much as I love their equipment,\Nthey'll always be an accessory brand to me!
+Dialogue: 0,0:01:29.92,0:01:33.74,0$Default,,0,0,0,,I hope they give us product samples\Nwhen we show up at their HQ!
+Dialogue: 0,0:01:33.74,0:01:34.82,0$Default,,0,0,0,,We better go!
+Dialogue: 0,0:01:34.82,0:01:36.68,0$Default,,0,0,0,,They look excited.
+Dialogue: 0,0:01:36.68,0:01:39.06,0$Default,,0,0,0,,Peffany is a girl's biggest weakness.
+Dialogue: 0,0:01:39.06,0:01:42.31,0$Default,,0,0,0,,I'm constantly giving their stuff\Nto ladies at the bar.
+Dialogue: 0,0:01:42.31,0:01:44.13,0$Default,,0,0,0,,Why do you think I'm broke?
+Dialogue: 0,0:01:44.13,0:01:49.74,0$Default,,0,0,0,,Peffany has a reputation for being the brand\Nthat a gentleman gifts to his lady.
+Dialogue: 0,0:01:49.74,0:01:52.68,0$Default,,0,0,0,,If only someone would buy {\i1}me{\i0}\Ntheir latest products!
+Dialogue: 0,0:01:54.12,0:01:57.68,0$Default,,0,0,0,,Mayone, don't you already have\Nenough Peffany goods?
+Dialogue: 0,0:01:57.68,0:01:59.95,0$Default,,0,0,0,,There's no such thing as "enough" Peffany!
+Dialogue: 0,0:02:01.35,0:02:02.94,0$Default,,0,0,0,,Sarria Staff!
+Dialogue: 0,0:02:04.85,0:02:08.94,0$Default,,0,0,0,,{\i1}Shining forever, Peffany.
+Dialogue: 0,0:02:10.41,0:02:11.94,0$Default,,0,0,0,,{\i1}Sarria Staff.
+Dialogue: 0,0:02:13.57,0:02:16.68,0$Default,,0,0,0,,Peffany's Sarria Staff\Nis just the cutest thing ever!
+Dialogue: 0,0:02:16.68,0:02:18.03,0$Default,,0,0,0,,So well-crafted!
+Dialogue: 0,0:02:18.03,0:02:18.79,0$Default,,0,0,0,,Fireball!
+Dialogue: 0,0:02:18.79,0:02:21.91,0$Default,,0,0,0,,Ow-ow-ow! And its firepower is excellent!
+Dialogue: 0,0:02:21.91,0:02:23.44,0$Default,,0,0,0,,Let me try it!
+Dialogue: 0,0:02:23.44,0:02:24.77,0$Default,,0,0,0,,N-No way, José!
+Dialogue: 0,0:02:24.77,0:02:26.13,0$Default,,0,0,0,,Come on, you cheapskate!
+Dialogue: 0,0:02:26.13,0:02:27.92,0$Default,,0,0,0,,Stop it, that scorches!
+Dialogue: 0,0:02:30.84,0:02:34.57,0$Default,,0,0,0,,{\an8}The age of gentlemen buying\Nour products for their ladies is no more.
+Dialogue: 0,0:02:34.57,0:02:38.33,0$Default,,0,0,0,,{\an8}Peffany is refocusing its brand\Non hyper-ladies
+Dialogue: 0,0:02:38.33,0:02:41.20,0$Default,,0,0,0,,{\an8}who buy our products\Nfor their own benefit!
+Dialogue: 0,0:02:41.20,0:02:42.27,0$Default,,0,0,0,,{\an8}Are we clear?
+Dialogue: 0,0:02:42.27,0:02:43.12,0$Default,,0,0,0,,{\an8}Objection!
+Dialogue: 0,0:02:43.12,0:02:45.21,0$Default,,0,0,0,,{\an8}Ladies aren't "hyper"\Nor bullcrap like that.
+Dialogue: 0,0:02:45.21,0:02:49.02,0$Default,,0,0,0,,{\an8}Don't you recognize why\NPeffany combines beauty and strength?
+Dialogue: 0,0:02:49.02,0:02:51.88,0$Default,,0,0,0,,Yonekawa, do you think that\Nyou can lecture {\i1}me,{\i0} the president?
+Dialogue: 0,0:02:51.88,0:02:56.08,0$Default,,0,0,0,,Peffany is a brand of love,\Noffered by men to women they wish to protect.
+Dialogue: 0,0:02:56.08,0:02:58.97,0$Default,,0,0,0,,That has remained,\Nand should continue to remain.
+Dialogue: 0,0:02:58.97,0:03:00.83,0$Default,,0,0,0,,It's the spirit of Peffany itself!
+Dialogue: 0,0:03:00.83,0:03:02.27,0$Default,,0,0,0,,Yonekawa...
+Dialogue: 0,0:03:02.27,0:03:04.85,0$Default,,0,0,0,,You know that you're my favorite designer here.
+Dialogue: 0,0:03:04.85,0:03:08.63,0$Default,,0,0,0,,But if you don't wish to follow my plan,\Nyou have no place in my company!
+Dialogue: 0,0:03:09.25,0:03:13.30,0$Default,,0,0,0,,You know the rest of your designers\Nare going to follow me out the door.
+Comment: 0,0:03:16.98,0:03:19.98,0$Default,,0,0,0,,Peffany HQ
+Dialogue: 0,0:03:20.05,0:03:21.64,0$Default,,0,0,0,,This is the place!
+Dialogue: 0,0:03:21.64,0:03:25.83,0$Default,,0,0,0,,Between this and Detton,\Nthere sure are a lot of big brands around here.
+Dialogue: 0,0:03:25.83,0:03:26.96,0$Default,,0,0,0,,Really brings me back.
+Dialogue: 0,0:03:26.96,0:03:29.84,0$Default,,0,0,0,,Gob-san, did you use to live here?
+Dialogue: 0,0:03:29.84,0:03:34.61,0$Default,,0,0,0,,Believe it or not, I used to shake hands\Nhere in the business district back in the day!
+Dialogue: 0,0:03:34.61,0:03:35.67,0$Default,,0,0,0,,During the Yuppie era.
+Dialogue: 0,0:03:35.67,0:03:37.45,0$Default,,0,0,0,,You never told us\Nyou were a businessman!
+Dialogue: 0,0:03:37.45,0:03:38.80,0$Default,,0,0,0,,So cool!
+Dialogue: 0,0:03:38.80,0:03:41.70,0$Default,,0,0,0,,Used to be a prince, used to do business,\Nused to have hair...
+Dialogue: 0,0:03:41.70,0:03:43.66,0$Default,,0,0,0,,His stories just don't add up.
+Dialogue: 0,0:03:43.66,0:03:47.21,0$Default,,0,0,0,,I'm telling the truth.\NI used to work at a big company!
+Dialogue: 0,0:03:47.21,0:03:48.04,0$Default,,0,0,0,,Whoa!
+Dialogue: 0,0:03:48.04,0:03:48.79,0$Default,,0,0,0,,That's awesome!
+Dialogue: 0,0:03:48.81,0:03:50.08,0$Default,,0,0,0,,...Right behind its building!
+Dialogue: 0,0:03:50.31,0:03:53.67,0$Default,,0,0,0,,I was fighting crows and stray cats\Nfor scraps of food!
+Dialogue: 0,0:03:53.67,0:03:56.17,0$Default,,0,0,0,,You call {\i1}that{\i0}\Nbeing a businessman?
+Dialogue: 0,0:03:56.17,0:03:58.78,0$Default,,0,0,0,,Oh! I smell more tasty scraps!
+Dialogue: 0,0:03:58.78,0:04:00.32,0$Default,,0,0,0,,Smells like pork chops!
+Dialogue: 0,0:04:02.60,0:04:04.11,0$Default,,0,0,0,,Good afternoon!
+Dialogue: 0,0:04:06.27,0:04:09.58,0$Default,,0,0,0,,H-Huh? What's going on here?\NAre we interrupting?
+Dialogue: 0,0:04:09.58,0:04:12.40,0$Default,,0,0,0,,You got any good designers?
+Dialogue: 0,0:04:13.90,0:04:15.78,0$Default,,0,0,0,,There is me.
+Dialogue: 0,0:04:15.78,0:04:19.74,0$Default,,0,0,0,,Wanna help us build a great airship\Nto break through the magic barrier?
+Dialogue: 0,0:04:19.74,0:04:21.24,0$Default,,0,0,0,,And who are you?
+Dialogue: 0,0:04:21.24,0:04:24.24,0$Default,,0,0,0,,I have the blueprint laid out.
+Dialogue: 0,0:04:24.24,0:04:26.12,0$Default,,0,0,0,,This is amazing.
+Dialogue: 0,0:04:26.12,0:04:28.60,0$Default,,0,0,0,,It's fascinating to my\Ninner designer.
+Dialogue: 0,0:04:28.60,0:04:32.00,0$Default,,0,0,0,,Unfortunately, this ain't\Na really good time.
+Dialogue: 0,0:04:32.00,0:04:34.40,0$Default,,0,0,0,,Yeah, I had a feeling about that.
+Dialogue: 0,0:04:34.40,0:04:36.34,0$Default,,0,0,0,,Huh? Are you having an argument?
+Dialogue: 0,0:04:36.34,0:04:39.47,0$Default,,0,0,0,,We're not arguing.\NWe just have conflicting pla—
+Dialogue: 0,0:04:43.43,0:04:44.35,0$Default,,0,0,0,,I understand.
+Dialogue: 0,0:04:44.94,0:04:47.04,0$Default,,0,0,0,,A feud between management\Nand workers
+Dialogue: 0,0:04:47.04,0:04:48.62,0$Default,,0,0,0,,is not in Peffany's best interest.
+Dialogue: 0,0:04:48.62,0:04:50.10,0$Default,,0,0,0,,Finally figured it out, eh?
+Dialogue: 0,0:04:50.10,0:04:56.21,0$Default,,0,0,0,,Both of us will develop and present\Nour own individual Peffany products,
+Dialogue: 0,0:04:56.21,0:05:00.32,0$Default,,0,0,0,,and through that, we'll determine\Nwho gets to direct the brand going forward.
+Dialogue: 0,0:05:00.32,0:05:02.85,0$Default,,0,0,0,,Present them? You're giving them away?
+Dialogue: 0,0:05:02.85,0:05:04.85,0$Default,,0,0,0,,Not that kind of "present."
+Dialogue: 0,0:05:04.85,0:05:09.62,0$Default,,0,0,0,,A "presentation" is used by companies\Nto discuss their new projects and plans.
+Dialogue: 0,0:05:09.62,0:05:11.87,0$Default,,0,0,0,,Sounds fun. I'm in.
+Dialogue: 0,0:05:11.87,0:05:13.71,0$Default,,0,0,0,,Let us begin.
+Dialogue: 0,0:05:14.29,0:05:16.88,0$Default,,0,0,0,,I'll recruit those two.
+Dialogue: 0,0:05:17.34,0:05:18.17,0$Default,,0,0,0,,Me?
+Dialogue: 0,0:05:18.17,0:05:23.64,0$Default,,0,0,0,,And Yonekawa, you can have the inadequate boy\Nand the scary-looking girl.
+Dialogue: 0,0:05:24.10,0:05:26.62,0$Default,,0,0,0,,Inadequate? You flatter me.
+Dialogue: 0,0:05:26.62,0:05:28.00,0$Default,,0,0,0,,That's not a compliment.
+Dialogue: 0,0:05:28.00,0:05:28.91,0$Default,,0,0,0,,Wait a minute!
+Dialogue: 0,0:05:28.91,0:05:31.96,0$Default,,0,0,0,,Does this mean I get to touch\Nnew products with my own hands?
+Dialogue: 0,0:05:31.96,0:05:34.19,0$Default,,0,0,0,,I'm so lucky!
+Dialogue: 0,0:05:34.19,0:05:36.59,0$Default,,0,0,0,,Mayone's on cloud nine!
+Dialogue: 0,0:05:36.59,0:05:38.44,0$Default,,0,0,0,,Peffany's power is incredible.
+Dialogue: 0,0:05:39.92,0:05:41.55,0$Default,,0,0,0,,Not sure I follow,
+Dialogue: 0,0:05:41.55,0:05:44.07,0$Default,,0,0,0,,but if we help you out,\Nyou'll build the ship with us, right?
+Dialogue: 0,0:05:44.07,0:05:47.33,0$Default,,0,0,0,,Mm-hm. Once this is all wrapped up,\NI'll take it on.
+Dialogue: 0,0:05:47.33,0:05:49.33,0$Default,,0,0,0,,Hey, what do Pepperon and I do?
+Dialogue: 0,0:05:49.83,0:05:52.90,0$Default,,0,0,0,,I'm not sure the burly dimwit\Nwill serve me any use.
+Dialogue: 0,0:05:52.90,0:05:54.98,0$Default,,0,0,0,,B-Burly dimwit?!
+Dialogue: 0,0:05:54.98,0:05:56.84,0$Default,,0,0,0,,I'll take him, then.
+Dialogue: 0,0:05:56.84,0:05:58.34,0$Default,,0,0,0,,Wh-What about me?
+Dialogue: 0,0:05:59.39,0:06:02.61,0$Default,,0,0,0,,That warped, triangular form of yours.\NIt brings manure to mind.
+Dialogue: 0,0:06:02.61,0:06:03.85,0$Default,,0,0,0,,It's quite avant-garde!
+Dialogue: 0,0:06:03.85,0:06:04.78,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:06:04.78,0:06:06.66,0$Default,,0,0,0,,What's with the Gob-san recognition?
+Dialogue: 0,0:06:06.66,0:06:10.91,0$Default,,0,0,0,,The aesthetics of a top brand's president\Nare not for the likes of us to understand.
+Dialogue: 0,0:06:10.91,0:06:13.44,0$Default,,0,0,0,,I don't really get it,\Nbut she's taken a liking to me.
+Dialogue: 0,0:06:17.70,0:06:21.07,0$Default,,0,0,0,,Wow! So this is where\Nthe designers do their work!
+Dialogue: 0,0:06:21.07,0:06:25.34,0$Default,,0,0,0,,Mr. Yonekawa, did {\i1}you{\i0} design\NPeffany's accessories?
+Dialogue: 0,0:06:25.34,0:06:26.07,0$Default,,0,0,0,,I did.
+Dialogue: 0,0:06:26.07,0:06:27.37,0$Default,,0,0,0,,That's so cool!
+Dialogue: 0,0:06:27.37,0:06:30.72,0$Default,,0,0,0,,Did you give them to girls too?
+Dialogue: 0,0:06:30.72,0:06:32.29,0$Default,,0,0,0,,You've been raking them in!
+Dialogue: 0,0:06:33.00,0:06:34.75,0$Default,,0,0,0,,P-Perhaps.
+Dialogue: 0,0:06:34.75,0:06:36.58,0$Default,,0,0,0,,You're one lucky beast, you know that?
+Dialogue: 0,0:06:37.36,0:06:39.80,0$Default,,0,0,0,,So what were you arguing\Nwith the president about?
+Dialogue: 0,0:06:39.80,0:06:43.74,0$Default,,0,0,0,,I'm sure you know we got our starts\Nas an accessory manufacturer.
+Dialogue: 0,0:06:43.74,0:06:46.66,0$Default,,0,0,0,,It was founded by Karen's father,\Nthe chairman of the company.
+Dialogue: 0,0:06:46.66,0:06:49.85,0$Default,,0,0,0,,He lost his wife Sarria\Nafter she was attacked by a monster.
+Dialogue: 0,0:06:49.85,0:06:50.85,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:06:50.85,0:06:55.90,0$Default,,0,0,0,,It was that incident that turned\NPeffany towards crafting weapons.
+Dialogue: 0,0:06:55.90,0:06:58.25,0$Default,,0,0,0,,I had no idea.
+Dialogue: 0,0:06:58.25,0:07:03.15,0$Default,,0,0,0,,Oh, but that explains the Sarria line,\Nit was named after his wife, right?
+Dialogue: 0,0:07:03.15,0:07:06.80,0$Default,,0,0,0,,His daughter and the current president, Karen,\Nis ignoring her father's wishes,
+Dialogue: 0,0:07:06.80,0:07:10.41,0$Default,,0,0,0,,abandoning Peffany's traditions\Nin order to mold it into her image.
+Dialogue: 0,0:07:10.41,0:07:13.39,0$Default,,0,0,0,,And you're opposed to it, I take it.
+Dialogue: 0,0:07:13.39,0:07:16.54,0$Default,,0,0,0,,What will you do if\Nyour presentation loses?
+Dialogue: 0,0:07:16.54,0:07:18.77,0$Default,,0,0,0,,I'll follow her orders,
+Dialogue: 0,0:07:18.77,0:07:22.59,0$Default,,0,0,0,,and we'll go on to make\Nunglamorous products.
+Dialogue: 0,0:07:22.59,0:07:23.55,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:07:23.55,0:07:26.70,0$Default,,0,0,0,,So I'm going to lose the Peffany\NI know and love?
+Dialogue: 0,0:07:26.70,0:07:27.87,0$Default,,0,0,0,,Unfortunately, yes.
+Dialogue: 0,0:07:27.87,0:07:29.89,0$Default,,0,0,0,,No way! Under my dead body!
+Dialogue: 0,0:07:29.89,0:07:31.68,0$Default,,0,0,0,,Chup, our presentation's gotta win!
+Dialogue: 0,0:07:31.68,0:07:32.26,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:07:32.26,0:07:36.02,0$Default,,0,0,0,,By the way, what's the thing you made?\NCome on, show us!
+Dialogue: 0,0:07:36.60,0:07:37.77,0$Default,,0,0,0,,Here it is.
+Dialogue: 0,0:07:37.77,0:07:39.17,0$Default,,0,0,0,,Whoa!
+Dialogue: 0,0:07:39.17,0:07:41.73,0$Default,,0,0,0,,Aww, it's so cute!
+Dialogue: 0,0:07:41.73,0:07:43.15,0$Default,,0,0,0,,Can I hold it?
+Dialogue: 0,0:07:44.37,0:07:46.01,0$Default,,0,0,0,,It's so beautiful!
+Dialogue: 0,0:07:46.01,0:07:47.22,0$Default,,0,0,0,,Whoa!
+Dialogue: 0,0:07:47.22,0:07:49.39,0$Default,,0,0,0,,Just look at this masterpiece.
+Dialogue: 0,0:07:49.39,0:07:50.99,0$Default,,0,0,0,,There's no way it can lose!
+Dialogue: 0,0:07:50.99,0:07:52.37,0$Default,,0,0,0,,Don't let your guard down.
+Dialogue: 0,0:07:52.37,0:07:53.37,0$Default,,0,0,0,,Why not?
+Dialogue: 0,0:07:53.70,0:07:56.25,0$Default,,0,0,0,,Karen is a talented designer as well.
+Dialogue: 0,0:07:57.38,0:08:00.92,0$Default,,0,0,0,,Finely embossed in every last detail...
+Dialogue: 0,0:08:00.92,0:08:02.92,0$Default,,0,0,0,,It's perfect. Beautiful work, Peffany.
+Dialogue: 0,0:08:03.34,0:08:06.24,0$Default,,0,0,0,,It's the Karen Axe—a hatchet for ladies.
+Dialogue: 0,0:08:06.24,0:08:07.55,0$Default,,0,0,0,,Quite the novel concept, no?
+Dialogue: 0,0:08:07.91,0:08:10.72,0$Default,,0,0,0,,Ladies no longer exist\Npurely for men to protect.
+Dialogue: 0,0:08:10.72,0:08:13.66,0$Default,,0,0,0,,An era approaches of\Nengaging and fashionable women...
+Dialogue: 0,0:08:13.66,0:08:15.31,0$Default,,0,0,0,,the era of hyper-ladies!
+Dialogue: 0,0:08:15.31,0:08:19.31,0$Default,,0,0,0,,This item will show everyone\Nwhat the new Peffany is about.
+Dialogue: 0,0:08:19.64,0:08:21.98,0$Default,,0,0,0,,What is our job, then?
+Dialogue: 0,0:08:21.98,0:08:24.44,0$Default,,0,0,0,,I sensed something\Nthe moment I saw you two.
+Dialogue: 0,0:08:24.86,0:08:26.53,0$Default,,0,0,0,,You will make perfect models!
+Dialogue: 0,0:08:26.53,0:08:27.19,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:27.45,0:08:29.20,0$Default,,0,0,0,,You shall model\Nfor my presnetation!
+Dialogue: 0,0:08:29.20,0:08:29.95,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:08:29.95,0:08:33.58,0$Default,,0,0,0,,I get to {\i1}model{\i0} for Peffany?\NI'd love to!
+Dialogue: 0,0:08:33.58,0:08:36.48,0$Default,,0,0,0,,Then I'd best train you\Non your runway walk.
+Dialogue: 0,0:08:36.48,0:08:39.55,0$Default,,0,0,0,,I used to be a supermodel,\Nso no one better to instruct you!
+Dialogue: 0,0:08:40.67,0:08:41.96,0$Default,,0,0,0,,My guess is...
+Dialogue: 0,0:08:41.96,0:08:46.11,0$Default,,0,0,0,,Karen will host a fashion show\Nwith those two as her models.
+Dialogue: 0,0:08:46.11,0:08:48.53,0$Default,,0,0,0,,They've got two beautiful stars, and we...
+Dialogue: 0,0:08:48.53,0:08:50.11,0$Default,,0,0,0,,We {\i1}what?
+Dialogue: 0,0:08:50.11,0:08:52.09,0$Default,,0,0,0,,F-Forget I said anything.
+Dialogue: 0,0:08:52.09,0:08:55.43,0$Default,,0,0,0,,I'm not all that good at presentations.
+Dialogue: 0,0:08:55.43,0:08:56.47,0$Default,,0,0,0,,I'm stumped...
+Dialogue: 0,0:08:56.47,0:08:58.96,0$Default,,0,0,0,,Peffany {\i1}is{\i0} a girl's brand,
+Dialogue: 0,0:08:58.96,0:09:00.81,0$Default,,0,0,0,,so I clearly should be the star.
+Dialogue: 0,0:09:01.46,0:09:05.13,0$Default,,0,0,0,,I know! What about a commercial\Nstarring and directed by me?
+Dialogue: 0,0:09:05.13,0:09:08.63,0$Default,,0,0,0,,Maybe it could even go on TV\Nif it works well!
+Dialogue: 0,0:09:08.63,0:09:12.07,0$Default,,0,0,0,,I could be in a commercial\Nfor Peffany!
+Dialogue: 0,0:09:12.07,0:09:13.53,0$Default,,0,0,0,,It's like a dream come true!
+Dialogue: 0,0:09:14.33,0:09:16.58,0$Default,,0,0,0,,She's acting like we've already won.
+Dialogue: 0,0:09:16.91,0:09:18.85,0$Default,,0,0,0,,It's all coming together!
+Dialogue: 0,0:09:18.85,0:09:21.10,0$Default,,0,0,0,,Time to give you the story\Nand the casting!
+Dialogue: 0,0:09:21.10,0:09:24.54,0$Default,,0,0,0,,I'm the beautiful swordswoman\Nwielding the strongest sword!
+Dialogue: 0,0:09:24.54,0:09:25.82,0$Default,,0,0,0,,Beautiful?
+Dialogue: 0,0:09:25.82,0:09:27.05,0$Default,,0,0,0,,Don't stop me on {\i1}that!
+Dialogue: 0,0:09:27.05,0:09:29.92,0$Default,,0,0,0,,Pepperon, you'll play the clumsy hero\Nwho forgot his sword!
+Dialogue: 0,0:09:29.92,0:09:31.66,0$Default,,0,0,0,,Lucky, you get to be a hero!
+Dialogue: 0,0:09:31.66,0:09:33.41,0$Default,,0,0,0,,A clumsy one, anyway...
+Dialogue: 0,0:09:33.41,0:09:34.43,0$Default,,0,0,0,,What's my role?
+Dialogue: 0,0:09:34.43,0:09:37.89,0$Default,,0,0,0,,You'll be the weakling monster\Nwho attacks the clumsy hero!
+Dialogue: 0,0:09:37.89,0:09:39.77,0$Default,,0,0,0,,Aww, a monster?
+Dialogue: 0,0:09:39.77,0:09:41.37,0$Default,,0,0,0,,And why am I weak?
+Dialogue: 0,0:09:41.37,0:09:43.71,0$Default,,0,0,0,,You can't just hog the good role to yourself!
+Dialogue: 0,0:09:43.71,0:09:45.11,0$Default,,0,0,0,,What he said!
+Dialogue: 0,0:09:46.07,0:09:49.34,0$Default,,0,0,0,,No complaints,\Nyou just have to make me look good!
+Dialogue: 0,0:09:49.34,0:09:51.07,0$Default,,0,0,0,,Ugh, fine.
+Dialogue: 0,0:09:51.07,0:09:53.09,0$Default,,0,0,0,,Ready to learn the plot?
+Dialogue: 0,0:09:53.09,0:09:56.18,0$Default,,0,0,0,,The weak monster attacks\Nthe clumsy swordless hero.
+Dialogue: 0,0:09:56.18,0:10:00.43,0$Default,,0,0,0,,That's when I come in out of the blue\Nto save the day!
+Dialogue: 0,0:10:00.43,0:10:02.75,0$Default,,0,0,0,,Then I wield my sword\Nand say a cool one-liner...
+Dialogue: 0,0:10:02.75,0:10:05.46,0$Default,,0,0,0,,"The Sarria Sword shines for eternity!"
+Dialogue: 0,0:10:05.46,0:10:06.71,0$Default,,0,0,0,,It's everything!
+Dialogue: 0,0:10:06.71,0:10:08.21,0$Default,,0,0,0,,Sound good, guys?
+Dialogue: 0,0:10:08.21,0:10:09.00,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:10:09.00,0:10:10.59,0$Default,,0,0,0,,I-I'll do my best!
+Dialogue: 0,0:10:10.59,0:10:12.86,0$Default,,0,0,0,,Let's get straight to work!
+Dialogue: 0,0:10:12.86,0:10:14.84,0$Default,,0,0,0,,Mr. Yonekawa,\Nyou can be the cameraman!
+Dialogue: 0,0:10:14.84,0:10:15.34,0$Default,,0,0,0,,On it!
+Dialogue: 0,0:10:16.85,0:10:17.97,0$Default,,0,0,0,,All set!
+Dialogue: 0,0:10:17.97,0:10:19.87,0$Default,,0,0,0,,Let's begin!
+Dialogue: 0,0:10:19.87,0:10:21.23,0$Default,,0,0,0,,Ready, start!
+Dialogue: 0,0:10:21.23,0:10:24.25,0$Default,,0,0,0,,You evil monster,\Nface the wrath of my...
+Dialogue: 0,0:10:24.25,0:10:25.73,0$Default,,0,0,0,,Oh no, my sword!
+Dialogue: 0,0:10:26.11,0:10:28.19,0$Default,,0,0,0,,Perfect! Just as always!
+Dialogue: 0,0:10:28.19,0:10:29.94,0$Default,,0,0,0,,Here comes the weak monster!
+Dialogue: 0,0:10:29.94,0:10:31.78,0$Default,,0,0,0,,Chuppy-Chuppy-Chup-Chup...
+Dialogue: 0,0:10:31.78,0:10:33.07,0$Default,,0,0,0,,Cut!
+Dialogue: 0,0:10:33.07,0:10:35.30,0$Default,,0,0,0,,What's with the "Chuppy-Chup-Chup" stuff?
+Dialogue: 0,0:10:35.30,0:10:38.95,0$Default,,0,0,0,,I wanted the monster to have a creepy laugh\Nthat felt like me!
+Dialogue: 0,0:10:38.95,0:10:42.21,0$Default,,0,0,0,,Hmm, not what I was picturing...
+Dialogue: 0,0:10:42.21,0:10:44.55,0$Default,,0,0,0,,I know! Chup, how about you try dying!
+Dialogue: 0,0:10:44.55,0:10:46.04,0$Default,,0,0,0,,You want me to die?!
+Dialogue: 0,0:10:46.04,0:10:48.59,0$Default,,0,0,0,,The clumsy hero defeats and kills\Nthe weak monster.
+Dialogue: 0,0:10:48.59,0:10:50.44,0$Default,,0,0,0,,He approaches with his guard down,
+Dialogue: 0,0:10:50.44,0:10:52.77,0$Default,,0,0,0,,then gets suddenly attacked!
+Dialogue: 0,0:10:52.01,0:10:53.30,0$Default,,0,0,0,,{\an8\i1}Chuppy-Chuppy-Chup!
+Dialogue: 0,0:10:53.30,0:10:55.72,0$Default,,0,0,0,,The hero decides to attack,\Nbut he has no sword!
+Dialogue: 0,0:10:55.72,0:10:58.72,0$Default,,0,0,0,,Then the beautiful swordswoman shows up!
+Dialogue: 0,0:10:58.72,0:11:01.43,0$Default,,0,0,0,,Got it? Ready, action!
+Dialogue: 0,0:11:01.43,0:11:03.43,0$Default,,0,0,0,,I'm playing dead.
+Dialogue: 0,0:11:04.64,0:11:06.67,0$Default,,0,0,0,,Looks like I've defeated him!
+Dialogue: 0,0:11:06.67,0:11:07.98,0$Default,,0,0,0,,Aah, he's still moving!
+Dialogue: 0,0:11:07.98,0:11:09.63,0$Default,,0,0,0,,Cut!
+Dialogue: 0,0:11:09.63,0:11:11.82,0$Default,,0,0,0,,Why are you moving, Chup?
+Dialogue: 0,0:11:11.82,0:11:13.82,0$Default,,0,0,0,,Sorry, my butt was itchy.
+Dialogue: 0,0:11:13.82,0:11:15.93,0$Default,,0,0,0,,You're breaking the immersion.
+Dialogue: 0,0:11:15.93,0:11:18.53,0$Default,,0,0,0,,Oh, Chup!\NHow about you hold your breath?
+Dialogue: 0,0:11:18.91,0:11:19.95,0$Default,,0,0,0,,Hold my breath?!
+Dialogue: 0,0:11:19.95,0:11:22.31,0$Default,,0,0,0,,You keep moving if you breathe!
+Dialogue: 0,0:11:22.31,0:11:24.37,0$Default,,0,0,0,,So if you hold it,\Nyou'll look more dead!
+Dialogue: 0,0:11:24.37,0:11:25.21,0$Default,,0,0,0,,Like a weak monster!
+Dialogue: 0,0:11:25.21,0:11:26.06,0$Default,,0,0,0,,Really?
+Dialogue: 0,0:11:26.06,0:11:27.88,0$Default,,0,0,0,,I believe in you, Chup!
+Dialogue: 0,0:11:27.88,0:11:30.79,0$Default,,0,0,0,,If this commercial sucks,\Nour presentation will lose!
+Dialogue: 0,0:11:30.79,0:11:32.13,0$Default,,0,0,0,,I won't let that happen!
+Dialogue: 0,0:11:32.13,0:11:34.17,0$Default,,0,0,0,,Alright! I'll give it a shot!
+Dialogue: 0,0:11:37.43,0:11:39.12,0$Default,,0,0,0,,Ready, start!
+Dialogue: 0,0:11:39.12,0:11:41.79,0$Default,,0,0,0,,Looks like I've defetteh...
+Dialogue: 0,0:11:41.79,0:11:44.19,0$Default,,0,0,0,,Don't mess up your lines! Again!
+Dialogue: 0,0:11:44.89,0:11:47.48,0$Default,,0,0,0,,Looks like I've defeated...\NHuh?
+Dialogue: 0,0:11:47.48,0:11:50.48,0$Default,,0,0,0,,{\i1}Hurry up, Pepperon.\NI'm gonna die for real!
+Dialogue: 0,0:11:50.48,0:11:53.15,0$Default,,0,0,0,,Looks like I've defeated him!
+Dialogue: 0,0:11:53.15,0:11:54.67,0$Default,,0,0,0,,Awesome, I did it!
+Dialogue: 0,0:11:54.67,0:11:56.15,0$Default,,0,0,0,,Cut!
+Dialogue: 0,0:11:56.15,0:11:59.16,0$Default,,0,0,0,,I'm glad you made it through the line,\Nbut don't get giddy after!
+Dialogue: 0,0:11:59.16,0:12:00.97,0$Default,,0,0,0,,Sorry.
+Dialogue: 0,0:12:00.97,0:12:02.97,0$Default,,0,0,0,,Huh? Chup's not moving.
+Dialogue: 0,0:12:02.97,0:12:04.52,0$Default,,0,0,0,,{\i1}Bye!
+Dialogue: 0,0:12:04.52,0:12:05.70,0$Default,,0,0,0,,Chup!!
+Dialogue: 0,0:12:05.70,0:12:07.29,0$Default,,0,0,0,,Chup, Chup!
+Dialogue: 0,0:12:11.21,0:12:12.96,0$Default,,0,0,0,,Dang, I almost died!
+Dialogue: 0,0:12:13.92,0:12:16.42,0$Default,,0,0,0,,It's over for us if you actually die...
+Dialogue: 0,0:12:20.52,0:12:22.64,0$Default,,0,0,0,,One, two, three, four,
+Dialogue: 0,0:12:22.64,0:12:25.54,0$Default,,0,0,0,,five, six, seven, eight, nine!
+Dialogue: 0,0:12:25.54,0:12:28.35,0$Default,,0,0,0,,Good! Strike a face!\NAnd turn!
+Dialogue: 0,0:12:28.35,0:12:32.15,0$Default,,0,0,0,,No one is more beautiful than you!\NThe world belongs to you!
+Dialogue: 0,0:12:32.15,0:12:34.07,0$Default,,0,0,0,,Pour that into your performance!
+Dialogue: 0,0:12:34.07,0:12:36.40,0$Default,,0,0,0,,No one is more beautiful than me!
+Dialogue: 0,0:12:36.40,0:12:38.40,0$Default,,0,0,0,,This is authentic modeling!
+Dialogue: 0,0:12:38.40,0:12:41.70,0$Default,,0,0,0,,One, two, three, and stop!
+Dialogue: 0,0:12:41.70,0:12:43.68,0$Default,,0,0,0,,That wasn't bad for beginners,
+Dialogue: 0,0:12:43.68,0:12:46.16,0$Default,,0,0,0,,but your walk wasn't very innovative.
+Dialogue: 0,0:12:46.16,0:12:47.66,0$Default,,0,0,0,,Innovative?
+Dialogue: 0,0:12:47.66,0:12:51.25,0$Default,,0,0,0,,It's important for the new Peffany\Nto be bold and innovative.
+Dialogue: 0,0:12:51.25,0:12:51.92,0$Default,,0,0,0,,Do you understand?
+Dialogue: 0,0:12:52.29,0:12:54.34,0$Default,,0,0,0,,How are we supposed to\N"innovate" walking?
+Dialogue: 0,0:12:54.34,0:12:55.63,0$Default,,0,0,0,,One moment.
+Dialogue: 0,0:12:55.63,0:12:57.07,0$Default,,0,0,0,,I have an idea.
+Dialogue: 0,0:12:57.07,0:13:01.20,0$Default,,0,0,0,,Hyper-ladies are still fresh and new.\NIf they were birds, they'd be baby chicks.
+Dialogue: 0,0:13:01.20,0:13:03.48,0$Default,,0,0,0,,Try peeping like chicks!
+Dialogue: 0,0:13:03.48,0:13:04.72,0$Default,,0,0,0,,You first, Vinsant.
+Dialogue: 0,0:13:07.40,0:13:09.24,0$Default,,0,0,0,,Where's the peeps?
+Dialogue: 0,0:13:09.69,0:13:11.15,0$Default,,0,0,0,,P-Peep peep peep peep...
+Dialogue: 0,0:13:11.15,0:13:14.65,0$Default,,0,0,0,,Hang in there, Vinsant!\NIt's for our airship!
+Dialogue: 0,0:13:14.65,0:13:16.21,0$Default,,0,0,0,,Excellent.
+Dialogue: 0,0:13:16.21,0:13:18.53,0$Default,,0,0,0,,Now spread your wings out to the world!
+Dialogue: 0,0:13:19.24,0:13:20.57,0$Default,,0,0,0,,Fwoosh!
+Dialogue: 0,0:13:20.57,0:13:22.91,0$Default,,0,0,0,,Except you're actually a {\i1}penguin{\i0} chick!
+Dialogue: 0,0:13:22.91,0:13:23.70,0$Default,,0,0,0,,Wha—
+Dialogue: 0,0:13:24.24,0:13:26.12,0$Default,,0,0,0,,My, so novel!
+Dialogue: 0,0:13:26.12,0:13:27.24,0$Default,,0,0,0,,Dang it...
+Dialogue: 0,0:13:27.24,0:13:28.91,0$Default,,0,0,0,,That's one way to put it.
+Dialogue: 0,0:13:28.91,0:13:31.92,0$Default,,0,0,0,,You try it now, Goemon.\NGo from chick to penguin!
+Dialogue: 0,0:13:31.92,0:13:33.54,0$Default,,0,0,0,,Huh? Uh, okay.
+Dialogue: 0,0:13:33.54,0:13:35.17,0$Default,,0,0,0,,One, two, three!
+Dialogue: 0,0:13:35.43,0:13:36.80,0$Default,,0,0,0,,Very good!
+Dialogue: 0,0:13:37.09,0:13:38.38,0$Default,,0,0,0,,Keep it up!
+Dialogue: 0,0:13:38.38,0:13:39.97,0$Default,,0,0,0,,Now, Vinsant!
+Dialogue: 0,0:13:39.97,0:13:42.30,0$Default,,0,0,0,,Bring the world to my new Peffany!
+Dialogue: 0,0:13:43.16,0:13:45.55,0$Default,,0,0,0,,Hold her up to the skies,
+Dialogue: 0,0:13:45.55,0:13:46.93,0$Default,,0,0,0,,like the goddess Victoria!
+Dialogue: 0,0:13:46.93,0:13:49.06,0$Default,,0,0,0,,Victory is ours!
+Dialogue: 0,0:13:50.40,0:13:53.27,0$Default,,0,0,0,,You lived up to my expectations!
+Dialogue: 0,0:13:53.27,0:13:56.82,0$Default,,0,0,0,,I can't let the others see me like this...
+Dialogue: 0,0:13:57.78,0:14:00.07,0$Default,,0,0,0,,It feels like it's missing a punch.
+Dialogue: 0,0:14:00.07,0:14:02.32,0$Default,,0,0,0,,I think it has plenty already.
+Dialogue: 0,0:14:03.91,0:14:06.24,0$Default,,0,0,0,,Oh! I thought of something.
+Dialogue: 0,0:14:06.24,0:14:08.99,0$Default,,0,0,0,,Hm? You want me to model with them too?
+Dialogue: 0,0:14:08.99,0:14:12.44,0$Default,,0,0,0,,Not quite, but you will\Ncertainly bring eyes to our presentation...
+Dialogue: 0,0:14:12.44,0:14:14.38,0$Default,,0,0,0,,in a way they'll never expect.
+Dialogue: 0,0:14:15.67,0:14:17.27,0$Default,,0,0,0,,I-I'm doomed!
+Dialogue: 0,0:14:17.27,0:14:18.88,0$Default,,0,0,0,,I forgot my sword!
+Dialogue: 0,0:14:18.88,0:14:20.76,0$Default,,0,0,0,,Here's where I enter stage!
+Dialogue: 0,0:14:23.78,0:14:26.48,0$Default,,0,0,0,,The Sarria Sword shines for eternity!
+Dialogue: 0,0:14:26.48,0:14:29.10,0$Default,,0,0,0,,And cut! That was brilliant!
+Dialogue: 0,0:14:29.10,0:14:30.27,0$Default,,0,0,0,,Right, Mr. Yonekawa?
+Dialogue: 0,0:14:30.27,0:14:33.29,0$Default,,0,0,0,,Hmm... It wasn't exciting enough.
+Dialogue: 0,0:14:33.29,0:14:35.52,0$Default,,0,0,0,,Needs some fiery explosion.
+Dialogue: 0,0:14:35.52,0:14:37.36,0$Default,,0,0,0,,Fire?
+Dialogue: 0,0:14:37.36,0:14:39.80,0$Default,,0,0,0,,Would be a bit awkward from me\Nsince I'm holding a sword.
+Dialogue: 0,0:14:39.80,0:14:41.28,0$Default,,0,0,0,,Oh, Butako's got you covered!
+Dialogue: 0,0:14:45.86,0:14:47.30,0$Default,,0,0,0,,What's wrong, Butako?
+Dialogue: 0,0:14:47.30,0:14:48.68,0$Default,,0,0,0,,Her tank is empty!
+Dialogue: 0,0:14:48.68,0:14:50.58,0$Default,,0,0,0,,So she's hungry.
+Dialogue: 0,0:14:53.46,0:14:55.19,0$Default,,0,0,0,,How else do we get fire?
+Dialogue: 0,0:14:55.19,0:14:57.00,0$Default,,0,0,0,,Oh, I got an idea!
+Dialogue: 0,0:14:58.92,0:15:00.05,0$Default,,0,0,0,,Witch!
+Dialogue: 0,0:15:00.50,0:15:02.80,0$Default,,0,0,0,,{\i1}Born from the dark, that's me-mon
+Dialogue: 0,0:15:02.80,0:15:05.68,0$Default,,0,0,0,,{\i1}Lookin' stylish and dastardly? Probably a Demon
+Dialogue: 0,0:15:09.52,0:15:12.02,0$Default,,0,0,0,,Hello, it's been a while!
+Dialogue: 0,0:15:12.27,0:15:15.08,0$Default,,0,0,0,,Hey, that's Witch!\NShe tried to take my spot!
+Dialogue: 0,0:15:15.08,0:15:17.00,0$Default,,0,0,0,,She has the magic\Nto make fire!
+Dialogue: 0,0:15:17.00,0:15:17.48,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:17.48,0:15:18.65,0$Default,,0,0,0,,That makes sense!
+Dialogue: 0,0:15:18.65,0:15:23.11,0$Default,,0,0,0,,Plus, she and Mayone\Nmight actually make good co-stars!
+Dialogue: 0,0:15:23.11,0:15:23.61,0$Default,,0,0,0,,I'm sorry?!
+Dialogue: 0,0:15:23.61,0:15:26.07,0$Default,,0,0,0,,I think that would make it\Na lot more glamorous.
+Dialogue: 0,0:15:26.07,0:15:28.49,0$Default,,0,0,0,,Aww, but my starring role!
+Dialogue: 0,0:15:28.49,0:15:30.33,0$Default,,0,0,0,,Learn to keep your trap shut, Chup!
+Dialogue: 0,0:15:30.76,0:15:33.16,0$Default,,0,0,0,,Mayone, remember,\Nthis is for the win!
+Dialogue: 0,0:15:33.16,0:15:35.21,0$Default,,0,0,0,,Let's make this a good shoot!
+Dialogue: 0,0:15:37.37,0:15:40.32,0$Default,,0,0,0,,Fine, but I'm still the star, got it?
+Dialogue: 0,0:15:40.32,0:15:43.17,0$Default,,0,0,0,,Let's just say you're\Nthe weak monster's mage friend.
+Dialogue: 0,0:15:43.51,0:15:46.40,0$Default,,0,0,0,,The clumsy hero approaches\Nthe monster, thinking it's dead,
+Dialogue: 0,0:15:46.40,0:15:48.99,0$Default,,0,0,0,,when the mage ambushes him with flames!
+Dialogue: 0,0:15:48.99,0:15:51.24,0$Default,,0,0,0,,That's when I come in to save the day!
+Dialogue: 0,0:15:51.24,0:15:53.81,0$Default,,0,0,0,,I part the flames with my sword,\Nand say my line...
+Dialogue: 0,0:15:53.81,0:15:56.04,0$Default,,0,0,0,,"The Sarria Sword shines for eternity!"
+Dialogue: 0,0:15:56.04,0:15:57.94,0$Default,,0,0,0,,It's perfect! Got it?
+Dialogue: 0,0:15:57.94,0:15:59.52,0$Default,,0,0,0,,I do!
+Dialogue: 0,0:16:00.99,0:16:02.69,0$Default,,0,0,0,,Ready, start!
+Dialogue: 0,0:16:02.69,0:16:04.51,0$Default,,0,0,0,,Alright, I defeated it!
+Dialogue: 0,0:16:06.68,0:16:07.59,0$Default,,0,0,0,,Don't you dare!
+Dialogue: 0,0:16:14.91,0:16:15.83,0$Default,,0,0,0,,Calm down!
+Dialogue: 0,0:16:19.06,0:16:20.83,0$Default,,0,0,0,,The Sarria Sword...
+Dialogue: 0,0:16:20.83,0:16:22.21,0$Default,,0,0,0,,shines for eternity!
+Dialogue: 0,0:16:23.11,0:16:24.40,0$Default,,0,0,0,,That was great!
+Dialogue: 0,0:16:24.40,0:16:25.76,0$Default,,0,0,0,,We nailed it!
+Dialogue: 0,0:16:26.34,0:16:28.80,0$Default,,0,0,0,,You guys don't get to decide that!
+Dialogue: 0,0:16:28.80,0:16:30.34,0$Default,,0,0,0,,{\i1}I'm{\i0} the star here!!
+Dialogue: 0,0:16:32.72,0:16:36.31,0$Default,,0,0,0,,Yonekawa and I will now\Npresent our own works,
+Dialogue: 0,0:16:36.31,0:16:39.94,0$Default,,0,0,0,,and determine which of us\Nis more fit to lead Peffany into the future.
+Dialogue: 0,0:16:39.94,0:16:41.84,0$Default,,0,0,0,,The chairman will be our judge.
+Dialogue: 0,0:16:41.84,0:16:42.86,0$Default,,0,0,0,,{\i1}Indeed!
+Dialogue: 0,0:16:42.86,0:16:44.90,0$Default,,0,0,0,,I will go first.
+Dialogue: 0,0:16:49.83,0:16:51.85,0$Default,,0,0,0,,Wow, you two look awesome!
+Dialogue: 0,0:16:51.85,0:16:53.26,0$Default,,0,0,0,,We can't afford to lose!
+Dialogue: 0,0:16:53.26,0:16:56.08,0$Default,,0,0,0,,Hm? Come to think of it,\Nwhere's Gob-san?
+Dialogue: 0,0:16:56.83,0:16:59.71,0$Default,,0,0,0,,Now, Gob-san!\NShow them what you trained for!
+Dialogue: 0,0:16:59.71,0:17:00.75,0$Default,,0,0,0,,Training? For what?
+Dialogue: 0,0:17:03.76,0:17:06.42,0$Default,,0,0,0,,{\i1}Yo, yo!\NIt's ya MC Gob-san, yo!
+Dialogue: 0,0:17:06.42,0:17:08.88,0$Default,,0,0,0,,{\i1}Let's party!
+Dialogue: 0,0:17:09.88,0:17:12.51,0$Default,,0,0,0,,{\i1}This is the Gob-Rap,\Nfrom me, Gob-san, yo!
+Dialogue: 0,0:17:12.80,0:17:14.03,0$Default,,0,0,0,,The "Gob-Rap"?!
+Dialogue: 0,0:17:14.03,0:17:15.79,0$Default,,0,0,0,,Gob-san is rapping?
+Dialogue: 0,0:17:15.79,0:17:16.89,0$Default,,0,0,0,,Whoa, wicked cool!
+Dialogue: 0,0:17:16.89,0:17:19.52,0$Default,,0,0,0,,The element of surprise\Nfrom the unexpected...
+Dialogue: 0,0:17:19.52,0:17:21.65,0$Default,,0,0,0,,That is my image of the new Peffany!
+Dialogue: 0,0:17:22.04,0:17:23.15,0$Default,,0,0,0,,Yo, yo!
+Dialogue: 0,0:17:25.34,0:17:27.61,0$Default,,0,0,0,,{\i1}This is the story of Karen
+Dialogue: 0,0:17:27.61,0:17:29.80,0$Default,,0,0,0,,{\i1}A talented designer\Nand a supermodel, yo!
+Dialogue: 0,0:17:29.80,0:17:31.53,0$Default,,0,0,0,,{\i1}Her presentation will rock the world
+Dialogue: 0,0:17:31.53,0:17:33.91,0$Default,,0,0,0,,{\i1}In ways that old man\Ncould never dream of
+Dialogue: 0,0:17:32.82,0:17:35.16,0$Default,,0,0,0,,{\an8}He's throwing mad shade at\NMr. Yonekawa...
+Dialogue: 0,0:17:35.53,0:17:37.39,0$Default,,0,0,0,,{\i1}The customs that you hold\Nforever near and dear
+Dialogue: 0,0:17:37.39,0:17:39.37,0$Default,,0,0,0,,{\i1}We're tossing 'em away,\Nkick 'em in the rear
+Dialogue: 0,0:17:39.62,0:17:42.37,0$Default,,0,0,0,,Oh wow, nice rhymes.
+Dialogue: 0,0:17:43.29,0:17:45.67,0$Default,,0,0,0,,{\i1}The Karen Axe is awesome, yo!
+Dialogue: 0,0:17:46.42,0:17:47.92,0$Default,,0,0,0,,As you can see,
+Dialogue: 0,0:17:47.92,0:17:53.87,0$Default,,0,0,0,,the Karen Axe perfectly represents\Nthe strong ladies of this age: the hyper-ladies!
+Dialogue: 0,0:17:53.87,0:17:56.93,0$Default,,0,0,0,,Such is the course of the brand new Peffany!
+Dialogue: 0,0:17:56.93,0:17:59.29,0$Default,,0,0,0,,This isn't looking good for us.
+Dialogue: 0,0:17:59.29,0:18:02.44,0$Default,,0,0,0,,We did what we could.\NMay as well go out with a bang.
+Dialogue: 0,0:18:02.44,0:18:04.31,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:18:04.31,0:18:05.77,0$Default,,0,0,0,,It doesn't hurt to try!
+Dialogue: 0,0:18:05.77,0:18:07.94,0$Default,,0,0,0,,Unless you try to play f3!{god i hope this loc makes sense i've never played chess @_@}
+Dialogue: 0,0:18:07.94,0:18:11.01,0$Default,,0,0,0,,Opening with f3 in chess\Ncan weaken your knight!
+Dialogue: 0,0:18:11.01,0:18:13.24,0$Default,,0,0,0,,Wow, I never knew...\NWait, why does that matter?!
+Dialogue: 0,0:18:13.24,0:18:16.16,0$Default,,0,0,0,,Let's get our presentation\Non the road.
+Dialogue: 0,0:18:17.79,0:18:20.56,0$Default,,0,0,0,,We wanted to visualize\Nthe beauty of the Sarria Sword.
+Dialogue: 0,0:18:20.56,0:18:21.97,0$Default,,0,0,0,,Please take a look.
+Dialogue: 0,0:18:27.88,0:18:28.67,0$Default,,0,0,0,,Not you!
+Dialogue: 0,0:18:31.26,0:18:33.68,0$Default,,0,0,0,,Man, you never give up, do you?
+Dialogue: 0,0:18:33.68,0:18:35.41,0$Default,,0,0,0,,Hey, that's cheating!
+Dialogue: 0,0:18:35.41,0:18:37.47,0$Default,,0,0,0,,You can't use real monsters\Nin your presentation.{what does that make gob-san?}
+Dialogue: 0,0:18:37.47,0:18:39.54,0$Default,,0,0,0,,We didn't summon him!
+Dialogue: 0,0:18:41.29,0:18:43.31,0$Default,,0,0,0,,Don't come near me!!
+Dialogue: 0,0:18:45.23,0:18:46.23,0$Default,,0,0,0,,Nooo!!
+Dialogue: 0,0:18:48.61,0:18:49.94,0$Default,,0,0,0,,Good save!
+Dialogue: 0,0:18:49.94,0:18:51.32,0$Default,,0,0,0,,Now it's our turn.
+Dialogue: 0,0:18:53.74,0:18:54.80,0$Default,,0,0,0,,Vinsant!
+Dialogue: 0,0:18:54.80,0:18:56.78,0$Default,,0,0,0,,Y-You made him mad!
+Dialogue: 0,0:18:58.28,0:18:59.03,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:19:02.25,0:19:03.29,0$Default,,0,0,0,,Why you little—!
+Dialogue: 0,0:19:03.87,0:19:04.71,0$Default,,0,0,0,,Shoot!
+Dialogue: 0,0:19:04.71,0:19:05.37,0$Default,,0,0,0,,Oh no!
+Dialogue: 0,0:19:05.37,0:19:06.29,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:19:12.38,0:19:13.30,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:19:14.26,0:19:18.43,0$Default,,0,0,0,,It's me, the super ultra great Dragon Knight, Chup!
+Dialogue: 0,0:19:18.43,0:19:21.24,0$Default,,0,0,0,,Whoa! Just as things were looking bad,\Nhe awakened!
+Dialogue: 0,0:19:21.24,0:19:23.16,0$Default,,0,0,0,,Still feels the need to\Ngive himself a title.
+Dialogue: 0,0:19:23.16,0:19:26.02,0$Default,,0,0,0,,Anyways, Chup, take this!
+Dialogue: 0,0:19:27.15,0:19:28.19,0$Default,,0,0,0,,Thanks!
+Dialogue: 0,0:19:30.36,0:19:34.57,0$Default,,0,0,0,,Take this! "The Sarria Sword\NShines for Eternity" Slash!
+Dialogue: 0,0:19:38.09,0:19:40.08,0$Default,,0,0,0,,Wait, what? He ran for it!
+Dialogue: 0,0:19:42.08,0:19:45.44,0$Default,,0,0,0,,He must've fled\Nso you couldn't finish him off.
+Dialogue: 0,0:19:45.44,0:19:47.06,0$Default,,0,0,0,,That means he put up a good fight!
+Dialogue: 0,0:19:47.06,0:19:49.64,0$Default,,0,0,0,,I used up all my power...
+Dialogue: 0,0:19:50.76,0:19:53.71,0$Default,,0,0,0,,Uhh... that concludes\Nour presentation of the Sarria Sword!
+Dialogue: 0,0:19:54.68,0:19:56.97,0$Default,,0,0,0,,Chairman, sir!\NWhich one of us is the winner?
+Dialogue: 0,0:19:59.22,0:20:00.83,0$Default,,0,0,0,,{\i1}Yonekawa!
+Dialogue: 0,0:20:00.83,0:20:01.87,0$Default,,0,0,0,,Yay, we did it!
+Dialogue: 0,0:20:01.87,0:20:03.62,0$Default,,0,0,0,,Chup, we won!
+Dialogue: 0,0:20:03.62,0:20:06.27,0$Default,,0,0,0,,Father, how could you...
+Dialogue: 0,0:21:42.95,0:21:44.28,0$Default,,0,0,0,,Alright, Mr. Yonekawa.
+Dialogue: 0,0:21:44.28,0:21:46.26,0$Default,,0,0,0,,Glad to have you on board!
+Dialogue: 0,0:21:46.26,0:21:47.54,0$Default,,0,0,0,,I'll do what I can.
+Dialogue: 0,0:21:47.91,0:21:50.98,0$Default,,0,0,0,,And I got to keep this\Nfor helping out!
+Dialogue: 0,0:21:50.98,0:21:55.61,0$Default,,0,0,0,,The Karen Axe that Ms. Karen showed off\Nwas a pretty fine piece of work too, though.
+Dialogue: 0,0:21:55.61,0:21:57.92,0$Default,,0,0,0,,It's too bad they're not gonna sell it.
+Dialogue: 0,0:21:57.92,0:21:58.80,0$Default,,0,0,0,,Yeah, that's a shame.
+Dialogue: 0,0:21:58.80,0:22:02.84,0$Default,,0,0,0,,Actually, it will be hitting the shelves!\NWe're just renaming it to the Sarria Axe.
+Dialogue: 0,0:22:02.84,0:22:06.41,0$Default,,0,0,0,,Wow! I gotta hand it to you,\Nyou're one strong-willed businessman.
+Dialogue: 0,0:22:06.41,0:22:07.70,0$Default,,0,0,0,,Oh yeah, Mr. Yonekawa?
+Dialogue: 0,0:22:07.70,0:22:09.93,0$Default,,0,0,0,,Did you patch things up\Nwith Ms. Karen?
+Dialogue: 0,0:22:09.93,0:22:11.56,0$Default,,0,0,0,,Nope, not quite.
+Dialogue: 0,0:22:11.56,0:22:15.44,0$Default,,0,0,0,,Why does she seem to\Nhate you so much anyways?
+Dialogue: 0,0:22:15.77,0:22:18.44,0$Default,,0,0,0,,I used to get by with her well,\Nas my wife.
+Dialogue: 0,0:22:18.44,0:22:19.67,0$Default,,0,0,0,,Your {\i1}what?!
+Dialogue: 0,0:22:19.67,0:22:21.49,0$Default,,0,0,0,,So you're married?!
+Dialogue: 0,0:22:21.49,0:22:24.26,0$Default,,0,0,0,,Used to be. I had an affair,\Nand we got divorced.
+Dialogue: 0,0:22:25.74,0:22:30.33,0$Default,,0,0,0,,Now hold on! You went to bat for the brand\Nbeing a thing gentlemen gift to their ladies,
+Dialogue: 0,0:22:30.33,0:22:32.44,0$Default,,0,0,0,,and you would {\i1}cheat?!{\i0}\NWhat the heck, man?
+Dialogue: 0,0:22:32.44,0:22:36.71,0$Default,,0,0,0,,What a dirty man. And here I saw him\Nas an earnest designer.
+Dialogue: 0,0:22:36.71,0:22:38.71,0$Default,,0,0,0,,Better get to that blueprint!
+Dialogue: 0,0:22:38.71,0:22:40.49,0$Default,,0,0,0,,Don't try to get out of this!
+Dialogue: 0,0:22:40.49,0:22:41.97,0$Default,,0,0,0,,Hey, Yonekawa!!
+Dialogue: 0,0:22:45.39,0:22:46.32,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.32,0:22:48.28,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.28,0:22:50.24,0$Default,,0,0,0,,{\an8}Today's lesson is on Durian!
+Dialogue: 0,0:22:50.24,0:22:54.56,0$Default,,0,0,0,,{\an8}Durian is a port city in the southeast\Nof the continent filled with businesses.
+Dialogue: 0,0:22:54.56,0:22:57.61,0$Default,,0,0,0,,{\an8}On the main street, you'll find the HQs\Nfor Detton, Paccarat Lapa,
+Dialogue: 0,0:22:57.61,0:22:59.67,0$Default,,0,0,0,,{\an8}and my beloved Peffany!
+Dialogue: 0,0:22:59.67,0:23:01.13,0$Default,,0,0,0,,{\an8}It's so beautiful!
+Dialogue: 0,0:23:01.13,0:23:02.59,0$Default,,0,0,0,,{\an8}Pepperon says...
+Dialogue: 0,0:23:02.59,0:23:04.68,0$Default,,0,0,0,,{\an8}they have the {\i1}best{\i0} seafood,\Nhands down.
+Dialogue: 0,0:23:04.68,0:23:06.64,0$Default,,0,0,0,,{\an8}Don't talk with your mouth full!
+Dialogue: 0,0:23:06.64,0:23:09.26,0$Default,,0,0,0,,{\an8}Also, leave some for me!
+Dialogue: 0,0:23:10.67,0:23:12.25,0$Default,,0,0,0,,Construction continues!
+Dialogue: 0,0:23:12.25,0:23:14.62,0$Default,,0,0,0,,The next brand is Paccarat Lapa!
+Dialogue: 0,0:23:14.62,0:23:17.25,0$Default,,0,0,0,,Its owner loves horses, and gives us a mission...
+Dialogue: 0,0:23:17.25,0:23:18.40,0$Default,,0,0,0,,What could it be?
+Dialogue: 0,0:23:18.40,0:23:21.05,0$Default,,0,0,0,,Next time:\N"Paccarat Lapa's Foal-icious Mission!!"
+Dialogue: 0,0:23:21.42,0:23:24.27,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 0,0:01:04.09,0:01:07.13,0$Default,,0,0,0,,Episode Title
+Dialogue: 2,0:01:04.09,0:01:07.13,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord0\shad0.01\frz6.347\fsp-34.50}E{\frz5.958\fsp-24.80}p{\frz5.678\fsp-23.73}i{\frz5.411\fsp-33.42}s{\frz5.034\fsp-34.50}o{\frz4.645\fsp-32.90}d{\frz4.274\fsp-25.88}e{\frz3.982\fsp-28.55} {\frz3.660\fsp-37.72}4{\frz3.234\fsp-28.03}1{\frz2.918\fsp-18.87}:{\frz2.706\fsp-27.48} {\frz2.396\fsp-33.98}P{\frz2.013\fsp-28.59}e{\frz1.690\fsp-24.80}f{\frz1.411\fsp-29.11}f{\frz1.082\fsp-33.42}a{\frz0.705\fsp-35.05}n{\frz0.310\fsp-27.51}y{\frz0.000\fsp-18.87},{\frz359.787\fsp-22.09} {\frz359.538\fsp-29.11}t{\frz359.210\fsp-32.90}h{\frz358.839\fsp-25.88}e{\frz358.547\fsp-27.48} {\frz358.237\fsp-33.98}B{\frz357.854\fsp-32.90}e{\frz357.483\fsp-33.42}a{\frz357.106\fsp-29.11}u{\frz356.778\fsp-20.49}t{\frz356.547\fsp-20.49}i{\frz356.316\fsp-29.11}f{\frz355.988\fsp-24.80}u{\frz355.708\fsp-17.79}l{\frz355.507\fsp-26.41} {\frz355.209\fsp-33.42}L{\frz354.833\fsp-33.42}a{\frz354.456\fsp-35.05}d{\frz354.060\fsp0.00}y
+Dialogue: 1,0:01:04.09,0:01:07.13,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz6.347\fsp-34.50}E{\frz5.958\fsp-24.80}p{\frz5.678\fsp-23.73}i{\frz5.411\fsp-33.42}s{\frz5.034\fsp-34.50}o{\frz4.645\fsp-32.90}d{\frz4.274\fsp-25.88}e{\frz3.982\fsp-28.55} {\frz3.660\fsp-37.72}4{\frz3.234\fsp-28.03}1{\frz2.918\fsp-18.87}:{\frz2.706\fsp-27.48} {\frz2.396\fsp-33.98}P{\frz2.013\fsp-28.59}e{\frz1.690\fsp-24.80}f{\frz1.411\fsp-29.11}f{\frz1.082\fsp-33.42}a{\frz0.705\fsp-35.05}n{\frz0.310\fsp-27.51}y{\frz0.000\fsp-18.87},{\frz359.787\fsp-22.09} {\frz359.538\fsp-29.11}t{\frz359.210\fsp-32.90}h{\frz358.839\fsp-25.88}e{\frz358.547\fsp-27.48} {\frz358.237\fsp-33.98}B{\frz357.854\fsp-32.90}e{\frz357.483\fsp-33.42}a{\frz357.106\fsp-29.11}u{\frz356.778\fsp-20.49}t{\frz356.547\fsp-20.49}i{\frz356.316\fsp-29.11}f{\frz355.988\fsp-24.80}u{\frz355.708\fsp-17.79}l{\frz355.507\fsp-26.41} {\frz355.209\fsp-33.42}L{\frz354.833\fsp-33.42}a{\frz354.456\fsp-35.05}d{\frz354.060\fsp0.00}y
+Dialogue: 0,0:01:04.09,0:01:07.13,0$EPTITLE,,0,0,0,,{\pos(975,803)\fade(250,550)\org(975,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz6.347\fsp-34.50}E{\frz5.958\fsp-24.80}p{\frz5.678\fsp-23.73}i{\frz5.411\fsp-33.42}s{\frz5.034\fsp-34.50}o{\frz4.645\fsp-32.90}d{\frz4.274\fsp-25.88}e{\frz3.982\fsp-28.55} {\frz3.660\fsp-37.72}4{\frz3.234\fsp-28.03}1{\frz2.918\fsp-18.87}:{\frz2.706\fsp-27.48} {\frz2.396\fsp-33.98}P{\frz2.013\fsp-28.59}e{\frz1.690\fsp-24.80}f{\frz1.411\fsp-29.11}f{\frz1.082\fsp-33.42}a{\frz0.705\fsp-35.05}n{\frz0.310\fsp-27.51}y{\frz0.000\fsp-18.87},{\frz359.787\fsp-22.09} {\frz359.538\fsp-29.11}t{\frz359.210\fsp-32.90}h{\frz358.839\fsp-25.88}e{\frz358.547\fsp-27.48} {\frz358.237\fsp-33.98}B{\frz357.854\fsp-32.90}e{\frz357.483\fsp-33.42}a{\frz357.106\fsp-29.11}u{\frz356.778\fsp-20.49}t{\frz356.547\fsp-20.49}i{\frz356.316\fsp-29.11}f{\frz355.988\fsp-24.80}u{\frz355.708\fsp-17.79}l{\frz355.507\fsp-26.41} {\frz355.209\fsp-33.42}L{\frz354.833\fsp-33.42}a{\frz354.456\fsp-35.05}d{\frz354.060\fsp0.00}y
+Comment: 0,0:02:34.01,0:02:42.27,0$Default,,0,0,0,,Karen Peffany
+Dialogue: 2,0:02:33.88,0:02:42.27,0$MonsterName,,0,0,0,,{\c&HA2BE3A&\fs155\blur1\fad(350,0)\frz6.607\pos(1194,790)}Karen
+Dialogue: 2,0:02:33.88,0:02:42.27,0$MonsterName,,0,0,0,,{\c&HA2BE3A&\fs155\fsp10\blur1\frz6.607\pos(1450,888)\fad(350,0)}Peffany
+Dialogue: 1,0:02:33.88,0:02:42.27,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&H0D0D0D&\fad(350,0)}m 983.12 758.29 l 1067.8 725.68 1104.3 743.2 1115.5 720.81 1181.69 721.78 1209.43 747.09 1261.99 698.91 1315.53 730.06 1314.56 716.43 1334.51 722.76 1312.12 704.26 1326.72 691.61 1400.21 759.75 1379.77 752.45 1381.23 778.63 1423.45 780.76 1437.51 821.56 1418.46 844.23 1486.48 825.19 1479.23 838.34 1502.35 832.44 1500.54 846.5 1532.36 823.12 1619.19 819.41 1636.5 838.03 1671.99 822.44 1770.24 839.33 1747.83 929.08 1737.85 913.22 1729.92 928.05 1722.24 911.17 1701.27 941.61 1641.15 956.45 1515.71 967.55 1507.89 961.15 1494.72 978.58 1485.82 961.86 1471.94 988.19 1411.44 983.92 1400.41 958.66 1360.97 1006.76 1357.57 988.22 1349.53 1001.51 1305.65 985.13 1273.2 1004.29 1219.43 977.1 1176.81 1001.09 1165.11 988.38 1163.77 1003.43 1126.99 933.55 1160.42 897.1 1143.04 893.76 1150.73 881.39 1114.96 891.75 1117.97 878.71 1040.03 897.06 1000.83 868.64 1004.42 835.32 984.82 791.87 1005.24 777.17 988.9 773.09 1006.49 763.04 m 1197.64 726.21 l 1233.55 711.63 1211.41 738.9 m 1683.63 814.56 l 1765.79 807.84 1749.93 814.32 1769.15 816.25 1769.39 831.14 m 1547.89 970.41 l 1627.92 964.19 1611.11 981.31 m 1194.35 1000.54 l 1222.41 987.05 1246.47 1004.18
+Dialogue: 0,0:02:33.88,0:02:42.27,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\c&HE8E5E5&\fad(350,0)}m 966.15 761.35 l 1030.9 715.78 1092.03 717.59 1120.24 704.93 1196.93 712.89 1239.5 690.86 1289.02 697.09 1325.53 678.89 1363.85 689.84 1415.98 761.22 1442.59 768.86 1452.39 808.74 1506.06 816.92 1585.16 799.71 1643.74 816.9 1661.33 803.99 1773.11 796.55 1783.8 846.57 1769.45 921.93 1741 947.22 1624.04 988.32 1534.23 987.31 1513.79 980.42 1474.47 1003.48 1399.83 992.44 1381.91 1009.33 1319.28 1010.16 1304.65 1001.5 1236.58 1023.85 1149.75 1007.75 1111.2 936.25 1122.43 908.92 1098.48 895.07 1043.04 912.34 995.97 888.01
+Comment: 0,0:02:43.52,0:02:49.02,0$Default,,0,0,0,,Raido Yonekawa
+Dialogue: 2,0:02:43.39,0:02:49.02,0$MonsterName,,0,0,0,,{\fs180\c&H5D90CB&\blur1\fad(350,0)\frz355\pos(455.03,719.79)}Raidou
+Dialogue: 2,0:02:43.39,0:02:49.02,0$MonsterName,,0,0,0,,{\fs180\fsp-2\c&H5D90CB&\blur1\fad(350,0)\frz355\pos(582,878)}Yonekawa
+Dialogue: 1,0:02:43.39,0:02:49.02,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\fad(350,0)\c&H0D0D0D&}m 179.46 626.94 l 315.27 633.87 333.28 661.58 347.14 651.88 353.37 671.97 408.81 642.87 443.45 651.19 444.84 640.1 465.62 641.49 449.69 630.4 537.68 646.34 530.75 657.42 562.63 663.66 618.75 654.65 688.73 674.05 690.81 694.14 705.48 683.05 704.85 703.14 726 676.46 711.39 760.71 732.76 759.4 757.18 795.61 748.34 816.83 765.6 816.83 751.7 828.34 794.64 838.54 801.83 854.61 935.89 841.08 938.85 850.81 923.63 855.04 942.24 859.26 931.24 867.72 950.27 868.14 950.27 941.3 894.32 1012.74 842.82 998.73 837.22 977.01 815.5 970.35 778.72 1006.44 781.17 992.07 766.11 1001.18 766.81 989.27 756.3 997.68 722.32 984.02 688.37 990.81 671.55 975.95 599.98 990.03 563.6 967.35 560.86 975.56 550.3 965 518.23 981.82 416.56 961.63 406.53 938.9 363.74 949.93 334.72 920.16 332.27 936.28 244.45 934.01 252.43 926.87 243.19 923.09 252.85 913.86 241.51 913.86 253.09 879.69 243.38 844.65 234.82 789.39 204.84 773.66 206.18 746.83 181.58 724.47 177.28 657.64 196.48 653.12 179.16 644.84 199.87 638.44 m 910.22 1004.51 l 947.5 955.44 950.8 975.26 m 238.62 897.1 l 237.79 855.14 248 879.17
+Dialogue: 0,0:02:43.39,0:02:49.02,0$mask,,0,0,0,,{\p1\pos(0,0)\an7\blur1\fad(350,0)\c&HE5E5E5&}m 176.67 613.25 l 316.35 615.68 340.2 634.66 428.29 631.74 442.4 616.66 532.93 626.39 578.19 657.54 595.22 641.96 699.5 653.72 738.61 674.75 727.55 743.03 768 767.92 771.73 807.12 817.06 835.41 944.82 825.88 968.98 881.95 958.88 985.18 898.28 1029.51 819.17 999.21 775.97 1018.29 727.71 999.77 710.32 1005.38 651.41 995.84 610.76 1007.09 561.96 986.8 521.39 998.31 400.78 972 355.79 974.72 333.6 958.25 234.09 948.23 218.34 880.9 221.92 801.41 179.33 772.83 157.3 662.07
+Comment: 0,0:03:15.93,0:03:19.47,0$Default,,0,0,0,,Peffany HQ
+Dialogue: 3,0:03:15.93,0:03:19.47,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(500,500)\fnA-OTF TakaHand Std B\pos(960,953)}Peffany HQ
+Dialogue: 2,0:03:15.93,0:03:19.47,0$MonsterName,,0,0,0,,{\fs60\c&H656565&\fscx145\fscy145\blur1\bord2\fade(500,500)\3c&H656565&\fnA-OTF TakaHand Std B\pos(960,953)}Peffany HQ
+Dialogue: 1,0:03:15.93,0:03:19.47,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(500,500)\3c&HD4D0D4&\c&HD4D0D4&\bord8\fnA-OTF TakaHand Std B\pos(960,953)}Peffany HQ
+Dialogue: 0,0:03:15.93,0:03:19.47,0$MonsterName,,0,0,0,,{\fs60\3c&H051C5D&\c&H051C5D&\fscx145\fscy145\blur1\fade(500,500)\bord1\fnA-OTF TakaHand Std B\pos(970,965.4)\alpha&H3E&}Peffany HQ
+Comment: 0,0:08:40.83,0:08:41.96,0$Default,,0,0,0,,She's a Master Designer and a Supermodel! The Rise of Karen
+Dialogue: 2,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\fnSplit splat splodge\b1\fs150\clip(m 70.08 -81.83 l 1507.22 -81.83 1507.22 15.38 70.08 15.38)\blur7\c&HB3E7B7&\1a&HE4&\pos(89.94,-137.38)}aghjaerth
+Dialogue: 2,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\fnSplit splat splodge\b1\fs150\clip(m 86.35 -65.68 l 1507.43 -65.68 1507.43 30.44 86.35 30.44)\blur7\c&HB3E7B7&\1a&HE4&\pos(105.99,-120.61)}aghjaerth
+Dialogue: 2,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\fnSplit splat splodge\b1\fs150\clip(m 101.75 -50.59 l 1507.6 -50.59 1507.6 44.5 101.75 44.5)\blur7\c&HB3E7B7&\1a&HE4&\pos(121.18,-104.93)}aghjaerth
+Dialogue: 2,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\fnSplit splat splodge\b1\fs150\clip(m 116.11 -36.52 l 1507.71 -36.52 1507.71 57.6 116.11 57.6)\blur7\c&HB3E7B7&\1a&HE4&\pos(135.34,-90.31)}aghjaerth
+Dialogue: 2,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\fnSplit splat splodge\b1\fs150\clip(m 129.31 -23.59 l 1507.79 -23.59 1507.79 69.65 129.31 69.65)\blur7\c&HB3E7B7&\1a&HE4&\pos(148.36,-76.87)}aghjaerth
+Dialogue: 2,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\fnSplit splat splodge\b1\fs150\clip(m 141.17 -11.88 l 1507.88 -11.88 1507.88 80.56 141.17 80.56)\blur7\c&HB3E7B7&\1a&HE4&\pos(160.05,-64.71)}aghjaerth
+Dialogue: 2,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\fnSplit splat splodge\b1\fs150\clip(m 151.97 -1.31 l 1507.93 -1.31 1507.93 90.41 151.97 90.41)\blur7\c&HB3E7B7&\1a&HE4&\pos(170.7,-53.72)}aghjaerth
+Dialogue: 2,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\fnSplit splat splodge\b1\fs150\clip(m 161.08 7.92 l 1508 7.92 1508 99.02 161.08 99.02)\blur7\c&HB3E7B7&\1a&HE4&\pos(179.69,-44.15)}aghjaerth
+Dialogue: 2,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\fnSplit splat splodge\b1\fs150\clip(m 168.99 15.91 l 1508.03 15.91 1508.03 106.48 168.99 106.48)\blur7\c&HB3E7B7&\1a&HE4&\pos(187.49,-35.85)}aghjaerth
+Dialogue: 2,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\fnSplit splat splodge\b1\fs150\clip(m 175.91 22.6 l 1508.05 22.6 1508.05 112.7 175.91 112.7)\blur7\c&HB3E7B7&\1a&HE4&\pos(194.31,-28.9)}aghjaerth
+Dialogue: 2,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\fnSplit splat splodge\b1\fs150\clip(m 181.57 27.97 l 1508.01 27.97 1508.01 117.69 181.57 117.69)\blur7\c&HB3E7B7&\1a&HE4&\pos(199.9,-23.3)}aghjaerth
+Dialogue: 2,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\fnSplit splat splodge\b1\fs150\clip(m 185.58 31.85 l 1508 31.85 1508 121.29 185.58 121.29)\blur7\c&HB3E7B7&\1a&HE4&\pos(203.86,-19.27)}aghjaerth
+Dialogue: 2,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\fnSplit splat splodge\b1\fs150\clip(m 187.71 34.15 l 1508.04 34.15 1508.04 123.46 187.71 123.46)\blur7\c&HB3E7B7&\1a&HE4&\pos(205.95,-16.88)}aghjaerth
+Dialogue: 2,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\fnSplit splat splodge\b1\fs150\clip(m 188.63 35 l 1508 35 1508 124.24 188.63 124.24)\blur7\c&HB3E7B7&\1a&HE4&\pos(206.86,-16)}aghjaerth
+Dialogue: 2,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\fnSplit splat splodge\b1\fs150\clip(m 70.08 -81.83 l 1507.22 -81.83 1507.22 15.38 70.08 15.38)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.57,88.95)}aghjaerth
+Dialogue: 2,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\fnSplit splat splodge\b1\fs150\clip(m 86.35 -65.68 l 1507.43 -65.68 1507.43 30.44 86.35 30.44)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.67,103.18)}aghjaerth
+Dialogue: 2,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\fnSplit splat splodge\b1\fs150\clip(m 101.75 -50.59 l 1507.6 -50.59 1507.6 44.5 101.75 44.5)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.74,116.47)}aghjaerth
+Dialogue: 2,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\fnSplit splat splodge\b1\fs150\clip(m 116.11 -36.52 l 1507.71 -36.52 1507.71 57.6 116.11 57.6)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.76,128.84)}aghjaerth
+Dialogue: 2,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\fnSplit splat splodge\b1\fs150\clip(m 129.31 -23.59 l 1507.79 -23.59 1507.79 69.65 129.31 69.65)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.76,140.22)}aghjaerth
+Dialogue: 2,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\fnSplit splat splodge\b1\fs150\clip(m 141.17 -11.88 l 1507.88 -11.88 1507.88 80.56 141.17 80.56)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.77,150.53)}aghjaerth
+Dialogue: 2,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\fnSplit splat splodge\b1\fs150\clip(m 151.97 -1.31 l 1507.93 -1.31 1507.93 90.41 151.97 90.41)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.75,159.82)}aghjaerth
+Dialogue: 2,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\fnSplit splat splodge\b1\fs150\clip(m 161.08 7.92 l 1508 7.92 1508 99.02 161.08 99.02)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.75,167.97)}aghjaerth
+Dialogue: 2,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\fnSplit splat splodge\b1\fs150\clip(m 168.99 15.91 l 1508.03 15.91 1508.03 106.48 168.99 106.48)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.74,175.02)}aghjaerth
+Dialogue: 2,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\fnSplit splat splodge\b1\fs150\clip(m 175.91 22.6 l 1508.05 22.6 1508.05 112.7 175.91 112.7)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.72,180.89)}aghjaerth
+Dialogue: 2,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\fnSplit splat splodge\b1\fs150\clip(m 181.57 27.97 l 1508.01 27.97 1508.01 117.69 181.57 117.69)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.64,185.59)}aghjaerth
+Dialogue: 2,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\fnSplit splat splodge\b1\fs150\clip(m 185.58 31.85 l 1508 31.85 1508 121.29 185.58 121.29)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.6,188.99)}aghjaerth
+Dialogue: 2,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\fnSplit splat splodge\b1\fs150\clip(m 187.71 34.15 l 1508.04 34.15 1508.04 123.46 187.71 123.46)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.63,191.05)}aghjaerth
+Dialogue: 2,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\fnSplit splat splodge\b1\fs150\clip(m 188.63 35 l 1508 35 1508 124.24 188.63 124.24)\blur7\c&HB3E7B7&\1a&HFF&\frz180.5\pos(1516.58,191.78)}aghjaerth
+Dialogue: 1,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(84.64,-34.99)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(100.75,-19.37)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(116,-4.77)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(130.21,8.83)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(143.28,21.34)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(155.02,32.66)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(165.71,42.88)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(174.72,51.82)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(182.56,59.55)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(189.41,66.01)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(195.01,71.2)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(198.98,74.95)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(201.09,77.19)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\an4\fs55\fnArial Narrow\blur1\b1\c&HA3F6FC&\pos(202,78)}A Master Designer and a Supermodel!
+Dialogue: 1,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(879.81,-34.99)}The Rise of Karen
+Dialogue: 1,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(887.03,-19.37)}The Rise of Karen
+Dialogue: 1,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(893.84,-4.77)}The Rise of Karen
+Dialogue: 1,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(900.18,8.83)}The Rise of Karen
+Dialogue: 1,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(905.99,21.34)}The Rise of Karen
+Dialogue: 1,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(911.21,32.66)}The Rise of Karen
+Dialogue: 1,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(915.95,42.88)}The Rise of Karen
+Dialogue: 1,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(919.97,51.82)}The Rise of Karen
+Dialogue: 1,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(923.44,59.55)}The Rise of Karen
+Dialogue: 1,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(926.48,66.01)}The Rise of Karen
+Dialogue: 1,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(928.92,71.2)}The Rise of Karen
+Dialogue: 1,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(930.67,74.95)}The Rise of Karen
+Dialogue: 1,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(931.62,77.19)}The Rise of Karen
+Dialogue: 1,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\an4\fs92\fsp-5\fnFOT-RampartTL Std EB\blur1\b0\c&HA3F6FC&\pos(932,78)}The Rise of Karen
+Dialogue: 0,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\p1\pos(-135.39,-119.95)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\p1\pos(-116.82,-103.38)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\p1\pos(-99.24,-87.88)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\p1\pos(-82.85,-73.44)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\p1\pos(-67.77,-60.16)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\p1\pos(-54.23,-48.14)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\p1\pos(-41.89,-37.28)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\p1\pos(-31.49,-27.81)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\p1\pos(-22.46,-19.62)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\p1\pos(-14.55,-12.74)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\p1\pos(-8.07,-7.22)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\p1\pos(-3.48,-3.23)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\p1\pos(-1.06,-0.87)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\p1\pos(0,0)\an7\blur1.3\c&H1C3D3A&}m 188.63 35 l 1508 35 1508 124.24 188.63 124.24
+Dialogue: 0,0:08:40.83,0:08:40.87,0$mask,,0,0,0,,{\fscx108.93\fscy108.93\p1\pos(-135.39,-119.95)\an7\blur100\c&H2F645D&\clip(m 70.08 -81.83 l 1507.22 -81.83 1507.22 15.38 70.08 15.38)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:40.87,0:08:40.91,0$mask,,0,0,0,,{\fscx107.71\fscy107.71\p1\pos(-116.82,-103.38)\an7\blur100\c&H2F645D&\clip(m 86.35 -65.68 l 1507.43 -65.68 1507.43 30.44 86.35 30.44)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:40.91,0:08:40.95,0$mask,,0,0,0,,{\fscx106.55\fscy106.55\p1\pos(-99.24,-87.88)\an7\blur100\c&H2F645D&\clip(m 101.75 -50.59 l 1507.6 -50.59 1507.6 44.5 101.75 44.5)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:40.95,0:08:41.00,0$mask,,0,0,0,,{\fscx105.47\fscy105.47\p1\pos(-82.85,-73.44)\an7\blur100\c&H2F645D&\clip(m 116.11 -36.52 l 1507.71 -36.52 1507.71 57.6 116.11 57.6)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.00,0:08:41.04,0$mask,,0,0,0,,{\fscx104.48\fscy104.48\p1\pos(-67.77,-60.16)\an7\blur100\c&H2F645D&\clip(m 129.31 -23.59 l 1507.79 -23.59 1507.79 69.65 129.31 69.65)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.04,0:08:41.08,0$mask,,0,0,0,,{\fscx103.59\fscy103.59\p1\pos(-54.23,-48.14)\an7\blur100\c&H2F645D&\clip(m 141.17 -11.88 l 1507.88 -11.88 1507.88 80.56 141.17 80.56)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.08,0:08:41.12,0$mask,,0,0,0,,{\fscx102.77\fscy102.77\p1\pos(-41.89,-37.28)\an7\blur100\c&H2F645D&\clip(m 151.97 -1.31 l 1507.93 -1.31 1507.93 90.41 151.97 90.41)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.12,0:08:41.16,0$mask,,0,0,0,,{\fscx102.09\fscy102.09\p1\pos(-31.49,-27.81)\an7\blur100\c&H2F645D&\clip(m 161.08 7.92 l 1508 7.92 1508 99.02 161.08 99.02)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.16,0:08:41.20,0$mask,,0,0,0,,{\fscx101.49\fscy101.49\p1\pos(-22.46,-19.62)\an7\blur100\c&H2F645D&\clip(m 168.99 15.91 l 1508.03 15.91 1508.03 106.48 168.99 106.48)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.20,0:08:41.25,0$mask,,0,0,0,,{\fscx100.97\fscy100.97\p1\pos(-14.55,-12.74)\an7\blur100\c&H2F645D&\clip(m 175.91 22.6 l 1508.05 22.6 1508.05 112.7 175.91 112.7)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.25,0:08:41.29,0$mask,,0,0,0,,{\fscx100.54\fscy100.54\p1\pos(-8.07,-7.22)\an7\blur100\c&H2F645D&\clip(m 181.57 27.97 l 1508.01 27.97 1508.01 117.69 181.57 117.69)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.29,0:08:41.33,0$mask,,0,0,0,,{\fscx100.23\fscy100.23\p1\pos(-3.48,-3.23)\an7\blur100\c&H2F645D&\clip(m 185.58 31.85 l 1508 31.85 1508 121.29 185.58 121.29)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.33,0:08:41.37,0$mask,,0,0,0,,{\fscx100.07\fscy100.07\p1\pos(-1.06,-0.87)\an7\blur100\c&H2F645D&\clip(m 187.71 34.15 l 1508.04 34.15 1508.04 123.46 187.71 123.46)}m 560 -32 l 1122 -32 1122 184 560 184
+Dialogue: 0,0:08:41.37,0:08:41.96,0$mask,,0,0,0,,{\fscx100\fscy100\p1\pos(0,0)\an7\blur100\c&H2F645D&\clip(m 188.63 35 l 1508 35 1508 124.24 188.63 124.24)}m 560 -32 l 1122 -32 1122 184 560 184
+Comment: 0,0:18:05.77,0:18:07.94,0$Default,,0,0,0,,Tome's Proverb
+Dialogue: 1,0:18:05.77,0:18:07.94,0$Proverb,,0,0,0,,{\kf22\fs80\frz358.5\pos(1550,451)\c&H0C0C0C&\blur0.7\2aFF}It doesn't hurt{\kf5}\N{\kf16}to try,{\kf16}\N{\kf35}unless you try{\kf5}\N{\kf27}to play f3.{\kf91}
+Dialogue: 0,0:18:05.77,0:18:07.94,0$Proverb,,0,0,0,,{\kf22\fs80\frz358.5\c&HF0F1F1&\blur0.7\2aFF\pos(1556,455)}It doesn't hurt{\kf5}\N{\kf16}to try,{\kf16}\N{\kf35}unless you try{\kf5}\N{\kf27}to play f3.{\kf91}
+Dialogue: 1,0:18:07.02,0:18:07.94,0$Proverb,,0,0,0,,{\kf15\fs80\frz358.5\c&H0C0C0C&\blur0.7\2aFF\pos(1702,533)}-Tome
+Dialogue: 0,0:18:07.02,0:18:07.94,0$Proverb,,0,0,0,,{\kf15\fs80\frz358.5\c&HF0F1F1&\blur0.7\2aFF\pos(1708,537)}-Tome
+Comment: 0,0:22:44.93,0:22:44.97,0$Default,,0,0,0,,Post-ED
+Dialogue: 1,0:22:44.93,0:22:48.64,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.93,0:22:48.64,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.64,0:23:09.95,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(426,1049.2)}Durian
+Dialogue: 0,0:22:48.64,0:23:09.95,0$Take H,,0,0,0,,{\c&H030309&\bord3.5\blur1\fs90\3c&H030309&\shad0\pos(426,1049.2)}Durian
+Dialogue: 1,0:23:09.95,0:23:24.97,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:09.95,0:23:24.97,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:18.46,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,720)}Paccarat Lapa's Foal-icious Mission!!
+Dialogue: 1,0:23:18.46,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H369A20&\bord4\fade(450,0)\c&H369A20&\blur0.7\pos(972,720)}Paccarat Lapa's Foal-icious Mission!!
+Dialogue: 0,0:23:18.46,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,720)}Paccarat Lapa's Foal-icious Mission!!
+Dialogue: 1,0:20:06.27,0:20:10.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf77\3c&H6FA800&\2c&H456706&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:20:06.27,0:20:10.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}nee kimi doko kara kita no?
+Dialogue: 1,0:20:06.27,0:20:10.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}Where are you from?
+Dialogue: 0,0:20:06.27,0:20:10.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}Where are you from?
+Dialogue: 1,0:20:10.94,0:20:15.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&H6FA800&\2c&H456706&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:20:10.94,0:20:15.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}ima boku hima shiten dakedo
+Dialogue: 1,0:20:10.94,0:20:15.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}I've got time to spare
+Dialogue: 0,0:20:10.94,0:20:15.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}I've got time to spare
+Dialogue: 1,0:20:15.49,0:20:20.07,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\kf66\3c&HE1811E&\2c&H834B0F&\bord0}ocha{\kf40}{\kf82}shite{\kf50} {\kf72}morae {\kf128}masenka?
+Dialogue: 0,0:20:15.49,0:20:20.07,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ochashite morae masenka?
+Dialogue: 1,0:20:15.49,0:20:20.07,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Can I pour you some tea?
+Dialogue: 0,0:20:15.49,0:20:20.07,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Can I pour you some tea?
+Dialogue: 1,0:20:20.07,0:20:25.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf32\kf86\3c&HE1811E&\2c&H834B0F&\bord0}dame?{\kf34} {\kf68}dame?{\kf44} {\kf102}doushite {\kf94}desuka{\kf44}
+Dialogue: 0,0:20:20.07,0:20:25.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}dame? dame? doushite desuka
+Dialogue: 1,0:20:20.07,0:20:25.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}No, you say? What's wrong?
+Dialogue: 0,0:20:20.07,0:20:25.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}No, you say? What's wrong?
+Dialogue: 1,0:20:25.12,0:20:29.75,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&HE1811E&\2c&H046559&\bord0}ji{\kf50}n{\kf58}sei {\kf40}wa{\kf32} {\kf111}rooringu{\kf79} sutoon{\kf19}
+Dialogue: 0,0:20:25.12,0:20:29.75,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H0B9478&\3c&H0B9478&\4c&H0B9478&}jinsei wa rooringu sutoon
+Dialogue: 1,0:20:25.12,0:20:29.75,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H0728A3&\bord0}Life is like a rolling stone
+Dialogue: 0,0:20:25.12,0:20:29.75,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H014FFF&\3c&H014FFF&\4c&H014FFF&}Life is like a rolling stone
+Dialogue: 1,0:20:29.75,0:20:34.55,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf130\3c&HE1811E&\2c&H102A80&\bord0}tamaru {\kf120}konbini {\kf48}bukur{\kf154}o{\kf27}
+Dialogue: 0,0:20:29.75,0:20:34.55,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}tamaru konbini bukuro
+Dialogue: 1,0:20:29.75,0:20:34.55,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Shopping bags piling up
+Dialogue: 0,0:20:29.75,0:20:34.55,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Shopping bags piling up
+Dialogue: 1,0:20:34.55,0:20:39.26,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf60\3c&HE1811E&\2c&H102A80&\bord0}se{\kf40}i{\kf60}shun {\kf46}wa{\kf28} {\kf112}kumori {\kf100}zora{\kf14}
+Dialogue: 0,0:20:34.55,0:20:39.26,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}seishun wa kumori zora
+Dialogue: 1,0:20:34.55,0:20:39.26,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Youth is like a dark cloudy sky
+Dialogue: 0,0:20:34.55,0:20:39.26,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Youth is like a dark cloudy sky
+Dialogue: 1,0:20:39.26,0:20:43.01,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf114\3c&HE1811E&\2c&H706304&\bord0}sumafo {\kf110}izon{\kf50}shou {\kf78}sa{\kf14}
+Dialogue: 0,0:20:39.26,0:20:43.01,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}sumafo izonshou sa
+Dialogue: 1,0:20:39.26,0:20:43.01,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}They're all glued to their phones
+Dialogue: 0,0:20:39.26,0:20:43.01,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}They're all glued to their phones
+Dialogue: 1,0:20:43.01,0:20:45.39,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf48\3c&HE1811E&\2c&H706304&\bord0}donzoko {\kf42}demo {\kf44}ii{\kf68}jan{\kf25}
+Dialogue: 0,0:20:43.01,0:20:45.39,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}donzoko demo iijan
+Dialogue: 1,0:20:43.01,0:20:45.39,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So what if we've hit rock bottom
+Dialogue: 0,0:20:43.01,0:20:45.39,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So what if we've hit rock bottom
+Dialogue: 1,0:20:45.39,0:20:47.68,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf9\3c&HE1811E&\2c&H706304&\bord0}ki {\kf20}ni {\kf62}shinakute {\kf36}ii{\kf70}jan{\kf23}
+Dialogue: 0,0:20:45.39,0:20:47.68,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}ki ni shinakute iijan
+Dialogue: 1,0:20:45.39,0:20:47.68,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't get so hung up on it
+Dialogue: 0,0:20:45.39,0:20:47.68,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}Don't get so hung up on it
+Dialogue: 1,0:20:47.68,0:20:49.52,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:47.68,0:20:49.52,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:20:47.68,0:20:49.52,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:47.68,0:20:49.52,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:49.52,0:20:52.40,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H0D7349&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf2}ru {\kf54}kamojan
+Dialogue: 0,0:20:49.52,0:20:52.40,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tabetara kateru kamojan
+Dialogue: 1,0:20:49.52,0:20:52.40,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:20:49.52,0:20:52.40,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:20:52.40,0:20:54.57,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H0D7349&\bord0}dame {\kf34}dame {\kf26}demo {\kf48}ii{\kf73}jan
+Dialogue: 0,0:20:52.40,0:20:54.57,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}dame dame demo iijan
+Dialogue: 1,0:20:52.40,0:20:54.57,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}But if it won't? Oh well
+Dialogue: 0,0:20:52.40,0:20:54.57,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}But if it won't? Oh well
+Dialogue: 1,0:20:54.57,0:20:56.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf30\3c&HE1811E&\2c&H0D7349&\bord0}dou{\kf33}tte {\kf42}koto {\kf46}nee{\kf54}jan{\kf23}
+Dialogue: 0,0:20:54.57,0:20:56.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}doutte koto neejan
+Dialogue: 1,0:20:54.57,0:20:56.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't worry 'bout it
+Dialogue: 0,0:20:54.57,0:20:56.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Don't worry 'bout it
+Dialogue: 1,0:20:56.94,0:20:58.99,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:56.94,0:20:58.99,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:20:56.94,0:20:58.99,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:56.94,0:20:58.99,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:58.99,0:21:01.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H822033&\bord0}me{\kf36}ge{\kf38}zu {\kf20}ni {\kf20}i{\kf42}kou{\kf78}ze{\kf21}
+Dialogue: 0,0:20:58.99,0:21:01.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}megezu ni ikouze
+Dialogue: 1,0:20:58.99,0:21:01.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep moving forward
+Dialogue: 0,0:20:58.99,0:21:01.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}And keep moving forward
+Dialogue: 1,0:21:01.91,0:21:04.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\3c&HE1811E&\2c&H822033&\bord0}charan{\kf26}poran {\kf26}de {\kf44}ii{\kf68}jan{\kf18}
+Dialogue: 0,0:21:01.91,0:21:04.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}charanporan de iijan
+Dialogue: 1,0:21:01.91,0:21:04.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}Maybe we're kinda sloppy
+Dialogue: 0,0:21:01.91,0:21:04.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}Maybe we're kinda sloppy
+Dialogue: 1,0:21:04.03,0:21:06.37,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf38\3c&HE1811E&\2c&H822033&\bord0}mucha{\kf30}kucha {\kf32}de {\kf40}ii{\kf66}jan{\kf17}
+Dialogue: 0,0:21:04.03,0:21:06.37,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}muchakucha de iijan
+Dialogue: 1,0:21:04.03,0:21:06.37,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}And sure we're kinda reckless
+Dialogue: 0,0:21:04.03,0:21:06.37,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}And sure we're kinda reckless
+Dialogue: 1,0:21:06.37,0:21:08.16,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H822033&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:06.37,0:21:08.16,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}katsudon tabe yoojan
+Dialogue: 1,0:21:06.37,0:21:08.16,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:06.37,0:21:08.16,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:08.16,0:21:11.04,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H822033&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf28}ru {\kf54}kamojan
+Dialogue: 0,0:21:08.16,0:21:11.04,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}tabetara kateru kamojan
+Dialogue: 1,0:21:08.16,0:21:11.04,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:08.16,0:21:11.04,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:11.04,0:21:13.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf40\3c&HE1811E&\2c&H0D7349&\bord0}masshi{\kf32}gura {\kf32}de {\kf36}ii{\kf68}jan{\kf16}
+Dialogue: 0,0:21:11.04,0:21:13.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}masshigura de iijan
+Dialogue: 1,0:21:11.04,0:21:13.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So let's go full speed
+Dialogue: 0,0:21:11.04,0:21:13.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So let's go full speed
+Dialogue: 1,0:21:13.38,0:21:15.75,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf34\3c&HE1811E&\2c&H0D7349&\bord0}tsuki {\kf72}susumeba {\kf36}ii{\kf74}jan{\kf12}
+Dialogue: 0,0:21:13.38,0:21:15.75,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tsuki susumeba iijan
+Dialogue: 1,0:21:13.38,0:21:15.75,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep pushing onwards
+Dialogue: 0,0:21:13.38,0:21:15.75,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}And keep pushing onwards
+Dialogue: 1,0:21:15.75,0:21:17.67,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:15.75,0:21:17.67,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:15.75,0:21:17.67,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:15.75,0:21:17.67,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:17.67,0:21:21.34,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf36\3c&HE1811E&\2c&H834B0F&\bord0}to{\kf38}ko{\kf46}ton {\kf32}ya{\kf40}rou{\kf20}z{\kf128}e{\kf29}
+Dialogue: 0,0:21:17.67,0:21:21.34,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}tokoton yarouze
+Dialogue: 1,0:21:17.67,0:21:21.34,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}And see our goals all the way through
+Dialogue: 0,0:21:17.67,0:21:21.34,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}And see our goals all the way through
+Dialogue: 1,0:21:21.34,0:21:25.85,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:21:21.34,0:21:25.85,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}nee kimi doko kara kita no?
+Dialogue: 1,0:21:21.34,0:21:25.85,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Where are you from?
+Dialogue: 0,0:21:21.34,0:21:25.85,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Where are you from?
+Dialogue: 1,0:21:25.85,0:21:30.14,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:21:25.85,0:21:30.14,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ima boku hima shiten dakedo
+Dialogue: 1,0:21:25.85,0:21:30.14,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H540C53&\bord0}I've got time to spare
+Dialogue: 0,0:21:25.85,0:21:30.14,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF27FF&\3c&HFF27FF&\4c&HFF27FF&}I've got time to spare
+Dialogue: 1,0:21:30.14,0:21:35.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf23\3c&HE1811E&\2c&H834B0F&\bord0}Why {\kf26}don't {\kf24}we {\kf104}eat{\kf62} {\kf40}KATSU{\kf24}D{\kf233}ON?
+Dialogue: 0,0:21:30.14,0:21:35.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}Why don't we eat KATSUDON?
+

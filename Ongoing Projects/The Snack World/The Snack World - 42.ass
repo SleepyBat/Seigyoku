@@ -1,0 +1,851 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 42
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E4E6E3,&H00DEA4D9,&H00F0236F,&H00434343,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00DBA9A4,&H00FA4789,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.36,0:00:05.13,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.13,0:00:08.28,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.28,0:00:10.28,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.28,0:00:12.17,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.70,0:00:16.66,0$Default,,0,0,0,,After a long battle,\NI've finally defeated the evil merchant Vinegar Khan,
+Dialogue: 0,0:00:16.66,0:00:19.46,0$Default,,0,0,0,,and now I'm moving towards a new goal!
+Dialogue: 0,0:00:20.30,0:00:22.54,0$Default,,0,0,0,,Whatever perils await me,
+Dialogue: 0,0:00:22.54,0:00:26.01,0$Default,,0,0,0,,I'll fully, flawlessly overcome them!
+Dialogue: 0,0:00:54.45,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:02.04,0:01:05.21,0$Default,,0,0,0,,{\an8}We got Detton and Peffany on board!
+Dialogue: 0,0:01:05.21,0:01:08.11,0$Default,,0,0,0,,{\an8}The Great Airship is making good progress!
+Dialogue: 0,0:01:08.11,0:01:09.74,0$Default,,0,0,0,,{\an8}If that's the case,
+Dialogue: 0,0:01:09.74,0:01:11.53,0$Default,,0,0,0,,{\an8}how about we do some sightseeing?
+Dialogue: 0,0:01:11.53,0:01:12.78,0$Default,,0,0,0,,{\an8}I like that idea!
+Dialogue: 0,0:01:12.78,0:01:15.49,0$Default,,0,0,0,,{\an8}I've been hankering for some seafood!
+Dialogue: 0,0:01:15.49,0:01:17.54,0$Default,,0,0,0,,{\an8}I wanna go shopping!
+Dialogue: 0,0:01:17.54,0:01:19.98,0$Default,,0,0,0,,{\an8}And I wanna buy some\Nlocal melonpan cookies!
+Dialogue: 0,0:01:20.32,0:01:22.42,0$Default,,0,0,0,,"Local" melonpan cookies?
+Dialogue: 0,0:01:22.42,0:01:26.38,0$Default,,0,0,0,,There's an exclusive flavor\Nthey only sell here!
+Dialogue: 0,0:01:26.38,0:01:30.22,0$Default,,0,0,0,,Since this is a port town,\Nthey're supposed to be salty flavored!
+Dialogue: 0,0:01:30.22,0:01:32.55,0$Default,,0,0,0,,You're already way off track.
+Dialogue: 0,0:01:32.55,0:01:36.37,0$Default,,0,0,0,,How about we split up for two hours\Nthen meet back up here?
+Dialogue: 0,0:01:35.81,0:01:39.20,0$Default,,0,0,0,,{\an8}Hate to break it to you,\Nbut we can't take things easy.
+Dialogue: 0,0:01:39.20,0:01:39.79,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:39.79,0:01:42.03,0$Default,,0,0,0,,Several days have passed\Nsince Scardon returned.
+Dialogue: 0,0:01:42.03,0:01:44.58,0$Default,,0,0,0,,The world has already begun\Nto see the effects.
+Dialogue: 0,0:01:45.59,0:01:47.21,0$Default,,0,0,0,,What kind of effects?
+Dialogue: 0,0:01:47.21,0:01:51.85,0$Default,,0,0,0,,Monsters have been acting\Nmore aggressive than before.
+Dialogue: 0,0:01:51.85,0:01:55.72,0$Default,,0,0,0,,Victims of monster attacks\Nhave nearly doubled.
+Dialogue: 0,0:01:55.72,0:01:57.56,0$Default,,0,0,0,,That's right!
+Dialogue: 0,0:01:58.08,0:01:59.85,0$Default,,0,0,0,,Did you recall something bad?
+Dialogue: 0,0:01:59.85,0:02:05.40,0$Default,,0,0,0,,The ladies at the club I visited last night\Nwere acting so coldhearted to me!
+Dialogue: 0,0:02:05.40,0:02:07.48,0$Default,,0,0,0,,No wonder. Scardon must be behind it!
+Dialogue: 0,0:02:08.15,0:02:10.53,0$Default,,0,0,0,,Give me some space!
+Dialogue: 0,0:02:10.87,0:02:12.42,0$Default,,0,0,0,,No way.
+Dialogue: 0,0:02:12.42,0:02:14.55,0$Default,,0,0,0,,Those were {\i1}human{\i0} ladies!
+Dialogue: 0,0:02:14.55,0:02:17.62,0$Default,,0,0,0,,Maybe humans are affected by him too!
+Dialogue: 0,0:02:17.62,0:02:20.43,0$Default,,0,0,0,,The other day, I stopped by\Nan all-you-can-eat buffet,
+Dialogue: 0,0:02:20.43,0:02:24.04,0$Default,,0,0,0,,and the waiters got more and more aggressive\Nevery time I asked for more.
+Dialogue: 0,0:02:24.54,0:02:26.93,0$Default,,0,0,0,,You're {\i1}still{\i0} not finished?
+Dialogue: 0,0:02:27.42,0:02:31.19,0$Default,,0,0,0,,Yeah, 'cause you were asking for\Nan unusual amount of food!
+Dialogue: 0,0:02:31.19,0:02:32.30,0$Default,,0,0,0,,That reminds me.
+Dialogue: 0,0:02:32.30,0:02:35.13,0$Default,,0,0,0,,Princess Melora was in my dream last night,
+Dialogue: 0,0:02:35.13,0:02:37.97,0$Default,,0,0,0,,and her sexy poses were even more\Naggressive than usual!
+Dialogue: 0,0:02:38.35,0:02:40.10,0$Default,,0,0,0,,Chup~!
+Dialogue: 0,0:02:40.10,0:02:41.12,0$Default,,0,0,0,,Roar!
+Dialogue: 0,0:02:43.98,0:02:45.85,0$Default,,0,0,0,,What a creepy dream!
+Dialogue: 0,0:02:46.73,0:02:49.70,0$Default,,0,0,0,,My point is, we don't have much time!
+Dialogue: 0,0:02:49.70,0:02:51.67,0$Default,,0,0,0,,Goemon, what's the next brand?
+Dialogue: 0,0:02:51.67,0:02:53.88,0$Default,,0,0,0,,The third one here in Durian:
+Dialogue: 0,0:02:53.88,0:02:55.33,0$Default,,0,0,0,,Paccarat Lapa.
+Dialogue: 0,0:02:55.33,0:02:56.51,0$Default,,0,0,0,,Oh, Paccarat Lapa!
+Dialogue: 0,0:02:56.51,0:02:59.20,0$Default,,0,0,0,,That's the brand Mr. Fishburger\Ngave me at his mansion!
+Dialogue: 0,0:03:01.33,0:03:03.18,0$Default,,0,0,0,,The owner used to own horses,
+Dialogue: 0,0:03:03.18,0:03:06.10,0$Default,,0,0,0,,so he designed his works\Nwith the feeling of an elegant horse.
+Dialogue: 0,0:03:06.10,0:03:08.58,0$Default,,0,0,0,,They're quite fashionable\Nand popular!
+Dialogue: 0,0:03:08.58,0:03:11.68,0$Default,,0,0,0,,We're looking at their gimmick technologies.
+Dialogue: 0,0:03:11.68,0:03:14.97,0$Default,,0,0,0,,It'll be crucial for our steering mechanisms.
+Dialogue: 0,0:03:14.97,0:03:16.86,0$Default,,0,0,0,,And the man behind that tech
+Dialogue: 0,0:03:16.86,0:03:19.89,0$Default,,0,0,0,,is the owner and engineer himself,\NMr. Marshew Mallow.
+Dialogue: 0,0:03:19.89,0:03:22.37,0$Default,,0,0,0,,I actually met him a few times\Nwhen I was little.
+Dialogue: 0,0:03:22.37,0:03:23.33,0$Default,,0,0,0,,You have?
+Dialogue: 0,0:03:23.33,0:03:26.48,0$Default,,0,0,0,,Yep. He was drinking buddies\Nwith Goemon IV.
+Dialogue: 0,0:03:26.48,0:03:28.88,0$Default,,0,0,0,,Oh, your grandfather!
+Dialogue: 0,0:03:28.88,0:03:31.73,0$Default,,0,0,0,,What's Mr. Marshew Mallow like?
+Dialogue: 0,0:03:31.73,0:03:34.59,0$Default,,0,0,0,,He's just a sweet, horse-loving old man.
+Dialogue: 0,0:03:34.59,0:03:36.23,0$Default,,0,0,0,,Though I don't like him too much.
+Dialogue: 0,0:03:36.23,0:03:37.41,0$Default,,0,0,0,,How come?
+Dialogue: 0,0:03:45.25,0:03:47.44,0$Default,,0,0,0,,Ho-Horse-Horse!
+Dialogue: 3,0:03:47.44,0:03:49.44,0$Default,,0,0,0,,Welcome to Paccarat Lapa!
+Dialogue: 3,0:03:49.44,0:03:51.79,0$Default,,0,0,0,,I'm Marshew Mallow, the owner!
+Dialogue: 0,0:03:52.21,0:03:55.53,0$Default,,0,0,0,,You weren't kidding about\Nhim loving horses. He even {\i1}laughs{\i} it!
+Dialogue: 0,0:03:55.53,0:03:57.22,0$Default,,0,0,0,,Good to see you again, Mr. Mallow.
+Dialogue: 0,0:03:57.22,0:04:00.95,0$Default,,0,0,0,,Oh, I remember you.\NYou're Goemon's granddaughter, no?
+Dialogue: 0,0:04:00.95,0:04:03.29,0$Default,,0,0,0,,Yes. I am his successor,
+Dialogue: 0,0:04:03.29,0:04:05.08,0$Default,,0,0,0,,Goemon V.
+Dialogue: 0,0:04:05.08,0:04:08.25,0$Default,,0,0,0,,Wow! How long has it been, ten years?
+Dialogue: 0,0:04:08.25,0:04:09.58,0$Default,,0,0,0,,What a memory!
+Dialogue: 0,0:04:09.58,0:04:12.57,0$Default,,0,0,0,,Such a good little girl.
+Dialogue: 0,0:04:12.57,0:04:14.53,0$Default,,0,0,0,,I'm glad you remember me.
+Dialogue: 0,0:04:14.53,0:04:18.09,0$Default,,0,0,0,,I wouldn't forget a face!\NA human's nor a horse's!
+Dialogue: 0,0:04:18.09,0:04:20.11,0$Default,,0,0,0,,That's my motto.
+Dialogue: 0,0:04:20.11,0:04:22.89,0$Default,,0,0,0,,As the owner of a weapons brand,
+Dialogue: 0,0:04:22.89,0:04:26.23,0$Default,,0,0,0,,it is of course upon me\Nto refine the weapons we manufacutre,
+Dialogue: 0,0:04:26.23,0:04:29.73,0$Default,,0,0,0,,but I also must refine my connections\Nwith the humans and horses I meet.
+Dialogue: 0,0:04:29.73,0:04:33.50,0$Default,,0,0,0,,Such is how I've raised\Nthe brand of Paccarat Lapa.
+Dialogue: 0,0:04:33.90,0:04:36.44,0$Default,,0,0,0,,It all started around 120 years ago,
+Dialogue: 0,0:04:36.44,0:04:39.80,0$Default,,0,0,0,,back when the first owner\Nwas still in high school!
+Dialogue: 0,0:04:39.80,0:04:41.82,0$Default,,0,0,0,,There he goes...
+Dialogue: 0,0:04:41.82,0:04:42.74,0$Default,,0,0,0,,What do you mean?
+Dialogue: 0,0:04:42.74,0:04:46.08,0$Default,,0,0,0,,When he starts telling old stories,\Nhe never stops.
+Dialogue: 0,0:04:46.08,0:04:47.20,0$Default,,0,0,0,,That's why I don't like him.
+Dialogue: 0,0:04:47.20,0:04:48.64,0$Default,,0,0,0,,That adds up.
+Dialogue: 0,0:04:48.64,0:04:52.73,0$Default,,0,0,0,,Back then, he was helping feed\Nthe cows at the stable.
+Dialogue: 0,0:04:52.73,0:04:57.36,0$Default,,0,0,0,,He feels the need to go over the whole history\Nof the brand with every new person he meets.
+Dialogue: 0,0:04:57.36,0:04:59.88,0$Default,,0,0,0,,Brace yourselves,\Nthis will take a while.
+Dialogue: 0,0:04:59.88,0:05:00.84,0$Default,,0,0,0,,Aww.
+Dialogue: 0,0:05:00.84,0:05:04.72,0$Default,,0,0,0,,Oh, Mr. Mallow!\NBefore you tell us about the history...
+Dialogue: 0,0:05:05.24,0:05:06.00,0$Default,,0,0,0,,Horse?
+Dialogue: 0,0:05:06.00,0:05:07.68,0$Default,,0,0,0,,We'd like to ask you something!
+Dialogue: 0,0:05:07.68,0:05:08.70,0$Default,,0,0,0,,No!
+Dialogue: 0,0:05:08.70,0:05:13.08,0$Default,,0,0,0,,I'm talking here!!
+Dialogue: 0,0:05:17.51,0:05:21.09,0$Default,,0,0,0,,That first owner fell in love\Nwith those majestic horses.
+Dialogue: 0,0:05:21.09,0:05:22.11,0$Default,,0,0,0,,What the heck?
+Dialogue: 0,0:05:22.11,0:05:25.35,0$Default,,0,0,0,,He hates nothing more\Nthan people interrupting his stories.
+Dialogue: 0,0:05:25.35,0:05:28.39,0$Default,,0,0,0,,Then, he made up his mind!
+Dialogue: 0,0:05:29.44,0:05:32.19,0$Default,,0,0,0,,He looks like such a vile,\Ndisgusting creature.
+Dialogue: 0,0:05:32.19,0:05:35.69,0$Default,,0,0,0,,...was his goal!\NThat's how Paccarat Lapa began.
+Dialogue: 0,0:05:35.69,0:05:36.82,0$Default,,0,0,0,,Oh, is that all?
+Dialogue: 0,0:05:36.82,0:05:40.07,0$Default,,0,0,0,,Now for Chapter 2:\NThe Rival!
+Dialogue: 0,0:05:40.07,0:05:42.08,0$Default,,0,0,0,,There's two chapters...?
+Dialogue: 0,0:05:42.08,0:05:44.24,0$Default,,0,0,0,,Eight in total, and by the way...
+Dialogue: 0,0:05:46.87,0:05:50.37,0$Default,,0,0,0,,Wake up. I'm talking here.
+Dialogue: 0,0:05:50.37,0:05:52.52,0$Default,,0,0,0,,S-Sorry, sir.
+Dialogue: 0,0:05:52.52,0:05:54.89,0$Default,,0,0,0,,He won't let you doze off either.
+Dialogue: 0,0:05:56.50,0:06:00.44,0$Default,,0,0,0,,And so, through the efforts\Nof three generations of owners,
+Dialogue: 0,0:06:00.44,0:06:02.72,0$Default,,0,0,0,,Paccarat Lapa finally put itself on the map,
+Dialogue: 0,0:06:02.72,0:06:06.01,0$Default,,0,0,0,,having become one of the top brands.
+Dialogue: 0,0:06:07.85,0:06:09.06,0$Default,,0,0,0,,It's finally over.
+Dialogue: 0,0:06:09.06,0:06:10.58,0$Default,,0,0,0,,That took forever.
+Dialogue: 0,0:06:10.58,0:06:12.64,0$Default,,0,0,0,,We had to stand here\Nfor two and a half hours...
+Dialogue: 0,0:06:12.64,0:06:15.90,0$Default,,0,0,0,,So what business do you have with me?
+Dialogue: 0,0:06:15.90,0:06:17.04,0$Default,,0,0,0,,Mr. Mallow.
+Dialogue: 0,0:06:17.04,0:06:20.11,0$Default,,0,0,0,,We must construct\Nthe Great Airship.
+Dialogue: 0,0:06:20.11,0:06:23.40,0$Default,,0,0,0,,Will you lend us your company's technology?
+Dialogue: 0,0:06:23.40,0:06:25.49,0$Default,,0,0,0,,I cannot.
+Dialogue: 0,0:06:25.49,0:06:28.41,0$Default,,0,0,0,,Aw, what? After you made us\Nlisten to you for ages?
+Dialogue: 0,0:06:28.41,0:06:32.98,0$Default,,0,0,0,,I hate to say it, but I have something I must do.
+Dialogue: 0,0:06:32.98,0:06:34.98,0$Default,,0,0,0,,What is it?
+Dialogue: 0,0:06:34.98,0:06:37.75,0$Default,,0,0,0,,I have to obtain Mangolas Si.
+Dialogue: 0,0:06:37.75,0:06:39.42,0$Default,,0,0,0,,Mangolas Si?
+Dialogue: 0,0:06:39.42,0:06:42.99,0$Default,,0,0,0,,A legendary horse\Nthat lives in the woods to the east.
+Dialogue: 0,0:06:42.99,0:06:47.85,0$Default,,0,0,0,,All horse owners wish they could have\Nhis coat, his muscles, and his overwhelming speed.
+Dialogue: 0,0:06:48.18,0:06:52.52,0$Default,,0,0,0,,So until I obtain him,\NI'm afraid I can't take on anything else.
+Dialogue: 0,0:06:52.85,0:06:56.25,0$Default,,0,0,0,,Hey, we'll capture that\NMambo Bungee for you!
+Dialogue: 0,0:06:56.25,0:06:57.88,0$Default,,0,0,0,,It's "Mangolas Si."
+Dialogue: 0,0:06:57.88,0:07:01.32,0$Default,,0,0,0,,And when we're done,\Nwill you help us with the airship?
+Dialogue: 0,0:07:01.32,0:07:03.13,0$Default,,0,0,0,,I'd be delighted to,
+Dialogue: 0,0:07:03.13,0:07:06.82,0$Default,,0,0,0,,but I'm afraid Mangolas Si\Nwill be no easy catch.
+Dialogue: 0,0:07:06.82,0:07:09.91,0$Default,,0,0,0,,Don't try to stop us!\NIt's like my grandmother said!
+Dialogue: 0,0:07:09.91,0:07:11.49,0$Default,,0,0,0,,Don't look a gift horse in the mouth!
+Dialogue: 0,0:07:11.49,0:07:13.45,0$Default,,0,0,0,,My joints get sore in the cold!
+Dialogue: 0,0:07:13.45,0:07:16.29,0$Default,,0,0,0,,Her elderly pains are showing.
+Dialogue: 0,0:07:16.29,0:07:18.21,0$Default,,0,0,0,,Bring us to the woods!
+Dialogue: 0,0:07:19.29,0:07:22.40,0$Default,,0,0,0,,This is where Mangolas Si dwells.
+Dialogue: 0,0:07:22.40,0:07:23.42,0$Default,,0,0,0,,I see.
+Dialogue: 0,0:07:23.42,0:07:25.47,0$Default,,0,0,0,,Would you like these?
+Dialogue: 0,0:07:25.47,0:07:26.34,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:07:26.34,0:07:29.99,0$Default,,0,0,0,,Use them. There might be\Nmonsters nearby.
+Dialogue: 0,0:07:29.99,0:07:31.01,0$Default,,0,0,0,,Are you sure?
+Dialogue: 0,0:07:31.01,0:07:34.52,0$Default,,0,0,0,,I'll do anything to make sure\NI get my hands on Mangolas Si!
+Dialogue: 0,0:07:34.52,0:07:36.48,0$Default,,0,0,0,,Yay, thanks!
+Dialogue: 0,0:07:36.48,0:07:39.52,0$Default,,0,0,0,,I've always wanted to try out\Nsome Paccarat Lapa weapons!
+Dialogue: 0,0:07:39.52,0:07:43.21,0$Default,,0,0,0,,Is it really gonna be that hard\Nto capture it?
+Dialogue: 0,0:07:43.21,0:07:46.80,0$Default,,0,0,0,,There must be over 100 failed attempts\Nto capture Mangolas Si.
+Dialogue: 0,0:07:46.80,0:07:50.97,0$Default,,0,0,0,,Allow me to tell the history of this battle\Nfrom the beginning before we go on the hunt.
+Dialogue: 0,0:07:50.97,0:07:51.91,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:07:51.91,0:07:53.08,0$Default,,0,0,0,,From the beginning?
+Dialogue: 0,0:07:53.08,0:07:57.67,0$Default,,0,0,0,,I first fell in love with horses myself\Nsixty years ago!
+Dialogue: 0,0:07:57.67,0:08:00.08,0$Default,,0,0,0,,You're going that far back?
+Dialogue: 0,0:08:00.08,0:08:03.40,0$Default,,0,0,0,,It was when my father brought me\Nto a race track!
+Dialogue: 0,0:08:03.40,0:08:06.17,0$Default,,0,0,0,,He was so caught up\Nin watching his horses...
+Dialogue: 0,0:08:06.17,0:08:07.32,0$Default,,0,0,0,,Look!
+Dialogue: 0,0:08:07.32,0:08:09.49,0$Default,,0,0,0,,What a beautiful horse!\NCould it be?
+Dialogue: 0,0:08:09.49,0:08:10.68,0$Default,,0,0,0,,Mangolas Si?
+Dialogue: 0,0:08:10.68,0:08:13.56,0$Default,,0,0,0,,Mr. Mallow, turn around!\NLook behind you!
+Dialogue: 0,0:08:13.56,0:08:14.72,0$Default,,0,0,0,,Horse?!
+Dialogue: 0,0:08:14.72,0:08:17.48,0$Default,,0,0,0,,I'm talking here!
+Dialogue: 0,0:08:21.31,0:08:27.28,0$Default,,0,0,0,,The beautiful sight of those galloping horses\Nmade me deaf to the sounds around me.
+Dialogue: 0,0:08:27.78,0:08:29.26,0$Default,,0,0,0,,It's running away!
+Dialogue: 0,0:08:29.26,0:08:30.47,0$Default,,0,0,0,,What's the plan, Chup?
+Dialogue: 0,0:08:30.47,0:08:32.60,0$Default,,0,0,0,,We can't pass up this opportunity!
+Dialogue: 0,0:08:32.60,0:08:33.62,0$Default,,0,0,0,,Let's catch it!
+Dialogue: 0,0:08:35.12,0:08:36.41,0$Default,,0,0,0,,Get back here!
+Dialogue: 0,0:08:39.13,0:08:40.62,0$Default,,0,0,0,,So fast!
+Dialogue: 0,0:08:39.13,0:08:40.62,0$Default,,0,0,0,,{\an8}Horse!!
+Dialogue: 0,0:08:40.95,0:08:44.05,0$Default,,0,0,0,,I'm talking here!!
+Dialogue: 0,0:08:47.93,0:08:49.13,0$Default,,0,0,0,,This is hopeless.
+Dialogue: 0,0:08:54.69,0:08:58.48,0$Default,,0,0,0,,This is awful. We couldn't even\Ncapture Mangolas Si.
+Dialogue: 0,0:08:58.85,0:09:02.42,0$Default,,0,0,0,,Next time we go,\Nwe'll separate from Mr. Mallow.
+Dialogue: 0,0:09:02.42,0:09:04.94,0$Default,,0,0,0,,Since he talks too much\Nand gets mad if we interrupt.
+Dialogue: 0,0:09:05.90,0:09:10.44,0$Default,,0,0,0,,Mangolas Si is sensitive to noise\Nand quick on its feet.
+Dialogue: 0,0:09:10.44,0:09:12.59,0$Default,,0,0,0,,It'll be a lot more tricky than I thought.
+Dialogue: 0,0:09:12.59,0:09:15.33,0$Default,,0,0,0,,How about we have Butako\Nchase it as a dragon?
+Dialogue: 0,0:09:17.33,0:09:19.52,0$Default,,0,0,0,,You won't have much space\Nto fly around.
+Dialogue: 0,0:09:20.77,0:09:23.27,0$Default,,0,0,0,,We'll just have to place a trap.
+Dialogue: 0,0:09:23.27,0:09:24.36,0$Default,,0,0,0,,What kind?
+Dialogue: 0,0:09:24.36,0:09:25.94,0$Default,,0,0,0,,We'll lay out its favorite food,
+Dialogue: 0,0:09:25.94,0:09:28.96,0$Default,,0,0,0,,then catch it with a net\Nwhen it takes the bait.
+Dialogue: 0,0:09:28.96,0:09:31.22,0$Default,,0,0,0,,What could its favorite food be?
+Dialogue: 0,0:09:31.22,0:09:32.47,0$Default,,0,0,0,,Should we ask Mr. Mallow??
+Dialogue: 0,0:09:33.35,0:09:37.47,0$Default,,0,0,0,,Don't! That's just asking for\Nhours of storytelling!
+Dialogue: 0,0:09:38.68,0:09:40.04,0$Default,,0,0,0,,Oh! Guys, check this out.
+Dialogue: 0,0:09:40.04,0:09:43.48,0$Default,,0,0,0,,I found a blog studying\Neverything about Mangolas Si.
+Dialogue: 0,0:09:43.48,0:09:45.75,0$Default,,0,0,0,,Now that's a good find!
+Dialogue: 0,0:09:45.75,0:09:48.78,0$Default,,0,0,0,,It even has info on Mangolas Si's favorite food!
+Dialogue: 0,0:09:48.78,0:09:50.47,0$Default,,0,0,0,,It does?
+Dialogue: 0,0:09:50.47,0:09:54.49,0$Default,,0,0,0,,"I've planted many a food\Nin the attempt to lure in Mangolas Si,
+Dialogue: 0,0:09:54.49,0:09:57.76,0$Default,,0,0,0,,"but it has paid little heed."
+Dialogue: 0,0:09:57.76,0:10:02.25,0$Default,,0,0,0,,"The only thing it would eat is a dish\Nfrom a three-star Durian restaurant:
+Dialogue: 0,0:10:02.25,0:10:04.00,0$Default,,0,0,0,,"shrimp mousse with caviar."
+Dialogue: 0,0:10:04.00,0:10:07.34,0$Default,,0,0,0,,Huh? Why would you give a horse\Nsuch a classy dish?
+Dialogue: 0,0:10:07.84,0:10:13.45,0$Default,,0,0,0,,"However, it never showed any interest in it\Nthe next few times I planted that dish."
+Dialogue: 0,0:10:13.45,0:10:18.81,0$Default,,0,0,0,,"Perhaps there is no effective bait\Nfor luring in Mangolas Si after all."
+Dialogue: 0,0:10:18.81,0:10:20.91,0$Default,,0,0,0,,Oh, come on! Are you kidding me?
+Dialogue: 0,0:10:20.91,0:10:21.68,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:10:22.23,0:10:24.98,0$Default,,0,0,0,,A legendary horse\Nneeds a legendary dish!
+Dialogue: 0,0:10:24.98,0:10:26.27,0$Default,,0,0,0,,I'll summon Warpman!
+Dialogue: 0,0:10:27.65,0:10:29.78,0$Default,,0,0,0,,A legendary dish, eh?
+Dialogue: 0,0:10:29.78,0:10:32.55,0$Default,,0,0,0,,Yeah. Couldn't find anything online.
+Dialogue: 0,0:10:32.55,0:10:33.74,0$Default,,0,0,0,,Got anything for me?
+Dialogue: 0,0:10:33.74,0:10:38.11,0$Default,,0,0,0,,Did you come all the way back from Durian\Njust to ask us that?
+Dialogue: 0,0:10:38.11,0:10:40.56,0$Default,,0,0,0,,It wasn't a big trip.\NWe have Warpman!
+Dialogue: 0,0:10:40.56,0:10:41.60,0$Default,,0,0,0,,Warpman?
+Dialogue: 0,0:10:41.60,0:10:43.73,0$Default,,0,0,0,,I told you to stop calling me that.
+Dialogue: 0,0:10:43.73,0:10:45.50,0$Default,,0,0,0,,At least call me {\i1}Lord{\i0} Warpman!
+Dialogue: 0,0:10:45.50,0:10:48.07,0$Default,,0,0,0,,"Lord Warpman" doesn't sound as fun.
+Dialogue: 0,0:10:48.07,0:10:50.61,0$Default,,0,0,0,,Oh! How about Warp Geezer?
+Dialogue: 0,0:10:50.61,0:10:54.82,0$Default,,0,0,0,,Show some respect!\NYou've been treating me awfully lately.
+Dialogue: 0,0:10:54.82,0:10:55.72,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:10:55.72,0:10:58.87,0$Default,,0,0,0,,Darefalcon's way, way older than us, you know!
+Dialogue: 0,0:10:58.87,0:11:00.41,0$Default,,0,0,0,,Call him Warp Grandpa!
+Dialogue: 0,0:11:00.41,0:11:02.12,0$Default,,0,0,0,,How about just "Warp-pa?"
+Dialogue: 0,0:11:02.12,0:11:03.77,0$Default,,0,0,0,,Now you're just insulting me!
+Dialogue: 0,0:11:03.77,0:11:07.98,0$Default,,0,0,0,,I'll look up legendary dishes\Non myself.
+Dialogue: 0,0:11:07.98,0:11:10.57,0$Default,,0,0,0,,With my searching capabilities,\Nit shouldn't take too long to...
+Dialogue: 0,0:11:10.57,0:11:11.67,0$Default,,0,0,0,,I got a hit.
+Dialogue: 0,0:11:11.67,0:11:14.01,0$Default,,0,0,0,,There's only one dish\Nthat can be called legendary.
+Dialogue: 0,0:11:14.01,0:11:16.16,0$Default,,0,0,0,,And that legendary dish is...
+Dialogue: 0,0:11:16.16,0:11:17.99,0$Default,,0,0,0,,the Jiggly Omelette!
+Dialogue: 0,0:11:17.99,0:11:19.99,0$Default,,0,0,0,,The Jiggly Omelette?!
+Dialogue: 0,0:11:20.20,0:11:23.89,0$Default,,0,0,0,,According to the description,\Nit uses 37% half-cooked eggs.
+Dialogue: 0,0:11:23.89,0:11:27.71,0$Default,,0,0,0,,This simple yet enriching flavor\Ncan leave anybody speechless.
+Dialogue: 0,0:11:27.71,0:11:29.59,0$Default,,0,0,0,,It's truly a legendary dish.
+Dialogue: 0,0:11:29.99,0:11:32.40,0$Default,,0,0,0,,What are the ingredients?
+Dialogue: 0,0:11:32.40,0:11:35.84,0$Default,,0,0,0,,Legendary rock salt picked near\Nthe peak of the Macaro Mountains,
+Dialogue: 0,0:11:36.39,0:11:40.91,0$Default,,0,0,0,,legendary purple martin eggs\Nnested in the Roast Beef Mines...
+Dialogue: 0,0:11:40.91,0:11:44.85,0$Default,,0,0,0,,I had a feeling the ingredients\Nwould be hard to get.
+Dialogue: 0,0:11:45.25,0:11:48.53,0$Default,,0,0,0,,And finally, cooking oil,\Nwhich they sell at Hero Mart.
+Dialogue: 0,0:11:48.53,0:11:51.11,0$Default,,0,0,0,,Of course the oil is just nearby.
+Dialogue: 0,0:11:51.11,0:11:54.84,0$Default,,0,0,0,,It might take us a long time\Nto procure all of these.
+Dialogue: 0,0:11:54.84,0:11:55.99,0$Default,,0,0,0,,Forget about it!
+Dialogue: 0,0:11:56.38,0:11:58.86,0$Default,,0,0,0,,That's what we have Warp-pa for!
+Dialogue: 0,0:11:59.37,0:12:02.12,0$Default,,0,0,0,,Don't settle on {\i1}that{\i0} nickname!
+Dialogue: 0,0:12:02.12,0:12:04.14,0$Default,,0,0,0,,Here's the list!
+Dialogue: 0,0:12:04.14,0:12:06.62,0$Default,,0,0,0,,What do you mean "here's the list?"\NAre you not coming?
+Dialogue: 1,0:12:06.62,0:12:09.92,0$Default,,0,0,0,,It's just a quick grocery trip.\NYou can handle it alone.
+Dialogue: 0,0:12:09.92,0:12:11.52,0$Default,,0,0,0,,Here's the money.
+Dialogue: 0,0:12:11.52,0:12:13.86,0$Default,,0,0,0,,If you do a good job,\NI'll let you keep some.
+Dialogue: 0,0:12:13.86,0:12:14.96,0$Default,,0,0,0,,Really?
+Dialogue: 0,0:12:15.33,0:12:17.69,0$Default,,0,0,0,,They're still taking advantage of him.
+Dialogue: 0,0:12:18.51,0:12:19.93,0$Default,,0,0,0,,I've procured everything.
+Dialogue: 0,0:12:19.93,0:12:21.18,0$Default,,0,0,0,,That was fast!
+Dialogue: 0,0:12:21.18,0:12:23.20,0$Default,,0,0,0,,It wasn't without its toils!
+Dialogue: 0,0:12:23.20,0:12:26.85,0$Default,,0,0,0,,I've only been around three quarters\Nof the way up Macaro Mountain.
+Dialogue: 0,0:12:27.18,0:12:29.23,0$Default,,0,0,0,,In order to get the rock salt\Nfrom the top,
+Dialogue: 0,0:12:29.23,0:12:31.90,0$Default,,0,0,0,,I had to trek the rest on foot.
+Dialogue: 0,0:12:31.90,0:12:34.86,0$Default,,0,0,0,,Purple martins only nest\Non the cliffs of the Roast Beef Mines,
+Dialogue: 0,0:12:34.86,0:12:37.99,0$Default,,0,0,0,,so I had to risk my life\Nclimbing to the top.
+Dialogue: 0,0:12:37.99,0:12:41.14,0$Default,,0,0,0,,And the cooking oil at Hero Mart\Nwas on the verge of selling out,
+Dialogue: 0,0:12:41.14,0:12:44.49,0$Default,,0,0,0,,and someone else almost beat me\Nto the last one...
+Dialogue: 0,0:12:44.49,0:12:46.79,0$Default,,0,0,0,,but I managed to get ahold of it.
+Dialogue: 0,0:12:48.25,0:12:50.12,0$Default,,0,0,0,,That was easy!
+Dialogue: 0,0:12:50.12,0:12:52.04,0$Default,,0,0,0,,Listen to me when I'm speaking!
+Dialogue: 0,0:12:52.04,0:12:54.84,0$Default,,0,0,0,,Now we can make\Nthat Jiggly Omelette!
+Dialogue: 0,0:12:54.84,0:12:57.69,0$Default,,0,0,0,,Chup, did you read\Nthe instructions on this?
+Dialogue: 0,0:12:57.69,0:12:59.68,0$Default,,0,0,0,,It only gets more complicated.
+Dialogue: 0,0:12:59.68,0:13:00.26,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:00.59,0:13:03.78,0$Default,,0,0,0,,"How to Make the Jiggly Omelette: Leg 1."
+Dialogue: 0,0:13:03.78,0:13:07.29,0$Default,,0,0,0,,"Head to a cliff with\Nthe purple martin egg in hand."
+Dialogue: 0,0:13:07.29,0:13:08.68,0$Default,,0,0,0,,Why a cliff?
+Dialogue: 0,0:13:08.68,0:13:11.69,0$Default,,0,0,0,,"Tie a long piece of rubber around your foot."
+Dialogue: 0,0:13:11.69,0:13:13.38,0$Default,,0,0,0,,"Then jump."
+Dialogue: 0,0:13:14.57,0:13:18.07,0$Default,,0,0,0,,"Then, once you've nearly bungee jumped\Ndown to the bottom,
+Dialogue: 0,0:13:18.07,0:13:20.07,0$Default,,0,0,0,,"hit the egg on the ground."
+Dialogue: 0,0:13:20.41,0:13:22.70,0$Default,,0,0,0,,His face hit the ground first!
+Dialogue: 0,0:13:23.70,0:13:28.14,0$Default,,0,0,0,,"Then use that crack\Nto pour the egg into the bowl."
+Dialogue: 0,0:13:28.14,0:13:29.96,0$Default,,0,0,0,,It hurts...
+Dialogue: 0,0:13:29.96,0:13:32.52,0$Default,,0,0,0,,I think he might have cracked his skull too.
+Dialogue: 0,0:13:32.52,0:13:34.98,0$Default,,0,0,0,,What was even the point\Nof jumping down like that?
+Dialogue: 0,0:13:34.98,0:13:37.88,0$Default,,0,0,0,,"This makes the dish\Nfeel even more legendary."
+Dialogue: 0,0:13:37.88,0:13:39.47,0$Default,,0,0,0,,That's just ridiculous.
+Dialogue: 0,0:13:39.93,0:13:41.40,0$Default,,0,0,0,,"Leg 2."
+Dialogue: 0,0:13:41.40,0:13:44.45,0$Default,,0,0,0,,"Once you've made a good crack\Nand poured the egg into the bowl,"
+Dialogue: 0,0:13:44.45,0:13:46.41,0$Default,,0,0,0,,"add the rock salt."
+Dialogue: 0,0:13:46.41,0:13:47.62,0$Default,,0,0,0,,How much?
+Dialogue: 0,0:13:47.62,0:13:49.02,0$Default,,0,0,0,,"However much you want."
+Dialogue: 0,0:13:49.02,0:13:51.14,0$Default,,0,0,0,,Oh, so now they're letting {\i1}us{\i0} call the shots?
+Dialogue: 0,0:13:53.65,0:13:56.65,0$Default,,0,0,0,,"Then do 100 squats in place."
+Dialogue: 0,0:13:56.98,0:13:59.46,0$Default,,0,0,0,,Like the leg exercise?
+Dialogue: 0,0:13:59.46,0:14:00.97,0$Default,,0,0,0,,How does that help us cook?
+Dialogue: 0,0:14:00.97,0:14:02.49,0$Default,,0,0,0,,I don't know, but that's what it says.
+Dialogue: 0,0:14:02.49,0:14:04.32,0$Default,,0,0,0,,It's for the dish!
+Dialogue: 0,0:14:04.32,0:14:06.43,0$Default,,0,0,0,,1, 2, 3, 4...
+Dialogue: 0,0:14:06.43,0:14:09.68,0$Default,,0,0,0,,98, 99, 100...
+Dialogue: 0,0:14:09.68,0:14:11.71,0$Default,,0,0,0,,I'm beat.
+Dialogue: 0,0:14:11.71,0:14:15.21,0$Default,,0,0,0,,"This should wear out your leg muscles\Nand make them start jiggling."
+Dialogue: 0,0:14:15.61,0:14:20.11,0$Default,,0,0,0,,"Batter the eggs in the bowl\Nto that vibration."
+Dialogue: 0,0:14:20.11,0:14:22.17,0$Default,,0,0,0,,I can't mix it at all like this!
+Dialogue: 0,0:14:22.17,0:14:24.41,0$Default,,0,0,0,,"Repeat the squats as many times\Nas you have to
+Dialogue: 0,0:14:24.41,0:14:26.85,0$Default,,0,0,0,,"until the yolk and white are completely mixed."
+Dialogue: 0,0:14:27.77,0:14:30.52,0$Default,,0,0,0,,This will make the omelette\Neven more jiggly.
+Dialogue: 0,0:14:30.52,0:14:31.77,0$Default,,0,0,0,,For the legend!
+Dialogue: 0,0:14:38.27,0:14:39.57,0$Default,,0,0,0,,I did it!
+Dialogue: 0,0:14:39.57,0:14:41.44,0$Default,,0,0,0,,My muscles are giving out...
+Dialogue: 0,0:14:41.44,0:14:43.53,0$Default,,0,0,0,,I'll take over.
+Dialogue: 0,0:14:43.53,0:14:44.53,0$Default,,0,0,0,,What's next?
+Dialogue: 0,0:14:44.53,0:14:47.62,0$Default,,0,0,0,,"Leg 3: Once the yolk\Nand white have been mixed,
+Dialogue: 0,0:14:47.62,0:14:50.41,0$Default,,0,0,0,,"pour cooking oil in a frying pan."
+Dialogue: 0,0:14:50.41,0:14:53.00,0$Default,,0,0,0,,"Then pour the mixed egg in..."
+Dialogue: 0,0:14:53.00,0:14:55.35,0$Default,,0,0,0,,We're finally getting to the cooking!
+Dialogue: 0,0:14:55.35,0:14:58.13,0$Default,,0,0,0,,"...then scrape the pan\Nagainst the nearest rock."
+Dialogue: 0,0:14:58.13,0:14:58.50,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:58.50,0:15:00.90,0$Default,,0,0,0,,Scrape it? Like this?
+Dialogue: 0,0:15:00.90,0:15:04.70,0$Default,,0,0,0,,"The heat generated from the friction\Nwill cook the eggs."
+Dialogue: 0,0:15:04.70,0:15:05.22,0$Default,,0,0,0,,What?
+Dialogue: 0,0:15:05.22,0:15:06.70,0$Default,,0,0,0,,Is that even possible?
+Dialogue: 0,0:15:06.70,0:15:09.89,0$Default,,0,0,0,,"This will make it profoundly legendary\N{\i1}and{\i0} jiggly."
+Dialogue: 0,0:15:09.89,0:15:12.00,0$Default,,0,0,0,,This recipe is fishy!
+Dialogue: 0,0:15:12.00,0:15:13.77,0$Default,,0,0,0,,The friction! That makes sense.
+Dialogue: 0,0:15:13.77,0:15:15.17,0$Default,,0,0,0,,Here I go!
+Dialogue: 0,0:15:27.87,0:15:29.87,0$Default,,0,0,0,,M-My arm's giving out!
+Dialogue: 0,0:15:31.16,0:15:32.95,0$Default,,0,0,0,,Well, certainly looks hot.
+Dialogue: 0,0:15:32.95,0:15:34.39,0$Default,,0,0,0,,Good job!
+Dialogue: 0,0:15:34.39,0:15:37.46,0$Default,,0,0,0,,We've finished the legendary dish,\Nthe Jiggly Omelette!
+Dialogue: 0,0:15:37.80,0:15:40.11,0$Default,,0,0,0,,It doesn't look all that good...
+Dialogue: 0,0:15:40.11,0:15:42.00,0$Default,,0,0,0,,Wanna taste test, Gob-san?
+Dialogue: 0,0:15:42.00,0:15:43.69,0$Default,,0,0,0,,Why do {\i1}I{\i0} have to?
+Dialogue: 0,0:15:43.69,0:15:45.61,0$Default,,0,0,0,,You look like you could take any food.
+Dialogue: 0,0:15:45.61,0:15:48.69,0$Default,,0,0,0,,What's that supposed to...\NAh, forget it.
+Dialogue: 0,0:15:58.94,0:16:01.44,0$Default,,0,0,0,,It's great! This is fantastic!
+Dialogue: 0,0:16:01.44,0:16:02.94,0$Default,,0,0,0,,Wow, really?
+Dialogue: 0,0:16:02.94,0:16:04.16,0$Default,,0,0,0,,I gotta try.
+Dialogue: 0,0:16:05.62,0:16:09.20,0$Default,,0,0,0,,He's right! This jiggly-ness is perfect!
+Dialogue: 0,0:16:09.20,0:16:10.82,0$Default,,0,0,0,,Really? I want some!
+Dialogue: 0,0:16:10.82,0:16:11.95,0$Default,,0,0,0,,Me too!
+Dialogue: 0,0:16:11.95,0:16:13.72,0$Default,,0,0,0,,Mmm, this is so good!
+Dialogue: 0,0:16:13.72,0:16:15.20,0$Default,,0,0,0,,Much better than you'd expect!
+Dialogue: 0,0:16:15.20,0:16:16.69,0$Default,,0,0,0,,Nothing wrong with taste-testing,
+Dialogue: 0,0:16:16.69,0:16:18.96,0$Default,,0,0,0,,but make sure to save some\Nfor Mangolas Si.
+Dialogue: 0,0:16:19.88,0:16:21.34,0$Default,,0,0,0,,No way!!
+Dialogue: 0,0:16:21.34,0:16:22.52,0$Default,,0,0,0,,We got ahead of ourselves.
+Dialogue: 0,0:16:22.52,0:16:23.71,0$Default,,0,0,0,,Do we have to make it over?
+Dialogue: 0,0:16:25.51,0:16:26.72,0$Default,,0,0,0,,Warp-pa!
+Dialogue: 0,0:16:27.51,0:16:29.24,0$Default,,0,0,0,,We're still good on cooking oil,
+Dialogue: 0,0:16:29.24,0:16:32.12,0$Default,,0,0,0,,so we just need the rock salt\Nand the purple martin egg.
+Dialogue: 0,0:16:32.12,0:16:33.47,0$Default,,0,0,0,,Here, a special tip for you.
+Dialogue: 0,0:16:43.82,0:16:45.78,0$Default,,0,0,0,,Our trap is perfect!
+Dialogue: 0,0:16:46.49,0:16:48.63,0$Default,,0,0,0,,Once Mangolas Si\Ngoes in for the omelette,
+Dialogue: 0,0:16:48.63,0:16:52.51,0$Default,,0,0,0,,we'll drop a net down from above\Nto keep it from moving!
+Dialogue: 0,0:16:52.51,0:16:54.47,0$Default,,0,0,0,,Nice one, Gob-san.\NVery underhanded.
+Dialogue: 0,0:16:54.47,0:16:58.64,0$Default,,0,0,0,,I have my doubts it'd be drawn\Nto such a bad-looking omelette, though.
+Dialogue: 0,0:16:58.64,0:17:01.38,0$Default,,0,0,0,,Don't worry! Believe in the legend!
+Dialogue: 0,0:17:02.42,0:17:03.15,0$Default,,0,0,0,,Listen!
+Dialogue: 0,0:17:03.15,0:17:04.96,0$Default,,0,0,0,,Everyone stay quiet! Hide!
+Dialogue: 0,0:17:06.34,0:17:09.05,0$Default,,0,0,0,,It's close. Almost there...
+Dialogue: 0,0:17:11.97,0:17:13.93,0$Default,,0,0,0,,Huh?! Dullahan?
+Dialogue: 0,0:17:13.93,0:17:14.56,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:17:18.56,0:17:20.77,0$Default,,0,0,0,,Man, he ruined our trap!
+Dialogue: 0,0:17:23.77,0:17:25.71,0$Default,,0,0,0,,Is he still after me?!
+Dialogue: 0,0:17:25.71,0:17:29.74,0$Default,,0,0,0,,Actually, it seems like he had his eyes\Non that Jiggly Omelette.
+Dialogue: 0,0:17:29.74,0:17:32.11,0$Default,,0,0,0,,How's he supposed to eat\Nwithout a face?
+Dialogue: 0,0:17:32.11,0:17:33.14,0$Default,,0,0,0,,Let's get it back!
+Dialogue: 0,0:17:33.14,0:17:35.89,0$Default,,0,0,0,,I'm {\i1}not{\i0} making this omelette\Nover again!
+Dialogue: 0,0:17:35.89,0:17:36.91,0$Default,,0,0,0,,Vinsant!
+Dialogue: 0,0:17:36.91,0:17:37.77,0$Default,,0,0,0,,Right!
+Dialogue: 0,0:17:37.77,0:17:38.91,0$Default,,0,0,0,,Over here, Dullahan!
+Dialogue: 0,0:17:40.54,0:17:44.54,0$Default,,0,0,0,,You've been a real thorn in our sides!\NYou're going down here and now!
+Dialogue: 0,0:17:45.29,0:17:46.75,0$Default,,0,0,0,,Paccarat Titan Sword!
+Dialogue: 0,0:17:46.75,0:17:48.55,0$Default,,0,0,0,,Paccarat Titan Shield!
+Dialogue: 0,0:17:51.72,0:17:54.34,0$Default,,0,0,0,,{\i1}Pa-Pa-Palapa, Paccarat Lapa!
+Dialogue: 0,0:17:54.85,0:17:56.56,0$Default,,0,0,0,,{\i1}Paccarat Titan Sword.\NB-Type.
+Dialogue: 0,0:17:57.81,0:17:59.56,0$Default,,0,0,0,,{\i1}Paccarat Titan Shield.\NB-Type.
+Dialogue: 0,0:18:02.14,0:18:04.52,0$Default,,0,0,0,,My legs won't work\Nbecause of all those squats!
+Dialogue: 0,0:18:04.52,0:18:05.56,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:18:05.77,0:18:06.90,0$Default,,0,0,0,,You're not alone.
+Dialogue: 0,0:18:06.90,0:18:09.61,0$Default,,0,0,0,,My arms don't work\Nfrom scraping that frying pan...
+Dialogue: 0,0:18:09.61,0:18:12.86,0$Default,,0,0,0,,What?! Now we're in a crisis\Nall because of that Jiggly Omelette!
+Dialogue: 0,0:18:16.85,0:18:18.41,0$Default,,0,0,0,,I got the omelette!
+Dialogue: 0,0:18:18.41,0:18:20.22,0$Default,,0,0,0,,Let's retreat for now!
+Dialogue: 0,0:18:21.77,0:18:23.42,0$Default,,0,0,0,,Shoot! Pass!
+Dialogue: 0,0:18:23.92,0:18:25.92,0$Default,,0,0,0,,I got it! Yeah!
+Dialogue: 0,0:18:27.17,0:18:29.21,0$Default,,0,0,0,,D-Don't come near me!
+Dialogue: 0,0:18:30.59,0:18:31.59,0$Default,,0,0,0,,P-Pass!
+Dialogue: 0,0:18:32.76,0:18:35.64,0$Default,,0,0,0,,Aah, no! Too scary! Pass!
+Dialogue: 0,0:18:35.64,0:18:38.89,0$Default,,0,0,0,,Whaaat?! I gotta pass it!\NAnyone?
+Dialogue: 0,0:18:40.60,0:18:41.60,0$Default,,0,0,0,,No!!
+Dialogue: 0,0:18:41.91,0:18:42.89,0$Default,,0,0,0,,Come {\i1}on!
+Dialogue: 0,0:18:44.11,0:18:45.60,0$Default,,0,0,0,,Help me, Chup!
+Dialogue: 0,0:18:45.60,0:18:47.79,0$Default,,0,0,0,,I told you, I can't move my legs!
+Dialogue: 0,0:18:47.79,0:18:49.11,0$Default,,0,0,0,,Chup, look!
+Dialogue: 0,0:18:49.11,0:18:50.36,0$Default,,0,0,0,,Where? Aah!
+Dialogue: 0,0:18:50.36,0:18:52.19,0$Default,,0,0,0,,It's Mangolas Si!
+Dialogue: 0,0:18:52.19,0:18:55.80,0$Default,,0,0,0,,Yeah! It must've followed the scent\Nof the legendary dish!
+Dialogue: 0,0:18:55.80,0:18:57.93,0$Default,,0,0,0,,Forget that, save me!!
+Dialogue: 0,0:18:57.93,0:19:01.60,0$Default,,0,0,0,,I know! Pepperon, throw me at Mangolas Si!
+Dialogue: 0,0:19:01.60,0:19:02.58,0$Default,,0,0,0,,What do you mean by that?
+Dialogue: 0,0:19:02.58,0:19:04.08,0$Default,,0,0,0,,Doesn't matter, just do it!
+Dialogue: 0,0:19:04.08,0:19:05.87,0$Default,,0,0,0,,You got it!
+Dialogue: 0,0:19:10.47,0:19:11.99,0$Default,,0,0,0,,Now I can fight!
+Dialogue: 0,0:19:13.34,0:19:16.61,0$Default,,0,0,0,,Look at you go, Chup!\NRiding a legendary horse!
+Dialogue: 0,0:19:16.61,0:19:18.05,0$Default,,0,0,0,,Does that matter?!
+Dialogue: 0,0:19:18.05,0:19:20.35,0$Default,,0,0,0,,It's over!
+Dialogue: 0,0:19:20.35,0:19:22.85,0$Default,,0,0,0,,Dullahan! Come and face me!
+Dialogue: 0,0:19:24.06,0:19:26.02,0$Default,,0,0,0,,Let's go!
+Dialogue: 0,0:19:26.90,0:19:31.15,0$Default,,0,0,0,,"I'm a Knight on a Steed,\Nand I'm Gonna Make You Plead" Slash!
+Dialogue: 0,0:19:34.53,0:19:35.36,0$Default,,0,0,0,,Huh?!
+Dialogue: 0,0:19:35.36,0:19:37.41,0$Default,,0,0,0,,Where are you going?!
+Dialogue: 0,0:19:37.41,0:19:40.25,0$Default,,0,0,0,,Mangolas Si's running for it!
+Dialogue: 0,0:19:40.91,0:19:42.91,0$Default,,0,0,0,,Hey, listen to me!
+Dialogue: 0,0:19:42.91,0:19:45.41,0$Default,,0,0,0,,He wasn't taming it at all!
+Dialogue: 0,0:19:45.75,0:19:46.83,0$Default,,0,0,0,,I know!
+Dialogue: 0,0:19:46.83,0:19:50.17,0$Default,,0,0,0,,Chup! Summon Darefalcon\Nwith your Fairypon!
+Dialogue: 0,0:19:50.17,0:19:51.17,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:19:52.58,0:19:56.82,0$Default,,0,0,0,,We'll warp with Mangolas Si\Nto Mr. Mallow!
+Dialogue: 0,0:19:56.82,0:19:59.26,0$Default,,0,0,0,,That'll mean we've captured it!
+Dialogue: 0,0:19:59.26,0:20:00.89,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:20:02.97,0:20:04.68,0$Default,,0,0,0,,Darefalcon!
+Dialogue: 0,0:20:13.53,0:20:14.71,0$Default,,0,0,0,,Wh-What is the matter?
+Dialogue: 0,0:20:14.71,0:20:15.94,0$Default,,0,0,0,,Dragon Warp us!
+Dialogue: 0,0:20:16.86,0:20:18.24,0$Default,,0,0,0,,Make it quick!
+Dialogue: 0,0:20:18.49,0:20:21.66,0$Default,,0,0,0,,Take all of us to Mr. Mallow's office!
+Dialogue: 0,0:20:21.66,0:20:24.33,0$Default,,0,0,0,,What am I to you people?
+Dialogue: 0,0:20:24.87,0:20:26.96,0$Default,,0,0,0,,Dragon Warp!
+Dialogue: 0,0:20:30.29,0:20:32.29,0$Default,,0,0,0,,Wh-What in the world?!
+Dialogue: 0,0:20:32.29,0:20:35.59,0$Default,,0,0,0,,Mr. Mallow,\Nwe've captured Mangolas Si!
+Dialogue: 0,0:20:35.59,0:20:38.84,0$Default,,0,0,0,,Horse! That really is Mangolas Si!
+Dialogue: 0,0:20:38.84,0:20:41.70,0$Default,,0,0,0,,So will you help us build\Nthe Great Airship?
+Dialogue: 0,0:20:41.70,0:20:43.43,0$Default,,0,0,0,,Absolutely!
+Dialogue: 0,0:20:43.43,0:20:44.62,0$Default,,0,0,0,,Hooray!
+Dialogue: 0,0:20:44.62,0:20:46.16,0$Default,,0,0,0,,How wonderful.
+Dialogue: 0,0:20:46.16,0:20:49.96,0$Default,,0,0,0,,Not only have you brought me Mangolas Si,\Nbut a second horse as well!
+Dialogue: 0,0:20:49.96,0:20:51.56,0$Default,,0,0,0,,A second one?
+Dialogue: 0,0:20:52.61,0:20:53.62,0$Default,,0,0,0,,Wait, what?
+Dialogue: 0,0:22:32.87,0:22:34.71,0$Default,,0,0,0,,Why is Dullahan here?!
+Dialogue: 0,0:22:34.71,0:22:37.39,0$Default,,0,0,0,,You told me to bring {\i1}all{\i0} of you here.
+Dialogue: 0,0:22:38.72,0:22:41.84,0$Default,,0,0,0,,You're so useless, Warp-pa!
+Dialogue: 0,0:22:45.35,0:22:46.28,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.28,0:22:48.35,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.35,0:22:50.62,0$Default,,0,0,0,,{\an8}Today's lesson is on Dragon Warp.
+Dialogue: 0,0:22:50.62,0:22:55.90,0$Default,,0,0,0,,{\an8}Dragon Warp is a power used by\NDarefalcon... I mean, Warp-pa.
+Dialogue: 0,0:22:55.90,0:22:58.54,0$Default,,0,0,0,,{\an8}It can take us from place to place\Nin an instant! It's real handy!
+Dialogue: 0,0:22:58.54,0:23:01.74,0$Default,,0,0,0,,{\an8}If it's called "Dragon Warp,"\Nwhat's Dragon-y about it?
+Dialogue: 0,0:23:01.74,0:23:05.49,0$Default,,0,0,0,,{\an8}Huh? I don't know,\NI guess just 'cuz he's a Holy Dragon?
+Dialogue: 0,0:23:05.49,0:23:08.88,0$Default,,0,0,0,,{\an8}We've only seen him as a dragon\Nonce, though...
+Dialogue: 0,0:23:10.95,0:23:13.48,0$Default,,0,0,0,,We head to Fairy Electronics,\Nhidden deep in the woods!
+Dialogue: 0,0:23:13.48,0:23:15.12,0$Default,,0,0,0,,What awaits us when we step in?
+Dialogue: 0,0:23:15.12,0:23:17.38,0$Default,,0,0,0,,Hot dang! I've never seen\Nthis weapon before!
+Dialogue: 0,0:23:17.38,0:23:18.63,0$Default,,0,0,0,,I want it so bad!
+Dialogue: 0,0:23:18.63,0:23:21.61,0$Default,,0,0,0,,Next time:\N"A New Item from Fairy Electronics!"
+Dialogue: 0,0:23:21.61,0:23:24.40,0$Default,,0,0,0,,Alright, time for a big adventure!
+Comment: 0,0:01:01.50,0:01:04.79,0$Default,,0,0,0,,Episode Title
+Dialogue: 2,0:01:01.50,0:01:04.79,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord0\shad0.01\frz7.885\fsp-34.50}E{\frz7.496\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.572\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.520\fsp-28.55} {\frz5.198\fsp-37.72}4{\frz4.773\fsp-28.03}2{\frz4.457\fsp-18.87}:{\frz4.244\fsp-27.48} {\frz3.934\fsp-34.50}P{\frz3.545\fsp-32.90}a{\frz3.174\fsp-32.38}c{\frz2.809\fsp-32.90}c{\frz2.438\fsp-30.74}a{\frz2.092\fsp-30.74}r{\frz1.745\fsp-29.11}a{\frz1.417\fsp-22.09}t{\frz1.167\fsp-26.41} {\frz0.870\fsp-33.42}L{\frz0.493\fsp-33.42}a{\frz0.116\fsp-33.42}p{\frz359.739\fsp-22.65}a{\frz359.484\fsp-21.57}'{\frz359.240\fsp-25.33}s{\frz358.955\fsp-26.95} {\frz358.651\fsp-35.05}F{\frz358.256\fsp-34.50}o{\frz357.867\fsp-24.80}a{\frz357.587\fsp-18.87}l{\frz357.374\fsp-18.87}-{\frz357.161\fsp-24.28}i{\frz356.888\fsp-24.28}c{\frz356.614\fsp-25.88}i{\frz356.322\fsp-34.50}o{\frz355.933\fsp-32.34}u{\frz355.568\fsp-25.33}s{\frz355.283\fsp-38.28} {\frz354.851\fsp-36.68}M{\frz354.437\fsp-23.73}i{\frz354.170\fsp-31.27}s{\frz353.817\fsp-23.73}s{\frz353.550\fsp-25.88}i{\frz353.258\fsp-34.50}o{\frz352.869\fsp-24.80}n{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Dialogue: 1,0:01:01.50,0:01:04.79,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz7.885\fsp-34.50}E{\frz7.496\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.572\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.520\fsp-28.55} {\frz5.198\fsp-37.72}4{\frz4.773\fsp-28.03}2{\frz4.457\fsp-18.87}:{\frz4.244\fsp-27.48} {\frz3.934\fsp-34.50}P{\frz3.545\fsp-32.90}a{\frz3.174\fsp-32.38}c{\frz2.809\fsp-32.90}c{\frz2.438\fsp-30.74}a{\frz2.092\fsp-30.74}r{\frz1.745\fsp-29.11}a{\frz1.417\fsp-22.09}t{\frz1.167\fsp-26.41} {\frz0.870\fsp-33.42}L{\frz0.493\fsp-33.42}a{\frz0.116\fsp-33.42}p{\frz359.739\fsp-22.65}a{\frz359.484\fsp-21.57}'{\frz359.240\fsp-25.33}s{\frz358.955\fsp-26.95} {\frz358.651\fsp-35.05}F{\frz358.256\fsp-34.50}o{\frz357.867\fsp-24.80}a{\frz357.587\fsp-18.87}l{\frz357.374\fsp-18.87}-{\frz357.161\fsp-24.28}i{\frz356.888\fsp-24.28}c{\frz356.614\fsp-25.88}i{\frz356.322\fsp-34.50}o{\frz355.933\fsp-32.34}u{\frz355.568\fsp-25.33}s{\frz355.283\fsp-38.28} {\frz354.851\fsp-36.68}M{\frz354.437\fsp-23.73}i{\frz354.170\fsp-31.27}s{\frz353.817\fsp-23.73}s{\frz353.550\fsp-25.88}i{\frz353.258\fsp-34.50}o{\frz352.869\fsp-24.80}n{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Dialogue: 0,0:01:01.50,0:01:04.79,0$EPTITLE,,0,0,0,,{\pos(975,803)\fade(250,550)\org(975,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz7.885\fsp-34.50}E{\frz7.496\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.572\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.520\fsp-28.55} {\frz5.198\fsp-37.72}4{\frz4.773\fsp-28.03}2{\frz4.457\fsp-18.87}:{\frz4.244\fsp-27.48} {\frz3.934\fsp-34.50}P{\frz3.545\fsp-32.90}a{\frz3.174\fsp-32.38}c{\frz2.809\fsp-32.90}c{\frz2.438\fsp-30.74}a{\frz2.092\fsp-30.74}r{\frz1.745\fsp-29.11}a{\frz1.417\fsp-22.09}t{\frz1.167\fsp-26.41} {\frz0.870\fsp-33.42}L{\frz0.493\fsp-33.42}a{\frz0.116\fsp-33.42}p{\frz359.739\fsp-22.65}a{\frz359.484\fsp-21.57}'{\frz359.240\fsp-25.33}s{\frz358.955\fsp-26.95} {\frz358.651\fsp-35.05}F{\frz358.256\fsp-34.50}o{\frz357.867\fsp-24.80}a{\frz357.587\fsp-18.87}l{\frz357.374\fsp-18.87}-{\frz357.161\fsp-24.28}i{\frz356.888\fsp-24.28}c{\frz356.614\fsp-25.88}i{\frz356.322\fsp-34.50}o{\frz355.933\fsp-32.34}u{\frz355.568\fsp-25.33}s{\frz355.283\fsp-38.28} {\frz354.851\fsp-36.68}M{\frz354.437\fsp-23.73}i{\frz354.170\fsp-31.27}s{\frz353.817\fsp-23.73}s{\frz353.550\fsp-25.88}i{\frz353.258\fsp-34.50}o{\frz352.869\fsp-24.80}n{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Comment: 0,0:03:38.57,0:03:41.20,0$Default,,0,0,0,,Paccarat Lapa HQ
+Dialogue: 3,0:03:38.57,0:03:41.20,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(250,500)\fnA-OTF TakaHand Std B\pos(960,953)}Paccarat Lapa HQ
+Dialogue: 2,0:03:38.57,0:03:41.20,0$MonsterName,,0,0,0,,{\fs60\c&H656565&\fscx145\fscy145\blur1\bord2\fade(250,500)\3c&H656565&\fnA-OTF TakaHand Std B\pos(960,953)}Paccarat Lapa HQ
+Dialogue: 1,0:03:38.57,0:03:41.20,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(250,500)\3c&HD4D0D4&\c&HD4D0D4&\bord8\fnA-OTF TakaHand Std B\pos(960,953)}Paccarat Lapa HQ
+Dialogue: 0,0:03:38.57,0:03:41.20,0$MonsterName,,0,0,0,,{\fs60\3c&H051C5D&\c&H051C5D&\fscx145\fscy145\blur1\fade(250,500)\bord1\fnA-OTF TakaHand Std B\pos(970,965.4)\alpha&H3E&}Paccarat Lapa HQ
+Comment: 0,0:03:49.46,0:03:52.21,0$Default,,0,0,0,,Marshew Mallow
+Dialogue: 2,0:03:49.29,0:03:52.21,0$MonsterName,,0,0,0,,{\fs150\pos(1316,746)\c&H1E41A4&\blur1\frz13.88\fad(350,0)}Marshew
+Dialogue: 2,0:03:49.29,0:03:52.21,0$MonsterName,,0,0,0,,{\fs150\c&H1E41A4&\blur1\frz15.58\pos(1520,822)\fad(350,0)}Mallow
+Dialogue: 1,0:03:49.29,0:03:52.21,0$mask,,0,0,0,,{\c&H0D0D0D&\p1\pos(0,0)\an7\blur1\fad(350,0)}m 1023.51 756.34 l 1146.16 714 1156.87 721.78 1210.89 695.5 1248.36 713.02 1244.96 696.96 1288.76 721.78 1345.62 673.03 1340.69 686.09 1358.39 673.92 1391.82 697.21 1416.24 669.04 1489.87 666.41 1495.5 654.39 1503.02 672.42 1503.39 652.13 1510.66 647.27 1517.99 663.38 1562.65 650.2 1573.64 725.06 1587.28 720.09 1584.54 740.96 1598.54 735.47 1596.61 749.19 1667.99 718.99 1677.87 730.25 1681.72 716.52 1692.7 728.69 1698.25 709.8 1740.26 808.81 1730.3 859.06 1625.48 891.99 1615.95 878.12 1613.79 887.65 1607.29 876.39 1516.55 899.88 1491.2 920.69 1444.8 948.34 1410.12 928.66 1358.92 955.34 1319.9 923.54 1333.16 924.02 1319.87 912.13 1328.96 907.93 1304.49 883.45 1310.78 823.29 1301.68 833.08 1296.09 823.29 1277.2 838.68 1202.36 861.06 1176.5 851.3 1151.67 881.82 1086.16 876.53 1076.39 851.3 1056.85 842.76 1027.96 784.16 1038.54 771.54 1023.08 770.73 1034.47 760.56  m 1162.61 882.85 l 1174.75 860.8 1192.01 863.36 m 1376.51 956.51 l 1408.64 933.07 1435.73 950.64
+Dialogue: 0,0:03:49.29,0:03:52.21,0$mask,,0,0,0,,{\c&HE5E5E5&\p1\pos(0,0)\an7\blur1\fad(350,0)}m 1015.02 747.29 l 1136.17 693.62 1159.81 704.61 1225.77 680.43 1286.23 702.41 1346.69 660.64 1388.99 672.37 1405.3 656.09 1550.49 627.59 1590.43 662.25 1605.81 726.83 1692.43 693 1730.21 721.12 1753.94 812.3 1745.06 873.51 1620.57 906.9 1592.98 890.2 1523.16 903.37 1507.45 934.79 1433.36 966.43 1358.33 970.07 1295.8 921.1 1292.69 840.95 1259.62 867.01 1199 871.52 1140.38 902.59 1066.72 886.05 1013 801.24
+Comment: 0,0:07:10.33,0:07:16.29,0$Default,,0,0,0,,Tome's Proverb
+Dialogue: 1,0:07:10.33,0:07:16.29,0$Proverb,,0,0,0,,{\kf50\fs50\frz8.965\pos(330,415)\c&H0C0C0C&\2aFF\blur0.7}Don't look a gift horse{\kf6}\N{\kf50}in the mouth.{\kf24}\N{\kf90}My joints get sore{\kf6}\N{\kf28}in the cold.{\kf342}
+Dialogue: 0,0:07:10.33,0:07:16.29,0$Proverb,,0,0,0,,{\kf50\fs50\frz8.965\c&H0C0C0C&\pos(332,417)\2aFF\c&HEFEFF1&\blur0.7}Don't look a gift horse{\kf6}\N{\kf50}in the mouth.{\kf24}\N{\kf90}My joints get sore{\kf6}\N{\kf28}in the cold.{\kf342}
+Dialogue: 1,0:07:13.08,0:07:16.29,0$Proverb,,0,0,0,,{\kf20\fs50\frz8.965\c&H0C0C0C&\2aFF\blur0.7\pos(468,447)}-Tome
+Dialogue: 0,0:07:13.08,0:07:16.29,0$Proverb,,0,0,0,,{\kf20\fs50\frz8.965\c&H0C0C0C&\2aFF\c&HEFEFF1&\blur0.7\pos(470,449)}-Tome
+Comment: 0,0:12:06.62,0:12:09.92,0$Default,,0,0,0,,Roast Beef Mines / Macaro Mountains / Hero Mart
+Dialogue: 0,0:12:06.62,0:12:06.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.47\fscy177.2\frz-32.48\frx12.6580\fry-9.2339\org(911.56,360.49)\pos(916.95,360.49)}Roast Beef Mines
+Dialogue: 0,0:12:06.66,0:12:06.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.5\fscy177.23\frz-392.47\frx12.6580\fry-9.2339\org(911.54,360.5)\pos(916.94,360.49)}Roast Beef Mines
+Dialogue: 0,0:12:06.70,0:12:06.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.53\fscy177.27\frz-392.48\frx12.6580\fry-9.2339\org(911.51,360.48)\pos(916.9,360.48)}Roast Beef Mines
+Dialogue: 0,0:12:06.74,0:12:06.78,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.55\fscy177.3\frz-32.48\frx12.6580\fry-9.2339\org(911.5,360.45)\pos(916.9,360.45)}Roast Beef Mines
+Dialogue: 0,0:12:06.78,0:12:06.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.6\fscy177.36\frz-32.48\frx12.6580\fry-9.2339\org(911.48,360.4)\pos(916.88,360.4)}Roast Beef Mines
+Dialogue: 0,0:12:06.83,0:12:06.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.62\fscy177.38\frz-32.48\frx12.6580\fry-9.2339\org(911.48,360.35)\pos(916.87,360.35)}Roast Beef Mines
+Dialogue: 0,0:12:06.87,0:12:06.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.7\fscy177.47\frz-392.48\frx12.6580\fry-9.2339\org(911.43,360.32)\pos(916.83,360.32)}Roast Beef Mines
+Dialogue: 0,0:12:06.91,0:12:06.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.72\fscy177.49\frz-32.48\frx12.6580\fry-9.2339\org(911.42,360.27)\pos(916.82,360.27)}Roast Beef Mines
+Dialogue: 0,0:12:06.95,0:12:06.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.77\fscy177.56\frz-32.48\frx12.6580\fry-9.2339\org(911.4,360.22)\pos(916.8,360.22)}Roast Beef Mines
+Dialogue: 0,0:12:06.99,0:12:07.03,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.78\fscy177.57\frz-32.48\frx12.6580\fry-9.2339\org(911.41,360.18)\pos(916.82,360.18)}Roast Beef Mines
+Dialogue: 0,0:12:07.03,0:12:07.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.8\fscy177.58\frz-32.48\frx12.6580\fry-9.2339\org(911.43,360.12)\pos(916.83,360.12)}Roast Beef Mines
+Dialogue: 0,0:12:07.08,0:12:07.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.83\fscy177.62\frz-32.48\frx12.6580\fry-9.2339\org(911.41,360.08)\pos(916.81,360.08)}Roast Beef Mines
+Dialogue: 0,0:12:07.12,0:12:07.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.86\fscy177.66\frz-32.48\frx12.6580\fry-9.2339\org(911.41,360.01)\pos(916.81,360.01)}Roast Beef Mines
+Dialogue: 0,0:12:07.16,0:12:07.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.91\fscy177.71\frz-32.48\frx12.6580\fry-9.2339\org(911.38,359.99)\pos(916.79,359.99)}Roast Beef Mines
+Dialogue: 0,0:12:07.20,0:12:07.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.95\fscy177.76\frz-32.49\frx12.6580\fry-9.2339\org(911.35,359.95)\pos(916.76,359.95)}Roast Beef Mines
+Dialogue: 0,0:12:07.24,0:12:07.28,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.99\fscy177.8\frz-32.49\frx12.6580\fry-9.2339\org(911.34,359.9)\pos(916.75,359.9)}Roast Beef Mines
+Dialogue: 0,0:12:07.28,0:12:07.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.98\fscy177.8\frz-32.49\frx12.6580\fry-9.2339\org(911.34,359.84)\pos(916.75,359.84)}Roast Beef Mines
+Dialogue: 0,0:12:07.33,0:12:07.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.06\fscy177.89\frz-32.49\frx12.6580\fry-9.2339\org(911.3,359.81)\pos(916.71,359.81)}Roast Beef Mines
+Dialogue: 0,0:12:07.37,0:12:07.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx151.94\fscy177.75\frz-32.52\frx12.6580\fry-9.2339\org(911.35,359.53)\pos(916.75,359.53)}Roast Beef Mines
+Dialogue: 0,0:12:07.41,0:12:07.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.22\fscy178.07\frz-32.58\frx12.6580\fry-9.2339\org(909.65,355.03)\pos(915.07,355.04)}Roast Beef Mines
+Dialogue: 0,0:12:07.45,0:12:07.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.3\fscy178.17\frz-32.65\frx12.6580\fry-9.2339\org(907.88,350.02)\pos(913.3,350.04)}Roast Beef Mines
+Dialogue: 0,0:12:07.49,0:12:07.53,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.44\fscy178.33\frz-32.7\frx12.6580\fry-9.2339\org(905.71,345.23)\pos(911.13,345.25)}Roast Beef Mines
+Dialogue: 0,0:12:07.53,0:12:07.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.61\fscy178.53\frz-32.68\frx12.6580\fry-9.2339\org(903.28,341.12)\pos(908.71,341.14)}Roast Beef Mines
+Dialogue: 0,0:12:07.58,0:12:07.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx152.91\fscy178.88\frz-32.6\frx12.6580\fry-9.2339\org(900.77,337.78)\pos(906.21,337.79)}Roast Beef Mines
+Dialogue: 0,0:12:07.62,0:12:07.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx153.41\fscy179.47\frz-392.45\frx12.6580\fry-9.2339\org(898.47,335.27)\pos(903.93,335.27)}Roast Beef Mines
+Dialogue: 0,0:12:07.66,0:12:07.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx154.02\fscy180.18\frz-392.21\frx12.6580\fry-9.2339\org(896.49,333.64)\pos(901.97,333.62)}Roast Beef Mines
+Dialogue: 0,0:12:07.70,0:12:07.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx154.71\fscy181\frz-392.01\frx12.6580\fry-9.2339\org(894.87,332.69)\pos(900.37,332.64)}Roast Beef Mines
+Dialogue: 0,0:12:07.74,0:12:07.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx155.32\fscy181.7\frz-391.83\frx12.6580\fry-9.2339\org(893.85,332.35)\pos(899.37,332.29)}Roast Beef Mines
+Dialogue: 0,0:12:07.79,0:12:07.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx155.84\fscy182.32\frz-391.69\frx12.6580\fry-9.2339\org(893.2,332.35)\pos(898.74,332.27)}Roast Beef Mines
+Dialogue: 0,0:12:07.83,0:12:07.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.25\fscy182.79\frz-391.58\frx12.6580\fry-9.2339\org(892.67,332.16)\pos(898.23,332.08)}Roast Beef Mines
+Dialogue: 0,0:12:07.87,0:12:07.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.53\fscy183.12\frz-391.56\frx12.6580\fry-9.2339\org(892.38,331.56)\pos(897.95,331.47)}Roast Beef Mines
+Dialogue: 0,0:12:07.91,0:12:07.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.65\fscy183.27\frz-391.58\frx12.6580\fry-9.2339\org(892.17,330.84)\pos(897.74,330.75)}Roast Beef Mines
+Dialogue: 0,0:12:07.95,0:12:07.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.72\fscy183.34\frz-391.56\frx12.6580\fry-9.2339\org(891.96,330.38)\pos(897.53,330.29)}Roast Beef Mines
+Dialogue: 0,0:12:07.99,0:12:08.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.85\fscy183.49\frz-391.55\frx12.6580\fry-9.2339\org(891.74,330.08)\pos(897.32,329.99)}Roast Beef Mines
+Dialogue: 0,0:12:08.04,0:12:08.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx156.94\fscy183.6\frz-391.54\frx12.6580\fry-9.2339\org(891.55,329.75)\pos(897.13,329.66)}Roast Beef Mines
+Dialogue: 0,0:12:08.08,0:12:08.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.03\fscy183.71\frz-391.53\frx12.6580\fry-9.2339\org(891.39,329.43)\pos(896.98,329.34)}Roast Beef Mines
+Dialogue: 0,0:12:08.12,0:12:08.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.12\fscy183.81\frz-391.52\frx12.6580\fry-9.2339\org(891.23,329.15)\pos(896.82,329.06)}Roast Beef Mines
+Dialogue: 0,0:12:08.16,0:12:08.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.15\fscy183.85\frz-391.53\frx12.6580\fry-9.2339\org(891.14,328.86)\pos(896.73,328.76)}Roast Beef Mines
+Dialogue: 0,0:12:08.20,0:12:08.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.16\fscy183.86\frz-391.53\frx12.6580\fry-9.2339\org(891.1,328.73)\pos(896.69,328.63)}Roast Beef Mines
+Dialogue: 0,0:12:08.24,0:12:08.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.19\fscy183.89\frz-391.52\frx12.6580\fry-9.2339\org(891.05,328.61)\pos(896.64,328.52)}Roast Beef Mines
+Dialogue: 0,0:12:08.29,0:12:08.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.26\fscy183.98\frz-391.53\frx12.6580\fry-9.2339\org(890.94,328.25)\pos(896.53,328.16)}Roast Beef Mines
+Dialogue: 0,0:12:08.33,0:12:08.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.33\fscy184.06\frz-391.52\frx12.6580\fry-9.2339\org(890.86,328.2)\pos(896.45,328.1)}Roast Beef Mines
+Dialogue: 0,0:12:08.37,0:12:08.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.5\fscy184.26\frz-391.5\frx12.6580\fry-9.2339\org(890.7,328.03)\pos(896.3,327.94)}Roast Beef Mines
+Dialogue: 0,0:12:08.41,0:12:08.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.47\fscy184.22\frz-391.52\frx12.6580\fry-9.2339\org(890.72,327.91)\pos(896.32,327.82)}Roast Beef Mines
+Dialogue: 0,0:12:08.45,0:12:08.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.51\fscy184.26\frz-391.52\frx12.6580\fry-9.2339\org(890.69,327.77)\pos(896.3,327.68)}Roast Beef Mines
+Dialogue: 0,0:12:08.49,0:12:08.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.56\fscy184.33\frz-391.52\frx12.6580\fry-9.2339\org(890.67,327.69)\pos(896.27,327.59)}Roast Beef Mines
+Dialogue: 0,0:12:08.54,0:12:08.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.58\fscy184.35\frz-391.53\frx12.6580\fry-9.2339\org(890.71,327.6)\pos(896.32,327.51)}Roast Beef Mines
+Dialogue: 0,0:12:08.58,0:12:08.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.61\fscy184.38\frz-391.53\frx12.6580\fry-9.2339\org(890.7,327.58)\pos(896.31,327.48)}Roast Beef Mines
+Dialogue: 0,0:12:08.62,0:12:08.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.67\fscy184.45\frz-391.54\frx12.6580\fry-9.2339\org(890.68,327.55)\pos(896.29,327.46)}Roast Beef Mines
+Dialogue: 0,0:12:08.66,0:12:08.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.67\fscy184.45\frz-391.53\frx12.6580\fry-9.2339\org(890.72,327.55)\pos(896.33,327.45)}Roast Beef Mines
+Dialogue: 0,0:12:08.70,0:12:08.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.68\fscy184.47\frz-391.55\frx12.6580\fry-9.2339\org(890.77,327.51)\pos(896.38,327.42)}Roast Beef Mines
+Dialogue: 0,0:12:08.74,0:12:08.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.7\fscy184.48\frz-391.54\frx12.6580\fry-9.2339\org(890.8,327.52)\pos(896.41,327.43)}Roast Beef Mines
+Dialogue: 0,0:12:08.79,0:12:08.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.76\fscy184.56\frz-391.55\frx12.6580\fry-9.2339\org(890.85,327.56)\pos(896.47,327.47)}Roast Beef Mines
+Dialogue: 0,0:12:08.83,0:12:08.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.78\fscy184.59\frz-391.55\frx12.6580\fry-9.2339\org(890.89,327.6)\pos(896.51,327.51)}Roast Beef Mines
+Dialogue: 0,0:12:08.87,0:12:08.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.82\fscy184.62\frz-391.55\frx12.6580\fry-9.2339\org(890.98,327.68)\pos(896.59,327.59)}Roast Beef Mines
+Dialogue: 0,0:12:08.91,0:12:08.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.84\fscy184.65\frz-391.55\frx12.6580\fry-9.2339\org(891.03,327.73)\pos(896.65,327.64)}Roast Beef Mines
+Dialogue: 0,0:12:08.95,0:12:08.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.87\fscy184.68\frz-391.56\frx12.6580\fry-9.2339\org(891.13,327.82)\pos(896.75,327.73)}Roast Beef Mines
+Dialogue: 0,0:12:08.99,0:12:09.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.89\fscy184.71\frz-391.56\frx12.6580\fry-9.2339\org(891.18,327.88)\pos(896.8,327.79)}Roast Beef Mines
+Dialogue: 0,0:12:09.04,0:12:09.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.91\fscy184.73\frz-391.56\frx12.6580\fry-9.2339\org(891.27,327.96)\pos(896.88,327.87)}Roast Beef Mines
+Dialogue: 0,0:12:09.08,0:12:09.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.92\fscy184.75\frz-391.57\frx12.6580\fry-9.2339\org(891.32,328.02)\pos(896.94,327.93)}Roast Beef Mines
+Dialogue: 0,0:12:09.12,0:12:09.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.92\fscy184.75\frz-391.58\frx12.6580\fry-9.2339\org(891.44,328.1)\pos(897.06,328.02)}Roast Beef Mines
+Dialogue: 0,0:12:09.16,0:12:09.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.94\fscy184.77\frz-391.58\frx12.6580\fry-9.2339\org(891.52,328.19)\pos(897.14,328.1)}Roast Beef Mines
+Dialogue: 0,0:12:09.20,0:12:09.25,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.97\fscy184.81\frz-391.59\frx12.6580\fry-9.2339\org(891.6,328.3)\pos(897.22,328.21)}Roast Beef Mines
+Dialogue: 0,0:12:09.25,0:12:09.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx157.94\fscy184.77\frz-391.57\frx12.6580\fry-9.2339\org(891.72,328.42)\pos(897.34,328.33)}Roast Beef Mines
+Dialogue: 0,0:12:09.29,0:12:09.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.01\fscy184.85\frz-391.6\frx12.6580\fry-9.2339\org(891.77,328.51)\pos(897.4,328.42)}Roast Beef Mines
+Dialogue: 0,0:12:09.33,0:12:09.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.02\fscy184.87\frz-391.59\frx12.6580\fry-9.2339\org(891.86,328.61)\pos(897.48,328.53)}Roast Beef Mines
+Dialogue: 0,0:12:09.37,0:12:09.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.05\fscy184.89\frz-391.61\frx12.6580\fry-9.2339\org(891.95,328.7)\pos(897.58,328.61)}Roast Beef Mines
+Dialogue: 0,0:12:09.41,0:12:09.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.06\fscy184.91\frz-391.61\frx12.6580\fry-9.2339\org(892.02,328.79)\pos(897.65,328.7)}Roast Beef Mines
+Dialogue: 0,0:12:09.45,0:12:09.50,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.07\fscy184.92\frz-391.63\frx12.6580\fry-9.2339\org(892.12,328.84)\pos(897.74,328.76)}Roast Beef Mines
+Dialogue: 0,0:12:09.50,0:12:09.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.07\fscy184.92\frz-391.62\frx12.6580\fry-9.2339\org(892.19,328.93)\pos(897.82,328.84)}Roast Beef Mines
+Dialogue: 0,0:12:09.54,0:12:09.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.1\fscy184.96\frz-391.62\frx12.6580\fry-9.2339\org(892.24,328.99)\pos(897.86,328.91)}Roast Beef Mines
+Dialogue: 0,0:12:09.58,0:12:09.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.12\fscy184.98\frz-391.62\frx12.6580\fry-9.2339\org(892.29,329.04)\pos(897.92,328.95)}Roast Beef Mines
+Dialogue: 0,0:12:09.62,0:12:09.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.14\fscy185.01\frz-391.63\frx12.6580\fry-9.2339\org(892.35,329.09)\pos(897.98,329.01)}Roast Beef Mines
+Dialogue: 0,0:12:09.66,0:12:09.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.17\fscy185.04\frz-391.64\frx12.6580\fry-9.2339\org(892.39,329.14)\pos(898.02,329.06)}Roast Beef Mines
+Dialogue: 0,0:12:09.70,0:12:09.75,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.22\fscy185.09\frz-391.63\frx12.6580\fry-9.2339\org(892.41,329.18)\pos(898.04,329.09)}Roast Beef Mines
+Dialogue: 0,0:12:09.75,0:12:09.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.23\fscy185.1\frz-391.63\frx12.6580\fry-9.2339\org(892.45,329.19)\pos(898.08,329.11)}Roast Beef Mines
+Dialogue: 0,0:12:09.79,0:12:09.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.26\fscy185.15\frz-391.63\frx12.6580\fry-9.2339\org(892.47,329.19)\pos(898.1,329.11)}Roast Beef Mines
+Dialogue: 0,0:12:09.83,0:12:09.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.28\fscy185.17\frz-391.63\frx12.6580\fry-9.2339\org(892.49,329.2)\pos(898.12,329.12)}Roast Beef Mines
+Dialogue: 0,0:12:09.87,0:12:09.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.237502\fscx158.31\fscy185.2\frz-391.62\frx12.6580\fry-9.2339\org(892.48,329.2)\pos(898.11,329.12)}Roast Beef Mines
+Dialogue: 0,0:12:06.62,0:12:06.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.1\fscy213.08\frz-28.44\frx-10.8986\fry1.0033\org(744.62,630.3)\pos(749.02,630.3)}Macaron Mountains
+Dialogue: 0,0:12:06.66,0:12:06.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.1\fscy213.08\frz-388.44\frx-10.8986\fry1.0033\org(744.62,630.31)\pos(749.02,630.31)}Macaron Mountains
+Dialogue: 0,0:12:06.70,0:12:06.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.12\fscy213.11\frz-388.44\frx-10.8986\fry1.0033\org(744.6,630.32)\pos(749,630.32)}Macaron Mountains
+Dialogue: 0,0:12:06.74,0:12:06.78,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.14\fscy213.13\frz-388.43\frx-10.8986\fry1.0033\org(744.59,630.33)\pos(748.99,630.33)}Macaron Mountains
+Dialogue: 0,0:12:06.78,0:12:06.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.19\fscy213.21\frz-388.44\frx-10.8986\fry1.0033\org(744.51,630.36)\pos(748.91,630.36)}Macaron Mountains
+Dialogue: 0,0:12:06.83,0:12:06.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.21\fscy213.24\frz-388.43\frx-10.8986\fry1.0033\org(744.48,630.38)\pos(748.88,630.37)}Macaron Mountains
+Dialogue: 0,0:12:06.87,0:12:06.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.29\fscy213.35\frz-388.43\frx-10.8986\fry1.0033\org(744.4,630.44)\pos(748.8,630.43)}Macaron Mountains
+Dialogue: 0,0:12:06.91,0:12:06.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.31\fscy213.37\frz-388.44\frx-10.8986\fry1.0033\org(744.35,630.44)\pos(748.75,630.43)}Macaron Mountains
+Dialogue: 0,0:12:06.95,0:12:06.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.34\fscy213.41\frz-388.44\frx-10.8986\fry1.0033\org(744.3,630.45)\pos(748.71,630.45)}Macaron Mountains
+Dialogue: 0,0:12:06.99,0:12:07.03,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.36\fscy213.44\frz-388.44\frx-10.8986\fry1.0033\org(744.26,630.46)\pos(748.67,630.46)}Macaron Mountains
+Dialogue: 0,0:12:07.03,0:12:07.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.42\fscy213.53\frz-28.45\frx-10.8986\fry1.0033\org(744.12,630.47)\pos(748.53,630.47)}Macaron Mountains
+Dialogue: 0,0:12:07.08,0:12:07.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.41\fscy213.51\frz-388.43\frx-10.8986\fry1.0033\org(744.15,630.48)\pos(748.56,630.47)}Macaron Mountains
+Dialogue: 0,0:12:07.12,0:12:07.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.47\fscy213.6\frz-388.44\frx-10.8986\fry1.0033\org(744.06,630.5)\pos(748.47,630.5)}Macaron Mountains
+Dialogue: 0,0:12:07.16,0:12:07.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.5\fscy213.64\frz-388.43\frx-10.8986\fry1.0033\org(744.03,630.52)\pos(748.44,630.52)}Macaron Mountains
+Dialogue: 0,0:12:07.20,0:12:07.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.56\fscy213.73\frz-388.44\frx-10.8986\fry1.0033\org(743.94,630.57)\pos(748.36,630.57)}Macaron Mountains
+Dialogue: 0,0:12:07.24,0:12:07.28,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.59\fscy213.76\frz-388.44\frx-10.8986\fry1.0033\org(743.91,630.58)\pos(748.32,630.58)}Macaron Mountains
+Dialogue: 0,0:12:07.28,0:12:07.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.61\fscy213.8\frz-388.42\frx-10.8986\fry1.0033\org(743.93,630.62)\pos(748.34,630.61)}Macaron Mountains
+Dialogue: 0,0:12:07.33,0:12:07.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.64\fscy213.83\frz-388.42\frx-10.8986\fry1.0033\org(743.87,630.62)\pos(748.29,630.62)}Macaron Mountains
+Dialogue: 0,0:12:07.37,0:12:07.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx152.73\fscy213.96\frz-388.42\frx-10.8986\fry1.0033\org(743.75,630.66)\pos(748.17,630.65)}Macaron Mountains
+Dialogue: 0,0:12:07.41,0:12:07.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx153.2\fscy214.62\frz-388.27\frx-10.8986\fry1.0033\org(742.73,627.58)\pos(747.16,627.57)}Macaron Mountains
+Dialogue: 0,0:12:07.45,0:12:07.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx153.75\fscy215.39\frz-388.07\frx-10.8986\fry1.0033\org(741.65,624.34)\pos(746.09,624.31)}Macaron Mountains
+Dialogue: 0,0:12:07.49,0:12:07.53,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx154.28\fscy216.13\frz-387.88\frx-10.8986\fry1.0033\org(740.31,621.18)\pos(744.77,621.14)}Macaron Mountains
+Dialogue: 0,0:12:07.53,0:12:07.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx154.72\fscy216.75\frz-387.69\frx-10.8986\fry1.0033\org(738.81,618.44)\pos(743.28,618.38)}Macaron Mountains
+Dialogue: 0,0:12:07.58,0:12:07.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.13\fscy217.33\frz-387.53\frx-10.8986\fry1.0033\org(737.11,616.16)\pos(741.6,616.09)}Macaron Mountains
+Dialogue: 0,0:12:07.62,0:12:07.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.43\fscy217.75\frz-387.42\frx-10.8986\fry1.0033\org(735.51,614.31)\pos(740.01,614.23)}Macaron Mountains
+Dialogue: 0,0:12:07.66,0:12:07.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.59\fscy217.96\frz-387.37\frx-10.8986\fry1.0033\org(733.94,612.78)\pos(738.44,612.7)}Macaron Mountains
+Dialogue: 0,0:12:07.70,0:12:07.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.74\fscy218.18\frz-387.34\frx-10.8986\fry1.0033\org(732.63,611.76)\pos(737.13,611.68)}Macaron Mountains
+Dialogue: 0,0:12:07.74,0:12:07.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.82\fscy218.29\frz-387.41\frx-10.8986\fry1.0033\org(731.56,611.06)\pos(736.07,610.98)}Macaron Mountains
+Dialogue: 0,0:12:07.79,0:12:07.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.84\fscy218.32\frz-387.44\frx-10.8986\fry1.0033\org(730.96,610.58)\pos(735.46,610.5)}Macaron Mountains
+Dialogue: 0,0:12:07.83,0:12:07.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.83\fscy218.31\frz-387.54\frx-10.8986\fry1.0033\org(730.33,609.98)\pos(734.83,609.91)}Macaron Mountains
+Dialogue: 0,0:12:07.87,0:12:07.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx155.93\fscy218.44\frz-387.53\frx-10.8986\fry1.0033\org(730.06,609.41)\pos(734.57,609.34)}Macaron Mountains
+Dialogue: 0,0:12:07.91,0:12:07.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.14\fscy218.73\frz-387.54\frx-10.8986\fry1.0033\org(729.76,608.98)\pos(734.27,608.91)}Macaron Mountains
+Dialogue: 0,0:12:07.95,0:12:07.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.18\fscy218.8\frz-387.51\frx-10.8986\fry1.0033\org(729.66,608.61)\pos(734.17,608.53)}Macaron Mountains
+Dialogue: 0,0:12:07.99,0:12:08.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.23\fscy218.87\frz-387.51\frx-10.8986\fry1.0033\org(729.44,608.37)\pos(733.96,608.3)}Macaron Mountains
+Dialogue: 0,0:12:08.04,0:12:08.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.29\fscy218.94\frz-387.51\frx-10.8986\fry1.0033\org(729.27,608.13)\pos(733.79,608.06)}Macaron Mountains
+Dialogue: 0,0:12:08.08,0:12:08.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.35\fscy219.04\frz-387.51\frx-10.8986\fry1.0033\org(729.11,607.94)\pos(733.63,607.87)}Macaron Mountains
+Dialogue: 0,0:12:08.12,0:12:08.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.43\fscy219.15\frz-387.49\frx-10.8986\fry1.0033\org(728.95,607.77)\pos(733.47,607.7)}Macaron Mountains
+Dialogue: 0,0:12:08.16,0:12:08.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.46\fscy219.18\frz-387.51\frx-10.8986\fry1.0033\org(728.8,607.56)\pos(733.33,607.49)}Macaron Mountains
+Dialogue: 0,0:12:08.20,0:12:08.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.48\fscy219.22\frz-387.49\frx-10.8986\fry1.0033\org(728.76,607.49)\pos(733.28,607.42)}Macaron Mountains
+Dialogue: 0,0:12:08.24,0:12:08.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.52\fscy219.28\frz-387.5\frx-10.8986\fry1.0033\org(728.67,607.46)\pos(733.2,607.39)}Macaron Mountains
+Dialogue: 0,0:12:08.29,0:12:08.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.56\fscy219.33\frz-387.5\frx-10.8986\fry1.0033\org(728.54,607.28)\pos(733.07,607.2)}Macaron Mountains
+Dialogue: 0,0:12:08.33,0:12:08.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.63\fscy219.42\frz-387.48\frx-10.8986\fry1.0033\org(728.47,607.21)\pos(733,607.14)}Macaron Mountains
+Dialogue: 0,0:12:08.37,0:12:08.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.72\fscy219.55\frz-387.49\frx-10.8986\fry1.0033\org(728.29,607.1)\pos(732.82,607.03)}Macaron Mountains
+Dialogue: 0,0:12:08.41,0:12:08.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.71\fscy219.54\frz-387.49\frx-10.8986\fry1.0033\org(728.29,607.1)\pos(732.82,607.02)}Macaron Mountains
+Dialogue: 0,0:12:08.45,0:12:08.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.78\fscy219.63\frz-387.49\frx-10.8986\fry1.0033\org(728.2,607.05)\pos(732.74,606.97)}Macaron Mountains
+Dialogue: 0,0:12:08.49,0:12:08.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.83\fscy219.71\frz-387.51\frx-10.8986\fry1.0033\org(728.11,607.03)\pos(732.64,606.96)}Macaron Mountains
+Dialogue: 0,0:12:08.54,0:12:08.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.9\fscy219.81\frz-387.5\frx-10.8986\fry1.0033\org(728.05,607.06)\pos(732.59,606.99)}Macaron Mountains
+Dialogue: 0,0:12:08.58,0:12:08.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.91\fscy219.82\frz-387.52\frx-10.8986\fry1.0033\org(727.99,607.05)\pos(732.53,606.98)}Macaron Mountains
+Dialogue: 0,0:12:08.62,0:12:08.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.94\fscy219.85\frz-387.51\frx-10.8986\fry1.0033\org(727.98,607.07)\pos(732.52,607)}Macaron Mountains
+Dialogue: 0,0:12:08.66,0:12:08.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.94\fscy219.86\frz-387.52\frx-10.8986\fry1.0033\org(727.97,607.08)\pos(732.51,607.01)}Macaron Mountains
+Dialogue: 0,0:12:08.70,0:12:08.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.97\fscy219.91\frz-387.52\frx-10.8986\fry1.0033\org(727.95,607.14)\pos(732.49,607.07)}Macaron Mountains
+Dialogue: 0,0:12:08.74,0:12:08.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx156.99\fscy219.92\frz-387.52\frx-10.8986\fry1.0033\org(727.93,607.16)\pos(732.47,607.09)}Macaron Mountains
+Dialogue: 0,0:12:08.79,0:12:08.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.07\fscy220.04\frz-387.52\frx-10.8986\fry1.0033\org(727.9,607.28)\pos(732.44,607.2)}Macaron Mountains
+Dialogue: 0,0:12:08.83,0:12:08.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.08\fscy220.06\frz-387.52\frx-10.8986\fry1.0033\org(727.9,607.34)\pos(732.45,607.27)}Macaron Mountains
+Dialogue: 0,0:12:08.87,0:12:08.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.12\fscy220.11\frz-387.53\frx-10.8986\fry1.0033\org(727.88,607.46)\pos(732.43,607.39)}Macaron Mountains
+Dialogue: 0,0:12:08.91,0:12:08.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.15\fscy220.16\frz-387.54\frx-10.8986\fry1.0033\org(727.87,607.56)\pos(732.41,607.49)}Macaron Mountains
+Dialogue: 0,0:12:08.95,0:12:08.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.18\fscy220.2\frz-387.53\frx-10.8986\fry1.0033\org(727.91,607.7)\pos(732.46,607.62)}Macaron Mountains
+Dialogue: 0,0:12:08.99,0:12:09.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.23\fscy220.27\frz-387.53\frx-10.8986\fry1.0033\org(727.92,607.83)\pos(732.47,607.76)}Macaron Mountains
+Dialogue: 0,0:12:09.04,0:12:09.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.23\fscy220.27\frz-387.54\frx-10.8986\fry1.0033\org(727.93,607.94)\pos(732.48,607.87)}Macaron Mountains
+Dialogue: 0,0:12:09.08,0:12:09.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.24\fscy220.28\frz-387.53\frx-10.8986\fry1.0033\org(727.97,608.03)\pos(732.52,607.96)}Macaron Mountains
+Dialogue: 0,0:12:09.12,0:12:09.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.27\fscy220.32\frz-387.56\frx-10.8986\fry1.0033\org(727.93,608.14)\pos(732.48,608.07)}Macaron Mountains
+Dialogue: 0,0:12:09.16,0:12:09.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.3\fscy220.36\frz-387.56\frx-10.8986\fry1.0033\org(727.94,608.25)\pos(732.49,608.18)}Macaron Mountains
+Dialogue: 0,0:12:09.20,0:12:09.25,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.34\fscy220.42\frz-387.57\frx-10.8986\fry1.0033\org(727.95,608.4)\pos(732.5,608.33)}Macaron Mountains
+Dialogue: 0,0:12:09.25,0:12:09.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.36\fscy220.44\frz-387.58\frx-10.8986\fry1.0033\org(727.97,608.54)\pos(732.52,608.47)}Macaron Mountains
+Dialogue: 0,0:12:09.29,0:12:09.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.4\fscy220.5\frz-387.58\frx-10.8986\fry1.0033\org(727.97,608.7)\pos(732.52,608.64)}Macaron Mountains
+Dialogue: 0,0:12:09.33,0:12:09.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.4\fscy220.5\frz-387.58\frx-10.8986\fry1.0033\org(727.99,608.8)\pos(732.54,608.73)}Macaron Mountains
+Dialogue: 0,0:12:09.37,0:12:09.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.46\fscy220.59\frz-387.58\frx-10.8986\fry1.0033\org(728,608.99)\pos(732.55,608.92)}Macaron Mountains
+Dialogue: 0,0:12:09.41,0:12:09.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.49\fscy220.63\frz-387.6\frx-10.8986\fry1.0033\org(727.97,609.08)\pos(732.53,609.02)}Macaron Mountains
+Dialogue: 0,0:12:09.45,0:12:09.50,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.54\fscy220.7\frz-387.6\frx-10.8986\fry1.0033\org(727.99,609.29)\pos(732.55,609.22)}Macaron Mountains
+Dialogue: 0,0:12:09.50,0:12:09.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.54\fscy220.7\frz-387.6\frx-10.8986\fry1.0033\org(727.99,609.35)\pos(732.55,609.29)}Macaron Mountains
+Dialogue: 0,0:12:09.54,0:12:09.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.56\fscy220.73\frz-387.6\frx-10.8986\fry1.0033\org(728,609.45)\pos(732.56,609.39)}Macaron Mountains
+Dialogue: 0,0:12:09.58,0:12:09.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.6\fscy220.79\frz-387.6\frx-10.8986\fry1.0033\org(728.01,609.54)\pos(732.57,609.47)}Macaron Mountains
+Dialogue: 0,0:12:09.62,0:12:09.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.61\fscy220.79\frz-387.6\frx-10.8986\fry1.0033\org(728.02,609.65)\pos(732.58,609.58)}Macaron Mountains
+Dialogue: 0,0:12:09.66,0:12:09.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.62\fscy220.82\frz-387.61\frx-10.8986\fry1.0033\org(728.01,609.7)\pos(732.57,609.64)}Macaron Mountains
+Dialogue: 0,0:12:09.70,0:12:09.75,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.65\fscy220.86\frz-387.6\frx-10.8986\fry1.0033\org(728,609.78)\pos(732.56,609.71)}Macaron Mountains
+Dialogue: 0,0:12:09.75,0:12:09.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.68\fscy220.9\frz-387.6\frx-10.8986\fry1.0033\org(728,609.84)\pos(732.56,609.77)}Macaron Mountains
+Dialogue: 0,0:12:09.79,0:12:09.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.71\fscy220.94\frz-387.6\frx-10.8986\fry1.0033\org(727.98,609.89)\pos(732.54,609.82)}Macaron Mountains
+Dialogue: 0,0:12:09.83,0:12:09.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.74\fscy220.98\frz-387.59\frx-10.8986\fry1.0033\org(727.98,609.94)\pos(732.54,609.88)}Macaron Mountains
+Dialogue: 0,0:12:09.87,0:12:09.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax-0.192823\fscx157.77\fscy221.02\frz-387.58\frx-10.8986\fry1.0033\org(727.97,609.97)\pos(732.53,609.9)}Macaron Mountains
+Dialogue: 0,0:12:06.62,0:12:06.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.39\fscy180.56\frz-37.88\frx-2.3659\fry-15.1824\org(551,899.64)\pos(547,899.64)}Hero Mart
+Dialogue: 0,0:12:06.66,0:12:06.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.41\fscy180.58\frz-37.88\frx-2.3659\fry-15.1824\org(550.94,899.68)\pos(546.94,899.68)}Hero Mart
+Dialogue: 0,0:12:06.70,0:12:06.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.44\fscy180.61\frz-37.89\frx-2.3659\fry-15.1824\org(550.87,899.71)\pos(546.86,899.71)}Hero Mart
+Dialogue: 0,0:12:06.74,0:12:06.78,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.48\fscy180.65\frz-37.88\frx-2.3659\fry-15.1824\org(550.78,899.79)\pos(546.78,899.79)}Hero Mart
+Dialogue: 0,0:12:06.78,0:12:06.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.5\fscy180.67\frz-37.88\frx-2.3659\fry-15.1824\org(550.7,899.87)\pos(546.7,899.87)}Hero Mart
+Dialogue: 0,0:12:06.83,0:12:06.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.55\fscy180.72\frz-37.88\frx-2.3659\fry-15.1824\org(550.61,899.97)\pos(546.61,899.97)}Hero Mart
+Dialogue: 0,0:12:06.87,0:12:06.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.58\fscy180.74\frz-397.88\frx-2.3659\fry-15.1824\org(550.53,900.07)\pos(546.53,900.07)}Hero Mart
+Dialogue: 0,0:12:06.91,0:12:06.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.63\fscy180.79\frz-397.88\frx-2.3659\fry-15.1824\org(550.43,900.14)\pos(546.42,900.14)}Hero Mart
+Dialogue: 0,0:12:06.95,0:12:06.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.71\fscy180.87\frz-37.89\frx-2.3659\fry-15.1824\org(550.26,900.25)\pos(546.26,900.25)}Hero Mart
+Dialogue: 0,0:12:06.99,0:12:07.03,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.71\fscy180.87\frz-37.89\frx-2.3659\fry-15.1824\org(550.21,900.27)\pos(546.2,900.27)}Hero Mart
+Dialogue: 0,0:12:07.03,0:12:07.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.78\fscy180.94\frz-37.89\frx-2.3659\fry-15.1824\org(550.09,900.39)\pos(546.09,900.39)}Hero Mart
+Dialogue: 0,0:12:07.08,0:12:07.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.85\fscy181.01\frz-397.87\frx-2.3659\fry-15.1824\org(549.98,900.54)\pos(545.97,900.54)}Hero Mart
+Dialogue: 0,0:12:07.12,0:12:07.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.87\fscy181.02\frz-397.88\frx-2.3659\fry-15.1824\org(549.9,900.61)\pos(545.89,900.61)}Hero Mart
+Dialogue: 0,0:12:07.16,0:12:07.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.92\fscy181.07\frz-37.88\frx-2.3659\fry-15.1824\org(549.8,900.68)\pos(545.79,900.68)}Hero Mart
+Dialogue: 0,0:12:07.20,0:12:07.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx185.97\fscy181.12\frz-37.89\frx-2.3659\fry-15.1824\org(549.69,900.75)\pos(545.68,900.75)}Hero Mart
+Dialogue: 0,0:12:07.24,0:12:07.28,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186\fscy181.15\frz-37.89\frx-2.3659\fry-15.1824\org(549.6,900.79)\pos(545.59,900.79)}Hero Mart
+Dialogue: 0,0:12:07.28,0:12:07.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186.04\fscy181.19\frz-37.89\frx-2.3659\fry-15.1824\org(549.52,900.9)\pos(545.51,900.9)}Hero Mart
+Dialogue: 0,0:12:07.33,0:12:07.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186.08\fscy181.23\frz-37.88\frx-2.3659\fry-15.1824\org(549.43,901)\pos(545.42,901)}Hero Mart
+Dialogue: 0,0:12:07.37,0:12:07.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186.11\fscy181.27\frz-397.88\frx-2.3659\fry-15.1824\org(549.34,901.11)\pos(545.33,901.11)}Hero Mart
+Dialogue: 0,0:12:07.41,0:12:07.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186.5\fscy181.65\frz-397.87\frx-2.3659\fry-15.1824\org(548.36,898.73)\pos(544.33,898.73)}Hero Mart
+Dialogue: 0,0:12:07.45,0:12:07.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx186.74\fscy181.87\frz-397.82\frx-2.3659\fry-15.1824\org(547.59,896.03)\pos(543.56,896.03)}Hero Mart
+Dialogue: 0,0:12:07.49,0:12:07.53,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx187.08\fscy182.21\frz-397.75\frx-2.3659\fry-15.1824\org(546.66,893.67)\pos(542.62,893.68)}Hero Mart
+Dialogue: 0,0:12:07.53,0:12:07.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx187.34\fscy182.46\frz-397.65\frx-2.3659\fry-15.1824\org(545.72,891.66)\pos(541.67,891.67)}Hero Mart
+Dialogue: 0,0:12:07.58,0:12:07.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx187.56\fscy182.68\frz-397.53\frx-2.3659\fry-15.1824\org(544.63,890.13)\pos(540.58,890.16)}Hero Mart
+Dialogue: 0,0:12:07.62,0:12:07.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx187.76\fscy182.87\frz-397.45\frx-2.3659\fry-15.1824\org(543.52,888.85)\pos(539.47,888.88)}Hero Mart
+Dialogue: 0,0:12:07.66,0:12:07.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx188.02\fscy183.12\frz-397.34\frx-2.3659\fry-15.1824\org(542.4,888.04)\pos(538.34,888.08)}Hero Mart
+Dialogue: 0,0:12:07.70,0:12:07.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx188.22\fscy183.32\frz-397.28\frx-2.3659\fry-15.1824\org(541.34,887.43)\pos(537.28,887.47)}Hero Mart
+Dialogue: 0,0:12:07.74,0:12:07.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx188.5\fscy183.58\frz-397.25\frx-2.3659\fry-15.1824\org(540.32,887.14)\pos(536.26,887.18)}Hero Mart
+Dialogue: 0,0:12:07.79,0:12:07.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx188.59\fscy183.67\frz-397.26\frx-2.3659\fry-15.1824\org(539.66,886.73)\pos(535.59,886.77)}Hero Mart
+Dialogue: 0,0:12:07.83,0:12:07.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx188.77\fscy183.85\frz-397.25\frx-2.3659\fry-15.1824\org(539.02,886.43)\pos(534.94,886.47)}Hero Mart
+Dialogue: 0,0:12:07.87,0:12:07.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.02\fscy184.09\frz-397.29\frx-2.3659\fry-15.1824\org(538.38,885.95)\pos(534.3,885.99)}Hero Mart
+Dialogue: 0,0:12:07.91,0:12:07.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.06\fscy184.13\frz-397.31\frx-2.3659\fry-15.1824\org(538.12,885.48)\pos(534.05,885.52)}Hero Mart
+Dialogue: 0,0:12:07.95,0:12:07.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.32\fscy184.38\frz-397.32\frx-2.3659\fry-15.1824\org(537.65,885.38)\pos(533.57,885.42)}Hero Mart
+Dialogue: 0,0:12:07.99,0:12:08.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.31\fscy184.38\frz-397.31\frx-2.3659\fry-15.1824\org(537.54,885.2)\pos(533.46,885.25)}Hero Mart
+Dialogue: 0,0:12:08.04,0:12:08.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.37\fscy184.44\frz-397.31\frx-2.3659\fry-15.1824\org(537.35,885.1)\pos(533.26,885.14)}Hero Mart
+Dialogue: 0,0:12:08.08,0:12:08.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.49\fscy184.55\frz-397.31\frx-2.3659\fry-15.1824\org(537.11,885.03)\pos(533.02,885.08)}Hero Mart
+Dialogue: 0,0:12:08.12,0:12:08.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.48\fscy184.54\frz-397.31\frx-2.3659\fry-15.1824\org(536.96,884.87)\pos(532.87,884.91)}Hero Mart
+Dialogue: 0,0:12:08.16,0:12:08.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.59\fscy184.65\frz-397.3\frx-2.3659\fry-15.1824\org(536.78,884.87)\pos(532.69,884.91)}Hero Mart
+Dialogue: 0,0:12:08.20,0:12:08.24,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.63\fscy184.69\frz-397.3\frx-2.3659\fry-15.1824\org(536.64,884.82)\pos(532.55,884.86)}Hero Mart
+Dialogue: 0,0:12:08.24,0:12:08.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.64\fscy184.69\frz-397.32\frx-2.3659\fry-15.1824\org(536.56,884.75)\pos(532.47,884.79)}Hero Mart
+Dialogue: 0,0:12:08.29,0:12:08.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.77\fscy184.82\frz-397.31\frx-2.3659\fry-15.1824\org(536.3,884.76)\pos(532.21,884.8)}Hero Mart
+Dialogue: 0,0:12:08.33,0:12:08.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.8\fscy184.85\frz-397.31\frx-2.3659\fry-15.1824\org(536.21,884.75)\pos(532.11,884.79)}Hero Mart
+Dialogue: 0,0:12:08.37,0:12:08.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.9\fscy184.95\frz-397.3\frx-2.3659\fry-15.1824\org(536.01,884.83)\pos(531.92,884.87)}Hero Mart
+Dialogue: 0,0:12:08.41,0:12:08.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.92\fscy184.97\frz-397.31\frx-2.3659\fry-15.1824\org(535.95,884.81)\pos(531.85,884.85)}Hero Mart
+Dialogue: 0,0:12:08.45,0:12:08.49,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx189.97\fscy185.02\frz-397.31\frx-2.3659\fry-15.1824\org(535.81,884.83)\pos(531.71,884.87)}Hero Mart
+Dialogue: 0,0:12:08.49,0:12:08.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.02\fscy185.07\frz-397.32\frx-2.3659\fry-15.1824\org(535.67,884.84)\pos(531.57,884.88)}Hero Mart
+Dialogue: 0,0:12:08.54,0:12:08.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.07\fscy185.12\frz-397.33\frx-2.3659\fry-15.1824\org(535.54,884.9)\pos(531.44,884.94)}Hero Mart
+Dialogue: 0,0:12:08.58,0:12:08.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.12\fscy185.16\frz-397.33\frx-2.3659\fry-15.1824\org(535.46,884.98)\pos(531.35,885.02)}Hero Mart
+Dialogue: 0,0:12:08.62,0:12:08.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.15\fscy185.2\frz-397.33\frx-2.3659\fry-15.1824\org(535.35,885.05)\pos(531.24,885.09)}Hero Mart
+Dialogue: 0,0:12:08.66,0:12:08.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.21\fscy185.25\frz-397.33\frx-2.3659\fry-15.1824\org(535.27,885.17)\pos(531.17,885.21)}Hero Mart
+Dialogue: 0,0:12:08.70,0:12:08.74,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.24\fscy185.29\frz-397.34\frx-2.3659\fry-15.1824\org(535.18,885.27)\pos(531.07,885.31)}Hero Mart
+Dialogue: 0,0:12:08.74,0:12:08.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.26\fscy185.3\frz-397.34\frx-2.3659\fry-15.1824\org(535.14,885.3)\pos(531.03,885.33)}Hero Mart
+Dialogue: 0,0:12:08.79,0:12:08.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.35\fscy185.39\frz-397.35\frx-2.3659\fry-15.1824\org(534.97,885.5)\pos(530.87,885.54)}Hero Mart
+Dialogue: 0,0:12:08.83,0:12:08.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.38\fscy185.42\frz-397.36\frx-2.3659\fry-15.1824\org(534.9,885.59)\pos(530.79,885.63)}Hero Mart
+Dialogue: 0,0:12:08.87,0:12:08.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.41\fscy185.45\frz-397.36\frx-2.3659\fry-15.1824\org(534.85,885.77)\pos(530.74,885.8)}Hero Mart
+Dialogue: 0,0:12:08.91,0:12:08.95,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.45\fscy185.49\frz-397.36\frx-2.3659\fry-15.1824\org(534.79,885.89)\pos(530.68,885.93)}Hero Mart
+Dialogue: 0,0:12:08.95,0:12:08.99,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.48\fscy185.51\frz-397.38\frx-2.3659\fry-15.1824\org(534.7,886.09)\pos(530.59,886.12)}Hero Mart
+Dialogue: 0,0:12:08.99,0:12:09.04,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.51\fscy185.55\frz-397.37\frx-2.3659\fry-15.1824\org(534.68,886.21)\pos(530.57,886.24)}Hero Mart
+Dialogue: 0,0:12:09.04,0:12:09.08,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.55\fscy185.58\frz-397.36\frx-2.3659\fry-15.1824\org(534.64,886.39)\pos(530.52,886.43)}Hero Mart
+Dialogue: 0,0:12:09.08,0:12:09.12,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.55\fscy185.58\frz-397.37\frx-2.3659\fry-15.1824\org(534.62,886.49)\pos(530.51,886.53)}Hero Mart
+Dialogue: 0,0:12:09.12,0:12:09.16,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.59\fscy185.63\frz-397.37\frx-2.3659\fry-15.1824\org(534.58,886.71)\pos(530.46,886.74)}Hero Mart
+Dialogue: 0,0:12:09.16,0:12:09.20,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.62\fscy185.66\frz-397.37\frx-2.3659\fry-15.1824\org(534.54,886.84)\pos(530.42,886.87)}Hero Mart
+Dialogue: 0,0:12:09.20,0:12:09.25,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.66\fscy185.7\frz-397.37\frx-2.3659\fry-15.1824\org(534.47,887.05)\pos(530.36,887.09)}Hero Mart
+Dialogue: 0,0:12:09.25,0:12:09.29,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.68\fscy185.71\frz-397.37\frx-2.3659\fry-15.1824\org(534.46,887.21)\pos(530.35,887.25)}Hero Mart
+Dialogue: 0,0:12:09.29,0:12:09.33,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.74\fscy185.77\frz-397.38\frx-2.3659\fry-15.1824\org(534.36,887.45)\pos(530.25,887.48)}Hero Mart
+Dialogue: 0,0:12:09.33,0:12:09.37,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.78\fscy185.81\frz-397.38\frx-2.3659\fry-15.1824\org(534.31,887.59)\pos(530.19,887.63)}Hero Mart
+Dialogue: 0,0:12:09.37,0:12:09.41,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.79\fscy185.82\frz-397.38\frx-2.3659\fry-15.1824\org(534.28,887.8)\pos(530.16,887.83)}Hero Mart
+Dialogue: 0,0:12:09.41,0:12:09.45,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.83\fscy185.86\frz-397.39\frx-2.3659\fry-15.1824\org(534.21,887.95)\pos(530.1,887.98)}Hero Mart
+Dialogue: 0,0:12:09.45,0:12:09.50,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.9\fscy185.93\frz-397.39\frx-2.3659\fry-15.1824\org(534.12,888.22)\pos(530,888.25)}Hero Mart
+Dialogue: 0,0:12:09.50,0:12:09.54,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.9\fscy185.92\frz-397.39\frx-2.3659\fry-15.1824\org(534.12,888.28)\pos(530,888.31)}Hero Mart
+Dialogue: 0,0:12:09.54,0:12:09.58,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.95\fscy185.97\frz-397.4\frx-2.3659\fry-15.1824\org(534.03,888.41)\pos(529.91,888.45)}Hero Mart
+Dialogue: 0,0:12:09.58,0:12:09.62,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx190.98\fscy186\frz-397.4\frx-2.3659\fry-15.1824\org(533.97,888.53)\pos(529.85,888.56)}Hero Mart
+Dialogue: 0,0:12:09.62,0:12:09.66,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.03\fscy186.05\frz-397.4\frx-2.3659\fry-15.1824\org(533.91,888.74)\pos(529.79,888.78)}Hero Mart
+Dialogue: 0,0:12:09.66,0:12:09.70,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.08\fscy186.1\frz-397.41\frx-2.3659\fry-15.1824\org(533.83,888.85)\pos(529.71,888.88)}Hero Mart
+Dialogue: 0,0:12:09.70,0:12:09.75,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.1\fscy186.12\frz-397.41\frx-2.3659\fry-15.1824\org(533.74,888.96)\pos(529.62,888.99)}Hero Mart
+Dialogue: 0,0:12:09.75,0:12:09.79,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.14\fscy186.16\frz-397.41\frx-2.3659\fry-15.1824\org(533.66,889.04)\pos(529.53,889.08)}Hero Mart
+Dialogue: 0,0:12:09.79,0:12:09.83,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.18\fscy186.2\frz-397.42\frx-2.3659\fry-15.1824\org(533.55,889.16)\pos(529.42,889.2)}Hero Mart
+Dialogue: 0,0:12:09.83,0:12:09.87,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.2\fscy186.22\frz-397.43\frx-2.3659\fry-15.1824\org(533.47,889.23)\pos(529.34,889.26)}Hero Mart
+Dialogue: 0,0:12:09.87,0:12:09.91,0$mask,,0,0,0,,{\fnDK Carrot Juice\an5\c&H282F35&\blur1\fax0.143793\fscx191.24\fscy186.26\frz-397.42\frx-2.3659\fry-15.1824\org(533.37,889.36)\pos(529.24,889.4)}Hero Mart
+Comment: 0,0:22:44.89,0:22:44.97,0$Default,,0,0,0,,Post-ED
+Dialogue: 1,0:22:44.89,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.89,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.56,0:23:09.91,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(590,1049.2)}Dragon Warp
+Dialogue: 0,0:22:48.56,0:23:09.91,0$Take H,,0,0,0,,{\c&H030309&\bord3.5\blur1\fs90\3c&H030309&\shad0\pos(590,1049.2)}Dragon Warp
+Dialogue: 1,0:23:09.91,0:23:24.93,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:09.91,0:23:24.93,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:18.84,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,720)}A New Item from Fairy Electronics
+Dialogue: 1,0:23:18.84,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&HDA00D6&\bord4\fade(450,0)\c&HDA00D6&\blur0.7\pos(972,720)}A New Item from Fairy Electronics
+Dialogue: 0,0:23:18.84,0:23:24.93,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,720)}A New Item from Fairy Electronics
+Dialogue: 1,0:20:54.36,0:20:59.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf77\3c&H6FA800&\2c&H456706&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:20:54.36,0:20:59.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}nee kimi doko kara kita no?
+Dialogue: 1,0:20:54.36,0:20:59.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}Where are you from?
+Dialogue: 0,0:20:54.36,0:20:59.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}Where are you from?
+Dialogue: 1,0:20:59.03,0:21:03.58,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&H6FA800&\2c&H456706&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:20:59.03,0:21:03.58,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}ima boku hima shiten dakedo
+Dialogue: 1,0:20:59.03,0:21:03.58,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}I've got time to spare
+Dialogue: 0,0:20:59.03,0:21:03.58,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}I've got time to spare
+Dialogue: 1,0:21:03.58,0:21:08.16,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\kf66\3c&HE1811E&\2c&H834B0F&\bord0}ocha{\kf40}{\kf82}shite{\kf50} {\kf72}morae {\kf128}masenka?
+Dialogue: 0,0:21:03.58,0:21:08.16,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ochashite morae masenka?
+Dialogue: 1,0:21:03.58,0:21:08.16,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Can I pour you some tea?
+Dialogue: 0,0:21:03.58,0:21:08.16,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Can I pour you some tea?
+Dialogue: 1,0:21:08.16,0:21:13.21,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf32\kf86\3c&HE1811E&\2c&H834B0F&\bord0}dame?{\kf34} {\kf68}dame?{\kf44} {\kf102}doushite {\kf94}desuka{\kf44}
+Dialogue: 0,0:21:08.16,0:21:13.21,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}dame? dame? doushite desuka
+Dialogue: 1,0:21:08.16,0:21:13.21,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}No, you say? What's wrong?
+Dialogue: 0,0:21:08.16,0:21:13.21,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}No, you say? What's wrong?
+Dialogue: 1,0:21:13.21,0:21:17.84,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&HE1811E&\2c&H046559&\bord0}ji{\kf50}n{\kf58}sei {\kf40}wa{\kf32} {\kf111}rooringu{\kf79} sutoon{\kf19}
+Dialogue: 0,0:21:13.21,0:21:17.84,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H0B9478&\3c&H0B9478&\4c&H0B9478&}jinsei wa rooringu sutoon
+Dialogue: 1,0:21:13.21,0:21:17.84,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H0728A3&\bord0}Life is like a rolling stone
+Dialogue: 0,0:21:13.21,0:21:17.84,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H014FFF&\3c&H014FFF&\4c&H014FFF&}Life is like a rolling stone
+Dialogue: 1,0:21:17.84,0:21:22.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf130\3c&HE1811E&\2c&H102A80&\bord0}tamaru {\kf120}konbini {\kf48}bukur{\kf154}o{\kf27}
+Dialogue: 0,0:21:17.84,0:21:22.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}tamaru konbini bukuro
+Dialogue: 1,0:21:17.84,0:21:22.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Shopping bags piling up
+Dialogue: 0,0:21:17.84,0:21:22.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Shopping bags piling up
+Dialogue: 1,0:21:22.64,0:21:27.35,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf60\3c&HE1811E&\2c&H102A80&\bord0}se{\kf40}i{\kf60}shun {\kf46}wa{\kf28} {\kf112}kumori {\kf100}zora{\kf14}
+Dialogue: 0,0:21:22.64,0:21:27.35,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}seishun wa kumori zora
+Dialogue: 1,0:21:22.64,0:21:27.35,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Youth is like a dark cloudy sky
+Dialogue: 0,0:21:22.64,0:21:27.35,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Youth is like a dark cloudy sky
+Dialogue: 1,0:21:27.35,0:21:31.10,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf114\3c&HE1811E&\2c&H706304&\bord0}sumafo {\kf110}izon{\kf50}shou {\kf78}sa{\kf14}
+Dialogue: 0,0:21:27.35,0:21:31.10,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}sumafo izonshou sa
+Dialogue: 1,0:21:27.35,0:21:31.10,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}They're all glued to their phones
+Dialogue: 0,0:21:27.35,0:21:31.10,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}They're all glued to their phones
+Dialogue: 1,0:21:31.10,0:21:33.48,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf48\3c&HE1811E&\2c&H706304&\bord0}donzoko {\kf42}demo {\kf44}ii{\kf68}jan{\kf25}
+Dialogue: 0,0:21:31.10,0:21:33.48,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}donzoko demo iijan
+Dialogue: 1,0:21:31.10,0:21:33.48,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So what if we've hit rock bottom
+Dialogue: 0,0:21:31.10,0:21:33.48,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So what if we've hit rock bottom
+Dialogue: 1,0:21:33.48,0:21:35.77,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf9\3c&HE1811E&\2c&H706304&\bord0}ki {\kf20}ni {\kf62}shinakute {\kf36}ii{\kf70}jan{\kf23}
+Dialogue: 0,0:21:33.48,0:21:35.77,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}ki ni shinakute iijan
+Dialogue: 1,0:21:33.48,0:21:35.77,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't get so hung up on it
+Dialogue: 0,0:21:33.48,0:21:35.77,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}Don't get so hung up on it
+Dialogue: 1,0:21:35.77,0:21:37.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:35.77,0:21:37.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:35.77,0:21:37.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:35.77,0:21:37.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:37.61,0:21:40.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H0D7349&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf2}ru {\kf54}kamojan
+Dialogue: 0,0:21:37.61,0:21:40.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tabetara kateru kamojan
+Dialogue: 1,0:21:37.61,0:21:40.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:37.61,0:21:40.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:40.49,0:21:42.66,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H0D7349&\bord0}dame {\kf34}dame {\kf26}demo {\kf48}ii{\kf73}jan
+Dialogue: 0,0:21:40.49,0:21:42.66,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}dame dame demo iijan
+Dialogue: 1,0:21:40.49,0:21:42.66,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}But if it won't? Oh well
+Dialogue: 0,0:21:40.49,0:21:42.66,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}But if it won't? Oh well
+Dialogue: 1,0:21:42.66,0:21:45.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf30\3c&HE1811E&\2c&H0D7349&\bord0}dou{\kf33}tte {\kf42}koto {\kf46}nee{\kf54}jan{\kf23}
+Dialogue: 0,0:21:42.66,0:21:45.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}doutte koto neejan
+Dialogue: 1,0:21:42.66,0:21:45.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't worry 'bout it
+Dialogue: 0,0:21:42.66,0:21:45.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Don't worry 'bout it
+Dialogue: 1,0:21:45.03,0:21:47.08,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:45.03,0:21:47.08,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:45.03,0:21:47.08,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:45.03,0:21:47.08,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:47.08,0:21:50.00,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H822033&\bord0}me{\kf36}ge{\kf38}zu {\kf20}ni {\kf20}i{\kf42}kou{\kf78}ze{\kf21}
+Dialogue: 0,0:21:47.08,0:21:50.00,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}megezu ni ikouze
+Dialogue: 1,0:21:47.08,0:21:50.00,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep moving forward
+Dialogue: 0,0:21:47.08,0:21:50.00,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}And keep moving forward
+Dialogue: 1,0:21:50.00,0:21:52.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\3c&HE1811E&\2c&H822033&\bord0}charan{\kf26}poran {\kf26}de {\kf44}ii{\kf68}jan{\kf18}
+Dialogue: 0,0:21:50.00,0:21:52.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}charanporan de iijan
+Dialogue: 1,0:21:50.00,0:21:52.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}Maybe we're kinda sloppy
+Dialogue: 0,0:21:50.00,0:21:52.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}Maybe we're kinda sloppy
+Dialogue: 1,0:21:52.12,0:21:54.46,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf38\3c&HE1811E&\2c&H822033&\bord0}mucha{\kf30}kucha {\kf32}de {\kf40}ii{\kf66}jan{\kf17}
+Dialogue: 0,0:21:52.12,0:21:54.46,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}muchakucha de iijan
+Dialogue: 1,0:21:52.12,0:21:54.46,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}And sure we're kinda reckless
+Dialogue: 0,0:21:52.12,0:21:54.46,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}And sure we're kinda reckless
+Dialogue: 1,0:21:54.46,0:21:56.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H822033&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:54.46,0:21:56.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}katsudon tabe yoojan
+Dialogue: 1,0:21:54.46,0:21:56.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:54.46,0:21:56.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:56.25,0:21:59.13,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H822033&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf28}ru {\kf54}kamojan
+Dialogue: 0,0:21:56.25,0:21:59.13,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}tabetara kateru kamojan
+Dialogue: 1,0:21:56.25,0:21:59.13,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:56.25,0:21:59.13,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:59.13,0:22:01.47,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf40\3c&HE1811E&\2c&H0D7349&\bord0}masshi{\kf32}gura {\kf32}de {\kf36}ii{\kf68}jan{\kf16}
+Dialogue: 0,0:21:59.13,0:22:01.47,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}masshigura de iijan
+Dialogue: 1,0:21:59.13,0:22:01.47,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So let's go full speed
+Dialogue: 0,0:21:59.13,0:22:01.47,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So let's go full speed
+Dialogue: 1,0:22:01.47,0:22:03.84,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf34\3c&HE1811E&\2c&H0D7349&\bord0}tsuki {\kf72}susumeba {\kf36}ii{\kf74}jan{\kf12}
+Dialogue: 0,0:22:01.47,0:22:03.84,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tsuki susumeba iijan
+Dialogue: 1,0:22:01.47,0:22:03.84,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep pushing onwards
+Dialogue: 0,0:22:01.47,0:22:03.84,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}And keep pushing onwards
+Dialogue: 1,0:22:03.84,0:22:05.76,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:22:03.84,0:22:05.76,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:22:03.84,0:22:05.76,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:22:03.84,0:22:05.76,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}C'mon, let's eat some katsudon
+Dialogue: 1,0:22:05.76,0:22:09.43,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf36\3c&HE1811E&\2c&H834B0F&\bord0}to{\kf38}ko{\kf46}ton {\kf32}ya{\kf40}rou{\kf20}z{\kf128}e{\kf29}
+Dialogue: 0,0:22:05.76,0:22:09.43,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}tokoton yarouze
+Dialogue: 1,0:22:05.76,0:22:09.43,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}And see our goals all the way through
+Dialogue: 0,0:22:05.76,0:22:09.43,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}And see our goals all the way through
+Dialogue: 1,0:22:09.43,0:22:13.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:22:09.43,0:22:13.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}nee kimi doko kara kita no?
+Dialogue: 1,0:22:09.43,0:22:13.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Where are you from?
+Dialogue: 0,0:22:09.43,0:22:13.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Where are you from?
+Dialogue: 1,0:22:13.94,0:22:18.23,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:22:13.94,0:22:18.23,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ima boku hima shiten dakedo
+Dialogue: 1,0:22:13.94,0:22:18.23,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H540C53&\bord0}I've got time to spare
+Dialogue: 0,0:22:13.94,0:22:18.23,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF27FF&\3c&HFF27FF&\4c&HFF27FF&}I've got time to spare
+Dialogue: 1,0:22:18.23,0:22:23.70,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf23\3c&HE1811E&\2c&H834B0F&\bord0}Why {\kf26}don't {\kf24}we {\kf104}eat{\kf62} {\kf40}KATSU{\kf24}D{\kf233}ON?
+Dialogue: 0,0:22:18.23,0:22:23.70,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}Why don't we eat KATSUDON?
+

@@ -1,0 +1,1022 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 44
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E4E6E3,&H00DEA4D9,&H00F0236F,&H00434343,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00DBA9A4,&H00FA4789,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.36,0:00:05.13,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.13,0:00:08.28,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.28,0:00:10.28,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.28,0:00:12.17,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.70,0:00:16.66,0$Default,,0,0,0,,After a long battle,\NI've finally defeated the evil merchant Vinegar Khan,
+Dialogue: 0,0:00:16.66,0:00:19.46,0$Default,,0,0,0,,and now I'm moving towards a new goal!
+Dialogue: 0,0:00:20.30,0:00:22.54,0$Default,,0,0,0,,Whatever perils await me,
+Dialogue: 0,0:00:22.54,0:00:26.01,0$Default,,0,0,0,,I'll fully, flawlessly overcome them!
+Dialogue: 0,0:00:54.45,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:01.58,0:01:02.46,0$Default,,0,0,0,,{\an8}Scardon!
+Dialogue: 0,0:01:02.46,0:01:05.75,0$Default,,0,0,0,,{\an8}So Scardon's the one who took your panties!
+Dialogue: 0,0:01:05.75,0:01:08.01,0$Default,,0,0,0,,{\an8}Demi-Glace Castle, eh?
+Dialogue: 0,0:01:08.01,0:01:11.10,0$Default,,0,0,0,,The Great Airship should be able\Nto make that trip!
+Dialogue: 0,0:01:11.10,0:01:12.14,0$Default,,0,0,0,,No way.
+Dialogue: 0,0:01:12.14,0:01:13.93,0$Default,,0,0,0,,Aw, man. You can't do it?
+Dialogue: 0,0:01:13.93,0:01:15.56,0$Default,,0,0,0,,Not with that lame husk of a ship.
+Dialogue: 0,0:01:15.56,0:01:16.26,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:16.26,0:01:19.86,0$Default,,0,0,0,,If I'm gonna make a ship,\NI'm gonna make it my way.
+Dialogue: 0,0:01:20.44,0:01:25.15,0$Default,,0,0,0,,But building the Great Airship requires\Nmobilizing several different brands' technologies.
+Dialogue: 0,0:01:26.03,0:01:29.61,0$Default,,0,0,0,,To begin with,\Nwe need Detton's shipbuilding tech.
+Dialogue: 0,0:01:29.61,0:01:30.82,0$Default,,0,0,0,,How is it, Mr. Rice?
+Dialogue: 0,0:01:30.82,0:01:32.11,0$Default,,0,0,0,,It's finished!
+Dialogue: 0,0:01:32.11,0:01:35.85,0$Default,,0,0,0,,I'll get back to Detton and begin\Nwork on the airship's hull!
+Dialogue: 0,0:01:35.85,0:01:36.87,0$Default,,0,0,0,,Hooray!
+Dialogue: 0,0:01:36.87,0:01:38.62,0$Default,,0,0,0,,What else is needed for the ship?
+Dialogue: 0,0:01:38.62,0:01:41.37,0$Default,,0,0,0,,We'll need instruments\Nthat measure to a nanolevel,
+Dialogue: 0,0:01:41.37,0:01:43.37,0$Default,,0,0,0,,and only Peffany makes those.
+Dialogue: 0,0:01:43.37,0:01:45.00,0$Default,,0,0,0,,Alright, Mr. Yonekawa.
+Dialogue: 0,0:01:45.00,0:01:46.77,0$Default,,0,0,0,,Glad to have you on board!
+Dialogue: 0,0:01:46.77,0:01:48.42,0$Default,,0,0,0,,I'll do what I can.
+Dialogue: 0,0:01:48.42,0:01:50.40,0$Default,,0,0,0,,We also need high-level\Nmaneuvering equipment,
+Dialogue: 0,0:01:50.40,0:01:52.63,0$Default,,0,0,0,,something we can only go to\NPaccarat Lapa for.
+Dialogue: 0,0:01:52.63,0:01:54.87,0$Default,,0,0,0,,Ho-Horse-Horse!
+Dialogue: 0,0:01:54.87,0:01:56.98,0$Default,,0,0,0,,Welcome to Paccarat Lapa!
+Dialogue: 0,0:01:56.98,0:01:59.97,0$Default,,0,0,0,,Mr. Mallow,\Nwe've captured Mangolas Si!
+Dialogue: 0,0:01:59.97,0:02:02.79,0$Default,,0,0,0,,So will you help us build\Nthe Great Airship?
+Dialogue: 0,0:02:02.79,0:02:04.48,0$Default,,0,0,0,,Absolutely!
+Dialogue: 0,0:02:05.03,0:02:07.17,0$Default,,0,0,0,,And lastly, a black magic engine.
+Dialogue: 0,0:02:07.17,0:02:09.30,0$Default,,0,0,0,,If we want to break through\Nthe magic barrier,
+Dialogue: 0,0:02:09.30,0:02:12.65,0$Default,,0,0,0,,we'll need Fairy Electronics' technology.
+Dialogue: 0,0:02:12.65,0:02:14.29,0$Default,,0,0,0,,How is it, Mr. Ricot?
+Dialogue: 0,0:02:14.29,0:02:18.03,0$Default,,0,0,0,,Bravo! I've never seen\Nsuch an innovative commercial.
+Dialogue: 0,0:02:18.03,0:02:20.79,0$Default,,0,0,0,,So will you lend us a hand\Non our Great Airship?
+Dialogue: 0,0:02:20.79,0:02:22.04,0$Default,,0,0,0,,Absolutely!
+Dialogue: 0,0:02:22.04,0:02:23.58,0$Default,,0,0,0,,We've got everything we need!
+Dialogue: 0,0:02:23.58,0:02:24.96,0$Default,,0,0,0,,The rest is up to you, Goemon!
+Dialogue: 0,0:02:24.96,0:02:25.92,0$Default,,0,0,0,,I'm on it.
+Dialogue: 0,0:02:25.92,0:02:27.82,0$Default,,0,0,0,,Scardon's going down!
+Dialogue: 0,0:02:27.82,0:02:31.51,0$Default,,0,0,0,,I'm gonna fully, flawlessly\Nretrieve Melora's panties!
+Dialogue: 0,0:02:32.63,0:02:33.32,0$Default,,0,0,0,,{\an8}Yes.
+Dialogue: 0,0:02:33.32,0:02:34.93,0$Default,,0,0,0,,{\an8}That's good, thank you.
+Dialogue: 0,0:02:35.59,0:02:38.43,0$Default,,0,0,0,,They'll be doing finishing touches\Non the Great Airship tonight.
+Dialogue: 0,0:02:38.43,0:02:40.74,0$Default,,0,0,0,,Wow! It's finally ready!
+Dialogue: 0,0:02:40.74,0:02:44.37,0$Default,,0,0,0,,They're really making haste, too!\NTalk about professionals.
+Dialogue: 0,0:02:44.37,0:02:46.04,0$Default,,0,0,0,,I call dibs on getting on first!
+Dialogue: 0,0:02:46.04,0:02:48.15,0$Default,,0,0,0,,Hey, that's no fair!
+Dialogue: 0,0:02:48.94,0:02:51.94,0$Default,,0,0,0,,We'll head straight towards\NDemi-Glace Castle tomorrow.
+Dialogue: 0,0:02:51.94,0:02:53.92,0$Default,,0,0,0,,Time for us to go into battle!
+Dialogue: 0,0:02:53.92,0:02:55.24,0$Default,,0,0,0,,Scardon's going down!
+Dialogue: 0,0:02:55.95,0:02:58.83,0$Default,,0,0,0,,Scardon has to be much stronger\Nthan Vinegar, right?
+Dialogue: 0,0:02:59.41,0:03:01.71,0$Default,,0,0,0,,Of course. Like night and day.
+Dialogue: 0,0:03:01.71,0:03:03.06,0$Default,,0,0,0,,Are we ready for this...?
+Dialogue: 0,0:03:03.06,0:03:06.27,0$Default,,0,0,0,,Hmm... You're right, there's no saying\Nif we come back from this one.
+Dialogue: 0,0:03:07.82,0:03:11.86,0$Default,,0,0,0,,Alright! Once the battle is over,\NI'll tell Princess Melora I love her!
+Dialogue: 0,0:03:11.86,0:03:14.45,0$Default,,0,0,0,,Calm down there, Chup!\NYou're setting yourself up to die!
+Dialogue: 0,0:03:14.45,0:03:15.74,0$Default,,0,0,0,,What'cha mean?
+Dialogue: 0,0:03:15.74,0:03:17.66,0$Default,,0,0,0,,Whenever a movie character talks like that,
+Dialogue: 0,0:03:17.66,0:03:19.97,0$Default,,0,0,0,,it practically guarantees\Nthey'll die afterwards!
+Dialogue: 0,0:03:19.97,0:03:22.01,0$Default,,0,0,0,,Wait, what?!\NDisregard what I just said!!
+Dialogue: 0,0:03:22.01,0:03:23.64,0$Default,,0,0,0,,Aah, Chup!
+Dialogue: 0,0:03:23.64,0:03:25.52,0$Default,,0,0,0,,Your shoelace ripped!
+Dialogue: 0,0:03:25.52,0:03:27.00,0$Default,,0,0,0,,You're right!
+Dialogue: 0,0:03:27.00,0:03:29.86,0$Default,,0,0,0,,That's a bad omen...\NI think you might actually die!
+Dialogue: 0,0:03:33.99,0:03:35.97,0$Default,,0,0,0,,A black cat! Yet another bad omen!
+Dialogue: 0,0:03:35.97,0:03:37.38,0$Default,,0,0,0,,I saw it too...
+Dialogue: 0,0:03:37.38,0:03:38.30,0$Default,,0,0,0,,Me too.
+Dialogue: 0,0:03:40.66,0:03:43.04,0$Default,,0,0,0,,I don't think I can sleep tonight!
+Dialogue: 0,0:03:55.63,0:03:57.05,0$Default,,0,0,0,,Off we go then!
+Dialogue: 0,0:03:57.05,0:03:59.82,0$Default,,0,0,0,,Good luck out there!\NI believe in you.
+Dialogue: 0,0:03:59.82,0:04:01.83,0$Default,,0,0,0,,Thanks! Take care, Ms. Yamamoto!
+Dialogue: 0,0:04:01.83,0:04:03.26,0$Default,,0,0,0,,Take this with you!
+Dialogue: 0,0:04:03.26,0:04:05.41,0$Default,,0,0,0,,Oh! Melonpan cookies!
+Dialogue: 0,0:04:05.41,0:04:06.64,0$Default,,0,0,0,,Uh, wait...
+Dialogue: 0,0:04:06.64,0:04:09.52,0$Default,,0,0,0,,Melonpan cookie \Nice chocolate crackers?!
+Dialogue: 0,0:04:09.52,0:04:11.71,0$Default,,0,0,0,,Huh? What even are those?
+Dialogue: 0,0:04:11.71,0:04:12.88,0$Default,,0,0,0,,They made crackers?
+Dialogue: 0,0:04:12.88,0:04:15.90,0$Default,,0,0,0,,The makers must've\Nlost sight of their course.
+Dialogue: 0,0:04:20.20,0:04:21.55,0$Default,,0,0,0,,Where's the airship?
+Dialogue: 0,0:04:21.55,0:04:24.89,0$Default,,0,0,0,,C'mon, Darefalcon,\Ncouldn't you have warped us closer?
+Dialogue: 0,0:04:24.89,0:04:27.06,0$Default,,0,0,0,,Oh, I mean, Warp-pa!\NCouldn't you have...
+Dialogue: 0,0:04:27.06,0:04:29.85,0$Default,,0,0,0,,You don't have to repeat yourself,\Nyou were right the first time.
+Dialogue: 0,0:04:29.85,0:04:31.69,0$Default,,0,0,0,,Wa-P, go check over there.
+Dialogue: 0,0:04:31.69,0:04:34.44,0$Default,,0,0,0,,Don't shorten it!\NAlso, I'm not your gofer!
+Dialogue: 0,0:04:34.44,0:04:35.21,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:04:36.26,0:04:37.51,0$Default,,0,0,0,,It's finished!
+Comment: 0,0:04:42.93,0:04:42.97,0$Default,,0,0,0,,Sky Barracuda
+Dialogue: 0,0:04:46.02,0:04:48.96,0$Default,,0,0,0,,Wowie-zowie-wowie!
+Dialogue: 0,0:04:48.96,0:04:50.77,0$Default,,0,0,0,,This is the new Great Airship.
+Dialogue: 0,0:04:50.77,0:04:53.53,0$Default,,0,0,0,,We call it the Sky Barracuda.
+Dialogue: 0,0:04:53.53,0:04:54.75,0$Default,,0,0,0,,The Sky Barracuda!
+Dialogue: 0,0:04:54.75,0:04:56.71,0$Default,,0,0,0,,Now that rolls off the tongue!
+Dialogue: 0,0:04:56.71,0:04:57.94,0$Default,,0,0,0,,Yeah, wicked cool!
+Dialogue: 0,0:04:58.65,0:05:00.26,0$Default,,0,0,0,,Ho-Ho-Hose!
+Dialogue: 0,0:05:00.26,0:05:03.03,0$Default,,0,0,0,,Why did we call it that, you ask?
+Dialogue: 0,0:05:03.03,0:05:04.78,0$Default,,0,0,0,,Allow me to explain\Nfrom the beginning...
+Dialogue: 0,0:05:04.78,0:05:07.37,0$Default,,0,0,0,,Don't you dare go on for ages!
+Dialogue: 0,0:05:07.37,0:05:10.77,0$Default,,0,0,0,,We'll be able to break through\Nthe magic barrier with this, right?
+Dialogue: 0,0:05:10.77,0:05:12.04,0$Default,,0,0,0,,In theory, yes.
+Dialogue: 0,0:05:12.38,0:05:13.77,0$Default,,0,0,0,,Don't worry 'bout it.
+Dialogue: 0,0:05:13.77,0:05:16.13,0$Default,,0,0,0,,If it doesn't, deal with it when that happens.
+Dialogue: 0,0:05:16.13,0:05:17.78,0$Default,,0,0,0,,Why are you brushing it off?
+Dialogue: 0,0:05:17.78,0:05:20.11,0$Default,,0,0,0,,What'll happen if we can't break the barrier?
+Dialogue: 0,0:05:20.11,0:05:22.56,0$Default,,0,0,0,,This should stay on the down-low...
+Dialogue: 0,0:05:22.56,0:05:25.56,0$Default,,0,0,0,,but it'll crash into the wall\Nand explode into wood chips!
+Dialogue: 0,0:05:25.56,0:05:28.27,0$Default,,0,0,0,,That's awful!\NShouldn't you do something about that?
+Dialogue: 0,0:05:28.27,0:05:29.71,0$Default,,0,0,0,,Worry not.
+Dialogue: 0,0:05:29.71,0:05:32.77,0$Default,,0,0,0,,You'll be much at ease\Nonce you've seen the interior.
+Dialogue: 0,0:05:34.52,0:05:36.30,0$Default,,0,0,0,,This is the cockpit.
+Dialogue: 0,0:05:37.80,0:05:40.47,0$Default,,0,0,0,,Allow me to detail\Nits primary features.
+Dialogue: 0,0:05:40.47,0:05:44.74,0$Default,,0,0,0,,The pilot's chair is\Na grade-5 recliner.
+Dialogue: 0,0:05:44.74,0:05:47.60,0$Default,,0,0,0,,You can press this button\Nto activate the massage,
+Dialogue: 0,0:05:47.60,0:05:50.16,0$Default,,0,0,0,,and select from both vertical and horizontal.
+Dialogue: 0,0:05:52.42,0:05:54.13,0$Default,,0,0,0,,Why does this matter?
+Dialogue: 0,0:05:54.21,0:05:56.27,0$Default,,0,0,0,,Over there is the refridgerator.
+Dialogue: 0,0:05:56.27,0:05:59.88,0$Default,,0,0,0,,It may be small, but it can make ice\Nevery 30 minutes.
+Dialogue: 0,0:06:01.15,0:06:03.76,0$Default,,0,0,0,,Thank goodness it\Nmakes ice on its own!
+Dialogue: 0,0:06:03.76,0:06:08.16,0$Default,,0,0,0,,Through that door and downstairs\Nis a karaoke booth with scoring.
+Dialogue: 0,0:06:08.16,0:06:10.14,0$Default,,0,0,0,,The other door leads to a tanning salon.
+Dialogue: 0,0:06:11.41,0:06:13.04,0$Default,,0,0,0,,These additions are, well, Great!
+Dialogue: 0,0:06:13.04,0:06:15.10,0$Default,,0,0,0,,But we don't need all of this, no?
+Dialogue: 0,0:06:15.10,0:06:18.92,0$Default,,0,0,0,,Also, if you go on the deck at night,\Nyou'll be able to stargaze.
+Dialogue: 0,0:06:18.92,0:06:22.03,0$Default,,0,0,0,,However, I'd advise against going out\Nmid-flight as it would be dangerous.
+Dialogue: 0,0:06:22.03,0:06:23.80,0$Default,,0,0,0,,If it's dangerous, don't add it on!
+Dialogue: 0,0:06:23.80,0:06:25.87,0$Default,,0,0,0,,That concludes the primary features.
+Dialogue: 0,0:06:25.87,0:06:26.45,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:06:26.45,0:06:28.33,0$Default,,0,0,0,,I feel in it to win it!
+Dialogue: 0,0:06:28.33,0:06:29.08,0$Default,,0,0,0,,What? Why?!
+Dialogue: 0,0:06:29.08,0:06:31.83,0$Default,,0,0,0,,I wish you all the best in your battle.
+Dialogue: 0,0:06:31.83,0:06:34.23,0$Default,,0,0,0,,Hold on! Who's going to pilot?
+Dialogue: 0,0:06:34.23,0:06:35.69,0$Default,,0,0,0,,Me, me! I'll do it!
+Dialogue: 0,0:06:35.69,0:06:36.61,0$Default,,0,0,0,,Excuse me?!
+Dialogue: 0,0:06:36.61,0:06:39.27,0$Default,,0,0,0,,You realize that's a big task, right?
+Dialogue: 0,0:06:41.30,0:06:42.57,0$Default,,0,0,0,,The time has come.
+Dialogue: 0,0:06:42.57,0:06:45.47,0$Default,,0,0,0,,We're now preparing for takeoff.\NAre you ready?
+Dialogue: 0,0:06:45.47,0:06:46.72,0$Default,,0,0,0,,Yes, ma'am!
+Dialogue: 0,0:06:47.52,0:06:50.22,0$Default,,0,0,0,,{\i1}Okay. Set the operation gauge to level theta,
+Dialogue: 0,0:06:50.22,0:06:52.50,0$Default,,0,0,0,,{\i1}then pull the acceleration lever to full.
+Dialogue: 0,0:06:52.50,0:06:55.10,0$Default,,0,0,0,,{\i1}While you do that, change the\Nignition command to formative.
+Dialogue: 0,0:06:55.10,0:06:56.19,0$Default,,0,0,0,,Umm...
+Dialogue: 0,0:06:58.02,0:06:58.74,0$Default,,0,0,0,,{\i1}All good?
+Dialogue: 0,0:06:58.74,0:07:00.11,0$Default,,0,0,0,,All good!
+Dialogue: 0,0:07:01.11,0:07:03.32,0$Default,,0,0,0,,No it isn't, and you know that!
+Dialogue: 0,0:07:04.74,0:07:07.24,0$Default,,0,0,0,,None of you know how to pilot an airship?!
+Dialogue: 0,0:07:07.24,0:07:07.93,0$Default,,0,0,0,,No...
+Dialogue: 0,0:07:07.93,0:07:08.93,0$Default,,0,0,0,,Are you kiddin' me?
+Dialogue: 0,0:07:08.93,0:07:10.95,0$Default,,0,0,0,,That's pathetic. Now what?
+Dialogue: 0,0:07:10.95,0:07:13.52,0$Default,,0,0,0,,Should we train 'em on the tech now?
+Dialogue: 0,0:07:13.52,0:07:16.87,0$Default,,0,0,0,,We don't know if any of them\Nare new-types.
+Dialogue: 0,0:07:16.87,0:07:18.88,0$Default,,0,0,0,,What's "new-type" mean?
+Dialogue: 0,0:07:18.88,0:07:22.96,0$Default,,0,0,0,,Ho-Ho-Horse!\NI'll explain it from the very beginning...
+Dialogue: 0,0:07:22.96,0:07:24.61,0$Default,,0,0,0,,Save it, okay?
+Dialogue: 0,0:07:24.61,0:07:27.13,0$Default,,0,0,0,,Boo-horse... I just wanna be a part of this.
+Dialogue: 0,0:07:27.13,0:07:31.08,0$Default,,0,0,0,,New-types are those who have\Nthe makings of a pilot.
+Dialogue: 0,0:07:31.08,0:07:34.89,0$Default,,0,0,0,,Only one with good eyesight,\Njudgment, and concentration
+Dialogue: 0,0:07:34.89,0:07:37.60,0$Default,,0,0,0,,can adequately maneuver an airship.
+Dialogue: 0,0:07:37.60,0:07:40.31,0$Default,,0,0,0,,Maybe we should seek out\Na new-type through auditions...
+Dialogue: 0,0:07:40.31,0:07:42.00,0$Default,,0,0,0,,Splendid idea!
+Dialogue: 0,0:07:42.00,0:07:43.15,0$Default,,0,0,0,,You scared me!
+Dialogue: 0,0:07:43.15,0:07:46.90,0$Default,,0,0,0,,Let's work on a commercial\Nfor those auditions right away!
+Comment: 0,0:07:46.95,0:07:47.91,0$Default,,0,0,0,,URGENT AUDITIONS!
+Comment: 0,0:07:47.91,0:07:48.82,0$Default,,0,0,0,,SEEKING PILOTS OF THE FUTURE!
+Comment: 0,0:07:48.82,0:07:49.82,0$Default,,0,0,0,,EXPERIENCE PREFERRED!
+Comment: 0,0:07:53.24,0:07:55.98,0$Default,,0,0,0,,Take a trip with us\Non the Sky Barracuda!
+Dialogue: 1,0:07:53.24,0:07:55.98,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H54FDFF&}Take a trip with us on the Sky Barracuda!
+Dialogue: 0,0:07:53.24,0:07:55.98,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H121212&\3c&H121212&\bord3}Take a trip with us on the Sky Barracuda!
+Dialogue: 0,0:07:57.00,0:07:58.37,0$Default,,0,0,0,,That's so lame.
+Comment: 0,0:07:59.17,0:08:00.67,0$Default,,0,0,0,,Sky Barracuda Pilot Audition No. 1
+Dialogue: 0,0:08:06.14,0:08:08.06,0$Default,,0,0,0,,Wait, you guys are entering too?
+Dialogue: 0,0:08:08.06,0:08:09.66,0$Default,,0,0,0,,Well, yeah! I wanna steer that ship!
+Dialogue: 0,0:08:09.66,0:08:10.57,0$Default,,0,0,0,,Same here!
+Dialogue: 0,0:08:10.57,0:08:12.74,0$Default,,0,0,0,,All men dream of being pilots!
+Dialogue: 0,0:08:12.74,0:08:15.68,0$Default,,0,0,0,,I think steering an airship\Nsuits me best.
+Dialogue: 0,0:08:16.27,0:08:17.69,0$Default,,0,0,0,,You never change...
+Dialogue: 0,0:08:18.89,0:08:22.36,0$Default,,0,0,0,,We will be checking your suitability in stages,\Nstarting with an eye exam.
+Dialogue: 0,0:08:24.07,0:08:26.49,0$Default,,0,0,0,,Tell me, can you see this?
+Dialogue: 0,0:08:26.49,0:08:27.95,0$Default,,0,0,0,,I do! It's C!
+Dialogue: 0,0:08:27.95,0:08:29.24,0$Default,,0,0,0,,C!
+Dialogue: 0,0:08:29.24,0:08:31.37,0$Default,,0,0,0,,Correct! You all pass!
+Dialogue: 0,0:08:31.37,0:08:32.28,0$Default,,0,0,0,,{\an8}Sweet!
+Dialogue: 0,0:08:31.37,0:08:33.01,0$Default,,0,0,0,,We did it!
+Dialogue: 0,0:08:33.01,0:08:34.83,0$Default,,0,0,0,,That didn't narrow the crowd down!
+Dialogue: 0,0:08:34.83,0:08:37.29,0$Default,,0,0,0,,Next is a judgment exam!
+Dialogue: 0,0:08:37.71,0:08:40.96,0$Default,,0,0,0,,Which one would you rather eat:\NLunch A or Lunch B?
+Dialogue: 0,0:08:41.88,0:08:43.02,0$Default,,0,0,0,,I-I couldn't choose!
+Dialogue: 0,0:08:43.02,0:08:45.65,0$Default,,0,0,0,,Both the main dish and the side\Nare different in both...
+Dialogue: 0,0:08:45.65,0:08:47.21,0$Default,,0,0,0,,This is impossible!
+Dialogue: 0,0:08:47.21,0:08:48.84,0$Default,,0,0,0,,You fail!
+Dialogue: 0,0:08:49.13,0:08:53.22,0$Default,,0,0,0,,Fail! Fail! Fail! Fail!
+Dialogue: 0,0:08:53.22,0:08:55.22,0$Default,,0,0,0,,Now, make your pick!
+Dialogue: 0,0:08:55.22,0:08:56.10,0$Default,,0,0,0,,Both!
+Dialogue: 0,0:08:56.10,0:08:58.10,0$Default,,0,0,0,,That was quick! You pass.
+Dialogue: 0,0:08:59.86,0:09:02.54,0$Default,,0,0,0,,Wow, now those two are the only ones left.
+Dialogue: 0,0:09:02.54,0:09:04.61,0$Default,,0,0,0,,Perhaps they're suited for it after all!
+Dialogue: 0,0:09:04.90,0:09:06.32,0$Default,,0,0,0,,I'll pilot the airship!
+Dialogue: 0,0:09:06.32,0:09:07.86,0$Default,,0,0,0,,No, I will!
+Dialogue: 0,0:09:07.86,0:09:10.09,0$Default,,0,0,0,,Does it even matter at this point?
+Dialogue: 0,0:09:10.09,0:09:12.87,0$Default,,0,0,0,,It does. Their suitability needs to be checked.
+Dialogue: 0,0:09:12.87,0:09:15.49,0$Default,,0,0,0,,Have either of you flown before?
+Dialogue: 0,0:09:15.49,0:09:17.72,0$Default,,0,0,0,,Yes! My airship is called Butako!
+Dialogue: 0,0:09:17.72,0:09:20.41,0$Default,,0,0,0,,I also have a dragon of my own!
+Dialogue: 0,0:09:20.41,0:09:21.75,0$Default,,0,0,0,,I see.
+Dialogue: 0,0:09:21.75,0:09:23.67,0$Default,,0,0,0,,I know how to settle this.
+Dialogue: 0,0:09:23.67,0:09:24.17,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:09:27.67,0:09:31.43,0$Default,,0,0,0,,We'll be testing your flight\Nwith your dragons as your ships.
+Dialogue: 0,0:09:31.43,0:09:32.84,0$Default,,0,0,0,,What do we do?
+Dialogue: 0,0:09:33.17,0:09:37.85,0$Default,,0,0,0,,There's a fish called the Pink Ribbonfish\Nliving in the sea south from here.
+Dialogue: 0,0:09:38.18,0:09:42.85,0$Default,,0,0,0,,This saltwater fish got its name for\Nthe resemblance of its gills!
+Dialogue: 0,0:09:42.85,0:09:46.50,0$Default,,0,0,0,,Ride there on your dragons and catch\Na Pink Ribbonfish.
+Dialogue: 0,0:09:46.50,0:09:50.74,0$Default,,0,0,0,,Whoever shows me their fish first\Nwill be nominated pilot.
+Dialogue: 0,0:09:51.10,0:09:53.45,0$Default,,0,0,0,,So it's a matter of who gets back here first.
+Dialogue: 0,0:09:53.45,0:09:55.24,0$Default,,0,0,0,,Alright, Butako! Let's win this!
+Dialogue: 0,0:09:56.00,0:09:57.50,0$Default,,0,0,0,,Now, begin!
+Dialogue: 0,0:09:57.50,0:09:58.72,0$Default,,0,0,0,,Beaujolais, go!
+Dialogue: 0,0:09:58.72,0:10:01.12,0$Default,,0,0,0,,Hey, you cheat!\NLet's move, Butako!
+Dialogue: 0,0:10:01.52,0:10:03.75,0$Default,,0,0,0,,You {\i1}can{\i0} do this!\NLet's go!
+Dialogue: 0,0:10:04.13,0:10:06.88,0$Default,,0,0,0,,There's a world of a difference\Nbetween their dragons' specs.
+Dialogue: 0,0:10:06.88,0:10:09.55,0$Default,,0,0,0,,Yeah, Chup's not winning this one.
+Dialogue: 0,0:10:09.55,0:10:11.67,0$Default,,0,0,0,,Chup, it's time to throw in the tow—
+Dialogue: 0,0:10:12.76,0:10:13.93,0$Default,,0,0,0,,Hey, Ms. Karen!
+Dialogue: 0,0:10:13.93,0:10:18.14,0$Default,,0,0,0,,You said whoever shows you\Nthe pink thingamafish first wins, right?
+Dialogue: 0,0:10:18.14,0:10:19.29,0$Default,,0,0,0,,I did.
+Dialogue: 0,0:10:19.29,0:10:20.39,0$Default,,0,0,0,,Then come on!
+Dialogue: 0,0:10:20.89,0:10:22.27,0$Default,,0,0,0,,You're coming with!
+Dialogue: 0,0:10:22.27,0:10:23.29,0$Default,,0,0,0,,I get it!
+Dialogue: 0,0:10:23.29,0:10:25.88,0$Default,,0,0,0,,Instead of catching the fish\Nand bringing it here,
+Dialogue: 0,0:10:25.88,0:10:27.79,0$Default,,0,0,0,,he's bringing Ms. Karen to the fish!
+Dialogue: 0,0:10:27.79,0:10:30.15,0$Default,,0,0,0,,Saving time with a one-way trip!
+Dialogue: 0,0:10:30.99,0:10:33.22,0$Default,,0,0,0,,Who knew the boy was so crafty.
+Dialogue: 0,0:10:33.22,0:10:35.66,0$Default,,0,0,0,,He might just have the flexibility of a pilot.
+Dialogue: 0,0:10:38.99,0:10:41.16,0$Default,,0,0,0,,I've got this in the bag...
+Dialogue: 0,0:10:41.83,0:10:43.50,0$Default,,0,0,0,,Wait, you're already back?!
+Dialogue: 0,0:10:53.01,0:10:54.34,0$Default,,0,0,0,,{\i1}I{\i0} win!
+Dialogue: 0,0:10:54.34,0:10:57.28,0$Default,,0,0,0,,{\i1}I{\i0} caught it, therefore {\i1}I{\i0} showed it!
+Dialogue: 0,0:10:57.28,0:10:58.22,0$Default,,0,0,0,,No way!
+Dialogue: 0,0:10:58.22,0:11:01.52,0$Default,,0,0,0,,I brought Ms. Karen there,\Nwhich means {\i1}I{\i0} showed it!
+Dialogue: 0,0:11:01.52,0:11:03.33,0$Default,,0,0,0,,So which one of them wins?
+Dialogue: 0,0:11:03.33,0:11:06.04,0$Default,,0,0,0,,The judges don't seem to have a clue either.
+Dialogue: 0,0:11:07.17,0:11:09.36,0$Default,,0,0,0,,We've made a decision.
+Dialogue: 0,0:11:11.82,0:11:13.15,0$Default,,0,0,0,,Both of you fail.
+Dialogue: 0,0:11:13.15,0:11:14.55,0$Default,,0,0,0,,Aw, why?
+Dialogue: 0,0:11:14.55,0:11:17.16,0$Default,,0,0,0,,Please give me a reason!\NI can't accept this!
+Dialogue: 0,0:11:17.16,0:11:18.55,0$Default,,0,0,0,,Simple.
+Dialogue: 0,0:11:18.55,0:11:21.74,0$Default,,0,0,0,,The fish you caught was not\Na Pink Ribbonfish.
+Dialogue: 0,0:11:22.75,0:11:25.52,0$Default,,0,0,0,,It looks similar,\Nbut it's a different species:
+Dialogue: 0,0:11:25.52,0:11:27.63,0$Default,,0,0,0,,the Crimson Pseudo-Ribbonfish.
+Dialogue: 0,0:11:27.63,0:11:30.69,0$Default,,0,0,0,,The Crimson Pseudo-Ribbonfish\Nhas a darker "ribbon",
+Dialogue: 0,0:11:30.69,0:11:33.38,0$Default,,0,0,0,,and is known for having a strong chomp.
+Dialogue: 0,0:11:34.51,0:11:35.99,0$Default,,0,0,0,,Get it off me!
+Dialogue: 0,0:11:35.99,0:11:39.03,0$Default,,0,0,0,,It's gonna rip my head off!
+Dialogue: 0,0:11:39.03,0:11:40.68,0$Default,,0,0,0,,Get it off of me!!
+Dialogue: 0,0:11:41.01,0:11:42.51,0$Default,,0,0,0,,Aw, man!
+Dialogue: 0,0:11:46.64,0:11:50.15,0$Default,,0,0,0,,What are we supposed to do\Nif you fail {\i1}everybody?!
+Dialogue: 0,0:11:50.15,0:11:51.25,0$Default,,0,0,0,,Of horse...
+Dialogue: 0,0:11:51.25,0:11:52.65,0$Default,,0,0,0,,Hard to say.
+Dialogue: 0,0:11:52.65,0:11:57.43,0$Default,,0,0,0,,Do you happen to know who piloted\NGoemon IV's Great Airship?
+Dialogue: 0,0:11:57.43,0:11:59.76,0$Default,,0,0,0,,Beats me. Happened so long ago.
+Dialogue: 0,0:11:59.76,0:12:01.87,0$Default,,0,0,0,,But 6oemon might know.
+Dialogue: 0,0:12:01.87,0:12:04.72,0$Default,,0,0,0,,Okay! Let's go visit 6oemon.
+Dialogue: 0,0:12:04.72,0:12:06.79,0$Default,,0,0,0,,Chup, summon Warp-pa!
+Dialogue: 0,0:12:07.79,0:12:09.21,0$Default,,0,0,0,,I knew you'd ask.
+Dialogue: 0,0:12:11.04,0:12:13.34,0$Default,,0,0,0,,Dragon Warp!
+Dialogue: 0,0:12:14.63,0:12:17.68,0$Default,,0,0,0,,The pilot of the Great Airship...?
+Dialogue: 0,0:12:17.68,0:12:19.87,0$Default,,0,0,0,,Not quite sure...
+Dialogue: 0,0:12:19.87,0:12:24.18,0$Default,,0,0,0,,Oh, I believe I wrote my associates' names\Non the back of the blueprint.
+Dialogue: 0,0:12:24.18,0:12:25.89,0$Default,,0,0,0,,You did?
+Dialogue: 0,0:12:25.89,0:12:27.66,0$Default,,0,0,0,,What did we do with the blueprint?
+Dialogue: 0,0:12:27.66,0:12:29.83,0$Default,,0,0,0,,We gave them back to Mr. Carbonara.
+Dialogue: 0,0:12:29.83,0:12:31.81,0$Default,,0,0,0,,I see. Well, then...
+Dialogue: 0,0:12:36.32,0:12:38.26,0$Default,,0,0,0,,Dragon Warp!
+Dialogue: 0,0:12:40.61,0:12:42.03,0$Default,,0,0,0,,Here it is!
+Dialogue: 0,0:12:42.03,0:12:43.39,0$Default,,0,0,0,,Show us the back.
+Dialogue: 0,0:12:44.85,0:12:45.79,0$Default,,0,0,0,,Let's see...
+Dialogue: 0,0:12:45.79,0:12:49.54,0$Default,,0,0,0,,It says the name of the pilot is\NGriffon VIII.
+Dialogue: 0,0:12:49.54,0:12:51.29,0$Default,,0,0,0,,Huh? Griffon?!
+Dialogue: 0,0:12:54.30,0:12:56.07,0$Default,,0,0,0,,The one we met before?
+Dialogue: 0,0:12:56.07,0:12:58.03,0$Default,,0,0,0,,Or his ancestor?
+Dialogue: 0,0:12:58.03,0:12:59.53,0$Default,,0,0,0,,Let's go ask him!
+Dialogue: 0,0:12:59.53,0:13:01.55,0$Default,,0,0,0,,Hey!
+Dialogue: 0,0:13:01.55,0:13:03.45,0$Default,,0,0,0,,Warp-pa's running away!
+Dialogue: 0,0:13:03.45,0:13:05.56,0$Default,,0,0,0,,Dragon Warp!
+Dialogue: 0,0:13:05.56,0:13:07.81,0$Default,,0,0,0,,Hey! Chup!
+Dialogue: 0,0:13:12.94,0:13:14.88,0$Default,,0,0,0,,Running away is futile!
+Dialogue: 0,0:13:14.88,0:13:16.57,0$Default,,0,0,0,,You never learn, do you?
+Dialogue: 0,0:13:17.95,0:13:20.82,0$Default,,0,0,0,,I apologize...
+Dialogue: 0,0:13:28.91,0:13:32.02,0$Default,,0,0,0,,{\i1}I'm gonna fly an airplane\Nlike my grandpa someday!
+Dialogue: 0,0:13:32.02,0:13:34.59,0$Default,,0,0,0,,{\i1}You loser! You can't fly a plane!
+Dialogue: 0,0:13:36.63,0:13:37.09,0$Default,,0,0,0,,Dang it!
+Dialogue: 0,0:13:40.76,0:13:42.22,0$Default,,0,0,0,,What do you want?
+Dialogue: 0,0:13:43.30,0:13:44.51,0$Default,,0,0,0,,I wanna show you something!
+Dialogue: 0,0:13:46.64,0:13:49.68,0$Default,,0,0,0,,Wowie-zowie-wowie!
+Dialogue: 0,0:13:49.68,0:13:52.94,0$Default,,0,0,0,,Griffon, go take the test\Nto see if you can pilot it!
+Dialogue: 0,0:13:53.94,0:13:54.94,0$Default,,0,0,0,,C!
+Dialogue: 0,0:13:54.94,0:13:55.94,0$Default,,0,0,0,,You pass!
+Dialogue: 0,0:13:56.48,0:13:57.94,0$Default,,0,0,0,,Which one do you wanna eat?
+Dialogue: 0,0:13:57.94,0:13:58.94,0$Default,,0,0,0,,Both!
+Dialogue: 0,0:13:58.94,0:14:00.44,0$Default,,0,0,0,,So fast! You pass!
+Dialogue: 0,0:14:00.61,0:14:02.82,0$Default,,0,0,0,,I bought a Pink Ribbonfish!
+Dialogue: 0,0:14:03.57,0:14:04.57,0$Default,,0,0,0,,You pass.
+Dialogue: 0,0:14:04.57,0:14:06.93,0$Default,,0,0,0,,Unbelievable! They sell them at the fish store!
+Dialogue: 0,0:14:06.93,0:14:09.43,0$Default,,0,0,0,,Feels kind of beside the point, though...
+Dialogue: 0,0:14:09.43,0:14:10.75,0$Default,,0,0,0,,Griffon, nice shopping!
+Dialogue: 0,0:14:11.96,0:14:13.96,0$Default,,0,0,0,,Shopping's a piece of cake!
+Dialogue: 0,0:14:13.96,0:14:16.40,0$Default,,0,0,0,,Looks like we've found our pilot.
+Dialogue: 0,0:14:16.40,0:14:19.09,0$Default,,0,0,0,,Yeah. Griffon, get on board the Sky Barracuda!
+Dialogue: 0,0:14:21.84,0:14:24.74,0$Default,,0,0,0,,Surely he's not gonna be able\Nto pilot it just like that.
+Dialogue: 0,0:14:24.74,0:14:26.85,0$Default,,0,0,0,,They didn't teach him anything!
+Dialogue: 0,0:14:27.72,0:14:30.47,0$Default,,0,0,0,,I've got a good feelin' about this!
+Dialogue: 0,0:14:30.47,0:14:32.94,0$Default,,0,0,0,,I guess what they say is true.
+Dialogue: 0,0:14:32.94,0:14:33.73,0$Default,,0,0,0,,What do they say?
+Dialogue: 0,0:14:33.73,0:14:37.48,0$Default,,0,0,0,,An outstanding aircraft and pilot\Nwill understand one another.
+Dialogue: 0,0:14:37.48,0:14:40.11,0$Default,,0,0,0,,A phenomenon called synchronization.
+Dialogue: 0,0:14:40.44,0:14:44.05,0$Default,,0,0,0,,His qualities may even tower\Nover other new-types.
+Dialogue: 0,0:14:44.05,0:14:45.74,0$Default,,0,0,0,,The kind you only see once a century.
+Dialogue: 0,0:14:46.29,0:14:48.74,0$Default,,0,0,0,,{\i1}System commencing.\NPreparing for takeoff.
+Dialogue: 0,0:14:56.54,0:14:59.98,0$Default,,0,0,0,,{\i1}Entering flight mode.\NLaunching in 30 seconds.
+Dialogue: 0,0:14:59.98,0:15:02.01,0$Default,,0,0,0,,I'm finally gonna fly!
+Comment: 0,0:15:08.05,0:15:08.10,0$Default,,0,0,0,,Scardon
+Dialogue: 0,0:15:10.60,0:15:11.75,0$Default,,0,0,0,,Scardon?!
+Dialogue: 0,0:15:11.75,0:15:13.39,0$Default,,0,0,0,,Is he going to attack us?!
+Dialogue: 0,0:15:13.79,0:15:15.77,0$Default,,0,0,0,,This can't be happening...
+Dialogue: 0,0:15:15.77,0:15:18.40,0$Default,,0,0,0,,Has he picked up on our movements?
+Dialogue: 0,0:15:25.99,0:15:27.68,0$Default,,0,0,0,,Do we fight him?
+Dialogue: 0,0:15:27.68,0:15:31.24,0$Default,,0,0,0,,If we do, we'll cause damage\Nacross Durian.
+Dialogue: 0,0:15:31.24,0:15:32.56,0$Default,,0,0,0,,{\i1}Get the ship flying!
+Dialogue: 0,0:15:32.56,0:15:35.50,0$Default,,0,0,0,,{\i1}The Sky Barracuda is capable\Nof combat in mid-air!
+Dialogue: 0,0:15:35.50,0:15:37.06,0$Default,,0,0,0,,It is? That's awesome!
+Dialogue: 0,0:15:37.06,0:15:38.13,0$Default,,0,0,0,,All clear, Griffon?
+Dialogue: 0,0:15:38.46,0:15:40.01,0$Default,,0,0,0,,One sec...
+Dialogue: 0,0:15:43.13,0:15:44.34,0$Default,,0,0,0,,He's gonna attack!
+Dialogue: 0,0:15:44.34,0:15:45.26,0$Default,,0,0,0,,Griffon!!
+Dialogue: 0,0:15:45.26,0:15:46.30,0$Default,,0,0,0,,Are you almost done?
+Dialogue: 0,0:15:46.30,0:15:49.11,0$Default,,0,0,0,,I hear you! Just give me a sec!
+Dialogue: 0,0:16:05.49,0:16:06.82,0$Default,,0,0,0,,How's the Sky Barracuda?
+Dialogue: 0,0:16:06.82,0:16:09.70,0$Default,,0,0,0,,It must've melted into nothing.
+Dialogue: 0,0:16:20.96,0:16:23.71,0$Default,,0,0,0,,Our technology was the right choice\Nafter all.
+Dialogue: 0,0:16:26.72,0:16:27.82,0$Default,,0,0,0,,Good going, Griffon!
+Dialogue: 0,0:16:27.82,0:16:30.05,0$Default,,0,0,0,,Alright! You're on, Scardon!
+Dialogue: 0,0:16:34.95,0:16:37.75,0$Default,,0,0,0,,{\i1}Stay calm! A few hits won't break it!
+Dialogue: 0,0:16:37.75,0:16:40.00,0$Default,,0,0,0,,Can we even attack him back?
+Dialogue: 0,0:16:40.00,0:16:41.75,0$Default,,0,0,0,,{\i1}It's equipped with the Neo-Beam.
+Dialogue: 0,0:16:41.75,0:16:44.05,0$Default,,0,0,0,,{\i1}You just need to push the button\Nto attack.
+Dialogue: 0,0:16:44.05,0:16:45.13,0$Default,,0,0,0,,The Neo-Beam?
+Dialogue: 0,0:16:45.13,0:16:47.42,0$Default,,0,0,0,,Just the name makes it sound mighty!
+Dialogue: 0,0:16:47.42,0:16:49.76,0$Default,,0,0,0,,{\i1}It certainly has a high attack power...
+Dialogue: 0,0:16:49.76,0:16:50.86,0$Default,,0,0,0,,All clear, Griffon?
+Dialogue: 0,0:16:50.86,0:16:52.51,0$Default,,0,0,0,,Uhh... This one!
+Dialogue: 0,0:16:52.51,0:16:54.12,0$Default,,0,0,0,,{\i1}Wait!
+Dialogue: 0,0:16:54.12,0:16:55.10,0$Default,,0,0,0,,What's wrong?
+Dialogue: 0,0:16:55.10,0:16:56.87,0$Default,,0,0,0,,Will something bad happen?
+Dialogue: 0,0:16:56.87,0:17:00.87,0$Default,,0,0,0,,The Neo-Beam consumes\Na lot of energy. One firing...
+Dialogue: 0,0:17:02.08,0:17:04.63,0$Default,,0,0,0,,...will render the tanning salon unusable.
+Dialogue: 0,0:17:04.63,0:17:06.74,0$Default,,0,0,0,,Fire at will! You hear me? Fire!
+Dialogue: 0,0:17:06.74,0:17:08.72,0$Default,,0,0,0,,Don't look back for even a moment! Just fire!!
+Dialogue: 0,0:17:26.53,0:17:27.55,0$Default,,0,0,0,,Bullseye!
+Dialogue: 0,0:17:28.47,0:17:30.53,0$Default,,0,0,0,,Well done, Griffon!
+Dialogue: 0,0:17:35.33,0:17:36.66,0$Default,,0,0,0,,He's toying with us!
+Dialogue: 0,0:17:36.66,0:17:40.12,0$Default,,0,0,0,,Oh man! If he keeps rising,\NI won't be able to fire again!
+Dialogue: 0,0:17:40.12,0:17:42.98,0$Default,,0,0,0,,So he's already figured out\Nthe beam's blind spot?
+Dialogue: 0,0:17:42.98,0:17:45.38,0$Default,,0,0,0,,He's one mighty foe...
+Dialogue: 0,0:17:45.38,0:17:48.76,0$Default,,0,0,0,,Griffon, get us to his altitude.
+Dialogue: 0,0:17:49.59,0:17:51.26,0$Default,,0,0,0,,What's your plan, Vinsant?
+Dialogue: 0,0:17:57.97,0:18:00.31,0$Default,,0,0,0,,Fight me, Scardon!
+Dialogue: 0,0:18:18.04,0:18:19.06,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:18:19.06,0:18:21.75,0$Default,,0,0,0,,Have you figured out\Nhow to become a Dragon Knight at will?
+Dialogue: 0,0:18:21.75,0:18:23.94,0$Default,,0,0,0,,I haven't gotten it just yet!
+Dialogue: 0,0:18:23.94,0:18:26.56,0$Default,,0,0,0,,But it's fine. I don't have to be a Dragon Knight.
+Dialogue: 0,0:18:26.56,0:18:28.25,0$Default,,0,0,0,,You're on, Scard—Huh?
+Dialogue: 0,0:18:30.01,0:18:31.13,0$Default,,0,0,0,,Where's he going?
+Dialogue: 0,0:18:31.13,0:18:32.09,0$Default,,0,0,0,,Make chase!
+Dialogue: 0,0:18:32.09,0:18:32.84,0$Default,,0,0,0,,You got it!
+Dialogue: 0,0:18:42.85,0:18:44.73,0$Default,,0,0,0,,What's he doing?
+Dialogue: 0,0:18:44.73,0:18:46.54,0$Default,,0,0,0,,I had a feeling about this.
+Dialogue: 0,0:18:46.54,0:18:48.45,0$Default,,0,0,0,,He's not running from us.
+Dialogue: 0,0:18:48.45,0:18:52.09,0$Default,,0,0,0,,He's drawing us into his own territory:\NDemi-Glace Castle.
+Dialogue: 0,0:18:52.09,0:18:53.11,0$Default,,0,0,0,,Drawing us in?
+Dialogue: 0,0:18:53.11,0:18:56.24,0$Default,,0,0,0,,He might be leading us into a trap.
+Dialogue: 0,0:18:56.24,0:19:00.16,0$Default,,0,0,0,,{\i1}Magic barrier detected.\NSwitching to breakthrough process.
+Dialogue: 0,0:19:00.16,0:19:02.70,0$Default,,0,0,0,,{\i1}All systems switching to autopilot.
+Dialogue: 0,0:19:02.70,0:19:05.21,0$Default,,0,0,0,,Guess I gotta sit back for now.
+Dialogue: 0,0:19:05.83,0:19:08.23,0$Default,,0,0,0,,What'll happen if we can't break the barrier?
+Dialogue: 0,0:19:08.23,0:19:10.57,0$Default,,0,0,0,,This should stay on the down-low...
+Dialogue: 0,0:19:10.57,0:19:13.51,0$Default,,0,0,0,,but it'll crash into the wall\Nand explode into wood chips!
+Dialogue: 0,0:19:13.63,0:19:15.15,0$Default,,0,0,0,,A-Are we gonna be okay?
+Dialogue: 0,0:19:15.64,0:19:16.99,0$Default,,0,0,0,,We have to go!
+Dialogue: 0,0:19:16.99,0:19:18.32,0$Default,,0,0,0,,Do we, though?
+Dialogue: 0,0:19:18.32,0:19:19.93,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:19:19.93,0:19:21.10,0$Default,,0,0,0,,Once you give up...
+Dialogue: 0,0:19:21.10,0:19:22.72,0$Default,,0,0,0,,your life is over!!
+Dialogue: 0,0:19:22.72,0:19:25.77,0$Default,,0,0,0,,No, I don't wanna die!!
+Dialogue: 0,0:19:30.57,0:19:33.57,0$Default,,0,0,0,,{\i1}Ten seconds to magic barrier breakthrough.
+Dialogue: 0,0:19:33.57,0:19:35.45,0$Default,,0,0,0,,Everyone, find a seat!
+Dialogue: 0,0:19:40.00,0:19:41.76,0$Default,,0,0,0,,Darn, there's not enough seats!
+Dialogue: 0,0:19:41.76,0:19:43.58,0$Default,,0,0,0,,What am I supposed to do?!
+Dialogue: 0,0:19:44.46,0:19:46.42,0$Default,,0,0,0,,{\i1}Now breaking through the magic barrier.
+Dialogue: 0,0:19:47.04,0:19:49.13,0$Default,,0,0,0,,Go!!
+Dialogue: 0,0:21:58.59,0:22:00.36,0$Default,,0,0,0,,{\i1}Magic barrier, passed.
+Dialogue: 0,0:22:00.36,0:22:03.09,0$Default,,0,0,0,,{\i1}No damage to hull nor any systems.
+Dialogue: 0,0:22:03.09,0:22:05.41,0$Default,,0,0,0,,{\i1}Autopilot disengaged.
+Dialogue: 0,0:22:05.41,0:22:07.18,0$Default,,0,0,0,,Yeah, we made it through!
+Dialogue: 0,0:22:07.85,0:22:09.66,0$Default,,0,0,0,,We're safe...
+Dialogue: 0,0:22:09.66,0:22:11.10,0$Default,,0,0,0,,Wait, where's Gob-san?
+Dialogue: 0,0:22:11.10,0:22:12.67,0$Default,,0,0,0,,I'm all alone...
+Dialogue: 0,0:22:12.67,0:22:15.65,0$Default,,0,0,0,,Left to die all by my lonesome.
+Dialogue: 0,0:22:19.65,0:22:22.65,0$Default,,0,0,0,,Gramps, guess what? I'm flying!
+Dialogue: 0,0:22:22.65,0:22:24.47,0$Default,,0,0,0,,Huh? Are you crying, Griffon?
+Dialogue: 0,0:22:24.47,0:22:26.76,0$Default,,0,0,0,,N-No, I ain't!
+Dialogue: 0,0:22:26.76,0:22:29.37,0$Default,,0,0,0,,Looks like our warm-up is done.
+Dialogue: 0,0:22:29.37,0:22:31.83,0$Default,,0,0,0,,Yeah! Let's go! Scardon's going down!
+Dialogue: 0,0:22:46.05,0:22:46.78,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.78,0:22:48.62,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.62,0:22:51.04,0$Default,,0,0,0,,{\an8}Today's lesson is on\Nthe Sky Barracuda!
+Dialogue: 0,0:22:51.04,0:22:54.35,0$Default,,0,0,0,,{\an8}The Sky Barracuda is a world-class airship\Ncombining the technologies
+Dialogue: 0,0:22:54.35,0:22:59.65,0$Default,,0,0,0,,{\an8}of four brands: Detton, Peffany,\NPaccarat Lapa, and Fairy Electronics!
+Dialogue: 0,0:22:59.65,0:23:01.32,0$Default,,0,0,0,,{\an8}Whoo, sweet!
+Dialogue: 0,0:23:01.32,0:23:03.19,0$Default,,0,0,0,,{\an8}This chair massage is bliss!
+Dialogue: 0,0:23:03.19,0:23:05.28,0$Default,,0,0,0,,{\an8}Hey, stop playing with the seats!
+Dialogue: 0,0:23:05.28,0:23:09.99,0$Default,,0,0,0,,{\an8}Could've done without the karaoke booth\Nand tanning salon too.
+Dialogue: 0,0:23:10.67,0:23:12.81,0$Default,,0,0,0,,Our pursuit of Scardon\Nbrings us to French Toaster!
+Dialogue: 0,0:23:12.81,0:23:14.41,0$Default,,0,0,0,,Wait, something's wrong here!
+Dialogue: 0,0:23:14.41,0:23:17.58,0$Default,,0,0,0,,Why are the King and Mr. Carbonara\Nacting all funny?
+Dialogue: 0,0:23:17.58,0:23:19.38,0$Default,,0,0,0,,What happened here?!
+Dialogue: 0,0:23:19.38,0:23:21.48,0$Default,,0,0,0,,Next time: "The Horrifying Scarzone!"
+Dialogue: 0,0:23:21.48,0:23:24.09,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 0,0:02:33.26,0:02:35.93,0$Default,,0,0,0,,Episode Title
+Dialogue: 2,0:02:33.26,0:02:35.93,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord0\shad0.01\frz7.886\fsp-34.50}E{\frz7.497\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.573\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.521\fsp-28.55} {\frz5.199\fsp-37.72}4{\frz4.773\fsp-28.03}4{\frz4.457\fsp-18.87}:{\frz4.244\fsp-30.19} {\frz3.904\fsp-37.20}T{\frz3.485\fsp-32.90}h{\frz3.114\fsp-25.88}e{\frz2.822\fsp-29.11} {\frz2.493\fsp-36.67}S{\frz2.080\fsp-35.59}k{\frz1.679\fsp-28.03}y{\frz1.362\fsp-27.48} {\frz1.053\fsp-34.50}B{\frz0.663\fsp-30.74}a{\frz0.317\fsp-28.06}r{\frz0.000\fsp-30.74}r{\frz359.654\fsp-32.90}a{\frz359.283\fsp-32.90}c{\frz358.912\fsp-33.42}u{\frz358.535\fsp-33.42}d{\frz358.158\fsp-22.65}a{\frz357.903\fsp-21.57}'{\frz357.659\fsp-25.33}s{\frz357.374\fsp-30.71} {\frz357.027\fsp-35.05}G{\frz356.632\fsp-30.22}r{\frz356.291\fsp-32.90}e{\frz355.920\fsp-29.11}a{\frz355.592\fsp-22.09}t{\frz355.343\fsp-30.19} {\frz355.003\fsp-37.20}T{\frz354.583\fsp-33.97}a{\frz354.200\fsp-33.45}k{\frz353.823\fsp-33.98}e{\frz353.440\fsp-30.19}o{\frz353.099\fsp-24.80}f{\frz352.820\fsp-20.49}f{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Dialogue: 1,0:02:33.26,0:02:35.93,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz7.886\fsp-34.50}E{\frz7.497\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.573\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.521\fsp-28.55} {\frz5.199\fsp-37.72}4{\frz4.773\fsp-28.03}4{\frz4.457\fsp-18.87}:{\frz4.244\fsp-30.19} {\frz3.904\fsp-37.20}T{\frz3.485\fsp-32.90}h{\frz3.114\fsp-25.88}e{\frz2.822\fsp-29.11} {\frz2.493\fsp-36.67}S{\frz2.080\fsp-35.59}k{\frz1.679\fsp-28.03}y{\frz1.362\fsp-27.48} {\frz1.053\fsp-34.50}B{\frz0.663\fsp-30.74}a{\frz0.317\fsp-28.06}r{\frz0.000\fsp-30.74}r{\frz359.654\fsp-32.90}a{\frz359.283\fsp-32.90}c{\frz358.912\fsp-33.42}u{\frz358.535\fsp-33.42}d{\frz358.158\fsp-22.65}a{\frz357.903\fsp-21.57}'{\frz357.659\fsp-25.33}s{\frz357.374\fsp-30.71} {\frz357.027\fsp-35.05}G{\frz356.632\fsp-30.22}r{\frz356.291\fsp-32.90}e{\frz355.920\fsp-29.11}a{\frz355.592\fsp-22.09}t{\frz355.343\fsp-30.19} {\frz355.003\fsp-37.20}T{\frz354.583\fsp-33.97}a{\frz354.200\fsp-33.45}k{\frz353.823\fsp-33.98}e{\frz353.440\fsp-30.19}o{\frz353.099\fsp-24.80}f{\frz352.820\fsp-20.49}f{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Dialogue: 0,0:02:33.26,0:02:35.93,0$EPTITLE,,0,0,0,,{\pos(975,803)\fade(250,550)\org(975,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz7.886\fsp-34.50}E{\frz7.497\fsp-24.80}p{\frz7.217\fsp-23.73}i{\frz6.949\fsp-33.42}s{\frz6.573\fsp-34.50}o{\frz6.183\fsp-32.90}d{\frz5.812\fsp-25.88}e{\frz5.521\fsp-28.55} {\frz5.199\fsp-37.72}4{\frz4.773\fsp-28.03}4{\frz4.457\fsp-18.87}:{\frz4.244\fsp-30.19} {\frz3.904\fsp-37.20}T{\frz3.485\fsp-32.90}h{\frz3.114\fsp-25.88}e{\frz2.822\fsp-29.11} {\frz2.493\fsp-36.67}S{\frz2.080\fsp-35.59}k{\frz1.679\fsp-28.03}y{\frz1.362\fsp-27.48} {\frz1.053\fsp-34.50}B{\frz0.663\fsp-30.74}a{\frz0.317\fsp-28.06}r{\frz0.000\fsp-30.74}r{\frz359.654\fsp-32.90}a{\frz359.283\fsp-32.90}c{\frz358.912\fsp-33.42}u{\frz358.535\fsp-33.42}d{\frz358.158\fsp-22.65}a{\frz357.903\fsp-21.57}'{\frz357.659\fsp-25.33}s{\frz357.374\fsp-30.71} {\frz357.027\fsp-35.05}G{\frz356.632\fsp-30.22}r{\frz356.291\fsp-32.90}e{\frz355.920\fsp-29.11}a{\frz355.592\fsp-22.09}t{\frz355.343\fsp-30.19} {\frz355.003\fsp-37.20}T{\frz354.583\fsp-33.97}a{\frz354.200\fsp-33.45}k{\frz353.823\fsp-33.98}e{\frz353.440\fsp-30.19}o{\frz353.099\fsp-24.80}f{\frz352.820\fsp-20.49}f{\frz352.589\fsp-16.19}!{\frz352.406\fsp0.00}!
+Comment: 0,0:04:42.80,0:04:46.02,0$Default,,0,0,0,,Sky Barracuda
+Dialogue: 3,0:04:42.80,0:04:46.02,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(500,0)\fnUDTypos515 Std R\pos(960,999)\b0}The Sky Barracuda
+Dialogue: 2,0:04:42.80,0:04:46.02,0$MonsterName,,0,0,0,,{\fs60\c&H656565&\fscx145\fscy145\blur1\bord2\fade(500,0)\3c&H656565&\fnUDTypos515 Std R\pos(960,999)\b0}The Sky Barracuda
+Dialogue: 1,0:04:42.80,0:04:46.02,0$MonsterName,,0,0,0,,{\fs60\c&H252525&\fscx145\fscy145\blur1\fade(500,0)\3c&HD4D0D4&\c&HD4D0D4&\bord8\fnUDTypos515 Std R\pos(960,999)\b0}The Sky Barracuda
+Dialogue: 0,0:04:42.80,0:04:46.02,0$MonsterName,,0,0,0,,{\fs60\3c&HE2B94B&\c&HE2B94B&\fscx145\fscy145\blur1\fade(500,0)\bord2\fnUDTypos515 Std R\b0\pos(968.13,1008.21)}The Sky Barracuda
+Comment: 0,0:07:46.95,0:07:47.91,0$Default,,0,0,0,,Urgent Auditions!
+Dialogue: 1,0:07:47.07,0:07:47.91,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H54FDFF&}URGENT AUDITIONS!
+Dialogue: 0,0:07:47.07,0:07:47.91,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H121212&\3c&H121212&\bord3}URGENT AUDITIONS!
+Comment: 0,0:07:48.20,0:07:48.95,0$Default,,0,0,0,,Seeking Pilots of the Future!
+Dialogue: 1,0:07:48.20,0:07:48.95,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H54FDFF&}SEEKING PILOTS OF THE FUTURE!
+Dialogue: 0,0:07:48.20,0:07:48.95,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H121212&\3c&H121212&\bord3}SEEKING PILOTS OF THE FUTURE!
+Comment: 0,0:07:48.66,0:07:49.95,0$Default,,0,0,0,,Experience Preferred!
+Dialogue: 1,0:07:48.95,0:07:49.91,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H54FDFF&}EXPERIENCE PREFERRED!
+Dialogue: 0,0:07:48.95,0:07:49.91,0$mask,,0,0,70,,{\fnArialBitmap50sp\b1\an2\fs65\blur1\c&H121212&\3c&H121212&\bord3}EXPERIENCE PREFERRED!
+Comment: 0,0:07:59.17,0:08:00.67,0$Default,,0,0,0,,Sky Barracuda Pilot Audition No. 1
+Dialogue: 3,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx387.01\fscy399.06\frz0.1118\frx3.4638\fry-0.1146\org(403.72,243.57)\pos(406.54,243.57)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx348.08\fscy358.91\frz0.1118\frx3.4638\fry-0.1146\org(459.66,258.76)\pos(462.19,258.76)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx308.92\fscy318.53\frz0.1118\frx3.4638\fry-0.1146\org(515.96,274.16)\pos(518.21,274.16)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx269.85\fscy278.25\frz0.1118\frx3.4638\fry-0.1146\org(572.1,289.55)\pos(574.07,289.55)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx230.67\fscy237.85\frz0.1118\frx3.4638\fry-0.1146\org(628.48,304.06)\pos(630.15,304.06)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.03\fscy198.01\frz0.1118\frx3.4638\fry-0.1146\org(684.01,325.62)\pos(685.41,325.62)\blur3\be3\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.5\fscy198.49\frz0.1118\frx3.4638\fry-0.1146\org(683.25,324.66)\pos(684.65,324.66)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.95\fscy197.92\frz0.1118\frx3.4638\fry-0.1146\org(684.04,324.88)\pos(685.44,324.88)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.4\fscy197.36\frz0.1118\frx3.4638\fry-0.1146\org(684.81,325.07)\pos(686.21,325.07)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.89\fscy196.83\frz0.1118\frx3.4638\fry-0.1146\org(685.55,325.26)\pos(686.94,325.26)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.27\fscy196.19\frz0.1118\frx3.4638\fry-0.1146\org(686.47,325.54)\pos(687.86,325.54)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.78\fscy195.68\frz0.1118\frx3.4638\fry-0.1146\org(687.16,325.71)\pos(688.54,325.71)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.23\fscy195.11\frz0.1118\frx3.4638\fry-0.1146\org(687.96,325.92)\pos(689.34,325.92)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.75\fscy194.62\frz0.1118\frx3.4638\fry-0.1146\org(688.61,326.07)\pos(689.99,326.07)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.15\fscy194.01\frz0.1118\frx3.4638\fry-0.1146\org(689.49,326.32)\pos(690.86,326.32)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.55\fscy193.38\frz0.1118\frx3.4638\fry-0.1146\org(690.39,326.58)\pos(691.75,326.58)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.01\fscy192.83\frz0.1118\frx3.4638\fry-0.1146\org(691.15,326.79)\pos(692.51,326.79)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx186.53\fscy192.34\frz0.1118\frx3.4638\fry-0.1146\org(691.81,326.95)\pos(693.17,326.95)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.97\fscy191.76\frz0.1118\frx3.4638\fry-0.1146\org(692.61,327.14)\pos(693.96,327.14)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.39\fscy191.16\frz0.1118\frx3.4638\fry-0.1146\org(693.44,327.41)\pos(694.79,327.41)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.83\fscy190.58\frz0.1118\frx3.4638\fry-0.1146\org(694.27,327.63)\pos(695.61,327.63)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.28\fscy190.01\frz0.1118\frx3.4638\fry-0.1146\org(695.06,327.85)\pos(696.4,327.85)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.73\fscy189.44\frz0.1118\frx3.4638\fry-0.1146\org(695.86,328.07)\pos(697.19,328.07)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.1\fscy188.8\frz0.1118\frx3.4638\fry-0.1146\org(696.75,328.35)\pos(698.08,328.35)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.57\fscy188.25\frz0.1118\frx3.4638\fry-0.1146\org(697.54,328.53)\pos(698.86,328.53)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.03\fscy187.7\frz0.1118\frx3.4638\fry-0.1146\org(698.31,328.74)\pos(699.63,328.74)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx181.48\fscy187.13\frz0.1118\frx3.4638\fry-0.1146\org(699.1,328.96)\pos(700.42,328.96)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.94\fscy186.57\frz0.1118\frx3.4638\fry-0.1146\org(699.85,329.15)\pos(701.16,329.15)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.41\fscy186.02\frz0.1118\frx3.4638\fry-0.1146\org(700.62,329.35)\pos(701.93,329.35)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.84\fscy185.43\frz0.1118\frx3.4638\fry-0.1146\org(701.46,329.57)\pos(702.77,329.57)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.34\fscy184.92\frz0.1118\frx3.4638\fry-0.1146\org(702.16,329.76)\pos(703.46,329.76)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.8\fscy184.36\frz0.1118\frx3.4638\fry-0.1146\org(702.93,329.97)\pos(704.23,329.97)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.15\fscy183.69\frz0.1118\frx3.4638\fry-0.1146\org(703.87,330.24)\pos(705.16,330.24)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.58\fscy183.1\frz0.1118\frx3.4638\fry-0.1146\org(704.7,330.48)\pos(706,330.48)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.1\fscy182.62\frz0.1118\frx3.4638\fry-0.1146\org(705.33,330.63)\pos(706.62,330.63)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 3,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx176.56\fscy182.05\frz0.1118\frx3.4638\fry-0.1146\org(706.12,330.86)\pos(707.41,330.86)\blur0.7\c&HF3F15B&}SKY BARRACUDA
+Dialogue: 2,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx387.01\fscy399.06\frz0.1118\frx3.4638\fry-0.1146\org(403.72,243.57)\pos(406.54,243.57)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord6.03}SKY BARRACUDA
+Dialogue: 2,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx348.08\fscy358.91\frz0.1118\frx3.4638\fry-0.1146\org(459.66,258.76)\pos(462.19,258.76)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord5.42}SKY BARRACUDA
+Dialogue: 2,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx308.92\fscy318.53\frz0.1118\frx3.4638\fry-0.1146\org(515.96,274.16)\pos(518.21,274.16)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord4.81}SKY BARRACUDA
+Dialogue: 2,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx269.85\fscy278.25\frz0.1118\frx3.4638\fry-0.1146\org(572.1,289.55)\pos(574.07,289.55)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord4.21}SKY BARRACUDA
+Dialogue: 2,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx230.67\fscy237.85\frz0.1118\frx3.4638\fry-0.1146\org(628.48,304.06)\pos(630.15,304.06)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord3.59}SKY BARRACUDA
+Dialogue: 2,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.03\fscy198.01\frz0.1118\frx3.4638\fry-0.1146\org(684.01,325.62)\pos(685.41,325.62)\blur3\be3\c&HFFFFFF&\3c&HFFFFFF&\bord2.99}SKY BARRACUDA
+Dialogue: 2,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.5\fscy198.49\frz0.1118\frx3.4638\fry-0.1146\org(683.25,324.66)\pos(684.65,324.66)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord3}SKY BARRACUDA
+Dialogue: 2,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.95\fscy197.92\frz0.1118\frx3.4638\fry-0.1146\org(684.04,324.88)\pos(685.44,324.88)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.99}SKY BARRACUDA
+Dialogue: 2,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.4\fscy197.36\frz0.1118\frx3.4638\fry-0.1146\org(684.81,325.07)\pos(686.21,325.07)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.98}SKY BARRACUDA
+Dialogue: 2,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.89\fscy196.83\frz0.1118\frx3.4638\fry-0.1146\org(685.55,325.26)\pos(686.94,325.26)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.97}SKY BARRACUDA
+Dialogue: 2,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.27\fscy196.19\frz0.1118\frx3.4638\fry-0.1146\org(686.47,325.54)\pos(687.86,325.54)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.97}SKY BARRACUDA
+Dialogue: 2,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.78\fscy195.68\frz0.1118\frx3.4638\fry-0.1146\org(687.16,325.71)\pos(688.54,325.71)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.96}SKY BARRACUDA
+Dialogue: 2,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.23\fscy195.11\frz0.1118\frx3.4638\fry-0.1146\org(687.96,325.92)\pos(689.34,325.92)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.95}SKY BARRACUDA
+Dialogue: 2,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.75\fscy194.62\frz0.1118\frx3.4638\fry-0.1146\org(688.61,326.07)\pos(689.99,326.07)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.94}SKY BARRACUDA
+Dialogue: 2,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.15\fscy194.01\frz0.1118\frx3.4638\fry-0.1146\org(689.49,326.32)\pos(690.86,326.32)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.93}SKY BARRACUDA
+Dialogue: 2,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.55\fscy193.38\frz0.1118\frx3.4638\fry-0.1146\org(690.39,326.58)\pos(691.75,326.58)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.92}SKY BARRACUDA
+Dialogue: 2,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.01\fscy192.83\frz0.1118\frx3.4638\fry-0.1146\org(691.15,326.79)\pos(692.51,326.79)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.91}SKY BARRACUDA
+Dialogue: 2,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx186.53\fscy192.34\frz0.1118\frx3.4638\fry-0.1146\org(691.81,326.95)\pos(693.17,326.95)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.91}SKY BARRACUDA
+Dialogue: 2,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.97\fscy191.76\frz0.1118\frx3.4638\fry-0.1146\org(692.61,327.14)\pos(693.96,327.14)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.9}SKY BARRACUDA
+Dialogue: 2,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.39\fscy191.16\frz0.1118\frx3.4638\fry-0.1146\org(693.44,327.41)\pos(694.79,327.41)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.89}SKY BARRACUDA
+Dialogue: 2,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.83\fscy190.58\frz0.1118\frx3.4638\fry-0.1146\org(694.27,327.63)\pos(695.61,327.63)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.88}SKY BARRACUDA
+Dialogue: 2,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.28\fscy190.01\frz0.1118\frx3.4638\fry-0.1146\org(695.06,327.85)\pos(696.4,327.85)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.87}SKY BARRACUDA
+Dialogue: 2,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.73\fscy189.44\frz0.1118\frx3.4638\fry-0.1146\org(695.86,328.07)\pos(697.19,328.07)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.86}SKY BARRACUDA
+Dialogue: 2,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.1\fscy188.8\frz0.1118\frx3.4638\fry-0.1146\org(696.75,328.35)\pos(698.08,328.35)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.85}SKY BARRACUDA
+Dialogue: 2,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.57\fscy188.25\frz0.1118\frx3.4638\fry-0.1146\org(697.54,328.53)\pos(698.86,328.53)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.85}SKY BARRACUDA
+Dialogue: 2,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.03\fscy187.7\frz0.1118\frx3.4638\fry-0.1146\org(698.31,328.74)\pos(699.63,328.74)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.84}SKY BARRACUDA
+Dialogue: 2,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx181.48\fscy187.13\frz0.1118\frx3.4638\fry-0.1146\org(699.1,328.96)\pos(700.42,328.96)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.83}SKY BARRACUDA
+Dialogue: 2,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.94\fscy186.57\frz0.1118\frx3.4638\fry-0.1146\org(699.85,329.15)\pos(701.16,329.15)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.82}SKY BARRACUDA
+Dialogue: 2,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.41\fscy186.02\frz0.1118\frx3.4638\fry-0.1146\org(700.62,329.35)\pos(701.93,329.35)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.81}SKY BARRACUDA
+Dialogue: 2,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.84\fscy185.43\frz0.1118\frx3.4638\fry-0.1146\org(701.46,329.57)\pos(702.77,329.57)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.8}SKY BARRACUDA
+Dialogue: 2,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.34\fscy184.92\frz0.1118\frx3.4638\fry-0.1146\org(702.16,329.76)\pos(703.46,329.76)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.79}SKY BARRACUDA
+Dialogue: 2,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.8\fscy184.36\frz0.1118\frx3.4638\fry-0.1146\org(702.93,329.97)\pos(704.23,329.97)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.79}SKY BARRACUDA
+Dialogue: 2,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.15\fscy183.69\frz0.1118\frx3.4638\fry-0.1146\org(703.87,330.24)\pos(705.16,330.24)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.78}SKY BARRACUDA
+Dialogue: 2,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.58\fscy183.1\frz0.1118\frx3.4638\fry-0.1146\org(704.7,330.48)\pos(706,330.48)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.77}SKY BARRACUDA
+Dialogue: 2,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.1\fscy182.62\frz0.1118\frx3.4638\fry-0.1146\org(705.33,330.63)\pos(706.62,330.63)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.76}SKY BARRACUDA
+Dialogue: 2,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx176.56\fscy182.05\frz0.1118\frx3.4638\fry-0.1146\org(706.12,330.86)\pos(707.41,330.86)\blur0.7\c&HFFFFFF&\3c&HFFFFFF&\bord2.75}SKY BARRACUDA
+Dialogue: 1,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx387.01\fscy399.06\frz0.1118\frx3.4638\fry-0.1146\org(403.72,243.57)\pos(406.54,243.57)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord12.06}SKY BARRACUDA
+Dialogue: 1,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx348.08\fscy358.91\frz0.1118\frx3.4638\fry-0.1146\org(459.66,258.76)\pos(462.19,258.76)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord10.85}SKY BARRACUDA
+Dialogue: 1,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx308.92\fscy318.53\frz0.1118\frx3.4638\fry-0.1146\org(515.96,274.16)\pos(518.21,274.16)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord9.63}SKY BARRACUDA
+Dialogue: 1,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx269.85\fscy278.25\frz0.1118\frx3.4638\fry-0.1146\org(572.1,289.55)\pos(574.07,289.55)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord8.41}SKY BARRACUDA
+Dialogue: 1,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx230.67\fscy237.85\frz0.1118\frx3.4638\fry-0.1146\org(628.48,304.06)\pos(630.15,304.06)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord7.19}SKY BARRACUDA
+Dialogue: 1,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.03\fscy198.01\frz0.1118\frx3.4638\fry-0.1146\org(684.01,325.62)\pos(685.41,325.62)\blur3\be3\c&H4C60A8&\3c&H4C60A8&\bord5.99}SKY BARRACUDA
+Dialogue: 1,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.5\fscy198.49\frz0.1118\frx3.4638\fry-0.1146\org(683.25,324.66)\pos(684.65,324.66)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord6}SKY BARRACUDA
+Dialogue: 1,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.95\fscy197.92\frz0.1118\frx3.4638\fry-0.1146\org(684.04,324.88)\pos(685.44,324.88)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.98}SKY BARRACUDA
+Dialogue: 1,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.4\fscy197.36\frz0.1118\frx3.4638\fry-0.1146\org(684.81,325.07)\pos(686.21,325.07)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.97}SKY BARRACUDA
+Dialogue: 1,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.89\fscy196.83\frz0.1118\frx3.4638\fry-0.1146\org(685.55,325.26)\pos(686.94,325.26)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.95}SKY BARRACUDA
+Dialogue: 1,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.27\fscy196.19\frz0.1118\frx3.4638\fry-0.1146\org(686.47,325.54)\pos(687.86,325.54)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.93}SKY BARRACUDA
+Dialogue: 1,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.78\fscy195.68\frz0.1118\frx3.4638\fry-0.1146\org(687.16,325.71)\pos(688.54,325.71)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.92}SKY BARRACUDA
+Dialogue: 1,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.23\fscy195.11\frz0.1118\frx3.4638\fry-0.1146\org(687.96,325.92)\pos(689.34,325.92)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.9}SKY BARRACUDA
+Dialogue: 1,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.75\fscy194.62\frz0.1118\frx3.4638\fry-0.1146\org(688.61,326.07)\pos(689.99,326.07)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.88}SKY BARRACUDA
+Dialogue: 1,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.15\fscy194.01\frz0.1118\frx3.4638\fry-0.1146\org(689.49,326.32)\pos(690.86,326.32)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.86}SKY BARRACUDA
+Dialogue: 1,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.55\fscy193.38\frz0.1118\frx3.4638\fry-0.1146\org(690.39,326.58)\pos(691.75,326.58)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.85}SKY BARRACUDA
+Dialogue: 1,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.01\fscy192.83\frz0.1118\frx3.4638\fry-0.1146\org(691.15,326.79)\pos(692.51,326.79)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.83}SKY BARRACUDA
+Dialogue: 1,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx186.53\fscy192.34\frz0.1118\frx3.4638\fry-0.1146\org(691.81,326.95)\pos(693.17,326.95)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.81}SKY BARRACUDA
+Dialogue: 1,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.97\fscy191.76\frz0.1118\frx3.4638\fry-0.1146\org(692.61,327.14)\pos(693.96,327.14)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.8}SKY BARRACUDA
+Dialogue: 1,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.39\fscy191.16\frz0.1118\frx3.4638\fry-0.1146\org(693.44,327.41)\pos(694.79,327.41)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.78}SKY BARRACUDA
+Dialogue: 1,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.83\fscy190.58\frz0.1118\frx3.4638\fry-0.1146\org(694.27,327.63)\pos(695.61,327.63)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.76}SKY BARRACUDA
+Dialogue: 1,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.28\fscy190.01\frz0.1118\frx3.4638\fry-0.1146\org(695.06,327.85)\pos(696.4,327.85)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.74}SKY BARRACUDA
+Dialogue: 1,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.73\fscy189.44\frz0.1118\frx3.4638\fry-0.1146\org(695.86,328.07)\pos(697.19,328.07)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.73}SKY BARRACUDA
+Dialogue: 1,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.1\fscy188.8\frz0.1118\frx3.4638\fry-0.1146\org(696.75,328.35)\pos(698.08,328.35)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.71}SKY BARRACUDA
+Dialogue: 1,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.57\fscy188.25\frz0.1118\frx3.4638\fry-0.1146\org(697.54,328.53)\pos(698.86,328.53)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.69}SKY BARRACUDA
+Dialogue: 1,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.03\fscy187.7\frz0.1118\frx3.4638\fry-0.1146\org(698.31,328.74)\pos(699.63,328.74)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.67}SKY BARRACUDA
+Dialogue: 1,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx181.48\fscy187.13\frz0.1118\frx3.4638\fry-0.1146\org(699.1,328.96)\pos(700.42,328.96)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.66}SKY BARRACUDA
+Dialogue: 1,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.94\fscy186.57\frz0.1118\frx3.4638\fry-0.1146\org(699.85,329.15)\pos(701.16,329.15)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.64}SKY BARRACUDA
+Dialogue: 1,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.41\fscy186.02\frz0.1118\frx3.4638\fry-0.1146\org(700.62,329.35)\pos(701.93,329.35)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.62}SKY BARRACUDA
+Dialogue: 1,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.84\fscy185.43\frz0.1118\frx3.4638\fry-0.1146\org(701.46,329.57)\pos(702.77,329.57)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.61}SKY BARRACUDA
+Dialogue: 1,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.34\fscy184.92\frz0.1118\frx3.4638\fry-0.1146\org(702.16,329.76)\pos(703.46,329.76)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.59}SKY BARRACUDA
+Dialogue: 1,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.8\fscy184.36\frz0.1118\frx3.4638\fry-0.1146\org(702.93,329.97)\pos(704.23,329.97)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.57}SKY BARRACUDA
+Dialogue: 1,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.15\fscy183.69\frz0.1118\frx3.4638\fry-0.1146\org(703.87,330.24)\pos(705.16,330.24)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.55}SKY BARRACUDA
+Dialogue: 1,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.58\fscy183.1\frz0.1118\frx3.4638\fry-0.1146\org(704.7,330.48)\pos(706,330.48)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.53}SKY BARRACUDA
+Dialogue: 1,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.1\fscy182.62\frz0.1118\frx3.4638\fry-0.1146\org(705.33,330.63)\pos(706.62,330.63)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.52}SKY BARRACUDA
+Dialogue: 1,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx176.56\fscy182.05\frz0.1118\frx3.4638\fry-0.1146\org(706.12,330.86)\pos(707.41,330.86)\blur0.7\c&H4C60A8&\3c&H4C60A8&\bord5.5}SKY BARRACUDA
+Dialogue: 0,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx387.01\fscy399.06\frz0.1118\frx3.4638\fry-0.1146\org(403.72,243.57)\pos(406.54,243.57)\blur3\be3\1a&HFE&\3a&HFE&\shad6.03\bord12.06\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx348.08\fscy358.91\frz0.1118\frx3.4638\fry-0.1146\org(459.66,258.76)\pos(462.19,258.76)\blur3\be3\1a&HFE&\3a&HFE&\shad5.42\bord10.85\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx308.92\fscy318.53\frz0.1118\frx3.4638\fry-0.1146\org(515.96,274.16)\pos(518.21,274.16)\blur3\be3\1a&HFE&\3a&HFE&\shad4.81\bord9.63\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx269.85\fscy278.25\frz0.1118\frx3.4638\fry-0.1146\org(572.1,289.55)\pos(574.07,289.55)\blur3\be3\1a&HFE&\3a&HFE&\shad4.21\bord8.41\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx230.67\fscy237.85\frz0.1118\frx3.4638\fry-0.1146\org(628.48,304.06)\pos(630.15,304.06)\blur3\be3\1a&HFE&\3a&HFE&\shad3.59\bord7.19\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.03\fscy198.01\frz0.1118\frx3.4638\fry-0.1146\org(684.01,325.62)\pos(685.41,325.62)\blur3\be3\1a&HFE&\3a&HFE&\shad2.99\bord5.99\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx192.5\fscy198.49\frz0.1118\frx3.4638\fry-0.1146\org(683.25,324.66)\pos(684.65,324.66)\blur1\1a&HFE&\3a&HFE&\shad3\bord6\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.95\fscy197.92\frz0.1118\frx3.4638\fry-0.1146\org(684.04,324.88)\pos(685.44,324.88)\blur1\1a&HFE&\3a&HFE&\shad2.99\bord5.98\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx191.4\fscy197.36\frz0.1118\frx3.4638\fry-0.1146\org(684.81,325.07)\pos(686.21,325.07)\blur1\1a&HFE&\3a&HFE&\shad2.98\bord5.97\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.89\fscy196.83\frz0.1118\frx3.4638\fry-0.1146\org(685.55,325.26)\pos(686.94,325.26)\blur1\1a&HFE&\3a&HFE&\shad2.97\bord5.95\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx190.27\fscy196.19\frz0.1118\frx3.4638\fry-0.1146\org(686.47,325.54)\pos(687.86,325.54)\blur1\1a&HFE&\3a&HFE&\shad2.97\bord5.93\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.78\fscy195.68\frz0.1118\frx3.4638\fry-0.1146\org(687.16,325.71)\pos(688.54,325.71)\blur1\1a&HFE&\3a&HFE&\shad2.96\bord5.92\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx189.23\fscy195.11\frz0.1118\frx3.4638\fry-0.1146\org(687.96,325.92)\pos(689.34,325.92)\blur1\1a&HFE&\3a&HFE&\shad2.95\bord5.9\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.75\fscy194.62\frz0.1118\frx3.4638\fry-0.1146\org(688.61,326.07)\pos(689.99,326.07)\blur1\1a&HFE&\3a&HFE&\shad2.94\bord5.88\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx188.15\fscy194.01\frz0.1118\frx3.4638\fry-0.1146\org(689.49,326.32)\pos(690.86,326.32)\blur1\1a&HFE&\3a&HFE&\shad2.93\bord5.86\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.55\fscy193.38\frz0.1118\frx3.4638\fry-0.1146\org(690.39,326.58)\pos(691.75,326.58)\blur1\1a&HFE&\3a&HFE&\shad2.92\bord5.85\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx187.01\fscy192.83\frz0.1118\frx3.4638\fry-0.1146\org(691.15,326.79)\pos(692.51,326.79)\blur1\1a&HFE&\3a&HFE&\shad2.91\bord5.83\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx186.53\fscy192.34\frz0.1118\frx3.4638\fry-0.1146\org(691.81,326.95)\pos(693.17,326.95)\blur1\1a&HFE&\3a&HFE&\shad2.91\bord5.81\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.97\fscy191.76\frz0.1118\frx3.4638\fry-0.1146\org(692.61,327.14)\pos(693.96,327.14)\blur1\1a&HFE&\3a&HFE&\shad2.9\bord5.8\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx185.39\fscy191.16\frz0.1118\frx3.4638\fry-0.1146\org(693.44,327.41)\pos(694.79,327.41)\blur1\1a&HFE&\3a&HFE&\shad2.89\bord5.78\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.83\fscy190.58\frz0.1118\frx3.4638\fry-0.1146\org(694.27,327.63)\pos(695.61,327.63)\blur1\1a&HFE&\3a&HFE&\shad2.88\bord5.76\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx184.28\fscy190.01\frz0.1118\frx3.4638\fry-0.1146\org(695.06,327.85)\pos(696.4,327.85)\blur1\1a&HFE&\3a&HFE&\shad2.87\bord5.74\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.73\fscy189.44\frz0.1118\frx3.4638\fry-0.1146\org(695.86,328.07)\pos(697.19,328.07)\blur1\1a&HFE&\3a&HFE&\shad2.86\bord5.73\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx183.1\fscy188.8\frz0.1118\frx3.4638\fry-0.1146\org(696.75,328.35)\pos(698.08,328.35)\blur1\1a&HFE&\3a&HFE&\shad2.85\bord5.71\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.57\fscy188.25\frz0.1118\frx3.4638\fry-0.1146\org(697.54,328.53)\pos(698.86,328.53)\blur1\1a&HFE&\3a&HFE&\shad2.85\bord5.69\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx182.03\fscy187.7\frz0.1118\frx3.4638\fry-0.1146\org(698.31,328.74)\pos(699.63,328.74)\blur1\1a&HFE&\3a&HFE&\shad2.84\bord5.67\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx181.48\fscy187.13\frz0.1118\frx3.4638\fry-0.1146\org(699.1,328.96)\pos(700.42,328.96)\blur1\1a&HFE&\3a&HFE&\shad2.83\bord5.66\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.94\fscy186.57\frz0.1118\frx3.4638\fry-0.1146\org(699.85,329.15)\pos(701.16,329.15)\blur1\1a&HFE&\3a&HFE&\shad2.82\bord5.64\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx180.41\fscy186.02\frz0.1118\frx3.4638\fry-0.1146\org(700.62,329.35)\pos(701.93,329.35)\blur1\1a&HFE&\3a&HFE&\shad2.81\bord5.62\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.84\fscy185.43\frz0.1118\frx3.4638\fry-0.1146\org(701.46,329.57)\pos(702.77,329.57)\blur1\1a&HFE&\3a&HFE&\shad2.8\bord5.61\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx179.34\fscy184.92\frz0.1118\frx3.4638\fry-0.1146\org(702.16,329.76)\pos(703.46,329.76)\blur1\1a&HFE&\3a&HFE&\shad2.79\bord5.59\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.8\fscy184.36\frz0.1118\frx3.4638\fry-0.1146\org(702.93,329.97)\pos(704.23,329.97)\blur1\1a&HFE&\3a&HFE&\shad2.79\bord5.57\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx178.15\fscy183.69\frz0.1118\frx3.4638\fry-0.1146\org(703.87,330.24)\pos(705.16,330.24)\blur1\1a&HFE&\3a&HFE&\shad2.78\bord5.55\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.58\fscy183.1\frz0.1118\frx3.4638\fry-0.1146\org(704.7,330.48)\pos(706,330.48)\blur1\1a&HFE&\3a&HFE&\shad2.77\bord5.53\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx177.1\fscy182.62\frz0.1118\frx3.4638\fry-0.1146\org(705.33,330.63)\pos(706.62,330.63)\blur1\1a&HFE&\3a&HFE&\shad2.76\bord5.52\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 0,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\fax-0.048625\fscx176.56\fscy182.05\frz0.1118\frx3.4638\fry-0.1146\org(706.12,330.86)\pos(707.41,330.86)\blur1\1a&HFE&\3a&HFE&\shad2.75\bord5.5\4c&H000000&\4a&H6F&}SKY BARRACUDA
+Dialogue: 3,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx390.13\fscy405.51\frz0.0974\frx3.4362\fry-0.1137\org(399.9,327.46)\pos(402.76,327.46)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx350.88\fscy364.71\frz0.0974\frx3.4362\fry-0.1137\org(456.22,334.22)\pos(458.79,334.22)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx311.41\fscy323.69\frz0.0974\frx3.4362\fry-0.1137\org(512.91,341.13)\pos(515.19,341.13)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx272.03\fscy282.75\frz0.0974\frx3.4362\fry-0.1137\org(569.44,348.05)\pos(571.43,348.05)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx232.53\fscy241.7\frz0.0974\frx3.4362\fry-0.1137\org(626.2,354.07)\pos(627.9,354.07)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx193.58\fscy201.21\frz0.0974\frx3.4362\fry-0.1137\org(682.12,367.25)\pos(683.53,367.25)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx194.05\fscy201.7\frz0.0974\frx3.4362\fry-0.1137\org(681.35,366.39)\pos(682.77,366.39)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx193.5\fscy201.12\frz0.0974\frx3.4362\fry-0.1137\org(682.15,366.49)\pos(683.56,366.49)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.95\fscy200.55\frz0.0974\frx3.4362\fry-0.1137\org(682.93,366.57)\pos(684.34,366.57)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.42\fscy200.01\frz0.0974\frx3.4362\fry-0.1137\org(683.67,366.64)\pos(685.08,366.64)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.8\fscy199.36\frz0.0974\frx3.4362\fry-0.1137\org(684.6,366.79)\pos(686,366.79)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.3\fscy198.85\frz0.0974\frx3.4362\fry-0.1137\org(685.28,366.85)\pos(686.68,366.85)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.75\fscy198.27\frz0.0974\frx3.4362\fry-0.1137\org(686.09,366.94)\pos(687.49,366.94)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.27\fscy197.77\frz0.0974\frx3.4362\fry-0.1137\org(686.75,366.99)\pos(688.14,366.99)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.67\fscy197.15\frz0.0974\frx3.4362\fry-0.1137\org(687.64,367.11)\pos(689.03,367.11)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.06\fscy196.51\frz0.0974\frx3.4362\fry-0.1137\org(688.54,367.24)\pos(689.92,367.24)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.51\fscy195.95\frz0.0974\frx3.4362\fry-0.1137\org(689.3,367.33)\pos(690.68,367.33)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.03\fscy195.45\frz0.0974\frx3.4362\fry-0.1137\org(689.97,367.38)\pos(691.34,367.38)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx187.47\fscy194.86\frz0.0974\frx3.4362\fry-0.1137\org(690.77,367.46)\pos(692.14,367.46)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.89\fscy194.25\frz0.0974\frx3.4362\fry-0.1137\org(691.61,367.6)\pos(692.98,367.6)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.32\fscy193.66\frz0.0974\frx3.4362\fry-0.1137\org(692.44,367.7)\pos(693.81,367.7)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.76\fscy193.08\frz0.0974\frx3.4362\fry-0.1137\org(693.24,367.79)\pos(694.6,367.79)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.21\fscy192.51\frz0.0974\frx3.4362\fry-0.1137\org(694.04,367.89)\pos(695.4,367.89)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.58\fscy191.85\frz0.0974\frx3.4362\fry-0.1137\org(694.94,368.04)\pos(696.3,368.04)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.04\fscy191.3\frz0.0974\frx3.4362\fry-0.1137\org(695.73,368.1)\pos(697.08,368.1)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx183.5\fscy190.73\frz0.0974\frx3.4362\fry-0.1137\org(696.51,368.2)\pos(697.86,368.2)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.94\fscy190.16\frz0.0974\frx3.4362\fry-0.1137\org(697.31,368.3)\pos(698.65,368.3)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.39\fscy189.58\frz0.0974\frx3.4362\fry-0.1137\org(698.06,368.38)\pos(699.4,368.38)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.86\fscy189.03\frz0.0974\frx3.4362\fry-0.1137\org(698.84,368.46)\pos(700.17,368.46)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.28\fscy188.43\frz0.0974\frx3.4362\fry-0.1137\org(699.68,368.56)\pos(701.01,368.56)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.79\fscy187.91\frz0.0974\frx3.4362\fry-0.1137\org(700.39,368.64)\pos(701.71,368.64)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.24\fscy187.34\frz0.0974\frx3.4362\fry-0.1137\org(701.17,368.73)\pos(702.49,368.73)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.58\fscy186.66\frz0.0974\frx3.4362\fry-0.1137\org(702.11,368.86)\pos(703.42,368.86)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.01\fscy186.06\frz0.0974\frx3.4362\fry-0.1137\org(702.95,368.98)\pos(704.26,368.98)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx178.53\fscy185.57\frz0.0974\frx3.4362\fry-0.1137\org(703.58,369.02)\pos(704.89,369.02)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 3,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx177.98\fscy184.99\frz0.0974\frx3.4362\fry-0.1137\org(704.38,369.13)\pos(705.68,369.13)\c&H625AF3&}PILOT {\c&H4DCBFD&}AUDITION
+Dialogue: 2,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx390.13\fscy405.51\frz0.0974\frx3.4362\fry-0.1137\org(399.9,327.46)\pos(402.76,327.46)\c&H6BCBF9&\3c&H6BCBF9&\bord6.03}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx350.88\fscy364.71\frz0.0974\frx3.4362\fry-0.1137\org(456.22,334.22)\pos(458.79,334.22)\c&H6BCBF9&\3c&H6BCBF9&\bord5.42}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx311.41\fscy323.69\frz0.0974\frx3.4362\fry-0.1137\org(512.91,341.13)\pos(515.19,341.13)\c&H6BCBF9&\3c&H6BCBF9&\bord4.81}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx272.03\fscy282.75\frz0.0974\frx3.4362\fry-0.1137\org(569.44,348.05)\pos(571.43,348.05)\c&H6BCBF9&\3c&H6BCBF9&\bord4.21}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx232.53\fscy241.7\frz0.0974\frx3.4362\fry-0.1137\org(626.2,354.07)\pos(627.9,354.07)\c&H6BCBF9&\3c&H6BCBF9&\bord3.59}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx193.58\fscy201.21\frz0.0974\frx3.4362\fry-0.1137\org(682.12,367.25)\pos(683.53,367.25)\c&H6BCBF9&\3c&H6BCBF9&\bord2.99}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx194.05\fscy201.7\frz0.0974\frx3.4362\fry-0.1137\org(681.35,366.39)\pos(682.77,366.39)\c&H6BCBF9&\3c&H6BCBF9&\bord3}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx193.5\fscy201.12\frz0.0974\frx3.4362\fry-0.1137\org(682.15,366.49)\pos(683.56,366.49)\c&H6BCBF9&\3c&H6BCBF9&\bord2.99}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.95\fscy200.55\frz0.0974\frx3.4362\fry-0.1137\org(682.93,366.57)\pos(684.34,366.57)\c&H6BCBF9&\3c&H6BCBF9&\bord2.98}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.42\fscy200.01\frz0.0974\frx3.4362\fry-0.1137\org(683.67,366.64)\pos(685.08,366.64)\c&H6BCBF9&\3c&H6BCBF9&\bord2.97}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.8\fscy199.36\frz0.0974\frx3.4362\fry-0.1137\org(684.6,366.79)\pos(686,366.79)\c&H6BCBF9&\3c&H6BCBF9&\bord2.97}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.3\fscy198.85\frz0.0974\frx3.4362\fry-0.1137\org(685.28,366.85)\pos(686.68,366.85)\c&H6BCBF9&\3c&H6BCBF9&\bord2.96}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.75\fscy198.27\frz0.0974\frx3.4362\fry-0.1137\org(686.09,366.94)\pos(687.49,366.94)\c&H6BCBF9&\3c&H6BCBF9&\bord2.95}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.27\fscy197.77\frz0.0974\frx3.4362\fry-0.1137\org(686.75,366.99)\pos(688.14,366.99)\c&H6BCBF9&\3c&H6BCBF9&\bord2.94}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.67\fscy197.15\frz0.0974\frx3.4362\fry-0.1137\org(687.64,367.11)\pos(689.03,367.11)\c&H6BCBF9&\3c&H6BCBF9&\bord2.93}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.06\fscy196.51\frz0.0974\frx3.4362\fry-0.1137\org(688.54,367.24)\pos(689.92,367.24)\c&H6BCBF9&\3c&H6BCBF9&\bord2.92}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.51\fscy195.95\frz0.0974\frx3.4362\fry-0.1137\org(689.3,367.33)\pos(690.68,367.33)\c&H6BCBF9&\3c&H6BCBF9&\bord2.91}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.03\fscy195.45\frz0.0974\frx3.4362\fry-0.1137\org(689.97,367.38)\pos(691.34,367.38)\c&H6BCBF9&\3c&H6BCBF9&\bord2.91}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx187.47\fscy194.86\frz0.0974\frx3.4362\fry-0.1137\org(690.77,367.46)\pos(692.14,367.46)\c&H6BCBF9&\3c&H6BCBF9&\bord2.9}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.89\fscy194.25\frz0.0974\frx3.4362\fry-0.1137\org(691.61,367.6)\pos(692.98,367.6)\c&H6BCBF9&\3c&H6BCBF9&\bord2.89}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.32\fscy193.66\frz0.0974\frx3.4362\fry-0.1137\org(692.44,367.7)\pos(693.81,367.7)\c&H6BCBF9&\3c&H6BCBF9&\bord2.88}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.76\fscy193.08\frz0.0974\frx3.4362\fry-0.1137\org(693.24,367.79)\pos(694.6,367.79)\c&H6BCBF9&\3c&H6BCBF9&\bord2.87}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.21\fscy192.51\frz0.0974\frx3.4362\fry-0.1137\org(694.04,367.89)\pos(695.4,367.89)\c&H6BCBF9&\3c&H6BCBF9&\bord2.86}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.58\fscy191.85\frz0.0974\frx3.4362\fry-0.1137\org(694.94,368.04)\pos(696.3,368.04)\c&H6BCBF9&\3c&H6BCBF9&\bord2.85}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.04\fscy191.3\frz0.0974\frx3.4362\fry-0.1137\org(695.73,368.1)\pos(697.08,368.1)\c&H6BCBF9&\3c&H6BCBF9&\bord2.85}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx183.5\fscy190.73\frz0.0974\frx3.4362\fry-0.1137\org(696.51,368.2)\pos(697.86,368.2)\c&H6BCBF9&\3c&H6BCBF9&\bord2.84}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.94\fscy190.16\frz0.0974\frx3.4362\fry-0.1137\org(697.31,368.3)\pos(698.65,368.3)\c&H6BCBF9&\3c&H6BCBF9&\bord2.83}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.39\fscy189.58\frz0.0974\frx3.4362\fry-0.1137\org(698.06,368.38)\pos(699.4,368.38)\c&H6BCBF9&\3c&H6BCBF9&\bord2.82}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.86\fscy189.03\frz0.0974\frx3.4362\fry-0.1137\org(698.84,368.46)\pos(700.17,368.46)\c&H6BCBF9&\3c&H6BCBF9&\bord2.81}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.28\fscy188.43\frz0.0974\frx3.4362\fry-0.1137\org(699.68,368.56)\pos(701.01,368.56)\c&H6BCBF9&\3c&H6BCBF9&\bord2.8}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.79\fscy187.91\frz0.0974\frx3.4362\fry-0.1137\org(700.39,368.64)\pos(701.71,368.64)\c&H6BCBF9&\3c&H6BCBF9&\bord2.79}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.24\fscy187.34\frz0.0974\frx3.4362\fry-0.1137\org(701.17,368.73)\pos(702.49,368.73)\c&H6BCBF9&\3c&H6BCBF9&\bord2.79}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.58\fscy186.66\frz0.0974\frx3.4362\fry-0.1137\org(702.11,368.86)\pos(703.42,368.86)\c&H6BCBF9&\3c&H6BCBF9&\bord2.78}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.01\fscy186.06\frz0.0974\frx3.4362\fry-0.1137\org(702.95,368.98)\pos(704.26,368.98)\c&H6BCBF9&\3c&H6BCBF9&\bord2.77}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx178.53\fscy185.57\frz0.0974\frx3.4362\fry-0.1137\org(703.58,369.02)\pos(704.89,369.02)\c&H6BCBF9&\3c&H6BCBF9&\bord2.76}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 2,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx177.98\fscy184.99\frz0.0974\frx3.4362\fry-0.1137\org(704.38,369.13)\pos(705.68,369.13)\c&H6BCBF9&\3c&H6BCBF9&\bord2.75}PILOT {\c&H516FF7&\3c&H516FF7&}AUDITION
+Dialogue: 1,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx390.13\fscy405.51\frz0.0974\frx3.4362\fry-0.1137\org(399.9,327.46)\pos(402.76,327.46)\c&H3D52A4&\3c&H3D52A4&\bord12.06}PILOT AUDITION
+Dialogue: 1,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx350.88\fscy364.71\frz0.0974\frx3.4362\fry-0.1137\org(456.22,334.22)\pos(458.79,334.22)\c&H3D52A4&\3c&H3D52A4&\bord10.85}PILOT AUDITION
+Dialogue: 1,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx311.41\fscy323.69\frz0.0974\frx3.4362\fry-0.1137\org(512.91,341.13)\pos(515.19,341.13)\c&H3D52A4&\3c&H3D52A4&\bord9.63}PILOT AUDITION
+Dialogue: 1,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx272.03\fscy282.75\frz0.0974\frx3.4362\fry-0.1137\org(569.44,348.05)\pos(571.43,348.05)\c&H3D52A4&\3c&H3D52A4&\bord8.41}PILOT AUDITION
+Dialogue: 1,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx232.53\fscy241.7\frz0.0974\frx3.4362\fry-0.1137\org(626.2,354.07)\pos(627.9,354.07)\c&H3D52A4&\3c&H3D52A4&\bord7.19}PILOT AUDITION
+Dialogue: 1,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx193.58\fscy201.21\frz0.0974\frx3.4362\fry-0.1137\org(682.12,367.25)\pos(683.53,367.25)\c&H3D52A4&\3c&H3D52A4&\bord5.99}PILOT AUDITION
+Dialogue: 1,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx194.05\fscy201.7\frz0.0974\frx3.4362\fry-0.1137\org(681.35,366.39)\pos(682.77,366.39)\c&H3D52A4&\3c&H3D52A4&\bord6}PILOT AUDITION
+Dialogue: 1,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx193.5\fscy201.12\frz0.0974\frx3.4362\fry-0.1137\org(682.15,366.49)\pos(683.56,366.49)\c&H3D52A4&\3c&H3D52A4&\bord5.98}PILOT AUDITION
+Dialogue: 1,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.95\fscy200.55\frz0.0974\frx3.4362\fry-0.1137\org(682.93,366.57)\pos(684.34,366.57)\c&H3D52A4&\3c&H3D52A4&\bord5.97}PILOT AUDITION
+Dialogue: 1,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx192.42\fscy200.01\frz0.0974\frx3.4362\fry-0.1137\org(683.67,366.64)\pos(685.08,366.64)\c&H3D52A4&\3c&H3D52A4&\bord5.95}PILOT AUDITION
+Dialogue: 1,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.8\fscy199.36\frz0.0974\frx3.4362\fry-0.1137\org(684.6,366.79)\pos(686,366.79)\c&H3D52A4&\3c&H3D52A4&\bord5.93}PILOT AUDITION
+Dialogue: 1,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx191.3\fscy198.85\frz0.0974\frx3.4362\fry-0.1137\org(685.28,366.85)\pos(686.68,366.85)\c&H3D52A4&\3c&H3D52A4&\bord5.92}PILOT AUDITION
+Dialogue: 1,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.75\fscy198.27\frz0.0974\frx3.4362\fry-0.1137\org(686.09,366.94)\pos(687.49,366.94)\c&H3D52A4&\3c&H3D52A4&\bord5.9}PILOT AUDITION
+Dialogue: 1,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx190.27\fscy197.77\frz0.0974\frx3.4362\fry-0.1137\org(686.75,366.99)\pos(688.14,366.99)\c&H3D52A4&\3c&H3D52A4&\bord5.88}PILOT AUDITION
+Dialogue: 1,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.67\fscy197.15\frz0.0974\frx3.4362\fry-0.1137\org(687.64,367.11)\pos(689.03,367.11)\c&H3D52A4&\3c&H3D52A4&\bord5.86}PILOT AUDITION
+Dialogue: 1,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx189.06\fscy196.51\frz0.0974\frx3.4362\fry-0.1137\org(688.54,367.24)\pos(689.92,367.24)\c&H3D52A4&\3c&H3D52A4&\bord5.85}PILOT AUDITION
+Dialogue: 1,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.51\fscy195.95\frz0.0974\frx3.4362\fry-0.1137\org(689.3,367.33)\pos(690.68,367.33)\c&H3D52A4&\3c&H3D52A4&\bord5.83}PILOT AUDITION
+Dialogue: 1,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx188.03\fscy195.45\frz0.0974\frx3.4362\fry-0.1137\org(689.97,367.38)\pos(691.34,367.38)\c&H3D52A4&\3c&H3D52A4&\bord5.81}PILOT AUDITION
+Dialogue: 1,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx187.47\fscy194.86\frz0.0974\frx3.4362\fry-0.1137\org(690.77,367.46)\pos(692.14,367.46)\c&H3D52A4&\3c&H3D52A4&\bord5.8}PILOT AUDITION
+Dialogue: 1,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.89\fscy194.25\frz0.0974\frx3.4362\fry-0.1137\org(691.61,367.6)\pos(692.98,367.6)\c&H3D52A4&\3c&H3D52A4&\bord5.78}PILOT AUDITION
+Dialogue: 1,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx186.32\fscy193.66\frz0.0974\frx3.4362\fry-0.1137\org(692.44,367.7)\pos(693.81,367.7)\c&H3D52A4&\3c&H3D52A4&\bord5.76}PILOT AUDITION
+Dialogue: 1,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.76\fscy193.08\frz0.0974\frx3.4362\fry-0.1137\org(693.24,367.79)\pos(694.6,367.79)\c&H3D52A4&\3c&H3D52A4&\bord5.74}PILOT AUDITION
+Dialogue: 1,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx185.21\fscy192.51\frz0.0974\frx3.4362\fry-0.1137\org(694.04,367.89)\pos(695.4,367.89)\c&H3D52A4&\3c&H3D52A4&\bord5.73}PILOT AUDITION
+Dialogue: 1,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.58\fscy191.85\frz0.0974\frx3.4362\fry-0.1137\org(694.94,368.04)\pos(696.3,368.04)\c&H3D52A4&\3c&H3D52A4&\bord5.71}PILOT AUDITION
+Dialogue: 1,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx184.04\fscy191.3\frz0.0974\frx3.4362\fry-0.1137\org(695.73,368.1)\pos(697.08,368.1)\c&H3D52A4&\3c&H3D52A4&\bord5.69}PILOT AUDITION
+Dialogue: 1,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx183.5\fscy190.73\frz0.0974\frx3.4362\fry-0.1137\org(696.51,368.2)\pos(697.86,368.2)\c&H3D52A4&\3c&H3D52A4&\bord5.67}PILOT AUDITION
+Dialogue: 1,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.94\fscy190.16\frz0.0974\frx3.4362\fry-0.1137\org(697.31,368.3)\pos(698.65,368.3)\c&H3D52A4&\3c&H3D52A4&\bord5.66}PILOT AUDITION
+Dialogue: 1,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx182.39\fscy189.58\frz0.0974\frx3.4362\fry-0.1137\org(698.06,368.38)\pos(699.4,368.38)\c&H3D52A4&\3c&H3D52A4&\bord5.64}PILOT AUDITION
+Dialogue: 1,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.86\fscy189.03\frz0.0974\frx3.4362\fry-0.1137\org(698.84,368.46)\pos(700.17,368.46)\c&H3D52A4&\3c&H3D52A4&\bord5.62}PILOT AUDITION
+Dialogue: 1,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx181.28\fscy188.43\frz0.0974\frx3.4362\fry-0.1137\org(699.68,368.56)\pos(701.01,368.56)\c&H3D52A4&\3c&H3D52A4&\bord5.61}PILOT AUDITION
+Dialogue: 1,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.79\fscy187.91\frz0.0974\frx3.4362\fry-0.1137\org(700.39,368.64)\pos(701.71,368.64)\c&H3D52A4&\3c&H3D52A4&\bord5.59}PILOT AUDITION
+Dialogue: 1,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx180.24\fscy187.34\frz0.0974\frx3.4362\fry-0.1137\org(701.17,368.73)\pos(702.49,368.73)\c&H3D52A4&\3c&H3D52A4&\bord5.57}PILOT AUDITION
+Dialogue: 1,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.58\fscy186.66\frz0.0974\frx3.4362\fry-0.1137\org(702.11,368.86)\pos(703.42,368.86)\c&H3D52A4&\3c&H3D52A4&\bord5.55}PILOT AUDITION
+Dialogue: 1,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx179.01\fscy186.06\frz0.0974\frx3.4362\fry-0.1137\org(702.95,368.98)\pos(704.26,368.98)\c&H3D52A4&\3c&H3D52A4&\bord5.53}PILOT AUDITION
+Dialogue: 1,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx178.53\fscy185.57\frz0.0974\frx3.4362\fry-0.1137\org(703.58,369.02)\pos(704.89,369.02)\c&H3D52A4&\3c&H3D52A4&\bord5.52}PILOT AUDITION
+Dialogue: 1,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048758\fscx177.98\fscy184.99\frz0.0974\frx3.4362\fry-0.1137\org(704.38,369.13)\pos(705.68,369.13)\c&H3D52A4&\3c&H3D52A4&\bord5.5}PILOT AUDITION
+Dialogue: 0,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx390.13\fscy405.51\frz0.0974\frx3.4362\fry-0.1137\org(399.9,327.46)\pos(402.76,327.46)\1a&HFE&\3a&HFE&\shad6.03\bord12.06\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx350.88\fscy364.71\frz0.0974\frx3.4362\fry-0.1137\org(456.22,334.22)\pos(458.79,334.22)\1a&HFE&\3a&HFE&\shad5.42\bord10.85\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx311.41\fscy323.69\frz0.0974\frx3.4362\fry-0.1137\org(512.91,341.13)\pos(515.19,341.13)\1a&HFE&\3a&HFE&\shad4.81\bord9.63\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx272.03\fscy282.75\frz0.0974\frx3.4362\fry-0.1137\org(569.44,348.05)\pos(571.43,348.05)\1a&HFE&\3a&HFE&\shad4.21\bord8.41\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx232.53\fscy241.7\frz0.0974\frx3.4362\fry-0.1137\org(626.2,354.07)\pos(627.9,354.07)\1a&HFE&\3a&HFE&\shad3.59\bord7.19\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048758\fscx193.58\fscy201.21\frz0.0974\frx3.4362\fry-0.1137\org(682.12,367.25)\pos(683.53,367.25)\1a&HFE&\3a&HFE&\shad2.99\bord5.99\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx194.05\fscy201.7\frz0.0974\frx3.4362\fry-0.1137\org(681.35,366.39)\pos(682.77,366.39)\1a&HFE&\3a&HFE&\shad3\bord6\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx193.5\fscy201.12\frz0.0974\frx3.4362\fry-0.1137\org(682.15,366.49)\pos(683.56,366.49)\1a&HFE&\3a&HFE&\shad2.99\bord5.98\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx192.95\fscy200.55\frz0.0974\frx3.4362\fry-0.1137\org(682.93,366.57)\pos(684.34,366.57)\1a&HFE&\3a&HFE&\shad2.98\bord5.97\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx192.42\fscy200.01\frz0.0974\frx3.4362\fry-0.1137\org(683.67,366.64)\pos(685.08,366.64)\1a&HFE&\3a&HFE&\shad2.97\bord5.95\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx191.8\fscy199.36\frz0.0974\frx3.4362\fry-0.1137\org(684.6,366.79)\pos(686,366.79)\1a&HFE&\3a&HFE&\shad2.97\bord5.93\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx191.3\fscy198.85\frz0.0974\frx3.4362\fry-0.1137\org(685.28,366.85)\pos(686.68,366.85)\1a&HFE&\3a&HFE&\shad2.96\bord5.92\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx190.75\fscy198.27\frz0.0974\frx3.4362\fry-0.1137\org(686.09,366.94)\pos(687.49,366.94)\1a&HFE&\3a&HFE&\shad2.95\bord5.9\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx190.27\fscy197.77\frz0.0974\frx3.4362\fry-0.1137\org(686.75,366.99)\pos(688.14,366.99)\1a&HFE&\3a&HFE&\shad2.94\bord5.88\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx189.67\fscy197.15\frz0.0974\frx3.4362\fry-0.1137\org(687.64,367.11)\pos(689.03,367.11)\1a&HFE&\3a&HFE&\shad2.93\bord5.86\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx189.06\fscy196.51\frz0.0974\frx3.4362\fry-0.1137\org(688.54,367.24)\pos(689.92,367.24)\1a&HFE&\3a&HFE&\shad2.92\bord5.85\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx188.51\fscy195.95\frz0.0974\frx3.4362\fry-0.1137\org(689.3,367.33)\pos(690.68,367.33)\1a&HFE&\3a&HFE&\shad2.91\bord5.83\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx188.03\fscy195.45\frz0.0974\frx3.4362\fry-0.1137\org(689.97,367.38)\pos(691.34,367.38)\1a&HFE&\3a&HFE&\shad2.91\bord5.81\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx187.47\fscy194.86\frz0.0974\frx3.4362\fry-0.1137\org(690.77,367.46)\pos(692.14,367.46)\1a&HFE&\3a&HFE&\shad2.9\bord5.8\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx186.89\fscy194.25\frz0.0974\frx3.4362\fry-0.1137\org(691.61,367.6)\pos(692.98,367.6)\1a&HFE&\3a&HFE&\shad2.89\bord5.78\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx186.32\fscy193.66\frz0.0974\frx3.4362\fry-0.1137\org(692.44,367.7)\pos(693.81,367.7)\1a&HFE&\3a&HFE&\shad2.88\bord5.76\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx185.76\fscy193.08\frz0.0974\frx3.4362\fry-0.1137\org(693.24,367.79)\pos(694.6,367.79)\1a&HFE&\3a&HFE&\shad2.87\bord5.74\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx185.21\fscy192.51\frz0.0974\frx3.4362\fry-0.1137\org(694.04,367.89)\pos(695.4,367.89)\1a&HFE&\3a&HFE&\shad2.86\bord5.73\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx184.58\fscy191.85\frz0.0974\frx3.4362\fry-0.1137\org(694.94,368.04)\pos(696.3,368.04)\1a&HFE&\3a&HFE&\shad2.85\bord5.71\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx184.04\fscy191.3\frz0.0974\frx3.4362\fry-0.1137\org(695.73,368.1)\pos(697.08,368.1)\1a&HFE&\3a&HFE&\shad2.85\bord5.69\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx183.5\fscy190.73\frz0.0974\frx3.4362\fry-0.1137\org(696.51,368.2)\pos(697.86,368.2)\1a&HFE&\3a&HFE&\shad2.84\bord5.67\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx182.94\fscy190.16\frz0.0974\frx3.4362\fry-0.1137\org(697.31,368.3)\pos(698.65,368.3)\1a&HFE&\3a&HFE&\shad2.83\bord5.66\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx182.39\fscy189.58\frz0.0974\frx3.4362\fry-0.1137\org(698.06,368.38)\pos(699.4,368.38)\1a&HFE&\3a&HFE&\shad2.82\bord5.64\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx181.86\fscy189.03\frz0.0974\frx3.4362\fry-0.1137\org(698.84,368.46)\pos(700.17,368.46)\1a&HFE&\3a&HFE&\shad2.81\bord5.62\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx181.28\fscy188.43\frz0.0974\frx3.4362\fry-0.1137\org(699.68,368.56)\pos(701.01,368.56)\1a&HFE&\3a&HFE&\shad2.8\bord5.61\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx180.79\fscy187.91\frz0.0974\frx3.4362\fry-0.1137\org(700.39,368.64)\pos(701.71,368.64)\1a&HFE&\3a&HFE&\shad2.79\bord5.59\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx180.24\fscy187.34\frz0.0974\frx3.4362\fry-0.1137\org(701.17,368.73)\pos(702.49,368.73)\1a&HFE&\3a&HFE&\shad2.79\bord5.57\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx179.58\fscy186.66\frz0.0974\frx3.4362\fry-0.1137\org(702.11,368.86)\pos(703.42,368.86)\1a&HFE&\3a&HFE&\shad2.78\bord5.55\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx179.01\fscy186.06\frz0.0974\frx3.4362\fry-0.1137\org(702.95,368.98)\pos(704.26,368.98)\1a&HFE&\3a&HFE&\shad2.77\bord5.53\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx178.53\fscy185.57\frz0.0974\frx3.4362\fry-0.1137\org(703.58,369.02)\pos(704.89,369.02)\1a&HFE&\3a&HFE&\shad2.76\bord5.52\4a&H6F&}PILOT AUDITION
+Dialogue: 0,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048758\fscx177.98\fscy184.99\frz0.0974\frx3.4362\fry-0.1137\org(704.38,369.13)\pos(705.68,369.13)\1a&HFE&\3a&HFE&\shad2.75\bord5.5\4a&H6F&}PILOT AUDITION
+Dialogue: 2,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx393.26\fscy412.04\frz0.0829\frx3.4090\fry-0.1128\org(396.08,411.72)\pos(398.96,411.72)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx353.7\fscy370.59\frz0.0829\frx3.4090\fry-0.1128\org(452.78,410)\pos(455.37,410)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx313.91\fscy328.9\frz0.0829\frx3.4090\fry-0.1128\org(509.86,408.39)\pos(512.16,408.39)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx274.21\fscy287.3\frz0.0829\frx3.4090\fry-0.1128\org(566.78,406.8)\pos(568.78,406.8)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx234.4\fscy245.59\frz0.0829\frx3.4090\fry-0.1128\org(623.92,404.29)\pos(625.64,404.29)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx195.13\fscy204.45\frz0.0829\frx3.4090\fry-0.1128\org(680.22,409.06)\pos(681.65,409.06)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx195.61\fscy204.95\frz0.0829\frx3.4090\fry-0.1128\org(679.45,408.3)\pos(680.88,408.3)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx195.05\fscy204.36\frz0.0829\frx3.4090\fry-0.1128\org(680.25,408.28)\pos(681.68,408.28)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx194.5\fscy203.78\frz0.0829\frx3.4090\fry-0.1128\org(681.04,408.24)\pos(682.46,408.24)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx193.97\fscy203.23\frz0.0829\frx3.4090\fry-0.1128\org(681.79,408.2)\pos(683.2,408.2)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx193.34\fscy202.58\frz0.0829\frx3.4090\fry-0.1128\org(682.72,408.22)\pos(684.13,408.22)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx192.84\fscy202.05\frz0.0829\frx3.4090\fry-0.1128\org(683.41,408.16)\pos(684.82,408.16)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx192.28\fscy201.46\frz0.0829\frx3.4090\fry-0.1128\org(684.23,408.14)\pos(685.63,408.14)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx191.8\fscy200.95\frz0.0829\frx3.4090\fry-0.1128\org(684.89,408.08)\pos(686.29,408.08)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx191.19\fscy200.32\frz0.0829\frx3.4090\fry-0.1128\org(685.78,408.07)\pos(687.18,408.07)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx190.58\fscy199.68\frz0.0829\frx3.4090\fry-0.1128\org(686.68,408.07)\pos(688.08,408.07)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx190.03\fscy199.1\frz0.0829\frx3.4090\fry-0.1128\org(687.46,408.04)\pos(688.85,408.04)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx189.55\fscy198.6\frz0.0829\frx3.4090\fry-0.1128\org(688.13,407.99)\pos(689.51,407.99)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx188.98\fscy198\frz0.0829\frx3.4090\fry-0.1128\org(688.93,407.95)\pos(690.32,407.95)\c&H466EF3&}NO.1
+Dialogue: 2,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx188.39\fscy197.38\frz0.0829\frx3.4090\fry-0.1128\org(689.78,407.96)\pos(691.16,407.96)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx187.82\fscy196.78\frz0.0829\frx3.4090\fry-0.1128\org(690.62,407.94)\pos(691.99,407.94)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx187.25\fscy196.19\frz0.0829\frx3.4090\fry-0.1128\org(691.43,407.91)\pos(692.8,407.91)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx186.69\fscy195.61\frz0.0829\frx3.4090\fry-0.1128\org(692.23,407.89)\pos(693.59,407.89)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx186.06\fscy194.95\frz0.0829\frx3.4090\fry-0.1128\org(693.14,407.9)\pos(694.5,407.9)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx185.52\fscy194.38\frz0.0829\frx3.4090\fry-0.1128\org(693.93,407.85)\pos(695.29,407.85)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx184.97\fscy193.8\frz0.0829\frx3.4090\fry-0.1128\org(694.72,407.83)\pos(696.07,407.83)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx184.41\fscy193.22\frz0.0829\frx3.4090\fry-0.1128\org(695.52,407.81)\pos(696.86,407.81)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx183.86\fscy192.64\frz0.0829\frx3.4090\fry-0.1128\org(696.28,407.77)\pos(697.62,407.77)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx183.32\fscy192.08\frz0.0829\frx3.4090\fry-0.1128\org(697.05,407.73)\pos(698.39,407.73)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx182.74\fscy191.47\frz0.0829\frx3.4090\fry-0.1128\org(697.91,407.71)\pos(699.25,407.71)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx182.24\fscy190.94\frz0.0829\frx3.4090\fry-0.1128\org(698.62,407.68)\pos(699.95,407.68)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx181.68\fscy190.36\frz0.0829\frx3.4090\fry-0.1128\org(699.4,407.66)\pos(700.73,407.66)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx181.03\fscy189.67\frz0.0829\frx3.4090\fry-0.1128\org(700.35,407.64)\pos(701.67,407.64)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx180.45\fscy189.06\frz0.0829\frx3.4090\fry-0.1128\org(701.2,407.64)\pos(702.52,407.64)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx179.97\fscy188.56\frz0.0829\frx3.4090\fry-0.1128\org(701.83,407.58)\pos(703.15,407.58)\c&H466EF3&}NO.1
+Dialogue: 2,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx179.41\fscy187.97\frz0.0829\frx3.4090\fry-0.1128\org(702.64,407.57)\pos(703.95,407.57)\c&H466EF3&}NO.1
+Dialogue: 1,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx393.26\fscy412.04\frz0.0829\frx3.4090\fry-0.1128\org(396.08,411.72)\pos(398.96,411.72)\c&H56C4F7&\3c&H56C4F7&\bord6.03}NO.1
+Dialogue: 1,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx353.7\fscy370.59\frz0.0829\frx3.4090\fry-0.1128\org(452.78,410)\pos(455.37,410)\c&H56C4F7&\3c&H56C4F7&\bord5.42}NO.1
+Dialogue: 1,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx313.91\fscy328.9\frz0.0829\frx3.4090\fry-0.1128\org(509.86,408.39)\pos(512.16,408.39)\c&H56C4F7&\3c&H56C4F7&\bord4.81}NO.1
+Dialogue: 1,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx274.21\fscy287.3\frz0.0829\frx3.4090\fry-0.1128\org(566.78,406.8)\pos(568.78,406.8)\c&H56C4F7&\3c&H56C4F7&\bord4.21}NO.1
+Dialogue: 1,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx234.4\fscy245.59\frz0.0829\frx3.4090\fry-0.1128\org(623.92,404.29)\pos(625.64,404.29)\c&H56C4F7&\3c&H56C4F7&\bord3.59}NO.1
+Dialogue: 1,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx195.13\fscy204.45\frz0.0829\frx3.4090\fry-0.1128\org(680.22,409.06)\pos(681.65,409.06)\c&H56C4F7&\3c&H56C4F7&\bord2.99}NO.1
+Dialogue: 1,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx195.61\fscy204.95\frz0.0829\frx3.4090\fry-0.1128\org(679.45,408.3)\pos(680.88,408.3)\c&H56C4F7&\3c&H56C4F7&\bord3}NO.1
+Dialogue: 1,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx195.05\fscy204.36\frz0.0829\frx3.4090\fry-0.1128\org(680.25,408.28)\pos(681.68,408.28)\c&H56C4F7&\3c&H56C4F7&\bord2.99}NO.1
+Dialogue: 1,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx194.5\fscy203.78\frz0.0829\frx3.4090\fry-0.1128\org(681.04,408.24)\pos(682.46,408.24)\c&H56C4F7&\3c&H56C4F7&\bord2.98}NO.1
+Dialogue: 1,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx193.97\fscy203.23\frz0.0829\frx3.4090\fry-0.1128\org(681.79,408.2)\pos(683.2,408.2)\c&H56C4F7&\3c&H56C4F7&\bord2.97}NO.1
+Dialogue: 1,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx193.34\fscy202.58\frz0.0829\frx3.4090\fry-0.1128\org(682.72,408.22)\pos(684.13,408.22)\c&H56C4F7&\3c&H56C4F7&\bord2.97}NO.1
+Dialogue: 1,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx192.84\fscy202.05\frz0.0829\frx3.4090\fry-0.1128\org(683.41,408.16)\pos(684.82,408.16)\c&H56C4F7&\3c&H56C4F7&\bord2.96}NO.1
+Dialogue: 1,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx192.28\fscy201.46\frz0.0829\frx3.4090\fry-0.1128\org(684.23,408.14)\pos(685.63,408.14)\c&H56C4F7&\3c&H56C4F7&\bord2.95}NO.1
+Dialogue: 1,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx191.8\fscy200.95\frz0.0829\frx3.4090\fry-0.1128\org(684.89,408.08)\pos(686.29,408.08)\c&H56C4F7&\3c&H56C4F7&\bord2.94}NO.1
+Dialogue: 1,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx191.19\fscy200.32\frz0.0829\frx3.4090\fry-0.1128\org(685.78,408.07)\pos(687.18,408.07)\c&H56C4F7&\3c&H56C4F7&\bord2.93}NO.1
+Dialogue: 1,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx190.58\fscy199.68\frz0.0829\frx3.4090\fry-0.1128\org(686.68,408.07)\pos(688.08,408.07)\c&H56C4F7&\3c&H56C4F7&\bord2.92}NO.1
+Dialogue: 1,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx190.03\fscy199.1\frz0.0829\frx3.4090\fry-0.1128\org(687.46,408.04)\pos(688.85,408.04)\c&H56C4F7&\3c&H56C4F7&\bord2.91}NO.1
+Dialogue: 1,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx189.55\fscy198.6\frz0.0829\frx3.4090\fry-0.1128\org(688.13,407.99)\pos(689.51,407.99)\c&H56C4F7&\3c&H56C4F7&\bord2.91}NO.1
+Dialogue: 1,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx188.98\fscy198\frz0.0829\frx3.4090\fry-0.1128\org(688.93,407.95)\pos(690.32,407.95)\c&H56C4F7&\3c&H56C4F7&\bord2.9}NO.1
+Dialogue: 1,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx188.39\fscy197.38\frz0.0829\frx3.4090\fry-0.1128\org(689.78,407.96)\pos(691.16,407.96)\c&H56C4F7&\3c&H56C4F7&\bord2.89}NO.1
+Dialogue: 1,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx187.82\fscy196.78\frz0.0829\frx3.4090\fry-0.1128\org(690.62,407.94)\pos(691.99,407.94)\c&H56C4F7&\3c&H56C4F7&\bord2.88}NO.1
+Dialogue: 1,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx187.25\fscy196.19\frz0.0829\frx3.4090\fry-0.1128\org(691.43,407.91)\pos(692.8,407.91)\c&H56C4F7&\3c&H56C4F7&\bord2.87}NO.1
+Dialogue: 1,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx186.69\fscy195.61\frz0.0829\frx3.4090\fry-0.1128\org(692.23,407.89)\pos(693.59,407.89)\c&H56C4F7&\3c&H56C4F7&\bord2.86}NO.1
+Dialogue: 1,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx186.06\fscy194.95\frz0.0829\frx3.4090\fry-0.1128\org(693.14,407.9)\pos(694.5,407.9)\c&H56C4F7&\3c&H56C4F7&\bord2.85}NO.1
+Dialogue: 1,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx185.52\fscy194.38\frz0.0829\frx3.4090\fry-0.1128\org(693.93,407.85)\pos(695.29,407.85)\c&H56C4F7&\3c&H56C4F7&\bord2.85}NO.1
+Dialogue: 1,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx184.97\fscy193.8\frz0.0829\frx3.4090\fry-0.1128\org(694.72,407.83)\pos(696.07,407.83)\c&H56C4F7&\3c&H56C4F7&\bord2.84}NO.1
+Dialogue: 1,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx184.41\fscy193.22\frz0.0829\frx3.4090\fry-0.1128\org(695.52,407.81)\pos(696.86,407.81)\c&H56C4F7&\3c&H56C4F7&\bord2.83}NO.1
+Dialogue: 1,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx183.86\fscy192.64\frz0.0829\frx3.4090\fry-0.1128\org(696.28,407.77)\pos(697.62,407.77)\c&H56C4F7&\3c&H56C4F7&\bord2.82}NO.1
+Dialogue: 1,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx183.32\fscy192.08\frz0.0829\frx3.4090\fry-0.1128\org(697.05,407.73)\pos(698.39,407.73)\c&H56C4F7&\3c&H56C4F7&\bord2.81}NO.1
+Dialogue: 1,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx182.74\fscy191.47\frz0.0829\frx3.4090\fry-0.1128\org(697.91,407.71)\pos(699.25,407.71)\c&H56C4F7&\3c&H56C4F7&\bord2.8}NO.1
+Dialogue: 1,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx182.24\fscy190.94\frz0.0829\frx3.4090\fry-0.1128\org(698.62,407.68)\pos(699.95,407.68)\c&H56C4F7&\3c&H56C4F7&\bord2.79}NO.1
+Dialogue: 1,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx181.68\fscy190.36\frz0.0829\frx3.4090\fry-0.1128\org(699.4,407.66)\pos(700.73,407.66)\c&H56C4F7&\3c&H56C4F7&\bord2.79}NO.1
+Dialogue: 1,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx181.03\fscy189.67\frz0.0829\frx3.4090\fry-0.1128\org(700.35,407.64)\pos(701.67,407.64)\c&H56C4F7&\3c&H56C4F7&\bord2.78}NO.1
+Dialogue: 1,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx180.45\fscy189.06\frz0.0829\frx3.4090\fry-0.1128\org(701.2,407.64)\pos(702.52,407.64)\c&H56C4F7&\3c&H56C4F7&\bord2.77}NO.1
+Dialogue: 1,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx179.97\fscy188.56\frz0.0829\frx3.4090\fry-0.1128\org(701.83,407.58)\pos(703.15,407.58)\c&H56C4F7&\3c&H56C4F7&\bord2.76}NO.1
+Dialogue: 1,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur0.7\fax-0.048888\fscx179.41\fscy187.97\frz0.0829\frx3.4090\fry-0.1128\org(702.64,407.57)\pos(703.95,407.57)\c&H56C4F7&\3c&H56C4F7&\bord2.75}NO.1
+Dialogue: 0,0:07:59.16,0:07:59.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx393.26\fscy412.04\frz0.0829\frx3.4090\fry-0.1128\org(396.08,411.72)\pos(398.96,411.72)\1a&HFE&\3a&HFE&\shad6.03\bord6.03\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.20,0:07:59.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx353.7\fscy370.59\frz0.0829\frx3.4090\fry-0.1128\org(452.78,410)\pos(455.37,410)\1a&HFE&\3a&HFE&\shad5.42\bord5.42\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.25,0:07:59.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx313.91\fscy328.9\frz0.0829\frx3.4090\fry-0.1128\org(509.86,408.39)\pos(512.16,408.39)\1a&HFE&\3a&HFE&\shad4.81\bord4.81\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.29,0:07:59.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx274.21\fscy287.3\frz0.0829\frx3.4090\fry-0.1128\org(566.78,406.8)\pos(568.78,406.8)\1a&HFE&\3a&HFE&\shad4.21\bord4.21\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.33,0:07:59.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx234.4\fscy245.59\frz0.0829\frx3.4090\fry-0.1128\org(623.92,404.29)\pos(625.64,404.29)\1a&HFE&\3a&HFE&\shad3.59\bord3.59\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.37,0:07:59.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur3\be3\fax-0.048888\fscx195.13\fscy204.45\frz0.0829\frx3.4090\fry-0.1128\org(680.22,409.06)\pos(681.65,409.06)\1a&HFE&\3a&HFE&\shad2.99\bord2.99\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.41,0:07:59.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx195.61\fscy204.95\frz0.0829\frx3.4090\fry-0.1128\org(679.45,408.3)\pos(680.88,408.3)\1a&HFE&\3a&HFE&\shad3\bord3\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.45,0:07:59.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx195.05\fscy204.36\frz0.0829\frx3.4090\fry-0.1128\org(680.25,408.28)\pos(681.68,408.28)\1a&HFE&\3a&HFE&\shad2.99\bord2.99\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.50,0:07:59.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx194.5\fscy203.78\frz0.0829\frx3.4090\fry-0.1128\org(681.04,408.24)\pos(682.46,408.24)\1a&HFE&\3a&HFE&\shad2.98\bord2.98\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.54,0:07:59.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx193.97\fscy203.23\frz0.0829\frx3.4090\fry-0.1128\org(681.79,408.2)\pos(683.2,408.2)\1a&HFE&\3a&HFE&\shad2.97\bord2.97\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.58,0:07:59.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx193.34\fscy202.58\frz0.0829\frx3.4090\fry-0.1128\org(682.72,408.22)\pos(684.13,408.22)\1a&HFE&\3a&HFE&\shad2.97\bord2.97\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.62,0:07:59.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx192.84\fscy202.05\frz0.0829\frx3.4090\fry-0.1128\org(683.41,408.16)\pos(684.82,408.16)\1a&HFE&\3a&HFE&\shad2.96\bord2.96\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.66,0:07:59.70,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx192.28\fscy201.46\frz0.0829\frx3.4090\fry-0.1128\org(684.23,408.14)\pos(685.63,408.14)\1a&HFE&\3a&HFE&\shad2.95\bord2.95\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.70,0:07:59.75,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx191.8\fscy200.95\frz0.0829\frx3.4090\fry-0.1128\org(684.89,408.08)\pos(686.29,408.08)\1a&HFE&\3a&HFE&\shad2.94\bord2.94\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.75,0:07:59.79,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx191.19\fscy200.32\frz0.0829\frx3.4090\fry-0.1128\org(685.78,408.07)\pos(687.18,408.07)\1a&HFE&\3a&HFE&\shad2.93\bord2.93\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.79,0:07:59.83,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx190.58\fscy199.68\frz0.0829\frx3.4090\fry-0.1128\org(686.68,408.07)\pos(688.08,408.07)\1a&HFE&\3a&HFE&\shad2.92\bord2.92\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.83,0:07:59.87,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx190.03\fscy199.1\frz0.0829\frx3.4090\fry-0.1128\org(687.46,408.04)\pos(688.85,408.04)\1a&HFE&\3a&HFE&\shad2.91\bord2.91\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.87,0:07:59.91,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx189.55\fscy198.6\frz0.0829\frx3.4090\fry-0.1128\org(688.13,407.99)\pos(689.51,407.99)\1a&HFE&\3a&HFE&\shad2.91\bord2.91\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.91,0:07:59.95,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx188.98\fscy198\frz0.0829\frx3.4090\fry-0.1128\org(688.93,407.95)\pos(690.32,407.95)\1a&HFE&\3a&HFE&\shad2.9\bord2.9\4a&H6F&}NO.1
+Dialogue: 0,0:07:59.95,0:08:00.00,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx188.39\fscy197.38\frz0.0829\frx3.4090\fry-0.1128\org(689.78,407.96)\pos(691.16,407.96)\1a&HFE&\3a&HFE&\shad2.89\bord2.89\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.00,0:08:00.04,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx187.82\fscy196.78\frz0.0829\frx3.4090\fry-0.1128\org(690.62,407.94)\pos(691.99,407.94)\1a&HFE&\3a&HFE&\shad2.88\bord2.88\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.04,0:08:00.08,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx187.25\fscy196.19\frz0.0829\frx3.4090\fry-0.1128\org(691.43,407.91)\pos(692.8,407.91)\1a&HFE&\3a&HFE&\shad2.87\bord2.87\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.08,0:08:00.12,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx186.69\fscy195.61\frz0.0829\frx3.4090\fry-0.1128\org(692.23,407.89)\pos(693.59,407.89)\1a&HFE&\3a&HFE&\shad2.86\bord2.86\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.12,0:08:00.16,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx186.06\fscy194.95\frz0.0829\frx3.4090\fry-0.1128\org(693.14,407.9)\pos(694.5,407.9)\1a&HFE&\3a&HFE&\shad2.85\bord2.85\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.16,0:08:00.20,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx185.52\fscy194.38\frz0.0829\frx3.4090\fry-0.1128\org(693.93,407.85)\pos(695.29,407.85)\1a&HFE&\3a&HFE&\shad2.85\bord2.85\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.20,0:08:00.25,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx184.97\fscy193.8\frz0.0829\frx3.4090\fry-0.1128\org(694.72,407.83)\pos(696.07,407.83)\1a&HFE&\3a&HFE&\shad2.84\bord2.84\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.25,0:08:00.29,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx184.41\fscy193.22\frz0.0829\frx3.4090\fry-0.1128\org(695.52,407.81)\pos(696.86,407.81)\1a&HFE&\3a&HFE&\shad2.83\bord2.83\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.29,0:08:00.33,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx183.86\fscy192.64\frz0.0829\frx3.4090\fry-0.1128\org(696.28,407.77)\pos(697.62,407.77)\1a&HFE&\3a&HFE&\shad2.82\bord2.82\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.33,0:08:00.37,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx183.32\fscy192.08\frz0.0829\frx3.4090\fry-0.1128\org(697.05,407.73)\pos(698.39,407.73)\1a&HFE&\3a&HFE&\shad2.81\bord2.81\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.37,0:08:00.41,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx182.74\fscy191.47\frz0.0829\frx3.4090\fry-0.1128\org(697.91,407.71)\pos(699.25,407.71)\1a&HFE&\3a&HFE&\shad2.8\bord2.8\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.41,0:08:00.45,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx182.24\fscy190.94\frz0.0829\frx3.4090\fry-0.1128\org(698.62,407.68)\pos(699.95,407.68)\1a&HFE&\3a&HFE&\shad2.79\bord2.79\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.45,0:08:00.50,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx181.68\fscy190.36\frz0.0829\frx3.4090\fry-0.1128\org(699.4,407.66)\pos(700.73,407.66)\1a&HFE&\3a&HFE&\shad2.79\bord2.79\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.50,0:08:00.54,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx181.03\fscy189.67\frz0.0829\frx3.4090\fry-0.1128\org(700.35,407.64)\pos(701.67,407.64)\1a&HFE&\3a&HFE&\shad2.78\bord2.78\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.54,0:08:00.58,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx180.45\fscy189.06\frz0.0829\frx3.4090\fry-0.1128\org(701.2,407.64)\pos(702.52,407.64)\1a&HFE&\3a&HFE&\shad2.77\bord2.77\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.58,0:08:00.62,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx179.97\fscy188.56\frz0.0829\frx3.4090\fry-0.1128\org(701.83,407.58)\pos(703.15,407.58)\1a&HFE&\3a&HFE&\shad2.76\bord2.76\4a&H6F&}NO.1
+Dialogue: 0,0:08:00.62,0:08:00.66,0$mask,,0,0,0,,{\fnA-OTF Take Std B\b1\an5\blur1\fax-0.048888\fscx179.41\fscy187.97\frz0.0829\frx3.4090\fry-0.1128\org(702.64,407.57)\pos(703.95,407.57)\1a&HFE&\3a&HFE&\shad2.75\bord2.75\4a&H6F&}NO.1
+Comment: 0,0:08:37.29,0:08:40.96,0$Default,,0,0,0,,Lunch A / Lunch B
+Dialogue: 0,0:08:37.41,0:08:37.45,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.198441\fscx197.03\fscy219.18\frz10.8602\frx0.7293\fry-5.3003\org(1428.54,31.2)\pos(1434.41,31.2)}LUNCH B
+Dialogue: 0,0:08:37.45,0:08:37.49,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur5\be8\fax-0.198441\fscx171.18\fscy190.43\frz10.8602\frx0.7293\fry-5.3003\org(1247.44,98.61)\pos(1252.54,98.61)}LUNCH B
+Dialogue: 0,0:08:37.49,0:08:37.54,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur1.5\be2\fax-0.198441\fscx161.75\fscy179.94\frz10.8602\frx0.7293\fry-5.3003\org(1190.04,123.61)\pos(1194.86,123.61)}LUNCH B
+Dialogue: 0,0:08:37.54,0:08:40.96,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur0.7\fax-0.198441\fscx161.75\fscy179.94\frz10.8602\frx0.7293\fry-5.3003\org(1190.04,123.61)\pos(1194.86,123.61)}LUNCH B
+Dialogue: 0,0:08:37.28,0:08:37.32,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.285613\fscx210.1\fscy288.55\frz10.8380\frx0.9007\fry-6.5462\org(964.93,-20.48)\pos(973.93,-20.48)}LUNCH A
+Dialogue: 0,0:08:37.32,0:08:37.37,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.285613\fscx183.33\fscy251.78\frz10.8380\frx0.9007\fry-6.5462\org(853.63,46.62)\pos(861.49,46.62)}LUNCH A
+Dialogue: 0,0:08:37.37,0:08:37.41,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.285613\fscx154.4\fscy212.05\frz10.8380\frx0.9007\fry-6.5462\org(731.35,120.18)\pos(737.97,120.18)}LUNCH A
+Dialogue: 0,0:08:37.41,0:08:37.45,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.285613\fscx129.06\fscy177.24\frz10.8380\frx0.9007\fry-6.5462\org(621.32,186.68)\pos(626.85,186.68)}LUNCH A
+Dialogue: 0,0:08:37.45,0:08:37.49,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur7\be10\fax-0.285613\fscx112.13\fscy154\frz10.8380\frx0.9007\fry-6.5462\org(546.1,233.69)\pos(550.9,233.69)}LUNCH A
+Dialogue: 0,0:08:37.49,0:08:37.54,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur2\be5\fax-0.285613\fscx105.95\fscy145.51\frz10.8380\frx0.9007\fry-6.5462\org(527.35,251.25)\pos(531.89,251.25)}LUNCH A
+Dialogue: 0,0:08:37.54,0:08:40.96,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur0.7\fax-0.285613\fscx105.95\fscy145.51\frz10.8380\frx0.9007\fry-6.5462\org(527.35,251.25)\pos(531.89,251.25)}LUNCH A
+Comment: 0,0:13:55.98,0:13:57.94,0$Default,,0,0,0,,Lunch A / Lunch B
+Dialogue: 0,0:13:56.07,0:13:56.11,0$mask,,0,0,0,,{\fnArial\b1\c&H807F84&\an5\blur7\be10\fax-0.198441\fscx197.03\fscy219.18\frz10.8602\frx0.7293\fry-5.3003\org(1428.54,31.2)\pos(1434.41,31.2)}LUNCH B
+Dialogue: 0,0:13:56.11,0:13:56.15,0$mask,,0,0,0,,{\fnArial\b1\c&H6B6A71&\an5\blur5\be8\fax-0.198441\fscx171.18\fscy190.43\frz10.8602\frx0.7293\fry-5.3003\org(1247.44,98.61)\pos(1252.54,98.61)}LUNCH B
+Dialogue: 0,0:13:56.15,0:13:56.19,0$mask,,0,0,0,,{\fnArial\b1\c&H6E6C73&\an5\blur1.5\be2\fax-0.198441\fscx161.75\fscy179.94\frz10.8602\frx0.7293\fry-5.3003\org(1190.04,123.61)\pos(1194.86,123.61)}LUNCH B
+Dialogue: 0,0:13:56.19,0:13:57.94,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur0.7\fax-0.198441\fscx161.75\fscy179.94\frz10.8602\frx0.7293\fry-5.3003\org(1190.04,123.61)\pos(1194.86,123.61)}LUNCH B
+Dialogue: 0,0:13:55.98,0:13:56.02,0$mask,,0,0,0,,{\fnArial\b1\c&HD5D4DA&\an5\blur7\be10\fax-0.285613\fscx183.33\fscy251.78\frz10.8380\frx0.9007\fry-6.5462\org(853.63,46.62)\pos(861.49,46.62)}LUNCH A
+Dialogue: 0,0:13:56.02,0:13:56.07,0$mask,,0,0,0,,{\fnArial\b1\c&H9C9AA5&\an5\blur7\be10\fax-0.285613\fscx154.4\fscy212.05\frz10.8380\frx0.9007\fry-6.5462\org(731.35,120.18)\pos(737.97,120.18)}LUNCH A
+Dialogue: 0,0:13:56.07,0:13:56.11,0$mask,,0,0,0,,{\fnArial\b1\c&H807F84&\an5\blur7\be10\fax-0.285613\fscx129.06\fscy177.24\frz10.8380\frx0.9007\fry-6.5462\org(621.32,186.68)\pos(626.85,186.68)}LUNCH A
+Dialogue: 0,0:13:56.11,0:13:56.15,0$mask,,0,0,0,,{\fnArial\b1\c&H6B6A71&\an5\blur7\be10\fax-0.285613\fscx112.13\fscy154\frz10.8380\frx0.9007\fry-6.5462\org(546.1,233.69)\pos(550.9,233.69)}LUNCH A
+Dialogue: 0,0:13:56.15,0:13:56.19,0$mask,,0,0,0,,{\fnArial\b1\c&H6E6C73&\an5\blur2\be5\fax-0.285613\fscx105.95\fscy145.51\frz10.8380\frx0.9007\fry-6.5462\org(527.35,251.25)\pos(531.89,251.25)}LUNCH A
+Dialogue: 0,0:13:56.19,0:13:57.94,0$mask,,0,0,0,,{\fnArial\b1\c&H4A494E&\an5\blur0.7\fax-0.285613\fscx105.95\fscy145.51\frz10.8380\frx0.9007\fry-6.5462\org(527.35,251.25)\pos(531.89,251.25)}LUNCH A
+Comment: 0,0:15:07.18,0:15:09.10,0$Default,,0,0,0,,Scardon
+Dialogue: 2,0:15:07.80,0:15:09.10,0$MonsterName,,0,0,0,,{\fs230\fsp10\blur1\c&HB662CC&\pos(964,840)\be120\t(20,274,\be0)}Scardon
+Dialogue: 0,0:15:07.68,0:15:09.10,0$mask,,0,0,0,,{\p1\pos(960.56,861.73)\blur1\c&H0D0D0D&\3c&H0D0D0D&\bord6\fscx95\fscy80\fad(100,0)\t(20,436,\fscx100\fscy100\bord0)}m -421.49 -112.87 l -260.74 -110.79 -253.13 -94.88 -239.28 -116.34 -238.2 -84.82 -223.39 -112.22 -209.72 -100.6 -204.25 -116.32 -57.29 -102.65 -72.33 -90.01 -50.11 -88.64 -52.85 -62.33 30.11 -72.58 85.93 -60.17 84.9 -109.11 98.68 -91.19 100.75 -109.8 174.7 -99.72 204.19 -114.47 241.07 -78.9 261.67 -102.11 354.9 -111.26 329.77 -97.05 359.98 -99.84 343.22 -84.35 364.3 -87.65 388.63 -48.82 431.52 -44.12 429.9 22.02 373.25 81.85 269.1 111.43 271.5 102.19 253.01 105.27 237.26 80.96 195.14 72.06 170.62 107.12 95.03 98.23 52.79 80.63 -71.85 80.72 -92.57 113.11 -97.2 99.19 -110.09 113.11 -116.79 97.64 -126.07 108.98 -210.08 95.06 -264.47 112 -264.03 100.73 -280.08 105.07 -275.31 92.49 -289.62 98.13 -329.52 85.55 -388.94 116.34 -377.23 101.16 -392.84 106.37 -424.5 77.74 -401.52 24.39 -428.58 -83.54 -400.97 -93.4 -425.27 -101.09 m -431.52 66.52 l -427.76 -3.54 -411.35 22.78
+Comment: 0,0:19:21.06,0:19:22.72,0$Default,,0,0,0,,Tome's Proverb
+Dialogue: 1,0:19:21.06,0:19:22.72,0$Proverb,,0,0,0,,{\kf21\pos(1068,343)\c&HF2F2F2&\frz359.3\blur0.7\2aFF}Once you give up,{\kf8}\N{\kf25}your life is over.{\kf112}
+Dialogue: 0,0:19:21.06,0:19:22.72,0$Proverb,,0,0,0,,{\kf21\c&H262626&\frz359.3\blur0.7\2aFF\pos(1074,349)}Once you give up,{\kf8}\N{\kf25}your life is over.{\kf112}
+Dialogue: 1,0:19:21.64,0:19:22.72,0$Proverb,,0,0,0,,{\kf7\c&HF2F2F2&\frz359.3\blur0.7\2aFF\pos(1260,421)}-Tome
+Dialogue: 0,0:19:21.64,0:19:22.72,0$Proverb,,0,0,0,,{\kf7\c&H262626&\frz359.3\blur0.7\2aFF\pos(1266,427)}-Tome
+Comment: 0,0:22:44.93,0:23:24.97,0$Default,,0,0,0,,Post-ED
+Dialogue: 1,0:22:44.93,0:22:48.64,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.93,0:22:48.64,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.64,0:23:09.99,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(652,1053.2)}The Sky Barracuda
+Dialogue: 0,0:22:48.64,0:23:09.99,0$Take H,,0,0,0,,{\c&H030309&\bord3.5\blur1\fs90\3c&H030309&\shad0\pos(652,1053.2)}The Sky Barracuda
+Dialogue: 1,0:23:09.99,0:23:24.97,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:09.99,0:23:24.97,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:19.59,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,720)}The Horrifying Scarzone
+Dialogue: 1,0:23:19.59,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H0000F0&\bord4\fade(450,0)\c&H0000F0&\blur0.7\pos(972,720)}The Horrifying Scarzone
+Dialogue: 0,0:23:19.59,0:23:24.97,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,720)}The Horrifying Scarzone
+Dialogue: 1,0:20:16.61,0:20:21.28,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf77\3c&H6FA800&\2c&H456706&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:20:16.61,0:20:21.28,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}nee kimi doko kara kita no?
+Dialogue: 1,0:20:16.61,0:20:21.28,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}Where are you from?
+Dialogue: 0,0:20:16.61,0:20:21.28,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}Where are you from?
+Dialogue: 1,0:20:21.28,0:20:25.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&H6FA800&\2c&H456706&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:20:21.28,0:20:25.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}ima boku hima shiten dakedo
+Dialogue: 1,0:20:21.28,0:20:25.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}I've got time to spare
+Dialogue: 0,0:20:21.28,0:20:25.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}I've got time to spare
+Dialogue: 1,0:20:25.83,0:20:30.42,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\kf66\3c&HE1811E&\2c&H834B0F&\bord0}ocha{\kf40}{\kf82}shite{\kf50} {\kf72}morae {\kf128}masenka?
+Dialogue: 0,0:20:25.83,0:20:30.42,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ochashite morae masenka?
+Dialogue: 1,0:20:25.83,0:20:30.42,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Can I pour you some tea?
+Dialogue: 0,0:20:25.83,0:20:30.42,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Can I pour you some tea?
+Dialogue: 1,0:20:30.42,0:20:35.46,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf32\kf86\3c&HE1811E&\2c&H834B0F&\bord0}dame?{\kf34} {\kf68}dame?{\kf44} {\kf102}doushite {\kf94}desuka{\kf44}
+Dialogue: 0,0:20:30.42,0:20:35.46,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}dame? dame? doushite desuka
+Dialogue: 1,0:20:30.42,0:20:35.46,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}No, you say? What's wrong?
+Dialogue: 0,0:20:30.42,0:20:35.46,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}No, you say? What's wrong?
+Dialogue: 1,0:20:35.46,0:20:40.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&HE1811E&\2c&H046559&\bord0}ji{\kf50}n{\kf58}sei {\kf40}wa{\kf32} {\kf111}rooringu{\kf79} sutoon{\kf19}
+Dialogue: 0,0:20:35.46,0:20:40.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H0B9478&\3c&H0B9478&\4c&H0B9478&}jinsei wa rooringu sutoon
+Dialogue: 1,0:20:35.46,0:20:40.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H0728A3&\bord0}Life is like a rolling stone
+Dialogue: 0,0:20:35.46,0:20:40.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H014FFF&\3c&H014FFF&\4c&H014FFF&}Life is like a rolling stone
+Dialogue: 1,0:20:40.09,0:20:44.89,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf130\3c&HE1811E&\2c&H102A80&\bord0}tamaru {\kf120}konbini {\kf48}bukur{\kf154}o{\kf27}
+Dialogue: 0,0:20:40.09,0:20:44.89,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}tamaru konbini bukuro
+Dialogue: 1,0:20:40.09,0:20:44.89,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Shopping bags piling up
+Dialogue: 0,0:20:40.09,0:20:44.89,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Shopping bags piling up
+Dialogue: 1,0:20:44.89,0:20:49.60,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf60\3c&HE1811E&\2c&H102A80&\bord0}se{\kf40}i{\kf60}shun {\kf46}wa{\kf28} {\kf112}kumori {\kf100}zora{\kf14}
+Dialogue: 0,0:20:44.89,0:20:49.60,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}seishun wa kumori zora
+Dialogue: 1,0:20:44.89,0:20:49.60,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Youth is like a dark cloudy sky
+Dialogue: 0,0:20:44.89,0:20:49.60,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Youth is like a dark cloudy sky
+Dialogue: 1,0:20:49.60,0:20:53.36,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf114\3c&HE1811E&\2c&H706304&\bord0}sumafo {\kf110}izon{\kf50}shou {\kf78}sa{\kf14}
+Dialogue: 0,0:20:49.60,0:20:53.36,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}sumafo izonshou sa
+Dialogue: 1,0:20:49.60,0:20:53.36,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}They're all glued to their phones
+Dialogue: 0,0:20:49.60,0:20:53.36,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}They're all glued to their phones
+Dialogue: 1,0:20:53.36,0:20:55.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf48\3c&HE1811E&\2c&H706304&\bord0}donzoko {\kf42}demo {\kf44}ii{\kf68}jan{\kf25}
+Dialogue: 0,0:20:53.36,0:20:55.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}donzoko demo iijan
+Dialogue: 1,0:20:53.36,0:20:55.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So what if we've hit rock bottom
+Dialogue: 0,0:20:53.36,0:20:55.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So what if we've hit rock bottom
+Dialogue: 1,0:20:55.73,0:20:58.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf9\3c&HE1811E&\2c&H706304&\bord0}ki {\kf20}ni {\kf62}shinakute {\kf36}ii{\kf70}jan{\kf23}
+Dialogue: 0,0:20:55.73,0:20:58.03,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}ki ni shinakute iijan
+Dialogue: 1,0:20:55.73,0:20:58.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't get so hung up on it
+Dialogue: 0,0:20:55.73,0:20:58.03,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}Don't get so hung up on it
+Dialogue: 1,0:20:58.03,0:20:59.86,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:58.03,0:20:59.86,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:20:58.03,0:20:59.86,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:58.03,0:20:59.86,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:59.86,0:21:02.74,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H0D7349&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf2}ru {\kf54}kamojan
+Dialogue: 0,0:20:59.86,0:21:02.74,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tabetara kateru kamojan
+Dialogue: 1,0:20:59.86,0:21:02.74,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:20:59.86,0:21:02.74,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:02.74,0:21:04.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H0D7349&\bord0}dame {\kf34}dame {\kf26}demo {\kf48}ii{\kf73}jan
+Dialogue: 0,0:21:02.74,0:21:04.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}dame dame demo iijan
+Dialogue: 1,0:21:02.74,0:21:04.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}But if it won't? Oh well
+Dialogue: 0,0:21:02.74,0:21:04.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}But if it won't? Oh well
+Dialogue: 1,0:21:04.91,0:21:07.29,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf30\3c&HE1811E&\2c&H0D7349&\bord0}dou{\kf33}tte {\kf42}koto {\kf46}nee{\kf54}jan{\kf23}
+Dialogue: 0,0:21:04.91,0:21:07.29,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}doutte koto neejan
+Dialogue: 1,0:21:04.91,0:21:07.29,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't worry 'bout it
+Dialogue: 0,0:21:04.91,0:21:07.29,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Don't worry 'bout it
+Dialogue: 1,0:21:07.29,0:21:09.33,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:07.29,0:21:09.33,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:07.29,0:21:09.33,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:07.29,0:21:09.33,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:09.33,0:21:12.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H822033&\bord0}me{\kf36}ge{\kf38}zu {\kf20}ni {\kf20}i{\kf42}kou{\kf78}ze{\kf21}
+Dialogue: 0,0:21:09.33,0:21:12.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}megezu ni ikouze
+Dialogue: 1,0:21:09.33,0:21:12.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep moving forward
+Dialogue: 0,0:21:09.33,0:21:12.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}And keep moving forward
+Dialogue: 1,0:21:12.25,0:21:14.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\3c&HE1811E&\2c&H822033&\bord0}charan{\kf26}poran {\kf26}de {\kf44}ii{\kf68}jan{\kf18}
+Dialogue: 0,0:21:12.25,0:21:14.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}charanporan de iijan
+Dialogue: 1,0:21:12.25,0:21:14.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}Maybe we're kinda sloppy
+Dialogue: 0,0:21:12.25,0:21:14.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}Maybe we're kinda sloppy
+Dialogue: 1,0:21:14.38,0:21:16.71,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf38\3c&HE1811E&\2c&H822033&\bord0}mucha{\kf30}kucha {\kf32}de {\kf40}ii{\kf66}jan{\kf17}
+Dialogue: 0,0:21:14.38,0:21:16.71,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}muchakucha de iijan
+Dialogue: 1,0:21:14.38,0:21:16.71,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}And sure we're kinda reckless
+Dialogue: 0,0:21:14.38,0:21:16.71,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}And sure we're kinda reckless
+Dialogue: 1,0:21:16.71,0:21:18.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H822033&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:16.71,0:21:18.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}katsudon tabe yoojan
+Dialogue: 1,0:21:16.71,0:21:18.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:16.71,0:21:18.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:18.51,0:21:21.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H822033&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf28}ru {\kf54}kamojan
+Dialogue: 0,0:21:18.51,0:21:21.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}tabetara kateru kamojan
+Dialogue: 1,0:21:18.51,0:21:21.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:18.51,0:21:21.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:21.38,0:21:23.72,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf40\3c&HE1811E&\2c&H0D7349&\bord0}masshi{\kf32}gura {\kf32}de {\kf36}ii{\kf68}jan{\kf16}
+Dialogue: 0,0:21:21.38,0:21:23.72,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}masshigura de iijan
+Dialogue: 1,0:21:21.38,0:21:23.72,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So let's go full speed
+Dialogue: 0,0:21:21.38,0:21:23.72,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So let's go full speed
+Dialogue: 1,0:21:23.72,0:21:26.10,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf34\3c&HE1811E&\2c&H0D7349&\bord0}tsuki {\kf72}susumeba {\kf36}ii{\kf74}jan{\kf12}
+Dialogue: 0,0:21:23.72,0:21:26.10,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tsuki susumeba iijan
+Dialogue: 1,0:21:23.72,0:21:26.10,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep pushing onwards
+Dialogue: 0,0:21:23.72,0:21:26.10,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}And keep pushing onwards
+Dialogue: 1,0:21:26.10,0:21:28.02,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:26.10,0:21:28.02,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:26.10,0:21:28.02,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:26.10,0:21:28.02,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:28.02,0:21:31.69,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf36\3c&HE1811E&\2c&H834B0F&\bord0}to{\kf38}ko{\kf46}ton {\kf32}ya{\kf40}rou{\kf20}z{\kf128}e{\kf29}
+Dialogue: 0,0:21:28.02,0:21:31.69,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}tokoton yarouze
+Dialogue: 1,0:21:28.02,0:21:31.69,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}And see our goals all the way through
+Dialogue: 0,0:21:28.02,0:21:31.69,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}And see our goals all the way through
+Dialogue: 1,0:21:31.69,0:21:36.19,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:21:31.69,0:21:36.19,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}nee kimi doko kara kita no?
+Dialogue: 1,0:21:31.69,0:21:36.19,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Where are you from?
+Dialogue: 0,0:21:31.69,0:21:36.19,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Where are you from?
+Dialogue: 1,0:21:36.19,0:21:40.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:21:36.19,0:21:40.49,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ima boku hima shiten dakedo
+Dialogue: 1,0:21:36.19,0:21:40.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H540C53&\bord0}I've got time to spare
+Dialogue: 0,0:21:36.19,0:21:40.49,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF27FF&\3c&HFF27FF&\4c&HFF27FF&}I've got time to spare
+Dialogue: 1,0:21:40.49,0:21:45.95,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf23\3c&HE1811E&\2c&H834B0F&\bord0}Why {\kf26}don't {\kf24}we {\kf104}eat{\kf62} {\kf40}KATSU{\kf24}D{\kf233}ON?
+Dialogue: 0,0:21:40.49,0:21:45.95,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}Why don't we eat KATSUDON?
+

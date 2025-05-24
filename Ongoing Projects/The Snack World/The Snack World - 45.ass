@@ -1,0 +1,613 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 45
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E4E6E3,&H00DEA4D9,&H00F0236F,&H00434343,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00DBA9A4,&H00FA4789,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.36,0:00:05.13,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.13,0:00:08.28,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.28,0:00:10.28,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.28,0:00:12.17,0$Default,,0,0,0,,And my name's Chup!
+Dialogue: 0,0:00:12.70,0:00:16.66,0$Default,,0,0,0,,After a long battle,\NI've finally defeated the evil merchant Vinegar Khan,
+Dialogue: 0,0:00:16.66,0:00:19.46,0$Default,,0,0,0,,and now I'm moving towards a new goal!
+Dialogue: 0,0:00:20.30,0:00:22.54,0$Default,,0,0,0,,Whatever perils await me,
+Dialogue: 0,0:00:22.54,0:00:26.01,0$Default,,0,0,0,,I'll fully, flawlessly overcome them!
+Dialogue: 0,0:00:54.45,0:00:57.85,0$Default,,0,0,0,,Alright, let's go on another big adventure today!
+Dialogue: 0,0:01:07.59,0:01:08.42,0$Default,,0,0,0,,{\an8}Scardon!
+Dialogue: 0,0:01:12.93,0:01:14.72,0$Default,,0,0,0,,Stop right there, Scardon!
+Dialogue: 0,0:01:21.73,0:01:23.19,0$Default,,0,0,0,,All clear?
+Dialogue: 0,0:01:23.19,0:01:23.98,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:23.98,0:01:25.27,0$Default,,0,0,0,,Isn't this...?
+Dialogue: 0,0:01:26.45,0:01:28.74,0$Default,,0,0,0,,French Toaster?!
+Dialogue: 0,0:01:29.49,0:01:31.05,0$Default,,0,0,0,,What? Why?!
+Dialogue: 0,0:01:31.05,0:01:33.99,0$Default,,0,0,0,,Did Scardon warp us back?
+Dialogue: 0,0:01:34.41,0:01:34.99,0$Default,,0,0,0,,Hold on.
+Dialogue: 0,0:01:36.04,0:01:37.74,0$Default,,0,0,0,,Something seems off.
+Dialogue: 0,0:01:37.74,0:01:39.89,0$Default,,0,0,0,,Man, we were right on Scardon's tail!
+Dialogue: 0,0:01:39.89,0:01:41.60,0$Default,,0,0,0,,Now we have to start all over.
+Dialogue: 0,0:01:41.60,0:01:45.26,0$Default,,0,0,0,,Oh! Let's go see Princess Melora first\Nthen go after Scardon!
+Dialogue: 0,0:01:45.26,0:01:47.86,0$Default,,0,0,0,,What? We can't go off course like that!
+Dialogue: 0,0:01:47.86,0:01:50.78,0$Default,,0,0,0,,We have an important mission on our hands:
+Dialogue: 0,0:01:50.78,0:01:52.76,0$Default,,0,0,0,,we must retrieve Melora's panties!
+Dialogue: 0,0:01:54.64,0:01:56.37,0$Default,,0,0,0,,What was the other thing?
+Dialogue: 0,0:01:56.37,0:01:59.39,0$Default,,0,0,0,,Won't the world be in danger\Nif we don't defeat him, or something?
+Dialogue: 0,0:01:59.39,0:02:00.14,0$Default,,0,0,0,,Vinsant?
+Dialogue: 0,0:02:00.14,0:02:02.27,0$Default,,0,0,0,,No. Let's go into town.
+Dialogue: 0,0:02:02.27,0:02:03.14,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:09.92,0:02:12.28,0$Default,,0,0,0,,Did something just fly past us?
+Dialogue: 0,0:02:13.61,0:02:15.43,0$Default,,0,0,0,,Something's running super fast!
+Dialogue: 0,0:02:15.43,0:02:17.10,0$Default,,0,0,0,,Is it a new monster?
+Dialogue: 0,0:02:17.10,0:02:19.08,0$Default,,0,0,0,,It's far too fast to see!
+Dialogue: 0,0:02:19.08,0:02:20.29,0$Default,,0,0,0,,Chup, summon Scopeion!
+Dialogue: 0,0:02:20.29,0:02:21.04,0$Default,,0,0,0,,Got it!
+Dialogue: 0,0:02:22.42,0:02:24.04,0$Default,,0,0,0,,Scopeion!
+Dialogue: 0,0:02:27.42,0:02:29.88,0$Default,,0,0,0,,{\i1}Nature!
+Dialogue: 0,0:02:32.97,0:02:35.05,0$Default,,0,0,0,,Say cheese! It's Scopeion!
+Dialogue: 0,0:02:35.43,0:02:36.32,0$Default,,0,0,0,,Scopeion!
+Dialogue: 0,0:02:36.32,0:02:39.56,0$Default,,0,0,0,,You have to figure out what's running\Nsuper fast around us!
+Dialogue: 0,0:02:39.56,0:02:42.81,0$Default,,0,0,0,,Uno momento!\NI'll scope it out!
+Dialogue: 0,0:02:42.81,0:02:45.94,0$Default,,0,0,0,,Don't bother! My Goblin eyes can figure this out!
+Dialogue: 0,0:02:45.94,0:02:47.56,0$Default,,0,0,0,,I'll try to get a look at it too!
+Dialogue: 0,0:02:52.40,0:02:54.07,0$Default,,0,0,0,,They all got run down!
+Dialogue: 0,0:03:04.15,0:03:06.10,0$Default,,0,0,0,,Still couldn't figure out what that was.
+Dialogue: 0,0:03:06.10,0:03:07.42,0$Default,,0,0,0,,Okay!
+Dialogue: 0,0:03:07.42,0:03:10.55,0$Default,,0,0,0,,I gots a good video of it!
+Dialogue: 0,0:03:11.26,0:03:12.92,0$Default,,0,0,0,,Wait, what? Snow White?!
+Dialogue: 0,0:03:13.82,0:03:17.24,0$Default,,0,0,0,,My word! She's running laps\Nwith her eyes wide open!
+Dialogue: 0,0:03:17.24,0:03:19.65,0$Default,,0,0,0,,She's sure full of surprises.
+Dialogue: 0,0:03:20.10,0:03:23.56,0$Default,,0,0,0,,Ugh, why'd they have to land so far away?
+Dialogue: 0,0:03:24.02,0:03:25.39,0$Default,,0,0,0,,Romeo!
+Dialogue: 0,0:03:26.15,0:03:27.88,0$Default,,0,0,0,,O, Romeo!
+Dialogue: 0,0:03:27.88,0:03:29.90,0$Default,,0,0,0,,Huh? Isn't that Juliet?
+Dialogue: 0,0:03:29.90,0:03:32.40,0$Default,,0,0,0,,But Romeo's not with her.
+Dialogue: 0,0:03:32.40,0:03:34.40,0$Default,,0,0,0,,O, Romeo!
+Dialogue: 0,0:03:34.40,0:03:36.55,0$Default,,0,0,0,,Wherefore art thou Romeo?
+Dialogue: 0,0:03:36.55,0:03:38.30,0$Default,,0,0,0,,Wait, {\i1}is{\i0} he with her?
+Dialogue: 0,0:03:38.30,0:03:43.66,0$Default,,0,0,0,,'Tis because of my love for thee, Juliet!
+Dialogue: 0,0:03:43.66,0:03:45.66,0$Default,,0,0,0,,Yikes, they're so far apart!
+Dialogue: 0,0:03:45.66,0:03:47.42,0$Default,,0,0,0,,Romeo!!
+Dialogue: 0,0:03:47.42,0:03:49.17,0$Default,,0,0,0,,Juliet!!
+Dialogue: 0,0:03:49.17,0:03:50.73,0$Default,,0,0,0,,Romeo!!
+Dialogue: 0,0:03:50.73,0:03:53.07,0$Default,,0,0,0,,Juliet!!
+Dialogue: 0,0:03:53.07,0:03:54.32,0$Default,,0,0,0,,What am I watching?
+Dialogue: 0,0:03:54.32,0:03:56.80,0$Default,,0,0,0,,This isn't how they were\Nlast time we met.
+Dialogue: 0,0:03:56.80,0:03:58.82,0$Default,,0,0,0,,It isn't? Explain!
+Dialogue: 0,0:03:58.82,0:04:01.33,0$Default,,0,0,0,,They used to be wrapped in the same scarf,
+Dialogue: 0,0:04:01.33,0:04:04.31,0$Default,,0,0,0,,holding no distance at all\Nand constantly locking eyes!
+Dialogue: 0,0:04:08.06,0:04:09.88,0$Default,,0,0,0,,Romeo!!
+Dialogue: 0,0:04:09.88,0:04:12.98,0$Default,,0,0,0,,It's weird to see them so far apart.
+Dialogue: 0,0:04:12.98,0:04:14.15,0$Default,,0,0,0,,Weird, you say?
+Dialogue: 0,0:04:14.15,0:04:16.84,0$Default,,0,0,0,,Anyways, where the heck\Ndid those guys go?
+Dialogue: 0,0:04:16.84,0:04:18.70,0$Default,,0,0,0,,Oh, I have a thought!
+Dialogue: 0,0:04:23.28,0:04:24.77,0$Default,,0,0,0,,Good afternoon!
+Dialogue: 0,0:04:24.77,0:04:26.41,0$Default,,0,0,0,,{\i1}There{\i0} you are.
+Dialogue: 0,0:04:26.77,0:04:27.85,0$Default,,0,0,0,,Oh? Hey!
+Dialogue: 0,0:04:27.85,0:04:31.01,0$Default,,0,0,0,,Came here to get some weapons\Nthat might work on Scardon.
+Dialogue: 0,0:04:31.01,0:04:32.69,0$Default,,0,0,0,,Welcome to our humble business.
+Dialogue: 0,0:04:32.69,0:04:35.92,0$Default,,0,0,0,,Please take your time\Nto browse our offerings.
+Dialogue: 0,0:04:35.92,0:04:37.36,0$Default,,0,0,0,,What's gotten into you?
+Dialogue: 0,0:04:37.36,0:04:39.93,0$Default,,0,0,0,,Normally, you have a big attitude with customers.
+Dialogue: 0,0:04:39.93,0:04:41.80,0$Default,,0,0,0,,I do?!
+Dialogue: 0,0:04:41.80,0:04:43.68,0$Default,,0,0,0,,M-My sincerest apologies!
+Dialogue: 0,0:04:43.68,0:04:46.33,0$Default,,0,0,0,,Did I bear insolence\Ntowards you, my valuable customers?
+Dialogue: 0,0:04:46.33,0:04:47.58,0$Default,,0,0,0,,Huh? Uh, yeah.
+Dialogue: 0,0:04:47.58,0:04:49.85,0$Default,,0,0,0,,You were pretty rude\Nlast time we came in.
+Dialogue: 0,0:04:49.85,0:04:52.54,0$Default,,0,0,0,,My sincerest apologies!!
+Dialogue: 0,0:04:52.54,0:04:55.84,0$Default,,0,0,0,,How could I treat my\NLevel AAA customers like this?
+Dialogue: 0,0:04:55.84,0:04:58.15,0$Default,,0,0,0,,I'm such a great big dimwit!
+Dialogue: 0,0:04:58.15,0:05:00.93,0$Default,,0,0,0,,I-Is he broken?
+Dialogue: 0,0:05:00.93,0:05:02.91,0$Default,,0,0,0,,That aside, is Carbonara in?
+Dialogue: 0,0:05:02.91,0:05:04.97,0$Default,,0,0,0,,Do you have business?
+Dialogue: 0,0:05:04.97,0:05:07.22,0$Default,,0,0,0,,One moment, I'll call for Carbonara.
+Dialogue: 0,0:05:07.22,0:05:09.91,0$Default,,0,0,0,,Carbonara, ya there?
+Dialogue: 0,0:05:09.91,0:05:12.66,0$Default,,0,0,0,,Coming!
+Dialogue: 0,0:05:13.96,0:05:15.80,0$Default,,0,0,0,,W-Welcome in...
+Dialogue: 0,0:05:15.80,0:05:16.65,0$Default,,0,0,0,,What?
+Dialogue: 0,0:05:16.65,0:05:18.03,0$Default,,0,0,0,,Why do you look so bashful?
+Dialogue: 0,0:05:18.03,0:05:20.88,0$Default,,0,0,0,,If you gotta go, don't hold it in, dude.
+Dialogue: 0,0:05:20.88,0:05:24.03,0$Default,,0,0,0,,"Gotta go?" Why would you say that?
+Dialogue: 0,0:05:24.03,0:05:25.89,0$Default,,0,0,0,,So dirty!
+Dialogue: 0,0:05:25.89,0:05:28.85,0$Default,,0,0,0,,Blegh, why is he reacting like a girl?
+Dialogue: 0,0:05:28.85,0:05:32.40,0$Default,,0,0,0,,Please excuse my daughter.\NShe's growing, and gets a bit shy.
+Dialogue: 0,0:05:32.40,0:05:33.69,0$Default,,0,0,0,,Your daughter?!
+Dialogue: 0,0:05:33.69,0:05:35.92,0$Default,,0,0,0,,I'd hate to brag,
+Dialogue: 0,0:05:35.92,0:05:39.69,0$Default,,0,0,0,,but she's done a real fine job\Nat drawing eyes to our establishment.
+Dialogue: 0,0:05:39.69,0:05:42.55,0$Default,,0,0,0,,Pinocchio, Carbonara is your {\i1}daughter?!
+Dialogue: 0,0:05:42.55,0:05:44.45,0$Default,,0,0,0,,I guess it's true love knows no race!
+Dialogue: 0,0:05:45.79,0:05:49.25,0$Default,,0,0,0,,Don't be ridiculous!\NThis goes {\i1}way{\i0} beyond race!
+Dialogue: 0,0:05:49.25,0:05:50.75,0$Default,,0,0,0,,Don't be shy, Carbonara!
+Dialogue: 0,0:05:50.75,0:05:53.35,0$Default,,0,0,0,,Show our customers around!
+Dialogue: 0,0:05:53.35,0:05:57.09,0$Default,,0,0,0,,Okie-dokie, Daddy! I'll do the very best I can!
+Dialogue: 0,0:05:57.09,0:05:58.85,0$Default,,0,0,0,,Seriously, what am I watching?
+Dialogue: 0,0:06:00.93,0:06:04.28,0$Default,,0,0,0,,This here is our shop's\Ncurrent number one recommendation:
+Dialogue: 0,0:06:04.28,0:06:05.56,0$Default,,0,0,0,,the Bird Staff!
+Dialogue: 0,0:06:05.56,0:06:08.81,0$Default,,0,0,0,,Ha, looks funny! Can I give it a try?
+Dialogue: 0,0:06:08.81,0:06:09.81,0$Default,,0,0,0,,Of course!
+Dialogue: 0,0:06:12.69,0:06:14.65,0$Default,,0,0,0,,Oh no!
+Dialogue: 0,0:06:14.65,0:06:17.02,0$Default,,0,0,0,,Huh? Gob-san, what's wrong?!
+Dialogue: 0,0:06:17.02,0:06:18.42,0$Default,,0,0,0,,I'm so sorry.
+Dialogue: 0,0:06:18.42,0:06:23.66,0$Default,,0,0,0,,The Bird Staff has poison in it\Nstrong enough to defeat 100 old men!
+Dialogue: 0,0:06:23.66,0:06:24.78,0$Default,,0,0,0,,Say what?!
+Dialogue: 0,0:06:24.78,0:06:27.91,0$Default,,0,0,0,,Whoopsy-daisy! I'm such a klutz!
+Dialogue: 0,0:06:27.91,0:06:28.78,0$Default,,0,0,0,,Teehee!
+Dialogue: 0,0:06:28.78,0:06:31.60,0$Default,,0,0,0,,He's starting to get on my nerves.
+Dialogue: 0,0:06:31.60,0:06:34.29,0$Default,,0,0,0,,Carbonara, take these for a second.
+Dialogue: 0,0:06:36.29,0:06:37.79,0$Default,,0,0,0,,Oh, beigoma!
+Dialogue: 0,0:06:37.79,0:06:40.19,0$Default,,0,0,0,,No way, I can't!
+Dialogue: 0,0:06:40.19,0:06:43.05,0$Default,,0,0,0,,I've never held beigoma before!\NThey're heavier than chopsticks!
+Dialogue: 0,0:06:50.22,0:06:51.12,0$Default,,0,0,0,,So heavy...
+Dialogue: 0,0:06:51.12,0:06:53.77,0$Default,,0,0,0,,There, three. Don't cry, Carbonara!
+Dialogue: 0,0:06:53.77,0:06:57.00,0$Default,,0,0,0,,Everything's okay. Yes, it was heavy.\NDaddy hears you.
+Dialogue: 0,0:06:59.40,0:07:00.86,0$Default,,0,0,0,,Okay, what was that?
+Dialogue: 0,0:07:00.86,0:07:04.01,0$Default,,0,0,0,,I thought they were just doing a bit at first.
+Dialogue: 0,0:07:04.01,0:07:05.55,0$Default,,0,0,0,,But that felt real.
+Dialogue: 0,0:07:05.55,0:07:08.16,0$Default,,0,0,0,,Yeah. Real {\i1}scary.{\i0}
+Dialogue: 0,0:07:08.16,0:07:09.68,0$Default,,0,0,0,,They're not the only ones.
+Dialogue: 0,0:07:09.68,0:07:12.33,0$Default,,0,0,0,,Something's off with\Njust about everyone here.
+Dialogue: 0,0:07:12.33,0:07:13.45,0$Default,,0,0,0,,Oh?
+Dialogue: 0,0:07:19.71,0:07:21.96,0$Default,,0,0,0,,It's an AKZ48 concert!
+Dialogue: 0,0:07:22.92,0:07:25.47,0$Default,,0,0,0,,Wait, hold on! Is that who I think it is on stage?
+Dialogue: 0,0:07:26.18,0:07:27.97,0$Default,,0,0,0,,Commander Cinderella?!
+Dialogue: 0,0:07:27.97,0:07:29.97,0$Default,,0,0,0,,{\i1}She's{\i0} performing?!
+Dialogue: 0,0:07:29.97,0:07:33.33,0$Default,,0,0,0,,Is everyone hyped up?
+Dialogue: 0,0:07:33.33,0:07:34.33,0$Default,,0,0,0,,So quiet!
+Dialogue: 0,0:07:34.33,0:07:36.60,0$Default,,0,0,0,,Girl, you gotta speak up!
+Dialogue: 0,0:07:36.60,0:07:38.96,0$Default,,0,0,0,,Hold out your pinkie\Nwhen you have the mic!
+Dialogue: 0,0:07:38.96,0:07:40.86,0$Default,,0,0,0,,And don't stop smiling like an idol!
+Dialogue: 0,0:07:40.86,0:07:43.86,0$Default,,0,0,0,,I-I'm sorry, managers!
+Dialogue: 0,0:07:43.86,0:07:46.05,0$Default,,0,0,0,,So Cinderella's the idol...
+Dialogue: 0,0:07:46.05,0:07:48.72,0$Default,,0,0,0,,and AKZ48 are her managers.
+Dialogue: 0,0:07:48.72,0:07:49.89,0$Default,,0,0,0,,What the heck?
+Dialogue: 0,0:07:49.89,0:07:52.12,0$Default,,0,0,0,,That's ridiculously unbalanced!
+Dialogue: 0,0:07:52.12,0:07:55.31,0$Default,,0,0,0,,Please listen to my songs...\N{\i1}Careless Little Red,
+Dialogue: 0,0:07:55.31,0:07:59.50,0$Default,,0,0,0,,and {\i1}Dreams, Courage, and Little Red.
+Dialogue: 0,0:08:02.90,0:08:04.44,0$Default,,0,0,0,,Aren't you gonna dance?
+Dialogue: 0,0:08:04.44,0:08:05.97,0$Default,,0,0,0,,Go on, move like an idol!
+Dialogue: 0,0:08:05.97,0:08:07.51,0$Default,,0,0,0,,One, two! One, two!
+Dialogue: 0,0:08:07.51,0:08:10.14,0$Default,,0,0,0,,I can't even hear her sing...
+Dialogue: 0,0:08:12.43,0:08:14.04,0$Default,,0,0,0,,Thank you all.
+Dialogue: 0,0:08:14.04,0:08:15.45,0$Default,,0,0,0,,What? Can't hear you!
+Dialogue: 0,0:08:15.45,0:08:17.08,0$Default,,0,0,0,,Here is the next guest.
+Dialogue: 0,0:08:17.08,0:08:18.70,0$Default,,0,0,0,,You cut off in the middle of the song!
+Dialogue: 0,0:08:19.90,0:08:21.96,0$Default,,0,0,0,,Hey, it's Minister Gastank!
+Dialogue: 0,0:08:21.96,0:08:25.46,0$Default,,0,0,0,,Didn't he go missing after all that stuff\Nwith the Siren Sisters?
+Dialogue: 0,0:08:25.46,0:08:28.36,0$Default,,0,0,0,,Is he back to being a minister again?
+Dialogue: 0,0:08:28.36,0:08:29.74,0$Default,,0,0,0,,Ehem!
+Dialogue: 0,0:08:29.74,0:08:33.49,0$Default,,0,0,0,,Apologies for the lack of warning,\Nbut I will be announcing new kingdom laws.
+Dialogue: 0,0:08:33.49,0:08:35.49,0$Default,,0,0,0,,New laws?
+Dialogue: 0,0:08:35.49,0:08:39.00,0$Default,,0,0,0,,French Toaster citizens must\Nkeep earthworms as pets.
+Dialogue: 0,0:08:39.00,0:08:42.13,0$Default,,0,0,0,,French Toaster citizens must\Nkeep crocodiles as pets.
+Dialogue: 0,0:08:42.13,0:08:46.34,0$Default,,0,0,0,,French Toaster citizens must\Nremain fans of their ruler until death.
+Dialogue: 0,0:08:46.34,0:08:47.05,0$Default,,0,0,0,,Thank you.
+Dialogue: 0,0:08:47.05,0:08:49.49,0$Default,,0,0,0,,Some of the stupidest laws I've ever heard.
+Dialogue: 0,0:08:49.49,0:08:53.80,0$Default,,0,0,0,,It's strange, the new laws we heard about lately\Nwere a lot more earnest and royal.
+Dialogue: 0,0:08:54.06,0:08:58.66,0$Default,,0,0,0,,We will soon announce these new laws\Nto the world,
+Dialogue: 0,0:08:58.66,0:09:01.94,0$Default,,0,0,0,,and with time, the economy\Nand the people will return to normal.
+Dialogue: 0,0:09:01.94,0:09:05.17,0$Default,,0,0,0,,So that did seem pretty strange.
+Dialogue: 0,0:09:05.17,0:09:07.07,0$Default,,0,0,0,,This is really confusing, huh?
+Dialogue: 0,0:09:07.78,0:09:09.57,0$Default,,0,0,0,,Minister Gastank!
+Dialogue: 0,0:09:09.57,0:09:12.57,0$Default,,0,0,0,,How are ya? Did you get away\Nfrom the Siren Sisters?
+Dialogue: 0,0:09:12.57,0:09:15.31,0$Default,,0,0,0,,Who are the Siren Sisters?
+Dialogue: 0,0:09:15.31,0:09:17.08,0$Default,,0,0,0,,Actually, who are {\i1}you?
+Dialogue: 0,0:09:17.95,0:09:18.79,0$Default,,0,0,0,,Whuh?
+Dialogue: 0,0:09:20.71,0:09:24.86,0$Default,,0,0,0,,I guess Minister Gastank\Nforgot all about us.
+Dialogue: 0,0:09:26.75,0:09:28.65,0$Default,,0,0,0,,Shibuchin and the king!
+Dialogue: 0,0:09:28.65,0:09:30.63,0$Default,,700,0,0,,Woof? Woof-woof!
+Dialogue: 0,0:09:28.65,0:09:30.63,0$Default,,0,700,0,,Meow? Myaa!
+Dialogue: 0,0:09:30.63,0:09:32.35,0$Default,,0,0,0,,Wait, what?
+Dialogue: 0,0:09:32.35,0:09:33.89,0$Default,,0,0,0,,— Woof, woof!\N— Meooow!
+Dialogue: 0,0:09:33.89,0:09:35.89,0$Default,,0,0,0,,— Myaoh!\N— Ruff-ruff!
+Dialogue: 0,0:09:35.89,0:09:37.16,0$Default,,0,0,0,,Now that's just wrong.
+Dialogue: 0,0:09:37.16,0:09:38.87,0$Default,,0,0,0,,I'm so confused!
+Dialogue: 0,0:09:38.87,0:09:40.96,0$Default,,0,0,0,,Everyone seems to be all sorts of weird.
+Dialogue: 0,0:09:40.96,0:09:41.98,0$Default,,0,0,0,,I think...
+Dialogue: 0,0:09:42.39,0:09:43.10,0$Default,,0,0,0,,Panpan!
+Dialogue: 0,0:09:43.10,0:09:43.90,0$Default,,0,0,0,,Oh, Candoll.
+Dialogue: 0,0:09:44.32,0:09:47.55,0$Default,,0,0,0,,We can't say for certain\Nif that's actually Panpan or not.
+Dialogue: 0,0:09:47.55,0:09:48.96,0$Default,,0,0,0,,Let's watch them for a bit...
+Dialogue: 0,0:09:48.96,0:09:50.19,0$Default,,0,0,0,,Master Panpan!
+Dialogue: 0,0:09:50.19,0:09:50.90,0$Default,,0,0,0,,Hey!
+Dialogue: 0,0:09:50.90,0:09:51.97,0$Default,,0,0,0,,Master!
+Dialogue: 0,0:09:52.70,0:09:54.28,0$Default,,0,0,0,,Don't stand behind me!
+Dialogue: 0,0:09:57.49,0:09:59.25,0$Default,,0,0,0,,Yeowch!
+Dialogue: 0,0:10:01.54,0:10:02.75,0$Default,,0,0,0,,I found treasure!
+Dialogue: 0,0:10:03.08,0:10:04.31,0$Default,,0,0,0,,Look at him!
+Dialogue: 0,0:10:04.31,0:10:07.61,0$Default,,0,0,0,,It's the timid, crafting, geeky\NMaster Panpan we know!
+Dialogue: 0,0:10:07.61,0:10:09.76,0$Default,,0,0,0,,Hold on, Chup. We can't be certain yet.
+Dialogue: 0,0:10:11.40,0:10:12.76,0$Default,,0,0,0,,Excuse me, Panpan.
+Dialogue: 0,0:10:12.76,0:10:14.76,0$Default,,0,0,0,,I have a question.
+Dialogue: 0,0:10:14.76,0:10:16.01,0$Default,,0,0,0,,Oh, it's you.
+Dialogue: 0,0:10:16.64,0:10:19.41,0$Default,,0,0,0,,This is a monster we found\Nwhen we first met.
+Dialogue: 0,0:10:19.41,0:10:21.27,0$Default,,0,0,0,,Do you remember his name?
+Dialogue: 0,0:10:21.27,0:10:22.52,0$Default,,0,0,0,,Of course I do.
+Dialogue: 0,0:10:22.88,0:10:25.29,0$Default,,0,0,0,,Okay, then. On the count of three,\Nwe both say it.
+Dialogue: 0,0:10:25.29,0:10:26.29,0$Default,,0,0,0,,One, two, three!
+Dialogue: 0,0:10:26.29,0:10:28.27,0$Default,,900,0,0,,Fairjii.
+Dialogue: 0,0:10:26.29,0:10:28.27,0$Default,,0,900,0,,Pink Flying Dur—jii.
+Dialogue: 0,0:10:28.27,0:10:29.55,0$Default,,0,0,0,,There we have it.
+Dialogue: 0,0:10:29.55,0:10:33.51,0$Default,,0,0,0,,That know-it-all attitude and him cowardly trying\Nto cover up his mistake—that's Panpan.
+Dialogue: 0,0:10:33.51,0:10:34.53,0$Default,,0,0,0,,Indeed.
+Dialogue: 0,0:10:35.08,0:10:36.80,0$Default,,0,0,0,,A know-it-all and a coward?
+Dialogue: 0,0:10:36.80,0:10:39.64,0$Default,,0,0,0,,That's how you guys see me?!
+Dialogue: 0,0:10:39.64,0:10:41.89,0$Default,,0,0,0,,Oh, don't cry, Panny!
+Dialogue: 0,0:10:41.89,0:10:43.89,0$Default,,0,0,0,,But Candoll...!
+Dialogue: 0,0:10:43.89,0:10:46.88,0$Default,,0,0,0,,There, there. It's shokay, Panny!
+Dialogue: 0,0:10:46.88,0:10:49.80,0$Default,,0,0,0,,That is {\i1}not{\i0} Candoll!\NHe's acting way off!
+Dialogue: 0,0:10:49.80,0:10:51.55,0$Default,,0,0,0,,Go on, take a look.
+Dialogue: 0,0:10:51.55,0:10:55.14,0$Default,,0,0,0,,The flames of my candle\Nwill soothe your soul.
+Dialogue: 0,0:10:55.14,0:10:56.56,0$Default,,0,0,0,,It really does.
+Dialogue: 0,0:10:56.56,0:10:58.10,0$Default,,0,0,0,,My tears have stopped.
+Dialogue: 0,0:10:58.10,0:11:02.18,0$Default,,0,0,0,,It's easing my pure serious geek heart!
+Dialogue: 0,0:11:04.19,0:11:07.44,0$Default,,0,0,0,,Seems like you're real too!
+Dialogue: 0,0:11:07.44,0:11:08.29,0$Default,,0,0,0,,Real?
+Dialogue: 0,0:11:08.29,0:11:10.69,0$Default,,0,0,0,,So that's what's going on here.
+Dialogue: 0,0:11:10.69,0:11:14.21,0$Default,,0,0,0,,Follow me. I'll explain everything at my base.
+Dialogue: 0,0:11:15.49,0:11:17.45,0$Default,,0,0,0,,Here's my base!
+Dialogue: 0,0:11:17.45,0:11:19.05,0$Default,,0,0,0,,"Base" is being generous.
+Dialogue: 0,0:11:19.05,0:11:21.77,0$Default,,0,0,0,,Oh hey, are those Princess Melora's panties?
+Dialogue: 0,0:11:21.77,0:11:24.77,0$Default,,0,0,0,,Why would you hang up\Na pair of panties like a flag?
+Dialogue: 0,0:11:24.77,0:11:26.31,0$Default,,0,0,0,,That's just begging to get made fun of.
+Dialogue: 0,0:11:26.31,0:11:27.96,0$Default,,0,0,0,,I wouldn't be hasty, Mayone.
+Dialogue: 0,0:11:27.96,0:11:32.21,0$Default,,0,0,0,,Everything's purpose is all messed up\Nin the world we're in.
+Dialogue: 0,0:11:32.21,0:11:36.22,0$Default,,0,0,0,,Perhaps using panties as a flag\Nis a normality here!
+Dialogue: 0,0:11:36.22,0:11:37.34,0$Default,,0,0,0,,A flag? No.
+Dialogue: 0,0:11:37.34,0:11:39.47,0$Default,,0,0,0,,It's exactly what it looks like: panties!
+Dialogue: 0,0:11:39.47,0:11:41.72,0$Default,,0,0,0,,Yeah, that's what I thought.
+Dialogue: 0,0:11:41.72,0:11:43.66,0$Default,,0,0,0,,But they're no ordinary panties.
+Dialogue: 0,0:11:43.66,0:11:45.96,0$Default,,0,0,0,,They're my savior!
+Dialogue: 0,0:11:45.96,0:11:46.98,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:11:46.98,0:11:50.34,0$Default,,0,0,0,,I was caught in Scardon's talons,
+Dialogue: 0,0:11:50.34,0:11:53.00,0$Default,,0,0,0,,en route to Demi-Glace Castle...
+Dialogue: 0,0:11:54.05,0:11:55.49,0$Default,,0,0,0,,Wait, really?
+Dialogue: 0,0:11:55.82,0:11:58.99,0$Default,,0,0,0,,Whaaat?!
+Dialogue: 0,0:12:03.45,0:12:06.06,0$Default,,0,0,0,,I-I'm slipping! It's over!!
+Dialogue: 0,0:12:06.06,0:12:09.47,0$Default,,0,0,0,,Or so I thought,\Nbut then I got a hold of...
+Dialogue: 0,0:12:10.63,0:12:12.00,0$Default,,0,0,0,,...a pair of panties!
+Dialogue: 0,0:12:12.00,0:12:14.51,0$Default,,0,0,0,,I'm gonna fall!!
+Dialogue: 0,0:12:23.47,0:12:25.14,0$Default,,0,0,0,,U-Unbelievable!
+Dialogue: 0,0:12:25.47,0:12:28.89,0$Default,,0,0,0,,The item only a legendary hero\Ncan obtain: God Panties!
+Dialogue: 0,0:12:37.66,0:12:38.90,0$Default,,0,0,0,,There you have it.
+Dialogue: 0,0:12:39.53,0:12:42.41,0$Default,,0,0,0,,I share my fate with those panties!
+Dialogue: 0,0:12:42.41,0:12:44.72,0$Default,,0,0,0,,Melora's panties are awesome!
+Dialogue: 0,0:12:44.72,0:12:47.06,0$Default,,0,0,0,,They don't even look stretched out!
+Dialogue: 0,0:12:47.06,0:12:49.50,0$Default,,0,0,0,,Yes. That's why they're defective.
+Dialogue: 0,0:12:49.92,0:12:52.40,0$Default,,0,0,0,,Those were my mom's invention.
+Dialogue: 0,0:12:52.40,0:12:54.86,0$Default,,0,0,0,,They're made with a super-elastic material.
+Dialogue: 0,0:12:54.86,0:12:58.09,0$Default,,0,0,0,,That way, anyone can wear it,\Nand they last a long time.
+Dialogue: 0,0:12:58.09,0:12:59.82,0$Default,,0,0,0,,The problem is, you buy one,
+Dialogue: 0,0:12:59.82,0:13:01.93,0$Default,,0,0,0,,you never have to buy another one.
+Dialogue: 0,0:13:01.93,0:13:03.68,0$Default,,0,0,0,,Those are some cool panties.
+Dialogue: 0,0:13:03.68,0:13:08.27,0$Default,,0,0,0,,But it was deemed entirely\Nunprofitable for M&C Technologies,
+Dialogue: 0,0:13:08.27,0:13:09.94,0$Default,,0,0,0,,so they were recalled.
+Dialogue: 0,0:13:10.87,0:13:12.67,0$Default,,0,0,0,,That's one reason to do a recall.
+Dialogue: 0,0:13:12.67,0:13:13.56,0$Default,,0,0,0,,Moving on...
+Dialogue: 0,0:13:14.19,0:13:17.05,0$Default,,0,0,0,,You mentioned that we were "real."
+Dialogue: 0,0:13:17.05,0:13:21.70,0$Default,,0,0,0,,By any chance, is this the Scarzone,\Nthe fake world Scardon made?
+Dialogue: 0,0:13:22.00,0:13:23.41,0$Default,,0,0,0,,That's right.
+Dialogue: 0,0:13:23.41,0:13:25.54,0$Default,,0,0,0,,Sca... Scar...
+Dialogue: 0,0:13:25.54,0:13:26.58,0$Default,,0,0,0,,Scardon!
+Dialogue: 0,0:13:26.58,0:13:30.08,0$Default,,0,0,0,,Yeah. That place Scardon made,\Nthe Starlone...
+Dialogue: 0,0:13:30.08,0:13:32.08,0$Default,,0,0,0,,The Scarzone.
+Dialogue: 0,0:13:33.08,0:13:34.63,0$Default,,0,0,0,,I've heard about this.
+Dialogue: 0,0:13:34.63,0:13:37.36,0$Default,,0,0,0,,Scardon lures humans\Ninto this fake world
+Dialogue: 0,0:13:37.36,0:13:39.36,0$Default,,0,0,0,,and traps them here for eternity.
+Dialogue: 0,0:13:39.36,0:13:40.90,0$Default,,0,0,0,,A fake world?
+Dialogue: 0,0:13:40.90,0:13:43.57,0$Default,,0,0,0,,So that's why the king\Nwas acting all funny.
+Dialogue: 0,0:13:43.57,0:13:45.85,0$Default,,0,0,0,,Well, he's not the king no more.
+Dialogue: 0,0:13:45.85,0:13:46.54,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:46.54,0:13:49.81,0$Default,,0,0,0,,Didn't he just announce new laws?
+Dialogue: 0,0:13:50.17,0:13:51.58,0$Default,,0,0,0,,Wait a minute.
+Dialogue: 0,0:13:51.58,0:13:54.63,0$Default,,0,0,0,,"French Toaster citizens must\Nkeep earthworms as pets."
+Dialogue: 0,0:13:54.63,0:13:57.67,0$Default,,0,0,0,,"French Toaster citizens must\Nkeep crocodiles as pets."
+Dialogue: 0,0:13:57.67,0:14:00.67,0$Default,,0,0,0,,"French Toaster citizens must\Nremain fans of their ruler until death."
+Dialogue: 0,0:14:00.67,0:14:03.32,0$Default,,0,0,0,,I've got it! Princess Melora\Nwrote those!
+Dialogue: 0,0:14:03.32,0:14:04.95,0$Default,,0,0,0,,She did?
+Dialogue: 0,0:14:04.95,0:14:07.85,0$Default,,0,0,0,,This French Toaster is governed by...
+Dialogue: 0,0:14:07.85,0:14:09.20,0$Default,,0,0,0,,Queen Melora!
+Dialogue: 0,0:14:09.20,0:14:12.56,0$Default,,0,0,0,,Wow, a queen? That sounds rad!\NI gotta meet Queen Melora!
+Dialogue: 0,0:14:12.56,0:14:15.77,0$Default,,0,0,0,,Shouldn't we focus on\Nfinding a way out of this place?
+Dialogue: 0,0:14:15.77,0:14:17.96,0$Default,,0,0,0,,No way! Let me meet her! Come on!
+Dialogue: 0,0:14:17.96,0:14:21.14,0$Default,,0,0,0,,I gotta see Queen Melora!!
+Dialogue: 0,0:14:26.18,0:14:27.47,0$Default,,0,0,0,,Wow!
+Dialogue: 0,0:14:27.47,0:14:30.22,0$Default,,0,0,0,,Oh hi, Chup! What's up?
+Dialogue: 0,0:14:30.22,0:14:32.37,0$Default,,0,0,0,,The Princess Melora here... I mean,
+Dialogue: 0,0:14:32.37,0:14:34.75,0$Default,,0,0,0,,Queen Melora is so cute!
+Dialogue: 0,0:14:34.75,0:14:36.96,0$Default,,0,0,0,,She sure doesn't look like a fake.
+Dialogue: 0,0:14:36.96,0:14:39.34,0$Default,,0,0,0,,I gotta get your autograph\Nwhile I still can!
+Dialogue: 0,0:14:43.74,0:14:44.76,0$Default,,0,0,0,,Sister!
+Dialogue: 0,0:14:45.74,0:14:46.72,0$Default,,0,0,0,,By Jove!
+Dialogue: 0,0:14:46.72,0:14:47.85,0$Default,,0,0,0,,Did you say sister?!
+Dialogue: 0,0:14:47.85,0:14:50.12,0$Default,,0,0,0,,She's your sister?!
+Dialogue: 0,0:14:51.37,0:14:53.23,0$Default,,0,0,0,,Your sister? Really?
+Dialogue: 0,0:14:53.23,0:14:55.96,0$Default,,0,0,0,,It's been too long.\NHow have you been, Vinsant?
+Dialogue: 0,0:14:55.96,0:14:58.38,0$Default,,0,0,0,,Are you really her?
+Dialogue: 0,0:14:58.38,0:15:01.22,0$Default,,0,0,0,,Of course I am. After all, you're real too!
+Dialogue: 0,0:15:01.22,0:15:03.88,0$Default,,0,0,0,,Got lost here in the Scarzone\Nduring my travels.
+Dialogue: 0,0:15:04.75,0:15:07.20,0$Default,,0,0,0,,This place is so peaceful!
+Dialogue: 0,0:15:07.20,0:15:08.99,0$Default,,0,0,0,,It's a great place to live.
+Dialogue: 0,0:15:08.99,0:15:12.10,0$Default,,0,0,0,,Vinsant, would you like\Nto come stay here with me?
+Dialogue: 0,0:15:12.40,0:15:14.10,0$Default,,0,0,0,,Just us brother and sister.
+Dialogue: 0,0:15:21.99,0:15:23.51,0$Default,,0,0,0,,Great move.
+Dialogue: 0,0:15:23.51,0:15:26.36,0$Default,,0,0,0,,You are {\i1}not{\i0} my sister!
+Dialogue: 0,0:15:27.91,0:15:31.77,0$Default,,0,0,0,,My sister wouldn't accept\Nsome fake imitation of peace!
+Dialogue: 0,0:15:39.69,0:15:43.13,0$Default,,0,0,0,,Chup, you'd best take down\NQueen Melora while you're at it.
+Dialogue: 0,0:15:43.13,0:15:43.76,0$Default,,0,0,0,,Say what?!
+Dialogue: 0,0:15:43.76,0:15:45.86,0$Default,,0,0,0,,She's a fake too.
+Dialogue: 0,0:15:45.86,0:15:47.82,0$Default,,0,0,0,,An evil being binding you here,
+Dialogue: 0,0:15:47.82,0:15:50.26,0$Default,,0,0,0,,trapping you for eternity.
+Dialogue: 0,0:15:54.27,0:15:56.21,0$Default,,0,0,0,,Sh-She vanished into thin air!
+Dialogue: 0,0:15:56.21,0:15:58.38,0$Default,,0,0,0,,This seems real bad, Chup!
+Dialogue: 0,0:15:58.38,0:16:00.27,0$Default,,0,0,0,,Get rid of the queen quickly!
+Dialogue: 0,0:16:00.27,0:16:02.27,0$Default,,0,0,0,,Huh? I...I can't!
+Dialogue: 0,0:16:02.27,0:16:03.34,0$Default,,0,0,0,,I'll do it.
+Dialogue: 0,0:16:03.34,0:16:04.44,0$Default,,0,0,0,,Vinsant?!
+Dialogue: 0,0:16:05.03,0:16:07.45,0$Default,,0,0,0,,You fake posing as Princess Melora...
+Dialogue: 0,0:16:07.45,0:16:10.82,0$Default,,0,0,0,,your very existence is a stain on her being!
+Dialogue: 0,0:16:11.83,0:16:13.58,0$Default,,0,0,0,,It's time you die!
+Dialogue: 0,0:16:18.04,0:16:19.51,0$Default,,0,0,0,,Chup?!
+Dialogue: 0,0:16:20.26,0:16:21.88,0$Default,,0,0,0,,Why are you blocking me?
+Dialogue: 0,0:16:21.88,0:16:24.89,0$Default,,0,0,0,,This is the real Princess Melora!
+Dialogue: 0,0:16:24.89,0:16:28.07,0$Default,,0,0,0,,She's fully, flawlessly real!
+Dialogue: 0,0:16:28.07,0:16:30.31,0$Default,,0,0,0,,So I won't let you lay a finger on her!
+Dialogue: 0,0:16:30.31,0:16:32.08,0$Default,,0,0,0,,Chup, do you have any proof of that?
+Dialogue: 0,0:16:32.08,0:16:33.68,0$Default,,0,0,0,,It's just a hunch!
+Dialogue: 0,0:16:33.68,0:16:35.56,0$Default,,0,0,0,,But I'm certain!
+Dialogue: 0,0:16:36.77,0:16:39.56,0$Default,,0,0,0,,Princess Melora!\NGive us the crab pose!
+Dialogue: 0,0:16:39.56,0:16:40.98,0$Default,,0,0,0,,Really?
+Dialogue: 0,0:16:40.98,0:16:43.49,0$Default,,0,0,0,,I don't really want to, but fine...
+Dialogue: 0,0:16:43.49,0:16:44.94,0$Default,,0,0,0,,Just for you.
+Dialogue: 0,0:16:48.15,0:16:49.49,0$Default,,0,0,0,,Take a good look!
+Dialogue: 0,0:16:49.83,0:16:52.12,0$Default,,0,0,0,,Her kneecaps angled toward the sky!
+Dialogue: 0,0:16:52.12,0:16:53.35,0$Default,,0,0,0,,The position of her ankles!
+Dialogue: 0,0:16:53.35,0:16:58.33,0$Default,,0,0,0,,Only the real Melora\Ncan do that full, flawless crab pose!
+Dialogue: 0,0:16:59.71,0:17:00.75,0$Default,,0,0,0,,You're right!
+Dialogue: 0,0:17:00.75,0:17:04.33,0$Default,,0,0,0,,This is the {\i1}real{\i0} crab pose,\Nfrom the {\i1}real{\i0} Princess Melora!
+Dialogue: 0,0:17:04.33,0:17:06.13,0$Default,,0,0,0,,You believe it?!
+Dialogue: 0,0:17:07.97,0:17:09.45,0$Default,,0,0,0,,You finally figure it out?
+Dialogue: 0,0:17:09.45,0:17:12.84,0$Default,,0,0,0,,I'm the real Melora, in the flesh.
+Dialogue: 0,0:17:13.78,0:17:15.04,0$Default,,0,0,0,,Princess Melora!
+Dialogue: 0,0:17:15.04,0:17:17.58,0$Default,,0,0,0,,I nodded off while relaxing in the spa room,
+Dialogue: 0,0:17:17.58,0:17:20.10,0$Default,,0,0,0,,and when I woke up, here I was!
+Dialogue: 0,0:17:20.31,0:17:22.81,0$Default,,0,0,0,,Then Daddy started acting like a doggy...
+Dialogue: 0,0:17:22.81,0:17:24.15,0$Default,,0,0,0,,{\i1}Woof, woof!
+Dialogue: 0,0:17:24.15,0:17:27.69,0$Default,,0,0,0,,And I was told to take over as queen,\Nso I rolled with it...
+Dialogue: 0,0:17:28.02,0:17:30.38,0$Default,,0,0,0,,But I'm so tired of it!
+Dialogue: 0,0:17:30.38,0:17:32.53,0$Default,,0,0,0,,I wanna go home!
+Dialogue: 0,0:17:33.29,0:17:35.18,0$Default,,0,0,0,,Chup, can you help me?
+Dialogue: 0,0:17:36.66,0:17:38.73,0$Default,,0,0,0,,She gets bored quick\Nand spoils Chup...
+Dialogue: 0,0:17:38.73,0:17:40.60,0$Default,,0,0,0,,And has an inflated ego...
+Dialogue: 0,0:17:40.60,0:17:43.00,0$Default,,0,0,0,,That's the real Melora we're dealing with.
+Dialogue: 0,0:17:43.00,0:17:44.50,0$Default,,0,0,0,,Oh, I get it!
+Dialogue: 0,0:17:45.05,0:17:48.38,0$Default,,0,0,0,,If we had killed Melora,\Nwe would've never recovered from it.
+Dialogue: 0,0:17:48.38,0:17:50.97,0$Default,,0,0,0,,Then we'd have been trapped in here in despair.
+Dialogue: 0,0:17:50.97,0:17:51.99,0$Default,,0,0,0,,Yikes, that's awful!
+Dialogue: 0,0:17:51.99,0:17:53.89,0$Default,,0,0,0,,That's what Scardon wanted.
+Dialogue: 0,0:17:53.89,0:17:56.35,0$Default,,0,0,0,,Come on, let's go home!
+Dialogue: 0,0:17:56.35,0:17:57.14,0$Default,,0,0,0,,O-Okay!
+Dialogue: 0,0:17:57.14,0:17:59.16,0$Default,,0,0,0,,S-Sure, but how?
+Dialogue: 0,0:17:59.16,0:18:01.75,0$Default,,0,0,0,,I believe the legend of this place goes
+Dialogue: 0,0:18:01.75,0:18:04.50,0$Default,,0,0,0,,that the escape will be revealed\Nby a treasure
+Dialogue: 0,0:18:04.50,0:18:06.40,0$Default,,0,0,0,,with a strong connection to the real world.
+Dialogue: 0,0:18:06.40,0:18:09.34,0$Default,,0,0,0,,A treasure with a strong connection\Nto the real world?
+Dialogue: 0,0:18:09.34,0:18:10.92,0$Default,,0,0,0,,Where do we find that?
+Dialogue: 0,0:18:10.92,0:18:13.09,0$Default,,0,0,0,,Do we start looking?
+Dialogue: 0,0:18:13.09,0:18:16.41,0$Default,,0,0,0,,Scardon could wipe out the whole world\Nwhile we search!
+Dialogue: 0,0:18:16.41,0:18:20.17,0$Default,,0,0,0,,I know where we can find a treasure\Nwith a connection to the real world!
+Dialogue: 0,0:18:20.17,0:18:20.87,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:18:20.87,0:18:21.66,0$Default,,0,0,0,,Where?
+Dialogue: 0,0:18:22.54,0:18:23.62,0$Default,,0,0,0,,This is it!
+Dialogue: 0,0:18:23.62,0:18:25.44,0$Default,,0,0,0,,Princess Melora's panties!
+Dialogue: 0,0:18:25.44,0:18:28.19,0$Default,,0,0,0,,It's a super rare treasure to us Melorers!
+Dialogue: 0,0:18:28.19,0:18:32.11,0$Default,,0,0,0,,That makes sense! It even has the affection\Nof many other humans!
+Dialogue: 0,0:18:32.11,0:18:35.72,0$Default,,0,0,0,,Which gives it a strong connection\Nto our world!
+Dialogue: 0,0:18:35.72,0:18:39.26,0$Default,,0,0,0,,Yeah! Melora's panties will be our way out!
+Dialogue: 0,0:18:39.26,0:18:42.00,0$Default,,0,0,0,,Wow! My panties are amazing.
+Dialogue: 0,0:18:42.00,0:18:43.73,0$Default,,0,0,0,,Good going, Chup!
+Dialogue: 0,0:18:43.73,0:18:47.23,0$Default,,0,0,0,,Alright! Let's get back home\Nthrough her panties!
+Dialogue: 0,0:18:50.03,0:18:54.50,0$Default,,0,0,0,,Please give us a way out!
+Dialogue: 0,0:18:56.74,0:18:59.28,0$Default,,0,0,0,,That's our way out!\NLet's go, guys!
+Dialogue: 0,0:19:09.00,0:19:10.90,0$Default,,0,0,0,,Hey, what's goin' on down there?
+Dialogue: 0,0:19:10.90,0:19:12.51,0$Default,,0,0,0,,I have no idea! What the?
+Dialogue: 0,0:19:13.05,0:19:14.76,0$Default,,0,0,0,,What's wrong, boys?
+Dialogue: 0,0:19:15.51,0:19:17.01,0$Default,,0,0,0,,Eek!
+Dialogue: 0,0:19:17.01,0:19:19.51,0$Default,,0,0,0,,What's happening to me?!
+Dialogue: 0,0:19:19.51,0:19:21.83,0$Default,,0,0,0,,Yo, what are you doing, man?
+Dialogue: 0,0:19:21.83,0:19:24.57,0$Default,,0,0,0,,You're leaking some sort of gold!
+Dialogue: 0,0:19:24.57,0:19:27.42,0$Default,,0,0,0,,Aah, it won't stop coming!
+Dialogue: 0,0:19:27.42,0:19:28.88,0$Default,,0,0,0,,Oh, it stopped.
+Dialogue: 0,0:19:28.88,0:19:30.37,0$Default,,0,0,0,,It did?
+Dialogue: 0,0:19:33.36,0:19:35.82,0$Default,,0,0,0,,Aha, we're back in the real world!
+Dialogue: 0,0:19:35.82,0:19:38.57,0$Default,,0,0,0,,No way! Chup, is it really you?
+Dialogue: 0,0:19:39.05,0:19:40.01,0$Default,,0,0,0,,Oh, Genies!
+Dialogue: 0,0:19:40.01,0:19:42.91,0$Default,,0,0,0,,What the? Why are you wearing\NM&C's panties?
+Dialogue: 0,0:19:42.91,0:19:44.68,0$Default,,0,0,0,,We have a critic.
+Dialogue: 0,0:19:44.68,0:19:47.44,0$Default,,0,0,0,,We always need our lucky underwear!
+Dialogue: 0,0:19:47.44,0:19:50.02,0$Default,,0,0,0,,Never know when we'll meet a prince!
+Dialogue: 0,0:19:50.02,0:19:51.17,0$Default,,0,0,0,,So true!
+Dialogue: 0,0:19:51.17,0:19:52.44,0$Default,,0,0,0,,I get it...
+Dialogue: 0,0:19:52.44,0:19:56.32,0$Default,,0,0,0,,We were connected through\Nsomeone else wearing the same panties.
+Dialogue: 0,0:19:56.32,0:19:58.45,0$Default,,0,0,0,,Did it have to be Genies, though?
+Dialogue: 0,0:19:58.45,0:19:59.55,0$Default,,0,0,0,,Yeah...
+Dialogue: 0,0:19:59.55,0:20:01.35,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:20:01.35,0:20:03.90,0$Default,,0,0,0,,All's well that ends well!\NWelling through ends? Hell yeah!
+Dialogue: 0,0:20:03.90,0:20:05.10,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:20:05.10,0:20:07.94,0$Default,,0,0,0,,No matter. We made it out of the Scarzone.
+Dialogue: 0,0:20:07.94,0:20:08.52,0$Default,,0,0,0,,Great!
+Dialogue: 0,0:20:10.78,0:20:12.21,0$Default,,0,0,0,,Scardon!
+Dialogue: 0,0:20:12.21,0:20:15.03,0$Default,,0,0,0,,You're sharper than I thought.
+Dialogue: 0,0:20:16.05,0:20:17.49,0$Default,,0,0,0,,What was that?
+Dialogue: 0,0:20:17.49,0:20:18.66,0$Default,,0,0,0,,Telepathy?
+Dialogue: 0,0:20:18.66,0:20:22.47,0$Default,,0,0,0,,Records never said Scardon\Ncould speak our language!
+Dialogue: 0,0:20:22.47,0:20:24.20,0$Default,,0,0,0,,What's the meaning of this?
+Dialogue: 0,0:20:24.20,0:20:27.19,0$Default,,0,0,0,,You will soon meet your end.
+Dialogue: 0,0:20:27.19,0:20:29.83,0$Default,,0,0,0,,And with you, the world as well!
+Dialogue: 0,0:20:30.88,0:20:33.84,0$Default,,0,0,0,,Watch your mouth!\NWe won't let that happen!
+Dialogue: 0,0:22:19.23,0:22:20.32,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:22:20.32,0:22:22.43,0$Default,,0,0,0,,Dang it! Scardon, you little...!
+Dialogue: 0,0:22:22.43,0:22:23.57,0$Default,,0,0,0,,We won't stand a chance!
+Dialogue: 0,0:22:26.28,0:22:27.08,0$Default,,0,0,0,,Oh no!
+Dialogue: 0,0:22:29.96,0:22:30.87,0$Default,,0,0,0,,Was that...?
+Dialogue: 0,0:22:30.87,0:22:31.96,0$Default,,0,0,0,,It's Griffon!
+Dialogue: 0,0:22:31.96,0:22:33.71,0$Default,,0,0,0,,Everyone, get aboard!
+Dialogue: 0,0:22:34.46,0:22:35.76,0$Default,,0,0,0,,Let's fall back!
+Dialogue: 0,0:22:45.39,0:22:46.32,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.32,0:22:48.28,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.28,0:22:50.79,0$Default,,0,0,0,,{\an8}Today's lesson is on Demi-Glace Castle.
+Dialogue: 0,0:22:50.79,0:22:54.12,0$Default,,0,0,0,,{\an8}Demi-Glace Castle is a castle\Nlocated on a big island in the seas
+Dialogue: 0,0:22:54.12,0:22:56.75,0$Default,,0,0,0,,{\an8}southwest of the continent.
+Dialogue: 0,0:22:56.75,0:23:00.55,0$Default,,0,0,0,,{\an8}Legend has it Scardon made this place\Nhis stronghold.
+Dialogue: 0,0:23:00.55,0:23:02.30,0$Default,,0,0,0,,{\an8}Feels like a big boss fight is coming!
+Dialogue: 0,0:23:02.30,0:23:03.63,0$Default,,0,0,0,,{\an8}Like the big final dungeon!
+Dialogue: 0,0:23:03.63,0:23:06.18,0$Default,,0,0,0,,{\an8}Chup, don't say stuff like that!
+Dialogue: 0,0:23:06.18,0:23:08.84,0$Default,,0,0,0,,{\an8}Let's brace ourselves\Nand head in there!
+Dialogue: 0,0:23:10.67,0:23:14.06,0$Default,,0,0,0,,There's a legendary hero\Nwho knows how to defeat Scardon!
+Dialogue: 0,0:23:14.06,0:23:17.31,0$Default,,0,0,0,,And he's Master Panpan's rival!
+Dialogue: 0,0:23:17.31,0:23:19.17,0$Default,,0,0,0,,I'm not so sure about this guy...
+Dialogue: 0,0:23:19.17,0:23:21.61,0$Default,,0,0,0,,Next time:\N"Hang in There, Brave Robin Hood!"
+Dialogue: 0,0:23:21.61,0:23:24.26,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Comment: 0,0:01:01.21,0:01:03.88,0$Default,,0,0,0,,Episode Title
+Dialogue: 2,0:01:01.21,0:01:03.88,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord0\shad0.01\frz5.980\fsp-34.50}E{\frz5.590\fsp-24.80}p{\frz5.311\fsp-23.73}i{\frz5.043\fsp-33.42}s{\frz4.666\fsp-34.50}o{\frz4.277\fsp-32.90}d{\frz3.906\fsp-25.88}e{\frz3.614\fsp-28.55} {\frz3.292\fsp-37.72}4{\frz2.867\fsp-28.03}5{\frz2.551\fsp-18.87}:{\frz2.338\fsp-30.19} {\frz1.998\fsp-37.20}T{\frz1.578\fsp-32.90}h{\frz1.207\fsp-25.88}e{\frz0.916\fsp-30.71} {\frz0.569\fsp-38.80}H{\frz0.132\fsp-31.82}o{\frz359.773\fsp-28.06}r{\frz359.456\fsp-22.13}r{\frz359.207\fsp-20.49}i{\frz358.976\fsp-30.73}f{\frz358.629\fsp-26.43}y{\frz358.331\fsp-24.80}i{\frz358.051\fsp-34.76}n{\frz357.660\fsp-27.74}g{\frz357.347\fsp-29.11} {\frz357.018\fsp-35.60}S{\frz356.617\fsp-32.90}c{\frz356.246\fsp-30.74}a{\frz355.899\fsp-30.74}r{\frz355.553\fsp-34.50}z{\frz355.164\fsp-34.50}o{\frz354.775\fsp-32.90}n{\frz354.404\fsp0.00}e
+Dialogue: 1,0:01:01.21,0:01:03.88,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz5.980\fsp-34.50}E{\frz5.590\fsp-24.80}p{\frz5.311\fsp-23.73}i{\frz5.043\fsp-33.42}s{\frz4.666\fsp-34.50}o{\frz4.277\fsp-32.90}d{\frz3.906\fsp-25.88}e{\frz3.614\fsp-28.55} {\frz3.292\fsp-37.72}4{\frz2.867\fsp-28.03}5{\frz2.551\fsp-18.87}:{\frz2.338\fsp-30.19} {\frz1.998\fsp-37.20}T{\frz1.578\fsp-32.90}h{\frz1.207\fsp-25.88}e{\frz0.916\fsp-30.71} {\frz0.569\fsp-38.80}H{\frz0.132\fsp-31.82}o{\frz359.773\fsp-28.06}r{\frz359.456\fsp-22.13}r{\frz359.207\fsp-20.49}i{\frz358.976\fsp-30.73}f{\frz358.629\fsp-26.43}y{\frz358.331\fsp-24.80}i{\frz358.051\fsp-34.76}n{\frz357.660\fsp-27.74}g{\frz357.347\fsp-29.11} {\frz357.018\fsp-35.60}S{\frz356.617\fsp-32.90}c{\frz356.246\fsp-30.74}a{\frz355.899\fsp-30.74}r{\frz355.553\fsp-34.50}z{\frz355.164\fsp-34.50}o{\frz354.775\fsp-32.90}n{\frz354.404\fsp0.00}e
+Dialogue: 0,0:01:01.21,0:01:03.88,0$EPTITLE,,0,0,0,,{\pos(975,803)\fade(250,550)\org(975,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz5.980\fsp-34.50}E{\frz5.590\fsp-24.80}p{\frz5.311\fsp-23.73}i{\frz5.043\fsp-33.42}s{\frz4.666\fsp-34.50}o{\frz4.277\fsp-32.90}d{\frz3.906\fsp-25.88}e{\frz3.614\fsp-28.55} {\frz3.292\fsp-37.72}4{\frz2.867\fsp-28.03}5{\frz2.551\fsp-18.87}:{\frz2.338\fsp-30.19} {\frz1.998\fsp-37.20}T{\frz1.578\fsp-32.90}h{\frz1.207\fsp-25.88}e{\frz0.916\fsp-30.71} {\frz0.569\fsp-38.80}H{\frz0.132\fsp-31.82}o{\frz359.773\fsp-28.06}r{\frz359.456\fsp-22.13}r{\frz359.207\fsp-20.49}i{\frz358.976\fsp-30.73}f{\frz358.629\fsp-26.43}y{\frz358.331\fsp-24.80}i{\frz358.051\fsp-34.76}n{\frz357.660\fsp-27.74}g{\frz357.347\fsp-29.11} {\frz357.018\fsp-35.60}S{\frz356.617\fsp-32.90}c{\frz356.246\fsp-30.74}a{\frz355.899\fsp-30.74}r{\frz355.553\fsp-34.50}z{\frz355.164\fsp-34.50}o{\frz354.775\fsp-32.90}n{\frz354.404\fsp0.00}e
+Comment: 0,0:20:01.64,0:20:05.10,0$Default,,0,0,0,,Tome's Proverb
+Dialogue: 1,0:20:01.64,0:20:05.10,0$Proverb,,0,0,0,,{\kf55\fs70\pos(930,321)\c&H0D0D0D&\blur0.7\2aFF}All's well that ends well.{\kf20}\N{\kf46}Welling through ends?{\kf6}\N{\kf74}Hell yeah.{\kf145}
+Dialogue: 0,0:20:01.64,0:20:05.10,0$Proverb,,0,0,0,,{\kf55\fs70\blur0.7\2aFF\c&HEEEFEF&\pos(932.36,324.45)}All's well that ends well.{\kf20}\N{\kf46}Welling through ends?{\kf6}\N{\kf74}Hell yeah.{\kf145}
+Dialogue: 1,0:20:03.89,0:20:05.10,0$Proverb,,0,0,0,,{\kf18\fs70\c&H0D0D0D&\blur0.7\2aFF\pos(1114,379)}-Tome
+Dialogue: 0,0:20:03.89,0:20:05.10,0$Proverb,,0,0,0,,{\kf18\fs70\blur0.7\2aFF\c&HEEEFEF&\pos(1116.36,382.45)}-Tome
+Comment: 0,0:22:44.97,0:23:24.97,0$Default,,0,0,0,,Post-ED
+Dialogue: 1,0:22:44.97,0:22:48.68,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.97,0:22:48.68,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.68,0:23:09.99,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(652,1053.2)}Demi-Glace Castle
+Dialogue: 0,0:22:48.68,0:23:09.99,0$Take H,,0,0,0,,{\c&H030309&\bord3.5\blur1\fs90\3c&H030309&\shad0\pos(652,1053.2)}Demi-Glace Castle
+Dialogue: 1,0:23:09.99,0:23:25.01,0$Take H,,0,0,0,,{\c&H000000&\blur0.7\pos(279,282)\shad0\fscx178\fscy186}Next Time
+Dialogue: 0,0:23:09.99,0:23:25.01,0$Take H,,0,0,0,,{\bord3\blur10.5\pos(279,282)\shad0.01\fscx178\fscy186\3a&HFE&\1a&HFE&\4c&HFFFFFF&\4a&H3F&}Next Time
+Dialogue: 2,0:23:19.17,0:23:25.01,0$NextEpTitle,,0,0,0,,{\fs90\3c&H24A40C&\fade(450,0)\c&HFFFFFF&\blur0.7\pos(972,720)}Hang in There, Brave Robin Hood!
+Dialogue: 1,0:23:19.17,0:23:25.01,0$NextEpTitle,,0,0,0,,{\fs90\3c&H22A604&\bord4\fade(450,0)\c&H22A604&\blur0.7\pos(972,720)}Hang in There, Brave Robin Hood!
+Dialogue: 0,0:23:19.17,0:23:25.01,0$NextEpTitle,,0,0,0,,{\fs90\3c&H09F1E9&\bord4.5\fade(450,0)\blur15\pos(972,720)}Hang in There, Brave Robin Hood!
+Dialogue: 1,0:20:38.55,0:20:43.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf77\3c&H6FA800&\2c&H456706&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:20:38.55,0:20:43.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}nee kimi doko kara kita no?
+Dialogue: 1,0:20:38.55,0:20:43.18,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}Where are you from?
+Dialogue: 0,0:20:38.55,0:20:43.18,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}Where are you from?
+Dialogue: 1,0:20:43.18,0:20:47.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&H6FA800&\2c&H456706&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:20:43.18,0:20:47.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}ima boku hima shiten dakedo
+Dialogue: 1,0:20:43.18,0:20:47.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}I've got time to spare
+Dialogue: 0,0:20:43.18,0:20:47.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}I've got time to spare
+Dialogue: 1,0:20:47.73,0:20:52.31,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\kf66\3c&HE1811E&\2c&H834B0F&\bord0}ocha{\kf40}{\kf82}shite{\kf50} {\kf72}morae {\kf128}masenka?
+Dialogue: 0,0:20:47.73,0:20:52.31,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ochashite morae masenka?
+Dialogue: 1,0:20:47.73,0:20:52.31,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Can I pour you some tea?
+Dialogue: 0,0:20:47.73,0:20:52.31,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Can I pour you some tea?
+Dialogue: 1,0:20:52.31,0:20:57.36,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf32\kf86\3c&HE1811E&\2c&H834B0F&\bord0}dame?{\kf34} {\kf68}dame?{\kf44} {\kf102}doushite {\kf94}desuka{\kf44}
+Dialogue: 0,0:20:52.31,0:20:57.36,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}dame? dame? doushite desuka
+Dialogue: 1,0:20:52.31,0:20:57.36,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}No, you say? What's wrong?
+Dialogue: 0,0:20:52.31,0:20:57.36,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}No, you say? What's wrong?
+Dialogue: 1,0:20:57.36,0:21:01.99,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&HE1811E&\2c&H046559&\bord0}ji{\kf50}n{\kf58}sei {\kf40}wa{\kf32} {\kf111}rooringu{\kf79} sutoon{\kf19}
+Dialogue: 0,0:20:57.36,0:21:01.99,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H0B9478&\3c&H0B9478&\4c&H0B9478&}jinsei wa rooringu sutoon
+Dialogue: 1,0:20:57.36,0:21:01.99,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H0728A3&\bord0}Life is like a rolling stone
+Dialogue: 0,0:20:57.36,0:21:01.99,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H014FFF&\3c&H014FFF&\4c&H014FFF&}Life is like a rolling stone
+Dialogue: 1,0:21:01.99,0:21:06.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf130\3c&HE1811E&\2c&H102A80&\bord0}tamaru {\kf120}konbini {\kf48}bukur{\kf154}o{\kf27}
+Dialogue: 0,0:21:01.99,0:21:06.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}tamaru konbini bukuro
+Dialogue: 1,0:21:01.99,0:21:06.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Shopping bags piling up
+Dialogue: 0,0:21:01.99,0:21:06.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Shopping bags piling up
+Dialogue: 1,0:21:06.83,0:21:11.50,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf60\3c&HE1811E&\2c&H102A80&\bord0}se{\kf40}i{\kf60}shun {\kf46}wa{\kf28} {\kf112}kumori {\kf100}zora{\kf14}
+Dialogue: 0,0:21:06.83,0:21:11.50,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}seishun wa kumori zora
+Dialogue: 1,0:21:06.83,0:21:11.50,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Youth is like a dark cloudy sky
+Dialogue: 0,0:21:06.83,0:21:11.50,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Youth is like a dark cloudy sky
+Dialogue: 1,0:21:11.50,0:21:15.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf114\3c&HE1811E&\2c&H706304&\bord0}sumafo {\kf110}izon{\kf50}shou {\kf78}sa{\kf14}
+Dialogue: 0,0:21:11.50,0:21:15.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}sumafo izonshou sa
+Dialogue: 1,0:21:11.50,0:21:15.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}They're all glued to their phones
+Dialogue: 0,0:21:11.50,0:21:15.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}They're all glued to their phones
+Dialogue: 1,0:21:15.25,0:21:17.63,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf48\3c&HE1811E&\2c&H706304&\bord0}donzoko {\kf42}demo {\kf44}ii{\kf68}jan{\kf25}
+Dialogue: 0,0:21:15.25,0:21:17.63,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}donzoko demo iijan
+Dialogue: 1,0:21:15.25,0:21:17.63,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So what if we've hit rock bottom
+Dialogue: 0,0:21:15.25,0:21:17.63,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So what if we've hit rock bottom
+Dialogue: 1,0:21:17.63,0:21:19.93,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf9\3c&HE1811E&\2c&H706304&\bord0}ki {\kf20}ni {\kf62}shinakute {\kf36}ii{\kf70}jan{\kf23}
+Dialogue: 0,0:21:17.63,0:21:19.93,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}ki ni shinakute iijan
+Dialogue: 1,0:21:17.63,0:21:19.93,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't get so hung up on it
+Dialogue: 0,0:21:17.63,0:21:19.93,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}Don't get so hung up on it
+Dialogue: 1,0:21:19.93,0:21:21.76,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:19.93,0:21:21.76,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:19.93,0:21:21.76,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:19.93,0:21:21.76,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:21.76,0:21:24.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H0D7349&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf2}ru {\kf54}kamojan
+Dialogue: 0,0:21:21.76,0:21:24.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tabetara kateru kamojan
+Dialogue: 1,0:21:21.76,0:21:24.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:21.76,0:21:24.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:24.64,0:21:26.81,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H0D7349&\bord0}dame {\kf34}dame {\kf26}demo {\kf48}ii{\kf73}jan
+Dialogue: 0,0:21:24.64,0:21:26.81,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}dame dame demo iijan
+Dialogue: 1,0:21:24.64,0:21:26.81,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}But if it won't? Oh well
+Dialogue: 0,0:21:24.64,0:21:26.81,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}But if it won't? Oh well
+Dialogue: 1,0:21:26.81,0:21:29.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf30\3c&HE1811E&\2c&H0D7349&\bord0}dou{\kf33}tte {\kf42}koto {\kf46}nee{\kf54}jan{\kf23}
+Dialogue: 0,0:21:26.81,0:21:29.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}doutte koto neejan
+Dialogue: 1,0:21:26.81,0:21:29.18,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't worry 'bout it
+Dialogue: 0,0:21:26.81,0:21:29.18,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Don't worry 'bout it
+Dialogue: 1,0:21:29.18,0:21:31.23,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:29.18,0:21:31.23,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:29.18,0:21:31.23,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:29.18,0:21:31.23,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:31.23,0:21:34.15,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H822033&\bord0}me{\kf36}ge{\kf38}zu {\kf20}ni {\kf20}i{\kf42}kou{\kf78}ze{\kf21}
+Dialogue: 0,0:21:31.23,0:21:34.15,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}megezu ni ikouze
+Dialogue: 1,0:21:31.23,0:21:34.15,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep moving forward
+Dialogue: 0,0:21:31.23,0:21:34.15,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}And keep moving forward
+Dialogue: 1,0:21:34.15,0:21:36.27,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\3c&HE1811E&\2c&H822033&\bord0}charan{\kf26}poran {\kf26}de {\kf44}ii{\kf68}jan{\kf18}
+Dialogue: 0,0:21:34.15,0:21:36.27,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}charanporan de iijan
+Dialogue: 1,0:21:34.15,0:21:36.27,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}Maybe we're kinda sloppy
+Dialogue: 0,0:21:34.15,0:21:36.27,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}Maybe we're kinda sloppy
+Dialogue: 1,0:21:36.27,0:21:38.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf38\3c&HE1811E&\2c&H822033&\bord0}mucha{\kf30}kucha {\kf32}de {\kf40}ii{\kf66}jan{\kf17}
+Dialogue: 0,0:21:36.27,0:21:38.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}muchakucha de iijan
+Dialogue: 1,0:21:36.27,0:21:38.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}And sure we're kinda reckless
+Dialogue: 0,0:21:36.27,0:21:38.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}And sure we're kinda reckless
+Dialogue: 1,0:21:38.61,0:21:40.40,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H822033&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:38.61,0:21:40.40,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}katsudon tabe yoojan
+Dialogue: 1,0:21:38.61,0:21:40.40,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:38.61,0:21:40.40,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:40.40,0:21:43.28,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H822033&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf28}ru {\kf54}kamojan
+Dialogue: 0,0:21:40.40,0:21:43.28,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}tabetara kateru kamojan
+Dialogue: 1,0:21:40.40,0:21:43.28,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:21:40.40,0:21:43.28,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:21:43.28,0:21:45.62,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf40\3c&HE1811E&\2c&H0D7349&\bord0}masshi{\kf32}gura {\kf32}de {\kf36}ii{\kf68}jan{\kf16}
+Dialogue: 0,0:21:43.28,0:21:45.62,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}masshigura de iijan
+Dialogue: 1,0:21:43.28,0:21:45.62,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So let's go full speed
+Dialogue: 0,0:21:43.28,0:21:45.62,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So let's go full speed
+Dialogue: 1,0:21:45.62,0:21:48.04,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf34\3c&HE1811E&\2c&H0D7349&\bord0}tsuki {\kf72}susumeba {\kf36}ii{\kf74}jan{\kf12}
+Dialogue: 0,0:21:45.62,0:21:48.04,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tsuki susumeba iijan
+Dialogue: 1,0:21:45.62,0:21:48.04,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep pushing onwards
+Dialogue: 0,0:21:45.62,0:21:48.04,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}And keep pushing onwards
+Dialogue: 1,0:21:48.04,0:21:49.96,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:21:48.04,0:21:49.96,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:21:48.04,0:21:49.96,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:21:48.04,0:21:49.96,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}C'mon, let's eat some katsudon
+Dialogue: 1,0:21:49.96,0:21:53.63,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf36\3c&HE1811E&\2c&H834B0F&\bord0}to{\kf38}ko{\kf46}ton {\kf32}ya{\kf40}rou{\kf20}z{\kf128}e{\kf29}
+Dialogue: 0,0:21:49.96,0:21:53.63,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}tokoton yarouze
+Dialogue: 1,0:21:49.96,0:21:53.63,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}And see our goals all the way through
+Dialogue: 0,0:21:49.96,0:21:53.63,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}And see our goals all the way through
+Dialogue: 1,0:21:53.63,0:21:58.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:21:53.63,0:21:58.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}nee kimi doko kara kita no?
+Dialogue: 1,0:21:53.63,0:21:58.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Where are you from?
+Dialogue: 0,0:21:53.63,0:21:58.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Where are you from?
+Dialogue: 1,0:21:58.09,0:22:02.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:21:58.09,0:22:02.38,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ima boku hima shiten dakedo
+Dialogue: 1,0:21:58.09,0:22:02.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H540C53&\bord0}I've got time to spare
+Dialogue: 0,0:21:58.09,0:22:02.38,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF27FF&\3c&HFF27FF&\4c&HFF27FF&}I've got time to spare
+Dialogue: 1,0:22:02.38,0:22:07.85,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf23\3c&HE1811E&\2c&H834B0F&\bord0}Why {\kf26}don't {\kf24}we {\kf104}eat{\kf62} {\kf40}KATSU{\kf24}D{\kf233}ON?
+Dialogue: 0,0:22:02.38,0:22:07.85,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}Why don't we eat KATSUDON?
+

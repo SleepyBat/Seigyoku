@@ -15,6 +15,7 @@ Finished Projects:
 - Kuromi's Pretty Journey S2
 - Kyouryuu Shoujo Gauko (2017) (Dino Girl Gauko)
 - Tsukuru no Daisuki! NenDo!-kun to Nakama-tachi (NenDo!-kun and Friends Love to Create!)
+- Usahana - Yumemiru Ballerina (Usahana, the Dreaming Ballerina)
 
 Dropped Projects:
 - Dog Signal (eps 1-5)

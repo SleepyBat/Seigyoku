@@ -1,0 +1,599 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 640
+PlayResY: 480
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,36,&H00FFFFFF,&H000000FF,&H0054179A,&H97000000,-1,0,0,0,100,100,0,0,1,2,2,2,35,35,25,1
+Style: OP,Medrano,35,&H00FFFFFF,&H000000FF,&H00FF4D4D,&H97000000,0,0,0,0,100,100,0,0,1,4,0,8,50,50,25,1
+Style: ED-A,Leticea Bumstead,35,&H007A3DF2,&H000000FF,&H00FFFFFF,&H97000000,0,0,0,0,100,100,0,0,1,4,0,2,40,40,10,1
+Style: ED-B,Medrano,35,&H00FFFFFF,&H000000FF,&H00A270FF,&H97000000,0,0,0,0,100,100,0,0,1,4,0,2,50,50,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.02,0:00:07.39,OP,Singer,0,0,0,,{\blur0.6\fad(500,0)\c&HFF4D4D&\1a&HFF&\t(455,500,\1a&H00&)}Sometimes you might get lost
+Dialogue: 1,0:00:01.02,0:00:07.39,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}Sometimes you might get lost
+Dialogue: 0,0:00:07.39,0:00:10.69,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Or find yourself frozen
+Dialogue: 1,0:00:07.39,0:00:10.69,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Or find yourself frozen
+Dialogue: 0,0:00:10.69,0:00:14.27,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}On a thorny path, although
+Dialogue: 1,0:00:10.69,0:00:14.27,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}On a thorny path, although
+Dialogue: 0,0:00:14.27,0:00:17.37,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(2600,2645,\1a&HFF&)}You must push forward
+Dialogue: 1,0:00:14.27,0:00:17.37,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}You must push forward
+Dialogue: 0,0:00:17.87,0:00:21.24,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&\fad(500,0)}Will you find a legendary kingdom?
+Dialogue: 1,0:00:17.87,0:00:21.24,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&\fad(500,0)}Will you find a legendary kingdom?
+Dialogue: 0,0:00:21.24,0:00:24.51,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Perhaps mysterious lands?
+Dialogue: 1,0:00:21.24,0:00:24.51,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Perhaps mysterious lands?
+Dialogue: 0,0:00:24.51,0:00:27.44,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}A town you’ve dreamed of visiting?
+Dialogue: 1,0:00:24.51,0:00:27.44,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}A town you’ve dreamed of visiting?
+Dialogue: 0,0:00:27.44,0:00:31.42,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(3480,3525,\1a&HFF&)}Who knows what you’ll come across
+Dialogue: 1,0:00:27.44,0:00:31.42,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}Who knows what you’ll come across
+Dialogue: 0,0:00:32.55,0:00:39.06,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Here, you’re free, we all are
+Dialogue: 1,0:00:32.55,0:00:39.06,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Here, you’re free, we all are
+Dialogue: 0,0:00:39.06,0:00:44.60,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(5040,5085,\1a&HFF&)}We can go wherever pleases us
+Dialogue: 1,0:00:39.06,0:00:44.60,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}We can go wherever pleases us
+Dialogue: 0,0:00:45.76,0:00:51.80,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}As long as there’s hope for the future
+Dialogue: 1,0:00:45.76,0:00:51.80,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}As long as there’s hope for the future
+Dialogue: 0,0:00:51.80,0:00:58.44,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(6140,6185,\1a&HFF&)}It’ll go on forever
+Dialogue: 1,0:00:51.80,0:00:58.44,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}It’ll go on forever
+Dialogue: 0,0:00:59.21,0:01:04.95,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&\fscx90}That’s right, we’re writing this story together
+Dialogue: 1,0:00:59.21,0:01:04.95,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&\fscx90}That’s right, we’re writing this story together
+Dialogue: 0,0:01:04.95,0:01:09.39,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(3940,3985,\1a&HFF&)}And it’s only just beginning
+Dialogue: 1,0:01:04.95,0:01:09.39,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}And it’s only just beginning
+Dialogue: 0,0:01:12.71,0:01:17.06,Default,Hana,0,0,0,Title,“Nuts’ Love Story”
+Dialogue: 0,0:01:21.97,0:01:23.35,Default,Nuts,0,0,0,,I win!
+Dialogue: 0,0:01:23.85,0:01:25.27,Default,Rosemary,0,0,0,,Get back here!
+Dialogue: 0,0:01:25.27,0:01:27.45,Default,Nuts,0,0,0,,As if!
+Dialogue: 0,0:01:31.79,0:01:32.89,Default,Rosemary,0,0,0,,What was that for?
+Dialogue: 0,0:01:32.89,0:01:33.78,Default,Rosemary,0,0,0,,Oh?
+Dialogue: 0,0:01:39.77,0:01:41.30,Default,Rosemary,0,0,0,,Hey, Anzu!
+Dialogue: 0,0:01:41.30,0:01:42.99,Default,Anzu,0,0,0,,Hi, Rosemary!
+Dialogue: 0,0:01:43.30,0:01:45.47,Default,Nuts,0,0,0,,H-H-H-He...
+Dialogue: 0,0:01:45.47,0:01:46.82,Default,Nuts,0,0,0,,Hello!!
+Dialogue: 0,0:01:49.88,0:01:51.56,Default,Rosemary,0,0,0,,Hi, Nuts...!
+Dialogue: 0,0:01:54.38,0:01:57.80,Default,Nuts,0,0,0,,{\i1}I just said hi to Anzu...{\i0}
+Dialogue: 0,0:01:57.80,0:01:59.70,Default,Nuts,0,0,0,,Oh-hooo!
+Dialogue: 0,0:02:00.24,0:02:01.92,Default,Nuts,0,0,0,,See you later!
+Dialogue: 0,0:02:05.71,0:02:07.03,Default,Sakura,0,0,0,,Did you see that?
+Dialogue: 0,0:02:07.03,0:02:07.83,Default,Hana,0,0,0,,Yeah...
+Dialogue: 0,0:02:07.83,0:02:10.95,Default,Sakura,0,0,0,,Nuts is really awkward at this.
+Dialogue: 0,0:02:26.85,0:02:29.33,Default,Nuts,0,0,0,,Oh, Anzu...
+Dialogue: 0,0:02:29.68,0:02:31.79,Default,Simone,0,0,0,,Okay! Now for the next group.
+Dialogue: 0,0:02:59.45,0:03:01.28,Default,Anzu,0,0,0,,Are you okay, Nuts?
+Dialogue: 0,0:03:01.28,0:03:02.59,Default,Nuts,0,0,0,,Just peachy!
+Dialogue: 0,0:03:02.59,0:03:03.98,Default,Anzu,0,0,0,,Good!
+Dialogue: 0,0:03:10.36,0:03:11.86,Default,Rose,0,0,0,,Way to go, Nuts!
+Dialogue: 0,0:03:11.86,0:03:13.99,Default,Mary,0,0,0,,You actually held\Na conversation with her!
+Dialogue: 0,0:03:13.99,0:03:15.31,Default,Nuts,0,0,0,,So what?
+Dialogue: 0,0:03:15.31,0:03:17.66,Default,Sakura,0,0,0,,But you still have a long way to go!
+Dialogue: 0,0:03:18.57,0:03:21.20,Default,Ivy,0,0,0,,If you cover up your face\Nwith a towel like that,
+Dialogue: 0,0:03:21.20,0:03:24.39,Default,Ivy,0,0,0,,Anzu won’t be able to tell\Nyou’re having feelings.
+Dialogue: 0,0:03:24.39,0:03:27.57,Default,Nuts,0,0,0,,Feelings? Huh?
+Dialogue: 0,0:03:27.98,0:03:29.23,Default,Nuts,0,0,0,,My feelings?
+Dialogue: 0,0:03:29.23,0:03:31.23,Default,Nuts,0,0,0,,Huh?!
+Dialogue: 0,0:03:32.21,0:03:37.07,Default,Azami,0,0,0,,So Anzu’s {\i1}not{\i0} the only one who\Nhasn’t caught on to the fact you love her!
+Dialogue: 0,0:03:37.07,0:03:38.09,Default,Nuts,0,0,0,,Huh...?
+Dialogue: 0,0:03:39.00,0:03:40.90,Default,Hana,0,0,0,,Nuts...
+Dialogue: 0,0:03:41.32,0:03:44.31,Default,Ivy,0,0,0,,I have a good idea, everyone!
+Dialogue: 0,0:03:44.64,0:03:49.91,Default,Ivy,0,0,0,,We’re going to invite Anzu out to a picnic\Non our next day off! All of us!
+Dialogue: 0,0:03:50.29,0:03:51.37,Default,Mary,0,0,0,,I see!
+Dialogue: 0,0:03:51.37,0:03:52.30,Default,Rose,0,0,0,,At the picnic...
+Dialogue: 0,0:03:52.30,0:03:53.87,Default,Mary,0,0,0,,you’ll make the perfect chance...
+Dialogue: 0,0:03:53.87,0:03:54.94,Default,Rose,0,0,0,,for them to get...
+Dialogue: 0,0:03:54.94,0:03:56.52,Default,Mary,0,0,0,,to know each other!
+Dialogue: 0,0:03:56.52,0:03:57.92,Default,Ivy,0,0,0,,Right on the nose!
+Dialogue: 0,0:03:57.92,0:04:00.01,Default,Hana,0,0,0,,Yay, a picnic!
+Dialogue: 0,0:04:00.01,0:04:01.76,Default,Hana,0,0,0,,I’ll bring the food!
+Dialogue: 0,0:04:02.94,0:04:05.68,Default,Azami,0,0,0,,The futile Nuts and\Nthe dimwitted Anzu, huh?
+Dialogue: 0,0:04:05.68,0:04:07.26,Default,Azami,0,0,0,,This’ll be worth the watch.
+Dialogue: 0,0:04:07.61,0:04:08.96,Default,Ivy,0,0,0,,It’ll be fine!
+Dialogue: 0,0:04:08.96,0:04:12.77,Default,Ivy,0,0,0,,Nuts just has to show off his best traits!
+Dialogue: 0,0:04:13.08,0:04:15.32,Default,Nuts,0,0,0,,Well...
+Dialogue: 0,0:04:15.76,0:04:16.64,Default,Nuts,0,0,0,,Let’s do it!
+Dialogue: 0,0:04:16.99,0:04:18.14,Default,Hana,0,0,0,,Let’s do it!
+Dialogue: 0,0:04:18.14,0:04:19.64,Default,Sakura,0,0,0,,Why did you cheer too...?
+Dialogue: 0,0:04:25.73,0:04:26.77,Default,Hana,0,0,0,,{\i1}Dear Granny,
+Dialogue: 0,0:04:26.77,0:04:28.89,Default,Hana,0,0,0,,{\i1}Tomorrow, I’m having\Na picnic with my friends!
+Dialogue: 0,0:04:28.89,0:04:30.83,Default,Hana,0,0,0,,{\i1}I can’t wait.
+Dialogue: 0,0:04:30.83,0:04:35.88,Default,Hana,0,0,0,,{\i1}I hope Nuts can tell Anzu he loves her.
+Dialogue: 0,0:04:37.11,0:04:39.90,Default,Hana,0,0,0,,Oh, no! What do I do about the food?
+Dialogue: 0,0:04:45.69,0:04:48.96,Default,Jeff,0,0,0,,All ready! My homemade chicken basket!
+Dialogue: 0,0:04:48.96,0:04:51.41,Default,Jeff,0,0,0,,Bring this with you on your picnic!
+Dialogue: 0,0:04:51.41,0:04:53.31,Default,All,0,0,0,,Yay!
+Dialogue: 0,0:04:53.75,0:04:55.03,Default,Jeff,0,0,0,,Here you go, Hana!
+Dialogue: 0,0:04:55.03,0:04:56.86,Default,Hana,0,0,0,,Thank you, Jeff!
+Dialogue: 0,0:04:58.00,0:04:59.68,Default,Hana,0,0,0,,It smells yummy!
+Dialogue: 0,0:05:00.00,0:05:01.49,Default,Clara,0,0,0,,Stay safe, okay?
+Dialogue: 0,0:05:01.49,0:05:02.92,Default,Clara,0,0,0,,And have fun!
+Dialogue: 0,0:05:02.92,0:05:04.82,Default,All,0,0,0,,Goodbye!
+Dialogue: 0,0:05:04.82,0:05:05.82,Default,Jeff,0,0,0,,Have a safe trip!
+Dialogue: 0,0:05:05.82,0:05:07.95,Default,Jeff,0,0,0,,Good luck, Nuts!
+Dialogue: 0,0:05:07.95,0:05:08.81,Default,Nuts,0,0,0,,Huh?
+Dialogue: 0,0:05:09.41,0:05:11.09,Default,Nuts,0,0,0,,How does even {\i1}Jeff{\i0} know?
+Dialogue: 0,0:05:11.47,0:05:12.88,Default,Rose,0,0,0,,Oh, y’know.
+Dialogue: 0,0:05:12.88,0:05:13.81,Default,Mary,0,0,0,,Y’know!
+Dialogue: 0,0:05:13.81,0:05:16.60,Default,Rosemary,0,0,0,,We may have slipped it to him!
+Dialogue: 0,0:05:18.65,0:05:19.95,Default,Hana,0,0,0,,We’re here!
+Dialogue: 0,0:05:21.06,0:05:22.02,Default,Hana,0,0,0,,Hi!
+Dialogue: 0,0:05:22.02,0:05:23.56,Default,All,0,0,0,,Hello!
+Dialogue: 0,0:05:24.47,0:05:25.73,Default,Nuts,0,0,0,,Hi the—
+Dialogue: 0,0:05:28.25,0:05:29.86,Default,Rose,0,0,0,,Well, go on!
+Dialogue: 0,0:05:29.86,0:05:30.90,Default,Mary,0,0,0,,Go on!
+Dialogue: 0,0:05:30.90,0:05:33.42,Default,Rosemary,0,0,0,,Greet her already!
+Dialogue: 0,0:05:33.42,0:05:35.70,Default,Nuts,0,0,0,,H-H-H-He...
+Dialogue: 0,0:05:35.70,0:05:37.54,Default,Nuts,0,0,0,,Hello!!
+Dialogue: 0,0:05:39.24,0:05:40.72,Default,Rosemary,0,0,0,,What a dummy.
+Dialogue: 0,0:05:40.72,0:05:43.09,Default,Azami,0,0,0,,Get a clue already, will you?
+Dialogue: 0,0:05:43.09,0:05:46.60,Default,Sakura,0,0,0,,Anzu is sensitive to your yelling!
+Dialogue: 0,0:05:46.60,0:05:47.68,Default,Nuts,0,0,0,,Wait, what?
+Dialogue: 0,0:05:47.68,0:05:48.67,Default,Rose,0,0,0,,Anzu...
+Dialogue: 0,0:05:48.67,0:05:50.13,Default,Mary,0,0,0,,doesn’t like it...
+Dialogue: 0,0:05:50.13,0:05:51.15,Default,Rosemary,0,0,0,,when you yell!
+Dialogue: 0,0:05:53.72,0:05:55.47,Default,Azami,0,0,0,,Such a birdbrain.
+Dialogue: 0,0:05:57.61,0:05:59.43,Default,Rosemary,0,0,0,,Don’t worry about it!
+Dialogue: 0,0:06:12.06,0:06:14.06,Default,Ivy,0,0,0,,You see, these red flowers...
+Dialogue: 0,0:06:17.41,0:06:19.56,Default,Hana,0,0,0,,Are you okay, Nuts?
+Dialogue: 0,0:06:20.01,0:06:23.34,Default,Hana,0,0,0,,Anzu doesn’t hate you!
+Dialogue: 0,0:06:23.34,0:06:26.90,Default,Sakura,0,0,0,,You just startled her a bit by yelling!
+Dialogue: 0,0:06:27.48,0:06:29.69,Default,Nuts,0,0,0,,Hana, Sakura...
+Dialogue: 0,0:06:28.52,0:06:30.31,Default,Azami,0,0,0,,{\an8}Eek!
+Dialogue: 0,0:06:31.46,0:06:32.66,Default,Azami,0,0,0,,A weird bug got on me!
+Dialogue: 0,0:06:32.66,0:06:35.20,Default,Azami,0,0,0,,Get it off, get it off!
+Dialogue: 0,0:06:36.01,0:06:37.70,Default,Nuts,0,0,0,,Azami, stay still!
+Dialogue: 0,0:06:37.70,0:06:40.02,Default,Azami,0,0,0,,I can’t! I can’t!
+Dialogue: 0,0:06:43.07,0:06:45.99,Default,Azami,0,0,0,,What is that thing?!\NThrow it away!
+Dialogue: 0,0:06:45.99,0:06:48.35,Default,Nuts,0,0,0,,I couldn’t do that...
+Dialogue: 0,0:06:48.35,0:06:49.18,Default,Nuts,0,0,0,,Here you go.
+Dialogue: 0,0:06:52.75,0:06:54.78,Default,Anzu,0,0,0,,Good for you, little caterpillar!
+Dialogue: 0,0:06:54.78,0:06:55.40,Default,Nuts,0,0,0,,Huh?
+Dialogue: 0,0:06:59.40,0:07:02.26,Default,Nuts,0,0,0,,A-Anzu...
+Dialogue: 0,0:07:02.26,0:07:05.24,Default,Nuts,0,0,0,,S-So cute...
+Dialogue: 0,0:07:06.33,0:07:07.56,Default,Anzu,0,0,0,,Nuts?!
+Dialogue: 0,0:07:07.56,0:07:10.10,Default,Nuts,0,0,0,,O-Oh, Anzu...
+Dialogue: 0,0:07:11.57,0:07:14.12,Default,Hana,0,0,0,,Looks so good!
+Dialogue: 0,0:07:14.12,0:07:18.00,Default,Sakura,0,0,0,,Jeff from Clara’s lodge is a master cook!
+Dialogue: 0,0:07:18.00,0:07:21.02,Default,Sakura,0,0,0,,Help yourself to some of\Nthe sushi rolls my mom made!
+Dialogue: 0,0:07:21.02,0:07:22.56,Default,Hana,0,0,0,,Thank you!
+Dialogue: 0,0:07:25.88,0:07:27.66,Default,Hana,0,0,0,,So good!
+Dialogue: 0,0:07:28.05,0:07:30.64,Default,Anzu,0,0,0,,I baked some sweets for dessert!
+Dialogue: 0,0:07:30.64,0:07:33.02,Default,Nuts,0,0,0,,Did you make them by yourself?
+Dialogue: 0,0:07:33.02,0:07:34.32,Default,Azami,0,0,0,,Hmph, I’ll take one.
+Dialogue: 0,0:07:34.82,0:07:36.67,Default,Anzu,0,0,0,,You too, Nuts!
+Dialogue: 0,0:07:36.99,0:07:37.98,Default,Nuts,0,0,0,,Huh?
+Dialogue: 0,0:07:38.83,0:07:39.84,Default,Rose,0,0,0,,Nuts here...
+Dialogue: 0,0:07:39.84,0:07:41.03,Default,Mary,0,0,0,,doesn’t like...
+Dialogue: 0,0:07:41.03,0:07:42.31,Default,Rosemary,0,0,0,,sweet things!
+Dialogue: 0,0:07:48.40,0:07:51.22,Default,Anzu,0,0,0,,How is it? Is it too sweet?
+Dialogue: 0,0:07:53.61,0:07:55.23,Default,Nuts,0,0,0,,It’s delicious!
+Dialogue: 0,0:07:55.23,0:07:57.23,Default,Anzu,0,0,0,,I’m glad!
+Dialogue: 0,0:07:58.98,0:08:02.60,Default,Ivy,0,0,0,,Looks like my picnic plan\Nwas a resounding success.
+Dialogue: 0,0:08:02.91,0:08:05.12,Default,Azami,0,0,0,,Oh, whatever.
+Dialogue: 0,0:08:07.75,0:08:09.26,Default,Hana,0,0,0,,Ooh, butterflies!
+Dialogue: 0,0:08:09.26,0:08:11.01,Default,Hana,0,0,0,,Let’s dance together!
+Dialogue: 0,0:08:24.07,0:08:28.49,Default,Hana,0,0,0,Title,“Azami’s Secret”
+Dialogue: 0,0:08:45.16,0:08:45.99,Default,Rose,0,0,0,,Hana!
+Dialogue: 0,0:08:45.99,0:08:46.61,Default,Mary,0,0,0,,Let’s go!
+Dialogue: 0,0:08:46.61,0:08:47.73,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:08:51.70,0:08:52.67,Default,Rosemary,0,0,0,,Nuts!
+Dialogue: 0,0:08:52.67,0:08:53.58,Default,Nuts,0,0,0,,Yo!
+Dialogue: 0,0:08:53.58,0:08:55.95,Default,Azami,0,0,0,,Coming through!
+Dialogue: 0,0:08:59.29,0:09:00.51,Default,Nuts,0,0,0,,What’s her deal?
+Dialogue: 0,0:09:00.51,0:09:01.80,Default,Rosemary,0,0,0,,So rude!
+Dialogue: 0,0:09:01.80,0:09:04.80,Default,Hana,0,0,0,,{\i1}She never changes...
+Dialogue: 0,0:09:19.69,0:09:24.77,Default,Sakura,0,0,0,,Why does someone as mean as her\Nget to be so good at ballet?
+Dialogue: 0,0:09:24.77,0:09:27.63,Default,Ivy,0,0,0,,Her dancing so much this early\Ncan only mean one thing...
+Dialogue: 0,0:09:27.63,0:09:30.87,Default,Ivy,0,0,0,,She must be doing her stretches\Nsomewhere else!
+Dialogue: 0,0:09:30.87,0:09:32.06,Default,Hana,0,0,0,,Ivy...
+Dialogue: 0,0:09:36.88,0:09:41.60,Default,Azami,0,0,0,,I can’t dance comfortably\Nif you stare at me like that!
+Dialogue: 0,0:09:42.92,0:09:44.60,Default,Sakura,0,0,0,,You were dancing just fine!
+Dialogue: 0,0:09:54.06,0:09:55.63,Default,Azami,0,0,0,,How adorable!
+Dialogue: 0,0:09:55.63,0:09:58.30,Default,Azami,0,0,0,,Forget ballet, you should be doing\Nan elementary play!
+Dialogue: 0,0:09:58.95,0:10:00.17,Default,Rose,0,0,0,,Excuse me?!
+Dialogue: 0,0:10:00.17,0:10:01.60,Default,Mary,0,0,0,,Say that again, I dare ya!
+Dialogue: 0,0:10:02.57,0:10:03.94,Default,Anzu,0,0,0,,Don’t let her get to you.
+Dialogue: 0,0:10:03.94,0:10:06.54,Default,Anzu,0,0,0,,You two make the perfect combination!
+Dialogue: 0,0:10:06.54,0:10:09.54,Default,Nuts,0,0,0,,Yeah! She’s a big meanie.
+Dialogue: 0,0:10:09.54,0:10:10.38,Default,Rose,0,0,0,,You said it!
+Dialogue: 0,0:10:10.38,0:10:11.80,Default,Mary,0,0,0,,She’s a meanie!
+Dialogue: 0,0:10:15.03,0:10:17.83,Default,Sakura,0,0,0,,The earring you’re wearing\Ntoday is so cute!
+Dialogue: 0,0:10:18.15,0:10:20.82,Default,Hana,0,0,0,,You think so? I bought it when I was little.
+Dialogue: 0,0:10:20.82,0:10:22.34,Default,Hana,0,0,0,,Are you sure it’s not too childish?
+Dialogue: 0,0:10:22.34,0:10:24.34,Default,Sakura,0,0,0,,Of course not! It really suits you!
+Dialogue: 0,0:10:24.34,0:10:26.41,Default,Azami,0,0,0,,She’s not wrong!
+Dialogue: 0,0:10:26.41,0:10:29.45,Default,Azami,0,0,0,,It’s just as childish as your dancing!
+Dialogue: 0,0:10:29.45,0:10:32.45,Default,Sakura,0,0,0,,Why do you have to be such a bully?
+Dialogue: 0,0:10:32.45,0:10:34.13,Default,Azami,0,0,0,,Me, a bully?
+Dialogue: 0,0:10:35.34,0:10:36.45,Default,Azami,0,0,0,,I’m just being honest!
+Dialogue: 0,0:10:36.45,0:10:38.77,Default,Azami,0,0,0,,Coming through!
+Dialogue: 0,0:10:40.49,0:10:43.03,Default,Sakura,0,0,0,,What’s so funny to her?
+Dialogue: 0,0:10:43.03,0:10:44.01,Default,Rosemary,0,0,0,,That was awful!
+Dialogue: 0,0:10:44.01,0:10:45.01,Default,Hana,0,0,0,,Rose!
+Dialogue: 0,0:10:45.01,0:10:45.97,Default,Sakura,0,0,0,,Mary!
+Dialogue: 0,0:10:45.97,0:10:46.78,Default,Rose,0,0,0,,That’s it!
+Dialogue: 0,0:10:46.78,0:10:47.58,Default,Mary,0,0,0,,Today’s the day...
+Dialogue: 0,0:10:47.58,0:10:49.71,Default,Rosemary,0,0,0,,we give it to her straight!
+Dialogue: 0,0:10:49.71,0:10:51.67,Default,Ivy,0,0,0,,You’re gonna need a plan!
+Dialogue: 0,0:10:52.05,0:10:53.52,Default,Hana,0,0,0,,Ivy?!
+Dialogue: 0,0:10:53.52,0:10:54.67,Default,All,0,0,0,,Yeah!
+Dialogue: 0,0:11:02.83,0:11:04.45,Default,Ivy,0,0,0,,Nuts.
+Dialogue: 0,0:11:04.93,0:11:08.10,Default,Ivy,0,0,0,,We’re having a meeting.\NWe’d love for you to join.
+Dialogue: 0,0:11:10.70,0:11:12.17,Default,Anzu,0,0,0,,Welcome!
+Dialogue: 0,0:11:12.17,0:11:14.39,Default,Anzu,0,0,0,,Would you like to try\Nour chocolate banana cake?
+Dialogue: 0,0:11:14.39,0:11:15.71,Default,Hana,0,0,0,,I would!
+Dialogue: 0,0:11:15.71,0:11:16.68,Default,Sakura,0,0,0,,Me too!
+Dialogue: 0,0:11:16.68,0:11:17.91,Default,Rosemary,0,0,0,,Us too!
+Dialogue: 0,0:11:17.91,0:11:18.90,Default,Ivy,0,0,0,,I’ll have it too!
+Dialogue: 0,0:11:18.90,0:11:20.38,Default,Anzu,0,0,0,,How about you, Nuts?
+Dialogue: 0,0:11:21.01,0:11:21.73,Default,Nuts,0,0,0,,Sure...
+Dialogue: 0,0:11:22.16,0:11:24.37,Default,Anzu,0,0,0,,I’ll have your order in!
+Dialogue: 0,0:11:26.05,0:11:28.51,Default,Ivy,0,0,0,,You have to endure this meal, Nuts!
+Dialogue: 0,0:11:28.51,0:11:30.19,Default,Rose,0,0,0,,Good luck, Nuts!
+Dialogue: 0,0:11:30.19,0:11:31.01,Default,Mary,0,0,0,,Good luck!
+Dialogue: 0,0:11:33.36,0:11:35.73,Default,Anzu,0,0,0,,What’s the luck for, Nuts?
+Dialogue: 0,0:11:35.73,0:11:37.56,Default,Sakura,0,0,0,,Anzu, sit down with us!
+Dialogue: 0,0:11:37.56,0:11:38.07,Default,Anzu,0,0,0,,Huh?
+Dialogue: 0,0:11:38.07,0:11:39.77,Default,Hana,0,0,0,,Go on!
+Dialogue: 0,0:11:41.54,0:11:44.32,Default,Ivy,0,0,0,,Azami’s rudeness has always been a problem,
+Dialogue: 0,0:11:44.32,0:11:46.49,Default,Ivy,0,0,0,,but now it’s worse than ever before!
+Dialogue: 0,0:11:46.49,0:11:51.43,Default,Ivy,0,0,0,,So now, we have to make it clear to her\Nhow this makes us feel...
+Dialogue: 0,0:12:09.00,0:12:10.26,Default,Hana,0,0,0,,Wait, was she...
+Dialogue: 0,0:12:10.26,0:12:11.48,Default,Sakura,0,0,0,,...holding herself back?
+Dialogue: 0,0:12:11.90,0:12:16.59,Default,Anzu,0,0,0,,Come to think of it, Azami’s never ordered\Nany cake or sweet drinks before.
+Dialogue: 0,0:12:16.59,0:12:17.60,Default,Rosemary,0,0,0,,Huh?
+Dialogue: 0,0:12:17.60,0:12:19.97,Default,Nuts,0,0,0,,I went to kindergarten with Azami,
+Dialogue: 0,0:12:19.97,0:12:22.81,Default,Nuts,0,0,0,,and she gobbled down\Non her birthday cake.
+Dialogue: 0,0:12:22.81,0:12:25.28,Default,Nuts,0,0,0,,She has to have a sweet tooth, unlike m—
+Dialogue: 0,0:12:26.35,0:12:28.93,Default,Anzu,0,0,0,,You don’t like sweet food, Nuts?
+Dialogue: 0,0:12:28.93,0:12:30.35,Default,Hana,0,0,0,,Umm, Anzu—
+Dialogue: 0,0:12:30.35,0:12:31.67,Default,Rose,0,0,0,,Oh, no! Nuts here...
+Dialogue: 0,0:12:31.67,0:12:33.19,Default,Mary,0,0,0,,{\i1}loves{\i0} cake!
+Dialogue: 0,0:12:32.65,0:12:33.80,Default,Nuts,0,0,0,,{\an8}Mhm!
+Dialogue: 0,0:12:34.99,0:12:35.96,Default,Rose,0,0,0,,It’s more fun...
+Dialogue: 0,0:12:35.96,0:12:36.97,Default,Mary,0,0,0,,to keep this up!
+Dialogue: 0,0:12:37.61,0:12:38.78,Default,Ivy,0,0,0,,You know...
+Dialogue: 0,0:12:39.09,0:12:42.35,Default,Ivy,0,0,0,,My mom told me that holding back\Non things you like
+Dialogue: 0,0:12:42.35,0:12:44.18,Default,Ivy,0,0,0,,can make you stressed and frustrated.
+Dialogue: 0,0:12:44.18,0:12:46.25,Default,Hana,0,0,0,,Is that why she’s being so mean?
+Dialogue: 0,0:12:46.57,0:12:47.85,Default,Rosemary,0,0,0,,It has to be!
+Dialogue: 0,0:12:48.36,0:12:52.07,Default,Ivy,0,0,0,,Then I have just the idea\Nto stop her bullying!
+Dialogue: 0,0:12:52.77,0:12:54.49,Default,Anzu,0,0,0,,Here you go, Nuts!
+Dialogue: 0,0:12:54.49,0:12:55.89,Default,Nuts,0,0,0,,Thank you...
+Dialogue: 0,0:12:55.89,0:12:57.39,Default,Nuts,0,0,0,,Anzu...
+Dialogue: 0,0:12:57.39,0:12:59.15,Default,Ivy,0,0,0,,We’re all set!
+Dialogue: 0,0:12:59.15,0:13:00.23,Default,Rose,0,0,0,,The mission is on!
+Dialogue: 0,0:13:00.23,0:13:01.26,Default,Mary,0,0,0,,Where did Azami go?!
+Dialogue: 0,0:13:01.26,0:13:04.28,Default,Ivy,0,0,0,,Hana, do you know where she might be?
+Dialogue: 0,0:13:04.28,0:13:06.27,Default,Sakura,0,0,0,,Maybe she went back to her dorm?
+Dialogue: 0,0:13:06.92,0:13:07.67,Default,Rose,0,0,0,,We can smell her!
+Dialogue: 0,0:13:07.67,0:13:09.42,Default,Mary,0,0,0,,She’s this way!
+Dialogue: 0,0:13:10.56,0:13:12.83,Default,Ivy,0,0,0,,Rosemary’s noses are very strong!
+Dialogue: 0,0:13:12.83,0:13:14.29,Default,Ivy,0,0,0,,Let’s follow them!
+Dialogue: 0,0:13:15.10,0:13:16.71,Default,Nuts,0,0,0,,Aah, wait for me!
+Dialogue: 0,0:13:22.70,0:13:23.67,Default,Rose,0,0,0,,She’s here!
+Dialogue: 0,0:13:23.67,0:13:24.62,Default,Mary,0,0,0,,We just know it!
+Dialogue: 0,0:13:25.64,0:13:27.12,Default,Hana,0,0,0,,Aha, there she is!
+Dialogue: 0,0:13:37.07,0:13:38.99,Default,Hana,0,0,0,,She’s amazing!
+Dialogue: 0,0:13:38.99,0:13:41.57,Default,Sakura,0,0,0,,So she’s been practicing here\Nthis whole time!
+Dialogue: 0,0:13:42.96,0:13:44.32,Default,Azami,0,0,0,,I know!
+Dialogue: 0,0:13:47.71,0:13:51.73,Default,Azami,0,0,0,,Beyond the fields and mountains\Nis the bottom of a gorge!
+Dialogue: 0,0:13:55.74,0:13:56.92,Default,Azami,0,0,0,,Oh, this one’s good.
+Dialogue: 0,0:13:56.92,0:13:59.64,Default,Azami,0,0,0,,Try and try as you may,
+Dialogue: 0,0:13:59.64,0:14:02.93,Default,Azami,0,0,0,,no talent means no reward.
+Dialogue: 0,0:14:03.98,0:14:05.93,Default,Hana,0,0,0,,She said that to us before...
+Dialogue: 0,0:14:05.93,0:14:08.18,Default,Azami,0,0,0,,I got one!
+Dialogue: 0,0:14:09.33,0:14:13.79,Default,Azami,0,0,0,,Stars will fly high in the sky,\Ntrampling the talentless below them!
+Dialogue: 0,0:14:15.21,0:14:17.49,Default,Nuts,0,0,0,,This is kinda freaky.
+Dialogue: 0,0:14:17.49,0:14:19.21,Default,Sakura,0,0,0,,Is this what she does\Nin her free time?
+Dialogue: 0,0:14:19.55,0:14:22.71,Default,Azami,0,0,0,,I’m getting the urge to dance again!
+Dialogue: 0,0:14:23.11,0:14:24.70,Default,Ivy,0,0,0,,Don’t let her get to you!
+Dialogue: 0,0:14:24.70,0:14:26.23,Default,Ivy,0,0,0,,Put the plan into motion!
+Dialogue: 0,0:14:26.23,0:14:27.12,Default,Hana/Sakura,0,0,0,,Alright!
+Dialogue: 0,0:14:27.50,0:14:28.84,Default,Hana,0,0,0,,Azami!
+Dialogue: 0,0:14:29.85,0:14:31.10,Default,Azami,0,0,0,,Hana...!
+Dialogue: 0,0:14:31.10,0:14:32.57,Default,Hana,0,0,0,,Come eat with us!
+Dialogue: 0,0:14:33.81,0:14:34.87,Default,Rose,0,0,0,,Azami!
+Dialogue: 0,0:14:34.87,0:14:36.19,Default,Mary,0,0,0,,Come on over!
+Dialogue: 0,0:14:36.82,0:14:37.88,Default,Azami,0,0,0,,What’s the big idea?
+Dialogue: 0,0:14:37.88,0:14:40.10,Default,Hana,0,0,0,,Don’t worry about it!
+Dialogue: 0,0:14:40.45,0:14:41.80,Default,Nuts,0,0,0,,Go on!
+Dialogue: 0,0:14:41.80,0:14:43.75,Default,Nuts,0,0,0,,You like cake, don’t you?
+Dialogue: 0,0:14:46.82,0:14:48.20,Default,Azami,0,0,0,,Are you trying to get me to put on weight?
+Dialogue: 0,0:14:48.52,0:14:51.21,Default,Hana,0,0,0,,It’s fine, we’re all eating it too!
+Dialogue: 0,0:14:51.65,0:14:53.46,Default,Rose,0,0,0,,Second time today, anyways!
+Dialogue: 0,0:14:53.46,0:14:54.49,Default,Mary,0,0,0,,Yeah!
+Dialogue: 0,0:14:57.36,0:14:58.55,Default,Hana,0,0,0,,So good!
+Dialogue: 0,0:14:58.55,0:14:59.48,Default,Sakura,0,0,0,,You said it!
+Dialogue: 0,0:14:59.99,0:15:02.46,Default,Ivy,0,0,0,,We’re still growing, so it’s all A-OK!
+Dialogue: 0,0:15:02.46,0:15:04.57,Default,Ivy,0,0,0,,That’s what my mom told me.
+Dialogue: 0,0:15:12.21,0:15:13.50,Default,Azami,0,0,0,,Delicious!
+Dialogue: 0,0:15:13.50,0:15:15.22,Default,Rose,0,0,0,,You’re so cute, Azami!
+Dialogue: 0,0:15:15.22,0:15:16.73,Default,Mary,0,0,0,,You’re cute when you smile!
+Dialogue: 0,0:15:18.85,0:15:20.27,Default,Azami,0,0,0,,You’re just noticing?!
+Dialogue: 0,0:15:20.27,0:15:23.12,Default,Azami,0,0,0,,I’ve always been the cutest of all!
+Dialogue: 0,0:15:25.46,0:15:28.91,Default,Hana,0,0,0,,{\i1}Azami really does have a cute side!
+Dialogue: 0,0:15:35.30,0:15:39.92,Default,Hana,0,0,0,Title,“The Pre Mier Festival I Look Up To”
+Dialogue: 0,0:15:40.94,0:15:44.01,Default,Simone,0,0,0,,And so, the Pre Mier Festival
+Dialogue: 0,0:15:44.01,0:15:48.13,Default,Simone,0,0,0,,is a great opportunity to showcase\Nthis school to people outside the city.
+Dialogue: 0,0:15:48.13,0:15:52.01,Default,Simone,0,0,0,,I want you all to decide what you’d like\Nto present amongst yourselves!
+Dialogue: 0,0:15:52.01,0:15:52.77,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:15:53.09,0:15:54.70,Default,All,0,0,0,,Okay!
+Dialogue: 0,0:15:58.46,0:16:01.64,Default,Hana,0,0,0,,I’ve always looked up\Nto the Pre Mier Festival!
+Dialogue: 0,0:16:01.64,0:16:04.23,Default,Sakura,0,0,0,,Really? Me too!
+Dialogue: 0,0:16:04.23,0:16:07.53,Default,Anzu,0,0,0,,Did you hear? Class Rouge\Nis putting on {\i1}Coppélia!
+Dialogue: 0,0:16:07.53,0:16:08.80,Default,Hana,0,0,0,,{\i1}Coppélia?!
+Dialogue: 0,0:16:08.80,0:16:11.00,Default,Sakura,0,0,0,,And Flora’s the star!
+Dialogue: 0,0:16:11.00,0:16:12.66,Default,Hana,0,0,0,,Aah! I can’t wait!
+Dialogue: 0,0:16:13.07,0:16:16.69,Default,Ivy,0,0,0,,Last year, they did {\i1}The Nutcracker!
+Dialogue: 0,0:16:16.69,0:16:19.67,Default,Hana,0,0,0,,I came here with my Granny last year!
+Dialogue: 0,0:16:19.67,0:16:22.40,Default,Sakura,0,0,0,,I’d love to meet your grandmother!
+Dialogue: 0,0:16:22.40,0:16:24.62,Default,Sakura,0,0,0,,You should ask her to come!
+Dialogue: 0,0:16:24.62,0:16:26.17,Default,Hana,0,0,0,,I will!
+Dialogue: 0,0:16:26.49,0:16:27.05,Default,Rose,0,0,0,,Hey!
+Dialogue: 0,0:16:27.05,0:16:27.69,Default,Mary,0,0,0,,Hey!
+Dialogue: 0,0:16:27.69,0:16:29.67,Default,Rosemary,0,0,0,,What are we gonna put on?
+Dialogue: 0,0:16:30.05,0:16:32.43,Default,Nuts,0,0,0,,A haunted house is the way to go!
+Dialogue: 0,0:16:32.43,0:16:33.56,Default,Rose,0,0,0,,Good idea!
+Dialogue: 0,0:16:33.56,0:16:34.66,Default,Mary,0,0,0,,Good idea!
+Dialogue: 0,0:16:34.66,0:16:36.06,Default,Sakura,0,0,0,,Aww, no way!
+Dialogue: 0,0:16:36.06,0:16:39.13,Default,Sakura,0,0,0,,I want to wear a cute apron\Nand be a waitress!
+Dialogue: 0,0:16:39.13,0:16:40.13,Default,Rose,0,0,0,,Good idea!
+Dialogue: 0,0:16:40.13,0:16:41.23,Default,Mary,0,0,0,,Good idea!
+Dialogue: 0,0:16:41.23,0:16:43.19,Default,Nuts,0,0,0,,Pick a side, Rosemary.
+Dialogue: 0,0:16:43.61,0:16:46.63,Default,Anzu,0,0,0,,Well, I’m always working as a waitress...
+Dialogue: 0,0:16:46.63,0:16:49.09,Default,Anzu,0,0,0,,But there’s no way\NI’m doing a haunted house.
+Dialogue: 0,0:16:49.62,0:16:50.96,Default,Sakura,0,0,0,,Well, well!
+Dialogue: 0,0:16:53.25,0:16:55.97,Default,Ivy,0,0,0,,Selling food does seem like a good idea!
+Dialogue: 0,0:16:56.72,0:16:58.05,Default,Hana,0,0,0,,How about crêpes?
+Dialogue: 0,0:16:58.05,0:16:59.47,Default,Sakura,0,0,0,,I like it!
+Dialogue: 0,0:16:59.47,0:17:01.41,Default,Nuts,0,0,0,,Aren’t those hard to make?
+Dialogue: 0,0:17:01.41,0:17:03.69,Default,Ivy,0,0,0,,We’ll need someone skilled.
+Dialogue: 0,0:17:03.69,0:17:05.48,Default,Ivy,0,0,0,,Someone who can bake thin dough.
+Dialogue: 0,0:17:05.48,0:17:07.19,Default,Hana,0,0,0,,Anzu’s perfect for—
+Dialogue: 0,0:17:07.98,0:17:11.98,Default,Azami,0,0,0,,Skilled, you say?\NObviously, you mean me, right?
+Dialogue: 0,0:17:12.29,0:17:14.17,Default,Ivy,0,0,0,,You can cook, Azami?
+Dialogue: 0,0:17:14.17,0:17:15.49,Default,Ivy,0,0,0,,That’s perfect!
+Dialogue: 0,0:17:16.40,0:17:17.49,Default,Azami,0,0,0,,Leave it to me!
+Dialogue: 0,0:17:17.80,0:17:20.49,Default,Rosemary,0,0,0,,Yay! We get to make crêpes!
+Dialogue: 0,0:17:20.49,0:17:22.22,Default,Hana,0,0,0,,Alright, then!
+Dialogue: 0,0:17:22.22,0:17:25.40,Default,Sakura,0,0,0,,Nuts, Ivy! You two make a sign\Nand attract customers!
+Dialogue: 0,0:17:25.40,0:17:27.34,Default,Nuts/Ivy,0,0,0,,– You’ve got it!\N{\3c&H167811&}– Leave it to us!
+Dialogue: 0,0:17:27.34,0:17:30.63,Default,Sakura,0,0,0,,Azami and Anzu will handle the crêpes!
+Dialogue: 0,0:17:31.22,0:17:33.59,Default,Sakura,0,0,0,,Rosemary and I will be waitresses!
+Dialogue: 0,0:17:33.59,0:17:35.20,Default,Rosemary,0,0,0,,Hooray!
+Dialogue: 0,0:17:35.20,0:17:36.64,Default,Sakura,0,0,0,,What do you want to do, Hana?
+Dialogue: 0,0:17:36.94,0:17:38.17,Default,Hana,0,0,0,,Let’s see...
+Dialogue: 0,0:17:38.17,0:17:40.14,Default,Hana,0,0,0,,I want to make crêpes!
+Dialogue: 0,0:17:40.14,0:17:41.51,Default,Sakura,0,0,0,,That’s your job, then!
+Dialogue: 0,0:17:41.51,0:17:44.15,Default,Ivy,0,0,0,,You’re a very good director, Sakura!
+Dialogue: 0,0:17:45.77,0:17:47.65,Default,Azami,0,0,0,,Just selling stuff is lame.
+Dialogue: 0,0:17:48.16,0:17:49.15,Default,Hana,0,0,0,,Azami?
+Dialogue: 0,0:17:49.61,0:17:52.57,Default,Azami,0,0,0,,We’ll set up a stage by the tables
+Dialogue: 0,0:17:52.57,0:17:55.57,Default,Azami,0,0,0,,so people can watch me dance!
+Dialogue: 0,0:17:55.57,0:17:56.98,Default,Nuts,0,0,0,,Just you?
+Dialogue: 0,0:17:56.98,0:17:58.26,Default,Nuts,0,0,0,,How about we {\i1}all{\i0} dance!
+Dialogue: 0,0:17:58.26,0:17:59.11,Default,Rose,0,0,0,,I’m in!
+Dialogue: 0,0:17:59.11,0:18:00.25,Default,Mary,0,0,0,,I’m in!
+Dialogue: 0,0:18:01.58,0:18:03.17,Default,Ivy,0,0,0,,Sounds like a plan!
+Dialogue: 0,0:18:03.72,0:18:05.67,Default,Anzu,0,0,0,,It sounds a bit embarrassing...
+Dialogue: 0,0:18:05.98,0:18:09.17,Default,Nuts,0,0,0,,Don’t worry, A-A-Anzu!
+Dialogue: 0,0:18:09.17,0:18:11.91,Default,Hana,0,0,0,,I love your dancing, Anzu!
+Dialogue: 0,0:18:11.91,0:18:13.08,Default,Sakura,0,0,0,,It’s beautiful!
+Dialogue: 0,0:18:13.08,0:18:14.34,Default,Anzu,0,0,0,,Thank you!
+Dialogue: 0,0:18:14.34,0:18:16.16,Default,Azami,0,0,0,,Nuts, Ivy!
+Dialogue: 0,0:18:16.16,0:18:19.35,Default,Azami,0,0,0,,You two set a stage\Nfor me to dance upon!
+Dialogue: 0,0:18:19.35,0:18:21.85,Default,Nuts/Ivy,0,0,0,,I’m gonna lose it...
+Dialogue: 0,0:18:55.99,0:18:58.74,Default,Nuts,0,0,0,,Anyone want some delicious crêpes?
+Dialogue: 0,0:18:59.47,0:19:00.79,Default,Sakura/Rosemary,0,0,0,,Come on over!
+Dialogue: 0,0:19:06.65,0:19:07.81,Default,Hana,0,0,0,,Order up!
+Dialogue: 0,0:19:08.48,0:19:09.83,Default,Ivy,0,0,0,,Thank you for waiting!
+Dialogue: 0,0:19:11.32,0:19:12.72,Default,Azami,0,0,0,,I ripped it!
+Dialogue: 0,0:19:14.05,0:19:15.57,Default,Azami,0,0,0,,This one’s all charred!
+Dialogue: 0,0:19:15.92,0:19:18.07,Default,Azami,0,0,0,,Grr! This griddle must be broken!
+Dialogue: 0,0:19:18.07,0:19:19.44,Default,Ivy,0,0,0,,Oh, Azami...
+Dialogue: 0,0:19:19.44,0:19:22.58,Default,Nuts,0,0,0,,So much for those skills of yours, huh?
+Dialogue: 0,0:19:22.58,0:19:25.08,Default,Azami,0,0,0,,Grrr! Put a sock in it, Nuts!
+Dialogue: 0,0:19:25.63,0:19:27.02,Default,Granny,0,0,0,,Hello!
+Dialogue: 0,0:19:27.60,0:19:28.93,Default,Hana,0,0,0,,Granny!
+Dialogue: 0,0:19:30.54,0:19:31.52,Default,Hana,0,0,0,,Granny!
+Dialogue: 0,0:19:31.52,0:19:33.36,Default,Granny,0,0,0,,Are you doing well?
+Dialogue: 0,0:19:32.57,0:19:33.37,Default,Hana,0,0,0,,{\an8}Yeah!
+Dialogue: 0,0:19:34.01,0:19:35.26,Default,Sakura,0,0,0,,Hana!
+Dialogue: 0,0:19:37.51,0:19:40.08,Default,Hana,0,0,0,,Granny, this is Sakura!\NShe’s my best friend!
+Dialogue: 0,0:19:40.08,0:19:41.60,Default,Sakura,0,0,0,,It’s good to meet you!
+Dialogue: 0,0:19:41.60,0:19:44.68,Default,Granny,0,0,0,,I’ve heard all about you\Nfrom Hana’s letters!
+Dialogue: 0,0:19:44.68,0:19:47.44,Default,Granny,0,0,0,,What a wonderful young lady you are.
+Dialogue: 0,0:19:47.44,0:19:49.69,Default,Hana,0,0,0,,Granny, this way!
+Dialogue: 0,0:19:51.26,0:19:52.36,Default,Hana,0,0,0,,Take a seat!
+Dialogue: 0,0:19:52.36,0:19:53.68,Default,Rosemary,0,0,0,,Welcome!
+Dialogue: 0,0:19:54.89,0:19:56.23,Default,Granny,0,0,0,,I take it you’re Rosemary?
+Dialogue: 0,0:19:56.23,0:19:57.18,Default,Rosemary,0,0,0,,Bingo!
+Dialogue: 0,0:19:57.50,0:19:59.33,Default,Sakura,0,0,0,,We’ll go make you a crêpe!
+Dialogue: 0,0:20:00.90,0:20:02.77,Default,Anzu,0,0,0,,Be gentle, Nuts!
+Dialogue: 0,0:20:02.77,0:20:03.74,Default,Nuts,0,0,0,,Okay...
+Dialogue: 0,0:20:04.84,0:20:06.33,Default,Anzu,0,0,0,,Good, just like that!
+Dialogue: 0,0:20:06.33,0:20:07.22,Default,Azami,0,0,0,,Grrr!
+Dialogue: 0,0:20:07.71,0:20:11.41,Default,Azami,0,0,0,,I told you, they’re {\i1}specialty{\i0} crêpes!\NSo you better come back and buy one!
+Dialogue: 0,0:20:12.05,0:20:15.72,Default,Azami,0,0,0,,Gosh, this work is so tiring.\NWhen do we start dancing?
+Dialogue: 0,0:20:15.72,0:20:16.97,Default,Hana,0,0,0,,Azami...
+Dialogue: 0,0:20:36.00,0:20:36.89,Default,Hana,0,0,0,,There!
+Dialogue: 0,0:20:39.42,0:20:42.51,Default,Hana,0,0,0,,Granny, this is our specialty crêpe!
+Dialogue: 0,0:20:42.51,0:20:44.48,Default,Granny,0,0,0,,It looks delicious!
+Dialogue: 0,0:20:47.71,0:20:49.30,Default,Granny,0,0,0,,It’s wonderful, Hana!
+Dialogue: 0,0:20:49.65,0:20:51.23,Default,Hana,0,0,0,,Yay!
+Dialogue: 0,0:20:51.62,0:20:54.69,Default,Nuts,0,0,0,,Hey, guys! Flora’s play is starting!
+Dialogue: 0,0:20:54.69,0:20:56.17,Default,Ivy,0,0,0,,Let’s go watch!
+Dialogue: 0,0:21:28.05,0:21:29.62,Default,Ivy,0,0,0,,That was beautiful!
+Dialogue: 0,0:21:29.62,0:21:32.64,Default,Sakura,0,0,0,,I wanna be able to dance just like that soon!
+Dialogue: 0,0:21:32.99,0:21:36.21,Default,Hana,0,0,0,,Flora’s Swanhilda was amazing...
+Dialogue: 0,0:21:37.20,0:21:38.33,Default,Hana,0,0,0,,Azami...?
+Dialogue: 0,0:21:38.33,0:21:40.15,Default,Azami,0,0,0,,It’s time to dance!
+Dialogue: 0,0:21:41.67,0:21:44.67,Default,Nuts,0,0,0,,Oh, yeah! We made our own stage!
+Dialogue: 0,0:21:44.67,0:21:45.22,Default,Rose,0,0,0,,Let’s go!
+Dialogue: 0,0:21:45.22,0:21:46.20,Default,Mary,0,0,0,,Let’s go!
+Dialogue: 0,0:21:46.20,0:21:47.14,Default,Hana,0,0,0,,Yeah!
+Dialogue: 0,0:22:19.17,0:22:22.19,Default,Granny,0,0,0,,{\i1}Hana, you’ve really improved!
+Dialogue: 0,0:22:22.19,0:22:27.93,Default,Hana,0,0,0,,{\i1}Granny, I want to be able to perform\NSwanhilda the way Flora did today!
+Dialogue: 0,0:22:27.93,0:22:29.58,Default,Granny,0,0,0,,{\i1}I’m sure you will!
+Dialogue: 0,0:22:29.58,0:22:31.93,Default,Granny,0,0,0,,{\i1}And I can’t wait until then!
+Dialogue: 0,0:22:46.60,0:22:51.35,Default,Hana,0,0,0,Title,“A Star Arrives”
+Dialogue: 0,0:22:57.51,0:22:59.98,Default,Hana,0,0,0,,Rosemary, what are you listening to?
+Dialogue: 0,0:23:01.61,0:23:03.00,Default,Hana/Sakura,0,0,0,,Rosemary!
+Dialogue: 0,0:23:03.38,0:23:04.15,Default,Rosemary,0,0,0,,Oh?
+Dialogue: 0,0:23:05.38,0:23:06.50,Default,Rosemary,0,0,0,,Y’say something?
+Dialogue: 0,0:23:06.89,0:23:09.67,Default,Hana,0,0,0,,Yeah! I wanted to know\Nwhat you were listening to.
+Dialogue: 0,0:23:15.33,0:23:16.93,Default,Sakura,0,0,0,,Is that Idaho?
+Dialogue: 0,0:23:16.93,0:23:18.56,Default,Hana,0,0,0,,Do you know this music, Sakura?
+Dialogue: 0,0:23:18.56,0:23:19.32,Default,Sakura,0,0,0,,Huh?
+Dialogue: 0,0:23:19.32,0:23:21.25,Default,Rosemary,0,0,0,,You {\i1}don’t?
+Dialogue: 0,0:23:22.07,0:23:23.14,Default,Rosemary,0,0,0,,Look!
+Dialogue: 0,0:23:24.07,0:23:25.54,Default,Sakura,0,0,0,,This just came out today, right?
+Dialogue: 0,0:23:25.54,0:23:26.92,Default,Sakura,0,0,0,,Lemme see!
+Dialogue: 0,0:23:28.66,0:23:30.16,Default,Sakura,0,0,0,,Corn!
+Dialogue: 0,0:23:30.16,0:23:31.23,Default,Rose,0,0,0,,Amazing!
+Dialogue: 0,0:23:31.23,0:23:32.16,Default,Mary,0,0,0,,Oh, Corn!
+Dialogue: 0,0:23:32.16,0:23:36.17,Default,Sakura,0,0,0,,Hana! This is Corn, the most popular\Nmember of Idaho!
+Dialogue: 0,0:23:38.03,0:23:40.54,Default,Anzu,0,0,0,,I’m a bigger fan of Chip.
+Dialogue: 0,0:23:40.92,0:23:42.69,Default,Hana,0,0,0,,Do you like them too, Anzu?
+Dialogue: 0,0:23:42.69,0:23:43.46,Default,Anzu,0,0,0,,Yeah!
+Dialogue: 0,0:23:44.77,0:23:47.61,Default,Azami,0,0,0,,You are such children.
+Dialogue: 0,0:23:47.99,0:23:48.96,Default,Sakura,0,0,0,,Azami!
+Dialogue: 0,0:23:48.96,0:23:50.11,Default,Rosemary,0,0,0,,Say that again!
+Dialogue: 0,0:23:50.48,0:23:53.93,Default,Azami,0,0,0,,What is there to like about\Nthose American boys?
+Dialogue: 0,0:23:53.93,0:23:55.89,Default,Azami,0,0,0,,You’re so immature.
+Dialogue: 0,0:23:58.17,0:24:00.12,Default,Sakura,0,0,0,,Wait, she knows who they are!
+Dialogue: 0,0:24:01.51,0:24:04.13,Default,Corn,0,0,0,,So this is Auntie Clara’s house!
+Dialogue: 0,0:24:04.13,0:24:07.63,Default,Corn,0,0,0,,Is this where she’s staying?
+Dialogue: 0,0:24:10.85,0:24:12.72,Default,Rosemary,0,0,0,,I smell a star!
+Dialogue: 0,0:24:12.72,0:24:13.90,Default,Hana,0,0,0,,Huh?
+Dialogue: 0,0:24:17.42,0:24:18.09,Default,Rose,0,0,0,,Corn!
+Dialogue: 0,0:24:18.09,0:24:18.93,Default,Mary,0,0,0,,Corn!
+Dialogue: 0,0:24:18.93,0:24:19.79,Default,Corn,0,0,0,,Huh?
+Dialogue: 0,0:24:20.29,0:24:21.09,Default,Rose,0,0,0,,I’m Rose!
+Dialogue: 0,0:24:21.09,0:24:21.89,Default,Mary,0,0,0,,I’m Mary!
+Dialogue: 0,0:24:21.89,0:24:23.37,Default,Rosemary,0,0,0,,Nice to meet’cha!
+Dialogue: 0,0:24:23.37,0:24:25.03,Default,Clara,0,0,0,,What’s all the fuss?
+Dialogue: 0,0:24:25.03,0:24:25.78,Default,Clara,0,0,0,,Oh!
+Dialogue: 0,0:24:25.78,0:24:28.43,Default,Clara,0,0,0,,Corn, you made it!
+Dialogue: 0,0:24:28.43,0:24:30.20,Default,Corn,0,0,0,,Hi, Auntie Clara!
+Dialogue: 0,0:24:30.20,0:24:32.67,Default,Corn,0,0,0,,It’s so good to see you!
+Dialogue: 0,0:24:32.67,0:24:33.84,Default,Clara,0,0,0,,Come on in!
+Dialogue: 0,0:24:33.84,0:24:36.29,Default,Clara,0,0,0,,Welcome to my lodge!
+Dialogue: 0,0:24:40.05,0:24:41.18,Default,Azami,0,0,0,,Is that...?
+Dialogue: 0,0:24:41.18,0:24:42.26,Default,Hana,0,0,0,,Corn?
+Dialogue: 0,0:24:45.18,0:24:46.44,Default,Jeff,0,0,0,,Welcome!
+Dialogue: 0,0:24:46.44,0:24:49.67,Default,Jeff,0,0,0,,Wow, you’re 100 times\Nmore stunning in person!
+Dialogue: 0,0:24:50.62,0:24:52.06,Default,Clara,0,0,0,,This is Jeff, our chef!
+Dialogue: 0,0:24:52.06,0:24:53.33,Default,Jeff,0,0,0,,Nice to meet you!
+Dialogue: 0,0:24:53.33,0:24:55.41,Default,Corn,0,0,0,,N-Nice to meet you...
+Dialogue: 0,0:24:56.16,0:24:58.06,Default,Hana,0,0,0,,I’m Hana! Nice to meet you!
+Dialogue: 0,0:24:59.27,0:25:00.55,Default,Azami,0,0,0,,I am Azami!
+Dialogue: 0,0:25:00.97,0:25:02.54,Default,Corn,0,0,0,,Hey! I’m Corn!
+Dialogue: 0,0:25:02.54,0:25:03.92,Default,Corn,0,0,0,,Nice to meet’cha!
+Dialogue: 0,0:25:05.04,0:25:06.92,Default,Clara,0,0,0,,As I’m sure you all know,
+Dialogue: 0,0:25:07.36,0:25:10.84,Default,Clara,0,0,0,,Corn is a singing and dancing\Npop star from the U.S.
+Dialogue: 0,0:25:10.84,0:25:12.93,Default,Clara,0,0,0,,He’s also my nephew.
+Dialogue: 0,0:25:12.93,0:25:19.17,Default,Clara,0,0,0,,He’s going to be starring in a movie\Nas a boy who wants to be a ballet dancer.
+Dialogue: 0,0:25:19.17,0:25:20.80,Default,Rosemary,0,0,0,,Amazing!
+Dialogue: 0,0:25:21.21,0:25:25.24,Default,Corn,0,0,0,,I love dancing, but I’ve never\Nactually done ballet.
+Dialogue: 0,0:25:25.24,0:25:31.25,Default,Clara,0,0,0,,So he’s going to be getting special training\Ndone here at Pre Mier for the next month.
+Dialogue: 0,0:25:31.67,0:25:33.18,Default,Hana,0,0,0,,Are you in our class?
+Dialogue: 0,0:25:33.18,0:25:35.47,Default,Corn,0,0,0,,Yes! You got that right, Hana!
+Dialogue: 0,0:25:35.47,0:25:36.55,Default,Corn,0,0,0,,Can’t wait to train with you!
+Dialogue: 0,0:25:38.59,0:25:41.49,Default,Azami,0,0,0,,{\i1}A movie? This could be the perfect chance!
+Dialogue: 0,0:25:44.51,0:25:45.65,Default,Director,0,0,0,,Cut!
+Dialogue: 0,0:25:45.65,0:25:47.31,Default,Director,0,0,0,,That was perfect, Azami!
+Dialogue: 0,0:25:47.31,0:25:48.50,Default,Director,0,0,0,,You’re a natural star!
+Dialogue: 0,0:25:50.32,0:25:51.82,Default,Azami,0,0,0,,{\i1}I’m amazing!
+Dialogue: 0,0:25:51.82,0:25:54.82,Default,Nuts,0,0,0,,Are you having another\Nweird daydream...?
+Dialogue: 0,0:25:56.36,0:25:57.34,Default,Hana,0,0,0,,{\i1}Dear Granny,
+Dialogue: 0,0:25:57.34,0:25:59.52,Default,Hana,0,0,0,,{\i1}I have big news!
+Dialogue: 0,0:25:59.52,0:26:04.91,Default,Hana,0,0,0,,{\i1}Corn from the popular American boy band\NIdaho is studying here at Pre Mier!
+Dialogue: 0,0:26:04.91,0:26:07.22,Default,Hana,0,0,0,,{\i1}He’s dorming with us at Clara’s!
+Dialogue: 0,0:26:08.00,0:26:12.67,Default,Hana,0,0,0,,{\i1}I actually didn’t know about\NCorn or Idaho at all until now.
+Dialogue: 0,0:26:13.94,0:26:17.51,Default,Hana,0,0,0,,{\i1}I’m not sure I’m a “fan” yet,\Nbut I like his singing,
+Dialogue: 0,0:26:17.51,0:26:20.31,Default,Hana,0,0,0,,{\i1}and he’s kinda cool... or whatever.
+Dialogue: 0,0:26:20.31,0:26:23.85,Default,Hana,0,0,0,,{\i1}I can’t wait for our classes together!
+Dialogue: 0,0:26:37.08,0:26:38.66,Default,Hana,0,0,0,,You’re very good, Corn!
+Dialogue: 0,0:26:40.43,0:26:42.40,Default,Simone,0,0,0,,That was wonderful, Corn!
+Dialogue: 0,0:27:00.00,0:27:01.98,Default,Nuts,0,0,0,,Oh, Anzu...
+Dialogue: 0,0:27:01.98,0:27:04.62,Default,Corn,0,0,0,,Sakura and Anzu are great!
+Dialogue: 0,0:27:04.62,0:27:08.11,Default,Corn,0,0,0,,Their dancing is wonderful!
+Dialogue: 0,0:27:12.85,0:27:14.95,Default,Corn,0,0,0,,Azami is so cool!
+Dialogue: 0,0:27:14.95,0:27:17.78,Default,Corn,0,0,0,,She’s amazing, isn’t she?
+Dialogue: 0,0:27:17.78,0:27:18.35,Default,Corn,0,0,0,,Oh!
+Dialogue: 0,0:27:24.33,0:27:27.01,Default,Corn,0,0,0,,Hana must really love ballet!
+Dialogue: 0,0:27:27.01,0:27:29.23,Default,Corn,0,0,0,,I’m getting the urge to get up and dance!
+Dialogue: 0,0:27:29.23,0:27:30.27,Default,Corn,0,0,0,,All right!
+Dialogue: 0,0:27:43.66,0:27:44.85,Default,Sakura,0,0,0,,Hana!
+Dialogue: 0,0:27:48.83,0:27:50.25,Default,Ivy,0,0,0,,You’re amazing, Hana!
+Dialogue: 0,0:27:50.81,0:27:52.61,Default,Hana,0,0,0,,{\i1}It’s fun to dance alone,
+Dialogue: 0,0:27:52.61,0:27:54.66,Default,Hana,0,0,0,,{\i1}but it’s even more fun with someone else!
+Dialogue: 0,0:28:00.60,0:28:02.60,Default,Sakura,0,0,0,,That was wonderful!
+Dialogue: 0,0:28:07.47,0:28:08.57,Default,Rose,0,0,0,,No fair!
+Dialogue: 0,0:28:08.57,0:28:10.09,Default,Mary,0,0,0,,Corn, please...
+Dialogue: 0,0:28:10.09,0:28:11.47,Default,Rosemary,0,0,0,,dance with us next!
+Dialogue: 0,0:28:11.96,0:28:14.49,Default,Corn,0,0,0,,Sure! Oh, well.
+Dialogue: 0,0:28:14.49,0:28:15.48,Default,Corn,0,0,0,,Okay!
+Dialogue: 0,0:28:15.48,0:28:17.00,Default,Rosemary,0,0,0,,Yay!
+Dialogue: 0,0:28:23.30,0:28:25.97,Default,Sakura,0,0,0,,I hope I can dance with him next!
+Dialogue: 0,0:28:25.97,0:28:26.49,Default,Hana,0,0,0,,Yeah!
+Dialogue: 0,0:28:26.49,0:28:28.74,Default,Nuts,0,0,0,,I wanna dance with Anzu...
+Dialogue: 0,0:28:28.74,0:28:30.01,Default,Ivy,0,0,0,,Don’t worry!
+Dialogue: 0,0:28:30.01,0:28:33.88,Default,Ivy,0,0,0,,Anzu said she likes Chip\Nmore than Corn, anyways.
+Dialogue: 0,0:28:33.88,0:28:34.73,Default,Nuts,0,0,0,,Huh?!
+Dialogue: 0,0:28:38.82,0:28:41.47,Default,Nuts,0,0,0,,Oh, Anzu...
+Dialogue: 0,0:28:46.81,0:28:49.03,Default,Clara,0,0,0,,How do you like Pre Mier?
+Dialogue: 0,0:28:49.03,0:28:52.82,Default,Corn,0,0,0,,It’s so much fun!\NI got to dance with a lot of girls!
+Dialogue: 0,0:28:52.82,0:28:54.97,Default,Hana,0,0,0,,You’re very good, Corn!
+Dialogue: 0,0:28:54.97,0:28:56.75,Default,Hana,0,0,0,,I wouldn’t have thought\Nit was your first time!
+Dialogue: 0,0:28:57.16,0:28:59.21,Default,Corn,0,0,0,,Thank you! I appreciate it!
+Dialogue: 0,0:28:59.21,0:29:03.91,Default,Corn,0,0,0,,I wish I could practice\Nand get even better,
+Dialogue: 0,0:29:03.91,0:29:06.40,Default,Corn,0,0,0,,but my movie’s filming dates\Ngot pushed up,
+Dialogue: 0,0:29:06.40,0:29:08.76,Default,Corn,0,0,0,,so I have to go back to the states.
+Dialogue: 0,0:29:08.76,0:29:10.27,Default,Hana,0,0,0,,Wait, already?
+Dialogue: 0,0:29:10.59,0:29:12.12,Default,Rosemary,0,0,0,,Nooo!
+Dialogue: 0,0:29:12.12,0:29:14.70,Default,Azami,0,0,0,,{\i1}My big break!!
+Dialogue: 0,0:29:15.24,0:29:17.03,Default,Hana,0,0,0,,I see...
+Dialogue: 0,0:29:17.03,0:29:19.69,Default,Corn,0,0,0,,Hana, promise me something!
+Dialogue: 0,0:29:19.69,0:29:20.71,Default,Hana,0,0,0,,Huh?
+Dialogue: 0,0:29:20.71,0:29:24.45,Default,Corn,0,0,0,,I’m going to work hard on my ballet,
+Dialogue: 0,0:29:24.45,0:29:28.12,Default,Corn,0,0,0,,so when you’ve gotten better,\Nlet’s dance again!
+Dialogue: 0,0:29:29.97,0:29:31.12,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:29:33.67,0:29:34.64,Default,Hana,0,0,0,,{\i1}Dear Granny,
+Dialogue: 0,0:29:34.64,0:29:38.08,Default,Hana,0,0,0,,{\i1}And so, I made a promise with Corn!
+Dialogue: 0,0:29:39.01,0:29:43.37,Default,Hana,0,0,0,,{\i1}It would be amazing if I can\Ndance with him on-stage someday...
+Dialogue: 0,0:30:02.22,0:30:06.56,ED-A,Hana,0,0,0,,{\blur3\fad(500,500)\c&HFFFFFF&\1a&HFF&\t(455,500,\1a&H00&)\t(3840,3885,\1a&HFF&)}“It’s a mighty power!”
+Dialogue: 1,0:30:02.22,0:30:06.56,ED-A,Hana,0,0,0,,{\bord0\blur0.6\fad(500,500)\4a&HFF&}“It’s a mighty power!”
+Dialogue: 0,0:30:10.46,0:30:14.46,ED-A,Sakura,0,0,0,,{\blur3\fad(500,500)\c&HFFFFFF&\1a&HFF&\t(455,500,\1a&H00&)\t(3500,3545,\1a&HFF&)}“So that we can keep at it tomorrow!”
+Dialogue: 1,0:30:10.46,0:30:14.46,ED-A,Sakura,0,0,0,,{\bord0\blur0.6\fad(500,500)\4a&HFF&}“So that we can keep at it tomorrow!”
+Dialogue: 0,0:30:14.66,0:30:19.00,ED-B,Hana,0,0,0,,{\blur3\fad(500,0)\c&HA270FF&\1a&HFF&\t(455,500,\1a&H00&)}When I look up above
+Dialogue: 1,0:30:14.66,0:30:19.00,ED-B,Hana,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}When I look up above
+Dialogue: 0,0:30:19.00,0:30:23.21,ED-B,Hana,0,0,0,,{\blur3\c&HA270FF&}There’s many stars twinkling
+Dialogue: 1,0:30:19.00,0:30:23.21,ED-B,Hana,0,0,0,,{\bord0\blur0.6\4a&HFF&}There’s many stars twinkling
+Dialogue: 0,0:30:23.21,0:30:27.54,ED-B,Sakura,0,0,0,,{\blur3\fscx92\c&HA270FF&}It feels like time has slowed down, hasn’t it?
+Dialogue: 1,0:30:23.21,0:30:27.54,ED-B,Sakura,0,0,0,,{\bord0\blur0.6\fscx92\4a&HFF&}It feels like time has slowed down, hasn’t it?
+Dialogue: 0,0:30:27.54,0:30:31.81,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}It’s so relaxing
+Dialogue: 1,0:30:27.54,0:30:31.81,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}It’s so relaxing
+Dialogue: 0,0:30:31.81,0:30:38.69,ED-B,Hana,0,0,0,,{\blur3\fscx93\fad(0,500)\c&HA270FF&\t(6380,6425,\1a&HFF&)}Although we can’t see each other right now
+Dialogue: 1,0:30:31.81,0:30:38.69,ED-B,Hana,0,0,0,,{\bord0\blur0.6\fscx93\fad(0,500)\4a&HFF&}Although we can’t see each other right now
+Dialogue: 0,0:30:40.32,0:30:48.16,ED-B,Hana/Sakura,0,0,0,,{\blur3\fad(500,0)\c&HA270FF&\1a&HFF&\t(455,500,\1a&H00&)}We always see eye to eye
+Dialogue: 1,0:30:40.32,0:30:48.16,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}We always see eye to eye
+Dialogue: 0,0:30:48.16,0:30:53.24,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}It’s a mighty power
+Dialogue: 1,0:30:48.16,0:30:53.24,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}It’s a mighty power
+Dialogue: 0,0:30:53.24,0:30:56.94,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}So let’s relax and take a break
+Dialogue: 1,0:30:53.24,0:30:56.94,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}So let’s relax and take a break
+Dialogue: 0,0:30:56.94,0:31:01.74,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}So that we can keep at it tomorrow
+Dialogue: 1,0:30:56.94,0:31:01.74,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}So that we can keep at it tomorrow
+Dialogue: 0,0:31:01.74,0:31:06.08,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}We’ll take a break for now
+Dialogue: 1,0:31:01.74,0:31:06.08,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}We’ll take a break for now
+Dialogue: 0,0:31:06.08,0:31:08.22,ED-B,Hana,0,0,0,,{\blur3\c&HA270FF&}Let us spread out our arms
+Dialogue: 1,0:31:06.08,0:31:08.22,ED-B,Hana,0,0,0,,{\bord0\blur0.6\4a&HFF&}Let us spread out our arms
+Dialogue: 0,0:31:08.22,0:31:10.39,ED-B,Sakura,0,0,0,,{\blur3\c&HA270FF&}Take a deep breath
+Dialogue: 1,0:31:08.22,0:31:10.39,ED-B,Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}Take a deep breath
+Dialogue: 0,0:31:10.39,0:31:14.19,ED-B,Hana/Sakura,0,0,0,,{\blur3\fad(0,500)\c&HA270FF&\t(3300,3345,\1a&HFF&)}And gaze up at the same sky
+Dialogue: 1,0:31:10.39,0:31:14.19,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}And gaze up at the same sky
+

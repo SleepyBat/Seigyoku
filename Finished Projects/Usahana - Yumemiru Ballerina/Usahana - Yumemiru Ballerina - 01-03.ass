@@ -1,0 +1,461 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 640
+PlayResY: 480
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,36,&H00FFFFFF,&H000000FF,&H0054179A,&H97000000,-1,0,0,0,100,100,0,0,1,2,2,2,35,35,25,1
+Style: OP,Medrano,35,&H00FFFFFF,&H000000FF,&H00FF4D4D,&H97000000,0,0,0,0,100,100,0,0,1,4,0,8,50,50,25,1
+Style: ED-A,Leticea Bumstead,35,&H007A3DF2,&H000000FF,&H00FFFFFF,&H97000000,0,0,0,0,100,100,0,0,1,4,0,2,40,40,10,1
+Style: ED-B,Medrano,35,&H00FFFFFF,&H000000FF,&H00A270FF,&H97000000,0,0,0,0,100,100,0,0,1,4,0,2,50,50,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.05,0:00:07.39,OP,Singer,0,0,0,,{\blur0.6\fad(500,0)\c&HFF4D4D&\1a&HFF&\t(455,500,\1a&H00&)}A blank page awaits through that door
+Dialogue: 1,0:00:01.05,0:00:07.39,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}A blank page awaits through that door
+Dialogue: 0,0:00:07.39,0:00:10.73,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Have you decided what path to take?
+Dialogue: 1,0:00:07.39,0:00:10.73,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Have you decided what path to take?
+Dialogue: 0,0:00:10.73,0:00:14.30,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Then now’s the time to take off
+Dialogue: 1,0:00:10.73,0:00:14.30,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Then now’s the time to take off
+Dialogue: 0,0:00:14.30,0:00:17.47,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(2670,2715,\1a&HFF&)}Now hoist the sails
+Dialogue: 1,0:00:14.30,0:00:17.47,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}Now hoist the sails
+Dialogue: 0,0:00:17.90,0:00:21.27,OP,Singer,0,0,0,,{\blur0.6\fad(500,0)\c&HFF4D4D&\1a&HFF&\t(455,500,\1a&H00&)}Will you go on an adventure?
+Dialogue: 1,0:00:17.90,0:00:21.27,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}Will you go on an adventure?
+Dialogue: 0,0:00:21.27,0:00:24.51,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Will you seize your dream?
+Dialogue: 1,0:00:21.27,0:00:24.51,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Will you seize your dream?
+Dialogue: 0,0:00:24.51,0:00:27.44,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Will you find happiness?
+Dialogue: 1,0:00:24.51,0:00:27.44,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Will you find happiness?
+Dialogue: 0,0:00:27.44,0:00:31.52,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\fscx92\c&HFF4D4D&\t(3580,3625,\1a&HFF&)}Who knows what kind of journey to expect
+Dialogue: 1,0:00:27.44,0:00:31.52,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\fscx92\4a&HFF&}Who knows what kind of journey to expect
+Dialogue: 0,0:00:32.55,0:00:39.09,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}Here, you’re free, we all are
+Dialogue: 1,0:00:32.55,0:00:39.09,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}Here, you’re free, we all are
+Dialogue: 0,0:00:39.09,0:00:44.73,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(5140,5185,\1a&HFF&)}You can go wherever pleases you
+Dialogue: 1,0:00:39.09,0:00:44.73,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}You can go wherever pleases you
+Dialogue: 0,0:00:45.76,0:00:51.84,OP,Singer,0,0,0,,{\blur0.6\c&HFF4D4D&}That rush of excitement
+Dialogue: 1,0:00:45.76,0:00:51.84,OP,Singer,0,0,0,,{\bord0\blur0.6\4a&HFF&}That rush of excitement
+Dialogue: 0,0:00:51.84,0:00:58.48,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(6140,6185,\1a&HFF&)}Will go on forever
+Dialogue: 1,0:00:51.84,0:00:58.48,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}Will go on forever
+Dialogue: 0,0:00:59.21,0:01:04.98,OP,Singer,0,0,0,,{\blur0.6\fscx95\c&HFF4D4D&}That’s right, you’re writing your own story
+Dialogue: 1,0:00:59.21,0:01:04.98,OP,Singer,0,0,0,,{\bord0\blur0.6\fscx95\4a&HFF&}That’s right, you’re writing your own story
+Dialogue: 0,0:01:04.98,0:01:09.42,OP,Singer,0,0,0,,{\blur0.6\fad(0,500)\c&HFF4D4D&\t(3940,3985,\1a&HFF&)}And it’s only just beginning
+Dialogue: 1,0:01:04.98,0:01:09.42,OP,Singer,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}And it’s only just beginning
+Dialogue: 0,0:01:30.59,0:01:32.53,Default,Mailman,0,0,0,,Good day, Hana!
+Dialogue: 0,0:01:32.53,0:01:33.68,Default,Hana,0,0,0,,Hi!
+Dialogue: 0,0:01:34.50,0:01:38.10,Default,Mailman,0,0,0,,Here, a letter for you\Nfrom Étoile Isle.
+Dialogue: 0,0:01:41.19,0:01:43.52,Default,Mailman,0,0,0,,Hoping you hear good news!
+Dialogue: 0,0:01:43.52,0:01:44.40,Default,Hana,0,0,0,,Thanks!
+Dialogue: 0,0:01:44.40,0:01:46.20,Default,Mailman,0,0,0,,Well, goodbye!
+Dialogue: 0,0:01:46.20,0:01:47.19,Default,Hana,0,0,0,,Goodbye!
+Dialogue: 0,0:01:47.60,0:01:48.91,Default,Hana,0,0,0,,And thank you!
+Dialogue: 0,0:01:49.71,0:01:52.71,Default,Hana,0,0,0,,I can’t! I’m too nervous\Nto look at it alone.
+Dialogue: 0,0:01:54.83,0:01:56.78,Default,Hana,0,0,0,,Granny!
+Dialogue: 0,0:01:57.90,0:02:01.29,Default,Hana,0,0,0,,Granny, I got a letter from Pre Mier!
+Dialogue: 0,0:02:04.19,0:02:06.91,Default,Granny,0,0,0,,My, my! Congratulations, Hana!
+Dialogue: 0,0:02:06.91,0:02:08.66,Default,Granny,0,0,0,,It says you made it!
+Dialogue: 0,0:02:08.66,0:02:12.05,Default,Granny,0,0,0,,Starting tomorrow, you’ll be attending\NPre Mier in Étoile Isle!
+Dialogue: 0,0:02:12.05,0:02:13.57,Default,Hana,0,0,0,,Yay!
+Dialogue: 0,0:02:15.50,0:02:16.97,Default,Hana,0,0,0,,{\i1}My name is Hana!{\i0}
+Dialogue: 0,0:02:17.44,0:02:20.99,Default,Hana,0,0,0,,{\i1}Pre Mier is a ballet school in Étoile Isle.{\i0}
+Dialogue: 0,0:02:21.49,0:02:24.04,Default,Hana,0,0,0,,{\i1}And starting today,\NI’m one of their students!{\i0}
+Dialogue: 0,0:02:24.51,0:02:28.45,Default,Hana,0,0,0,,{\i1}I’ll do my very best to become\Na beautiful ballerina!{\i0}
+Dialogue: 0,0:02:32.65,0:02:37.01,Default,Hana,0,0,0,Title,“Nice to Meet You, I’m Hana”
+Dialogue: 0,0:02:50.40,0:02:51.66,Default,Hana,0,0,0,,Let’s see here...
+Dialogue: 0,0:02:57.59,0:03:00.50,Default,Hana,0,0,0,,The trolley stop should be...
+Dialogue: 0,0:03:00.50,0:03:03.00,Default,Hana,0,0,0,,Is that it? So cute!
+Dialogue: 0,0:03:03.00,0:03:05.42,Default,Rosemary,0,0,0,,You lose again, Nuts!
+Dialogue: 0,0:03:05.42,0:03:06.90,Default,Nuts,0,0,0,,Take that back!
+Dialogue: 0,0:03:11.24,0:03:12.46,Default,Hana,0,0,0,,Oh no!
+Dialogue: 0,0:03:12.46,0:03:13.71,Default,Nuts,0,0,0,,Watch out!
+Dialogue: 0,0:03:16.33,0:03:18.42,Default,Hana,0,0,0,,Oh no! Come back!
+Dialogue: 0,0:03:18.42,0:03:20.25,Default,Nuts,0,0,0,,Hey, wait!
+Dialogue: 0,0:03:20.59,0:03:21.29,Default,Rose,0,0,0,,Sounds...
+Dialogue: 0,0:03:21.29,0:03:22.37,Default,Mary,0,0,0,,...juicy!
+Dialogue: 0,0:03:22.37,0:03:23.25,Default,Rosemary,0,0,0,,Let’s go after them!
+Dialogue: 0,0:03:23.25,0:03:25.76,Default,Hana,0,0,0,,Trolley, please stop! Wait!
+Dialogue: 0,0:03:26.21,0:03:27.58,Default,Nuts,0,0,0,,Was that thing important?
+Dialogue: 0,0:03:27.58,0:03:28.76,Default,Hana,0,0,0,,Yeah, a map!
+Dialogue: 0,0:03:28.76,0:03:30.24,Default,Rosemary,0,0,0,,A map?
+Dialogue: 0,0:03:30.24,0:03:32.26,Default,Rosemary,0,0,0,,A treasure map, isn’t it!
+Dialogue: 0,0:03:32.68,0:03:34.72,Default,Hana,0,0,0,,Huh? Umm, not quite...
+Dialogue: 0,0:03:34.72,0:03:36.32,Default,Ivy,0,0,0,,I smell trouble!
+Dialogue: 0,0:03:38.05,0:03:39.02,Default,Rosemary,0,0,0,,Ivy!
+Dialogue: 0,0:03:39.02,0:03:40.07,Default,Ivy,0,0,0,,What’s the matter?
+Dialogue: 0,0:03:40.07,0:03:40.70,Default,Nuts,0,0,0,,You see...
+Dialogue: 0,0:03:41.02,0:03:44.34,Default,Nuts,0,0,0,,This girl’s treasure map got into\Nthe window of that trolley.
+Dialogue: 0,0:03:44.83,0:03:46.26,Default,Ivy,0,0,0,,That’s no good!
+Dialogue: 0,0:03:46.26,0:03:47.83,Default,Ivy,0,0,0,,Just hold on one second.
+Dialogue: 0,0:03:48.80,0:03:52.27,Default,Ivy,0,0,0,,Alright. Nuts, use your skateboard to take\Na shortcut to the road ahead.
+Dialogue: 0,0:03:52.27,0:03:55.66,Default,Ivy,0,0,0,,With your speed, you should be able to\Ncatch up to the next stop!
+Dialogue: 0,0:03:55.66,0:03:57.49,Default,Ivy,0,0,0,,Got it! I’ll give it a go!
+Dialogue: 0,0:04:00.40,0:04:01.57,Default,Hana,0,0,0,,I, umm...
+Dialogue: 0,0:04:01.57,0:04:04.36,Default,Ivy,0,0,0,,Fear not, that treasure map of yours is as good as recovered!
+Dialogue: 0,0:04:04.76,0:04:05.91,Default,Rose,0,0,0,,That Ivy...
+Dialogue: 0,0:04:05.91,0:04:07.45,Default,Mary,0,0,0,,Does that nerd really think...
+Dialogue: 0,0:04:07.45,0:04:09.10,Default,Rosemary,0,0,0,,...he’s getting in on the treasure?
+Dialogue: 0,0:04:15.09,0:04:16.21,Default,Azami,0,0,0,,What’s this?
+Dialogue: 0,0:04:17.92,0:04:20.14,Default,Azami,0,0,0,,Please, I have no use for this!
+Dialogue: 0,0:04:30.57,0:04:32.27,Default,Anzu,0,0,0,,Huh, what’s this thing?
+Dialogue: 0,0:04:32.27,0:04:34.94,Default,Customer,0,0,0,,Anzu! Can I get more coffee?
+Dialogue: 0,0:04:34.94,0:04:36.06,Default,Anzu,0,0,0,,Coming right up!
+Dialogue: 0,0:04:41.18,0:04:44.72,Default,Ivy,0,0,0,,There’s no need to rush.\NNuts will get it back!
+Dialogue: 0,0:04:44.72,0:04:46.04,Default,Rosemary,0,0,0,,Hey!
+Dialogue: 0,0:04:46.39,0:04:49.54,Default,Rosemary,0,0,0,,If we find the treasure,\Nyou’ll share a bit with us, right?
+Dialogue: 0,0:04:49.85,0:04:53.54,Default,Hana,0,0,0,,{\i1}What do I do? I can’t tell them\Nthe truth about the map...{\i0}
+Dialogue: 0,0:04:54.70,0:04:56.50,Default,Anzu,0,0,0,,Ivy, Rosemary!
+Dialogue: 0,0:04:56.50,0:04:58.22,Default,Anzu,0,0,0,,What’s going on? You look all worn out.
+Dialogue: 0,0:04:58.60,0:05:01.80,Default,Ivy,0,0,0,,This girl lost her treasure map.
+Dialogue: 0,0:05:01.80,0:05:03.65,Default,Anzu,0,0,0,,A treasure map?
+Dialogue: 0,0:05:03.65,0:05:05.06,Default,Hana,0,0,0,,I... Umm...
+Dialogue: 0,0:05:05.49,0:05:08.37,Default,Anzu,0,0,0,,Oh, it’s no treasure map,\Nbut that reminds me...
+Dialogue: 0,0:05:08.37,0:05:09.49,Default,Anzu,0,0,0,,Huh? Where’d it go?
+Dialogue: 0,0:05:10.51,0:05:12.00,Default,Rosemary,0,0,0,,Wait, you had it?!
+Dialogue: 0,0:05:13.08,0:05:14.97,Default,Sakura,0,0,0,,I’ll be off!
+Dialogue: 0,0:05:16.02,0:05:18.37,Default,Sakura,0,0,0,,Oh? What’s this?
+Dialogue: 0,0:05:20.31,0:05:21.77,Default,Nuts,0,0,0,,Hey, guys!
+Dialogue: 0,0:05:22.17,0:05:23.69,Default,Anzu,0,0,0,,Hello, Nuts!
+Dialogue: 0,0:05:23.69,0:05:25.16,Default,Nuts,0,0,0,,Oh—hi, Anzu!
+Dialogue: 0,0:05:25.16,0:05:26.18,Default,Ivy,0,0,0,,How did it go?
+Dialogue: 0,0:05:26.61,0:05:28.31,Default,Anzu,0,0,0,,Are you all treasure-hunting?
+Dialogue: 0,0:05:28.31,0:05:30.48,Default,Nuts,0,0,0,,Oh, umm, it’s nothing...
+Dialogue: 0,0:05:31.86,0:05:34.05,Default,Rosemary,0,0,0,,You won’t fool us, boy.
+Dialogue: 0,0:05:34.37,0:05:38.22,Default,Nuts,0,0,0,,I caught up to the trolley,\Nbut it wasn’t there...
+Dialogue: 0,0:05:38.53,0:05:39.72,Default,Hana,0,0,0,,Aww, what?
+Dialogue: 0,0:05:39.72,0:05:42.63,Default,Sakura,0,0,0,,Could this be the map you’re looking for?
+Dialogue: 0,0:05:45.43,0:05:47.87,Default,Hana,0,0,0,,Aha! My map!
+Dialogue: 0,0:05:51.10,0:05:54.86,Default,Rosemary,0,0,0,,There it is! We saw it!\NThe sparks of friendship!
+Dialogue: 0,0:05:54.86,0:05:56.97,Default,Rosemary,0,0,0,,That means they’re going\Nto become best friends!
+Dialogue: 0,0:05:56.97,0:06:01.40,Default,Nuts,0,0,0,,Aw. So the map was just for Clara’s house\Nat the Pre Mier dorms?
+Dialogue: 0,0:06:01.40,0:06:04.48,Default,Ivy,0,0,0,,And who was it that claimed\Nit was for treasure?
+Dialogue: 0,0:06:04.83,0:06:05.57,Default,Rose,0,0,0,,Who did it?
+Dialogue: 0,0:06:05.57,0:06:06.53,Default,Mary,0,0,0,,Who did it?
+Dialogue: 0,0:06:06.97,0:06:08.99,Default,Rosemary,0,0,0,,It was you, wasn’t it?!
+Dialogue: 0,0:06:09.52,0:06:12.76,Default,Nuts,0,0,0,,What a coincidence, Rosemary\Nand I are lodging there too!
+Dialogue: 0,0:06:12.76,0:06:15.41,Default,Hana,0,0,0,,Wait, really? We’re staying together?
+Dialogue: 0,0:06:15.41,0:06:16.54,Default,Hana,0,0,0,,That’s good news!
+Dialogue: 0,0:06:17.06,0:06:20.73,Default,Ivy,0,0,0,,My name’s Ivy! If there’s ever trouble,\Njust give me a shout!
+Dialogue: 0,0:06:20.73,0:06:21.81,Default,Ivy,0,0,0,,Nice to meet you!
+Dialogue: 0,0:06:21.81,0:06:23.25,Default,Nuts,0,0,0,,I’m Nuts!
+Dialogue: 0,0:06:23.25,0:06:24.40,Default,Rosemary,0,0,0,,We’re Rosemary!
+Dialogue: 0,0:06:24.92,0:06:26.62,Default,Anzu,0,0,0,,My name’s Anzu!
+Dialogue: 0,0:06:26.62,0:06:29.71,Default,Anzu,0,0,0,,I’m not staying in the dorms,\Nbut I go to Pre Mier too!
+Dialogue: 0,0:06:29.71,0:06:31.74,Default,Sakura,0,0,0,,I’m Sakura! Nice to meet you!
+Dialogue: 0,0:06:32.16,0:06:34.75,Default,Hana,0,0,0,,I’m Hana! Nice to meet you!
+Dialogue: 0,0:06:35.70,0:06:36.90,Default,Hana,0,0,0,,So beautiful!
+Dialogue: 0,0:06:36.90,0:06:39.48,Default,Rosemary,0,0,0,,Right, right? It’s even more\Nbeautiful on the inside!
+Dialogue: 0,0:06:39.81,0:06:41.99,Default,Hana,0,0,0,,Oh, wow!
+Dialogue: 0,0:06:42.51,0:06:44.89,Default,Rosemary,0,0,0,,Beautiful, right? Right?
+Dialogue: 0,0:06:45.54,0:06:48.49,Default,Clara,0,0,0,,Welcome, Hana!\NI’ve been expecting you!
+Dialogue: 0,0:06:48.91,0:06:51.26,Default,Rose,0,0,0,,This is Ms. Clara!\NShe’s the housemother!
+Dialogue: 0,0:06:51.26,0:06:53.20,Default,Hana,0,0,0,,I look forward to staying with you.
+Dialogue: 0,0:06:53.20,0:06:55.94,Default,Clara,0,0,0,,Feel free to set your bags down.
+Dialogue: 0,0:06:55.94,0:06:59.07,Default,Clara,0,0,0,,We’ll assess your class placement in the afternoon.
+Dialogue: 0,0:06:59.57,0:07:02.50,Default,Clara,0,0,0,,Your room is right next to Rosemary’s.
+Dialogue: 0,0:07:02.50,0:07:03.85,Default,Nuts,0,0,0,,See you in class!
+Dialogue: 0,0:07:03.85,0:07:06.08,Default,Rosemary,0,0,0,,Our rooms are this way!
+Dialogue: 0,0:07:06.08,0:07:07.89,Default,Rosemary,0,0,0,,Hurry up!
+Dialogue: 0,0:07:09.75,0:07:11.65,Default,Azami,0,0,0,,Who would that be?
+Dialogue: 0,0:07:12.10,0:07:15.22,Default,Rosemary,0,0,0,,Hey, Azami!\NThis is Hana, she’s new here!
+Dialogue: 0,0:07:15.22,0:07:16.65,Default,Hana,0,0,0,,I’m Hana! Nice to meet you!
+Dialogue: 0,0:07:18.61,0:07:21.53,Default,Azami,0,0,0,,Don’t be naïve. You’ll never stand\Na chance against me.
+Dialogue: 0,0:07:21.83,0:07:22.78,Default,Azami,0,0,0,,Move aside.
+Dialogue: 0,0:07:23.71,0:07:24.96,Default,Rose,0,0,0,,Don’t let her get to you.
+Dialogue: 0,0:07:24.96,0:07:27.07,Default,Mary,0,0,0,,She’s like this with everyone!
+Dialogue: 0,0:07:27.07,0:07:28.77,Default,Rosemary,0,0,0,,Come on!
+Dialogue: 0,0:07:29.32,0:07:30.68,Default,Rose,0,0,0,,This is our room!
+Dialogue: 0,0:07:30.68,0:07:31.95,Default,Mary,0,0,0,,That one’s yours!
+Dialogue: 0,0:07:31.95,0:07:32.87,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:07:32.87,0:07:34.22,Default,Rosemary,0,0,0,,See you later!
+Dialogue: 0,0:07:34.77,0:07:36.92,Default,Hana,0,0,0,,Whoa!
+Dialogue: 0,0:07:39.96,0:07:43.41,Default,Hana,0,0,0,,{\i1}Dear Granny, I’ve made it\Nto Étoile Isle safe and sound!{\i0}
+Dialogue: 0,0:07:44.03,0:07:46.44,Default,Hana,0,0,0,,{\i1}And I’ve already\Nmade some new friends.{\i0}
+Dialogue: 0,0:07:46.44,0:07:50.20,Default,Hana,0,0,0,,{\i1}They’re all so nice.\NI think I’ll settle in just fine!{\i0}
+Dialogue: 0,0:07:50.20,0:07:52.16,Default,Rosemary,0,0,0,,Hana, are you ready?
+Dialogue: 0,0:07:58.03,0:07:59.93,Default,Multiple,0,0,0,,Hana!
+Dialogue: 0,0:08:07.05,0:08:08.97,Default,Hana,0,0,0,,{\i1}I’ve made it to Pre Mier!{\i0}
+Dialogue: 0,0:08:08.97,0:08:11.73,Default,Hana,0,0,0,,{\i1}I’ll do my very best to become...{\i0}
+Dialogue: 0,0:08:13.31,0:08:15.66,Default,Hana,0,0,0,,{\i1}...a beautiful ballerina!{\i0}
+Dialogue: 0,0:08:24.12,0:08:28.49,Default,Hana,0,0,0,Title,“My New Best Friend”
+Dialogue: 0,0:08:34.00,0:08:35.18,Default,Hana,0,0,0,,Come in!
+Dialogue: 0,0:08:35.62,0:08:36.34,Default,Rose,0,0,0,,Hana!
+Dialogue: 0,0:08:36.34,0:08:36.90,Default,Mary,0,0,0,,Let’s go!
+Dialogue: 0,0:08:36.90,0:08:37.95,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:08:46.23,0:08:47.24,Default,Hana,0,0,0,,Coming!
+Dialogue: 0,0:08:47.24,0:08:48.91,Default,Rose,0,0,0,,Your earring...
+Dialogue: 0,0:08:48.91,0:08:50.25,Default,Mary,0,0,0,,is so cute, Hana!
+Dialogue: 0,0:08:50.98,0:08:53.13,Default,Rosemary,0,0,0,,Who knew you were so fashionable!
+Dialogue: 0,0:08:52.47,0:08:54.47,Default,Nuts,0,0,0,,{\an8}Eat my dust!
+Dialogue: 0,0:08:54.47,0:08:56.25,Default,Rosemary,0,0,0,,Nuts... Get back here!
+Dialogue: 0,0:08:56.69,0:08:58.54,Default,Hana,0,0,0,,Oh, Rosemary...
+Dialogue: 0,0:08:58.54,0:08:59.34,Default,Ivy,0,0,0,,Hana!
+Dialogue: 0,0:08:59.34,0:09:00.48,Default,Hana,0,0,0,,Oh, Ivy!
+Dialogue: 0,0:09:00.48,0:09:02.26,Default,Ivy,0,0,0,,That earring is quite beautiful.
+Dialogue: 0,0:09:02.26,0:09:04.18,Default,Hana,0,0,0,,G-Good morning.
+Dialogue: 0,0:09:05.48,0:09:08.00,Default,Ivy,0,0,0,,It has a hidden fragrance to it.
+Dialogue: 0,0:09:08.00,0:09:09.28,Default,Hana,0,0,0,,You think so?
+Dialogue: 0,0:09:10.19,0:09:11.87,Default,Sakura,0,0,0,,Hana!
+Dialogue: 0,0:09:11.87,0:09:13.19,Default,Anzu,0,0,0,,Ivy!
+Dialogue: 0,0:09:13.19,0:09:16.28,Default,Hana,0,0,0,,Hi, Sakura! Hi, Anzu!
+Dialogue: 0,0:09:16.28,0:09:18.28,Default,Sakura,0,0,0,,Your earring is so cute!
+Dialogue: 0,0:09:28.87,0:09:29.82,Default,Azami,0,0,0,,There she is.
+Dialogue: 0,0:09:31.61,0:09:33.27,Default,Simone,0,0,0,,Good morning, class.
+Dialogue: 0,0:09:33.27,0:09:35.23,Default,Simone,0,0,0,,Please get on the barre.
+Dialogue: 0,0:09:37.39,0:09:38.95,Default,Simone,0,0,0,,Port de bras!
+Dialogue: 0,0:09:39.98,0:09:41.92,Default,Simone,0,0,0,,Hana, your arms are too stiff!
+Dialogue: 0,0:09:43.22,0:09:44.55,Default,Simone,0,0,0,,Demi-plié!
+Dialogue: 0,0:09:45.60,0:09:46.65,Default,Simone,0,0,0,,Tendu!
+Dialogue: 0,0:09:48.70,0:09:54.28,Default,Hana,0,0,0,,{\i1}Ms. Simone is teaching us\Nnew students the foundations.{\i0}
+Dialogue: 0,0:09:54.28,0:09:57.28,Default,Hana,0,0,0,,{\i1}The fundamentals come\Nfirst and second in ballet.{\i0}
+Dialogue: 0,0:09:59.23,0:10:00.47,Default,Simone,0,0,0,,And stop.
+Dialogue: 0,0:10:02.10,0:10:03.59,Default,Simone,0,0,0,,Now, gather in the center\Nof the room.
+Dialogue: 0,0:10:08.57,0:10:09.71,Default,Simone,0,0,0,,Pirouette!
+Dialogue: 0,0:10:16.61,0:10:19.07,Default,Simone,0,0,0,,Good work, Hana, Nuts!
+Dialogue: 0,0:10:22.18,0:10:24.07,Default,Simone,0,0,0,,Wonderful, Azami!
+Dialogue: 0,0:10:26.45,0:10:27.98,Default,Simone,0,0,0,,You’re amazing, Hana!
+Dialogue: 0,0:10:28.86,0:10:30.25,Default,Simone,0,0,0,,Développé arabesque!
+Dialogue: 0,0:10:33.10,0:10:34.77,Default,Simone,0,0,0,,Good work, Sakura!
+Dialogue: 0,0:10:40.04,0:10:41.64,Default,Simone,0,0,0,,Great, Azami!
+Dialogue: 0,0:10:47.06,0:10:50.71,Default,Sakura,0,0,0,,That was tiring...\NI can’t turn very well.
+Dialogue: 0,0:10:50.71,0:10:54.02,Default,Hana,0,0,0,,You’re much better at\Nadagio than me, though!
+Dialogue: 0,0:10:57.63,0:10:59.23,Default,Azami,0,0,0,,Watch it.
+Dialogue: 0,0:11:00.06,0:11:01.62,Default,Sakura,0,0,0,,Hana!
+Dialogue: 0,0:11:01.62,0:11:02.95,Default,Sakura,0,0,0,,That was mean, Azami!
+Dialogue: 0,0:11:03.51,0:11:07.07,Default,Azami,0,0,0,,Try being a terrible dancer\Nsomewhere else, then!
+Dialogue: 0,0:11:09.72,0:11:11.22,Default,Sakura,0,0,0,,Are you okay?
+Dialogue: 0,0:11:11.22,0:11:12.19,Default,Hana,0,0,0,,Yeah...
+Dialogue: 0,0:11:16.42,0:11:18.46,Default,Sakura,0,0,0,,Did she break your earring?
+Dialogue: 0,0:11:19.68,0:11:21.46,Default,Hana,0,0,0,,My special earring...
+Dialogue: 0,0:11:24.18,0:11:27.19,Default,Hana,0,0,0,,When I was little,\NI went to see {\i1}Coppélia,
+Dialogue: 0,0:11:27.79,0:11:30.27,Default,Hana,0,0,0,,and the prima donna\NSwanhilda gave it to me.
+Dialogue: 0,0:11:30.27,0:11:31.71,Default,Hana,0,0,0,,It’s special to me...
+Dialogue: 0,0:11:31.71,0:11:34.59,Default,Sakura,0,0,0,,You got it from Swanhilda? Amazing!
+Dialogue: 0,0:11:34.59,0:11:36.56,Default,Sakura,0,0,0,,Please don’t cry anymore!
+Dialogue: 0,0:11:37.52,0:11:40.07,Default,Sakura,0,0,0,,I know! My mom might\Nbe able to fix it!
+Dialogue: 0,0:11:40.07,0:11:40.90,Default,Hana,0,0,0,,Huh?
+Dialogue: 0,0:11:40.90,0:11:43.88,Default,Sakura,0,0,0,,My family runs an accessory shop!
+Dialogue: 0,0:11:43.88,0:11:44.71,Default,Sakura,0,0,0,,Wanna go there?
+Dialogue: 0,0:11:44.71,0:11:45.72,Default,Hana,0,0,0,,Okay!
+Dialogue: 0,0:11:51.36,0:11:52.83,Default,Sakura's Mom,0,0,0,,Welcome!
+Dialogue: 0,0:11:52.83,0:11:53.94,Default,Sakura's Mom,0,0,0,,Oh?
+Dialogue: 0,0:11:53.94,0:11:56.20,Default,Sakura's Mom,0,0,0,,Sakura, and... Hana, is it?
+Dialogue: 0,0:11:57.85,0:12:00.05,Default,Sakura,0,0,0,,Mom, can you fix this?
+Dialogue: 0,0:12:00.05,0:12:03.14,Default,Hana,0,0,0,,Here it is...
+Dialogue: 0,0:12:05.30,0:12:07.29,Default,Sakura's Mom,0,0,0,,Looks like the clasp came loose.
+Dialogue: 0,0:12:07.87,0:12:09.86,Default,Sakura's Mom,0,0,0,,I can handle this!
+Dialogue: 0,0:12:09.86,0:12:11.05,Default,Sakura's Mom,0,0,0,,Just one second.
+Dialogue: 0,0:12:15.07,0:12:16.94,Default,Hana,0,0,0,,Such a beautiful store!
+Dialogue: 0,0:12:16.94,0:12:20.23,Default,Sakura,0,0,0,,I help out whenever it gets busy.
+Dialogue: 0,0:12:20.23,0:12:22.23,Default,Hana,0,0,0,,Really? That’s amazing!
+Dialogue: 0,0:12:22.53,0:12:24.21,Default,Sakura's Mom,0,0,0,,All finished!
+Dialogue: 0,0:12:27.45,0:12:27.96,Default,Sakura's Mom,0,0,0,,How is it?
+Dialogue: 0,0:12:32.07,0:12:34.20,Default,Hana,0,0,0,,Thank you so much!
+Dialogue: 0,0:12:34.20,0:12:35.66,Default,Sakura's Mom,0,0,0,,It was no trouble.
+Dialogue: 0,0:12:35.66,0:12:37.56,Default,Sakura,0,0,0,,Good for you, Hana!
+Dialogue: 0,0:12:37.56,0:12:38.17,Default,Hana,0,0,0,,Thanks!
+Dialogue: 0,0:12:42.66,0:12:44.66,Default,Hana,0,0,0,,Thanks for helping me, Sakura!
+Dialogue: 0,0:12:44.66,0:12:45.95,Default,Sakura,0,0,0,,What are friends for?
+Dialogue: 0,0:12:46.90,0:12:48.25,Default,Hana,0,0,0,,I’m your friend?
+Dialogue: 0,0:12:48.89,0:12:51.15,Default,Sakura,0,0,0,,Yeah, my very first!
+Dialogue: 0,0:12:52.64,0:12:54.28,Default,Nuts,0,0,0,,Sup, guys!
+Dialogue: 0,0:12:54.28,0:12:55.06,Default,Hana,0,0,0,,Oh, Nuts!
+Dialogue: 0,0:12:55.06,0:12:56.33,Default,Rosemary,0,0,0,,Get back here!
+Dialogue: 0,0:12:56.95,0:12:59.11,Default,Rosemary,0,0,0,,See you later, Hana, Sakura!
+Dialogue: 0,0:12:59.90,0:13:01.29,Default,Rosemary,0,0,0,,Get back here, Nuts!
+Dialogue: 0,0:13:01.29,0:13:02.67,Default,Nuts,0,0,0,,As if!
+Dialogue: 0,0:13:02.67,0:13:05.73,Default,Sakura,0,0,0,,Those three are always chasing each other around.
+Dialogue: 0,0:13:05.73,0:13:06.97,Default,Hana,0,0,0,,They get along very well!
+Dialogue: 0,0:13:09.89,0:13:11.99,Default,Rosemary,0,0,0,,Stop!
+Dialogue: 0,0:13:13.61,0:13:15.98,Default,Nuts,0,0,0,,Oh! It’s Anzu...!
+Dialogue: 0,0:13:17.95,0:13:21.69,Default,Sakura,0,0,0,,Get this, Nuts has a crush on Anzu!
+Dialogue: 0,0:13:23.47,0:13:24.92,Default,Rosemary,0,0,0,,Take this!
+Dialogue: 0,0:13:26.31,0:13:29.81,Default,Sakura,0,0,0,,But Anzu doesn’t seem\Nto have caught on.
+Dialogue: 0,0:13:33.08,0:13:34.36,Default,Hana,0,0,0,,Hey, Sakura!
+Dialogue: 0,0:13:34.36,0:13:34.86,Default,Sakura,0,0,0,,Hm?
+Dialogue: 0,0:13:35.30,0:13:38.99,Default,Hana,0,0,0,,Wanna meet up at school early tomorrow\Nand practice doing the pirouette?
+Dialogue: 0,0:13:38.99,0:13:40.44,Default,Sakura,0,0,0,,You’ll teach me?
+Dialogue: 0,0:13:40.80,0:13:41.85,Default,Hana,0,0,0,,Yeah!
+Dialogue: 0,0:13:42.45,0:13:44.34,Default,Hana,0,0,0,,The turn is really all I’m good at.
+Dialogue: 0,0:13:44.78,0:13:47.81,Default,Sakura,0,0,0,,Then I’ll teach you the arabesque!
+Dialogue: 0,0:13:47.81,0:13:49.26,Default,Hana,0,0,0,,Yay!
+Dialogue: 0,0:13:49.98,0:13:53.50,Default,Azami,0,0,0,,Try and try as you may,
+Dialogue: 0,0:13:53.50,0:13:58.00,Default,Azami,0,0,0,,no talent means no reward.
+Dialogue: 0,0:14:00.95,0:14:03.19,Default,Sakura,0,0,0,,What’s her issue?
+Dialogue: 0,0:14:11.33,0:14:13.47,Default,Sakura,0,0,0,,She’s so rude!
+Dialogue: 0,0:14:13.47,0:14:14.77,Default,Hana,0,0,0,,Azami...
+Dialogue: 0,0:14:16.62,0:14:18.11,Default,Hana,0,0,0,,I-Ivy?!
+Dialogue: 0,0:14:18.11,0:14:22.83,Default,Ivy,0,0,0,,Azami appears to view you as her rival!
+Dialogue: 0,0:14:22.83,0:14:26.35,Default,Ivy,0,0,0,,And that makes her\Neven more passionate.
+Dialogue: 0,0:14:33.14,0:14:34.29,Default,Hana,0,0,0,,{\i1}Dear Granny.{\i0}
+Dialogue: 0,0:14:34.29,0:14:37.26,Default,Hana,0,0,0,,{\i1}Today, I made\Na new best friend: Sakura!{\i0}
+Dialogue: 0,0:14:37.89,0:14:40.61,Default,Hana,0,0,0,,{\i1}She’s very kind and talented.{\i0}
+Dialogue: 0,0:14:42.62,0:14:46.82,Default,Hana,0,0,0,,{\i1}The earring Swanhilda gave me broke,{\i0}
+Dialogue: 0,0:14:46.82,0:14:49.41,Default,Hana,0,0,0,,{\i1}but her mother fixed it for me!{\i0}
+Dialogue: 0,0:15:17.06,0:15:18.77,Default,Hana,0,0,0,,{\i1}Just like a swan...{\i0}
+Dialogue: 0,0:15:19.62,0:15:22.16,Default,Hana,0,0,0,,{\i1}I’ll practice my hardest tomorrow...{\i0}
+Dialogue: 0,0:15:22.66,0:15:25.59,Default,Hana,0,0,0,,{\i1}...to become a beautiful balllerina!{\i0}
+Dialogue: 0,0:15:35.50,0:15:39.92,Default,Hana,0,0,0,Title,“The Legendary Red Shoes”
+Dialogue: 0,0:15:42.86,0:15:46.60,Default,Sakura,0,0,0,,Hana, I’m going to go buy some ballet shoes.\NDo you want to come with?
+Dialogue: 0,0:15:47.04,0:15:48.45,Default,Hana,0,0,0,,You are?
+Dialogue: 0,0:15:48.45,0:15:51.33,Default,Hana,0,0,0,,I was gonna do the same thing!
+Dialogue: 0,0:15:51.33,0:15:52.94,Default,Hana,0,0,0,,We’re so...
+Dialogue: 0,0:15:52.94,0:15:54.50,Default,Sakura,0,0,0,,like each other!
+Dialogue: 0,0:15:58.23,0:15:58.93,Default,Hana,0,0,0,,Oh!
+Dialogue: 0,0:15:59.83,0:16:02.01,Default,Hana,0,0,0,,It’s Swanhilda from {\i1}Coppélia!
+Dialogue: 0,0:16:02.01,0:16:04.89,Default,Sakura,0,0,0,,So {\i1}that’s{\i0} Swanhilda!\NShe’s so pretty!
+Dialogue: 0,0:16:04.89,0:16:07.17,Default,Sakura,0,0,0,,I hope you get to see her again, Hana!
+Dialogue: 0,0:16:07.17,0:16:08.17,Default,Hana,0,0,0,,Me too!
+Dialogue: 0,0:16:08.17,0:16:10.00,Default,Sakura,0,0,0,,We can buy shoes over at that store!
+Dialogue: 0,0:16:14.70,0:16:15.99,Default,Hana,0,0,0,,Red shoes?
+Dialogue: 0,0:16:17.11,0:16:18.23,Default,Storeowner,0,0,0,,Welcome!
+Dialogue: 0,0:16:18.66,0:16:21.97,Default,Hana,0,0,0,,Oh, wow! So many pretty\Ncolors to pick from!
+Dialogue: 0,0:16:22.32,0:16:24.20,Default,Hana,0,0,0,,Étoile Isle is amazing!
+Dialogue: 0,0:16:24.62,0:16:27.48,Default,Sakura,0,0,0,,You can wear whatever color\Nyou want to during class!
+Dialogue: 0,0:16:27.48,0:16:29.32,Default,Sakura,0,0,0,,Which one do you want?
+Dialogue: 0,0:16:29.32,0:16:30.71,Default,Hana,0,0,0,,What about you?
+Dialogue: 0,0:16:30.71,0:16:33.34,Default,Sakura,0,0,0,,I’m going with pink, like always!
+Dialogue: 0,0:16:40.07,0:16:41.13,Default,Hana,0,0,0,,I know!
+Dialogue: 0,0:16:42.94,0:16:45.02,Default,Hana,0,0,0,,I’ll go with these yellow shoes!
+Dialogue: 0,0:16:45.95,0:16:47.89,Default,Storeowner,0,0,0,,Please come again!
+Dialogue: 0,0:16:49.04,0:16:50.38,Default,Hana,0,0,0,,These red shoes...
+Dialogue: 0,0:16:50.38,0:16:51.79,Default,Sakura,0,0,0,,What’s wrong, Hana?
+Dialogue: 0,0:16:52.12,0:16:54.80,Default,Hana,0,0,0,,These shoes are catching my eyes.
+Dialogue: 0,0:16:54.80,0:16:56.80,Default,Sakura,0,0,0,,Ahh, the legendary red shoes!
+Dialogue: 0,0:16:56.80,0:16:58.05,Default,Hana,0,0,0,,“Legendary?”
+Dialogue: 0,0:16:58.55,0:16:59.35,Default,Ivy,0,0,0,,Indeed!
+Dialogue: 0,0:17:00.22,0:17:03.54,Default,Ivy,0,0,0,,Those red shoes are considered\Na legend in the ballet world!
+Dialogue: 0,0:17:03.54,0:17:05.02,Default,Hana,0,0,0,,Ivy...!
+Dialogue: 0,0:17:05.02,0:17:07.37,Default,Ivy,0,0,0,,Hello, Hana! Hello, Sakura!
+Dialogue: 0,0:17:07.37,0:17:08.55,Default,Ivy,0,0,0,,Are you two shopping?
+Dialogue: 0,0:17:08.55,0:17:09.54,Default,Sakura,0,0,0,,Yup!
+Dialogue: 0,0:17:09.54,0:17:10.78,Default,Hana,0,0,0,,What kind of legend?
+Dialogue: 0,0:17:10.78,0:17:13.20,Default,Ivy,0,0,0,,They say a ballerina that puts them on...
+Dialogue: 0,0:17:13.20,0:17:17.70,Default,Ivy,0,0,0,,will be able to captivate everyone\Nwith an astounding dance!
+Dialogue: 0,0:17:19.24,0:17:20.76,Default,Hana,0,0,0,,Wow!
+Dialogue: 0,0:17:21.18,0:17:23.94,Default,Sakura,0,0,0,,But there’s more to it.
+Dialogue: 0,0:17:23.94,0:17:26.63,Default,Ivy,0,0,0,,Indeed. The catch is,\Nwhen you put them on,
+Dialogue: 0,0:17:27.11,0:17:30.07,Default,Ivy,0,0,0,,you can’t take them off, and you’ll be forced\Nto dance for the rest of your life.
+Dialogue: 0,0:17:30.46,0:17:33.57,Default,Hana,0,0,0,,Oh yeah, my grandma read me that story.
+Dialogue: 0,0:17:33.93,0:17:34.96,Default,Ivy,0,0,0,,Indeed.
+Dialogue: 0,0:17:34.96,0:17:39.58,Default,Ivy,0,0,0,,It seems like that may have actually\Nhappened at Pre Mier a long time ago.
+Dialogue: 0,0:17:40.19,0:17:41.78,Default,Sakura,0,0,0,,Want to stop here for a bit?
+Dialogue: 0,0:17:42.53,0:17:43.68,Default,Hana,0,0,0,,Sure!
+Dialogue: 0,0:17:44.16,0:17:45.88,Default,Anzu's Mom,0,0,0,,Welcome in!
+Dialogue: 0,0:17:45.88,0:17:48.41,Default,Anzu's Mom,0,0,0,,Oh, you’re all together!
+Dialogue: 0,0:17:48.41,0:17:49.77,Default,Multiple,0,0,0,,Hello!
+Dialogue: 0,0:17:49.77,0:17:51.19,Default,Anzu,0,0,0,,Welcome!
+Dialogue: 0,0:17:51.59,0:17:55.19,Default,Anzu,0,0,0,,Hana, Sakura, Ivy!\NMay I take your order?
+Dialogue: 0,0:17:56.31,0:17:57.34,Default,Hana,0,0,0,,I’m not sure...
+Dialogue: 0,0:17:57.34,0:17:58.72,Default,Sakura,0,0,0,,Me neither...
+Dialogue: 0,0:17:58.72,0:18:00.68,Default,Sakura,0,0,0,,But we have to resist the cakes.
+Dialogue: 0,0:18:00.68,0:18:01.70,Default,Hana,0,0,0,,Aw, we do?
+Dialogue: 0,0:18:02.04,0:18:05.24,Default,Ivy,0,0,0,,A little bit should be fine.\NWe’re still growing.
+Dialogue: 0,0:18:05.24,0:18:07.22,Default,Ivy,0,0,0,,That’s what my mom told me.
+Dialogue: 0,0:18:07.22,0:18:08.20,Default,Hana,0,0,0,,Really?
+Dialogue: 0,0:18:08.20,0:18:10.81,Default,Hana,0,0,0,,Then I’ll have the chocolat banane\Nand an iced tea!
+Dialogue: 0,0:18:11.17,0:18:14.14,Default,Ivy,0,0,0,,A cranberry tart and a milk tea, please!
+Dialogue: 0,0:18:14.14,0:18:18.01,Default,Sakura,0,0,0,,I’ll have peach jelly and\Na sparkling mineral water!
+Dialogue: 0,0:18:18.01,0:18:20.28,Default,Anzu,0,0,0,,I’ll get your orders in.
+Dialogue: 0,0:18:22.54,0:18:25.72,Default,Hana,0,0,0,,Ohh, it looks so good!
+Dialogue: 0,0:18:26.24,0:18:28.11,Default,Hana,0,0,0,,Thanks for the food!
+Dialogue: 0,0:18:29.44,0:18:30.91,Default,Hana,0,0,0,,Yum!
+Dialogue: 0,0:18:31.46,0:18:33.18,Default,Sakura,0,0,0,,You said it!
+Dialogue: 0,0:18:33.18,0:18:35.35,Default,Hana,0,0,0,,So what were you saying about the red shoes?
+Dialogue: 0,0:18:35.35,0:18:36.07,Default,Ivy,0,0,0,,Right.
+Dialogue: 0,0:18:36.07,0:18:39.42,Default,Ivy,0,0,0,,So there was this girl attending Pre Mier.
+Dialogue: 0,0:18:39.42,0:18:43.71,Default,Ivy,0,0,0,,She was an attention seeker\Nand a real sore loser.
+Dialogue: 0,0:18:43.71,0:18:45.54,Default,Hana/Sakura,0,0,0,,Sound familiar?
+Dialogue: 0,0:18:49.55,0:18:51.53,Default,Ivy,0,0,0,,When they were assigned\Nroles for a recital,
+Dialogue: 0,0:18:51.53,0:18:54.80,Default,Ivy,0,0,0,,she was told she wasn’t fit\Nfor the lead role.
+Dialogue: 0,0:18:54.80,0:18:58.59,Default,Ivy,0,0,0,,So she put on the red shoes\Nand danced for her teachers.
+Dialogue: 0,0:19:00.71,0:19:05.66,Default,Ivy,0,0,0,,But they had already picked the lead,\Nand weren’t going to change their minds.
+Dialogue: 0,0:19:06.03,0:19:07.25,Default,Hana,0,0,0,,Then what happened?
+Dialogue: 0,0:19:07.25,0:19:09.10,Default,Ivy,0,0,0,,In a fit of despair,
+Dialogue: 0,0:19:09.10,0:19:12.67,Default,Ivy,0,0,0,,the girl danced her way out of the academy,\Nstill wearing the shoes.
+Dialogue: 0,0:19:13.02,0:19:14.77,Default,Ivy,0,0,0,,And that’s how it ends.
+Dialogue: 0,0:19:15.30,0:19:16.86,Default,Hana,0,0,0,,That’s it?
+Dialogue: 0,0:19:16.86,0:19:19.04,Default,Sakura,0,0,0,,She went missing after that.
+Dialogue: 0,0:19:19.04,0:19:19.98,Default,Hana,0,0,0,,Huh?!
+Dialogue: 0,0:19:20.34,0:19:23.23,Default,Ivy,0,0,0,,That is the legend that’s passed down\Nthrough Pre Mier.
+Dialogue: 0,0:19:26.55,0:19:28.45,Default,Ivy,0,0,0,,Mom sent me a text!
+Dialogue: 0,0:19:28.45,0:19:29.65,Default,Ivy,0,0,0,,I better get home!
+Dialogue: 0,0:19:29.65,0:19:31.52,Default,Ivy,0,0,0,,See you tomorrow!
+Dialogue: 0,0:19:31.52,0:19:32.39,Default,Sakura,0,0,0,,Bye!
+Dialogue: 0,0:19:33.37,0:19:34.87,Default,Ivy,0,0,0,,Goodbye, Nuts!
+Dialogue: 0,0:19:37.48,0:19:39.58,Default,Nuts,0,0,0,,A-Anzu...
+Dialogue: 0,0:19:51.30,0:19:52.51,Default,Mary,0,0,0,,Hey, did’ja hear?
+Dialogue: 0,0:19:52.51,0:19:53.39,Default,Rose,0,0,0,,Did’ja?
+Dialogue: 0,0:19:53.39,0:19:54.11,Default,Hana,0,0,0,,Huh?
+Dialogue: 0,0:19:54.63,0:19:56.91,Default,Rose,0,0,0,,The legendary red shoes...
+Dialogue: 0,0:19:56.91,0:19:58.70,Default,Mary,0,0,0,,vanished from the store!
+Dialogue: 0,0:19:58.70,0:19:59.58,Default,Hana,0,0,0,,What?!
+Dialogue: 0,0:19:59.95,0:20:02.49,Default,Sakura,0,0,0,,They were just there yesterday!
+Dialogue: 0,0:20:02.49,0:20:05.09,Default,Ivy,0,0,0,,Which means someone\Nmust have bought them!
+Dialogue: 0,0:20:05.58,0:20:08.33,Default,Ivy,0,0,0,,Those shoes were a kid’s size,
+Dialogue: 0,0:20:08.33,0:20:11.59,Default,Ivy,0,0,0,,so whoever bought them\Nmust go to Pre Mier!
+Dialogue: 0,0:20:12.20,0:20:13.03,Default,Rose,0,0,0,,Keen eye,
+Dialogue: 0,0:20:13.03,0:20:14.08,Default,Mary,0,0,0,,Ivy!
+Dialogue: 0,0:20:17.50,0:20:19.70,Default,Simone,0,0,0,,Next, do them in combination!
+Dialogue: 0,0:20:19.70,0:20:23.93,Default,Sakura,0,0,0,,The legendary red shoes\Ncan’t be taken off ever, right?
+Dialogue: 0,0:20:23.93,0:20:26.14,Default,Hana,0,0,0,,And you keep dancing for life...
+Dialogue: 0,0:20:26.76,0:20:28.81,Default,Simone,0,0,0,,Good posture, everyone.
+Dialogue: 0,0:20:30.36,0:20:31.71,Default,Simone,0,0,0,,Change!
+Dialogue: 0,0:20:32.04,0:20:35.02,Default,Sakura,0,0,0,,Who could’ve bought those shoes?
+Dialogue: 0,0:20:35.02,0:20:35.92,Default,Hana,0,0,0,,I wonder...
+Dialogue: 0,0:20:40.25,0:20:41.66,Default,Simone,0,0,0,,And stop.
+Dialogue: 0,0:20:42.84,0:20:48.16,Default,Simone,0,0,0,,Today, we’re going to be\Nspecially observing Class Rouge.
+Dialogue: 0,0:20:48.62,0:20:50.21,Default,Hana,0,0,0,,Class Rouge?
+Dialogue: 0,0:20:50.21,0:20:53.52,Default,Sakura,0,0,0,,It’s Flora’s class! She’s the most\Npopular girl in school!
+Dialogue: 0,0:20:55.55,0:20:59.31,Default,Simone,0,0,0,,Class Rouge is telling the story of\Nthe red shoes through interpretive dance.
+Dialogue: 0,0:20:59.80,0:21:03.88,Default,Simone,0,0,0,,They’re in the middle of practicing,\Nso please be quiet and don’t interrupt, okay?
+Dialogue: 0,0:21:03.88,0:21:05.88,Default,Rosemary,0,0,0,,“Red shoes,” huh?
+Dialogue: 0,0:21:52.31,0:21:53.36,Default,Hana,0,0,0,,That was wonderful!
+Dialogue: 0,0:21:54.41,0:21:57.46,Default,Azami,0,0,0,,{\i1}I can dance even better than that.{\i0}
+Dialogue: 0,0:21:57.46,0:21:58.87,Default,Azami,0,0,0,,{\i1}After all...!{\i0}
+Dialogue: 0,0:22:02.21,0:22:03.46,Default,Rose,0,0,0,,In the end...
+Dialogue: 0,0:22:03.46,0:22:05.71,Default,Mary,0,0,0,,the legend of the red shoes...
+Dialogue: 0,0:22:05.71,0:22:08.21,Default,Ivy,0,0,0,,...was no more than a tall tale.
+Dialogue: 0,0:22:08.53,0:22:10.71,Default,Nuts,0,0,0,,Oh, Anzu...
+Dialogue: 0,0:22:11.90,0:22:14.24,Default,Hana,0,0,0,,The red shoes gave me a bit of a scare...
+Dialogue: 0,0:22:14.24,0:22:15.77,Default,Hana,0,0,0,,but that was such a beautiful dance.
+Dialogue: 0,0:22:15.77,0:22:16.91,Default,Sakura,0,0,0,,You said it!
+Dialogue: 0,0:22:16.91,0:22:20.66,Default,Hana,0,0,0,,I almost thought she was actually cursed\Nand couldn’t stop dancing...
+Dialogue: 0,0:22:20.66,0:22:25.44,Default,Azami,0,0,0,,Eek! Someone stop me!
+Dialogue: 0,0:22:27.91,0:22:30.48,Default,Azami,0,0,0,,{\an8}Stop it!!
+Dialogue: 0,0:22:29.68,0:22:33.37,Default,Ivy,0,0,0,,So {\i1}Azami{\i0} was the one who bought the legendary shoes...
+Dialogue: 0,0:22:34.10,0:22:35.92,Default,Hana,0,0,0,,That Azami...
+Dialogue: 0,0:22:35.92,0:22:39.69,Default,Azami,0,0,0,,Where are you taking me?!
+Dialogue: 0,0:22:50.79,0:22:55.06,ED-A,Hana,0,0,0,,{\blur3\fad(500,500)\c&HFFFFFF&\1a&HFF&\t(455,500,\1a&H00&)\t(3770,3815,\1a&HFF&)}“It’s a mighty power!”
+Dialogue: 1,0:22:50.79,0:22:55.06,ED-A,Hana,0,0,0,,{\bord0\blur0.6\fad(500,500)\4a&HFF&}“It’s a mighty power!”
+Dialogue: 0,0:22:59.03,0:23:02.97,ED-A,Sakura,0,0,0,,{\blur3\fad(500,500)\c&HFFFFFF&\1a&HFF&\t(455,500,\1a&H00&)\t(3440,3485,\1a&HFF&)}“So that we can keep at it tomorrow!”
+Dialogue: 1,0:22:59.03,0:23:02.97,ED-A,Sakura,0,0,0,,{\bord0\blur0.6\fad(500,500)\4a&HFF&}“So that we can keep at it tomorrow!”
+Dialogue: 0,0:23:03.20,0:23:07.54,ED-B,Hana,0,0,0,,{\blur3\fad(500,0)\c&HA270FF&\1a&HFF&\t(455,500,\1a&H00&)}We live our lives
+Dialogue: 1,0:23:03.20,0:23:07.54,ED-B,Hana,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}We live our lives
+Dialogue: 0,0:23:07.54,0:23:11.77,ED-B,Hana,0,0,0,,{\blur3\c&HA270FF&}Dreaming of a happy ending
+Dialogue: 1,0:23:07.54,0:23:11.77,ED-B,Hana,0,0,0,,{\bord0\blur0.6\4a&HFF&}Dreaming of a happy ending
+Dialogue: 0,0:23:11.77,0:23:16.11,ED-B,Sakura,0,0,0,,{\blur3\c&HA270FF&}But we won’t get there alone
+Dialogue: 1,0:23:11.77,0:23:16.11,ED-B,Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}But we won’t get there alone
+Dialogue: 0,0:23:16.11,0:23:20.38,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}We should do it together
+Dialogue: 1,0:23:16.11,0:23:20.38,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}We should do it together
+Dialogue: 0,0:23:20.38,0:23:27.26,ED-B,Hana,0,0,0,,{\blur3\fad(0,500)\c&HA270FF&\t(6380,6425,\1a&HFF&)}Although the finish line is out of sight
+Dialogue: 1,0:23:20.38,0:23:27.26,ED-B,Hana,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}Although the finish line is out of sight
+Dialogue: 0,0:23:28.96,0:23:36.73,ED-B,Hana/Sakura,0,0,0,,{\blur3\fad(500,0)\c&HA270FF&\1a&HFF&\t(455,500,\1a&H00&)}We believe in each other
+Dialogue: 1,0:23:28.96,0:23:36.73,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\fad(500,0)\4a&HFF&}We believe in each other
+Dialogue: 0,0:23:36.73,0:23:41.80,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}It’s a mighty power
+Dialogue: 1,0:23:36.73,0:23:41.80,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}It’s a mighty power
+Dialogue: 0,0:23:41.80,0:23:45.51,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}So let’s relax and take a break
+Dialogue: 1,0:23:41.80,0:23:45.51,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}So let’s relax and take a break
+Dialogue: 0,0:23:45.51,0:23:50.35,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}So that we can keep at it tomorrow
+Dialogue: 1,0:23:45.51,0:23:50.35,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}So that we can keep at it tomorrow
+Dialogue: 0,0:23:50.35,0:23:54.65,ED-B,Hana/Sakura,0,0,0,,{\blur3\c&HA270FF&}We’ll take a break for now
+Dialogue: 1,0:23:50.35,0:23:54.65,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}We’ll take a break for now
+Dialogue: 0,0:23:54.65,0:23:56.79,ED-B,Sakura,0,0,0,,{\blur3\c&HA270FF&}Let us stop
+Dialogue: 1,0:23:54.65,0:23:56.79,ED-B,Sakura,0,0,0,,{\bord0\blur0.6\4a&HFF&}Let us stop
+Dialogue: 0,0:23:56.79,0:23:58.96,ED-B,Hana,0,0,0,,{\blur3\c&HA270FF&}Look into each others eyes
+Dialogue: 1,0:23:56.79,0:23:58.96,ED-B,Hana,0,0,0,,{\bord0\blur0.6\4a&HFF&}Look into each others eyes
+Dialogue: 0,0:23:58.96,0:24:02.69,ED-B,Hana/Sakura,0,0,0,,{\blur3\fad(0,500)\c&HA270FF&\t(3230,3275,\1a&HFF&)}And hold hands
+Dialogue: 1,0:23:58.96,0:24:02.69,ED-B,Hana/Sakura,0,0,0,,{\bord0\blur0.6\fad(0,500)\4a&HFF&}And hold hands
+

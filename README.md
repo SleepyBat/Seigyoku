@@ -3,7 +3,6 @@ Subtitle scripts for Lumpstud/Seigyoku releases.
 These may include updates from original releases for quality purposes. Any updates will likely be used for future batches.
 
 Ongoing Projects:
-- The Snack World
 - Line Town
 - Punirunes / Punirunes Puni2
 
@@ -14,6 +13,7 @@ Finished Projects:
 - Kuma no Gakkou films (The Bears' School)
 - Kuromi's Pretty Journey S2
 - Kyouryuu Shoujo Gauko (2017) (Dino Girl Gauko)
+- The Snack World
 - Tsukuru no Daisuki! NenDo!-kun to Nakama-tachi (NenDo!-kun and Friends Love to Create!)
 - Usahana - Yumemiru Ballerina (Usahana, the Dreaming Ballerina)
 

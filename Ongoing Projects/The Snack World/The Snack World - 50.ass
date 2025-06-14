@@ -1,0 +1,559 @@
+﻿[Script Info]
+Title: [Lumpstud] The Snack World 50
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 0$Default,Roboto Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H86000000,0,0,0,0,100,100,0,0,1,4,3,2,80,80,65,1
+Style: 0$mask,Roboto Medium,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: 0$EPTITLE,A-OTF Take Std B,80,&H00282727,&H000000FF,&H00C1C2C4,&HB8000000,0,0,0,0,100,100,0,0,1,3,6,2,15,15,15,1
+Style: 0$Header,Noto Sans Med,69,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,8,60,60,45,1
+Style: 0$MonsterName,A-OTF TakaHand Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: 0$Proverb,blzee,90,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$Credit,UDTypos515 Std R,60,&H00FFFFFF,&H000000FF,&H44FF7329,&H0072914F,0,0,0,0,100,100,0,0,1,6,0,5,15,15,15,1
+Style: 0$Quest,A-OTF UD Shin Go Con90 Pr6N B,150,&H00C2C2C2,&H000000FF,&H00474747,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 0$Take H,A-OTF Take Std H,60,&H0019B3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: 0$NextEpTitle,A-OTF Gothic MB101 Pro H,40,&H00C7C7C7,&H000000FF,&H00686767,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 0$TSSLyricsEDRomanji,A-OTF Shin Maru Go Pro M,75,&H00E4E6E3,&H00DEA4D9,&H00F0236F,&H00434343,0,0,0,0,100,100,0,0,1,6.75,2.5,2,15,15,15,1
+Style: 0$TSSLyricsEDEng,A-OTF Shin Maru Go Pro M,75,&H00FFFFFF,&H00DBA9A4,&H00FA4789,&H00000000,0,0,0,0,100,100,0,0,1,6.75,2.5,8,30,30,30,1
+Style: 0$Ep50 INS,A-OTF Kakumin Pro M,75,&H00F5F3F3,&H000000FF,&H00919191,&H86000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.19,0:00:05.32,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:00:05.32,0:00:08.32,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:00:08.32,0:00:10.41,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:00:10.41,0:00:12.08,0$Default,,0,0,0,,And my name's Chup.
+Dialogue: 0,0:00:12.91,0:00:16.70,0$Default,,0,0,0,,At last, our adventure has come to a climax.
+Dialogue: 0,0:00:16.70,0:00:19.67,0$Default,,0,0,0,,Failing to put up a fight\Nagainst the invincible overlord,
+Dialogue: 0,0:00:19.67,0:00:23.46,0$Default,,0,0,0,,we've put our final hope\Non the legendary sacred sword.
+Dialogue: 0,0:00:23.46,0:00:25.59,0$Default,,0,0,0,,Come at me, Demi-Glace!!
+Dialogue: 0,0:00:52.16,0:00:54.51,0$Default,,0,0,0,,{\an8}Hey, untransformed overlords!
+Dialogue: 0,0:00:55.54,0:00:57.83,0$Default,,0,0,0,,We're gonna take you guys down!
+Dialogue: 0,0:00:57.83,0:01:00.23,0$Default,,0,0,0,,The sacred sword Muramascalibur\Nwill end you!
+Dialogue: 0,0:01:00.23,0:01:01.00,0$Default,,0,0,0,,I shall end you!
+Dialogue: 0,0:01:02.77,0:01:05.02,0$Default,,0,0,0,,Chup, are you sure about this?
+Dialogue: 0,0:01:05.02,0:01:08.78,0$Default,,0,0,0,,Yeah! If you brag about it now,\Nit'll be embarrassing if we lose again!
+Dialogue: 0,0:01:08.78,0:01:12.89,0$Default,,0,0,0,,At least say something like,\N"We might just defeat you for real!"
+Dialogue: 0,0:01:14.30,0:01:16.76,0$Default,,0,0,0,,We'll fully, flawlessly take you down!\NUh, probably!
+Dialogue: 0,0:01:16.76,0:01:18.73,0$Default,,0,0,0,,Drop the "fully, flawlessly!"
+Dialogue: 0,0:01:24.08,0:01:25.98,0$Default,,0,0,0,,Oh, great. You're back.
+Dialogue: 0,0:01:25.98,0:01:28.15,0$Default,,0,0,0,,You never learn, do you?
+Dialogue: 0,0:01:34.66,0:01:36.16,0$Default,,0,0,0,,They combined!
+Dialogue: 0,0:01:45.01,0:01:48.17,0$Default,,0,0,0,,My, he certainly has a thirst for blood.
+Dialogue: 0,0:01:56.30,0:01:58.97,0$Default,,0,0,0,,Chup, I've been thinking it over,
+Dialogue: 0,0:01:58.97,0:02:01.79,0$Default,,0,0,0,,and now that we know their backstory,
+Dialogue: 0,0:02:01.79,0:02:04.13,0$Default,,0,0,0,,is defeating them really the right choice?
+Dialogue: 0,0:02:04.13,0:02:06.27,0$Default,,0,0,0,,Surely, there's a way we can reason with them?
+Dialogue: 0,0:02:06.27,0:02:07.88,0$Default,,0,0,0,,I hope so too.
+Dialogue: 0,0:02:07.88,0:02:10.28,0$Default,,0,0,0,,I feel bad for them after\Nseeing what they went through.
+Dialogue: 0,0:02:24.04,0:02:26.27,0$Default,,0,0,0,,Wh-What is this?
+Dialogue: 0,0:02:26.27,0:02:28.44,0$Default,,0,0,0,,Sonia, what's wrong?
+Dialogue: 0,0:02:28.44,0:02:30.25,0$Default,,0,0,0,,Wake up! Look at me!
+Dialogue: 0,0:02:30.25,0:02:31.17,0$Default,,0,0,0,,Father, explain!
+Dialogue: 0,0:02:31.67,0:02:33.70,0$Default,,0,0,0,,The alliance is off.
+Dialogue: 0,0:02:33.70,0:02:36.14,0$Default,,0,0,0,,I tried to rescue her,
+Dialogue: 0,0:02:36.14,0:02:38.06,0$Default,,0,0,0,,but she was casualty to a skirmish...
+Dialogue: 0,0:02:38.97,0:02:39.93,0$Default,,0,0,0,,I'm sorry, boys.
+Dialogue: 0,0:02:40.56,0:02:42.23,0$Default,,0,0,0,,No way!
+Dialogue: 0,0:02:42.23,0:02:43.31,0$Default,,0,0,0,,Why...?
+Dialogue: 0,0:02:44.44,0:02:46.17,0$Default,,0,0,0,,Say it isn't so!!
+Dialogue: 0,0:03:15.68,0:03:18.72,0$Default,,0,0,0,,I really think we should try\Nto talk things out!
+Dialogue: 0,0:03:19.14,0:03:21.97,0$Default,,0,0,0,,It's probably better that way, yeah.
+Dialogue: 0,0:03:21.97,0:03:23.56,0$Default,,0,0,0,,Talk things out?
+Dialogue: 0,0:03:24.02,0:03:25.52,0$Default,,0,0,0,,That's comical.
+Dialogue: 0,0:03:25.52,0:03:28.40,0$Default,,0,0,0,,Are you giving out excuses\Nsince you know you can't win?
+Dialogue: 0,0:03:28.40,0:03:30.15,0$Default,,0,0,0,,Ah, did you overhear us?
+Dialogue: 0,0:03:30.15,0:03:33.63,0$Default,,0,0,0,,Look, we know why\Nyou're doing all this.
+Dialogue: 0,0:03:33.63,0:03:36.28,0$Default,,0,0,0,,So we might be able to forgive you.
+Dialogue: 0,0:03:37.45,0:03:40.24,0$Default,,0,0,0,,I don't remember asking for forgiveness.
+Dialogue: 0,0:03:40.24,0:03:44.79,0$Default,,0,0,0,,The only options are I destroy the world,\Nor you destroy me!
+Dialogue: 0,0:03:44.79,0:03:47.23,0$Default,,0,0,0,,Had a feeling we wouldn't get through to him.
+Dialogue: 0,0:03:47.23,0:03:49.25,0$Default,,0,0,0,,That adds up.
+Dialogue: 0,0:03:50.00,0:03:51.84,0$Default,,0,0,0,,Come face me!
+Dialogue: 0,0:03:51.84,0:03:55.01,0$Default,,0,0,0,,The midnight train bound for your graves\Nwill de departing momentarily.
+Dialogue: 0,0:03:56.01,0:03:57.84,0$Default,,0,0,0,,Are we going anywhere?!
+Dialogue: 0,0:03:58.49,0:04:00.51,0$Default,,0,0,0,,Oh, there was a feature\Non classic songs the other day.
+Dialogue: 0,0:04:00.85,0:04:03.43,0$Default,,0,0,0,,Fine! If I gotta beat you,\NI will!
+Dialogue: 0,0:04:04.56,0:04:05.31,0$Default,,0,0,0,,Then do it.
+Dialogue: 0,0:04:05.31,0:04:06.31,0$Default,,0,0,0,,I'll beat you!
+Dialogue: 0,0:04:09.15,0:04:09.98,0$Default,,0,0,0,,You twerp!
+Dialogue: 0,0:04:11.31,0:04:12.65,0$Default,,0,0,0,,Don't quiver {\i1}now!
+Dialogue: 0,0:04:13.98,0:04:15.03,0$Default,,0,0,0,,Here I go!
+Dialogue: 0,0:04:15.03,0:04:16.11,0$Default,,0,0,0,,You're a handful, y'know that?
+Dialogue: 0,0:04:16.11,0:04:17.61,0$Default,,0,0,0,,I'm coming at you!
+Dialogue: 0,0:04:17.61,0:04:19.45,0$Default,,0,0,0,,Calibur!!
+Dialogue: 0,0:04:21.12,0:04:24.95,0$Default,,0,0,0,,Final Battle Time Slash!
+Dialogue: 0,0:04:24.95,0:04:27.12,0$Default,,0,0,0,,You still haven't even drawn him out!
+Dialogue: 0,0:04:27.12,0:04:30.71,0$Default,,0,0,0,,Fighting with an unsheathed sword?\NHow weak do you think I am?
+Dialogue: 0,0:04:30.71,0:04:34.34,0$Default,,0,0,0,,Please, I don't have to draw my sword\Nto take you down! Ain't that right, Calibur?
+Dialogue: 0,0:04:34.34,0:04:34.88,0$Default,,0,0,0,,Yes!
+Dialogue: 0,0:04:34.88,0:04:37.80,0$Default,,0,0,0,,Don't agree with him!\NYou can't even draw yourself!
+Dialogue: 0,0:04:41.89,0:04:43.14,0$Default,,0,0,0,,What an irritating foe!
+Dialogue: 0,0:04:43.14,0:04:46.52,0$Default,,0,0,0,,I don't want to hear that\Nfrom the talking sword!
+Dialogue: 0,0:04:46.77,0:04:48.77,0$Default,,0,0,0,,I won't deny that!
+Dialogue: 0,0:04:50.10,0:04:51.44,0$Default,,0,0,0,,Or will I?
+Dialogue: 0,0:04:53.40,0:04:54.44,0$Default,,0,0,0,,Is it actually working?!
+Dialogue: 0,0:05:13.38,0:05:14.92,0$Default,,0,0,0,,I'm getting bored now.
+Dialogue: 0,0:05:16.30,0:05:18.03,0$Default,,0,0,0,,Let's finish this.
+Dialogue: 0,0:05:21.39,0:05:23.68,0$Default,,0,0,0,,I won't let you kill Chup!
+Dialogue: 0,0:05:26.01,0:05:28.14,0$Default,,0,0,0,,We won't lose!
+Dialogue: 0,0:05:28.14,0:05:30.02,0$Default,,0,0,0,,You already are!
+Dialogue: 0,0:05:33.27,0:05:35.09,0$Default,,0,0,0,,Chup is our friend!
+Dialogue: 0,0:05:35.09,0:05:37.28,0$Default,,0,0,0,,And friends don't let friends\Nget killed!
+Dialogue: 0,0:05:37.28,0:05:39.40,0$Default,,0,0,0,,Look who's all cool now.
+Dialogue: 0,0:05:40.15,0:05:41.57,0$Default,,0,0,0,,This is the end for you!
+Dialogue: 0,0:05:41.57,0:05:43.41,0$Default,,0,0,0,,Prepare to face my ultimate sp—
+Dialogue: 0,0:05:47.29,0:05:48.47,0$Default,,0,0,0,,You guys...
+Dialogue: 0,0:05:48.47,0:05:52.42,0$Default,,0,0,0,,You're right! I can't lose!\NNot here, not now!
+Dialogue: 0,0:05:52.42,0:05:53.29,0$Default,,0,0,0,,Butako!
+Dialogue: 0,0:05:55.13,0:05:56.22,0$Default,,0,0,0,,Here, girl!
+Dialogue: 0,0:06:04.89,0:06:07.14,0$Default,,0,0,0,,So you can do that!
+Dialogue: 0,0:06:07.53,0:06:08.60,0$Default,,0,0,0,,Let's go!
+Dialogue: 0,0:06:17.99,0:06:20.86,0$Default,,0,0,0,,You think you stand\Na chance against me?
+Dialogue: 0,0:06:20.86,0:06:25.03,0$Default,,0,0,0,,I won't give up.\NI {\i1}will{\i0} win this battle!
+Dialogue: 0,0:06:28.53,0:06:30.35,0$Default,,0,0,0,,S-So will we!
+Dialogue: 0,0:06:30.35,0:06:32.72,0$Default,,0,0,0,,But this seems like a bit much for us.
+Dialogue: 0,0:06:34.98,0:06:36.48,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:06:36.48,0:06:37.50,0$Default,,0,0,0,,Stay back!
+Dialogue: 0,0:06:38.04,0:06:39.84,0$Default,,0,0,0,,I swore...
+Dialogue: 0,0:06:39.84,0:06:42.24,0$Default,,0,0,0,,I would overcome any challenge!
+Dialogue: 0,0:06:42.24,0:06:44.32,0$Default,,0,0,0,,I can do it! I {\i1}will{\i0} do it!
+Dialogue: 0,0:06:44.32,0:06:46.37,0$Default,,0,0,0,,I'll do it fully, flawlessly!
+Dialogue: 0,0:06:46.37,0:06:47.51,0$Default,,0,0,0,,Maybe!
+Dialogue: 0,0:06:51.48,0:06:54.85,0$Default,,0,0,0,,Muramascalibur!!
+Dialogue: 0,0:06:58.56,0:07:00.13,0$Default,,0,0,0,,The Muramascalibur did it!
+Dialogue: 0,0:07:00.13,0:07:01.55,0$Default,,0,0,0,,He drew himself!
+Dialogue: 0,0:07:01.55,0:07:03.44,0$Default,,0,0,0,,Go, Chup! Slash at him!
+Dialogue: 0,0:07:17.58,0:07:18.73,0$Default,,0,0,0,,No way!
+Dialogue: 0,0:07:18.73,0:07:19.65,0$Default,,0,0,0,,Is it over?
+Dialogue: 0,0:07:19.65,0:07:21.84,0$Default,,0,0,0,,Wow! He split the overlord right in half!
+Dialogue: 0,0:07:27.68,0:07:28.64,0$Default,,0,0,0,,Whoa there!
+Dialogue: 0,0:07:28.64,0:07:30.18,0$Default,,0,0,0,,That was close.
+Dialogue: 0,0:07:30.72,0:07:32.33,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:07:32.33,0:07:34.20,0$Default,,0,0,0,,So no matter how powerful\Nthe sword is,
+Dialogue: 0,0:07:34.20,0:07:36.85,0$Default,,0,0,0,,they can just split apart and dodge it?\NThat's messed up!
+Dialogue: 0,0:07:36.85,0:07:38.52,0$Default,,0,0,0,,That's playing dirty!
+Dialogue: 0,0:07:40.21,0:07:42.44,0$Default,,0,0,0,,But I admit, that was a pretty good slash.
+Dialogue: 0,0:07:42.44,0:07:43.88,0$Default,,0,0,0,,You flatter me.
+Dialogue: 0,0:07:43.88,0:07:46.65,0$Default,,0,0,0,,Don't get smug, you didn't help us!
+Dialogue: 0,0:07:46.65,0:07:49.20,0$Default,,0,0,0,,But a slash won't get us.
+Dialogue: 0,0:07:50.66,0:07:54.64,0$Default,,0,0,0,,If even the sacred sword can't beat him,\Nthen all hope really is lost!
+Dialogue: 0,0:07:54.64,0:07:56.31,0$Default,,0,0,0,,Now we're all out of options!
+Dialogue: 0,0:07:56.31,0:07:57.67,0$Default,,0,0,0,,Time to throw in the towel.
+Dialogue: 0,0:08:00.92,0:08:02.75,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:08:02.75,0:08:04.55,0$Default,,0,0,0,,The only way to rival a strong foe
+Dialogue: 0,0:08:04.55,0:08:06.92,0$Default,,0,0,0,,is to do what they cannot!
+Dialogue: 0,0:08:08.51,0:08:11.43,0$Default,,0,0,0,,What's your plan this time?
+Dialogue: 0,0:08:22.57,0:08:23.82,0$Default,,0,0,0,,Scopeion!
+Dialogue: 0,0:08:26.86,0:08:29.74,0$Default,,0,0,0,,{\i1}Nature!
+Dialogue: 0,0:08:32.78,0:08:35.43,0$Default,,0,0,0,,Ayo, it's me, Scopeion!
+Dialogue: 0,0:08:35.43,0:08:37.71,0$Default,,0,0,0,,Where do you need me to peep?
+Dialogue: 0,0:08:37.71,0:08:39.19,0$Default,,0,0,0,,Wait, what?!
+Dialogue: 0,0:08:39.19,0:08:40.50,0$Default,,0,0,0,,What's goin' on?
+Dialogue: 0,0:08:40.50,0:08:41.08,0$Default,,0,0,0,,No clue.
+Dialogue: 0,0:08:41.08,0:08:41.88,0$Default,,0,0,0,,Buttery!
+Dialogue: 0,0:08:41.88,0:08:42.69,0$Default,,0,0,0,,Huff-puff-puff!
+Dialogue: 0,0:08:42.69,0:08:43.50,0$Default,,0,0,0,,Yeti!
+Dialogue: 0,0:08:43.50,0:08:44.69,0$Default,,0,0,0,,So cold...
+Dialogue: 0,0:08:44.69,0:08:45.67,0$Default,,0,0,0,,Mermaid!
+Dialogue: 0,0:08:45.67,0:08:46.38,0$Default,,0,0,0,,I'm here!
+Dialogue: 0,0:08:46.38,0:08:48.47,0$Default,,0,0,0,,How many of them\Nare you gonna summon?!
+Dialogue: 0,0:08:48.47,0:08:52.55,0$Default,,0,0,0,,I guess summoning with Snacks\Nis something the overlord can't do?
+Dialogue: 0,0:08:52.55,0:08:55.54,0$Default,,0,0,0,,Are you hoping they'll work with you\Nto defeat him?
+Dialogue: 0,0:08:55.54,0:08:57.33,0$Default,,0,0,0,,That's really not a good idea.
+Dialogue: 0,0:08:57.33,0:08:59.60,0$Default,,0,0,0,,If you're not careful,\Nhe'll kill all of them!
+Dialogue: 0,0:09:00.85,0:09:02.35,0$Default,,0,0,0,,Don't worry about it!
+Dialogue: 0,0:09:03.11,0:09:05.19,0$Default,,0,0,0,,Great, that's all of them!
+Dialogue: 0,0:09:06.65,0:09:08.01,0$Default,,0,0,0,,Hey everyone!
+Dialogue: 0,0:09:08.01,0:09:10.11,0$Default,,0,0,0,,I think you used too many Snacks.
+Dialogue: 0,0:09:10.40,0:09:13.97,0$Default,,0,0,0,,And it's not just monsters,\Nyou called lots of humans, too.
+Dialogue: 0,0:09:13.97,0:09:15.62,0$Default,,0,0,0,,Is Bunnilla here?
+Dialogue: 0,0:09:15.62,0:09:17.98,0$Default,,0,0,0,,I'm glad you summoned me\Nfor my assistance,
+Dialogue: 0,0:09:17.98,0:09:21.73,0$Default,,0,0,0,,but with such a large turnout,\NI'm wondering if I'll get to do anything.
+Dialogue: 0,0:09:21.73,0:09:23.13,0$Default,,0,0,0,,Am I important here or not?
+Dialogue: 0,0:09:23.13,0:09:25.09,0$Default,,0,0,0,,Tell me you're not gonna leave first!
+Dialogue: 0,0:09:25.09,0:09:26.50,0$Default,,0,0,0,,Of course not!
+Dialogue: 0,0:09:26.80,0:09:28.88,0$Default,,0,0,0,,Perfect! This is just the team we need!
+Dialogue: 0,0:09:31.68,0:09:32.97,0$Default,,0,0,0,,Hey, overlord!
+Dialogue: 0,0:09:33.91,0:09:37.66,0$Default,,0,0,0,,I've been waiting to see\Nwhat you were cooking up.
+Dialogue: 0,0:09:37.66,0:09:40.60,0$Default,,0,0,0,,Were you hoping to band together\Nall your friends to beat me?
+Dialogue: 0,0:09:41.14,0:09:44.02,0$Default,,0,0,0,,No matter the numbers,\NI'll erase them in a flash.
+Dialogue: 0,0:09:44.02,0:09:46.90,0$Default,,0,0,0,,You're wrong! They're not here to help us battle!
+Dialogue: 0,0:09:47.40,0:09:49.28,0$Default,,0,0,0,,Then what are they here for?
+Dialogue: 0,0:09:49.61,0:09:50.53,0$Default,,0,0,0,,They're here...
+Dialogue: 0,0:09:51.53,0:09:52.28,0$Default,,0,0,0,,to sing!
+Dialogue: 0,0:09:56.33,0:09:57.45,0$Default,,0,0,0,,What's this?
+Dialogue: 0,0:09:57.45,0:09:59.79,0$Default,,0,0,0,,Warp-pa's holding a baton.
+Dialogue: 0,0:09:59.79,0:10:01.91,0$Default,,0,0,0,,The Darefalcon Chorus Group
+Dialogue: 0,0:10:01.91,0:10:04.79,0$Default,,0,0,0,,will now present its top-class singing talent.
+Dialogue: 0,0:10:04.79,0:10:07.86,0$Default,,0,0,0,,Thanks, Warp-pa!\NLet's do it as we planned!
+Dialogue: 0,0:10:07.86,0:10:10.55,0$Default,,0,0,0,,Hold on! When did you find the time\Nto plan this with him?
+Dialogue: 0,0:10:10.87,0:10:13.05,0$Default,,0,0,0,,Now, let us begin!
+Dialogue: 0,0:10:17.64,0:10:22.81,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You can find us all down in town
+Dialogue: 1,0:10:17.64,0:10:22.81,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You can find us all down in town
+Dialogue: 0,0:10:22.81,0:10:28.19,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So don't feel so glum, you're not alone
+Dialogue: 1,0:10:22.81,0:10:28.19,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So don't feel so glum, you're not alone
+Dialogue: 0,0:10:28.19,0:10:32.07,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You'll hit it off with someone
+Dialogue: 1,0:10:28.19,0:10:32.07,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You'll hit it off with someone
+Dialogue: 0,0:10:32.07,0:10:37.12,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So come on down and be our friend! (Be our friend!)
+Dialogue: 1,0:10:32.07,0:10:37.12,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So come on down and be our friend! (Be our friend!)
+Dialogue: 0,0:10:37.12,0:10:41.87,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 1,0:10:37.12,0:10:41.87,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 0,0:10:40.41,0:10:41.87,0$Default,,0,0,0,,{\an8}How are y'all doing?
+Dialogue: 0,0:10:41.87,0:10:47.38,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Anyone can make friends—so can you!
+Dialogue: 1,0:10:41.87,0:10:47.38,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Anyone can make friends—so can you!
+Dialogue: 0,0:10:47.38,0:10:54.68,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So join hands with us and sing along
+Dialogue: 1,0:10:47.38,0:10:54.68,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So join hands with us and sing along
+Dialogue: 0,0:10:54.68,0:10:56.68,0$Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:10:56.68,0:10:59.08,0$Default,,0,0,0,,Why do you have to destroy the world?
+Dialogue: 0,0:10:59.08,0:11:02.20,0$Default,,0,0,0,,Because you don't have friends?\NBecause you don't have Sonia?
+Dialogue: 0,0:11:04.40,0:11:06.17,0$Default,,0,0,0,,How do you know that?!
+Dialogue: 0,0:11:06.17,0:11:09.19,0$Default,,0,0,0,,Keep her name out of your mouth!!
+Dialogue: 0,0:11:09.19,0:11:11.86,0$Default,,0,0,0,,Demi, Glace, watch this!
+Dialogue: 0,0:11:19.45,0:11:23.70,0$Default,,0,0,0,,Demi, Glace, are you watching this?
+Dialogue: 0,0:11:23.70,0:11:25.21,0$Default,,0,0,0,,What's that?
+Dialogue: 0,0:11:25.21,0:11:30.27,0$Default,,0,0,0,,Oh yeah, Chup asked Darefalcon\Nto Memory Warp him alone.
+Dialogue: 0,0:11:30.27,0:11:33.05,0$Default,,0,0,0,,Wait, does that mean\Nhe met Sonia?!
+Dialogue: 0,0:11:33.05,0:11:34.01,0$Default,,0,0,0,,My word!
+Dialogue: 0,0:11:34.01,0:11:36.34,0$Default,,0,0,0,,What are we looking at?!
+Dialogue: 0,0:11:36.34,0:11:40.77,0$Default,,0,0,0,,Chup told me he met you guys\Nfar in the future.
+Dialogue: 0,0:11:40.77,0:11:43.70,0$Default,,0,0,0,,I often wondered what you were up to\Nafter we separated,
+Dialogue: 0,0:11:43.70,0:11:46.73,0$Default,,0,0,0,,or if you ever got sad about anything...
+Dialogue: 0,0:11:48.52,0:11:52.86,0$Default,,0,0,0,,Demi, Glace, my kind-hearted brothers,
+Dialogue: 0,0:11:52.86,0:11:56.37,0$Default,,0,0,0,,please don't harm anyone\Nfor my sake.
+Dialogue: 0,0:11:56.37,0:12:00.68,0$Default,,0,0,0,,No matter how far apart we are,\Nor how much time passes,
+Dialogue: 0,0:12:00.68,0:12:03.66,0$Default,,0,0,0,,don't stop being my kind-hearted brothers.
+Dialogue: 0,0:12:03.66,0:12:05.04,0$Default,,0,0,0,,Sonia...
+Dialogue: 0,0:12:05.04,0:12:07.95,0$Default,,0,0,0,,You're not alone.
+Dialogue: 0,0:12:07.95,0:12:09.56,0$Default,,0,0,0,,I may not be with you,
+Dialogue: 0,0:12:09.56,0:12:12.57,0$Default,,0,0,0,,but you can still make\Ngreat new friends,
+Dialogue: 0,0:12:12.57,0:12:16.23,0$Default,,0,0,0,,lifelong companions,\Nand lovely families!
+Dialogue: 0,0:12:19.31,0:12:23.31,0$Default,,0,0,0,,Chup, you knew Sonia\Nand got us a message from her?
+Dialogue: 0,0:12:23.72,0:12:25.56,0$Default,,0,0,0,,You were doing things all wrong!
+Dialogue: 0,0:12:25.56,0:12:29.06,0$Default,,0,0,0,,The person you love so dearly\Ndoesn't want you to do this!
+Dialogue: 0,0:12:30.82,0:12:33.98,0$Default,,0,0,0,,Demi... Have we been doing things all wrong?
+Dialogue: 0,0:12:33.98,0:12:37.17,0$Default,,0,0,0,,Would Sonia be sad if she saw us now?
+Dialogue: 0,0:12:37.17,0:12:42.78,0$Default,,0,0,0,,Probably. I feel Sonia wouldn't\Naccept what we've been doing.
+Dialogue: 0,0:12:42.78,0:12:45.33,0$Default,,0,0,0,,But it let us see her again.
+Dialogue: 0,0:12:45.33,0:12:48.33,0$Default,,0,0,0,,Yeah. I forgot.
+Dialogue: 0,0:12:48.33,0:12:50.99,0$Default,,0,0,0,,It's just what she would've said.
+Dialogue: 0,0:12:50.99,0:12:53.19,0$Default,,0,0,0,,Sonia never asked for this.
+Dialogue: 0,0:12:53.19,0:12:54.33,0$Default,,0,0,0,,Right.
+Dialogue: 0,0:12:54.33,0:12:56.89,0$Default,,0,0,0,,Actually, we might've known that already.
+Dialogue: 0,0:12:56.89,0:12:59.34,0$Default,,0,0,0,,From the very start,\Nthat we were making a bad choice.
+Dialogue: 0,0:12:59.89,0:13:03.47,0$Default,,0,0,0,,But we were sad about losing Sonia.
+Dialogue: 0,0:13:04.14,0:13:05.41,0$Default,,0,0,0,,Hey, Chup!
+Dialogue: 0,0:13:05.41,0:13:08.41,0$Default,,0,0,0,,Work together and take us down,\Nthat's fine with us!
+Dialogue: 0,0:13:08.41,0:13:09.48,0$Default,,0,0,0,,Do it!
+Dialogue: 0,0:13:10.73,0:13:13.13,0$Default,,0,0,0,,Come on, Chup! Take us on!
+Dialogue: 0,0:13:13.13,0:13:16.98,0$Default,,0,0,0,,I know you didn't get all your friends\Ntogether just for a musical!
+Dialogue: 0,0:13:23.58,0:13:25.97,0$Default,,0,0,0,,Come on, Chup! Take us on!
+Dialogue: 0,0:13:25.97,0:13:29.66,0$Default,,0,0,0,,I know you didn't get all your friends\Ntogether just for a musical!
+Dialogue: 0,0:13:29.66,0:13:30.98,0$Default,,0,0,0,,You're wrong!
+Dialogue: 0,0:13:30.98,0:13:34.76,0$Default,,0,0,0,,I didn't bring everyone here\Njust to beat you!
+Dialogue: 0,0:13:37.22,0:13:38.67,0$Default,,0,0,0,,Then why did you?!
+Dialogue: 0,0:13:38.67,0:13:39.92,0$Default,,0,0,0,,I did it...
+Dialogue: 0,0:13:41.43,0:13:42.93,0$Default,,0,0,0,,so we can...
+Dialogue: 0,0:13:45.93,0:13:47.60,0$Default,,0,0,0,,throw a party!
+Dialogue: 0,0:13:47.60,0:13:48.43,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:13:48.43,0:13:50.23,0$Default,,0,0,0,,Chup, what the heck?!
+Dialogue: 0,0:13:50.23,0:13:52.44,0$Default,,0,0,0,,I'm following my grandmother's words!
+Dialogue: 0,0:13:52.44,0:13:55.81,0$Default,,0,0,0,,The only way to rival a strong foe\Nis to do what they cannot!
+Dialogue: 0,0:13:55.81,0:13:56.52,0$Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:56.52,0:13:59.97,0$Default,,0,0,0,,Once those two destroy the world\Nand everyone in it,
+Dialogue: 0,0:13:59.97,0:14:01.53,0$Default,,0,0,0,,they can't throw a party on their own!
+Dialogue: 0,0:14:02.53,0:14:03.49,0$Default,,0,0,0,,So that's what you meant.
+Dialogue: 0,0:14:03.49,0:14:05.62,0$Default,,0,0,0,,A party sounds like so much fun!
+Dialogue: 0,0:14:06.10,0:14:07.53,0$Default,,0,0,0,,Oh, yeah!
+Dialogue: 0,0:14:09.24,0:14:15.92,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Life is full of pain and sorrow
+Dialogue: 1,0:14:09.24,0:14:15.92,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Life is full of pain and sorrow
+Dialogue: 0,0:14:15.92,0:14:19.63,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Sometimes everything just sucks
+Dialogue: 1,0:14:15.92,0:14:19.63,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Sometimes everything just sucks
+Dialogue: 0,0:14:19.63,0:14:22.26,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Makes you wanna cry, makes you wanna quit
+Dialogue: 1,0:14:19.63,0:14:22.26,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Makes you wanna cry, makes you wanna quit
+Dialogue: 0,0:14:22.26,0:14:25.01,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&\fsp-2}Makes you wanna throw it all away, makes you wanna run away
+Dialogue: 1,0:14:22.26,0:14:25.01,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&\fsp-2}Makes you wanna throw it all away, makes you wanna run away
+Dialogue: 0,0:14:25.01,0:14:29.39,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}'Til you're all depressed again
+Dialogue: 1,0:14:25.01,0:14:29.39,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}'Til you're all depressed again
+Dialogue: 0,0:14:29.39,0:14:37.52,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}But we keep going in spite of it
+Dialogue: 1,0:14:29.39,0:14:37.52,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}But we keep going in spite of it
+Dialogue: 0,0:14:38.90,0:14:43.65,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You can find us all down in town
+Dialogue: 1,0:14:38.90,0:14:43.65,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You can find us all down in town
+Dialogue: 0,0:14:43.65,0:14:48.87,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So don't be glum, you're not alone
+Dialogue: 1,0:14:43.65,0:14:48.87,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So don't be glum, you're not alone
+Dialogue: 0,0:14:48.87,0:14:52.83,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You'll hit it off with someone
+Dialogue: 1,0:14:48.87,0:14:52.83,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You'll hit it off with someone
+Dialogue: 0,0:14:52.83,0:14:57.67,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So come on down and be our friend! (Be our friend!)
+Dialogue: 1,0:14:52.83,0:14:57.67,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So come on down and be our friend! (Be our friend!)
+Dialogue: 0,0:14:57.67,0:15:02.67,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 1,0:14:57.67,0:15:02.67,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 0,0:15:02.67,0:15:08.14,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Anyone can make friends—so can you!
+Dialogue: 1,0:15:02.67,0:15:08.14,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Anyone can make friends—so can you!
+Dialogue: 0,0:15:08.14,0:15:15.69,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So join hands with us and sing along
+Dialogue: 1,0:15:08.14,0:15:15.69,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So join hands with us and sing along
+Dialogue: 0,0:15:17.56,0:15:22.73,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}I am the world, and you're traveling me
+Dialogue: 1,0:15:17.56,0:15:22.73,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}I am the world, and you're traveling me
+Dialogue: 0,0:15:22.73,0:15:27.82,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}We're always together, no matter where we go
+Dialogue: 1,0:15:22.73,0:15:27.82,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}We're always together, no matter where we go
+Dialogue: 0,0:15:27.82,0:15:31.79,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You'll hit it off with someone
+Dialogue: 1,0:15:27.82,0:15:31.79,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You'll hit it off with someone
+Dialogue: 0,0:15:31.79,0:15:36.46,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So come on down and be our friend! (Be our friend!)
+Dialogue: 1,0:15:31.79,0:15:36.46,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So come on down and be our friend! (Be our friend!)
+Dialogue: 0,0:15:36.46,0:15:41.38,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 1,0:15:36.46,0:15:41.38,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}No time to waste, let's be friends! (Let's be friends!)
+Dialogue: 0,0:15:41.38,0:15:47.26,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Anyone can make friends—so can you!
+Dialogue: 1,0:15:41.38,0:15:47.26,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Anyone can make friends—so can you!
+Dialogue: 0,0:15:47.26,0:15:56.35,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So join hands with us and sing along
+Dialogue: 1,0:15:47.26,0:15:56.35,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So join hands with us and sing along
+Dialogue: 0,0:15:57.23,0:15:58.88,0$Default,,0,0,0,,Uh, Glace...
+Dialogue: 0,0:15:58.88,0:16:00.11,0$Default,,0,0,0,,What is all this?
+Dialogue: 0,0:16:00.11,0:16:03.98,0$Default,,0,0,0,,What's wrong, guys?\NCome have fun with us!
+Dialogue: 0,0:16:07.40,0:16:10.26,0$Default,,0,0,0,,It might hurt to lose someone you love,
+Dialogue: 0,0:16:10.26,0:16:11.47,0$Default,,0,0,0,,but you gotta cheer up!
+Dialogue: 0,0:16:11.47,0:16:14.06,0$Default,,0,0,0,,I lost my mom, my dad,\Nand my grandma,
+Dialogue: 0,0:16:14.06,0:16:16.31,0$Default,,0,0,0,,but I'm fully, flawlessly,\Nhappier than ever!
+Dialogue: 0,0:16:16.31,0:16:17.37,0$Default,,0,0,0,,Chup...
+Dialogue: 0,0:16:17.88,0:16:19.37,0$Default,,0,0,0,,Demi, I...
+Dialogue: 0,0:16:19.37,0:16:20.75,0$Default,,0,0,0,,I know.
+Dialogue: 0,0:16:20.75,0:16:22.50,0$Default,,0,0,0,,Come on, join us!
+Dialogue: 0,0:16:22.50,0:16:27.38,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}I've made so many friends
+Dialogue: 1,0:16:22.50,0:16:27.38,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}I've made so many friends
+Dialogue: 0,0:16:27.38,0:16:32.76,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So let's have some fun, all together now
+Dialogue: 1,0:16:27.38,0:16:32.76,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So let's have some fun, all together now
+Dialogue: 0,0:16:32.76,0:16:36.52,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You'll hit it off with someone
+Dialogue: 1,0:16:32.76,0:16:36.52,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You'll hit it off with someone
+Dialogue: 0,0:16:36.52,0:16:41.44,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}All of you are my friends! (We're all friends!)
+Dialogue: 1,0:16:36.52,0:16:41.44,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}All of you are my friends! (We're all friends!)
+Dialogue: 0,0:16:40.48,0:16:41.44,0$Default,,0,0,0,,{\an8}You beast!
+Dialogue: 0,0:16:41.44,0:16:46.32,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}You here, you there, you're my friends! (You're my friends!)
+Dialogue: 1,0:16:41.44,0:16:46.32,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}You here, you there, you're my friends! (You're my friends!)
+Dialogue: 0,0:16:46.32,0:16:52.24,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}Everyone here is my friend!
+Dialogue: 1,0:16:46.32,0:16:52.24,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Everyone here is my friend!
+Dialogue: 0,0:16:52.24,0:16:58.33,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So join hands with us and dance!
+Dialogue: 1,0:16:52.24,0:16:58.33,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So join hands with us and dance!
+Dialogue: 0,0:16:54.79,0:16:56.91,0$Default,,0,0,0,,{\an8}Sexy!
+Dialogue: 0,0:16:57.50,0:16:58.33,0$Default,,0,0,0,,{\an8}Arena!
+Dialogue: 0,0:16:58.33,0:17:04.21,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}The whole world is my friend
+Dialogue: 1,0:16:58.33,0:17:04.21,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}The whole world is my friend
+Dialogue: 0,0:17:04.21,0:17:12.97,0$Ep50 INS,,0,0,0,,{\blur0.7\c&H919191&}So join hands with us and walk on!
+Dialogue: 1,0:17:04.21,0:17:12.97,0$Ep50 INS,,0,0,0,,{\bord0\blur0.7\4a&HFF&}So join hands with us and walk on!
+Dialogue: 0,0:17:13.43,0:17:15.64,0$Default,,0,0,0,,This is friendship?
+Dialogue: 0,0:17:15.64,0:17:20.29,0$Default,,0,0,0,,Demi, my eyes won't stop\Nmaking water...
+Dialogue: 0,0:17:20.29,0:17:22.29,0$Default,,0,0,0,,Mine too...
+Dialogue: 0,0:17:22.29,0:17:23.90,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:17:23.90,0:17:27.53,0$Default,,0,0,0,,Don't cry when you're sad,\Ncry when you're happy!
+Dialogue: 0,0:17:29.40,0:17:30.67,0$Default,,0,0,0,,Chup...
+Dialogue: 0,0:17:36.91,0:17:38.42,0$Default,,0,0,0,,Thank you...
+Dialogue: 0,0:17:45.13,0:17:46.80,0$Default,,0,0,0,,What happened to me?
+Dialogue: 0,0:17:46.80,0:17:48.03,0$Default,,0,0,0,,Vinsant!
+Dialogue: 0,0:17:48.03,0:17:50.20,0$Default,,0,0,0,,You got erased like nothing!
+Dialogue: 0,0:17:50.20,0:17:51.70,0$Default,,0,0,0,,I see.
+Dialogue: 0,0:17:51.70,0:17:53.06,0$Default,,0,0,0,,What about those kids?
+Dialogue: 0,0:17:54.05,0:17:56.10,0$Default,,0,0,0,,The final battle is all over!
+Dialogue: 0,0:17:56.10,0:17:58.43,0$Default,,0,0,0,,Everyone's back!\NAll's well that ends well!
+Dialogue: 0,0:17:58.85,0:18:00.18,0$Default,,0,0,0,,Really?
+Dialogue: 0,0:18:00.18,0:18:03.19,0$Default,,0,0,0,,Yes, really!\NCome on, dance with us, Vinsant!
+Dialogue: 0,0:18:03.19,0:18:04.29,0$Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:04.29,0:18:05.31,0$Default,,0,0,0,,Chup!
+Dialogue: 0,0:18:05.98,0:18:08.94,0$Default,,0,0,0,,Well done, Chup!\NYou have my gratitude.
+Dialogue: 0,0:18:08.94,0:18:12.20,0$Default,,0,0,0,,Your majesty! Princess Melora!\NThank you!
+Dialogue: 0,0:18:12.20,0:18:16.20,0$Default,,0,0,0,,Amazing as ever, Chup!\NWould you like a reward from me?
+Dialogue: 0,0:18:16.20,0:18:17.93,0$Default,,0,0,0,,D-Do you mean it?
+Dialogue: 0,0:18:17.93,0:18:20.70,0$Default,,0,0,0,,I-I'd absolutely love it!
+Dialogue: 0,0:18:20.70,0:18:21.91,0$Default,,0,0,0,,What would you like?
+Dialogue: 0,0:18:21.91,0:18:23.75,0$Default,,0,0,0,,C-Can I ask for anything?
+Dialogue: 0,0:18:24.50,0:18:25.46,0$Default,,0,0,0,,Of course!
+Dialogue: 0,0:18:25.83,0:18:28.96,0$Default,,0,0,0,,I-I wanna see you na—
+Dialogue: 0,0:18:29.96,0:18:30.55,0$Default,,0,0,0,,ked...
+Dialogue: 0,0:18:30.55,0:18:32.63,0$Default,,0,0,0,,You {\i1}know{\i0} you can't ask for that!
+Dialogue: 0,0:18:33.72,0:18:37.18,0$Default,,0,0,0,,I-It was just a joke!\NJeez, you're such a worrywart.
+Dialogue: 0,0:18:37.18,0:18:38.22,0$Default,,0,0,0,,Oh, I'm sure it was.
+Dialogue: 0,0:18:44.92,0:18:46.00,0$Default,,0,0,0,,What?!
+Dialogue: 0,0:18:46.00,0:18:47.92,0$Default,,0,0,0,,Chup, why do only {\i1}you{\i0} get a kiss?
+Dialogue: 0,0:18:47.92,0:18:49.98,0$Default,,0,0,0,,Where's mine? I want one!
+Dialogue: 0,0:18:53.74,0:18:56.16,0$Default,,0,0,0,,I'm in a wonderland of love!
+Dialogue: 0,0:19:04.21,0:19:05.21,0$Default,,0,0,0,,Choochoo!
+Dialogue: 0,0:19:05.21,0:19:08.04,0$Default,,0,0,0,,Alright, guys!\NLet's go nuts tonight!
+Dialogue: 0,0:19:08.04,0:19:09.84,0$Default,,0,0,0,,Yeah!
+Dialogue: 0,0:20:49.64,0:20:51.06,0$Default,,0,0,0,,Are you really leaving?
+Dialogue: 0,0:20:51.06,0:20:53.88,0$Default,,0,0,0,,It'll be pretty lonely here\Nwithout you around.
+Dialogue: 0,0:20:53.88,0:20:57.94,0$Default,,0,0,0,,You're gonna look into that treasure map\Nyour father sent you, right?
+Dialogue: 0,0:20:57.94,0:20:59.99,0$Default,,0,0,0,,Want a lift from Warpman?
+Dialogue: 0,0:21:00.01,0:21:03.20,0$Default,,0,0,0,,Must be shocking to find out\Nyour dad's alive after all this time.
+Dialogue: 0,0:21:03.20,0:21:07.17,0$Default,,0,0,0,,Yeah. I was so sure he died way back then.
+Dialogue: 0,0:21:07.17,0:21:09.98,0$Default,,0,0,0,,But he happened to be doing laundry\Ndown by the river,
+Dialogue: 0,0:21:09.98,0:21:11.33,0$Default,,0,0,0,,and made it out alive.
+Dialogue: 0,0:21:11.33,0:21:14.13,0$Default,,0,0,0,,Who does laundry by the river these days?
+Dialogue: 0,0:21:14.13,0:21:16.88,0$Default,,0,0,0,,Then he sends me this weird map on SnaLine.
+Dialogue: 0,0:21:16.88,0:21:19.30,0$Default,,0,0,0,,The map too!\NHow old-fashioned is he?
+Dialogue: 0,0:21:19.30,0:21:22.05,0$Default,,0,0,0,,Sounds like a good spot\Nto take Warpman to.
+Dialogue: 0,0:21:22.05,0:21:25.96,0$Default,,0,0,0,,He's out there looking for that treasure, right?
+Dialogue: 0,0:21:25.96,0:21:28.77,0$Default,,0,0,0,,Yeah, I think if I follow this map,\NI might come across him.
+Dialogue: 0,0:21:28.77,0:21:31.02,0$Default,,0,0,0,,Sorry, Chup. Wish I could tag along,
+Dialogue: 0,0:21:31.02,0:21:34.54,0$Default,,0,0,0,,but I gotta help my mom with her job.
+Dialogue: 0,0:21:34.54,0:21:38.05,0$Default,,0,0,0,,And I have to pass since I'm\Ntaking sword training classes.
+Dialogue: 0,0:21:38.05,0:21:40.40,0$Default,,0,0,0,,My schedule's free, by the way!
+Dialogue: 0,0:21:40.40,0:21:42.84,0$Default,,0,0,0,,I'm good! I'll do this alone.
+Dialogue: 0,0:21:42.84,0:21:45.72,0$Default,,0,0,0,,I wanna see how far I can make it\Non my own!
+Dialogue: 0,0:21:45.72,0:21:47.29,0$Default,,0,0,0,,Though you will have me.
+Dialogue: 0,0:21:47.29,0:21:47.83,0$Default,,0,0,0,,Sure will!
+Dialogue: 0,0:21:49.04,0:21:50.75,0$Default,,0,0,0,,What about me?
+Dialogue: 0,0:21:51.08,0:21:54.56,0$Default,,0,0,0,,But y'know, it's just like you\Nto leave one adventure behind
+Dialogue: 0,0:21:54.56,0:21:58.80,0$Default,,0,0,0,,with the energy to tackle\Na brand new one right away!
+Dialogue: 0,0:21:59.21,0:22:00.26,0$Default,,0,0,0,,Got that right.
+Dialogue: 0,0:22:00.26,0:22:02.55,0$Default,,0,0,0,,Are you sure you'll be okay, Chup?
+Dialogue: 0,0:22:02.55,0:22:04.55,0$Default,,0,0,0,,I really don't mind coming with you...
+Dialogue: 0,0:22:04.55,0:22:08.18,0$Default,,0,0,0,,You never know when you'll need\Nthe power of Warpman!
+Dialogue: 0,0:22:09.27,0:22:11.40,0$Default,,0,0,0,,I'll be off! Take care, you guys!
+Dialogue: 0,0:22:11.40,0:22:12.31,0$Default,,0,0,0,,Okay!
+Dialogue: 0,0:22:17.52,0:22:20.28,0$Default,,0,0,0,,This is Snack World, the hallowed ground\Nof dreams and adventures.
+Dialogue: 0,0:22:20.28,0:22:23.24,0$Default,,0,0,0,,A world where dragons roam\Nand people have handy smartphones!
+Dialogue: 0,0:22:23.24,0:22:25.03,0$Default,,0,0,0,,It's a pretty cool place, ain't it?
+Dialogue: 0,0:22:25.03,0:22:27.24,0$Default,,0,0,0,,And my name's Chup.
+Dialogue: 0,0:22:27.24,0:22:30.54,0$Default,,0,0,0,,In order to become a super great adventurer\Nthat overcomes any challenge,
+Dialogue: 0,0:22:30.54,0:22:34.29,0$Default,,0,0,0,,I'm gonna keep walking down the path ahead,\None step at a time!
+Dialogue: 0,0:22:34.71,0:22:38.13,0$Default,,0,0,0,,Alright, it's time for a big adventure!
+Dialogue: 0,0:22:39.25,0:22:41.01,0$Default,,0,0,0,,It's like my grandmother said!
+Dialogue: 0,0:22:41.01,0:22:43.59,0$Default,,0,0,0,,Big adventures are endless!!
+Dialogue: 0,0:22:45.72,0:22:46.66,0$Default,,0,0,0,,{\an8}Hey, Mayone!
+Dialogue: 0,0:22:46.66,0:22:48.56,0$Default,,0,0,0,,{\an8}What are you teaching us about today?
+Dialogue: 0,0:22:48.56,0:22:50.54,0$Default,,0,0,0,,{\an8}Today's lesson is on Snack World!
+Dialogue: 0,0:22:50.54,0:22:54.04,0$Default,,0,0,0,,{\an8}Snack World is the world\Nwhere we live!
+Dialogue: 0,0:22:54.04,0:22:57.02,0$Default,,0,0,0,,{\an8}People call it the "hallowed ground\Nof dreams and adventures."
+Dialogue: 0,0:22:57.02,0:22:59.23,0$Default,,0,0,0,,{\an8}It's more than just the continent\Nof our adventure—
+Dialogue: 0,0:22:59.23,0:23:01.44,0$Default,,0,0,0,,{\an8}there's other continents\Nout there too!
+Dialogue: 0,0:23:01.44,0:23:04.11,0$Default,,0,0,0,,{\an8}Some kingdoms out there\Nare advancing their magic tech.
+Dialogue: 0,0:23:04.11,0:23:07.12,0$Default,,0,0,0,,{\an8}So sweet! I wanna see what's\Nout there in the world!
+Dialogue: 0,0:23:07.12,0:23:09.24,0$Default,,0,0,0,,{\an8}Oh, Chup. Take care!
+Comment: 0,0:01:49.34,0:01:52.18,0$Default,,0,0,0,,Episode Title
+Dialogue: 2,0:01:49.34,0:01:52.18,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord0\shad0.01\frz6.484\fsp-34.50}E{\frz6.095\fsp-24.80}p{\frz5.815\fsp-23.73}i{\frz5.548\fsp-33.42}s{\frz5.171\fsp-34.50}o{\frz4.782\fsp-32.90}d{\frz4.411\fsp-25.88}e{\frz4.119\fsp-28.55} {\frz3.797\fsp-37.72}5{\frz3.372\fsp-28.03}0{\frz3.055\fsp-18.87}:{\frz2.843\fsp-27.48} {\frz2.533\fsp-25.88}B{\frz2.241\fsp-26.14}i{\frz1.946\fsp-27.74}g{\frz1.633\fsp-32.34} {\frz1.269\fsp-39.36}A{\frz0.825\fsp-34.50}d{\frz0.436\fsp-33.98}v{\frz0.053\fsp-32.90}e{\frz359.682\fsp-29.11}n{\frz359.353\fsp-29.11}t{\frz359.025\fsp-30.74}u{\frz358.678\fsp-30.22}r{\frz358.338\fsp-31.82}e{\frz357.979\fsp-25.33}s{\frz357.693\fsp-26.41} {\frz357.395\fsp-30.74}a{\frz357.049\fsp-30.22}r{\frz356.708\fsp-25.88}e{\frz356.416\fsp-27.48} {\frz356.106\fsp-34.50}E{\frz355.717\fsp-33.42}n{\frz355.340\fsp-24.80}d{\frz355.061\fsp-24.28}l{\frz354.787\fsp-31.82}e{\frz354.428\fsp-31.27}s{\frz354.075\fsp-23.73}s{\frz353.808\fsp0.00}!
+Dialogue: 1,0:01:49.34,0:01:52.18,0$EPTITLE,,0,0,0,,{\pos(970,799)\fade(250,550)\org(970,5880)\blur0.7\bord3\shad0.01\c&HC1C2C4&\frz6.484\fsp-34.50}E{\frz6.095\fsp-24.80}p{\frz5.815\fsp-23.73}i{\frz5.548\fsp-33.42}s{\frz5.171\fsp-34.50}o{\frz4.782\fsp-32.90}d{\frz4.411\fsp-25.88}e{\frz4.119\fsp-28.55} {\frz3.797\fsp-37.72}5{\frz3.372\fsp-28.03}0{\frz3.055\fsp-18.87}:{\frz2.843\fsp-27.48} {\frz2.533\fsp-25.88}B{\frz2.241\fsp-26.14}i{\frz1.946\fsp-27.74}g{\frz1.633\fsp-32.34} {\frz1.269\fsp-39.36}A{\frz0.825\fsp-34.50}d{\frz0.436\fsp-33.98}v{\frz0.053\fsp-32.90}e{\frz359.682\fsp-29.11}n{\frz359.353\fsp-29.11}t{\frz359.025\fsp-30.74}u{\frz358.678\fsp-30.22}r{\frz358.338\fsp-31.82}e{\frz357.979\fsp-25.33}s{\frz357.693\fsp-26.41} {\frz357.395\fsp-30.74}a{\frz357.049\fsp-30.22}r{\frz356.708\fsp-25.88}e{\frz356.416\fsp-27.48} {\frz356.106\fsp-34.50}E{\frz355.717\fsp-33.42}n{\frz355.340\fsp-24.80}d{\frz355.061\fsp-24.28}l{\frz354.787\fsp-31.82}e{\frz354.428\fsp-31.27}s{\frz354.075\fsp-23.73}s{\frz353.808\fsp0.00}!
+Dialogue: 0,0:01:49.34,0:01:52.18,0$EPTITLE,,0,0,0,,{\pos(975,803)\fade(250,550)\org(975,5884)\blur0.7\bord3\shad0.01\c&H000000&\3c&H000000&\alpha&HB8&\frz6.484\fsp-34.50}E{\frz6.095\fsp-24.80}p{\frz5.815\fsp-23.73}i{\frz5.548\fsp-33.42}s{\frz5.171\fsp-34.50}o{\frz4.782\fsp-32.90}d{\frz4.411\fsp-25.88}e{\frz4.119\fsp-28.55} {\frz3.797\fsp-37.72}5{\frz3.372\fsp-28.03}0{\frz3.055\fsp-18.87}:{\frz2.843\fsp-27.48} {\frz2.533\fsp-25.88}B{\frz2.241\fsp-26.14}i{\frz1.946\fsp-27.74}g{\frz1.633\fsp-32.34} {\frz1.269\fsp-39.36}A{\frz0.825\fsp-34.50}d{\frz0.436\fsp-33.98}v{\frz0.053\fsp-32.90}e{\frz359.682\fsp-29.11}n{\frz359.353\fsp-29.11}t{\frz359.025\fsp-30.74}u{\frz358.678\fsp-30.22}r{\frz358.338\fsp-31.82}e{\frz357.979\fsp-25.33}s{\frz357.693\fsp-26.41} {\frz357.395\fsp-30.74}a{\frz357.049\fsp-30.22}r{\frz356.708\fsp-25.88}e{\frz356.416\fsp-27.48} {\frz356.106\fsp-34.50}E{\frz355.717\fsp-33.42}n{\frz355.340\fsp-24.80}d{\frz355.061\fsp-24.28}l{\frz354.787\fsp-31.82}e{\frz354.428\fsp-31.27}s{\frz354.075\fsp-23.73}s{\frz353.808\fsp0.00}!
+Comment: 0,0:08:02.59,0:08:06.92,0$Default,,0,0,0,,Tome's Proverb 1
+Dialogue: 1,0:08:02.59,0:08:06.92,0$Proverb,,0,0,0,,{\kf48\fs60\pos(1014,395)\c&H0D0D0D&\blur0.8\2aFF}The only way{\kf8}\N{\kf37}to rival{\kf5}\N{\kf58}a strong foe{\kf42}\N{\kf36}is to do{\kf4}\N{\kf128}what they cannot.{\kf67}
+Dialogue: 0,0:08:02.59,0:08:06.92,0$Proverb,,0,0,0,,{\kf48\fs60\c&HF3F0F4&\blur0.8\2aFF\pos(1018,399)}The only way{\kf8}\N{\kf37}to rival{\kf5}\N{\kf58}a strong foe{\kf42}\N{\kf36}is to do{\kf4}\N{\kf128}what they cannot.{\kf67}
+Dialogue: 1,0:08:06.47,0:08:06.92,0$Proverb,,0,0,0,,{\fs60\c&H0D0D0D&\blur0.8\pos(1154,443)}-Tome
+Dialogue: 0,0:08:06.47,0:08:06.92,0$Proverb,,0,0,0,,{\fs60\c&HF3F0F4&\blur0.8\pos(1158,447)}-Tome
+Comment: 0,0:17:24.40,0:17:28.24,0$Default,,0,0,0,,Tome's Proverb 2
+Dialogue: 1,0:17:24.40,0:17:28.24,0$Proverb,,0,0,0,,{\kf44\fs60\frz4.625\pos(1322,341)\blur0.8\2aFF\c&H0C0B0D&}Don't cry when{\kf11}\N{\kf42}you're sad,{\kf54}\N{\kf37}cry when{\kf8}\N{\kf29}you're happy.{\kf159}
+Dialogue: 0,0:17:24.40,0:17:28.24,0$Proverb,,0,0,0,,{\kf44\fs60\frz4.625\blur0.8\2aFF\c&HEFF0F0&\pos(1326,345)}Don't cry when{\kf11}\N{\kf42}you're sad,{\kf54}\N{\kf37}cry when{\kf8}\N{\kf29}you're happy.{\kf159}
+Dialogue: 1,0:17:26.78,0:17:28.24,0$Proverb,,0,0,0,,{\kf18\fs60\frz4.625\blur0.8\2aFF\c&H0C0B0D&\pos(1316,403)}-Tome
+Dialogue: 0,0:17:26.78,0:17:28.24,0$Proverb,,0,0,0,,{\kf18\fs60\frz4.625\blur0.8\2aFF\c&HEFF0F0&\pos(1320,407)}-Tome
+Comment: 0,0:22:44.89,0:23:09.91,0$Default,,0,0,0,,Post-ED
+Dialogue: 1,0:22:44.89,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H8768D6&\bord0\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 0,0:22:44.89,0:22:48.56,0$EPTITLE,,0,0,0,,{\c&H0D1114&\3c&H0D1114&\bord3.5\blur1\shad0\fs90\pos(798,573)}Mayone's Snack World Course
+Dialogue: 1,0:22:48.56,0:23:09.91,0$Take H,,0,0,0,,{\c&HE9E7E0&\bord0\blur1\fs90\3c&H1E1E1E&\shad0\pos(636,1057.2)}Snack World
+Dialogue: 0,0:22:48.56,0:23:09.91,0$Take H,,0,0,0,,{\c&H030309&\bord3.5\blur1\fs90\3c&H030309&\shad0\pos(636,1057.2)}Snack World
+Dialogue: 1,0:19:09.84,0:19:14.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf77\3c&H6FA800&\2c&H456706&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:19:09.84,0:19:14.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}nee kimi doko kara kita no?
+Dialogue: 1,0:19:09.84,0:19:14.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}Where are you from?
+Dialogue: 0,0:19:09.84,0:19:14.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}Where are you from?
+Dialogue: 1,0:19:14.51,0:19:19.05,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&H6FA800&\2c&H456706&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:19:14.51,0:19:19.05,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H89B200&\3c&H89B200&\4c&H89B200&}ima boku hima shiten dakedo
+Dialogue: 1,0:19:14.51,0:19:19.05,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&H1787F2&\bord0\4c&H421186&}I've got time to spare
+Dialogue: 0,0:19:14.51,0:19:19.05,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H741EFF&\3c&H741EFF&\4c&H741EFF&}I've got time to spare
+Dialogue: 1,0:19:19.05,0:19:23.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\kf66\3c&HE1811E&\2c&H834B0F&\bord0}ocha{\kf40}{\kf82}shite{\kf50} {\kf72}morae {\kf128}masenka?
+Dialogue: 0,0:19:19.05,0:19:23.64,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ochashite morae masenka?
+Dialogue: 1,0:19:19.05,0:19:23.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Can I pour you some tea?
+Dialogue: 0,0:19:19.05,0:19:23.64,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Can I pour you some tea?
+Dialogue: 1,0:19:23.64,0:19:28.69,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf32\kf86\3c&HE1811E&\2c&H834B0F&\bord0}dame?{\kf34} {\kf68}dame?{\kf44} {\kf102}doushite {\kf94}desuka{\kf44}
+Dialogue: 0,0:19:23.64,0:19:28.69,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}dame? dame? doushite desuka
+Dialogue: 1,0:19:23.64,0:19:28.69,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}No, you say? What's wrong?
+Dialogue: 0,0:19:23.64,0:19:28.69,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}No, you say? What's wrong?
+Dialogue: 1,0:19:28.69,0:19:33.32,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf70\3c&HE1811E&\2c&H046559&\bord0}ji{\kf50}n{\kf58}sei {\kf40}wa{\kf32} {\kf111}rooringu{\kf79} sutoon{\kf19}
+Dialogue: 0,0:19:28.69,0:19:33.32,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H0B9478&\3c&H0B9478&\4c&H0B9478&}jinsei wa rooringu sutoon
+Dialogue: 1,0:19:28.69,0:19:33.32,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H0728A3&\bord0}Life is like a rolling stone
+Dialogue: 0,0:19:28.69,0:19:33.32,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H014FFF&\3c&H014FFF&\4c&H014FFF&}Life is like a rolling stone
+Dialogue: 1,0:19:33.32,0:19:38.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf130\3c&HE1811E&\2c&H102A80&\bord0}tamaru {\kf120}konbini {\kf48}bukur{\kf154}o{\kf27}
+Dialogue: 0,0:19:33.32,0:19:38.12,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}tamaru konbini bukuro
+Dialogue: 1,0:19:33.32,0:19:38.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Shopping bags piling up
+Dialogue: 0,0:19:33.32,0:19:38.12,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Shopping bags piling up
+Dialogue: 1,0:19:38.12,0:19:42.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf60\3c&HE1811E&\2c&H102A80&\bord0}se{\kf40}i{\kf60}shun {\kf46}wa{\kf28} {\kf112}kumori {\kf100}zora{\kf14}
+Dialogue: 0,0:19:38.12,0:19:42.83,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1E4BFA&\3c&H1E4BFA&\4c&H1E4BFA&}seishun wa kumori zora
+Dialogue: 1,0:19:38.12,0:19:42.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}Youth is like a dark cloudy sky
+Dialogue: 0,0:19:38.12,0:19:42.83,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}Youth is like a dark cloudy sky
+Dialogue: 1,0:19:42.83,0:19:46.58,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf114\3c&HE1811E&\2c&H706304&\bord0}sumafo {\kf110}izon{\kf50}shou {\kf78}sa{\kf14}
+Dialogue: 0,0:19:42.83,0:19:46.58,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}sumafo izonshou sa
+Dialogue: 1,0:19:42.83,0:19:46.58,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H58178C&\bord0}They're all glued to their phones
+Dialogue: 0,0:19:42.83,0:19:46.58,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&H7E1EFA&\3c&H7E1EFA&\4c&H7E1EFA&}They're all glued to their phones
+Dialogue: 1,0:19:46.58,0:19:48.96,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf48\3c&HE1811E&\2c&H706304&\bord0}donzoko {\kf42}demo {\kf44}ii{\kf68}jan{\kf25}
+Dialogue: 0,0:19:46.58,0:19:48.96,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}donzoko demo iijan
+Dialogue: 1,0:19:46.58,0:19:48.96,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So what if we've hit rock bottom
+Dialogue: 0,0:19:46.58,0:19:48.96,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So what if we've hit rock bottom
+Dialogue: 1,0:19:48.96,0:19:51.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf9\3c&HE1811E&\2c&H706304&\bord0}ki {\kf20}ni {\kf62}shinakute {\kf36}ii{\kf70}jan{\kf23}
+Dialogue: 0,0:19:48.96,0:19:51.25,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD7BD00&\3c&HD7BD00&\4c&HD7BD00&}ki ni shinakute iijan
+Dialogue: 1,0:19:48.96,0:19:51.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't get so hung up on it
+Dialogue: 0,0:19:48.96,0:19:51.25,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}Don't get so hung up on it
+Dialogue: 1,0:19:51.25,0:19:53.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:19:51.25,0:19:53.09,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:19:51.25,0:19:53.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:19:51.25,0:19:53.09,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:19:53.09,0:19:55.97,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H0D7349&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf2}ru {\kf54}kamojan
+Dialogue: 0,0:19:53.09,0:19:55.97,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tabetara kateru kamojan
+Dialogue: 1,0:19:53.09,0:19:55.97,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:19:53.09,0:19:55.97,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:19:55.97,0:19:58.14,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H0D7349&\bord0}dame {\kf34}dame {\kf26}demo {\kf48}ii{\kf73}jan
+Dialogue: 0,0:19:55.97,0:19:58.14,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}dame dame demo iijan
+Dialogue: 1,0:19:55.97,0:19:58.14,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}But if it won't? Oh well
+Dialogue: 0,0:19:55.97,0:19:58.14,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}But if it won't? Oh well
+Dialogue: 1,0:19:58.14,0:20:00.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf30\3c&HE1811E&\2c&H0D7349&\bord0}dou{\kf33}tte {\kf42}koto {\kf46}nee{\kf54}jan{\kf23}
+Dialogue: 0,0:19:58.14,0:20:00.51,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}doutte koto neejan
+Dialogue: 1,0:19:58.14,0:20:00.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Don't worry 'bout it
+Dialogue: 0,0:19:58.14,0:20:00.51,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Don't worry 'bout it
+Dialogue: 1,0:20:00.51,0:20:02.56,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:00.51,0:20:02.56,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:20:00.51,0:20:02.56,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:00.51,0:20:02.56,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:02.56,0:20:05.48,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf26\3c&HE1811E&\2c&H822033&\bord0}me{\kf36}ge{\kf38}zu {\kf20}ni {\kf20}i{\kf42}kou{\kf78}ze{\kf21}
+Dialogue: 0,0:20:02.56,0:20:05.48,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}megezu ni ikouze
+Dialogue: 1,0:20:02.56,0:20:05.48,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep moving forward
+Dialogue: 0,0:20:02.56,0:20:05.48,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}And keep moving forward
+Dialogue: 1,0:20:05.48,0:20:07.60,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf21\3c&HE1811E&\2c&H822033&\bord0}charan{\kf26}poran {\kf26}de {\kf44}ii{\kf68}jan{\kf18}
+Dialogue: 0,0:20:05.48,0:20:07.60,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}charanporan de iijan
+Dialogue: 1,0:20:05.48,0:20:07.60,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}Maybe we're kinda sloppy
+Dialogue: 0,0:20:05.48,0:20:07.60,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}Maybe we're kinda sloppy
+Dialogue: 1,0:20:07.60,0:20:09.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf38\3c&HE1811E&\2c&H822033&\bord0}mucha{\kf30}kucha {\kf32}de {\kf40}ii{\kf66}jan{\kf17}
+Dialogue: 0,0:20:07.60,0:20:09.94,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}muchakucha de iijan
+Dialogue: 1,0:20:07.60,0:20:09.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H813561&\bord0}And sure we're kinda reckless
+Dialogue: 0,0:20:07.60,0:20:09.94,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF1B8B&\3c&HFF1B8B&\4c&HFF1B8B&}And sure we're kinda reckless
+Dialogue: 1,0:20:09.94,0:20:11.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H822033&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:09.94,0:20:11.73,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}katsudon tabe yoojan
+Dialogue: 1,0:20:09.94,0:20:11.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:09.94,0:20:11.73,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:11.73,0:20:14.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf27\3c&HE1811E&\2c&H822033&\bord0}ta{\kf52}be{\kf38}ta{\kf34}ra {\kf50}kate{\kf28}ru {\kf54}kamojan
+Dialogue: 0,0:20:11.73,0:20:14.61,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HF8436B&\3c&HF8436B&\4c&HF8436B&}tabetara kateru kamojan
+Dialogue: 1,0:20:11.73,0:20:14.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}Maybe it'll help us get this katsu-done
+Dialogue: 0,0:20:11.73,0:20:14.61,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HEB1022&\3c&HEB1022&\4c&HEB1022&}Maybe it'll help us get this katsu-done
+Dialogue: 1,0:20:14.61,0:20:16.95,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf40\3c&HE1811E&\2c&H0D7349&\bord0}masshi{\kf32}gura {\kf32}de {\kf36}ii{\kf68}jan{\kf16}
+Dialogue: 0,0:20:14.61,0:20:16.95,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}masshigura de iijan
+Dialogue: 1,0:20:14.61,0:20:16.95,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}So let's go full speed
+Dialogue: 0,0:20:14.61,0:20:16.95,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}So let's go full speed
+Dialogue: 1,0:20:16.95,0:20:19.32,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf34\3c&HE1811E&\2c&H0D7349&\bord0}tsuki {\kf72}susumeba {\kf36}ii{\kf74}jan{\kf12}
+Dialogue: 0,0:20:16.95,0:20:19.32,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}tsuki susumeba iijan
+Dialogue: 1,0:20:16.95,0:20:19.32,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}And keep pushing onwards
+Dialogue: 0,0:20:16.95,0:20:19.32,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}And keep pushing onwards
+Dialogue: 1,0:20:19.32,0:20:21.24,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf57\3c&HE1811E&\2c&H0D7349&\bord0}katsudon {\kf30}tabe {\kf44}yoo{\kf42}jan
+Dialogue: 0,0:20:19.32,0:20:21.24,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&H1CCB82&\3c&H1CCB82&\4c&H1CCB82&}katsudon tabe yoojan
+Dialogue: 1,0:20:19.32,0:20:21.24,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H862706&\bord0}C'mon, let's eat some katsudon
+Dialogue: 0,0:20:19.32,0:20:21.24,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HD25608&\3c&HD25608&\4c&HD25608&}C'mon, let's eat some katsudon
+Dialogue: 1,0:20:21.24,0:20:24.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf36\3c&HE1811E&\2c&H834B0F&\bord0}to{\kf38}ko{\kf46}ton {\kf32}ya{\kf40}rou{\kf20}z{\kf128}e{\kf29}
+Dialogue: 0,0:20:21.24,0:20:24.91,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}tokoton yarouze
+Dialogue: 1,0:20:21.24,0:20:24.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}And see our goals all the way through
+Dialogue: 0,0:20:21.24,0:20:24.91,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}And see our goals all the way through
+Dialogue: 1,0:20:24.91,0:20:29.42,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}nee{\kf48} {\kf59}kimi{\kf51} {\kf58}doko {\kf56}kara {\kf48}kita {\kf46}no?{\kf24}
+Dialogue: 0,0:20:24.91,0:20:29.42,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}nee kimi doko kara kita no?
+Dialogue: 1,0:20:24.91,0:20:29.42,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H790C15&\bord0}Where are you from?
+Dialogue: 0,0:20:24.91,0:20:29.42,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HF70E01&\3c&HF70E01&\4c&HF70E01&}Where are you from?
+Dialogue: 1,0:20:29.42,0:20:33.71,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf50\3c&HE1811E&\2c&H834B0F&\bord0}ima{\kf52} {\kf66}boku{\kf52} {\kf48}hima {\kf52}shiten {\kf100}dakedo{\kf15}
+Dialogue: 0,0:20:29.42,0:20:33.71,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}ima boku hima shiten dakedo
+Dialogue: 1,0:20:29.42,0:20:33.71,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\3c&HF70E01&\4c&H540C53&\bord0}I've got time to spare
+Dialogue: 0,0:20:29.42,0:20:33.71,0$TSSLyricsEDEng,,0,0,0,,{\blur0.7\1c&HFF27FF&\3c&HFF27FF&\4c&HFF27FF&}I've got time to spare
+Dialogue: 1,0:20:33.71,0:20:39.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\kf23\3c&HE1811E&\2c&H834B0F&\bord0}Why {\kf26}don't {\kf24}we {\kf104}eat{\kf62} {\kf40}KATSU{\kf24}D{\kf233}ON?
+Dialogue: 0,0:20:33.71,0:20:39.18,0$TSSLyricsEDRomanji,,0,0,0,,{\blur0.7\1c&HD68626&\3c&HD68626&\4c&HD68626&}Why don't we eat KATSUDON?
+

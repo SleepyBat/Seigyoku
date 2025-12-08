@@ -1,0 +1,814 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Punisigns,Nunito,60,&H00B099FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: OP,Nunito ExtraBold,95,&H00FFFFFF,&H000000FF,&H009840FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:01.86,Default,,0,0,150,,Coming up on {\i1}Punirunes...
+Dialogue: 0,0:00:01.86,0:00:05.24,Default,,0,0,0,,{\an8\i1}Squishy squishy, puni puni\NPunirunes! (Rune-rune!)
+Dialogue: 0,0:00:05.24,0:00:08.95,Default,,0,0,0,,{\an8\i1}Squishy squishy, pet it, take care of it
+Dialogue: 0,0:00:08.95,0:00:12.03,Default,,0,0,0,,{\an8\i1}Squishy squishy, puni puni\NPunirunes! (Rune-rune!)
+Dialogue: 0,0:00:12.03,0:00:14.99,Default,,0,0,0,,{\an8\i1}Let's play, Punirunes!
+Dialogue: 0,0:00:11.45,0:00:13.62,Default,,0,0,0,,The show is squishing!
+Dialogue: 0,0:00:15.49,0:00:16.70,Default,,0,0,0,,Punirunes.
+Dialogue: 0,0:00:16.70,0:00:19.83,Default,,0,0,0,,Before we knew it, these creatures\Nbegan to inhabit the human world.
+Dialogue: 0,0:00:20.58,0:00:23.42,Default,,0,0,0,,They're squishsterious and soft to the touch!
+Dialogue: 0,0:00:23.42,0:00:26.30,Default,,0,0,0,,They all love to be squished.
+Dialogue: 0,0:00:26.30,0:00:29.68,Default,,0,0,0,,There's also fun, adorable puni-pals aplenty.
+Dialogue: 0,0:00:29.97,0:00:33.97,Default,,0,0,0,,Who knows, there could be\Na Punirune right next to you!
+Dialogue: 0,0:00:40.81,0:00:44.32,Default,,0,0,0,,"A Squishy Recovery with Puni-Meds{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}"
+Dialogue: 0,0:00:50.07,0:00:52.91,Default,,0,0,0,,{\i1}Airune and Jewelrune are full of energy.
+Dialogue: 0,0:00:52.91,0:00:55.20,Default,,0,0,0,,{\i1}Although... something's off.
+Dialogue: 0,0:01:23.10,0:01:25.44,Default,,0,0,0,,{\i1}"You have to get some rest!"
+Dialogue: 0,0:01:33.91,0:01:36.16,Default,,0,0,0,,{\i1}Loverune works fast.
+Dialogue: 0,0:01:38.45,0:01:43.50,Default,,0,0,0,,{\i1}It looks like their friends will look after them\Nwhile Yuka is at school.
+Dialogue: 0,0:02:07.52,0:02:09.73,Default,,0,0,0,,{\i1}There's no getting past Loverune.
+Dialogue: 0,0:02:12.74,0:02:16.45,Default,,0,0,0,,{\i1}Ururune draws a picture to cheer\NAirune and Jewelrune up.
+Dialogue: 0,0:02:18.91,0:02:20.33,Default,,0,0,0,,{\i1}All done!
+Dialogue: 0,0:02:33.30,0:02:35.59,Default,,0,0,0,,{\i1}Oh no! This isn't good!
+Dialogue: 0,0:02:40.77,0:02:42.98,Default,,0,0,0,,{\i1}Nice and cool!
+Dialogue: 0,0:02:42.98,0:02:44.73,Default,,0,0,0,,{\i1}That's your reaction?!
+Dialogue: 0,0:02:58.37,0:03:00.45,Default,,0,0,0,,{\i1}Loverune can't get a break.
+Dialogue: 0,0:03:03.33,0:03:04.37,Default,,0,0,0,,{\i1}What's this?
+Dialogue: 0,0:03:09.21,0:03:11.75,Default,,0,0,0,,{\i1}Looks like that's the culprit!
+Dialogue: 0,0:03:15.05,0:03:17.01,Default,,0,0,0,,{\i1}This is a puni-med.
+Dialogue: 0,0:03:17.39,0:03:18.59,Default,,0,0,0,,{\i1}One hit from it...
+Dialogue: 0,0:03:20.97,0:03:22.68,Default,,0,0,0,,{\i1}And it's gone!
+Dialogue: 0,0:03:33.40,0:03:36.20,Default,,0,0,0,,{\i1}Oh dear! They're out of puni-meds!
+Dialogue: 0,0:03:41.08,0:03:45.08,Default,,0,0,0,,{\i1}Everyone is going out to Puniland\Nto get Airune and Jewelrune more puni-meds.
+Dialogue: 0,0:03:46.75,0:03:49.21,Default,,0,0,0,,{\i1}They want to come along, but...
+Dialogue: 0,0:04:00.18,0:04:02.47,Default,,0,0,0,,{\i1}Now that's tough love.
+Dialogue: 0,0:04:04.43,0:04:08.23,Default,,0,0,0,,{\i1}Ururune asks them to let them handle this.
+Dialogue: 0,0:04:10.98,0:04:12.77,Default,,0,0,0,,{\i1}Off they go!
+Dialogue: 0,0:04:20.62,0:04:23.33,Default,,0,0,0,,{\i1}They split into two parties\Nto look for puni-meds.
+Dialogue: 0,0:04:35.88,0:04:40.64,Default,,0,0,0,,{\i1}It's asking if it can spare any puni-meds\Nfor Airune and Jewelrune.
+Dialogue: 0,0:04:52.27,0:04:56.40,Default,,0,0,0,,{\i1}Oshirune rushes down upon hearing\Nthat its idol is in danger!
+Dialogue: 0,0:05:28.35,0:05:30.81,Default,,0,0,0,,{\i1}This should be enough!
+Dialogue: 0,0:05:34.40,0:05:37.82,Default,,0,0,0,,{\i1}Loverune and Ururune make it back first.
+Dialogue: 0,0:05:47.54,0:05:50.41,Default,,0,0,0,,{\i1}Th-They're everywhere! This is bad!
+Dialogue: 0,0:06:00.84,0:06:02.05,Default,,0,0,0,,{\i1}Marvelous!
+Dialogue: 0,0:06:07.68,0:06:10.06,Default,,0,0,0,,{\i1}Super-fast love power!
+Dialogue: 0,0:06:15.90,0:06:17.57,Default,,0,0,0,,{\i1}Ururune does what it can!
+Dialogue: 0,0:06:24.53,0:06:26.07,Default,,0,0,0,,{\i1}Almost there!
+Dialogue: 0,0:06:31.37,0:06:33.71,Default,,0,0,0,,{\i1}O-Oh my goodness!
+Dialogue: 0,0:06:33.71,0:06:35.88,Default,,0,0,0,,{\i1}There's no end to this!
+Dialogue: 0,0:06:46.34,0:06:48.26,Default,,0,0,0,,{\i1}Its love power is at its limit!
+Dialogue: 0,0:06:55.10,0:06:59.44,Default,,0,0,0,,{\i1}Oh? Ururune's tears froze them in place!
+Dialogue: 0,0:07:01.40,0:07:02.69,Default,,0,0,0,,{\i1}That's it!
+Dialogue: 0,0:07:15.83,0:07:18.17,Default,,0,0,0,,{\i1}Go, Ururune!
+Dialogue: 0,0:07:24.17,0:07:27.89,Default,,0,0,0,,{\i1}It's time for Ururune and Loverune's\Ncombination attack:
+Dialogue: 0,0:07:27.89,0:07:32.81,Default,,0,0,0,,{\i1}Urutralove Attack!
+Dialogue: 0,0:07:54.62,0:07:56.16,Default,,0,0,0,,{\i1}There's the final boss!
+Dialogue: 0,0:08:01.75,0:08:04.42,Default,,0,0,0,,{\i1}Oh no! They used them all up!
+Dialogue: 0,0:08:13.64,0:08:16.10,Default,,0,0,0,,{\i1}Enerune and Coolrune return.
+Dialogue: 0,0:08:19.15,0:08:22.82,Default,,0,0,0,,{\i1}"Loverune... Ururune...\Nwe leave the rest to you."
+Dialogue: 0,0:08:39.87,0:08:45.34,Default,,0,0,0,,{\i1}Super Urutralove Tornado!
+Dialogue: 0,0:09:05.65,0:09:07.44,Default,,0,0,0,,{\i1}They're all better now!
+Dialogue: 0,0:09:08.15,0:09:09.49,Default,,0,0,0,,I'm home!
+Dialogue: 0,0:09:11.32,0:09:14.78,Default,,0,0,0,,Airune, Jewelrune, how are you feeling?
+Dialogue: 0,0:09:22.67,0:09:24.34,Default,,0,0,0,,You look much better now!
+Dialogue: 0,0:09:24.34,0:09:25.84,Default,,0,0,0,,Yuka!
+Dialogue: 0,0:09:25.84,0:09:27.63,Default,,0,0,0,,Have you washed your hands?
+Dialogue: 0,0:09:27.63,0:09:29.97,Default,,0,0,0,,Yep, all clean!
+Dialogue: 0,0:09:32.76,0:09:35.64,Default,,0,0,0,,You're so squishy as always!
+Dialogue: 0,0:09:35.64,0:09:38.06,Default,,0,0,0,,{\i1}There's no better Punirune\Nthan a healthy one.
+Dialogue: 0,0:09:39.98,0:09:43.02,Default,,0,0,0,,{\i1}Good work today, Loverune and Ururune.
+Dialogue: 0,0:09:45.94,0:09:48.28,Default,,0,0,0,,The Puni-Puni Squestion!
+Dialogue: 0,0:09:48.28,0:09:50.82,Default,,0,0,0,,I will present a question\Nbased on the events of the episode.
+Dialogue: 0,0:09:50.82,0:09:53.20,Default,,0,0,0,,Try your best to remember!
+Dialogue: 0,0:09:53.20,0:09:56.24,Default,,0,0,0,,Something was off about Airune and Jewelrune,
+Dialogue: 0,0:09:56.74,0:09:59.83,Default,,0,0,0,,so they were put to bed to rest up.
+Dialogue: 0,0:10:00.37,0:10:04.83,Default,,0,0,0,,Their friends looked after them,\Nbut it turned into a disaster.
+Dialogue: 0,0:10:09.05,0:10:10.80,Default,,0,0,0,,Squestion time!
+Dialogue: 0,0:10:10.80,0:10:16.22,Default,,0,0,0,,What item was used to heal\NAirune and Jewelrune?
+Dialogue: 0,0:10:16.22,0:10:21.18,Default,,0,0,0,,Give your frozen brain a squish\Nto find the answer!
+Dialogue: 0,0:10:21.18,0:10:29.73,Default,,0,0,770,,1. Punicine...
+Dialogue: 0,0:10:22.43,0:10:29.73,Default,,0,0,515,,2. Puni-meds...
+Dialogue: 0,0:10:23.73,0:10:29.73,Default,,0,0,255,,3. Capsurunes...
+Dialogue: 0,0:10:24.98,0:10:29.73,Default,,0,0,0,,or 4. Urutralove Tornado?
+Dialogue: 0,0:10:29.73,0:10:31.74,Default,,0,0,0,,Here's the answer!
+Dialogue: 0,0:10:33.86,0:10:36.12,Default,,0,0,0,,The answer is puni-meds!
+Dialogue: 0,0:10:39.95,0:10:44.25,Default,,0,0,0,,Make sure to wash your hands\Nand rinse your mouth to stay healthy!
+Dialogue: 0,0:11:45.35,0:11:48.52,Default,,0,0,0,,Jewelrune, we're about to throw\Nan awesome Christmas party!
+Dialogue: 0,0:11:49.61,0:11:51.94,Default,,0,0,0,,I heard Tomorune's back too!
+Dialogue: 0,0:11:54.07,0:11:57.78,Default,,0,0,0,,Yeah! We're gonna have yummy food\Nand exchange presents...
+Dialogue: 0,0:11:57.78,0:12:01.78,Default,,0,0,0,,Wait, oh no! All the presents are gone!
+Dialogue: 0,0:12:03.29,0:12:06.91,Default,,0,0,0,,Don't worry! Tomorune and Airune\Nwill fix this!
+Dialogue: 0,0:12:06.91,0:12:07.79,Default,,0,0,0,,Probably!
+Dialogue: 0,0:12:08.42,0:12:11.50,Default,,0,0,0,,Next time: "It's Squishmas! Jewelrune{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium} & Tomorune{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}"
+Dialogue: 0,0:12:11.50,0:12:13.25,Default,,0,0,0,,"Puni" in next time!
+Comment: 3,0:10:46.33,0:10:48.13,Default,,0,0,0,,Ending
+Dialogue: 4,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, puni puni
+Dialogue: 3,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, puni puni
+Dialogue: 2,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, puni puni
+Dialogue: 1,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, puni puni
+Dialogue: 1,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, puni puni
+Dialogue: 0,0:10:46.33,0:10:48.09,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, puni puni
+Dialogue: 4,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7}Punirunes! (Rune-rune!)
+Dialogue: 3,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Punirunes! (Rune-rune!)
+Dialogue: 2,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Punirunes! (Rune-rune!)
+Dialogue: 0,0:10:48.09,0:10:49.75,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Punirunes! (Rune-rune!)
+Dialogue: 4,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, pet it, take care of it
+Dialogue: 3,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, pet it, take care of it
+Dialogue: 2,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, pet it, take care of it
+Dialogue: 1,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, pet it, take care of it
+Dialogue: 1,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, pet it, take care of it
+Dialogue: 0,0:10:49.75,0:10:53.38,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, pet it, take care of it
+Dialogue: 4,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, puni puni
+Dialogue: 3,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, puni puni
+Dialogue: 2,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, puni puni
+Dialogue: 1,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, puni puni
+Dialogue: 1,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, puni puni
+Dialogue: 0,0:10:53.38,0:10:55.09,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, puni puni
+Dialogue: 4,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7}Punirunes! (Rune-rune!)
+Dialogue: 3,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Punirunes! (Rune-rune!)
+Dialogue: 2,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Punirunes! (Rune-rune!)
+Dialogue: 0,0:10:55.09,0:10:56.68,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Punirunes! (Rune-rune!)
+Dialogue: 4,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\fad(0,200)}Let's play, Punirunes!
+Dialogue: 3,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 2,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 1,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 1,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 0,0:10:56.68,0:10:59.93,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 4,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7}Give the squishence a good stir
+Dialogue: 3,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Give the squishence a good stir
+Dialogue: 2,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Give the squishence a good stir
+Dialogue: 1,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Give the squishence a good stir
+Dialogue: 1,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Give the squishence a good stir
+Dialogue: 0,0:11:00.56,0:11:04.14,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Give the squishence a good stir
+Dialogue: 4,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7}And make a nice yummy dish
+Dialogue: 3,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}And make a nice yummy dish
+Dialogue: 2,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}And make a nice yummy dish
+Dialogue: 1,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}And make a nice yummy dish
+Dialogue: 1,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}And make a nice yummy dish
+Dialogue: 0,0:11:04.14,0:11:07.65,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}And make a nice yummy dish
+Dialogue: 4,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7}Once they're all full
+Dialogue: 3,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Once they're all full
+Dialogue: 2,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Once they're all full
+Dialogue: 1,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Once they're all full
+Dialogue: 1,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Once they're all full
+Dialogue: 0,0:11:07.65,0:11:11.27,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Once they're all full
+Dialogue: 4,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 3,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 2,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 1,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 1,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 0,0:11:11.27,0:11:14.65,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}They look so happy{\fnSegoe UI Symbol}♪
+Dialogue: 4,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7}The more that we're together
+Dialogue: 3,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}The more that we're together
+Dialogue: 2,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}The more that we're together
+Dialogue: 1,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}The more that we're together
+Dialogue: 1,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}The more that we're together
+Dialogue: 0,0:11:14.65,0:11:18.28,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}The more that we're together
+Dialogue: 4,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7}The more we understand each other
+Dialogue: 3,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}The more we understand each other
+Dialogue: 2,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}The more we understand each other
+Dialogue: 1,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}The more we understand each other
+Dialogue: 1,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}The more we understand each other
+Dialogue: 0,0:11:18.28,0:11:21.74,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}The more we understand each other
+Dialogue: 4,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7}And just like that (Squish! Squish!)
+Dialogue: 3,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}And just like that (Squish! Squish!)
+Dialogue: 2,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}And just like that (Squish! Squish!)
+Dialogue: 1,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}And just like that (Squish! Squish!)
+Dialogue: 1,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}And just like that (Squish! Squish!)
+Dialogue: 0,0:11:21.74,0:11:23.50,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}And just like that (Squish! Squish!)
+Dialogue: 4,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7}We're best friends (Squish! Squish!)
+Dialogue: 3,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}We're best friends (Squish! Squish!)
+Dialogue: 2,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}We're best friends (Squish! Squish!)
+Dialogue: 1,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}We're best friends (Squish! Squish!)
+Dialogue: 1,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}We're best friends (Squish! Squish!)
+Dialogue: 0,0:11:23.50,0:11:25.41,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}We're best friends (Squish! Squish!)
+Dialogue: 4,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7}It's so squishsterious!
+Dialogue: 3,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}It's so squishsterious!
+Dialogue: 2,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}It's so squishsterious!
+Dialogue: 1,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}It's so squishsterious!
+Dialogue: 1,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}It's so squishsterious!
+Dialogue: 0,0:11:25.41,0:11:27.96,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}It's so squishsterious!
+Dialogue: 4,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7}Puni!
+Dialogue: 3,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Puni!
+Dialogue: 2,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Puni!
+Dialogue: 1,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Puni!
+Dialogue: 1,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Puni!
+Dialogue: 0,0:11:27.96,0:11:28.88,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Puni!
+Dialogue: 4,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, puni puni
+Dialogue: 3,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, puni puni
+Dialogue: 2,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, puni puni
+Dialogue: 1,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, puni puni
+Dialogue: 1,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, puni puni
+Dialogue: 0,0:11:28.88,0:11:30.59,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, puni puni
+Dialogue: 4,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7}Punirunes! (Rune-rune!)
+Dialogue: 3,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Punirunes! (Rune-rune!)
+Dialogue: 2,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Punirunes! (Rune-rune!)
+Dialogue: 0,0:11:30.59,0:11:32.59,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Punirunes! (Rune-rune!)
+Dialogue: 4,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, pet it, take care of it
+Dialogue: 3,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, pet it, take care of it
+Dialogue: 2,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, pet it, take care of it
+Dialogue: 1,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, pet it, take care of it
+Dialogue: 1,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, pet it, take care of it
+Dialogue: 0,0:11:32.59,0:11:36.09,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, pet it, take care of it
+Dialogue: 4,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7}Squishy squishy, puni puni
+Dialogue: 3,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Squishy squishy, puni puni
+Dialogue: 2,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Squishy squishy, puni puni
+Dialogue: 1,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Squishy squishy, puni puni
+Dialogue: 1,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Squishy squishy, puni puni
+Dialogue: 0,0:11:36.09,0:11:37.80,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Squishy squishy, puni puni
+Dialogue: 4,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7}Punirunes! (Rune-rune!)
+Dialogue: 3,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)}Punirunes! (Rune-rune!)
+Dialogue: 2,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)}Punirunes! (Rune-rune!)
+Dialogue: 1,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)}Punirunes! (Rune-rune!)
+Dialogue: 0,0:11:37.80,0:11:39.43,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)}Punirunes! (Rune-rune!)
+Dialogue: 4,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\fad(0,200)}Let's play, Punirunes!
+Dialogue: 3,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\c&HC3BAB0&\pos(960,61.75)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 2,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\c&H8C4BE8&\3c&H8C4BE8&\xbord5\ybord4\pos(960,61.31)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 1,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\c&HBA76FF&\3c&HBA76FF&\xbord5\ybord4\pos(960,58.68)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 1,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\c&H400C99&\3c&H400C99&\xbord5\ybord4\pos(960,63.4)\fad(0,200)}Let's play, Punirunes!
+Dialogue: 0,0:11:39.43,0:11:42.60,OP,Song,0,0,0,,{\blur0.7\c&H1D0A51&\3c&H1D0A51&\xbord5\ybord4\pos(960,65.31)\fad(0,200)}Let's play, Punirunes!
+Comment: 0,0:00:40.02,0:00:45.02,Default,,0,0,0,,{=0}A Squishy Recovery with Puni-Meds
+Comment: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(981.99,201.94)\blur0.7\an5\fscx230\fscy230\clip(20,196,1940,232)\c&H9787ED&}A Squishy Recovery
+Comment: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(981.99,201.94)\blur0.7\an5\c&HC5B4F5&\fscx230\fscy230}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,196,1940,197)\blur0.7\an5\fscx230\fscy230\c&H9787ED&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,160,1940,198)\blur0.7\an5\fscx230\fscy230\c&H9888ED&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,198,1940,199)\blur0.7\an5\fscx230\fscy230\c&H9989ED&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,199,1940,200)\blur0.7\an5\fscx230\fscy230\c&H9A8AED&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,200,1940,201)\blur0.7\an5\fscx230\fscy230\c&H9C8CED&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,201,1940,202)\blur0.7\an5\fscx230\fscy230\c&H9D8DEE&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,202,1940,203)\blur0.7\an5\fscx230\fscy230\c&H9E8EEE&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,203,1940,204)\blur0.7\an5\fscx230\fscy230\c&HA090EE&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,204,1940,205)\blur0.7\an5\fscx230\fscy230\c&HA191EE&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,205,1940,206)\blur0.7\an5\fscx230\fscy230\c&HA292EF&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,206,1940,207)\blur0.7\an5\fscx230\fscy230\c&HA493EF&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,207,1940,208)\blur0.7\an5\fscx230\fscy230\c&HA595EF&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,208,1940,209)\blur0.7\an5\fscx230\fscy230\c&HA696EF&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,209,1940,210)\blur0.7\an5\fscx230\fscy230\c&HA897EF&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,210,1940,211)\blur0.7\an5\fscx230\fscy230\c&HA999F0&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,211,1940,212)\blur0.7\an5\fscx230\fscy230\c&HAA9AF0&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,212,1940,213)\blur0.7\an5\fscx230\fscy230\c&HAC9BF0&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,213,1940,214)\blur0.7\an5\fscx230\fscy230\c&HAD9CF0&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,214,1940,215)\blur0.7\an5\fscx230\fscy230\c&HAE9EF1&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,215,1940,216)\blur0.7\an5\fscx230\fscy230\c&HAF9FF1&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,216,1940,217)\blur0.7\an5\fscx230\fscy230\c&HB1A0F1&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,217,1940,218)\blur0.7\an5\fscx230\fscy230\c&HB2A2F1&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,218,1940,219)\blur0.7\an5\fscx230\fscy230\c&HB3A3F2&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,219,1940,220)\blur0.7\an5\fscx230\fscy230\c&HB5A4F2&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,220,1940,221)\blur0.7\an5\fscx230\fscy230\c&HB6A5F2&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,221,1940,222)\blur0.7\an5\fscx230\fscy230\c&HB7A7F2&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,222,1940,223)\blur0.7\an5\fscx230\fscy230\c&HB9A8F2&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,223,1940,224)\blur0.7\an5\fscx230\fscy230\c&HBAA9F3&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,224,1940,225)\blur0.7\an5\fscx230\fscy230\c&HBBABF3&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,225,1940,226)\blur0.7\an5\fscx230\fscy230\c&HBDACF3&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,226,1940,227)\blur0.7\an5\fscx230\fscy230\c&HBEADF3&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,227,1940,228)\blur0.7\an5\fscx230\fscy230\c&HBFAEF4&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,228,1940,229)\blur0.7\an5\fscx230\fscy230\c&HC1B0F4&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,229,1940,230)\blur0.7\an5\fscx230\fscy230\c&HC2B1F4&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,230,1940,231)\blur0.7\an5\fscx230\fscy230\c&HC3B2F4&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(20,231,1940,310)\blur0.7\an5\fscx230\fscy230\c&HC5B4F5&\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 5,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H796EE1&\blur0.5\an5\fscx230\fscy230\pos(961.99,205.8)}A Squishy Recovery
+Dialogue: 4,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\pos(961.99,201.94)}A Squishy Recovery
+Dialogue: 4,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\pos(961.99,204.94)}A Squishy Recovery
+Dialogue: 3,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H0CBFF8&\blur0.5\3c&H0CBFF8&\bord16\an5\fscx230\fscy230\pos(961.99,204.8)}A Squishy Recovery
+Dialogue: 2,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H6AD6FB&\blur0.7\3c&H6AD6FB&\bord16\an5\fscx230\fscy230\pos(961.99,201.8)}A Squishy Recovery
+Dialogue: 2,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H04A3F0&\blur0.5\3c&H04A3F0&\bord16\an5\fscx230\fscy230\pos(963.96,207.71)}A Squishy Recovery
+Dialogue: 1,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H0189F0&\blur0.5\3c&H0189F0&\bord16\an5\fscx230\fscy230\pos(967.9,213.13)}A Squishy Recovery
+Dialogue: 0,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H5D5D5D&\blur3\3c&H5D5D5D&\bord16\an5\fscx230\fscy230\alpha&HA2&\pos(968.46,219.69)}A Squishy Recovery
+Comment: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\clip(0,836,1920,872)\c&H9787ED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Comment: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,841.94)\blur0.7\an5\c&HC5B4F5&\fscx230\fscy230}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,836,1920,837)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9787ED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,800,1920,838)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9888ED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,838,1920,839)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9989ED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,839,1920,840)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9A8AED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,840,1920,841)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9C8CED&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,841,1920,842)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9D8DEE&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,842,1920,843)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H9E8EEE&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,843,1920,844)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA090EE&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,844,1920,845)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA191EE&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,845,1920,846)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA292EF&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,846,1920,847)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA493EF&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,847,1920,848)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA595EF&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,848,1920,849)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA696EF&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,849,1920,850)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA897EF&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,850,1920,851)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HA999F0&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,851,1920,852)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HAA9AF0&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,852,1920,853)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HAC9BF0&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,853,1920,854)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HAD9CF0&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,854,1920,855)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HAE9EF1&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,855,1920,856)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HAF9FF1&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,856,1920,857)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB1A0F1&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,857,1920,858)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB2A2F1&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,858,1920,859)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB3A3F2&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,859,1920,860)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB5A4F2&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,860,1920,861)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB6A5F2&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,861,1920,862)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB7A7F2&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,862,1920,863)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HB9A8F2&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,863,1920,864)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HBAA9F3&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,864,1920,865)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HBBABF3&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,865,1920,866)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HBDACF3&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,866,1920,867)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HBEADF3&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,867,1920,868)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HBFAEF4&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,868,1920,869)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HC1B0F4&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,869,1920,870)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HC2B1F4&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,870,1920,871)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HC3B2F4&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\clip(0,871,1920,950)\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HC5B4F5&}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 5,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H796EE1&\blur0.5\an5\pos(961.99,845.8)\fscx230\fscy230}with {\alphaFF}Puni-Meds{\alpha0\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&H5C20F5&\alphaFF\clip(m 796.58 876.33 l 1307.39 843.49 1307.39 784.78 796.58 793.18)}with {\alpha0}Puni-Meds{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 5,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,845.8)\blur0.5\an5\fscx230\fscy230\c&H3413C6&\alphaFF\clip(m 796.58 876.33 l 1307.39 843.49 1307.39 784.78 796.58 793.18)}with {\alpha0}Puni-Meds{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,841.94)\blur0.7\an5\fscx230\fscy230\c&HF2DC3B&\alphaFF\iclip(m 796.58 876.33 l 1307.39 843.49 1307.39 784.78 796.58 793.18)}with {\alpha0}Puni-Meds{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 5,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\pos(961.99,845.8)\blur0.5\an5\fscx230\fscy230\c&H8F8339&\alphaFF\iclip(m 796.58 876.33 l 1307.39 843.49 1307.39 784.78 796.58 793.18)}with {\alpha0}Puni-Meds{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 4,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\pos(961.99,841.94)\fscx230\fscy230}with Puni-Meds{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 4,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\pos(961.99,844.94)\fscx230\fscy230}with Puni-Meds{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 3,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H0CBFF8&\blur0.5\3c&H0CBFF8&\bord16\an5\pos(961.99,844.8)\fscx230\fscy230}with {\3c&HF8D287&\c&HF8D287&}Puni-Meds{\3c&H0CBFF8&\c&H0CBFF8&\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 2,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H6AD6FB&\blur0.7\3c&H6AD6FB&\bord16\an5\pos(961.99,841.8)\fscx230\fscy230}with {\3c&HF7E4B9&\c&HF7E4B9&}Puni-Meds{\3c&H6AD6FB&\c&H6AD6FB&\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 2,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H04A3F0&\blur0.5\3c&H04A3F0&\bord16\an5\pos(963.96,847.71)\fscx230\fscy230}with {\3c&HEFBD67&\c&HEFBD67&}Puni-Meds{\3c&H04A3F0&\c&H04A3F0&\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 1,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{\c&H0189F0&\blur0.5\3c&H0189F0&\bord16\an5\pos(967.9,853.13)\fscx230\fscy230}with {\3c&HE3A711&\c&HE3A711&}Puni-Meds{\3c&H0189F0&\c&H0189F0&\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 0,0:00:40.02,0:00:45.02,Punisigns,,0,0,0,,{=1}{\c&H5D5D5D&\blur3\3c&H5D5D5D&\bord16\an5\fscx230\fscy230\alpha&HA2&\pos(968.46,859.69)}with Puni-Meds{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Comment: 0,0:03:15.01,0:03:17.01,Default,,0,0,0,,{=2}Puni-Med
+Dialogue: 6,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\blur0.7\an5\fscx230\fscy230\c&H5C20F5&\fade(200,0)\clip(m 706.58 786.33 l 1217.39 753.49 1217.39 694.78 706.58 703.18)\pos(955.99,751.94)}Puni-Med
+Dialogue: 5,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\blur0.5\an5\fscx230\fscy230\c&H3413C6&\fade(200,0)\clip(m 706.58 786.33 l 1217.39 753.49 1217.39 694.78 706.58 703.18)\pos(955.99,755.8)}Puni-Med
+Dialogue: 6,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\blur0.7\an5\fscx230\fscy230\c&HF2DC3B&\fade(200,0)\iclip(m 706.58 786.33 l 1217.39 753.49 1217.39 694.78 706.58 703.18)\pos(955.99,751.94)}Puni-Med
+Dialogue: 5,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\blur0.5\an5\fscx230\fscy230\c&H8F8339&\fade(200,0)\iclip(m 706.58 786.33 l 1217.39 753.49 1217.39 694.78 706.58 703.18)\pos(955.99,755.8)}Puni-Med
+Dialogue: 4,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\fade(200,0)\pos(955.99,751.94)}Puni-Med
+Dialogue: 4,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\fade(200,0)\pos(955.99,754.94)}Puni-Med
+Dialogue: 3,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HF8D287&\blur0.5\3c&HF8D287&\bord16\an5\fscx230\fscy230\fade(200,0)\pos(955.99,754.8)}Puni-Med
+Dialogue: 2,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HF7E4B9&\blur0.7\3c&HF7E4B9&\bord16\an5\fscx230\fscy230\fade(200,0)\pos(955.99,751.8)}Puni-Med
+Dialogue: 2,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HEFBD67&\blur0.5\3c&HEFBD67&\bord16\an5\fscx230\fscy230\fade(200,0)\pos(957.96,757.71)}Puni-Med
+Dialogue: 1,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{\c&HE3A711&\blur0.5\3c&HE3A711&\bord16\an5\fscx230\fscy230\fade(200,0)\pos(961.9,763.13)}Puni-Med
+Dialogue: 0,0:03:15.01,0:03:17.01,Punisigns,,0,0,0,,{=3}{\c&H5D5D5D&\blur3\3c&H5D5D5D&\bord16\an5\fscx230\fscy230\alpha&HA2&\fade(200,0)\pos(962.46,769.69)}Puni-Med
+Comment: 0,0:09:45.48,0:09:52.45,Default,,0,0,0,,{=4}The Puni-Puni Squestion!
+Comment: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\pos(411.99,701.94)\blur0.7\an5\fade(476,476)\fscx230\fscy230\clip(0,696,1920,732)\c&H9786EE&}The Puni-Puni Squestion!
+Comment: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\pos(411.99,701.94)\blur0.7\an5\fade(476,476)\c&HC5B4F2&\fscx230\fscy230}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,650,1920,697)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9786EE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,697,1920,698)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9887EE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,698,1920,699)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9988EE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,699,1920,700)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9A89EE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,700,1920,701)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9C8BEE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,701,1920,702)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9D8CEE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,702,1920,703)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&H9E8DEE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,703,1920,704)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA08FEE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,704,1920,705)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA190EE&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,705,1920,706)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA291EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,706,1920,707)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA493EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,707,1920,708)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA594EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,708,1920,709)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA695EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,709,1920,710)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA897EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,710,1920,711)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HA998EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,711,1920,712)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HAA99EF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,712,1920,713)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HAC9BEF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,713,1920,714)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HAD9CEF&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,714,1920,715)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HAE9DF0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,715,1920,716)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HAF9EF0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,716,1920,717)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB1A0F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,717,1920,718)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB2A1F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,718,1920,719)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB3A2F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,719,1920,720)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB5A4F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,720,1920,721)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB6A5F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,721,1920,722)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB7A6F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,722,1920,723)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HB9A8F0&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,723,1920,724)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HBAA9F1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,724,1920,725)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HBBAAF1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,725,1920,726)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HBDACF1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,726,1920,727)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HBEADF1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,727,1920,728)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HBFAEF1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,728,1920,729)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HC1B0F1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,729,1920,730)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HC2B1F1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,730,1920,731)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HC3B2F1&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 6,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\clip(0,731,1920,800)\blur0.7\an5\fade(476,476)\fscx230\fscy230\c&HC5B4F2&\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 5,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&H776FDD&\blur0.5\an5\fade(476,476)\fscx230\fscy230\pos(961.99,705.8)}The Puni-Puni Squestion!
+Dialogue: 4,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fade(476,476)\fscx230\fscy230\pos(961.99,701.94)}The Puni-Puni Squestion!
+Dialogue: 4,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fade(476,476)\fscx230\fscy230\pos(961.99,704.94)}The Puni-Puni Squestion!
+Dialogue: 3,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&H0BBDF8&\blur0.5\3c&H0BBDF8&\bord16\an5\fade(476,476)\fscx230\fscy230\pos(961.99,704.8)}The Puni-Puni Squestion!
+Dialogue: 2,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&H6AD8FD&\blur0.7\3c&H6AD8FD&\bord16\an5\fade(476,476)\fscx230\fscy230\pos(961.99,701.8)}The Puni-Puni Squestion!
+Dialogue: 2,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&H07A2F0&\blur0.5\3c&H07A2F0&\bord16\an5\fade(476,476)\fscx230\fscy230\pos(963.96,707.71)}The Puni-Puni Squestion!
+Dialogue: 1,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{\c&H008BF0&\blur0.5\3c&H008BF0&\bord16\an5\fade(476,476)\fscx230\fscy230\pos(967.9,713.13)}The Puni-Puni Squestion!
+Dialogue: 0,0:09:45.48,0:09:52.45,Punisigns,,0,0,0,,{=5}{\c&H313131&\blur3\3c&H313131&\bord16\an5\fade(476,476)\fscx230\fscy230\alpha&HA3&\pos(968.46,719.69)}The Puni-Puni Squestion!
+Comment: 0,0:10:29.73,0:10:31.74,Default,,0,0,0,,{=6}Here's the Answer...
+Comment: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\pos(411.99,481.94)\blur0.7\an5\fade(0,100)\fscx230\fscy230\clip(0,476,1920,512)\c&H9786EE&}Here's the answer...
+Comment: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\pos(411.99,481.94)\blur0.7\an5\fade(0,100)\c&HC5B4F2&\fscx230\fscy230}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,430,1920,477)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9786EE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,477,1920,478)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9887EE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,478,1920,479)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9988EE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,479,1920,480)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9A89EE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,480,1920,481)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9C8BEE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,481,1920,482)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9D8CEE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,482,1920,483)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&H9E8DEE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,483,1920,484)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA08FEE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,484,1920,485)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA190EE&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,485,1920,486)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA291EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,486,1920,487)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA493EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,487,1920,488)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA594EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,488,1920,489)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA695EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,489,1920,490)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA897EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,490,1920,491)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HA998EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,491,1920,492)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HAA99EF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,492,1920,493)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HAC9BEF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,493,1920,494)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HAD9CEF&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,494,1920,495)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HAE9DF0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,495,1920,496)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HAF9EF0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,496,1920,497)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB1A0F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,497,1920,498)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB2A1F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,498,1920,499)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB3A2F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,499,1920,500)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB5A4F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,500,1920,501)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB6A5F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,501,1920,502)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB7A6F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,502,1920,503)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HB9A8F0&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,503,1920,504)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HBAA9F1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,504,1920,505)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HBBAAF1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,505,1920,506)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HBDACF1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,506,1920,507)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HBEADF1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,507,1920,508)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HBFAEF1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,508,1920,509)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HC1B0F1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,509,1920,510)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HC2B1F1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,510,1920,511)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HC3B2F1&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 6,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\clip(0,511,1920,580)\blur0.7\an5\fade(0,100)\fscx230\fscy230\c&HC5B4F2&\pos(961.99,481.94)}Here's the answer...
+Dialogue: 5,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&H776FDD&\blur0.5\an5\fade(0,100)\fscx230\fscy230\pos(961.99,485.8)}Here's the answer...
+Dialogue: 4,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fade(0,100)\fscx230\fscy230\pos(961.99,481.94)}Here's the answer...
+Dialogue: 4,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fade(0,100)\fscx230\fscy230\pos(961.99,484.94)}Here's the answer...
+Dialogue: 3,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&H0BBDF8&\blur0.5\3c&H0BBDF8&\bord16\an5\fade(0,100)\fscx230\fscy230\pos(961.99,484.8)}Here's the answer...
+Dialogue: 2,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&H6AD8FD&\blur0.7\3c&H6AD8FD&\bord16\an5\fade(0,100)\fscx230\fscy230\pos(961.99,481.8)}Here's the answer...
+Dialogue: 2,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&H07A2F0&\blur0.5\3c&H07A2F0&\bord16\an5\fade(0,100)\fscx230\fscy230\pos(963.96,487.71)}Here's the answer...
+Dialogue: 1,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{\c&H008BF0&\blur0.5\3c&H008BF0&\bord16\an5\fade(0,100)\fscx230\fscy230\pos(967.9,493.13)}Here's the answer...
+Dialogue: 0,0:10:29.73,0:10:31.74,Punisigns,,0,0,0,,{=7}{\c&H313131&\blur3\3c&H313131&\bord16\an5\fade(0,100)\fscx230\fscy230\alpha&HA3&\pos(968.46,499.69)}Here's the answer...
+Comment: 0,0:11:44.93,0:12:14.96,Default,,0,0,0,,{=8}Next Time: It's Squishmas! Jewelrune & Tomorune
+Dialogue: 4,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\pos(300.54,181.61)}Next Time
+Dialogue: 3,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\c&HC3BAB0&\pos(300.54,183.36)}Next Time
+Dialogue: 2,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\c&H8C4BE8&\3c&H8C4BE8&\xbord5.5\ybord4.5\pos(300.54,182.92)}Next Time
+Dialogue: 1,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\c&HBA76FF&\3c&HBA76FF&\xbord5.5\ybord4.5\pos(300.54,180.29)}Next Time
+Dialogue: 1,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\c&H400C99&\3c&H400C99&\xbord5.5\ybord4.5\pos(300.54,185.01)}Next Time
+Dialogue: 0,0:11:44.93,0:11:54.94,OP,Song,0,0,0,,{\blur0.7\fs105\c&H1D0A51&\3c&H1D0A51&\xbord5.5\ybord4.5\pos(300.54,186.92)}Next Time
+Dialogue: 4,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\pos(300.54,181.61)}Next Time
+Dialogue: 3,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\c&HC3BAB0&\pos(300.54,183.36)}Next Time
+Dialogue: 2,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\c&H8C4BE8&\3c&H8C4BE8&\xbord5.5\ybord4.5\pos(300.54,182.92)}Next Time
+Dialogue: 1,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\c&HBA76FF&\3c&HBA76FF&\xbord5.5\ybord4.5\pos(300.54,180.29)}Next Time
+Dialogue: 1,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\c&H400C99&\3c&H400C99&\xbord5.5\ybord4.5\pos(300.54,185.01)}Next Time
+Dialogue: 0,0:11:54.94,0:12:04.95,OP,Song,0,0,0,,{\blur0.7\fs105\c&H1D0A51&\3c&H1D0A51&\xbord5.5\ybord4.5\pos(300.54,186.92)}Next Time
+Dialogue: 4,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\pos(300.54,181.61)}Next Time
+Dialogue: 3,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\c&HC3BAB0&\pos(300.54,183.36)}Next Time
+Dialogue: 2,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\c&H8C4BE8&\3c&H8C4BE8&\xbord5.5\ybord4.5\pos(300.54,182.92)}Next Time
+Dialogue: 1,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\c&HBA76FF&\3c&HBA76FF&\xbord5.5\ybord4.5\pos(300.54,180.29)}Next Time
+Dialogue: 1,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\c&H400C99&\3c&H400C99&\xbord5.5\ybord4.5\pos(300.54,185.01)}Next Time
+Dialogue: 0,0:12:04.95,0:12:14.96,OP,Song,0,0,0,,{\blur0.7\fs105\c&H1D0A51&\3c&H1D0A51&\xbord5.5\ybord4.5\pos(300.54,186.92)}Next Time
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(981.99,201.94)\blur0.7\an5\fscx230\fscy230\clip(20,196,1940,232)\c&H9787ED&\fade(476,0)}It's Squishmas!
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(981.99,201.94)\blur0.7\an5\c&HC5B4F5&\fscx230\fscy230\fade(476,0)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,196,1940,197)\blur0.7\an5\fscx230\fscy230\c&H9787ED&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,160,1940,198)\blur0.7\an5\fscx230\fscy230\c&H9888ED&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,198,1940,199)\blur0.7\an5\fscx230\fscy230\c&H9989ED&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,199,1940,200)\blur0.7\an5\fscx230\fscy230\c&H9A8AED&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,200,1940,201)\blur0.7\an5\fscx230\fscy230\c&H9C8CED&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,201,1940,202)\blur0.7\an5\fscx230\fscy230\c&H9D8DEE&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,202,1940,203)\blur0.7\an5\fscx230\fscy230\c&H9E8EEE&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,203,1940,204)\blur0.7\an5\fscx230\fscy230\c&HA090EE&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,204,1940,205)\blur0.7\an5\fscx230\fscy230\c&HA191EE&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,205,1940,206)\blur0.7\an5\fscx230\fscy230\c&HA292EF&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,206,1940,207)\blur0.7\an5\fscx230\fscy230\c&HA493EF&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,207,1940,208)\blur0.7\an5\fscx230\fscy230\c&HA595EF&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,208,1940,209)\blur0.7\an5\fscx230\fscy230\c&HA696EF&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,209,1940,210)\blur0.7\an5\fscx230\fscy230\c&HA897EF&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,210,1940,211)\blur0.7\an5\fscx230\fscy230\c&HA999F0&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,211,1940,212)\blur0.7\an5\fscx230\fscy230\c&HAA9AF0&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,212,1940,213)\blur0.7\an5\fscx230\fscy230\c&HAC9BF0&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,213,1940,214)\blur0.7\an5\fscx230\fscy230\c&HAD9CF0&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,214,1940,215)\blur0.7\an5\fscx230\fscy230\c&HAE9EF1&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,215,1940,216)\blur0.7\an5\fscx230\fscy230\c&HAF9FF1&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,216,1940,217)\blur0.7\an5\fscx230\fscy230\c&HB1A0F1&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,217,1940,218)\blur0.7\an5\fscx230\fscy230\c&HB2A2F1&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,218,1940,219)\blur0.7\an5\fscx230\fscy230\c&HB3A3F2&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,219,1940,220)\blur0.7\an5\fscx230\fscy230\c&HB5A4F2&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,220,1940,221)\blur0.7\an5\fscx230\fscy230\c&HB6A5F2&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,221,1940,222)\blur0.7\an5\fscx230\fscy230\c&HB7A7F2&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,222,1940,223)\blur0.7\an5\fscx230\fscy230\c&HB9A8F2&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,223,1940,224)\blur0.7\an5\fscx230\fscy230\c&HBAA9F3&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,224,1940,225)\blur0.7\an5\fscx230\fscy230\c&HBBABF3&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,225,1940,226)\blur0.7\an5\fscx230\fscy230\c&HBDACF3&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,226,1940,227)\blur0.7\an5\fscx230\fscy230\c&HBEADF3&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,227,1940,228)\blur0.7\an5\fscx230\fscy230\c&HBFAEF4&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,228,1940,229)\blur0.7\an5\fscx230\fscy230\c&HC1B0F4&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,229,1940,230)\blur0.7\an5\fscx230\fscy230\c&HC2B1F4&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,230,1940,231)\blur0.7\an5\fscx230\fscy230\c&HC3B2F4&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(20,231,1940,310)\blur0.7\an5\fscx230\fscy230\c&HC5B4F5&\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H796EE1&\blur0.5\an5\fscx230\fscy230\fade(476,0)\pos(961.99,205.8)}It's Squishmas!
+Dialogue: 4,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\fade(476,0)\pos(961.99,201.94)}It's Squishmas!
+Dialogue: 4,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\fscx230\fscy230\fade(476,0)\pos(961.99,204.94)}It's Squishmas!
+Dialogue: 3,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H0CBFF8&\blur0.5\3c&H0CBFF8&\bord16\an5\fscx230\fscy230\fade(476,0)\pos(961.99,204.8)}It's Squishmas!
+Dialogue: 2,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H6AD6FB&\blur0.7\3c&H6AD6FB&\bord16\an5\fscx230\fscy230\fade(476,0)\pos(961.99,201.8)}It's Squishmas!
+Dialogue: 2,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H04A3F0&\blur0.5\3c&H04A3F0&\bord16\an5\fscx230\fscy230\fade(476,0)\pos(963.96,207.71)}It's Squishmas!
+Dialogue: 1,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H0189F0&\blur0.5\3c&H0189F0&\bord16\an5\fscx230\fscy230\fade(476,0)\pos(967.9,213.13)}It's Squishmas!
+Dialogue: 0,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H5D5D5D&\blur3\3c&H5D5D5D&\bord16\an5\fscx230\fscy230\alpha&HA2&\fade(476,0)\pos(968.46,219.69)}It's Squishmas!
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\clip(0,786,1920,822)\c&H9787ED&\fad(476,0)}Jewelrune Gets Flustered{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\c&HC5B4F5&\fscx230\fscy230\fad(476,0)}Jewelrune Gets Flustered{\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,786,1920,787)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9787ED&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,750,1920,788)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9888ED&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,788,1920,789)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9989ED&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,789,1920,790)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9A8AED&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,790,1920,791)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9C8CED&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,791,1920,792)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9D8DEE&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,792,1920,793)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&H9E8EEE&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,793,1920,794)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA090EE&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,794,1920,795)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA191EE&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,795,1920,796)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA292EF&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,796,1920,797)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA493EF&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,797,1920,798)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA595EF&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,798,1920,799)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA696EF&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,799,1920,800)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA897EF&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,800,1920,801)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HA999F0&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,801,1920,802)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HAA9AF0&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,802,1920,803)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HAC9BF0&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,803,1920,804)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HAD9CF0&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,804,1920,805)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HAE9EF1&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,805,1920,806)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HAF9FF1&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,806,1920,807)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB1A0F1&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,807,1920,808)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB2A2F1&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,808,1920,809)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB3A3F2&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,809,1920,810)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB5A4F2&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,810,1920,811)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB6A5F2&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,811,1920,812)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB7A7F2&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,812,1920,813)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB9A8F2&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,813,1920,814)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBAA9F3&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,814,1920,815)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBBABF3&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,815,1920,816)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBDACF3&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,816,1920,817)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBEADF3&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,817,1920,818)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBFAEF4&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,818,1920,819)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC1B0F4&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,819,1920,820)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC2B1F4&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,820,1920,821)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC3B2F4&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,821,1920,900)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC5B4F5&\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\clip(0,786,1920,822)\c&HE9CC75&\alphaFF}Kachi-Freezy {\alpha0\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\c&HE8BEE0&\fscx230\fscy230\alphaFF}Kachi-Freezy {\alpha0\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fnAvenir LT Std 65 Medium}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,760,1920,787)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE9CC75&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,787,1920,788)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8CB78&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,788,1920,789)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8CB7B&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,789,1920,790)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8CA7E&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,790,1920,791)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8CA81&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,791,1920,792)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8CA84&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,792,1920,793)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C987&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,793,1920,794)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C98A&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,794,1920,795)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C88D&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,795,1920,796)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C890&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,796,1920,797)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C893&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,797,1920,798)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C796&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,798,1920,799)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C799&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,799,1920,800)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C69C&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,800,1920,801)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C69F&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,801,1920,802)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C6A2&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,802,1920,803)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C5A5&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,803,1920,804)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C5A8&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,804,1920,805)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C4AC&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,805,1920,806)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C4AF&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,806,1920,807)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C4B2&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,807,1920,808)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C3B5&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,808,1920,809)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C3B8&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,809,1920,810)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C2BB&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,810,1920,811)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C2BE&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,811,1920,812)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C2C1&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,812,1920,813)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C1C4&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,813,1920,814)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C1C7&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,814,1920,815)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C0CA&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,815,1920,816)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C0CD&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,816,1920,817)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8C0D0&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,817,1920,818)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8BFD3&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,818,1920,819)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8BFD6&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,819,1920,820)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8BED9&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,820,1920,821)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8BEDC&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,821,1920,870)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HE8BEE0&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H796EE1&\blur0.5\an5\pos(961.99,795.8)\fscx230\fscy230\alphaFF\fad(476,0)}Jewelrune{\alpha0\fnSegoe UI Symbol}♪{\fn} & {\alphaFF}Tomorune{\alpha0\fnSegoe UI Symbol}♪{\fn}
+Comment: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H8F7A6F&\blur0.5\an5\pos(961.99,795.8)\fscx230\fscy230\alphaFF\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Comment: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H8370D1&\blur0.5\an5\pos(961.99,795.8)\fscx230\fscy230\alphaFF\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,761,1920,762)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8F7A6F&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,762,1920,763)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7970&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,763,1920,764)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7971&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,764,1920,765)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7972&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,765,1920,766)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7973&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,766,1920,767)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7975&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,767,1920,768)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8E7976&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,768,1920,769)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D7977&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,769,1920,770)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D7978&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,770,1920,771)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D7879&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,771,1920,772)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D787B&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,772,1920,773)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D787C&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,773,1920,774)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D787D&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,774,1920,775)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8D787E&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,775,1920,776)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C787F&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,776,1920,777)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7881&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,777,1920,778)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7882&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,778,1920,779)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7783&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,779,1920,780)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7784&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,780,1920,781)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7785&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,781,1920,782)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8C7787&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,782,1920,783)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B7788&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,783,1920,784)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B7789&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,784,1920,785)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B778A&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,785,1920,786)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B778C&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,786,1920,787)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B768D&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,787,1920,788)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B768E&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,788,1920,789)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8B768F&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,789,1920,790)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7690&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,790,1920,791)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7692&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,791,1920,792)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7693&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,792,1920,793)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7694&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,793,1920,794)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7695&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,794,1920,795)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8A7596&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,795,1920,796)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H897598&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,796,1920,797)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H897599&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,797,1920,798)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H89759A&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,798,1920,799)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H89759B&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,799,1920,800)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H89759C&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,800,1920,801)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H89759E&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,801,1920,802)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H89759F&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,802,1920,803)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A0&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,803,1920,804)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A1&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,804,1920,805)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A3&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,805,1920,806)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A4&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,806,1920,807)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A5&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,807,1920,808)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A6&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,808,1920,809)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8874A7&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,809,1920,810)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8774A9&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,810,1920,811)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773AA&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,811,1920,812)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773AB&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,812,1920,813)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773AC&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,813,1920,814)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773AD&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,814,1920,815)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773AF&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,815,1920,816)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8773B0&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,816,1920,817)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8673B1&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,817,1920,818)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8673B2&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,818,1920,819)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8672B3&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,819,1920,820)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8672B5&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,820,1920,821)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8672B6&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,821,1920,822)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8672B7&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,822,1920,823)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8572B8&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,823,1920,824)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8572BA&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,824,1920,825)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8572BB&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,825,1920,826)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8572BC&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,826,1920,827)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8571BD&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,827,1920,828)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8571BE&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,828,1920,829)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8571C0&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,829,1920,830)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8471C1&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,830,1920,831)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8471C2&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,831,1920,832)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8471C3&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,832,1920,833)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8471C4&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,833,1920,834)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8471C6&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,834,1920,835)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8470C7&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,835,1920,836)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8470C8&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,836,1920,837)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370C9&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,837,1920,838)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370CA&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,838,1920,839)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370CC&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,839,1920,840)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370CD&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,840,1920,841)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370CE&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,841,1920,842)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370CF&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,842,1920,843)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H8370D1&\fad(476,0)}Jewelrune{\alphaFF\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\clip(0,786,1920,822)\c&HB3680B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Comment: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\pos(961.99,791.94)\blur0.7\an5\c&HC98E5B&\fscx230\fscy230\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,750,1920,787)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB3680B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,787,1920,788)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB3690D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,788,1920,789)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB46A0F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,789,1920,790)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB46B11&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,790,1920,791)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB56C14&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,791,1920,792)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB66D16&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,792,1920,793)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB66E18&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,793,1920,794)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB76F1B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,794,1920,795)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB8701D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,795,1920,796)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB8711F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,796,1920,797)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB97221&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,797,1920,798)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HB97324&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,798,1920,799)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBA7526&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,799,1920,800)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBB7628&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,800,1920,801)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBB772B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,801,1920,802)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBC782D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,802,1920,803)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBD792F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,803,1920,804)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBD7A31&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,804,1920,805)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBE7B34&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,805,1920,806)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBE7C36&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,806,1920,807)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HBF7D38&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,807,1920,808)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC07E3B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,808,1920,809)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC07F3D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,809,1920,810)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC1803F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,810,1920,811)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC28241&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,811,1920,812)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC28344&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,812,1920,813)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC38446&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,813,1920,814)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC38548&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,814,1920,815)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC4864B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,815,1920,816)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC5874D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,816,1920,817)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC5884F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,817,1920,818)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC68951&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,818,1920,819)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC78A54&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,819,1920,820)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC78B56&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,820,1920,821)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC88C58&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 6,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,821,1920,890)\pos(961.99,791.94)\blur0.7\an5\fscx230\fscy230\c&HC98E5B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Comment: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H704418&\blur0.5\an5\pos(961.99,795.8)\fscx230\fscy230\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Comment: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H7E585C&\blur0.5\an5\pos(961.99,795.8)\fscx230\fscy230\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,760,1920,761)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H704418&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,761,1920,762)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H704418&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,762,1920,763)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H704419&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,763,1920,764)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H70441A&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,764,1920,765)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H70441B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,765,1920,766)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H70451C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,766,1920,767)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H71451D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,767,1920,768)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H71451D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,768,1920,769)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H71451E&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,769,1920,770)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H71461F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,770,1920,771)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H714620&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,771,1920,772)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H714621&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,772,1920,773)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724622&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,773,1920,774)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724722&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,774,1920,775)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724723&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,775,1920,776)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724724&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,776,1920,777)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724725&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,777,1920,778)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H724826&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,778,1920,779)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H734827&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,779,1920,780)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H734827&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,780,1920,781)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H734828&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,781,1920,782)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H734929&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,782,1920,783)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H73492A&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,783,1920,784)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H73492B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,784,1920,785)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H74492C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,785,1920,786)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H744A2C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,786,1920,787)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H744A2D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,787,1920,788)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H744A2E&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,788,1920,789)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H744A2F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,789,1920,790)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754B30&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,790,1920,791)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754B31&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,791,1920,792)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754B32&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,792,1920,793)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754B32&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,793,1920,794)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754C33&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,794,1920,795)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H754C34&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,795,1920,796)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764C35&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,796,1920,797)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764C36&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,797,1920,798)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764D37&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,798,1920,799)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764D37&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,799,1920,800)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764D38&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,800,1920,801)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H764D39&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,801,1920,802)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774E3A&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,802,1920,803)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774E3B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,803,1920,804)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774E3C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,804,1920,805)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774E3C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,805,1920,806)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774F3D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,806,1920,807)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H774F3E&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,807,1920,808)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H784F3F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,808,1920,809)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H784F40&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,809,1920,810)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H785041&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,810,1920,811)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H785041&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,811,1920,812)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H785042&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,812,1920,813)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H785043&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,813,1920,814)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H795144&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,814,1920,815)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H795145&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,815,1920,816)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H795146&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,816,1920,817)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H795147&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,817,1920,818)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H795247&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,818,1920,819)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A5248&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,819,1920,820)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A5249&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,820,1920,821)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A524A&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,821,1920,822)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A534B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,822,1920,823)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A534C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,823,1920,824)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7A534C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,824,1920,825)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B534D&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,825,1920,826)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B544E&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,826,1920,827)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B544F&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,827,1920,828)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B5450&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,828,1920,829)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B5451&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,829,1920,830)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7B5551&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,830,1920,831)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5552&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,831,1920,832)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5553&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,832,1920,833)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5554&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,833,1920,834)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5655&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,834,1920,835)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5656&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,835,1920,836)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7C5656&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,836,1920,837)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7D5657&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,837,1920,838)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7D5758&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,838,1920,839)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7D5759&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,839,1920,840)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7D575A&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,840,1920,841)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7D575B&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 5,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\clip(0,841,1920,842)\pos(961.99,795.8)\blur0.5\an5\fscx230\fscy230\c&H7E585C&\fade(476,0)\alphaFF}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\alpha0}Tomorune{\alphaFF\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 4,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\pos(961.99,791.94)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 4,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&HFFFFFF&\blur0.5\3c&HFFFFFF&\bord7\an5\pos(961.99,794.94)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 3,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H0CBFF8&\blur0.5\3c&H0CBFF8&\bord16\an5\pos(961.99,794.8)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\3c&HF8D287&\c&HF8D287&}Tomorune{\3c&H0CBFF8&\c&H0CBFF8&\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 2,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H6AD6FB&\blur0.7\3c&H6AD6FB&\bord16\an5\pos(961.99,791.8)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\3c&HF7E4B9&\c&HF7E4B9&}Tomorune{\3c&H6AD6FB&\c&H6AD6FB&\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 2,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H04A3F0&\blur0.5\3c&H04A3F0&\bord16\an5\pos(963.96,797.71)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\3c&HEFBD67&\c&HEFBD67&}Tomorune{\3c&H04A3F0&\c&H04A3F0&\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 1,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{\c&H0189F0&\blur0.5\3c&H0189F0&\bord16\an5\pos(967.9,803.13)\fscx230\fscy230\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & {\3c&HE3A711&\c&HE3A711&}Tomorune{\3c&H0189F0&\c&H0189F0&\fnSegoe UI Symbol}♪{\fn}
+Dialogue: 0,0:12:08.50,0:12:14.96,Punisigns,,0,0,0,,{=9}{\c&H5D5D5D&\blur3\3c&H5D5D5D&\bord16\an5\fscx230\fscy230\alpha&HA2&\pos(968.46,809.69)\fad(476,0)}Jewelrune{\fnSegoe UI Symbol}♪{\fn} & Tomorune{\fnSegoe UI Symbol}♪{\fn}
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
+Data: 8,_aegi_folddata,e0;1;6
+Data: 9,_aegi_folddata,e1;1;6
+

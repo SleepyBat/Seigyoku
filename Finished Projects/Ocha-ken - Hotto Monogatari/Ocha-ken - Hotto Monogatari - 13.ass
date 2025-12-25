@@ -1,0 +1,304 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP_ins,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,7,35,35,28,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,46,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2.25,3.375,1,35,35,32,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:40.86,0:00:43.79,Default,Narrator,0,0,0,,“Are There Any Tea Dogs\NRight by Your Side?”
+Dialogue: 0,0:00:49.00,0:00:52.00,Default,Narrator,0,0,0,,All of a sudden,\Nit’s time to say goodbye.
+Dialogue: 0,0:00:53.17,0:00:56.34,Default,Narrator,0,0,0,,Dad finally came to a resolve:
+Dialogue: 0,0:00:59.31,0:01:05.28,Default,Narrator,0,0,0,,he’s going to go home to the country\Nto help on his parents’ tea field.
+Dialogue: 0,0:01:07.59,0:01:10.05,Default,Mana's Dad,0,0,0,,I’m going to miss this place.
+Dialogue: 0,0:01:10.05,0:01:11.62,Default,Mana's Mom,0,0,0,,Me too.
+Dialogue: 0,0:01:11.62,0:01:13.22,Default,Mana's Mom,0,0,0,,Are you sure about this?
+Dialogue: 0,0:01:13.22,0:01:15.99,Default,Mana's Dad,0,0,0,,Yeah. My father’s getting pretty old,
+Dialogue: 0,0:01:16.33,0:01:20.76,Default,Mana's Dad,0,0,0,,and I really want to spend more time\Nwith the kids.
+Dialogue: 0,0:01:23.10,0:01:26.37,Default,Narrator,0,0,0,,While they’re happy to be spending\Nmore time with their dad,
+Dialogue: 0,0:01:26.37,0:01:30.98,Default,Narrator,0,0,0,,Mana and Sora don’t want to leave\Nthis town either.
+Dialogue: 0,0:01:31.54,0:01:33.58,Default,Narrator,0,0,0,,Neither does Ryoku.
+Dialogue: 0,0:01:37.62,0:01:40.52,Default,Sora,0,0,0,,Ryoku, do you want to stay here too?
+Dialogue: 0,0:01:40.88,0:01:44.42,Default,Mana,0,0,0,,Of course not!\NYou like being with me, don’t you?
+Dialogue: 0,0:01:46.42,0:01:49.79,Default,Mana's Mom,0,0,0,,Mana, Sora, it’s time to go!
+Dialogue: 0,0:01:50.23,0:01:51.30,Default,Mana,0,0,0,,Ryoku...
+Dialogue: 0,0:01:53.56,0:01:54.63,Default,Mana,0,0,0,,Ryoku!
+Dialogue: 0,0:02:04.24,0:02:06.24,Default,Narrator,0,0,0,,You can’t normally see them,
+Dialogue: 0,0:02:06.24,0:02:09.28,Default,Narrator,0,0,0,,but Tea Dogs are everywhere.
+Dialogue: 0,0:02:10.18,0:02:13.45,Default,Narrator,0,0,0,,Whenever you’re tired or sad,
+Dialogue: 0,0:02:13.45,0:02:17.29,Default,Narrator,0,0,0,,take a look around you.
+Dialogue: 0,0:02:17.29,0:02:19.66,Default,Narrator,0,0,0,,Then... just watch.
+Dialogue: 0,0:02:56.69,0:02:59.33,Default,Girl,0,0,0,,Wow! This room is so big!
+Dialogue: 0,0:03:16.71,0:03:19.35,Default,Narrator,0,0,0,,When you feel tired\NAnd empty inside
+Dialogue: 0,0:03:19.35,0:03:22.55,Default,Narrator,0,0,0,,Or lonely\NAnd on the verge of tears
+Dialogue: 0,0:03:22.55,0:03:25.56,Default,Narrator,0,0,0,,There’s one right next to you\NI’m sure of it
+Dialogue: 0,0:02:12.48,0:02:18.32,OP_ins,Mitsuko Horie,0,0,0,,Ryoku is a carefree, peaceful green tea dog
+Dialogue: 0,0:02:18.32,0:02:23.79,OP_ins,Mitsuko Horie,0,0,0,,Cool and naïve, Long is an oolong tea dog
+Dialogue: 0,0:02:23.79,0:02:29.23,OP_ins,Mitsuko Horie,0,0,0,,Perseverant Earl is a righteous black tea dog
+Dialogue: 0,0:02:29.23,0:02:35.61,OP_ins,Mitsuko Horie,0,0,0,,Pampered Chai is a shy black tea dog
+Dialogue: 0,0:02:35.61,0:02:38.31,OP_ins,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dogs
+Dialogue: 0,0:02:38.31,0:02:41.25,OP_ins,Mitsuko Horie,0,0,0,,Run with me (Oh yeah!)
+Dialogue: 0,0:02:41.25,0:02:44.11,OP_ins,Mitsuko Horie,0,0,0,,Further and further (Let's go!)
+Dialogue: 0,0:02:44.11,0:02:49.75,OP_ins,Mitsuko Horie,0,0,0,,Let's play and have fun together (Forever and ever)
+Dialogue: 0,0:02:49.75,0:02:52.79,OP_ins,Mitsuko Horie,0,0,0,,Even if I feel down (Oh yeah!)
+Dialogue: 0,0:02:52.79,0:02:55.76,OP_ins,Mitsuko Horie,0,0,0,,So long as I have you (Alright!)
+Dialogue: 0,0:02:55.76,0:03:01.50,OP_ins,Mitsuko Horie,0,0,0,,I'll be smiling before I even know it (Doo-doo-doo-doo)
+Dialogue: 0,0:03:03.03,0:03:05.17,OP_ins,Mitsuko Horie,0,0,0,,My friend, Tea Dog
+Dialogue: 0,0:03:05.94,0:03:08.24,OP_ins,Mitsuko Horie,0,0,0,,Thank you, Tea Dog
+Dialogue: 0,0:03:08.84,0:03:12.71,OP_ins,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 3,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:40.12,0:00:44.73,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur1\fs45\pos(102,81)}Are There Any Tea Dogs\NRight by Your Side?
+Dialogue: 0,0:00:44.72,0:00:44.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(217.85,362.13)\pos(213.85,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.76,0:00:44.79,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(217.83,362.13)\pos(213.83,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.79,0:00:44.82,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(219.79,362.13)\pos(215.79,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.82,0:00:44.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(221.65,362.13)\pos(217.65,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.86,0:00:44.89,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(223.49,362.13)\pos(219.49,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.89,0:00:44.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(225.4,362.13)\pos(221.4,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.96,0:00:44.99,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(227.3,362.13)\pos(223.3,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:44.99,0:00:45.02,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(229.19,362.13)\pos(225.19,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.02,0:00:45.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(231.08,362.13)\pos(227.08,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.06,0:00:45.09,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(232.97,362.13)\pos(228.97,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.09,0:00:45.12,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(232.96,362.13)\pos(228.96,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.12,0:00:45.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(234.88,362.13)\pos(230.88,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.16,0:00:45.19,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(236.72,362.13)\pos(232.72,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.19,0:00:45.22,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(238.61,362.13)\pos(234.61,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.22,0:00:45.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(240.54,362.13)\pos(236.54,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.26,0:00:45.29,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(240.49,362.13)\pos(236.49,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.29,0:00:45.32,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(242.4,362.13)\pos(238.4,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.32,0:00:45.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(244.26,362.13)\pos(240.26,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.36,0:00:45.39,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(246.09,362.13)\pos(242.09,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.39,0:00:45.42,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(248.02,362.13)\pos(244.02,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.42,0:00:45.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(248.03,362.13)\pos(244.03,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.46,0:00:45.49,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(249.88,362.13)\pos(245.88,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.49,0:00:45.52,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(251.82,362.13)\pos(247.82,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.52,0:00:45.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(253.74,362.13)\pos(249.74,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.56,0:00:45.59,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(255.58,362.13)\pos(251.58,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.59,0:00:45.62,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(255.59,362.13)\pos(251.59,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.62,0:00:45.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(257.55,362.13)\pos(253.55,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.66,0:00:45.69,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(259.32,362.13)\pos(255.32,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.69,0:00:45.72,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(261.22,362.13)\pos(257.22,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.72,0:00:45.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(263.12,362.13)\pos(259.12,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.76,0:00:45.79,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(263.05,362.13)\pos(259.05,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.79,0:00:45.82,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(264.99,362.13)\pos(260.99,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.82,0:00:45.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(266.88,362.13)\pos(262.88,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.86,0:00:45.89,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(268.74,362.13)\pos(264.74,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.89,0:00:45.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(270.64,362.13)\pos(266.64,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.93,0:00:45.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(270.65,362.13)\pos(266.65,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.96,0:00:45.99,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(272.51,362.13)\pos(268.51,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:45.99,0:00:46.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(274.43,362.13)\pos(270.43,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.03,0:00:46.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(276.34,362.13)\pos(272.34,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.06,0:00:46.09,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(278.17,362.13)\pos(274.17,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.09,0:00:46.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(278.18,362.13)\pos(274.18,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.13,0:00:46.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(280.09,362.13)\pos(276.09,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.16,0:00:46.19,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(281.9,362.13)\pos(277.9,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.19,0:00:46.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(283.83,362.13)\pos(279.83,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.23,0:00:46.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(285.78,362.13)\pos(281.78,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.26,0:00:46.29,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(285.73,362.13)\pos(281.73,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.29,0:00:46.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(287.64,362.13)\pos(283.64,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.33,0:00:46.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(289.52,362.13)\pos(285.52,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.36,0:00:46.39,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(291.36,362.13)\pos(287.36,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.39,0:00:46.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(293.24,362.13)\pos(289.24,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.46,0:00:46.49,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(295.15,362.13)\pos(291.15,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.49,0:00:46.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(297.01,362.13)\pos(293.01,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.53,0:00:46.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(298.92,362.13)\pos(294.92,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.56,0:00:46.59,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(300.85,362.13)\pos(296.85,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.59,0:00:46.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(300.83,362.13)\pos(296.83,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.63,0:00:46.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(302.73,362.13)\pos(298.73,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.66,0:00:46.69,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(304.55,362.13)\pos(300.55,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.69,0:00:46.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(306.45,362.13)\pos(302.45,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.73,0:00:46.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(308.38,362.13)\pos(304.38,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.76,0:00:46.79,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(308.3,362.13)\pos(304.3,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.79,0:00:46.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(310.22,362.13)\pos(306.22,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.83,0:00:46.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(312.1,362.13)\pos(308.1,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.86,0:00:46.89,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(313.94,362.13)\pos(309.94,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.89,0:00:46.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(315.87,362.13)\pos(311.87,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.93,0:00:46.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(315.88,362.13)\pos(311.88,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.96,0:00:46.99,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(317.75,362.13)\pos(313.75,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:46.99,0:00:47.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(319.66,362.13)\pos(315.66,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.03,0:00:47.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(321.58,362.13)\pos(317.58,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.06,0:00:47.09,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(323.41,362.13)\pos(319.41,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.09,0:00:47.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(323.43,362.13)\pos(319.43,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.13,0:00:47.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(325.34,362.13)\pos(321.34,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.16,0:00:47.19,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(327.14,362.13)\pos(323.14,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.19,0:00:47.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(329.06,362.13)\pos(325.06,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.23,0:00:47.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(330.98,362.13)\pos(326.98,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.26,0:00:47.29,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(330.9,362.13)\pos(326.9,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.29,0:00:47.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(332.84,362.13)\pos(328.84,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.33,0:00:47.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(334.76,362.13)\pos(330.76,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.36,0:00:47.39,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(336.58,362.13)\pos(332.58,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.39,0:00:47.43,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(338.48,362.13)\pos(334.48,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.43,0:00:47.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(338.5,362.13)\pos(334.5,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.46,0:00:47.49,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(340.38,362.13)\pos(336.38,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.49,0:00:47.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(342.27,362.13)\pos(338.27,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.53,0:00:47.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(344.17,362.13)\pos(340.17,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.56,0:00:47.59,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(346.02,362.13)\pos(342.02,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.59,0:00:47.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(346.03,362.13)\pos(342.03,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.63,0:00:47.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(347.94,362.13)\pos(343.94,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.66,0:00:47.69,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(349.77,362.13)\pos(345.77,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.69,0:00:47.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(351.69,362.13)\pos(347.69,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.73,0:00:47.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(353.62,362.13)\pos(349.62,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.76,0:00:47.79,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(353.55,362.13)\pos(349.55,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.79,0:00:47.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(355.46,362.13)\pos(351.46,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.83,0:00:47.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(357.36,362.13)\pos(353.36,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.86,0:00:47.89,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(359.17,362.13)\pos(355.17,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.89,0:00:47.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(361.1,362.13)\pos(357.1,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.93,0:00:47.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(361.11,362.13)\pos(357.11,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.96,0:00:47.99,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(362.95,362.13)\pos(358.95,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:47.99,0:00:48.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(364.89,362.13)\pos(360.89,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.03,0:00:48.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(366.8,362.13)\pos(362.8,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.06,0:00:48.09,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(368.66,362.13)\pos(364.66,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.09,0:00:48.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(368.67,362.13)\pos(364.67,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.13,0:00:48.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(370.58,362.13)\pos(366.58,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.16,0:00:48.19,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(372.37,362.13)\pos(368.37,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.19,0:00:48.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(374.31,362.13)\pos(370.31,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.23,0:00:48.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(376.21,362.13)\pos(372.21,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.26,0:00:48.29,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(376.13,362.13)\pos(372.13,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.29,0:00:48.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(378.06,362.13)\pos(374.06,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.33,0:00:48.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(379.93,362.13)\pos(375.93,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.36,0:00:48.39,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(381.8,362.13)\pos(377.8,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.39,0:00:48.43,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(383.7,362.13)\pos(379.7,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.43,0:00:48.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(383.72,362.13)\pos(379.72,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.46,0:00:48.49,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(385.59,362.13)\pos(381.59,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.49,0:00:48.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(387.51,362.13)\pos(383.51,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.53,0:00:48.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(389.42,362.13)\pos(385.42,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.56,0:00:48.59,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(391.25,362.13)\pos(387.25,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.59,0:00:48.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(391.26,362.13)\pos(387.26,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.63,0:00:48.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(393.19,362.13)\pos(389.19,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.66,0:00:48.69,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(395,362.13)\pos(391,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.69,0:00:48.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(396.91,362.13)\pos(392.91,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.73,0:00:48.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(398.85,362.13)\pos(394.85,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.76,0:00:48.79,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(398.81,362.13)\pos(394.81,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.79,0:00:48.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(400.71,362.13)\pos(396.71,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.83,0:00:48.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(402.58,362.13)\pos(398.58,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.86,0:00:48.89,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(404.45,362.13)\pos(400.45,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.89,0:00:48.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(406.34,362.13)\pos(402.34,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.93,0:00:48.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(406.35,362.13)\pos(402.35,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.96,0:00:48.99,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(408.23,362.13)\pos(404.23,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:48.99,0:00:49.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(410.11,362.13)\pos(406.11,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.03,0:00:49.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(412.01,362.13)\pos(408.01,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.06,0:00:49.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(413.91,362.13)\pos(409.91,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.13,0:00:49.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(415.83,362.13)\pos(411.83,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.16,0:00:49.19,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(417.63,362.13)\pos(413.63,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.19,0:00:49.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(419.53,362.13)\pos(415.53,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.23,0:00:49.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(421.46,362.13)\pos(417.46,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.26,0:00:49.30,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(421.42,362.13)\pos(417.42,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.30,0:00:49.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(423.32,362.13)\pos(419.32,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.33,0:00:49.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(425.2,362.13)\pos(421.2,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.36,0:00:49.40,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(427.02,362.13)\pos(423.02,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.40,0:00:49.43,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(428.95,362.13)\pos(424.95,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.43,0:00:49.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(428.96,362.13)\pos(424.96,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.46,0:00:49.50,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(430.82,362.13)\pos(426.82,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.50,0:00:49.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(432.74,362.13)\pos(428.74,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.53,0:00:49.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(434.66,362.13)\pos(430.66,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.56,0:00:49.60,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(436.5,362.13)\pos(432.5,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.60,0:00:49.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(436.51,362.13)\pos(432.51,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.63,0:00:49.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(438.42,362.13)\pos(434.42,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.66,0:00:49.70,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(440.24,362.13)\pos(436.24,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.70,0:00:49.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(442.15,362.13)\pos(438.15,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.73,0:00:49.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(444.07,362.13)\pos(440.07,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.76,0:00:49.80,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(443.98,362.13)\pos(439.98,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.80,0:00:49.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(445.93,362.13)\pos(441.93,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.83,0:00:49.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(447.83,362.13)\pos(443.83,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.86,0:00:49.90,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(449.68,362.13)\pos(445.68,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.90,0:00:49.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(451.59,362.13)\pos(447.59,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.93,0:00:49.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(451.6,362.13)\pos(447.6,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:49.96,0:00:50.00,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(453.46,362.13)\pos(449.46,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.00,0:00:50.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(455.36,362.13)\pos(451.36,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.03,0:00:50.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(457.27,362.13)\pos(453.27,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.06,0:00:50.10,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(459.12,362.13)\pos(455.12,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.10,0:00:50.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(459.13,362.13)\pos(455.13,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.13,0:00:50.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(461.04,362.13)\pos(457.04,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.16,0:00:50.20,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(462.86,362.13)\pos(458.86,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.20,0:00:50.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(464.78,362.13)\pos(460.78,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.23,0:00:50.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(466.71,362.13)\pos(462.71,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.26,0:00:50.30,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(466.63,362.13)\pos(462.63,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.30,0:00:50.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(468.55,362.13)\pos(464.55,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.33,0:00:50.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(470.45,362.13)\pos(466.45,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.36,0:00:50.40,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(472.26,362.13)\pos(468.26,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.40,0:00:50.43,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(474.19,362.13)\pos(470.19,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.43,0:00:50.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(474.21,362.13)\pos(470.21,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.46,0:00:50.50,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(476.04,362.13)\pos(472.04,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.50,0:00:50.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(477.98,362.13)\pos(473.98,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.53,0:00:50.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(479.89,362.13)\pos(475.89,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.56,0:00:50.60,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(481.75,362.13)\pos(477.75,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.60,0:00:50.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(481.76,362.13)\pos(477.76,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.63,0:00:50.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(483.69,362.13)\pos(479.69,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.66,0:00:50.70,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(485.48,362.13)\pos(481.48,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.70,0:00:50.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(487.41,362.13)\pos(483.41,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.73,0:00:50.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(489.31,362.13)\pos(485.31,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.76,0:00:50.80,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(489.23,362.13)\pos(485.23,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.80,0:00:50.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(491.16,362.13)\pos(487.16,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.83,0:00:50.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(493.03,362.13)\pos(489.03,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.86,0:00:50.90,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(494.89,362.13)\pos(490.89,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.90,0:00:50.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(496.79,362.13)\pos(492.79,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.93,0:00:50.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(496.8,362.13)\pos(492.8,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:50.96,0:00:51.00,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(498.68,362.13)\pos(494.68,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.00,0:00:51.03,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(500.61,362.13)\pos(496.61,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.03,0:00:51.06,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(502.52,362.13)\pos(498.52,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.06,0:00:51.10,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(504.35,362.13)\pos(500.35,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.10,0:00:51.13,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(504.36,362.13)\pos(500.36,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.13,0:00:51.16,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(506.29,362.13)\pos(502.29,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.16,0:00:51.20,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(508.08,362.13)\pos(504.08,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.20,0:00:51.23,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(510.01,362.13)\pos(506.01,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.23,0:00:51.26,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(511.94,362.13)\pos(507.94,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.26,0:00:51.30,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(511.91,362.13)\pos(507.91,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.30,0:00:51.33,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(513.79,362.13)\pos(509.79,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.33,0:00:51.36,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(515.68,362.13)\pos(511.68,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.36,0:00:51.40,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(517.55,362.13)\pos(513.55,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.40,0:00:51.43,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(519.46,362.13)\pos(515.46,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.43,0:00:51.46,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(519.45,362.13)\pos(515.45,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.46,0:00:51.50,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(521.34,362.13)\pos(517.34,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.50,0:00:51.53,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(523.22,362.13)\pos(519.22,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.53,0:00:51.56,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(525.11,362.13)\pos(521.11,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.56,0:00:51.60,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(526.99,362.13)\pos(522.99,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.60,0:00:51.63,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(527,362.13)\pos(523,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.63,0:00:51.66,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(528.91,362.13)\pos(524.91,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.66,0:00:51.70,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(530.73,362.13)\pos(526.73,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.70,0:00:51.73,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(532.63,362.13)\pos(528.63,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.73,0:00:51.76,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(534.56,362.13)\pos(530.56,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.76,0:00:51.80,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(534.5,362.13)\pos(530.5,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.80,0:00:51.83,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(536.41,362.13)\pos(532.41,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.83,0:00:51.86,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(538.29,362.13)\pos(534.29,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.86,0:00:51.90,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(540.13,362.13)\pos(536.13,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.90,0:00:51.93,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(542.04,362.13)\pos(538.04,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.93,0:00:51.96,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(542.03,362.13)\pos(538.03,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:51.96,0:00:52.00,Signs,,0,0,0,,{=0=1}{\fnCasinoHand\fax0.171684\fscx58.24\fscy59.08\frz-8.7072\frx6.6266\fry40.4533\org(544.01,362.13)\pos(540.01,362.13)\c&HA84D55&\blur1}!@# MOVERS
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:30.56,0:03:32.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:32.38,0:03:34.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:34.23,0:03:37.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:37.77,0:03:41.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:41.57,0:03:45.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:45.27,0:03:48.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e274.27;29.00#7C600.72;234.00#7C617.72;396.00#7C281.28;351.00
+Data: 1,a-mo,e{"originalText"#3A"{\\fnCasinoHand\\fax0.171684\\fscx58.24\\fscy59.08\\frz-8.7072\\frx6.6266\\fry40.4533\\org(544.01#2C362.13)\\pos(540.01#2C362.13)\\c&HA84D55&\\blur1}!@#23 MOVERS"#2C"uuid"#3A"d8286c97-1898-4425-b425-69544598932d"}
+

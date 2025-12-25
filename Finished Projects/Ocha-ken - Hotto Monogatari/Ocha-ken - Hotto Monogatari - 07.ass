@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2,3,1,35,35,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:40.86,0:00:44.06,Default,Narrator,0,0,0,,“Have You Hid From the Rain Lately?”
+Dialogue: 0,0:00:48.37,0:00:51.34,Default,Narrator,0,0,0,,This is Chai\Nfrom the curry shop Calcutta.
+Dialogue: 0,0:00:51.34,0:00:56.14,Default,Narrator,0,0,0,,Today, he’s off in another town\Non an errand for his owner.
+Dialogue: 0,0:00:56.81,0:01:00.18,Default,Narrator,0,0,0,,It’s getting pretty late though.
+Dialogue: 0,0:01:11.42,0:01:13.69,Default,Narrator,0,0,0,,He rushes to hide from the rain.
+Dialogue: 0,0:01:13.69,0:01:16.26,Default,Narrator,0,0,0,,He really wanted to get home...
+Dialogue: 0,0:01:18.46,0:01:21.23,Default,Schoolgirl,0,0,0,,Ugh, I’m all soaked...
+Dialogue: 0,0:01:26.70,0:01:29.21,Default,Schoolgirl,0,0,0,,Do you have a home, little guy?
+Dialogue: 0,0:01:31.24,0:01:33.94,Default,Schoolgirl,0,0,0,,Yeah, I feel you.
+Dialogue: 0,0:01:34.91,0:01:38.82,Default,Schoolgirl,0,0,0,,I don’t get it.\NWhy does it feel so hard to go back?
+Dialogue: 0,0:01:42.25,0:01:44.89,Default,Schoolgirl,0,0,0,,You understand what I’m saying?
+Dialogue: 0,0:01:49.16,0:01:50.46,Default,Schoolgirl,0,0,0,,Where are you going?
+Dialogue: 0,0:01:55.33,0:01:57.97,Default,Schoolgirl,0,0,0,,My home’s after this right.
+Dialogue: 0,0:01:57.97,0:01:59.54,Default,Schoolgirl,0,0,0,,What about you?
+Dialogue: 0,0:02:04.04,0:02:06.21,Default,Schoolgirl,0,0,0,,I can’t do this...
+Dialogue: 0,0:02:07.85,0:02:10.25,Default,Schoolgirl,0,0,0,,It’s too late to go back.
+Dialogue: 0,0:02:20.26,0:02:24.23,Default,Schoolgirl's Mom,0,0,0,,You really should bring an umbrella\Nwhen you go out on a rainy day.
+Dialogue: 0,0:02:24.23,0:02:25.46,Default,Schoolgirl,0,0,0,,Mom?
+Dialogue: 0,0:02:27.00,0:02:29.47,Default,Schoolgirl's Mom,0,0,0,,You’re going to catch a cold!
+Dialogue: 0,0:02:31.94,0:02:35.47,Default,Schoolgirl's Mom,0,0,0,,We’re having your favorite:\Nstewed hamburg steak.
+Dialogue: 0,0:02:40.64,0:02:42.68,Default,Schoolgirl,0,0,0,,Wait for me, Mom.
+Dialogue: 0,0:02:44.62,0:02:46.25,Default,Narrator,0,0,0,,Then, Chai remembered...
+Dialogue: 0,0:02:46.68,0:02:49.59,Default,Narrator,0,0,0,,it’s actually pretty lovely
+Dialogue: 0,0:02:49.59,0:02:51.79,Default,Narrator,0,0,0,,to have someone waiting for you.
+Dialogue: 0,0:02:59.90,0:03:02.67,Default,Narrator,0,0,0,,Rainfall may cloud your soul
+Dialogue: 0,0:03:02.67,0:03:07.84,Default,Narrator,0,0,0,,But rain makes you happier\NWhen the sun returns
+Dialogue: 3,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:40.12,0:00:45.86,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur0.8\fs45\pos(102,81)\fad(0,980)}Have You Hid From\Nthe Rain Lately?
+Dialogue: 0,0:01:00.38,0:01:04.28,Signs,,0,0,0,,{=0}{\fad(1950,1950)\fnCalligrapher\c&H0D3A84&\1a&H90&\blur1\fax0.112963\fscx29.76\fscy29.91\frz-22.5059\frx15.0848\fry7.5181\org(374.39,113.81)\pos(373.05,113.81)}CALCUTTA
+Dialogue: 0,0:02:46.52,0:02:49.45,Signs,,0,0,0,,{=0}{\fad(1680,980)\fnCalligrapher\c&H1B5BC4&\1a&H86&\blur1\fax0.112963\fscx29.76\fscy29.91\frz-22.5059\frx15.0848\fry7.5181\org(374.39,113.81)\pos(373.05,113.81)}CALCUTTA
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:10.56,0:03:12.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:12.38,0:03:14.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:14.23,0:03:17.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:17.77,0:03:21.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:21.57,0:03:25.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:25.27,0:03:28.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e224.39;30.00#7C499.61;140.00#7C466.61;384.98#7C124.39;254.98
+

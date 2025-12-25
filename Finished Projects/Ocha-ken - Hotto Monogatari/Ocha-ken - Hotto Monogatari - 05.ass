@@ -1,0 +1,242 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2,3,1,35,35,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:41.43,0:00:43.83,Default,Narrator,0,0,0,,“Have You Felt Emotional Lately?”
+Dialogue: 0,0:00:56.14,0:00:59.61,Default,Narrator,0,0,0,,It may seem like every day\Nis the same day on loop,
+Dialogue: 0,0:00:59.61,0:01:02.81,Default,Narrator,0,0,0,,but it changes slowly and gradually.
+Dialogue: 0,0:01:03.65,0:01:06.88,Default,Narrator,0,0,0,,Long is watching this baby\Nas always.
+Dialogue: 0,0:01:34.98,0:01:38.15,Default,Narrator,0,0,0,,It may seem like every day\Nis the same day on loop,
+Dialogue: 0,0:01:38.45,0:01:41.62,Default,Narrator,0,0,0,,but that’s not the case at all.
+Dialogue: 0,0:01:41.62,0:01:45.66,Default,Narrator,0,0,0,,It changes very slowly\Nand very gradually.
+Dialogue: 0,0:01:57.74,0:02:01.27,Default,Baby's Mom,0,0,0,,I wonder when babies\Nstop needing all this attention.
+Dialogue: 0,0:02:01.27,0:02:05.64,Default,Baby's Mom,0,0,0,,But I guess their neediness\Nis what makes them so cute.
+Dialogue: 0,0:02:05.64,0:02:07.18,Default,Baby's Dad,0,0,0,,You said it.
+Dialogue: 0,0:02:07.18,0:02:10.08,Default,Baby's Dad,0,0,0,,I hope this one stands up soon.
+Dialogue: 0,0:02:34.97,0:02:38.41,Default,Baby's Mom,0,0,0,,Man. Nothing ever changes.
+Dialogue: 0,0:02:41.31,0:02:42.35,Default,Baby's Mom,0,0,0,,Yes, Long?
+Dialogue: 0,0:02:43.88,0:02:44.82,Default,Baby's Mom,0,0,0,,Oh my!
+Dialogue: 0,0:02:46.55,0:02:47.52,Default,Baby's Mom,0,0,0,,Honey!
+Dialogue: 0,0:02:47.89,0:02:50.29,Default,Baby's Mom,0,0,0,,Look! Our little one\Nis standing up!
+Dialogue: 0,0:02:52.36,0:02:54.83,Default,Narrator,0,0,0,,Perhaps what this couple\Nnearly forgot
+Dialogue: 0,0:02:54.83,0:02:59.10,Default,Narrator,0,0,0,,was to appreciate these\Nsmall, emotional moments in life.
+Dialogue: 0,0:03:00.96,0:03:04.10,Default,Narrator,0,0,0,,Yesterday, today\NTomorrow and thereafter
+Dialogue: 0,0:03:04.10,0:03:08.54,Default,Narrator,0,0,0,,Even if they feel the same\NThere’s always something in store
+Dialogue: 3,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:40.19,0:00:45.03,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur1\fs45\pos(102,81)}Have You Felt\NEmotional Lately?
+Dialogue: 0,0:00:45.02,0:00:45.66,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,116)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.66,0:00:45.69,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,116.06)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.69,0:00:45.72,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,116.39)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.72,0:00:45.76,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,116.48)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.76,0:00:45.79,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,117.13)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.79,0:00:45.82,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,117.92)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.82,0:00:45.86,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,118.97)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.86,0:00:45.89,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,120.31)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.89,0:00:45.93,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,120.39)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.93,0:00:45.96,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,121.91)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.96,0:00:45.99,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,123.63)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:45.99,0:00:46.03,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,125.6)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.03,0:00:46.06,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,127.8)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.06,0:00:46.09,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,127.81)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.09,0:00:46.13,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,130.22)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.13,0:00:46.16,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,132.82)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.16,0:00:46.19,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,135.61)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.19,0:00:46.23,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,138.6)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.23,0:00:46.26,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,138.61)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.26,0:00:46.29,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,141.81)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.29,0:00:46.33,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,145.2)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.33,0:00:46.36,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,148.8)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.36,0:00:46.39,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,152.51)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.39,0:00:46.43,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,152.48)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.43,0:00:46.46,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,156.44)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.46,0:00:46.49,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,160.51)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.49,0:00:46.53,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,164.81)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.53,0:00:46.56,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,169.28)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.56,0:00:46.59,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,169.25)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.59,0:00:46.63,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,173.77)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.63,0:00:46.66,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,178.49)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.66,0:00:46.69,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,183.44)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.69,0:00:46.76,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,188.46)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.76,0:00:46.79,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,193.58)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.79,0:00:46.83,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,198.92)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.83,0:00:46.86,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,204.42)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.86,0:00:46.89,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,209.96)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.89,0:00:46.93,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,209.97)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.93,0:00:46.96,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,215.65)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.96,0:00:46.99,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,221.44)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:46.99,0:00:47.03,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,227.45)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.03,0:00:47.09,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,233.45)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.09,0:00:47.13,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,239.64)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.13,0:00:47.16,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,245.89)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.16,0:00:47.19,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,252.22)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.19,0:00:47.23,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,258.7)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.23,0:00:47.26,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,258.71)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.26,0:00:47.29,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,265.24)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.29,0:00:47.33,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,271.9)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.33,0:00:47.36,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,278.66)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.36,0:00:47.39,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,285.42)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.39,0:00:47.43,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,285.43)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.43,0:00:47.46,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,292.32)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.46,0:00:47.49,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,299.28)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.49,0:00:47.53,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,306.32)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.53,0:00:47.59,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,313.38)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.59,0:00:47.63,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,320.57)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.63,0:00:47.66,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,327.69)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.66,0:00:47.69,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,334.94)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.69,0:00:47.76,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,342.2)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.76,0:00:47.79,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,349.52)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.79,0:00:47.83,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,356.89)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.83,0:00:47.86,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,364.27)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.86,0:00:47.89,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,371.72)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.89,0:00:47.93,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.98,371.74)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.93,0:00:47.96,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,379.16)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.96,0:00:47.99,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,386.66)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:47.99,0:00:48.03,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,394.21)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.03,0:00:48.06,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,401.65)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.06,0:00:48.09,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,401.66)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.09,0:00:48.13,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,409.21)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.13,0:00:48.16,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,416.7)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.16,0:00:48.19,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,424.2)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.19,0:00:48.23,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,431.71)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.23,0:00:48.26,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,431.72)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.26,0:00:48.29,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,439.2)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.29,0:00:48.33,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,446.71)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.33,0:00:48.36,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,454.21)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.36,0:00:48.39,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,461.71)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.39,0:00:48.43,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,461.62)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.43,0:00:48.46,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(330.99,469.11)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.46,0:00:48.49,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,476.48)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.49,0:00:48.53,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,483.89)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.53,0:00:48.56,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,491.19)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.56,0:00:48.59,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,491.17)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.59,0:00:48.63,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.02,498.46)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.63,0:00:48.66,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,505.69)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.66,0:00:48.69,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,512.93)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.69,0:00:48.76,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,519.99)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.76,0:00:48.79,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,527.1)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.79,0:00:48.83,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,534.14)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.83,0:00:48.86,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,541.1)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.86,0:00:48.93,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,547.94)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.93,0:00:48.96,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,554.71)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:00:48.96,0:00:48.99,Signs,,0,0,0,,{=0}{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331.01,561.31)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:01:38.15,0:01:47.96,Signs,,0,0,0,,{\fnHoly Mackerel! Crispy\fsp2\fs20\blur0.9\c&HF7FAF9&\pos(331,116)\t(4453,5487,\c&H845645&)}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:12.51,0:02:14.51,Signs,,0,0,0,,{=1}{\fscx100\fscy100\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(337,124)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.51,0:02:14.55,Signs,,0,0,0,,{=1}{\fscx100.1\fscy100.1\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.99,123.85)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.55,0:02:14.58,Signs,,0,0,0,,{=1}{\fscx100.17\fscy100.17\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.98,123.74)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.58,0:02:14.61,Signs,,0,0,0,,{=1}{\fscx100.28\fscy100.28\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.94,123.58)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.61,0:02:14.65,Signs,,0,0,0,,{=1}{\fscx100.45\fscy100.45\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.93,123.36)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.65,0:02:14.68,Signs,,0,0,0,,{=1}{\fscx100.66\fscy100.66\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.85,123.02)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.68,0:02:14.71,Signs,,0,0,0,,{=1}{\fscx100.96\fscy100.96\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.84,122.61)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.71,0:02:14.75,Signs,,0,0,0,,{=1}{\fscx100.92\fscy100.92\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.82,122.64)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.75,0:02:14.78,Signs,,0,0,0,,{=1}{\fscx101.28\fscy101.28\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.72,122.09)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.78,0:02:14.81,Signs,,0,0,0,,{=1}{\fscx101.64\fscy101.64\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.7,121.6)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.81,0:02:14.85,Signs,,0,0,0,,{=1}{\fscx102.13\fscy102.13\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.65,120.94)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.85,0:02:14.91,Signs,,0,0,0,,{=1}{\fscx102.57\fscy102.57\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.52,120.26)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.91,0:02:14.95,Signs,,0,0,0,,{=1}{\fscx103.03\fscy103.03\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.42,119.56)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.95,0:02:14.98,Signs,,0,0,0,,{=1}{\fscx103.53\fscy103.53\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.31,118.87)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:14.98,0:02:15.01,Signs,,0,0,0,,{=1}{\fscx104.08\fscy104.08\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.21,118.12)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.01,0:02:15.05,Signs,,0,0,0,,{=1}{\fscx104.72\fscy104.72\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.11,117.2)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.05,0:02:15.08,Signs,,0,0,0,,{=1}{\fscx104.73\fscy104.73\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(336.07,117.13)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.08,0:02:15.11,Signs,,0,0,0,,{=1}{\fscx105.32\fscy105.32\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.96,116.27)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.11,0:02:15.15,Signs,,0,0,0,,{=1}{\fscx105.89\fscy105.89\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.84,115.45)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.15,0:02:15.18,Signs,,0,0,0,,{=1}{\fscx106.56\fscy106.56\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.73,114.47)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.18,0:02:15.21,Signs,,0,0,0,,{=1}{\fscx107.26\fscy107.26\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.61,113.42)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.21,0:02:15.25,Signs,,0,0,0,,{=1}{\fscx107.29\fscy107.29\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.6,113.36)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.25,0:02:15.28,Signs,,0,0,0,,{=1}{\fscx107.96\fscy107.96\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.43,112.37)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.28,0:02:15.31,Signs,,0,0,0,,{=1}{\fscx108.73\fscy108.73\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.32,111.29)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.31,0:02:15.35,Signs,,0,0,0,,{=1}{\fscx109.53\fscy109.53\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.18,110.17)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.35,0:02:15.38,Signs,,0,0,0,,{=1}{\fscx110.34\fscy110.34\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.03,109.01)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.38,0:02:15.41,Signs,,0,0,0,,{=1}{\fscx110.36\fscy110.36\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(335.03,108.97)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.41,0:02:15.45,Signs,,0,0,0,,{=1}{\fscx111.25\fscy111.25\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.85,107.72)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.45,0:02:15.48,Signs,,0,0,0,,{=1}{\fscx112.06\fscy112.06\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.71,106.53)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.48,0:02:15.51,Signs,,0,0,0,,{=1}{\fscx112.8\fscy112.8\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.54,105.38)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.51,0:02:15.55,Signs,,0,0,0,,{=1}{\fscx113.68\fscy113.68\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.36,104.1)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.55,0:02:15.58,Signs,,0,0,0,,{=1}{\fscx113.65\fscy113.65\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.35,104.07)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.58,0:02:15.61,Signs,,0,0,0,,{=1}{\fscx114.61\fscy114.61\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.16,102.69)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.61,0:02:15.65,Signs,,0,0,0,,{=1}{\fscx115.59\fscy115.59\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(334.02,101.37)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.65,0:02:15.68,Signs,,0,0,0,,{=1}{\fscx116.56\fscy116.56\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.84,100.03)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.68,0:02:15.71,Signs,,0,0,0,,{=1}{\fscx117.51\fscy117.51\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.65,98.64)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.71,0:02:15.75,Signs,,0,0,0,,{=1}{\fscx117.55\fscy117.55\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.64,98.58)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.75,0:02:15.78,Signs,,0,0,0,,{=1}{\fscx118.52\fscy118.52\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.43,97.11)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.78,0:02:15.81,Signs,,0,0,0,,{=1}{\fscx119.4\fscy119.4\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.26,95.8)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.81,0:02:15.85,Signs,,0,0,0,,{=1}{\fscx120.45\fscy120.45\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(333.07,94.28)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.85,0:02:15.88,Signs,,0,0,0,,{=1}{\fscx121.53\fscy121.53\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.9,92.75)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.88,0:02:15.91,Signs,,0,0,0,,{=1}{\fscx121.56\fscy121.56\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.89,92.68)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.91,0:02:15.95,Signs,,0,0,0,,{=1}{\fscx122.63\fscy122.63\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.68,91.19)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.95,0:02:15.98,Signs,,0,0,0,,{=1}{\fscx123.77\fscy123.77\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.53,89.56)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:15.98,0:02:16.02,Signs,,0,0,0,,{=1}{\fscx124.71\fscy124.71\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.29,88.17)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.02,0:02:16.05,Signs,,0,0,0,,{=1}{\fscx125.86\fscy125.86\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.11,86.51)\alpha&H00&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.05,0:02:16.08,Signs,,0,0,0,,{=1}{\fscx125.85\fscy125.85\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(332.09,86.48)\alpha&H02&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.08,0:02:16.12,Signs,,0,0,0,,{=1}{\fscx126.93\fscy126.93\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(331.88,84.89)\alpha&H0C&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.12,0:02:16.15,Signs,,0,0,0,,{=1}{\fscx128.01\fscy128.01\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(331.68,83.38)\alpha&H16&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.15,0:02:16.18,Signs,,0,0,0,,{=1}{\fscx129.15\fscy129.15\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(331.48,81.75)\alpha&H20&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.18,0:02:16.22,Signs,,0,0,0,,{=1}{\fscx130.19\fscy130.19\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(331.22,80.22)\alpha&H2A&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.22,0:02:16.25,Signs,,0,0,0,,{=1}{\fscx130.19\fscy130.19\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(331.2,80.17)\alpha&H34&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.25,0:02:16.28,Signs,,0,0,0,,{=1}{\fscx131.31\fscy131.31\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.99,78.48)\alpha&H3D&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.28,0:02:16.32,Signs,,0,0,0,,{=1}{\fscx132.45\fscy132.45\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.81,76.9)\alpha&H47&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.32,0:02:16.35,Signs,,0,0,0,,{=1}{\fscx133.52\fscy133.52\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.63,75.32)\alpha&H51&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.35,0:02:16.38,Signs,,0,0,0,,{=1}{\fscx134.66\fscy134.66\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.4,73.63)\alpha&H5B&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.38,0:02:16.42,Signs,,0,0,0,,{=1}{\fscx134.65\fscy134.65\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.4,73.59)\alpha&H65&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.42,0:02:16.45,Signs,,0,0,0,,{=1}{\fscx135.78\fscy135.78\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.2,71.95)\alpha&H6E&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.45,0:02:16.48,Signs,,0,0,0,,{=1}{\fscx137.01\fscy137.01\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(330.06,70.27)\alpha&H78&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.48,0:02:16.52,Signs,,0,0,0,,{=1}{\fscx138\fscy138\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.88,68.74)\alpha&H82&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.52,0:02:16.55,Signs,,0,0,0,,{=1}{\fscx139.26\fscy139.26\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.75,67.01)\alpha&H8C&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.55,0:02:16.58,Signs,,0,0,0,,{=1}{\fscx139.16\fscy139.16\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.73,66.99)\alpha&H96&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.58,0:02:16.62,Signs,,0,0,0,,{=1}{\fscx140.28\fscy140.28\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.61,65.4)\alpha&HA0&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.62,0:02:16.65,Signs,,0,0,0,,{=1}{\fscx141.26\fscy141.26\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.55,64.02)\alpha&HAA&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.65,0:02:16.68,Signs,,0,0,0,,{=1}{\fscx142.36\fscy142.36\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.5,62.5)\alpha&HB3&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.68,0:02:16.72,Signs,,0,0,0,,{=1}{\fscx143.05\fscy143.05\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.48,61.39)\alpha&HBD&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.72,0:02:16.75,Signs,,0,0,0,,{=1}{\fscx142.96\fscy142.96\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.47,61.29)\alpha&HC7&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.75,0:02:16.78,Signs,,0,0,0,,{=1}{\fscx143.11\fscy143.11\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.5,60.97)\alpha&HD1&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.78,0:02:16.82,Signs,,0,0,0,,{=1}{\fscx142.9\fscy142.9\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.5,60.91)\alpha&HDA&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.82,0:02:16.85,Signs,,0,0,0,,{=1}{\fscx143.14\fscy143.14\1a&H00&\fnHoly Mackerel! Crispy\fsp2\fs21.5\blur0.9\c&HF7FAF9&\pos(329.54,60.76)\alpha&HE2&}LONG-LONG EATS RAMEN & FRIED RICE
+Dialogue: 0,0:02:16.09,0:02:17.15,Signs,,0,0,0,,{\fnCCBattleCry\c&H6A6063&\blur1\fs15\frz2.487\pos(367,145)\fad(770,0)}OPEN
+Dialogue: 0,0:02:17.15,0:02:17.29,Signs,,0,0,0,,{=2}{\fnCCBattleCry\c&H6A6063&\blur1\fs15\fax0.046702\fscx94.76\fscy99.08\frz-0.1198\frx5.6885\fry-3.0028\org(371.25,137.86)\pos(370.92,137.86)}OPEN
+Dialogue: 0,0:02:17.29,0:02:17.39,Signs,,0,0,0,,{=3}{\fnCCBattleCry\c&H6A6063&\blur1\fs15\fax-0.326901\fscx70.88\fscy93.06\frz14.7448\frx-9.0054\fry5.3867\org(363.81,131.78)\pos(365.55,131.78)}CLOSED
+Dialogue: 0,0:02:17.39,0:02:17.52,Signs,,0,0,0,,{=4}{\fnCCBattleCry\c&H6A6063&\blur1\fs15\fax-0.139737\fscx85.44\fscy103.41\frz6.4777\frx-4.3226\fry4.1562\org(363.42,142.99)\pos(364.31,142.99)}CLOSED
+Dialogue: 0,0:02:17.52,0:02:18.06,Signs,,0,0,0,,{=4}{\fnCCBattleCry\c&H6A6063&\blur1\fs15\pos(362.81,154.14)}CLOSED
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:10.56,0:03:12.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:12.38,0:03:14.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:14.23,0:03:17.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:17.77,0:03:21.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:21.57,0:03:25.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:25.27,0:03:28.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+
+[Aegisub Extradata]
+Data: 0,a-mo,e{"originalText"#3A"{\\fnHoly Mackerel! Crispy\\fsp2\\fs20\\blur0.9\\c&HF7FAF9&\\pos(331#2C116)}LONG-LONG EATS RAMEN & FRIED RICE"#2C"uuid"#3A"3836f39a-6a24-4b67-94a6-5d53df3b5472"}
+Data: 1,a-mo,e{"originalText"#3A"{\\fnHoly Mackerel! Crispy\\fsp2\\fs21.5\\blur0.9\\c&HF7FAF9&\\pos(337#2C124)\\t(3549#2C4317#2C\\alpha&HE2&)}LONG-LONG EATS RAMEN & FRIED RICE"#2C"uuid"#3A"c0b54d22-ad5e-4586-9830-13cd62343520"}
+Data: 2,_aegi_perspective_ambient_plane,e337.94;125.38#7C401.54;125.38#7C411.06;325.66#7C343.24;323.39
+Data: 3,_aegi_perspective_ambient_plane,e337.94;125.38#7C392.41;111.33#7C389.29;308.15#7C340.24;322.43
+Data: 4,_aegi_perspective_ambient_plane,e328.81;132.40#7C398.73;124.67#7C395.61;322.15#7C329.00;332.22
+

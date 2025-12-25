@@ -1,0 +1,57 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2,3,1,35,35,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:41.03,0:00:44.19,Default,Narrator,0,0,0,,“Have You Had Any\NWonderful Dreams Lately?”
+Dialogue: 0,0:00:51.70,0:00:57.34,Default,Narrator,0,0,0,,This is the garden that the Tea Cats:\NSakura, Lan, and Mine love.
+Dialogue: 0,0:01:02.41,0:01:05.32,Default,Narrator,0,0,0,,The old lady from this sweets shop\Nloves children.
+Dialogue: 0,0:01:05.88,0:01:10.42,Default,Narrator,0,0,0,,Lots of children stop here\Nafter school.
+Dialogue: 0,0:01:14.06,0:01:15.16,Default,Narrator,0,0,0,,Oh dear.
+Dialogue: 0,0:01:15.93,0:01:18.36,Default,Narrator,0,0,0,,Looks like they’re enjoying\Nthemselves, though.
+Dialogue: 0,0:01:32.61,0:01:38.32,Default,Narrator,0,0,0,,But sometimes the old lady\Nfeels somewhat sad.
+Dialogue: 0,0:02:00.24,0:02:05.54,Default,Narrator,0,0,0,,The old lady dreamt of a memory\Nshe’s often recalled.
+Dialogue: 0,0:02:47.99,0:02:51.32,Default,Narrator,0,0,0,,Great big happiness\NIn a small garden
+Dialogue: 0,0:02:51.32,0:02:54.49,Default,Narrator,0,0,0,,Great big pleasures\NFrom small events
+Dialogue: 0,0:02:54.49,0:02:57.36,Default,Narrator,0,0,0,,They're lovely feelings, are they not?
+Dialogue: 0,0:02:58.50,0:02:59.80,Default,Mana,0,0,0,,Grandma!
+Dialogue: 0,0:03:00.80,0:03:03.33,Default,Mana's Grandma,0,0,0,,I’ll be right there.
+Dialogue: 3,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:40.12,0:00:44.90,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur1\fs45\pos(102,81)}Have You Had Any\NWonderful Dreams\NLately?
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:10.56,0:03:12.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:12.38,0:03:14.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:14.23,0:03:17.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:17.77,0:03:21.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:21.57,0:03:25.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:25.27,0:03:28.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+

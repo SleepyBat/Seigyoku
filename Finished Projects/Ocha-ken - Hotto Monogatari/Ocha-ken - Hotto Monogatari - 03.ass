@@ -1,0 +1,61 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2,3,1,35,35,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:41.39,0:00:44.23,Default,Narrator,0,0,0,,“Have You Written\NAny Letters Lately?”
+Dialogue: 0,0:00:55.11,0:00:59.54,Default,Narrator,0,0,0,,Some people write letters on end\Nbut never send them.
+Dialogue: 0,0:01:02.95,0:01:07.35,Default,Narrator,0,0,0,,Like this man, the owner of\Ncafé Casablanca.
+Dialogue: 0,0:01:10.82,0:01:14.16,Default,Narrator,0,0,0,,Instead of mailing his letters,
+Dialogue: 0,0:01:14.16,0:01:16.69,Default,Narrator,0,0,0,,he leaves them next to his coffee can.
+Dialogue: 0,0:01:19.53,0:01:24.07,Default,Narrator,0,0,0,,It’s not that he doesn’t want to.\NThese letters just take courage to send.
+Dialogue: 0,0:01:26.70,0:01:31.88,Default,Narrator,0,0,0,,In his time of need, someone\Nbrings along a gentle fragrance.
+Dialogue: 0,0:02:25.63,0:02:29.60,Default,Narrator,0,0,0,,One day, as the owner was\Npreparing to open the café...
+Dialogue: 0,0:02:36.17,0:02:37.41,Default,Master's Daughter,0,0,0,,Dad?
+Dialogue: 0,0:02:46.88,0:02:48.12,Default,Master,0,0,0,,Welcome home.
+Dialogue: 0,0:02:57.49,0:03:03.10,Default,Narrator,0,0,0,,The many letters left unsent\NCarry heavy feelings left untold
+Dialogue: 0,0:03:03.10,0:03:06.30,Default,Narrator,0,0,0,,But the words that matter most
+Dialogue: 0,0:03:06.84,0:03:09.21,Default,Narrator,0,0,0,,Are “I miss you”
+Dialogue: 3,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.12,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.12,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:40.12,0:00:45.06,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur1\fs45\pos(102,81)}Have You Written\NAny Letters Lately?
+Dialogue: 0,0:00:50.50,0:00:52.44,Signs,,0,0,0,,{=0}{\fnCCBattleCry\fax0.649553\fscx27.08\fscy29.74\frz-24.4981\frx-22.9726\fry-35.3120\org(318.16,195.08)\pos(311.12,195.08)\c&H39323C&\blur1}COFFEE
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:10.56,0:03:12.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:12.38,0:03:14.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:14.23,0:03:17.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:17.77,0:03:21.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:21.57,0:03:25.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:25.27,0:03:28.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e613.52;1076.46#7C644.90;1115.23#7C-1.16;-1276.65#7C-103.29;-929.51
+

@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 720
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Candara,41,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,-1,0,0,0,100,100,0,0,1,2.8125,0,2,35,35,28,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,30,30,50,1
+Style: OP,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00217811,&HA2000000,0,0,0,0,100,100,0,0,1,2.81,3,1,35,35,28,1
+Style: ED,CasinoHand,41,&H00FFFFFF,&H000000FF,&H00000000,&HA2000000,0,0,0,0,100,100,0,0,1,2,3,1,35,35,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:41.43,0:00:45.30,Default,Narrator,0,0,0,,As I’m sure you know,\Nlife isn’t all sunshine and rainbows.
+Dialogue: 0,0:00:45.30,0:00:50.94,Default,Narrator,0,0,0,,Indeed, you too sometimes get\Nsad or tired, right?
+Dialogue: 0,0:00:54.77,0:00:57.68,Default,Narrator,0,0,0,,“Are There Any Tea Dogs\NWhere You Live?”
+Dialogue: 0,0:01:03.51,0:01:06.12,Default,Mana's Mom,0,0,0,,Mana, you need to understand.
+Dialogue: 0,0:01:06.12,0:01:09.05,Default,Mana's Mom,0,0,0,,Dad can’t help it, he has work.
+Dialogue: 0,0:01:09.05,0:01:10.79,Default,Mana's Mom,0,0,0,,Mana, get back here!
+Dialogue: 0,0:01:14.36,0:01:16.56,Default,Narrator,0,0,0,,Mana loves her dad,
+Dialogue: 0,0:01:16.56,0:01:20.70,Default,Narrator,0,0,0,,but he’s always too busy\Nto be home.
+Dialogue: 0,0:01:21.67,0:01:24.44,Default,Narrator,0,0,0,,Even today, on her birthday.
+Dialogue: 0,0:01:38.82,0:01:39.32,Default,Mana,0,0,0,,Hey!
+Dialogue: 0,0:01:40.05,0:01:41.19,Default,Mana,0,0,0,,Wait!
+Dialogue: 0,0:01:41.19,0:01:42.45,Default,Mana,0,0,0,,Come back!
+Dialogue: 0,0:01:53.36,0:01:54.40,Default,Mana's Mom,0,0,0,,Oh!
+Dialogue: 0,0:01:55.23,0:01:57.53,Default,Mana's Mom,0,0,0,,Mana, where were you?
+Dialogue: 0,0:02:00.00,0:02:02.91,Default,Mana,0,0,0,,Mom, this puppy’s name is Ryoku.
+Dialogue: 0,0:02:02.91,0:02:04.41,Default,Mana,0,0,0,,Can we keep him?
+Dialogue: 0,0:02:05.28,0:02:07.11,Default,Mana's Mom,0,0,0,,In our apartment, hmm...
+Dialogue: 0,0:02:10.71,0:02:16.02,Default,Narrator,0,0,0,,Her mother was suddenly met\Nwith a wave of nostalgia,
+Dialogue: 0,0:02:16.02,0:02:18.79,Default,Narrator,0,0,0,,as if she'd seen this before.
+Dialogue: 0,0:02:28.70,0:02:29.93,Default,Mana's Mom,0,0,0,,I see.
+Dialogue: 0,0:02:29.93,0:02:33.17,Default,Mana's Mom,0,0,0,,We’ll ask Daddy about it\Nwhen he comes home, okay?
+Dialogue: 0,0:02:33.17,0:02:34.51,Default,Mana,0,0,0,,Okay!
+Dialogue: 0,0:02:34.51,0:02:35.51,Default,Sora,0,0,0,,Hey, Mom!
+Dialogue: 0,0:02:37.37,0:02:39.74,Default,Mana,0,0,0,,Mom, Dad’s home!
+Dialogue: 0,0:02:41.25,0:02:42.35,Default,Mana,0,0,0,,Big bro!
+Dialogue: 0,0:02:44.72,0:02:49.42,Default,Narrator,0,0,0,,Dad’s home even earlier than usual.
+Dialogue: 0,0:02:49.42,0:02:53.09,Default,Narrator,0,0,0,,These tea dogs, soothing\Nthe hearts of tired humans...
+Dialogue: 0,0:02:53.09,0:02:55.89,Default,Narrator,0,0,0,,are certain to be found\Nwhere you live.
+Dialogue: 0,0:02:55.89,0:02:58.36,Default,Narrator,0,0,0,,There’s not one far from you!
+Dialogue: 0,0:03:00.46,0:03:04.74,Default,Narrator,0,0,0,,Sudden sadness or sudden tears
+Dialogue: 0,0:03:04.74,0:03:10.14,Default,Narrator,0,0,0,,There’s someone nearby\NWaiting for you to notice
+Dialogue: 3,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1}TEA DOGS
+Dialogue: 2,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord6}TEA DOGS
+Dialogue: 1,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&HFFFFFF&\3c&HFFFFFF&\bord9}TEA DOGS
+Dialogue: 0,0:00:33.42,0:00:40.19,Signs,,0,0,0,,{\fnCasinoHand\frz11.09\pos(147,55)\blur1\c&H1828BE&\3c&H1828BE&\bord11}TEA DOGS
+Dialogue: 1,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(39,132)}Heartwarming
+Dialogue: 0,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(39,132)}Heartwarming
+Dialogue: 1,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\c&H1CB371&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:37.09,0:00:40.19,Signs,,0,0,0,,{\an4\fnCasinoHand\fs45\frz11.09\blur1\bord3\c&HACFFEE&\3c&HACFFEE&\pos(45.91,161.1)}Tales
+Dialogue: 0,0:00:54.17,0:00:59.08,Signs,,0,0,0,,{\an7\fnCasinoHand\c&H203F56&\blur1\fs45\pos(102,81)}Are There Any Tea Dogs\NWhere You Live?
+Dialogue: 0,0:00:00.62,0:00:03.35,OP,Mitsuko Horie,0,0,0,,Cha-cha-cha-cha, cha-cha-cha-cha, Tea Dog
+Dialogue: 0,0:00:03.35,0:00:06.16,OP,Mitsuko Horie,0,0,0,,Come along with me (Oh yeah!)
+Dialogue: 0,0:00:06.16,0:00:09.06,OP,Mitsuko Horie,0,0,0,,My little ray of sunshine (Let's go!)
+Dialogue: 0,0:00:09.06,0:00:14.80,OP,Mitsuko Horie,0,0,0,,Run to me with a great big smile (All the way)
+Dialogue: 0,0:00:14.80,0:00:17.74,OP,Mitsuko Horie,0,0,0,,When we're together (Oh yeah!)
+Dialogue: 0,0:00:17.74,0:00:20.60,OP,Mitsuko Horie,0,0,0,,I feel so magical (Alright!)
+Dialogue: 0,0:00:20.60,0:00:26.54,OP,Mitsuko Horie,0,0,0,,And so much warmer (Doo-doo-doo-doo)
+Dialogue: 0,0:00:28.05,0:00:30.82,OP,Mitsuko Horie,0,0,0,,You little scamp, Tea Dog
+Dialogue: 0,0:00:30.82,0:00:33.42,OP,Mitsuko Horie,0,0,0,,My perky little Tea Dog
+Dialogue: 0,0:00:33.79,0:00:37.80,OP,Mitsuko Horie,0,0,0,,I L-O-V-E you, Tea Dog!
+Dialogue: 0,0:03:10.56,0:03:12.38,ED,Morinoki Children,0,0,0,,Cha-cha-cha, cha-cha-cha
+Dialogue: 0,0:03:12.38,0:03:14.23,ED,Morinoki Children,0,0,0,,Tea Dogs, cha-cha-cha
+Dialogue: 0,0:03:14.23,0:03:17.77,ED,Morinoki Children,0,0,0,,Take a rice cake, stick a bean on it
+Dialogue: 0,0:03:17.77,0:03:21.10,ED,Morinoki Children,0,0,0,,Give it two lil eyes
+Dialogue: 0,0:03:21.57,0:03:25.27,ED,Morinoki Children,0,0,0,,Give it big leaves, paws, and a butt
+Dialogue: 0,0:03:25.27,0:03:28.63,ED,Morinoki Children,0,0,0,,Then its leaf tail, and you're all done
+

@@ -3,7 +3,7 @@ Subtitle scripts for Lumpstud/Seigyoku releases.
 These may include updates from original releases for quality purposes. Any updates will likely be used for future batches.
 
 Ongoing Projects:
-
+* Mahou no Shimai LuluttoLilly (Magical Sisters LuluttoLilly)
 * Line Town
 
 Finished Projects:

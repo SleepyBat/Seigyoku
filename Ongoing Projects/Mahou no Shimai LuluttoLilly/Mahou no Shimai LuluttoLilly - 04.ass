@@ -1,0 +1,1247 @@
+﻿[Script Info]
+Title: [Seigyoku] Mahou no Shimai LuluttoLilly - 04
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+Original Translation: Seigyoku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: INS,Nunito,75,&H00FFFFFF,&H000000FF,&H00E246E9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: OP,Immortal,75,&H00FFFFFF,&H000000FF,&H00E52FD3,&H00000000,0,0,0,0,90,100,0,0,1,0,0,2,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H00F18811,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 50,0:00:17.00,0:00:17.04,Default,chptr,0,0,0,,Cold Open
+Comment: 50,0:00:35.01,0:00:35.06,Default,chptr,0,0,0,opsync,OP
+Comment: 50,0:02:06.02,0:02:06.06,Default,chptr,0,0,0,,Part A
+Comment: 50,0:10:21.98,0:10:22.02,Default,chptr,0,0,0,,Part B
+Comment: 50,0:22:22.99,0:22:23.03,Default,chptr,0,0,0,edsync,ED
+Comment: 50,0:23:52.99,0:23:53.04,Default,chptr,0,0,0,,Preview
+Dialogue: 50,0:00:22.71,0:00:24.75,Default,Fuu,0,0,0,,So hot today...
+Dialogue: 50,0:00:27.97,0:00:31.43,Default,Kento,0,0,0,,It's once again time for {\i1}Happiness Music!
+Dialogue: 50,0:00:31.43,0:00:35.01,Default,Kento,0,0,0,,We hope you enjoy the performance\Nwe have lined up tonight!
+Dialogue: 50,0:00:32.01,0:00:35.01,Default,Fuu,0,0,0,,{\an8}Oh, there's a music show on!
+Dialogue: 50,0:02:11.03,0:02:17.37,Default,Kento,0,0,0,,Tonight's guest is the songstress\Nfrom the Moon, MashuLulu-san!
+Dialogue: 50,0:02:17.37,0:02:20.20,Default,Rui,0,0,0,,Th-Thank you for having me.
+Dialogue: 50,0:02:20.20,0:02:21.16,Default,Uguisu,0,0,0,,Let's see here.
+Dialogue: 50,0:02:21.66,0:02:26.21,Default,Kento,0,0,0,,Lulu-san, I hear you've just made your debut\Nand this will be your first performance!
+Dialogue: 50,0:02:26.21,0:02:28.17,Default,Kento,0,0,0,,Are you nervous?
+Dialogue: 50,0:02:28.17,0:02:32.55,Default,Rui,0,0,0,,Yes. B-But I'll try my best.
+Dialogue: 50,0:02:32.55,0:02:35.76,Default,Fuu,0,0,0,,Who is that? She's so cute!
+Dialogue: 50,0:02:35.76,0:02:37.97,Default,Kento,0,0,0,,Now, let's hear her perform!
+Dialogue: 50,0:02:37.97,0:02:39.93,Default,Kento,0,0,0,,"Little singing bird"!{non-title case via ending credits}
+Dialogue: 51,0:02:53.32,0:02:59.74,INS,MashuLulu,0,0,0,,{\fad(100,100)}Ah, the dazzling light you gazed to from your window{ああ窓から見つめてた眩しさは}
+Dialogue: 51,0:02:59.74,0:03:07.08,INS,MashuLulu,0,0,0,,{\fad(100,100)}No matter how far you stretch, you can reach it no more{腕を伸ばしても今はもう届かない}
+Dialogue: 51,0:03:07.42,0:03:14.05,INS,MashuLulu,0,0,0,,{\fad(100,100)}Ah, like a little bird hiding in the shade{ああ日の影に隠れてる小鳥のよう}
+Dialogue: 51,0:03:14.47,0:03:21.43,INS,MashuLulu,0,0,0,,{\fad(100,100)}You feign that you don't see your own desires{憧れも見ないふりしていた}
+Dialogue: 51,0:03:21.43,0:03:28.35,INS,MashuLulu,0,0,0,,{\fad(100,100)}You wanted to speak, but you couldn't, so you closed yourself off{伝えたくてできなくて心閉ざしていた}
+Dialogue: 51,0:03:28.77,0:03:36.07,INS,MashuLulu,0,0,0,,{\fad(100,100)}Even having a dream seemed to frighten you{夢見ることもどこか怯えてたの}
+Dialogue: 51,0:03:36.07,0:03:44.20,INS,MashuLulu,0,0,0,,{\fad(100,100)}Baby, don't cry-ry-ry-ry for me, little blue bird{Baby don’t cry-ry-ry-ry for me 青いLittle Bird}
+Dialogue: 51,0:03:44.20,0:03:50.63,INS,MashuLulu,0,0,0,,{\fad(100,100)}The wounds on your wings should heal with time{翼で傷は時が癒したはずよ}
+Dialogue: 51,0:03:50.63,0:03:58.09,INS,MashuLulu,0,0,0,,{\fad(100,100)}Baby, fly up, fly up, fly up, into the great blue sky{Baby Fly up Fly up Fly up Blue sky(大きな空)}
+Dialogue: 51,0:03:58.09,0:04:03.47,INS,MashuLulu,0,0,0,,{\fad(100,100)}The miracle will keep shining up ahead{その先で光る奇跡から}
+Dialogue: 51,0:04:03.47,0:04:08.06,INS,MashuLulu,0,0,0,,{\fad(100,100)}So don't stop chasing it until you smile{追いかけ続けほほ笑むまで}
+Dialogue: 51,0:04:08.06,0:04:10.56,INS,MashuLulu,0,0,0,,{\fad(100,100)}Little singing bird
+Dialogue: 50,0:02:53.32,0:02:59.74,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Ah, the dazzling light you gazed to from your window{ああ窓から見つめてた眩しさは}
+Dialogue: 50,0:02:59.74,0:03:07.08,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}No matter how far you stretch, you can reach it no more{腕を伸ばしても今はもう届かない}
+Dialogue: 50,0:03:07.42,0:03:14.05,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Ah, like a little bird hiding in the shade{ああ日の影に隠れてる小鳥のよう}
+Dialogue: 50,0:03:14.47,0:03:21.43,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}You feign that you don't see your own desires{憧れも見ないふりしていた}
+Dialogue: 50,0:03:21.43,0:03:28.35,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}You wanted to speak, but you couldn't, so you closed yourself off{伝えたくてできなくて心閉ざしていた}
+Dialogue: 50,0:03:28.77,0:03:36.07,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Even having a dream seemed to frighten you{夢見ることもどこか怯えてたの}
+Dialogue: 50,0:03:36.07,0:03:44.20,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Baby, don't cry-ry-ry-ry for me, little blue bird{Baby don’t cry-ry-ry-ry for me 青いLittle Bird}
+Dialogue: 50,0:03:44.20,0:03:50.63,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}The wounds on your wings should heal with time{翼で傷は時が癒したはずよ}
+Dialogue: 50,0:03:50.63,0:03:58.09,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Baby, fly up, fly up, fly up, into the great blue sky{Baby Fly up Fly up Fly up Blue sky(大きな空)}
+Dialogue: 50,0:03:58.09,0:04:03.47,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}The miracle will keep shining up ahead{その先で光る奇跡から}
+Dialogue: 50,0:04:03.47,0:04:08.06,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}So don't stop chasing it until you smile{追いかけ続けほほ笑むまで}
+Dialogue: 50,0:04:08.06,0:04:10.56,INS,MashuLulu,0,0,0,,{\c&HB99A29&\bord4\blur1\fad(100,100)\3c&HB99A29&}Little singing bird
+Dialogue: 50,0:04:17.99,0:04:19.99,Default,Rui,0,0,0,,Thank you!
+Dialogue: 50,0:04:19.99,0:04:23.62,Default,Kento,0,0,0,,No, thank you, Lulu-san,\Nfor your lovely song!
+Dialogue: 50,0:04:23.62,0:04:24.29,Default,Uguisu,0,0,0,,Hey!
+Dialogue: 50,0:04:24.29,0:04:28.25,Default,Hisashi,0,0,0,,No way, Shota. She's a newbie?
+Dialogue: 50,0:04:28.25,0:04:28.83,Default,Shota,0,0,0,,Yeah...
+Dialogue: 50,0:04:29.21,0:04:31.71,Default,Shota,0,0,0,,She's so good...
+Dialogue: 50,0:04:31.71,0:04:34.17,Default,Hisashi,0,0,0,,Lulu-chan's awesome!
+Dialogue: 50,0:04:37.59,0:04:39.93,Default,Meeter,0,0,0,,I see she transformed as well.
+Dialogue: 50,0:04:41.64,0:04:42.72,Default,Uguisu,0,0,0,,It's melting.
+Dialogue: 50,0:04:46.35,0:04:50.27,Default,Fuu,0,0,0,,Uguisu, wasn't she amazing?
+Dialogue: 50,0:04:50.27,0:04:52.65,Default,Fuu,0,0,0,,She's such a good singer!
+Dialogue: 50,0:04:52.65,0:04:54.02,Default,Uguisu,0,0,0,,Your ice cream's melting!
+Dialogue: 50,0:04:54.02,0:04:56.44,Default,Fuu,0,0,0,,Forget about the ice cream.
+Dialogue: 50,0:04:57.49,0:05:00.40,Default,Fuu,0,0,0,,She almost sounded like big sis.
+Dialogue: 50,0:05:01.57,0:05:03.66,Default,Fuu,0,0,0,,I think the world's gonna love her!
+Dialogue: 50,0:05:05.70,0:05:08.20,Default,Staff,0,0,0,,Cut! That's a wrap!
+Dialogue: 50,0:05:10.25,0:05:12.63,Default,Kento,0,0,0,,Great work, Lulu-san.
+Dialogue: 50,0:05:12.63,0:05:15.25,Default,Rui,0,0,0,,Th-Thank you very much.
+Dialogue: 50,0:05:15.25,0:05:16.75,Default,Kento,0,0,0,,See you again!
+Dialogue: 50,0:05:18.13,0:05:20.84,Default,Toko,0,0,0,,Good job, Lulu!
+Dialogue: 50,0:05:20.84,0:05:25.97,Default,Rui,0,0,0,,Toko-san! How did I do?\NI got through the song.
+Dialogue: 50,0:05:25.97,0:05:28.68,Default,Toko,0,0,0,,Don't worry, that was perfect!
+Dialogue: 50,0:05:28.68,0:05:29.81,Default,Toko,0,0,0,,Right?
+Dialogue: 50,0:05:29.81,0:05:30.85,Default,Producer,0,0,0,,Yes!
+Dialogue: 50,0:05:30.85,0:05:35.40,Default,Producer,0,0,0,,Why, I've fallen in love with your singing!
+Dialogue: 50,0:05:35.77,0:05:38.69,Default,Producer,0,0,0,,I look forward to working with you again.
+Dialogue: 50,0:05:40.03,0:05:41.61,Default,Rui,0,0,0,,That's good to hear.
+Dialogue: 50,0:05:41.61,0:05:44.53,Default,Toko,0,0,0,,I'm sure the public loved it too!
+Dialogue: 50,0:05:44.53,0:05:46.24,Default,Toko,0,0,0,,You're about to get even busier!
+Dialogue: 50,0:05:46.95,0:05:49.45,Default,Toko,0,0,0,,Good work tonight, Lulu!
+Dialogue: 50,0:05:55.71,0:05:57.04,Default,Rui,0,0,0,,I really sang!
+Dialogue: 50,0:06:15.35,0:06:16.94,Default,Rui,0,0,0,,This is the place...
+Dialogue: 50,0:06:27.91,0:06:29.12,Default,Toko,0,0,0,,Coming!
+Dialogue: 50,0:06:31.04,0:06:34.12,Default,Rui,0,0,0,,You want to join our agency? Why?
+Dialogue: 50,0:06:34.12,0:06:36.88,Default,Yasuo,0,0,0,,It's so small too, who'd want to come here?
+Dialogue: 50,0:06:38.75,0:06:41.63,Default,Rui,0,0,0,,That day, I...
+Dialogue: 50,0:06:42.01,0:06:46.05,Default,Rui,0,0,0,,I happened to catch the livestream\Nof Lilly's concert, and...
+Dialogue: 50,0:06:46.05,0:06:47.51,Default,Toko,0,0,0,,Oh, the one in Shibuya?
+Dialogue: 50,0:06:47.51,0:06:48.22,Default,Rui,0,0,0,,Yes.
+Dialogue: 50,0:06:49.01,0:06:52.48,Default,Rui,0,0,0,,Lilly looked like she had fun singing there.
+Dialogue: 50,0:06:53.94,0:06:56.98,Default,Rui,0,0,0,,and I wanted to become just like her.
+Dialogue: 50,0:07:03.57,0:07:05.99,Default,Toko,0,0,0,,Then, how about you sing a little for us?
+Dialogue: 50,0:07:07.24,0:07:08.16,Default,Rui,0,0,0,,Okay!
+Dialogue: 50,0:07:12.16,0:07:13.25,Default,Yasuo,0,0,0,,You're good!
+Dialogue: 50,0:07:15.12,0:07:16.08,Default,Rui,0,0,0,,Um...
+Dialogue: 50,0:07:16.75,0:07:18.79,Default,Rui,0,0,0,,Thank you very much.
+Dialogue: 50,0:07:19.42,0:07:21.55,Default,Yasuo,0,0,0,,Sounds pretty clear-cut, right, Toko?
+Dialogue: 50,0:07:23.09,0:07:25.30,Default,Toko,0,0,0,,You really want to join us?
+Dialogue: 50,0:07:26.01,0:07:28.43,Default,Rui,0,0,0,,Yes, if you'll have me.
+Dialogue: 50,0:07:29.05,0:07:30.64,Default,Toko,0,0,0,,I'd be glad to!
+Dialogue: 50,0:07:30.64,0:07:32.18,Default,Yasuo,0,0,0,,Yeah!
+Dialogue: 50,0:07:33.52,0:07:35.81,Default,Toko,0,0,0,,By the way, what's your name?
+Dialogue: 50,0:07:35.81,0:07:36.73,Default,Yasuo,0,0,0,,Huh?
+Dialogue: 50,0:07:37.69,0:07:38.69,Default,Rui,0,0,0,,Ru...
+Dialogue: 50,0:07:39.31,0:07:40.23,Default,Toko,0,0,0,,Ru?
+Dialogue: 50,0:07:40.23,0:07:42.32,Default,Rui,0,0,0,,Lu... Lu...
+Dialogue: 50,0:07:42.32,0:07:46.03,Default,Toko,0,0,0,,Lulu? That's a cute name!
+Dialogue: 50,0:07:46.03,0:07:48.49,Default,Toko,0,0,0,,But for your stage name...
+Dialogue: 50,0:07:48.49,0:07:50.87,Default,Toko,0,0,0,,It should have something more like Lilly's.
+Dialogue: 50,0:07:51.28,0:07:54.50,Default,Toko,0,0,0,,Lilly's is Compato...
+Dialogue: 50,0:07:58.00,0:07:59.63,Default,Toko,0,0,0,,Let's go with MashuLulu.
+Dialogue: 50,0:07:59.63,0:08:00.75,Default,Rui,0,0,0,,Huh?
+Dialogue: 50,0:08:01.96,0:08:03.25,Default,Rui,0,0,0,,Understood.
+Dialogue: 50,0:08:03.25,0:08:06.01,Default,Yasuo,0,0,0,,Great, your name's settled.
+Dialogue: 50,0:08:06.01,0:08:08.47,Default,Yasuo,0,0,0,,So, what next, Toko?
+Dialogue: 50,0:08:08.47,0:08:10.76,Default,Toko,0,0,0,,Of course, I'm gonna get you on the road!
+Dialogue: 50,0:08:10.76,0:08:12.35,Default,Rui,0,0,0,,U-Um...
+Dialogue: 50,0:08:12.35,0:08:15.60,Default,Rui,0,0,0,,But I can only do this for one year...
+Dialogue: 50,0:08:16.31,0:08:18.06,Default,Rui,0,0,0,,I, um...
+Dialogue: 50,0:08:13.76,0:08:15.93,Default,Toko,0,0,0,,{\an8}I want you to perform on TV!
+Dialogue: 50,0:08:15.93,0:08:18.06,Default,Yasuo,0,0,0,,{\an8}That's just ridiculous.
+Dialogue: 50,0:08:18.06,0:08:20.10,Default,Toko,0,0,0,,I'm gonna go talk to the station!
+Dialogue: 50,0:08:20.10,0:08:21.90,Default,Yasuo,0,0,0,,Hey, hold on a minute!
+Dialogue: 50,0:08:22.40,0:08:24.90,Default,Yasuo,0,0,0,,At least put on something nicer first!
+Dialogue: 50,0:08:26.69,0:08:28.07,Default,Rui,0,0,0,,They're gone...
+Dialogue: 50,0:08:29.24,0:08:30.49,Default,Toko,0,0,0,,I beg of you!
+Dialogue: 50,0:08:30.82,0:08:35.41,Default,Staff A,0,0,0,,I'm afraid we can't, miss.\NThe program's already planned out.
+Dialogue: 50,0:08:35.41,0:08:37.16,Default,Toko,0,0,0,,Could you please find a way?
+Dialogue: 50,0:08:37.16,0:08:40.04,Default,Staff A,0,0,0,,It's not that easy...
+Dialogue: 50,0:08:40.04,0:08:41.00,Default,Staff B,0,0,0,,Yeah.
+Dialogue: 50,0:08:41.00,0:08:44.38,Default,Toko,0,0,0,,You'll get it once you've heard her sing!
+Dialogue: 50,0:08:44.38,0:08:45.96,Default,Toko,0,0,0,,Please!
+Dialogue: 50,0:08:45.96,0:08:49.63,Default,Producer,0,0,0,,This just isn't a show where newcomers\Nmake their big break.
+Dialogue: 50,0:08:49.63,0:08:54.18,Default,Producer,0,0,0,,It'd be different if you had Lilly come on.
+Dialogue: 50,0:08:54.18,0:08:57.06,Default,Toko,0,0,0,,That'll do! Let me make you a proposal!
+Dialogue: 50,0:08:59.02,0:09:01.40,Default,Toko,0,0,0,,I talked it over with them.
+Dialogue: 50,0:09:01.40,0:09:03.61,Default,Yasuo,0,0,0,,How'd you convince them?
+Dialogue: 50,0:09:03.61,0:09:08.03,Default,Toko,0,0,0,,By promising that Lilly can perform\Non their show next time.
+Dialogue: 50,0:09:08.65,0:09:11.28,Default,Toko,0,0,0,,Lulu, go out and sing!
+Dialogue: 50,0:09:12.20,0:09:13.28,Default,Rui,0,0,0,,Okay!
+Dialogue: 50,0:09:14.28,0:09:16.16,Default,Staff,0,0,0,,We're going live!
+Dialogue: 50,0:09:18.70,0:09:19.79,Default,Rui,0,0,0,,I'm going on!
+Dialogue: 50,0:09:20.41,0:09:21.08,Default,Toko,0,0,0,,Okay!
+Dialogue: 50,0:09:31.43,0:09:34.93,Default,Azuki,0,0,0,,Rui, you did great today.
+Dialogue: 50,0:09:35.76,0:09:39.85,Default,Rui,0,0,0,,I actually became an idol...
+Dialogue: 50,0:09:39.85,0:09:42.90,Default,Azuki,0,0,0,,You did! And you were wonderful!
+Dialogue: 50,0:09:42.90,0:09:44.94,Default,Azuki,0,0,0,,I'm your fan too!
+Dialogue: 50,0:09:45.56,0:09:47.44,Default,Rui,0,0,0,,Thank you, Azuki.
+Dialogue: 50,0:09:48.57,0:09:49.78,Default,Rui,0,0,0,,I'm home.
+Dialogue: 50,0:09:50.53,0:09:52.32,Default,Dad,0,0,0,,Welcome home, Rui.
+Dialogue: 50,0:09:52.91,0:09:56.24,Default,Dad,0,0,0,,You're pretty late. Did something happen?
+Dialogue: 50,0:09:56.24,0:10:00.20,Default,Rui,0,0,0,,Oh, nothing serious. Sorry.
+Dialogue: 50,0:10:04.08,0:10:05.84,Default,Fuu,0,0,0,,Hey, Uguisu.
+Dialogue: 50,0:10:05.84,0:10:09.76,Default,Fuu,0,0,0,,Does something seem off about big sis?
+Dialogue: 50,0:10:09.76,0:10:10.71,Default,Uguisu,0,0,0,,I dunno.
+Dialogue: 50,0:10:10.71,0:10:12.97,Default,Fuu,0,0,0,,Maybe I'm just imagining it.
+Dialogue: 50,0:10:17.26,0:10:20.81,Default,Rui,0,0,0,,I did it! I was brave!
+Dialogue: 50,0:10:23.31,0:10:25.23,Default,Fuu,0,0,0,,So heavy...
+Dialogue: 50,0:10:25.23,0:10:28.19,Default,Iroha,0,0,0,,Fuu-chan, did you catch {\i1}Happiness Music{\i0} last night?
+Dialogue: 50,0:10:28.57,0:10:31.19,Default,Fuu,0,0,0,,I did. It was Lulu-chan, right?
+Dialogue: 50,0:10:31.19,0:10:32.74,Default,Iroha,0,0,0,,She was amazing!
+Dialogue: 50,0:10:32.74,0:10:34.86,Default,Iroha,0,0,0,,And she's such a great singer!
+Dialogue: 50,0:10:34.86,0:10:37.83,Default,Fuu,0,0,0,,Yeah! Not to mention, she was so cute!
+Dialogue: 50,0:10:37.83,0:10:38.53,Default,Shota,0,0,0,,Yo.
+Dialogue: 50,0:10:39.33,0:10:41.20,Default,Fuu,0,0,0,,Oh, Sho-chan!
+Dialogue: 50,0:10:41.20,0:10:43.21,Default,Fuu,0,0,0,,Hey, last night on TV...
+Dialogue: 50,0:10:43.62,0:10:45.42,Default,Shota,0,0,0,,Oh, is this about Lulu?
+Dialogue: 50,0:10:46.17,0:10:48.38,Default,Fuu,0,0,0,,She's even big with the middle schoolers...
+Dialogue: 50,0:10:48.38,0:10:49.80,Default,Shota,0,0,0,,{\i1}Everyone{\i0} saw it.
+Dialogue: 50,0:10:51.34,0:10:55.80,Default,Fuu,0,0,0,,So, Sho-chan, which one do you like better?\NLilly or Lulu?
+Dialogue: 50,0:10:56.26,0:10:58.80,Default,Shota,0,0,0,,Huh? Hmm, which one...
+Dialogue: 50,0:10:58.80,0:11:01.68,Default,Shota,0,0,0,,Lilly... Lulu... I can't pick.
+Dialogue: 50,0:10:59.64,0:11:02.81,Default,Fuu / Iroha,0,0,0,,{\an8}So? So? Which one is it?
+Dialogue: 50,0:11:03.39,0:11:05.19,Default,Fuu,0,0,0,,I'm home!
+Dialogue: 50,0:11:05.19,0:11:08.06,Default,Fuu,0,0,0,,Ugh, I'm tired.
+Dialogue: 50,0:11:08.48,0:11:09.77,Default,Mom,0,0,0,,Yes.
+Dialogue: 50,0:11:09.77,0:11:11.57,Default,Mom,0,0,0,,I'm sorry.
+Dialogue: 50,0:11:11.57,0:11:12.74,Default,Mom,0,0,0,,Goodbye.
+Dialogue: 50,0:11:15.40,0:11:16.78,Default,Fuu,0,0,0,,What's wrong?
+Dialogue: 50,0:11:16.78,0:11:18.28,Default,Mom,0,0,0,,Welcome home.
+Dialogue: 50,0:11:18.28,0:11:21.37,Default,Mom,0,0,0,,I finished a new confection today,
+Dialogue: 50,0:11:21.70,0:11:24.87,Default,Mom,0,0,0,,and wanted my friend to sample it,
+Dialogue: 50,0:11:24.87,0:11:27.17,Default,Mom,0,0,0,,but I can't bring them now.
+Dialogue: 50,0:11:27.50,0:11:29.63,Default,Fuu,0,0,0,,Your friend? Who is it?
+Dialogue: 50,0:11:29.63,0:11:33.05,Default,Mom,0,0,0,,Mari-chan. She's visited from time to time.
+Dialogue: 50,0:11:33.67,0:11:35.17,Default,Fuu,0,0,0,,Should I deliver them?
+Dialogue: 50,0:11:35.88,0:11:37.43,Default,Mom,0,0,0,,No, it's too far for you.
+Dialogue: 50,0:11:37.43,0:11:40.43,Default,Fuu,0,0,0,,It'll be fine! I'm a fifth grader now!
+Dialogue: 50,0:11:40.43,0:11:41.43,Default,Mom,0,0,0,,You think so?
+Dialogue: 50,0:11:43.22,0:11:45.52,Default,Mom,0,0,0,,I guess I'll have you do it, then.
+Dialogue: 50,0:11:46.35,0:11:48.15,Default,Fuu,0,0,0,,You can count on me!
+Dialogue: 50,0:11:49.19,0:11:50.90,Default,Mom,0,0,0,,Message me when you get there.
+Dialogue: 50,0:11:50.90,0:11:53.73,Default,Fuu,0,0,0,,Will do! See you later!
+Dialogue: 50,0:11:53.73,0:11:55.28,Default,Mom,0,0,0,,Take care!
+Dialogue: 50,0:11:56.32,0:11:59.41,Default,Train Annc.,0,0,0,,{\i1}Next stop, Yoyogi. Yoyogi.{\i0}
+Dialogue: 50,0:11:59.41,0:12:01.58,Default,Train Annc.,0,0,0,,{\i1}The doors will open on the left side.{\i0}
+Dialogue: 50,0:12:01.58,0:12:04.04,Default,Train Annc.,0,0,0,,{\i1}Transfer to the Toei Subway Koedo Line...{\i0}
+Dialogue: 50,0:12:04.66,0:12:06.79,Default,Fuu,0,0,0,,I'm here!
+Dialogue: 50,0:12:06.79,0:12:07.58,Default,Fuu,0,0,0,,Wait...
+Dialogue: 50,0:12:08.29,0:12:09.29,Default,Fuu,0,0,0,,What?
+Dialogue: 50,0:12:13.46,0:12:14.88,Default,Fuu,0,0,0,,Isn't this...
+Dialogue: 50,0:12:15.42,0:12:19.01,Default,Fuu,0,0,0,,It's the place right next to the agency!
+Dialogue: 50,0:12:19.47,0:12:20.76,Default,Uguisu,0,0,0,,Are we there yet?
+Dialogue: 50,0:12:20.76,0:12:21.43,Default,Fuu,0,0,0,,Yeah.
+Dialogue: 50,0:12:24.06,0:12:25.43,Default,Fuu,0,0,0,,Hello.
+Dialogue: 50,0:12:25.81,0:12:27.69,Default,Mari,0,0,0,,My, Fuu!
+Dialogue: 50,0:12:27.69,0:12:29.69,Default,Mari,0,0,0,,You've grown so much!
+Dialogue: 50,0:12:29.69,0:12:31.44,Default,Fuu,0,0,0,,Mari-chan!
+Dialogue: 50,0:12:31.44,0:12:32.94,Default,Mari,0,0,0,,Any problems getting here?
+Dialogue: 50,0:12:32.94,0:12:33.69,Default,Fuu,0,0,0,,Nope!
+Dialogue: 50,0:12:33.69,0:12:35.94,Default,Fuu,0,0,0,,This is from Mom!
+Dialogue: 50,0:12:36.28,0:12:37.74,Default,Mari,0,0,0,,Thank you so much!
+Dialogue: 50,0:12:37.74,0:12:41.07,Default,Mari,0,0,0,,I was thinking of selling some of\Nyour shop's confections here too.
+Dialogue: 50,0:12:41.07,0:12:42.57,Default,Mari,0,0,0,,Take a seat.
+Dialogue: 50,0:12:42.57,0:12:45.54,Default,Mari,0,0,0,,I'll get you some ice-cold juice\Nas a show of thanks.
+Dialogue: 50,0:12:47.87,0:12:49.67,Default,Fuu,0,0,0,,Thank... you...
+Dialogue: 50,0:12:51.92,0:12:54.50,Default,Mari,0,0,0,,Here. Thank you for coming all this way.
+Dialogue: 50,0:12:57.21,0:12:58.42,Default,Fuu,0,0,0,,I appreciate it!
+Dialogue: 50,0:13:08.89,0:13:12.31,Default,Fuu,0,0,0,,Oh, right. I have to text Mom.
+Dialogue: 50,0:13:12.31,0:13:15.15,Default,Fuu,0,0,0,,"I made it."
+Dialogue: 50,0:13:17.07,0:13:19.49,Default,Fuu,0,0,0,,"She gave me some juice."
+Dialogue: 50,0:13:20.95,0:13:22.66,Default,Fuu,0,0,0,,Oh, it's Toko-san.
+Dialogue: 50,0:13:23.37,0:13:26.33,Default,Toko,0,0,0,,{\i1}Lilly, where are you at?{\i0}
+Dialogue: 50,0:13:26.95,0:13:29.71,Default,Fuu,0,0,0,,"I'm at the café by the agency."
+Dialogue: 50,0:13:30.54,0:13:32.21,Default,Toko,0,0,0,,{\i1}Perfect timing!{\i0}
+Dialogue: 50,0:13:32.21,0:13:37.21,Default,Toko,0,0,0,,{\i1}There's someone I want to introduce to you.\NGuess who it is... You'll be surprised!{\i0}
+Dialogue: 50,0:13:39.55,0:13:41.93,Default,Fuu,0,0,0,,"Wanna come over?"
+Dialogue: 50,0:13:42.63,0:13:43.80,Default,Fuu,0,0,0,,I'll be surprised?
+Dialogue: 50,0:13:46.93,0:13:49.06,Default,Fuu,0,0,0,,Don't tell me...!
+Dialogue: 50,0:13:51.19,0:13:52.27,Default,Fuu,0,0,0,,Shank yew!{speaking with food in mouth}
+Dialogue: 50,0:13:52.27,0:13:53.02,Default,Mari,0,0,0,,Huh?
+Dialogue: 50,0:13:57.36,0:14:01.53,Default,Toko,0,0,0,,I'll reach out to you\Nwhen your schedule is set.
+Dialogue: 50,0:14:02.45,0:14:07.28,Default,Toko,0,0,0,,Lulu, looks like your idol's\Nat the café next door!
+Dialogue: 50,0:14:07.74,0:14:11.33,Default,Rui,0,0,0,,Really? I'll go see her!
+Dialogue: 50,0:14:11.33,0:14:13.46,Default,Toko,0,0,0,,W-Wait! She said she's coming here!
+Dialogue: 50,0:14:14.79,0:14:16.17,Default,Toko,0,0,0,,She took off.
+Dialogue: 50,0:14:23.97,0:14:27.26,Default,Fuu,0,0,0,,Ah, I forgot! I have to transform!
+Dialogue: 50,0:14:27.26,0:14:29.14,Default,Uguisu,0,0,0,,Really, here?
+Dialogue: 50,0:14:32.94,0:14:33.94,Default,Fuu,0,0,0,,Litto!
+Dialogue: 50,0:14:40.11,0:14:41.94,Default,Fuu,0,0,0,,Lililula palilula!
+Dialogue: 50,0:14:44.53,0:14:47.03,Default,Fuu,0,0,0,,Pam pam power!
+Dialogue: 50,0:15:17.15,0:15:18.44,Default,Fuu,0,0,0,,{\i1}Could it really be...?{\i0}
+Dialogue: 50,0:15:19.27,0:15:20.73,Default,Toko,0,0,0,,That was quick.
+Dialogue: 50,0:15:20.73,0:15:21.94,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:15:21.94,0:15:23.99,Default,Fuu,0,0,0,,Where's the person you told me about?
+Dialogue: 50,0:15:23.99,0:15:27.53,Default,Toko,0,0,0,,Lulu wanted to see you so badly,\Nshe went off to Dubdub.
+Dialogue: 50,0:15:27.53,0:15:30.70,Default,Fuu,0,0,0,,Lulu-chan! I knew it was her!
+Dialogue: 50,0:15:30.70,0:15:32.33,Default,Fuu,0,0,0,,I'll go after her!
+Dialogue: 50,0:15:32.33,0:15:34.83,Default,Toko,0,0,0,,Hey, wait! Come on...
+Dialogue: 50,0:15:35.50,0:15:38.33,Default,Toko,0,0,0,,Both of you are so impatient.
+Dialogue: 50,0:15:39.63,0:15:42.09,Default,Toko,0,0,0,,What are you, children?
+Dialogue: 50,0:15:45.67,0:15:47.80,Default,Rui,0,0,0,,It looks like she left already.
+Dialogue: 50,0:15:47.80,0:15:49.60,Default,Azuki,0,0,0,,Let's go back to the agency.
+Dialogue: 50,0:15:59.15,0:16:00.73,Default,Azuki,0,0,0,,What's the matter?
+Dialogue: 50,0:16:00.73,0:16:05.36,Default,Rui,0,0,0,,I wonder what I should say to Lilly.
+Dialogue: 50,0:16:06.28,0:16:07.36,Default,Azuki,0,0,0,,Lulu?
+Dialogue: 50,0:16:07.86,0:16:11.16,Default,Rui,0,0,0,,I'll cast a spell to ease my nerves.
+Dialogue: 50,0:16:12.62,0:16:14.87,Default,Rui,0,0,0,,Lululila pululila,
+Dialogue: 50,0:16:15.58,0:16:17.58,Default,Rui,0,0,0,,make me calm down.
+Dialogue: 50,0:16:22.54,0:16:23.84,Default,Rui,0,0,0,,That's silly.
+Dialogue: 50,0:16:26.09,0:16:28.13,Default,Rui,0,0,0,,What?!
+Dialogue: 50,0:16:31.43,0:16:34.77,Default,Rui,0,0,0,,Maybe walking up slowly\Nis supposed to calm me down?
+Dialogue: 50,0:16:34.77,0:16:36.39,Default,Azuki,0,0,0,,Maybe.
+Dialogue: 50,0:16:36.93,0:16:39.14,Default,Fuu,0,0,0,,Wh... What...
+Dialogue: 50,0:16:39.14,0:16:41.90,Default,Fuu,0,0,0,,What the heck?!
+Dialogue: 50,0:16:42.61,0:16:44.78,Default,Fuu,0,0,0,,The staircase got super long!
+Dialogue: 50,0:16:45.23,0:16:47.49,Default,Fuu,0,0,0,,Did my magic do this?
+Dialogue: 50,0:16:47.49,0:16:48.61,Default,Uguisu,0,0,0,,Looks like it.
+Dialogue: 50,0:16:48.61,0:16:50.78,Default,Fuu,0,0,0,,Let's just go down.
+Dialogue: 50,0:16:58.79,0:17:01.00,Default,Fuu,0,0,0,,I can't see the bottom at all...
+Dialogue: 50,0:17:01.00,0:17:02.33,Default,Uguisu,0,0,0,,I'm beat.
+Dialogue: 50,0:17:02.88,0:17:05.67,Default,Fuu,0,0,0,,Now we might never see Lulu-chan.
+Dialogue: 50,0:17:11.76,0:17:12.89,Default,Fuu,0,0,0,,This song...
+Dialogue: 50,0:17:18.85,0:17:22.31,Default,Rui,0,0,0,,I wonder what kind of person Lilly is.
+Dialogue: 50,0:17:23.02,0:17:25.61,Default,Rui,0,0,0,,D-Do you think we'll get along?
+Dialogue: 50,0:17:25.61,0:17:28.11,Default,Azuki,0,0,0,,I think you will.
+Dialogue: 50,0:17:30.15,0:17:33.37,Default,Rui,0,0,0,,I hope we'll get to sing together someday!
+Dialogue: 50,0:17:33.37,0:17:34.87,Default,Fuu,0,0,0,,Hey!
+Dialogue: 50,0:17:34.87,0:17:35.62,Default,Rui,0,0,0,,Who's that?
+Dialogue: 50,0:17:35.99,0:17:39.87,Default,Fuu,0,0,0,,Lulu-chan! If you're there, say something back!
+Dialogue: 50,0:17:40.37,0:17:41.71,Default,Rui,0,0,0,,Could it be?
+Dialogue: 50,0:17:41.71,0:17:43.88,Default,Rui,0,0,0,,Is that you, Lilly-san?
+Dialogue: 50,0:17:45.00,0:17:46.88,Default,Fuu,0,0,0,,Yeah, it is!
+Dialogue: 50,0:17:48.71,0:17:52.38,Default,Fuu,0,0,0,,I saw you on TV!
+Dialogue: 50,0:17:52.38,0:17:55.39,Default,Fuu,0,0,0,,I loved your song!
+Dialogue: 50,0:17:55.39,0:18:00.77,Default,Rui,0,0,0,,Um, I saw your livestream too!
+Dialogue: 50,0:18:00.77,0:18:03.27,Default,Fuu,0,0,0,,Really? I'm glad!
+Dialogue: 50,0:18:03.27,0:18:06.77,Default,Rui,0,0,0,,It made me start to chase my dream!
+Dialogue: 50,0:18:07.23,0:18:11.95,Default,Rui,0,0,0,,I was afraid to sing,\Nbut when I heard you do it...
+Dialogue: 50,0:18:11.95,0:18:14.70,Default,Rui,0,0,0,,I realized I wanted to try it too!
+Dialogue: 50,0:18:16.12,0:18:17.58,Default,Fuu,0,0,0,,I see!
+Dialogue: 50,0:18:18.37,0:18:22.00,Default,Fuu,0,0,0,,So, Lulu-chan! Do you like animals?
+Dialogue: 50,0:18:23.37,0:18:25.38,Default,Rui,0,0,0,,Y-Yes, I do!
+Dialogue: 50,0:18:25.38,0:18:29.50,Default,Fuu,0,0,0,,Like what? My favorite are hippos!
+Dialogue: 50,0:18:29.50,0:18:30.67,Default,Uguisu,0,0,0,,You're gonna get caught!
+Dialogue: 50,0:18:31.05,0:18:33.43,Default,Rui,0,0,0,,Hippos? Interesting...
+Dialogue: 50,0:18:33.80,0:18:37.05,Default,Rui,0,0,0,,My favorite are cats!
+Dialogue: 50,0:18:37.05,0:18:41.85,Default,Fuu,0,0,0,,Aw, I want to see you so bad,\Nbut I can't reach you at all.
+Dialogue: 50,0:18:42.39,0:18:44.31,Default,Rui,0,0,0,,I have to stop the spell.
+Dialogue: 50,0:18:45.81,0:18:46.90,Default,Rui,0,0,0,,Tohre!
+Dialogue: 50,0:18:49.61,0:18:51.03,Default,Fuu,0,0,0,,Lulu-chan!
+Dialogue: 50,0:18:57.78,0:18:59.66,Default,Fuu,0,0,0,,Ow-ow-ow...
+Dialogue: 50,0:18:59.66,0:19:02.04,Default,Fuu,0,0,0,,Huh? Where's Lulu-chan?
+Dialogue: 50,0:19:03.29,0:19:05.62,Default,Fuu,0,0,0,,We were so close...
+Dialogue: 50,0:19:08.13,0:19:09.59,Default,Fuu,0,0,0,,Hello, Toko-san?
+Dialogue: 50,0:19:09.59,0:19:12.21,Default,Toko,0,0,0,,What's taking you so long?
+Dialogue: 50,0:19:12.21,0:19:15.09,Default,Toko,0,0,0,,You're gonna keep missing each other.\NJust wait at the café!
+Dialogue: 50,0:19:15.09,0:19:16.30,Default,Fuu,0,0,0,,Okay!
+Dialogue: 50,0:19:21.31,0:19:23.52,Default,Rui,0,0,0,,My transformation wore off.
+Dialogue: 50,0:19:23.52,0:19:25.48,Default,Azuki,0,0,0,,Be careful!
+Dialogue: 50,0:19:25.48,0:19:29.11,Default,Toko,0,0,0,,Come on. What were you doing?
+Dialogue: 50,0:19:30.94,0:19:32.44,Default,Rui,0,0,0,,Hello!
+Dialogue: 50,0:19:32.44,0:19:35.11,Default,Toko,0,0,0,,Alright, meet our newest member!
+Dialogue: 50,0:19:35.11,0:19:36.82,Default,Fuu,0,0,0,,There you are! Finally!
+Dialogue: 50,0:19:36.82,0:19:39.53,Default,Rui,0,0,0,,Y-Yeah. Um, I'm Lulu!
+Dialogue: 50,0:19:39.53,0:19:41.20,Default,Rui,0,0,0,,I-It's nice to meet you.
+Dialogue: 50,0:19:41.20,0:19:44.20,Default,Fuu,0,0,0,,I'm Lilly! Nice to meet you too!
+Dialogue: 50,0:19:44.71,0:19:45.66,Default,Rui,0,0,0,,Y-Yeah!
+Dialogue: 50,0:19:45.66,0:19:49.84,Default,Fuu,0,0,0,,Lulu-chan, you're so stiff.\NYou weren't like that before.
+Dialogue: 50,0:19:49.84,0:19:52.92,Default,Rui,0,0,0,,I-I get nervous talking face-to-face.
+Dialogue: 50,0:19:54.13,0:19:56.51,Default,Sena,0,0,0,,Oh, everyone's here.
+Dialogue: 50,0:19:57.51,0:20:01.51,Default,Mari,0,0,0,,Toko-chan, glad to see\Nyou've gotten more members.
+Dialogue: 50,0:20:01.51,0:20:03.47,Default,Toko,0,0,0,,Yeah, it's great!
+Dialogue: 50,0:20:03.47,0:20:07.19,Default,Toko,0,0,0,,You've been watching over us\Nsince we started, right?
+Dialogue: 50,0:20:07.19,0:20:10.65,Default,Toko,0,0,0,,Now we have two big new stars\Nand things are getting crazy!
+Dialogue: 50,0:20:11.06,0:20:13.32,Default,Sena,0,0,0,,The agency's really starting to grow.
+Dialogue: 50,0:20:14.40,0:20:18.07,Default,Fuu,0,0,0,,The way we kept missing each other,\NI thought we'd never meet!
+Dialogue: 50,0:20:18.07,0:20:19.95,Default,Rui,0,0,0,,Yeah, that was rough.
+Dialogue: 50,0:20:20.28,0:20:23.49,Default,Fuu,0,0,0,,Wasn't that staircase weird too?
+Dialogue: 50,0:20:23.49,0:20:24.95,Default,Fuu,0,0,0,,Wait, Azuki?
+Dialogue: 50,0:20:24.95,0:20:27.41,Default,Rui,0,0,0,,I-It sure was...
+Dialogue: 50,0:20:27.41,0:20:30.04,Default,Fuu,0,0,0,,Sorry, I gotta go to the bathroom.
+Dialogue: 50,0:20:30.04,0:20:31.92,Default,Rui,0,0,0,,Huh? O-Okay!
+Dialogue: 50,0:20:35.01,0:20:36.17,Default,Rui,0,0,0,,Uguisu?
+Dialogue: 50,0:20:37.09,0:20:38.18,Default,Uguisu,0,0,0,,I came with!
+Dialogue: 50,0:20:38.59,0:20:41.39,Default,Fuu,0,0,0,,Azuki, what are you doing here?
+Dialogue: 50,0:20:41.39,0:20:43.18,Default,Azuki,0,0,0,,I tagged along!
+Dialogue: 50,0:20:43.18,0:20:45.56,Default,Fuu,0,0,0,,You did? That's surprising.
+Dialogue: 50,0:20:46.43,0:20:50.69,Default,Toko,0,0,0,,Now, a toast to Lilly and Lulu's debut!
+Dialogue: 50,0:20:50.69,0:20:54.02,Default,Fuu,0,0,0,,Let's all work our hardest together!
+Dialogue: 50,0:20:54.02,0:20:56.15,Default,Everyone,0,0,0,,Cheers!
+Dialogue: 50,0:20:56.69,0:20:59.40,Default,Fuu,0,0,0,,I guess milk is kinda childish, isn't it?
+Dialogue: 50,0:20:59.40,0:21:01.49,Default,Rui,0,0,0,,I wouldn't say that!
+Dialogue: 50,0:21:01.49,0:21:02.74,Default,Toko,0,0,0,,That's a lot of sugar, Lulu...
+Dialogue: 50,0:21:02.74,0:21:04.20,Default,Sena,0,0,0,,So you have a sweet tooth.
+Dialogue: 50,0:21:05.24,0:21:06.29,Default,Uguisu,0,0,0,,That was close.
+Dialogue: 50,0:21:06.29,0:21:08.33,Default,Azuki,0,0,0,,Hopefully we fooled them.
+Dialogue: 50,0:21:08.33,0:21:10.25,Default,Uguisu,0,0,0,,I think we're okay.
+Dialogue: 50,0:21:10.25,0:21:11.46,Default,Azuki,0,0,0,,Yeah.
+Dialogue: 50,0:21:12.88,0:21:15.34,Default,Fuu,0,0,0,,That was so much fun!
+Dialogue: 50,0:21:15.71,0:21:18.72,Default,Fuu,0,0,0,,Lulu-chan's so friendly!
+Dialogue: 50,0:21:18.72,0:21:20.88,Default,Fuu,0,0,0,,I think we'll get along great!
+Dialogue: 50,0:21:24.22,0:21:26.06,Default,Fuu,0,0,0,,So cute!
+Dialogue: 50,0:21:31.73,0:21:33.73,Default,Fuu,0,0,0,,Excuse me!
+Dialogue: 50,0:21:34.44,0:21:36.07,Default,Fuu,0,0,0,,I'm home!
+Dialogue: 50,0:21:36.07,0:21:37.65,Default,Mom,0,0,0,,Welcome home.
+Dialogue: 50,0:21:37.65,0:21:39.57,Default,Mom,0,0,0,,Did Mari-chan like the confection?
+Dialogue: 50,0:21:39.57,0:21:41.57,Default,Fuu,0,0,0,,Yeah, she loved it.
+Dialogue: 50,0:21:42.99,0:21:44.37,Default,Fuu,0,0,0,,Where's big sis?
+Dialogue: 50,0:21:44.37,0:21:45.70,Default,Mom,0,0,0,,She's in her room.
+Dialogue: 50,0:21:45.70,0:21:47.08,Default,Fuu,0,0,0,,Thanks!
+Dialogue: 50,0:22:04.05,0:22:05.60,Default,Uguisu,0,0,0,,You won't give it to her?
+Dialogue: 50,0:22:06.30,0:22:07.47,Default,Fuu,0,0,0,,It's fine.
+Dialogue: 50,0:22:13.06,0:22:14.35,Default,Uguisu,0,0,0,,Coward.
+Dialogue: 50,0:22:14.98,0:22:16.19,Default,Fuu,0,0,0,,I can't help it.
+Comment: 0,0:02:06.02,0:02:11.03,Signs,,0,0,0,,Title Card
+Dialogue: 0,0:02:06.02,0:02:11.03,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.7}Lulu Comes to Visit
+Comment: 0,0:05:58.25,0:06:01.26,Signs,,0,0,0,,Time Card
+Dialogue: 1,0:05:58.25,0:06:01.26,Signs,,0,0,0,,{\fnNunito\b1\fs100\blur0.7\pos(960,802)}One Week Earlier
+Dialogue: 0,0:05:58.25,0:06:01.26,Signs,,0,0,0,,{\fnNunito\b1\fs100\blur0.7\pos(960,802)\c&H000000&\bord6}One Week Earlier
+Comment: 0,0:06:11.43,0:06:14.44,Signs,,0,0,0,,Mouri Building No.1
+Dialogue: 1,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H5A799B&\blur1\pos(1726,216)}MOURI
+Dialogue: 0,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H394859&\blur1\pos(1726.8,214.74)}MOURI
+Dialogue: 1,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H5A799B&\blur1\pos(1726,256)}BUILDING
+Dialogue: 0,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H394859&\blur1\pos(1726.8,254.74)}BUILDING
+Dialogue: 1,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H5A799B&\blur1\pos(1726,296)}NO. 1
+Dialogue: 0,0:06:11.43,0:06:14.44,Signs,,0,0,0,,{\fnConduit ITC\fs60\c&H394859&\blur1\pos(1726.8,294.74)}NO. 1
+Comment: 0,0:11:48.15,0:11:50.90,Signs,,0,0,0,,Furyu
+Dialogue: 0,0:11:48.15,0:11:50.90,Signs,,0,0,0,,{=0}{\pos(1432,752)\fnChaparral Pro\b1\fax0.004816\fscx118.23\fscy119.22\frx-1.0947\fry1.8361\org(1432.81,980.73)\frz41.697\fsp-39.30\c&H201E38&\blur1}F{\frz30.047\fsp-41.91}U{\frz17.621\fsp-40.20}R{\frz5.705\fsp-41.50}Y{\frz353.402\fsp0.00}U
+Comment: 0,0:12:11.67,0:12:15.42,Signs,,0,0,0,,Mouri Building No. 1 / Dubdub
+Dialogue: 0,0:12:11.66,0:12:11.71,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(818,662.74)}MOURI
+Dialogue: 0,0:12:11.71,0:12:11.75,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(796.56,662.74)}MOURI
+Dialogue: 0,0:12:11.75,0:12:11.79,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(763.02,662.74)}MOURI
+Dialogue: 0,0:12:11.79,0:12:11.83,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(729.01,662.74)}MOURI
+Dialogue: 0,0:12:11.83,0:12:11.87,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(696.78,662.74)}MOURI
+Dialogue: 0,0:12:11.87,0:12:11.91,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(666.61,662.74)}MOURI
+Dialogue: 0,0:12:11.91,0:12:11.96,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(638.47,662.74)}MOURI
+Dialogue: 0,0:12:11.96,0:12:12.00,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(612.15,662.74)}MOURI
+Dialogue: 0,0:12:12.00,0:12:12.04,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(587.47,662.74)}MOURI
+Dialogue: 0,0:12:12.04,0:12:12.08,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(564.28,662.74)}MOURI
+Dialogue: 0,0:12:12.08,0:12:12.12,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(542.47,662.74)}MOURI
+Dialogue: 0,0:12:12.12,0:12:12.16,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(521.88,662.74)}MOURI
+Dialogue: 0,0:12:12.16,0:12:12.21,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(502.37,662.74)}MOURI
+Dialogue: 0,0:12:12.21,0:12:12.25,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(483.88,662.74)}MOURI
+Dialogue: 0,0:12:12.25,0:12:12.29,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(466.31,662.74)}MOURI
+Dialogue: 0,0:12:12.29,0:12:12.33,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(449.62,662.74)}MOURI
+Dialogue: 0,0:12:12.33,0:12:12.37,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(433.73,662.74)}MOURI
+Dialogue: 0,0:12:12.37,0:12:12.41,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(418.57,662.74)}MOURI
+Dialogue: 0,0:12:12.41,0:12:12.46,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(404.12,662.74)}MOURI
+Dialogue: 0,0:12:12.46,0:12:12.50,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(390.33,662.74)}MOURI
+Dialogue: 0,0:12:12.50,0:12:12.54,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(377.18,662.74)}MOURI
+Dialogue: 0,0:12:12.54,0:12:12.58,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(364.56,662.74)}MOURI
+Dialogue: 0,0:12:12.58,0:12:12.62,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(352.51,662.74)}MOURI
+Dialogue: 0,0:12:12.62,0:12:12.67,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(340.99,662.74)}MOURI
+Dialogue: 0,0:12:12.67,0:12:12.71,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(329.9,662.74)}MOURI
+Dialogue: 0,0:12:12.71,0:12:12.75,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(319.35,662.74)}MOURI
+Dialogue: 0,0:12:12.75,0:12:12.79,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(309.2,662.74)}MOURI
+Dialogue: 0,0:12:12.79,0:12:12.83,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(299.5,662.74)}MOURI
+Dialogue: 0,0:12:12.83,0:12:12.87,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(290.18,662.74)}MOURI
+Dialogue: 0,0:12:12.87,0:12:12.92,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(281.31,662.74)}MOURI
+Dialogue: 0,0:12:12.92,0:12:12.96,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(272.71,662.74)}MOURI
+Dialogue: 0,0:12:12.96,0:12:13.00,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(264.55,662.74)}MOURI
+Dialogue: 0,0:12:13.00,0:12:13.04,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(256.68,662.74)}MOURI
+Dialogue: 0,0:12:13.04,0:12:13.08,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(249.18,662.74)}MOURI
+Dialogue: 0,0:12:13.08,0:12:13.12,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(241.99,662.74)}MOURI
+Dialogue: 0,0:12:13.12,0:12:13.17,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(235.1,662.74)}MOURI
+Dialogue: 0,0:12:13.17,0:12:13.21,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(228.52,662.74)}MOURI
+Dialogue: 0,0:12:13.21,0:12:13.25,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(222.19,662.74)}MOURI
+Dialogue: 0,0:12:13.25,0:12:13.29,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(216.18,662.74)}MOURI
+Dialogue: 0,0:12:13.29,0:12:13.33,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(210.39,662.74)}MOURI
+Dialogue: 0,0:12:13.33,0:12:13.37,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(204.9,662.74)}MOURI
+Dialogue: 0,0:12:13.37,0:12:13.42,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(199.63,662.74)}MOURI
+Dialogue: 0,0:12:13.42,0:12:13.46,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(194.63,662.74)}MOURI
+Dialogue: 0,0:12:13.46,0:12:13.50,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(189.86,662.74)}MOURI
+Dialogue: 0,0:12:13.50,0:12:13.54,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(185.32,662.74)}MOURI
+Dialogue: 0,0:12:13.54,0:12:13.58,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(180.97,662.74)}MOURI
+Dialogue: 0,0:12:13.58,0:12:13.62,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(176.89,662.74)}MOURI
+Dialogue: 0,0:12:13.62,0:12:13.67,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(172.97,662.74)}MOURI
+Dialogue: 0,0:12:13.67,0:12:13.71,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(169.3,662.74)}MOURI
+Dialogue: 0,0:12:13.71,0:12:13.75,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(165.86,662.74)}MOURI
+Dialogue: 0,0:12:13.75,0:12:13.79,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(162.59,662.74)}MOURI
+Dialogue: 0,0:12:13.79,0:12:13.83,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(159.46,662.74)}MOURI
+Dialogue: 0,0:12:13.83,0:12:13.87,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(156.42,662.74)}MOURI
+Dialogue: 0,0:12:13.87,0:12:13.92,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(153.47,662.74)}MOURI
+Dialogue: 0,0:12:13.92,0:12:13.96,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(150.6,662.74)}MOURI
+Dialogue: 0,0:12:13.96,0:12:14.00,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(147.86,662.74)}MOURI
+Dialogue: 0,0:12:14.00,0:12:14.04,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(145.14,662.74)}MOURI
+Dialogue: 0,0:12:14.04,0:12:14.08,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(142.56,662.74)}MOURI
+Dialogue: 0,0:12:14.08,0:12:14.12,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(140.01,662.74)}MOURI
+Dialogue: 0,0:12:14.12,0:12:14.17,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(137.56,662.74)}MOURI
+Dialogue: 0,0:12:14.17,0:12:14.21,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(135.13,662.74)}MOURI
+Dialogue: 0,0:12:14.21,0:12:14.25,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(132.82,662.74)}MOURI
+Dialogue: 0,0:12:14.25,0:12:14.29,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(130.56,662.74)}MOURI
+Dialogue: 0,0:12:14.29,0:12:14.33,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(128.36,662.74)}MOURI
+Dialogue: 0,0:12:14.33,0:12:14.38,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(126.24,662.74)}MOURI
+Dialogue: 0,0:12:14.38,0:12:14.42,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(124.19,662.74)}MOURI
+Dialogue: 0,0:12:14.42,0:12:14.46,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(122.19,662.74)}MOURI
+Dialogue: 0,0:12:14.46,0:12:14.50,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(120.24,662.74)}MOURI
+Dialogue: 0,0:12:14.50,0:12:14.54,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(118.36,662.74)}MOURI
+Dialogue: 0,0:12:14.54,0:12:14.58,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(116.57,662.74)}MOURI
+Dialogue: 0,0:12:14.58,0:12:14.63,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(114.84,662.74)}MOURI
+Dialogue: 0,0:12:14.63,0:12:14.67,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(113.19,662.74)}MOURI
+Dialogue: 0,0:12:14.67,0:12:14.71,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(111.55,662.74)}MOURI
+Dialogue: 0,0:12:14.71,0:12:14.75,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(110.02,662.74)}MOURI
+Dialogue: 0,0:12:14.75,0:12:14.79,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(108.52,662.74)}MOURI
+Dialogue: 0,0:12:14.79,0:12:14.83,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(107.12,662.74)}MOURI
+Dialogue: 0,0:12:14.83,0:12:14.88,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(105.78,662.74)}MOURI
+Dialogue: 0,0:12:14.88,0:12:14.92,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(104.5,662.74)}MOURI
+Dialogue: 0,0:12:14.92,0:12:14.96,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(103.28,662.74)}MOURI
+Dialogue: 0,0:12:14.96,0:12:15.00,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(102.09,662.74)}MOURI
+Dialogue: 0,0:12:15.00,0:12:15.04,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(101.04,662.74)}MOURI
+Dialogue: 0,0:12:15.04,0:12:15.08,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(100.02,662.74)}MOURI
+Dialogue: 0,0:12:15.08,0:12:15.13,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(99.05,662.74)}MOURI
+Dialogue: 0,0:12:15.13,0:12:15.17,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(98.18,662.75)}MOURI
+Dialogue: 0,0:12:15.17,0:12:15.21,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(97.36,662.74)}MOURI
+Dialogue: 0,0:12:15.21,0:12:15.25,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(96.6,662.74)}MOURI
+Dialogue: 0,0:12:15.25,0:12:15.29,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.92,662.74)}MOURI
+Dialogue: 0,0:12:15.29,0:12:15.33,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.3,662.74)}MOURI
+Dialogue: 0,0:12:15.33,0:12:15.38,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.77,662.74)}MOURI
+Dialogue: 0,0:12:15.38,0:12:15.42,Signs,,0,0,0,,{=1}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.3,662.74)}MOURI
+Dialogue: 0,0:12:11.66,0:12:11.71,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(818,678.74)}BUILDING
+Dialogue: 0,0:12:11.71,0:12:11.75,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(796.56,678.74)}BUILDING
+Dialogue: 0,0:12:11.75,0:12:11.79,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(763.02,678.74)}BUILDING
+Dialogue: 0,0:12:11.79,0:12:11.83,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(729.01,678.74)}BUILDING
+Dialogue: 0,0:12:11.83,0:12:11.87,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(696.78,678.74)}BUILDING
+Dialogue: 0,0:12:11.87,0:12:11.91,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(666.61,678.74)}BUILDING
+Dialogue: 0,0:12:11.91,0:12:11.96,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(638.47,678.74)}BUILDING
+Dialogue: 0,0:12:11.96,0:12:12.00,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(612.15,678.74)}BUILDING
+Dialogue: 0,0:12:12.00,0:12:12.04,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(587.47,678.74)}BUILDING
+Dialogue: 0,0:12:12.04,0:12:12.08,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(564.28,678.74)}BUILDING
+Dialogue: 0,0:12:12.08,0:12:12.12,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(542.47,678.74)}BUILDING
+Dialogue: 0,0:12:12.12,0:12:12.16,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(521.88,678.74)}BUILDING
+Dialogue: 0,0:12:12.16,0:12:12.21,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(502.37,678.74)}BUILDING
+Dialogue: 0,0:12:12.21,0:12:12.25,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(483.88,678.74)}BUILDING
+Dialogue: 0,0:12:12.25,0:12:12.29,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(466.31,678.74)}BUILDING
+Dialogue: 0,0:12:12.29,0:12:12.33,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(449.62,678.74)}BUILDING
+Dialogue: 0,0:12:12.33,0:12:12.37,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(433.73,678.74)}BUILDING
+Dialogue: 0,0:12:12.37,0:12:12.41,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(418.57,678.74)}BUILDING
+Dialogue: 0,0:12:12.41,0:12:12.46,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(404.12,678.74)}BUILDING
+Dialogue: 0,0:12:12.46,0:12:12.50,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(390.33,678.74)}BUILDING
+Dialogue: 0,0:12:12.50,0:12:12.54,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(377.18,678.74)}BUILDING
+Dialogue: 0,0:12:12.54,0:12:12.58,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(364.56,678.74)}BUILDING
+Dialogue: 0,0:12:12.58,0:12:12.62,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(352.51,678.74)}BUILDING
+Dialogue: 0,0:12:12.62,0:12:12.67,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(340.99,678.74)}BUILDING
+Dialogue: 0,0:12:12.67,0:12:12.71,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(329.9,678.74)}BUILDING
+Dialogue: 0,0:12:12.71,0:12:12.75,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(319.35,678.74)}BUILDING
+Dialogue: 0,0:12:12.75,0:12:12.79,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(309.2,678.74)}BUILDING
+Dialogue: 0,0:12:12.79,0:12:12.83,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(299.5,678.74)}BUILDING
+Dialogue: 0,0:12:12.83,0:12:12.87,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(290.18,678.74)}BUILDING
+Dialogue: 0,0:12:12.87,0:12:12.92,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(281.31,678.74)}BUILDING
+Dialogue: 0,0:12:12.92,0:12:12.96,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(272.71,678.74)}BUILDING
+Dialogue: 0,0:12:12.96,0:12:13.00,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(264.55,678.74)}BUILDING
+Dialogue: 0,0:12:13.00,0:12:13.04,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(256.68,678.74)}BUILDING
+Dialogue: 0,0:12:13.04,0:12:13.08,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(249.17,678.74)}BUILDING
+Dialogue: 0,0:12:13.08,0:12:13.12,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(241.99,678.74)}BUILDING
+Dialogue: 0,0:12:13.12,0:12:13.17,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(235.1,678.74)}BUILDING
+Dialogue: 0,0:12:13.17,0:12:13.21,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(228.52,678.74)}BUILDING
+Dialogue: 0,0:12:13.21,0:12:13.25,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(222.19,678.74)}BUILDING
+Dialogue: 0,0:12:13.25,0:12:13.29,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(216.18,678.74)}BUILDING
+Dialogue: 0,0:12:13.29,0:12:13.33,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(210.39,678.74)}BUILDING
+Dialogue: 0,0:12:13.33,0:12:13.37,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(204.9,678.74)}BUILDING
+Dialogue: 0,0:12:13.37,0:12:13.42,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(199.63,678.74)}BUILDING
+Dialogue: 0,0:12:13.42,0:12:13.46,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(194.63,678.74)}BUILDING
+Dialogue: 0,0:12:13.46,0:12:13.50,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(189.86,678.74)}BUILDING
+Dialogue: 0,0:12:13.50,0:12:13.54,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(185.32,678.74)}BUILDING
+Dialogue: 0,0:12:13.54,0:12:13.58,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(180.97,678.74)}BUILDING
+Dialogue: 0,0:12:13.58,0:12:13.62,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(176.89,678.74)}BUILDING
+Dialogue: 0,0:12:13.62,0:12:13.67,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(172.97,678.74)}BUILDING
+Dialogue: 0,0:12:13.67,0:12:13.71,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(169.3,678.74)}BUILDING
+Dialogue: 0,0:12:13.71,0:12:13.75,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(165.86,678.74)}BUILDING
+Dialogue: 0,0:12:13.75,0:12:13.79,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(162.59,678.74)}BUILDING
+Dialogue: 0,0:12:13.79,0:12:13.83,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(159.46,678.74)}BUILDING
+Dialogue: 0,0:12:13.83,0:12:13.87,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(156.42,678.74)}BUILDING
+Dialogue: 0,0:12:13.87,0:12:13.92,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(153.47,678.74)}BUILDING
+Dialogue: 0,0:12:13.92,0:12:13.96,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(150.6,678.74)}BUILDING
+Dialogue: 0,0:12:13.96,0:12:14.00,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(147.85,678.74)}BUILDING
+Dialogue: 0,0:12:14.00,0:12:14.04,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(145.14,678.74)}BUILDING
+Dialogue: 0,0:12:14.04,0:12:14.08,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(142.56,678.74)}BUILDING
+Dialogue: 0,0:12:14.08,0:12:14.12,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(140.01,678.74)}BUILDING
+Dialogue: 0,0:12:14.12,0:12:14.17,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(137.55,678.74)}BUILDING
+Dialogue: 0,0:12:14.17,0:12:14.21,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(135.13,678.74)}BUILDING
+Dialogue: 0,0:12:14.21,0:12:14.25,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(132.82,678.74)}BUILDING
+Dialogue: 0,0:12:14.25,0:12:14.29,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(130.55,678.74)}BUILDING
+Dialogue: 0,0:12:14.29,0:12:14.33,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(128.36,678.74)}BUILDING
+Dialogue: 0,0:12:14.33,0:12:14.38,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(126.24,678.74)}BUILDING
+Dialogue: 0,0:12:14.38,0:12:14.42,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(124.18,678.74)}BUILDING
+Dialogue: 0,0:12:14.42,0:12:14.46,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(122.19,678.74)}BUILDING
+Dialogue: 0,0:12:14.46,0:12:14.50,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(120.24,678.74)}BUILDING
+Dialogue: 0,0:12:14.50,0:12:14.54,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(118.36,678.74)}BUILDING
+Dialogue: 0,0:12:14.54,0:12:14.58,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(116.57,678.74)}BUILDING
+Dialogue: 0,0:12:14.58,0:12:14.63,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(114.84,678.74)}BUILDING
+Dialogue: 0,0:12:14.63,0:12:14.67,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(113.19,678.74)}BUILDING
+Dialogue: 0,0:12:14.67,0:12:14.71,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(111.55,678.74)}BUILDING
+Dialogue: 0,0:12:14.71,0:12:14.75,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(110.02,678.74)}BUILDING
+Dialogue: 0,0:12:14.75,0:12:14.79,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(108.52,678.74)}BUILDING
+Dialogue: 0,0:12:14.79,0:12:14.83,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(107.12,678.74)}BUILDING
+Dialogue: 0,0:12:14.83,0:12:14.88,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(105.78,678.74)}BUILDING
+Dialogue: 0,0:12:14.88,0:12:14.92,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(104.5,678.74)}BUILDING
+Dialogue: 0,0:12:14.92,0:12:14.96,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(103.28,678.74)}BUILDING
+Dialogue: 0,0:12:14.96,0:12:15.00,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(102.09,678.74)}BUILDING
+Dialogue: 0,0:12:15.00,0:12:15.04,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(101.04,678.74)}BUILDING
+Dialogue: 0,0:12:15.04,0:12:15.08,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(100.02,678.74)}BUILDING
+Dialogue: 0,0:12:15.08,0:12:15.13,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(99.05,678.74)}BUILDING
+Dialogue: 0,0:12:15.13,0:12:15.17,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(98.18,678.75)}BUILDING
+Dialogue: 0,0:12:15.17,0:12:15.21,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(97.36,678.74)}BUILDING
+Dialogue: 0,0:12:15.21,0:12:15.25,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(96.6,678.74)}BUILDING
+Dialogue: 0,0:12:15.25,0:12:15.29,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.92,678.74)}BUILDING
+Dialogue: 0,0:12:15.29,0:12:15.33,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.3,678.74)}BUILDING
+Dialogue: 0,0:12:15.33,0:12:15.38,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.77,678.74)}BUILDING
+Dialogue: 0,0:12:15.38,0:12:15.42,Signs,,0,0,0,,{=2}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.3,678.74)}BUILDING
+Dialogue: 0,0:12:11.66,0:12:11.71,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(818,694.74)}NO. 1
+Dialogue: 0,0:12:11.71,0:12:11.75,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(796.56,694.74)}NO. 1
+Dialogue: 0,0:12:11.75,0:12:11.79,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(763.02,694.74)}NO. 1
+Dialogue: 0,0:12:11.79,0:12:11.83,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(729.01,694.74)}NO. 1
+Dialogue: 0,0:12:11.83,0:12:11.87,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(696.78,694.74)}NO. 1
+Dialogue: 0,0:12:11.87,0:12:11.91,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(666.61,694.74)}NO. 1
+Dialogue: 0,0:12:11.91,0:12:11.96,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(638.47,694.74)}NO. 1
+Dialogue: 0,0:12:11.96,0:12:12.00,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(612.15,694.74)}NO. 1
+Dialogue: 0,0:12:12.00,0:12:12.04,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(587.47,694.74)}NO. 1
+Dialogue: 0,0:12:12.04,0:12:12.08,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(564.28,694.74)}NO. 1
+Dialogue: 0,0:12:12.08,0:12:12.12,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(542.47,694.74)}NO. 1
+Dialogue: 0,0:12:12.12,0:12:12.16,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(521.88,694.74)}NO. 1
+Dialogue: 0,0:12:12.16,0:12:12.21,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(502.37,694.74)}NO. 1
+Dialogue: 0,0:12:12.21,0:12:12.25,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(483.88,694.74)}NO. 1
+Dialogue: 0,0:12:12.25,0:12:12.29,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(466.31,694.74)}NO. 1
+Dialogue: 0,0:12:12.29,0:12:12.33,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(449.62,694.74)}NO. 1
+Dialogue: 0,0:12:12.33,0:12:12.37,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(433.73,694.74)}NO. 1
+Dialogue: 0,0:12:12.37,0:12:12.41,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(418.57,694.74)}NO. 1
+Dialogue: 0,0:12:12.41,0:12:12.46,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(404.12,694.74)}NO. 1
+Dialogue: 0,0:12:12.46,0:12:12.50,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(390.33,694.74)}NO. 1
+Dialogue: 0,0:12:12.50,0:12:12.54,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(377.18,694.74)}NO. 1
+Dialogue: 0,0:12:12.54,0:12:12.58,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(364.56,694.74)}NO. 1
+Dialogue: 0,0:12:12.58,0:12:12.62,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(352.51,694.74)}NO. 1
+Dialogue: 0,0:12:12.62,0:12:12.67,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(340.99,694.74)}NO. 1
+Dialogue: 0,0:12:12.67,0:12:12.71,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(329.9,694.74)}NO. 1
+Dialogue: 0,0:12:12.71,0:12:12.75,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(319.35,694.74)}NO. 1
+Dialogue: 0,0:12:12.75,0:12:12.79,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(309.2,694.74)}NO. 1
+Dialogue: 0,0:12:12.79,0:12:12.83,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(299.5,694.74)}NO. 1
+Dialogue: 0,0:12:12.83,0:12:12.87,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(290.18,694.74)}NO. 1
+Dialogue: 0,0:12:12.87,0:12:12.92,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(281.31,694.74)}NO. 1
+Dialogue: 0,0:12:12.92,0:12:12.96,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(272.71,694.74)}NO. 1
+Dialogue: 0,0:12:12.96,0:12:13.00,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(264.55,694.74)}NO. 1
+Dialogue: 0,0:12:13.00,0:12:13.04,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(256.68,694.74)}NO. 1
+Dialogue: 0,0:12:13.04,0:12:13.08,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(249.17,694.74)}NO. 1
+Dialogue: 0,0:12:13.08,0:12:13.12,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(241.99,694.74)}NO. 1
+Dialogue: 0,0:12:13.12,0:12:13.17,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(235.1,694.74)}NO. 1
+Dialogue: 0,0:12:13.17,0:12:13.21,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(228.52,694.74)}NO. 1
+Dialogue: 0,0:12:13.21,0:12:13.25,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(222.19,694.74)}NO. 1
+Dialogue: 0,0:12:13.25,0:12:13.29,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(216.18,694.74)}NO. 1
+Dialogue: 0,0:12:13.29,0:12:13.33,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(210.39,694.74)}NO. 1
+Dialogue: 0,0:12:13.33,0:12:13.37,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(204.9,694.74)}NO. 1
+Dialogue: 0,0:12:13.37,0:12:13.42,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(199.63,694.74)}NO. 1
+Dialogue: 0,0:12:13.42,0:12:13.46,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(194.63,694.74)}NO. 1
+Dialogue: 0,0:12:13.46,0:12:13.50,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(189.86,694.74)}NO. 1
+Dialogue: 0,0:12:13.50,0:12:13.54,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(185.32,694.74)}NO. 1
+Dialogue: 0,0:12:13.54,0:12:13.58,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(180.97,694.74)}NO. 1
+Dialogue: 0,0:12:13.58,0:12:13.62,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(176.89,694.74)}NO. 1
+Dialogue: 0,0:12:13.62,0:12:13.67,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(172.97,694.74)}NO. 1
+Dialogue: 0,0:12:13.67,0:12:13.71,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(169.3,694.74)}NO. 1
+Dialogue: 0,0:12:13.71,0:12:13.75,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(165.86,694.74)}NO. 1
+Dialogue: 0,0:12:13.75,0:12:13.79,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(162.59,694.74)}NO. 1
+Dialogue: 0,0:12:13.79,0:12:13.83,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(159.46,694.74)}NO. 1
+Dialogue: 0,0:12:13.83,0:12:13.87,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(156.42,694.74)}NO. 1
+Dialogue: 0,0:12:13.87,0:12:13.92,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(153.47,694.74)}NO. 1
+Dialogue: 0,0:12:13.92,0:12:13.96,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(150.6,694.74)}NO. 1
+Dialogue: 0,0:12:13.96,0:12:14.00,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(147.86,694.74)}NO. 1
+Dialogue: 0,0:12:14.00,0:12:14.04,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(145.14,694.74)}NO. 1
+Dialogue: 0,0:12:14.04,0:12:14.08,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(142.56,694.74)}NO. 1
+Dialogue: 0,0:12:14.08,0:12:14.12,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(140.01,694.74)}NO. 1
+Dialogue: 0,0:12:14.12,0:12:14.17,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(137.56,694.74)}NO. 1
+Dialogue: 0,0:12:14.17,0:12:14.21,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(135.13,694.74)}NO. 1
+Dialogue: 0,0:12:14.21,0:12:14.25,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(132.82,694.74)}NO. 1
+Dialogue: 0,0:12:14.25,0:12:14.29,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(130.56,694.74)}NO. 1
+Dialogue: 0,0:12:14.29,0:12:14.33,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(128.36,694.74)}NO. 1
+Dialogue: 0,0:12:14.33,0:12:14.38,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(126.24,694.74)}NO. 1
+Dialogue: 0,0:12:14.38,0:12:14.42,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(124.19,694.74)}NO. 1
+Dialogue: 0,0:12:14.42,0:12:14.46,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(122.19,694.74)}NO. 1
+Dialogue: 0,0:12:14.46,0:12:14.50,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(120.24,694.74)}NO. 1
+Dialogue: 0,0:12:14.50,0:12:14.54,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(118.36,694.74)}NO. 1
+Dialogue: 0,0:12:14.54,0:12:14.58,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(116.57,694.74)}NO. 1
+Dialogue: 0,0:12:14.58,0:12:14.63,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(114.84,694.74)}NO. 1
+Dialogue: 0,0:12:14.63,0:12:14.67,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(113.19,694.74)}NO. 1
+Dialogue: 0,0:12:14.67,0:12:14.71,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(111.55,694.74)}NO. 1
+Dialogue: 0,0:12:14.71,0:12:14.75,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(110.02,694.74)}NO. 1
+Dialogue: 0,0:12:14.75,0:12:14.79,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(108.52,694.74)}NO. 1
+Dialogue: 0,0:12:14.79,0:12:14.83,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(107.12,694.74)}NO. 1
+Dialogue: 0,0:12:14.83,0:12:14.88,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(105.78,694.74)}NO. 1
+Dialogue: 0,0:12:14.88,0:12:14.92,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(104.5,694.74)}NO. 1
+Dialogue: 0,0:12:14.92,0:12:14.96,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(103.28,694.74)}NO. 1
+Dialogue: 0,0:12:14.96,0:12:15.00,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(102.09,694.74)}NO. 1
+Dialogue: 0,0:12:15.00,0:12:15.04,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(101.04,694.74)}NO. 1
+Dialogue: 0,0:12:15.04,0:12:15.08,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(100.02,694.74)}NO. 1
+Dialogue: 0,0:12:15.08,0:12:15.13,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(99.05,694.74)}NO. 1
+Dialogue: 0,0:12:15.13,0:12:15.17,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(98.18,694.75)}NO. 1
+Dialogue: 0,0:12:15.17,0:12:15.21,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(97.36,694.74)}NO. 1
+Dialogue: 0,0:12:15.21,0:12:15.25,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(96.6,694.74)}NO. 1
+Dialogue: 0,0:12:15.25,0:12:15.29,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.92,694.74)}NO. 1
+Dialogue: 0,0:12:15.29,0:12:15.33,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(95.3,694.74)}NO. 1
+Dialogue: 0,0:12:15.33,0:12:15.38,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.77,694.74)}NO. 1
+Dialogue: 0,0:12:15.38,0:12:15.42,Signs,,0,0,0,,{=3}{\fnConduit ITC\fs25\c&H4D6683&\blur1\pos(94.3,694.74)}NO. 1
+Dialogue: 0,0:12:11.66,0:12:11.71,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1678.79,685.27)}Dubdub
+Dialogue: 0,0:12:11.71,0:12:11.75,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1657.35,685.27)}Dubdub
+Dialogue: 0,0:12:11.75,0:12:11.79,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1623.81,685.27)}Dubdub
+Dialogue: 0,0:12:11.79,0:12:11.83,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1589.8,685.27)}Dubdub
+Dialogue: 0,0:12:11.83,0:12:11.87,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1557.57,685.27)}Dubdub
+Dialogue: 0,0:12:11.87,0:12:11.91,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1527.4,685.27)}Dubdub
+Dialogue: 0,0:12:11.91,0:12:11.96,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1499.26,685.27)}Dubdub
+Dialogue: 0,0:12:11.96,0:12:12.00,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1472.94,685.27)}Dubdub
+Dialogue: 0,0:12:12.00,0:12:12.04,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1448.26,685.27)}Dubdub
+Dialogue: 0,0:12:12.04,0:12:12.08,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1425.07,685.27)}Dubdub
+Dialogue: 0,0:12:12.08,0:12:12.12,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1403.26,685.27)}Dubdub
+Dialogue: 0,0:12:12.12,0:12:12.16,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1382.67,685.27)}Dubdub
+Dialogue: 0,0:12:12.16,0:12:12.21,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1363.16,685.27)}Dubdub
+Dialogue: 0,0:12:12.21,0:12:12.25,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1344.67,685.27)}Dubdub
+Dialogue: 0,0:12:12.25,0:12:12.29,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1327.1,685.27)}Dubdub
+Dialogue: 0,0:12:12.29,0:12:12.33,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1310.41,685.27)}Dubdub
+Dialogue: 0,0:12:12.33,0:12:12.37,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1294.52,685.27)}Dubdub
+Dialogue: 0,0:12:12.37,0:12:12.41,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1279.36,685.27)}Dubdub
+Dialogue: 0,0:12:12.41,0:12:12.46,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1264.91,685.27)}Dubdub
+Dialogue: 0,0:12:12.46,0:12:12.50,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1251.12,685.27)}Dubdub
+Dialogue: 0,0:12:12.50,0:12:12.54,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1237.97,685.27)}Dubdub
+Dialogue: 0,0:12:12.54,0:12:12.58,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1225.35,685.27)}Dubdub
+Dialogue: 0,0:12:12.58,0:12:12.62,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1213.3,685.27)}Dubdub
+Dialogue: 0,0:12:12.62,0:12:12.67,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1201.78,685.27)}Dubdub
+Dialogue: 0,0:12:12.67,0:12:12.71,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1190.69,685.27)}Dubdub
+Dialogue: 0,0:12:12.71,0:12:12.75,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1180.14,685.27)}Dubdub
+Dialogue: 0,0:12:12.75,0:12:12.79,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1169.99,685.27)}Dubdub
+Dialogue: 0,0:12:12.79,0:12:12.83,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1160.29,685.27)}Dubdub
+Dialogue: 0,0:12:12.83,0:12:12.87,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1150.97,685.27)}Dubdub
+Dialogue: 0,0:12:12.87,0:12:12.92,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1142.1,685.27)}Dubdub
+Dialogue: 0,0:12:12.92,0:12:12.96,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1133.5,685.27)}Dubdub
+Dialogue: 0,0:12:12.96,0:12:13.00,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1125.34,685.27)}Dubdub
+Dialogue: 0,0:12:13.00,0:12:13.04,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1117.47,685.27)}Dubdub
+Dialogue: 0,0:12:13.04,0:12:13.08,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1109.96,685.27)}Dubdub
+Dialogue: 0,0:12:13.08,0:12:13.12,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1102.78,685.27)}Dubdub
+Dialogue: 0,0:12:13.12,0:12:13.17,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1095.89,685.27)}Dubdub
+Dialogue: 0,0:12:13.17,0:12:13.21,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1089.31,685.27)}Dubdub
+Dialogue: 0,0:12:13.21,0:12:13.25,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1082.98,685.27)}Dubdub
+Dialogue: 0,0:12:13.25,0:12:13.29,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1076.97,685.27)}Dubdub
+Dialogue: 0,0:12:13.29,0:12:13.33,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1071.18,685.27)}Dubdub
+Dialogue: 0,0:12:13.33,0:12:13.37,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1065.69,685.27)}Dubdub
+Dialogue: 0,0:12:13.37,0:12:13.42,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1060.42,685.27)}Dubdub
+Dialogue: 0,0:12:13.42,0:12:13.46,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1055.42,685.27)}Dubdub
+Dialogue: 0,0:12:13.46,0:12:13.50,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1050.65,685.27)}Dubdub
+Dialogue: 0,0:12:13.50,0:12:13.54,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1046.11,685.27)}Dubdub
+Dialogue: 0,0:12:13.54,0:12:13.58,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1041.76,685.27)}Dubdub
+Dialogue: 0,0:12:13.58,0:12:13.62,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1037.68,685.27)}Dubdub
+Dialogue: 0,0:12:13.62,0:12:13.67,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1033.76,685.27)}Dubdub
+Dialogue: 0,0:12:13.67,0:12:13.71,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1030.09,685.27)}Dubdub
+Dialogue: 0,0:12:13.71,0:12:13.75,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1026.65,685.27)}Dubdub
+Dialogue: 0,0:12:13.75,0:12:13.79,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1023.38,685.27)}Dubdub
+Dialogue: 0,0:12:13.79,0:12:13.83,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1020.25,685.27)}Dubdub
+Dialogue: 0,0:12:13.83,0:12:13.87,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1017.21,685.27)}Dubdub
+Dialogue: 0,0:12:13.87,0:12:13.92,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1014.26,685.27)}Dubdub
+Dialogue: 0,0:12:13.92,0:12:13.96,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1011.39,685.27)}Dubdub
+Dialogue: 0,0:12:13.96,0:12:14.00,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1008.65,685.27)}Dubdub
+Dialogue: 0,0:12:14.00,0:12:14.04,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1005.93,685.27)}Dubdub
+Dialogue: 0,0:12:14.04,0:12:14.08,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1003.35,685.27)}Dubdub
+Dialogue: 0,0:12:14.08,0:12:14.12,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(1000.8,685.27)}Dubdub
+Dialogue: 0,0:12:14.12,0:12:14.17,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(998.35,685.27)}Dubdub
+Dialogue: 0,0:12:14.17,0:12:14.21,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(995.92,685.27)}Dubdub
+Dialogue: 0,0:12:14.21,0:12:14.25,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(993.61,685.27)}Dubdub
+Dialogue: 0,0:12:14.25,0:12:14.29,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(991.35,685.27)}Dubdub
+Dialogue: 0,0:12:14.29,0:12:14.33,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(989.15,685.27)}Dubdub
+Dialogue: 0,0:12:14.33,0:12:14.38,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(987.03,685.27)}Dubdub
+Dialogue: 0,0:12:14.38,0:12:14.42,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(984.98,685.27)}Dubdub
+Dialogue: 0,0:12:14.42,0:12:14.46,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(982.98,685.27)}Dubdub
+Dialogue: 0,0:12:14.46,0:12:14.50,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(981.03,685.27)}Dubdub
+Dialogue: 0,0:12:14.50,0:12:14.54,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(979.15,685.27)}Dubdub
+Dialogue: 0,0:12:14.54,0:12:14.58,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(977.36,685.27)}Dubdub
+Dialogue: 0,0:12:14.58,0:12:14.63,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(975.63,685.27)}Dubdub
+Dialogue: 0,0:12:14.63,0:12:14.67,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(973.98,685.27)}Dubdub
+Dialogue: 0,0:12:14.67,0:12:14.71,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(972.34,685.27)}Dubdub
+Dialogue: 0,0:12:14.71,0:12:14.75,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(970.81,685.27)}Dubdub
+Dialogue: 0,0:12:14.75,0:12:14.79,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(969.31,685.27)}Dubdub
+Dialogue: 0,0:12:14.79,0:12:14.83,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(967.91,685.27)}Dubdub
+Dialogue: 0,0:12:14.83,0:12:14.88,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(966.57,685.27)}Dubdub
+Dialogue: 0,0:12:14.88,0:12:14.92,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(965.29,685.27)}Dubdub
+Dialogue: 0,0:12:14.92,0:12:14.96,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(964.07,685.27)}Dubdub
+Dialogue: 0,0:12:14.96,0:12:15.00,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(962.88,685.27)}Dubdub
+Dialogue: 0,0:12:15.00,0:12:15.04,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(961.83,685.27)}Dubdub
+Dialogue: 0,0:12:15.04,0:12:15.08,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(960.81,685.27)}Dubdub
+Dialogue: 0,0:12:15.08,0:12:15.13,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(959.84,685.27)}Dubdub
+Dialogue: 0,0:12:15.13,0:12:15.17,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(958.97,685.28)}Dubdub
+Dialogue: 0,0:12:15.17,0:12:15.21,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(958.15,685.27)}Dubdub
+Dialogue: 0,0:12:15.21,0:12:15.25,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(957.39,685.27)}Dubdub
+Dialogue: 0,0:12:15.25,0:12:15.29,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(956.71,685.27)}Dubdub
+Dialogue: 0,0:12:15.29,0:12:15.33,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(956.09,685.27)}Dubdub
+Dialogue: 0,0:12:15.33,0:12:15.38,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(955.56,685.27)}Dubdub
+Dialogue: 0,0:12:15.38,0:12:15.42,Signs,,0,0,0,,{=4}{\fnCentury Schoolbook\fs15\c&HD7E2F8&\blur1\pos(955.09,685.27)}Dubdub
+Comment: 0,0:12:21.43,0:12:23.43,Signs,,0,0,0,,Café Dubdub
+Dialogue: 0,0:12:21.43,0:12:23.43,Signs,,0,0,0,,{=5}{\fnCentury Schoolbook\fs30\fax0.000480\fscx158.81\fscy146.87\frz-6.4874\frx-0.0256\fry0.3440\org(1390.31,585.53)\pos(1390.29,585.53)\c&H553ABC&\blur0.9}Café {\c&H43495F&}Dubdub
+Comment: 0,0:13:47.93,0:13:49.06,Signs,,0,0,0,,Non-Voiced Text Message
+Dialogue: 0,0:13:48.18,0:13:48.22,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx40.96\fscy37.16\frz-0.0301\frx3.2291\fry0.1109\org(1505.02,893.94)\pos(1623.52,893.94)}I'll be there soon!!!
+Dialogue: 0,0:13:48.22,0:13:48.26,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx63.75\fscy57.84\frz-0.0301\frx3.2291\fry0.1109\org(1397.04,867.82)\pos(1581.48,867.82)}I'll be there soon!!!
+Dialogue: 0,0:13:48.26,0:13:48.30,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx78.56\fscy71.28\frz-0.0301\frx3.2291\fry0.1109\org(1326.51,856.94)\pos(1553.81,856.94)}I'll be there soon!!!
+Dialogue: 0,0:13:48.30,0:13:48.34,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx87.78\fscy79.64\frz-0.0301\frx3.2291\fry0.1109\org(1282.53,852.03)\pos(1536.5,852.03)}I'll be there soon!!!
+Dialogue: 0,0:13:48.34,0:13:48.39,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx91.84\fscy83.32\frz-0.0301\frx3.2291\fry0.1109\org(1262.88,848.75)\pos(1528.59,848.75)}I'll be there soon!!!
+Dialogue: 0,0:13:48.39,0:13:49.06,Signs,,0,0,0,,{=6=7}{\an6\fnArial\c&H3E5A43&\blur1\fax0.053021\fscx89.84\fscy81.51\frz-0.0301\frx3.2291\fry0.1109\org(1271.16,842.74)\pos(1531.08,842.74)}I'll be there soon!!!
+Comment: 0,0:13:54.44,0:13:57.36,Signs,,0,0,0,,Mouri Building No. 1 / Dubdub
+Dialogue: 1,0:13:54.43,0:13:54.48,Signs,,0,0,0,,{=8}{\fscy122.61\fscx122.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-52.55,301.96)}MOURI
+Dialogue: 1,0:13:54.48,0:13:54.52,Signs,,0,0,0,,{=8}{\fscy121.92\fscx121.92\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-38.52,302.89)}MOURI
+Dialogue: 1,0:13:54.52,0:13:54.56,Signs,,0,0,0,,{=8}{\fscy121.28\fscx121.28\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-24.81,303.85)}MOURI
+Dialogue: 1,0:13:54.56,0:13:54.60,Signs,,0,0,0,,{=8}{\fscy120.61\fscx120.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-10.87,304.81)}MOURI
+Dialogue: 1,0:13:54.60,0:13:54.64,Signs,,0,0,0,,{=8}{\fscy119.98\fscx119.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(2.89,305.78)}MOURI
+Dialogue: 1,0:13:54.64,0:13:54.68,Signs,,0,0,0,,{=8}{\fscy119.34\fscx119.34\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(16.73,306.77)}MOURI
+Dialogue: 1,0:13:54.68,0:13:54.73,Signs,,0,0,0,,{=8}{\fscy118.69\fscx118.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(30.79,307.74)}MOURI
+Dialogue: 1,0:13:54.73,0:13:54.77,Signs,,0,0,0,,{=8}{\fscy118.06\fscx118.06\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(44.67,308.75)}MOURI
+Dialogue: 1,0:13:54.77,0:13:54.81,Signs,,0,0,0,,{=8}{\fscy117.42\fscx117.42\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(58.69,309.74)}MOURI
+Dialogue: 1,0:13:54.81,0:13:54.85,Signs,,0,0,0,,{=8}{\fscy116.77\fscx116.77\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(72.81,310.76)}MOURI
+Dialogue: 1,0:13:54.85,0:13:54.89,Signs,,0,0,0,,{=8}{\fscy116.16\fscx116.16\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(86.74,311.79)}MOURI
+Dialogue: 1,0:13:54.89,0:13:54.93,Signs,,0,0,0,,{=8}{\fscy115.52\fscx115.52\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(100.93,312.83)}MOURI
+Dialogue: 1,0:13:54.93,0:13:54.98,Signs,,0,0,0,,{=8}{\fscy114.91\fscx114.91\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(115.05,313.87)}MOURI
+Dialogue: 1,0:13:54.98,0:13:55.02,Signs,,0,0,0,,{=8}{\fscy114.27\fscx114.27\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(129.35,314.96)}MOURI
+Dialogue: 1,0:13:55.02,0:13:55.06,Signs,,0,0,0,,{=8}{\fscy113.67\fscx113.67\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(143.4,316.02)}MOURI
+Dialogue: 1,0:13:55.06,0:13:55.10,Signs,,0,0,0,,{=8}{\fscy113.08\fscx113.08\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(157.47,317.09)}MOURI
+Dialogue: 1,0:13:55.10,0:13:55.14,Signs,,0,0,0,,{=8}{\fscy112.48\fscx112.48\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(171.68,318.19)}MOURI
+Dialogue: 1,0:13:55.14,0:13:55.18,Signs,,0,0,0,,{=8}{\fscy111.89\fscx111.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(185.95,319.29)}MOURI
+Dialogue: 1,0:13:55.18,0:13:55.23,Signs,,0,0,0,,{=8}{\fscy111.33\fscx111.33\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(200.08,320.42)}MOURI
+Dialogue: 1,0:13:55.23,0:13:55.27,Signs,,0,0,0,,{=8}{\fscy110.73\fscx110.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(214.48,321.54)}MOURI
+Dialogue: 1,0:13:55.27,0:13:55.31,Signs,,0,0,0,,{=8}{\fscy110.14\fscx110.14\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(228.95,322.7)}MOURI
+Dialogue: 1,0:13:55.31,0:13:55.35,Signs,,0,0,0,,{=8}{\fscy109.56\fscx109.56\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(243.44,323.86)}MOURI
+Dialogue: 1,0:13:55.35,0:13:55.39,Signs,,0,0,0,,{=8}{\fscy108.99\fscx108.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(257.83,325.02)}MOURI
+Dialogue: 1,0:13:55.39,0:13:55.43,Signs,,0,0,0,,{=8}{\fscy108.44\fscx108.44\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(272.28,326.2)}MOURI
+Dialogue: 1,0:13:55.43,0:13:55.48,Signs,,0,0,0,,{=8}{\fscy107.89\fscx107.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(286.71,327.4)}MOURI
+Dialogue: 1,0:13:55.48,0:13:55.52,Signs,,0,0,0,,{=8}{\fscy107.32\fscx107.32\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(301.42,328.63)}MOURI
+Dialogue: 1,0:13:55.52,0:13:55.56,Signs,,0,0,0,,{=8}{\fscy106.78\fscx106.78\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(316,329.88)}MOURI
+Dialogue: 1,0:13:55.56,0:13:55.60,Signs,,0,0,0,,{=8}{\fscy106.23\fscx106.23\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(330.73,331.14)}MOURI
+Dialogue: 1,0:13:55.60,0:13:55.64,Signs,,0,0,0,,{=8}{\fscy105.73\fscx105.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(345.2,332.41)}MOURI
+Dialogue: 1,0:13:55.64,0:13:55.68,Signs,,0,0,0,,{=8}{\fscy105.22\fscx105.22\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(359.84,333.69)}MOURI
+Dialogue: 1,0:13:55.68,0:13:55.73,Signs,,0,0,0,,{=8}{\fscy104.69\fscx104.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(374.69,334.99)}MOURI
+Dialogue: 1,0:13:55.73,0:13:55.77,Signs,,0,0,0,,{=8}{\fscy104.2\fscx104.2\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(389.43,336.32)}MOURI
+Dialogue: 1,0:13:55.77,0:13:55.81,Signs,,0,0,0,,{=8}{\fscy103.73\fscx103.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(404.1,337.67)}MOURI
+Dialogue: 1,0:13:55.81,0:13:55.85,Signs,,0,0,0,,{=8}{\fscy103.26\fscx103.26\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(418.93,339.02)}MOURI
+Dialogue: 1,0:13:55.85,0:13:55.89,Signs,,0,0,0,,{=8}{\fscy102.8\fscx102.8\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(433.64,340.4)}MOURI
+Dialogue: 1,0:13:55.89,0:13:55.93,Signs,,0,0,0,,{=8}{\fscy102.36\fscx102.36\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(448.44,341.82)}MOURI
+Dialogue: 1,0:13:55.93,0:13:55.98,Signs,,0,0,0,,{=8}{\fscy101.94\fscx101.94\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(463.16,343.26)}MOURI
+Dialogue: 1,0:13:55.98,0:13:56.02,Signs,,0,0,0,,{=8}{\fscy101.55\fscx101.55\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(477.86,344.71)}MOURI
+Dialogue: 1,0:13:56.02,0:13:56.06,Signs,,0,0,0,,{=8}{\fscy101.17\fscx101.17\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(492.44,346.21)}MOURI
+Dialogue: 1,0:13:56.06,0:13:56.10,Signs,,0,0,0,,{=8}{\fscy100.84\fscx100.84\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(506.94,347.72)}MOURI
+Dialogue: 1,0:13:56.10,0:13:56.14,Signs,,0,0,0,,{=8}{\fscy100.53\fscx100.53\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(521.38,349.29)}MOURI
+Dialogue: 1,0:13:56.14,0:13:56.19,Signs,,0,0,0,,{=8}{\fscy100.3\fscx100.3\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(535.38,350.9)}MOURI
+Dialogue: 1,0:13:56.19,0:13:56.23,Signs,,0,0,0,,{=8}{\fscy100.11\fscx100.11\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(549.12,352.55)}MOURI
+Dialogue: 1,0:13:56.23,0:13:56.27,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(562.47,354.28)}MOURI
+Dialogue: 1,0:13:56.27,0:13:56.31,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(575.18,356.05)}MOURI
+Dialogue: 1,0:13:56.31,0:13:56.35,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(588.07,357.86)}MOURI
+Dialogue: 1,0:13:56.35,0:13:56.39,Signs,,0,0,0,,{=8}{\fscy99.97\fscx99.97\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(601.14,359.71)}MOURI
+Dialogue: 1,0:13:56.39,0:13:56.44,Signs,,0,0,0,,{=8}{\fscy100.02\fscx100.02\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(613.94,361.56)}MOURI
+Dialogue: 1,0:13:56.44,0:13:56.48,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(627.31,363.45)}MOURI
+Dialogue: 1,0:13:56.48,0:13:56.52,Signs,,0,0,0,,{=8}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(640.68,365.34)}MOURI
+Dialogue: 1,0:13:56.52,0:13:56.56,Signs,,0,0,0,,{=8}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(654.22,367.25)}MOURI
+Dialogue: 1,0:13:56.56,0:13:56.60,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(668.04,369.17)}MOURI
+Dialogue: 1,0:13:56.60,0:13:56.64,Signs,,0,0,0,,{=8}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(681.89,371.14)}MOURI
+Dialogue: 1,0:13:56.64,0:13:56.69,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(695.85,373.11)}MOURI
+Dialogue: 1,0:13:56.69,0:13:56.73,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(709.89,375.11)}MOURI
+Dialogue: 1,0:13:56.73,0:13:56.77,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(724,377.14)}MOURI
+Dialogue: 1,0:13:56.77,0:13:56.81,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(738.39,379.13)}MOURI
+Dialogue: 1,0:13:56.81,0:13:56.85,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(752.65,381.16)}MOURI
+Dialogue: 1,0:13:56.85,0:13:56.89,Signs,,0,0,0,,{=8}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(766.97,383.16)}MOURI
+Dialogue: 1,0:13:56.89,0:13:56.94,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(781.39,385.22)}MOURI
+Dialogue: 1,0:13:56.94,0:13:56.98,Signs,,0,0,0,,{=8}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(795.8,387.24)}MOURI
+Dialogue: 1,0:13:56.98,0:13:57.02,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(809.93,389.25)}MOURI
+Dialogue: 1,0:13:57.02,0:13:57.06,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(824.06,391.22)}MOURI
+Dialogue: 1,0:13:57.06,0:13:57.10,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(837.89,393.22)}MOURI
+Dialogue: 1,0:13:57.10,0:13:57.14,Signs,,0,0,0,,{=8}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(851.71,395.15)}MOURI
+Dialogue: 1,0:13:57.14,0:13:57.19,Signs,,0,0,0,,{=8}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(864.97,397.02)}MOURI
+Dialogue: 1,0:13:57.19,0:13:57.23,Signs,,0,0,0,,{=8}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(877.92,398.87)}MOURI
+Dialogue: 1,0:13:57.23,0:13:57.27,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(890.44,400.66)}MOURI
+Dialogue: 1,0:13:57.27,0:13:57.31,Signs,,0,0,0,,{=8}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(902.44,402.36)}MOURI
+Dialogue: 1,0:13:57.31,0:13:57.35,Signs,,0,0,0,,{=8}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(914,404)}MOURI
+Dialogue: 1,0:13:54.43,0:13:54.48,Signs,,0,0,0,,{=9}{\fscy122.61\fscx122.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-52.55,338.74)}BUILDING
+Dialogue: 1,0:13:54.48,0:13:54.52,Signs,,0,0,0,,{=9}{\fscy121.92\fscx121.92\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-38.52,339.47)}BUILDING
+Dialogue: 1,0:13:54.52,0:13:54.56,Signs,,0,0,0,,{=9}{\fscy121.28\fscx121.28\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-24.81,340.23)}BUILDING
+Dialogue: 1,0:13:54.56,0:13:54.60,Signs,,0,0,0,,{=9}{\fscy120.61\fscx120.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-10.87,341)}BUILDING
+Dialogue: 1,0:13:54.60,0:13:54.64,Signs,,0,0,0,,{=9}{\fscy119.98\fscx119.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(2.89,341.77)}BUILDING
+Dialogue: 1,0:13:54.64,0:13:54.68,Signs,,0,0,0,,{=9}{\fscy119.34\fscx119.34\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(16.73,342.57)}BUILDING
+Dialogue: 1,0:13:54.68,0:13:54.73,Signs,,0,0,0,,{=9}{\fscy118.69\fscx118.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(30.79,343.35)}BUILDING
+Dialogue: 1,0:13:54.73,0:13:54.77,Signs,,0,0,0,,{=9}{\fscy118.06\fscx118.06\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(44.67,344.17)}BUILDING
+Dialogue: 1,0:13:54.77,0:13:54.81,Signs,,0,0,0,,{=9}{\fscy117.42\fscx117.42\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(58.69,344.97)}BUILDING
+Dialogue: 1,0:13:54.81,0:13:54.85,Signs,,0,0,0,,{=9}{\fscy116.77\fscx116.77\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(72.81,345.79)}BUILDING
+Dialogue: 1,0:13:54.85,0:13:54.89,Signs,,0,0,0,,{=9}{\fscy116.16\fscx116.16\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(86.74,346.64)}BUILDING
+Dialogue: 1,0:13:54.89,0:13:54.93,Signs,,0,0,0,,{=9}{\fscy115.52\fscx115.52\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(100.93,347.48)}BUILDING
+Dialogue: 1,0:13:54.93,0:13:54.98,Signs,,0,0,0,,{=9}{\fscy114.91\fscx114.91\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(115.05,348.34)}BUILDING
+Dialogue: 1,0:13:54.98,0:13:55.02,Signs,,0,0,0,,{=9}{\fscy114.27\fscx114.27\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(129.35,349.24)}BUILDING
+Dialogue: 1,0:13:55.02,0:13:55.06,Signs,,0,0,0,,{=9}{\fscy113.67\fscx113.67\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(143.4,350.12)}BUILDING
+Dialogue: 1,0:13:55.06,0:13:55.10,Signs,,0,0,0,,{=9}{\fscy113.08\fscx113.08\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(157.47,351.01)}BUILDING
+Dialogue: 1,0:13:55.10,0:13:55.14,Signs,,0,0,0,,{=9}{\fscy112.48\fscx112.48\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(171.68,351.94)}BUILDING
+Dialogue: 1,0:13:55.14,0:13:55.18,Signs,,0,0,0,,{=9}{\fscy111.89\fscx111.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(185.95,352.85)}BUILDING
+Dialogue: 1,0:13:55.18,0:13:55.23,Signs,,0,0,0,,{=9}{\fscy111.33\fscx111.33\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(200.08,353.82)}BUILDING
+Dialogue: 1,0:13:55.23,0:13:55.27,Signs,,0,0,0,,{=9}{\fscy110.73\fscx110.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(214.48,354.76)}BUILDING
+Dialogue: 1,0:13:55.27,0:13:55.31,Signs,,0,0,0,,{=9}{\fscy110.14\fscx110.14\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(228.95,355.74)}BUILDING
+Dialogue: 1,0:13:55.31,0:13:55.35,Signs,,0,0,0,,{=9}{\fscy109.56\fscx109.56\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(243.44,356.73)}BUILDING
+Dialogue: 1,0:13:55.35,0:13:55.39,Signs,,0,0,0,,{=9}{\fscy108.99\fscx108.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(257.83,357.72)}BUILDING
+Dialogue: 1,0:13:55.39,0:13:55.43,Signs,,0,0,0,,{=9}{\fscy108.44\fscx108.44\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(272.28,358.74)}BUILDING
+Dialogue: 1,0:13:55.43,0:13:55.48,Signs,,0,0,0,,{=9}{\fscy107.89\fscx107.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(286.71,359.77)}BUILDING
+Dialogue: 1,0:13:55.48,0:13:55.52,Signs,,0,0,0,,{=9}{\fscy107.32\fscx107.32\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(301.42,360.83)}BUILDING
+Dialogue: 1,0:13:55.52,0:13:55.56,Signs,,0,0,0,,{=9}{\fscy106.78\fscx106.78\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(316,361.91)}BUILDING
+Dialogue: 1,0:13:55.56,0:13:55.60,Signs,,0,0,0,,{=9}{\fscy106.23\fscx106.23\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(330.73,363.01)}BUILDING
+Dialogue: 1,0:13:55.60,0:13:55.64,Signs,,0,0,0,,{=9}{\fscy105.73\fscx105.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(345.2,364.13)}BUILDING
+Dialogue: 1,0:13:55.64,0:13:55.68,Signs,,0,0,0,,{=9}{\fscy105.22\fscx105.22\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(359.84,365.26)}BUILDING
+Dialogue: 1,0:13:55.68,0:13:55.73,Signs,,0,0,0,,{=9}{\fscy104.69\fscx104.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(374.69,366.4)}BUILDING
+Dialogue: 1,0:13:55.73,0:13:55.77,Signs,,0,0,0,,{=9}{\fscy104.2\fscx104.2\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(389.43,367.58)}BUILDING
+Dialogue: 1,0:13:55.77,0:13:55.81,Signs,,0,0,0,,{=9}{\fscy103.73\fscx103.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(404.1,368.79)}BUILDING
+Dialogue: 1,0:13:55.81,0:13:55.85,Signs,,0,0,0,,{=9}{\fscy103.26\fscx103.26\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(418.93,370)}BUILDING
+Dialogue: 1,0:13:55.85,0:13:55.89,Signs,,0,0,0,,{=9}{\fscy102.8\fscx102.8\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(433.64,371.24)}BUILDING
+Dialogue: 1,0:13:55.89,0:13:55.93,Signs,,0,0,0,,{=9}{\fscy102.36\fscx102.36\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(448.44,372.53)}BUILDING
+Dialogue: 1,0:13:55.93,0:13:55.98,Signs,,0,0,0,,{=9}{\fscy101.94\fscx101.94\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(463.16,373.84)}BUILDING
+Dialogue: 1,0:13:55.98,0:13:56.02,Signs,,0,0,0,,{=9}{\fscy101.55\fscx101.55\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(477.86,375.18)}BUILDING
+Dialogue: 1,0:13:56.02,0:13:56.06,Signs,,0,0,0,,{=9}{\fscy101.17\fscx101.17\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(492.44,376.56)}BUILDING
+Dialogue: 1,0:13:56.06,0:13:56.10,Signs,,0,0,0,,{=9}{\fscy100.84\fscx100.84\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(506.94,377.98)}BUILDING
+Dialogue: 1,0:13:56.10,0:13:56.14,Signs,,0,0,0,,{=9}{\fscy100.53\fscx100.53\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(521.38,379.45)}BUILDING
+Dialogue: 1,0:13:56.14,0:13:56.19,Signs,,0,0,0,,{=9}{\fscy100.3\fscx100.3\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(535.38,380.99)}BUILDING
+Dialogue: 1,0:13:56.19,0:13:56.23,Signs,,0,0,0,,{=9}{\fscy100.11\fscx100.11\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(549.12,382.58)}BUILDING
+Dialogue: 1,0:13:56.23,0:13:56.27,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(562.47,384.28)}BUILDING
+Dialogue: 1,0:13:56.27,0:13:56.31,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(575.18,386.05)}BUILDING
+Dialogue: 1,0:13:56.31,0:13:56.35,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(588.07,387.86)}BUILDING
+Dialogue: 1,0:13:56.35,0:13:56.39,Signs,,0,0,0,,{=9}{\fscy99.97\fscx99.97\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(601.14,389.7)}BUILDING
+Dialogue: 1,0:13:56.39,0:13:56.44,Signs,,0,0,0,,{=9}{\fscy100.02\fscx100.02\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(613.94,391.57)}BUILDING
+Dialogue: 1,0:13:56.44,0:13:56.48,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(627.31,393.44)}BUILDING
+Dialogue: 1,0:13:56.48,0:13:56.52,Signs,,0,0,0,,{=9}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(640.68,395.34)}BUILDING
+Dialogue: 1,0:13:56.52,0:13:56.56,Signs,,0,0,0,,{=9}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(654.22,397.25)}BUILDING
+Dialogue: 1,0:13:56.56,0:13:56.60,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(668.04,399.17)}BUILDING
+Dialogue: 1,0:13:56.60,0:13:56.64,Signs,,0,0,0,,{=9}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(681.89,401.13)}BUILDING
+Dialogue: 1,0:13:56.64,0:13:56.69,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(695.85,403.11)}BUILDING
+Dialogue: 1,0:13:56.69,0:13:56.73,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(709.89,405.11)}BUILDING
+Dialogue: 1,0:13:56.73,0:13:56.77,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(724,407.14)}BUILDING
+Dialogue: 1,0:13:56.77,0:13:56.81,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(738.39,409.13)}BUILDING
+Dialogue: 1,0:13:56.81,0:13:56.85,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(752.65,411.16)}BUILDING
+Dialogue: 1,0:13:56.85,0:13:56.89,Signs,,0,0,0,,{=9}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(766.97,413.17)}BUILDING
+Dialogue: 1,0:13:56.89,0:13:56.94,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(781.39,415.22)}BUILDING
+Dialogue: 1,0:13:56.94,0:13:56.98,Signs,,0,0,0,,{=9}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(795.8,417.24)}BUILDING
+Dialogue: 1,0:13:56.98,0:13:57.02,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(809.93,419.25)}BUILDING
+Dialogue: 1,0:13:57.02,0:13:57.06,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(824.06,421.22)}BUILDING
+Dialogue: 1,0:13:57.06,0:13:57.10,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(837.89,423.22)}BUILDING
+Dialogue: 1,0:13:57.10,0:13:57.14,Signs,,0,0,0,,{=9}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(851.71,425.14)}BUILDING
+Dialogue: 1,0:13:57.14,0:13:57.19,Signs,,0,0,0,,{=9}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(864.97,427.01)}BUILDING
+Dialogue: 1,0:13:57.19,0:13:57.23,Signs,,0,0,0,,{=9}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(877.92,428.87)}BUILDING
+Dialogue: 1,0:13:57.23,0:13:57.27,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(890.44,430.66)}BUILDING
+Dialogue: 1,0:13:57.27,0:13:57.31,Signs,,0,0,0,,{=9}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(902.44,432.35)}BUILDING
+Dialogue: 1,0:13:57.31,0:13:57.35,Signs,,0,0,0,,{=9}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(914,434)}BUILDING
+Dialogue: 1,0:13:54.43,0:13:54.48,Signs,,0,0,0,,{=10}{\fscy122.61\fscx122.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-52.55,375.53)}NO. 1
+Dialogue: 1,0:13:54.48,0:13:54.52,Signs,,0,0,0,,{=10}{\fscy121.92\fscx121.92\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-38.52,376.05)}NO. 1
+Dialogue: 1,0:13:54.52,0:13:54.56,Signs,,0,0,0,,{=10}{\fscy121.28\fscx121.28\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-24.81,376.61)}NO. 1
+Dialogue: 1,0:13:54.56,0:13:54.60,Signs,,0,0,0,,{=10}{\fscy120.61\fscx120.61\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(-10.87,377.18)}NO. 1
+Dialogue: 1,0:13:54.60,0:13:54.64,Signs,,0,0,0,,{=10}{\fscy119.98\fscx119.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(2.89,377.76)}NO. 1
+Dialogue: 1,0:13:54.64,0:13:54.68,Signs,,0,0,0,,{=10}{\fscy119.34\fscx119.34\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(16.73,378.38)}NO. 1
+Dialogue: 1,0:13:54.68,0:13:54.73,Signs,,0,0,0,,{=10}{\fscy118.69\fscx118.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(30.79,378.96)}NO. 1
+Dialogue: 1,0:13:54.73,0:13:54.77,Signs,,0,0,0,,{=10}{\fscy118.06\fscx118.06\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(44.67,379.59)}NO. 1
+Dialogue: 1,0:13:54.77,0:13:54.81,Signs,,0,0,0,,{=10}{\fscy117.42\fscx117.42\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(58.69,380.19)}NO. 1
+Dialogue: 1,0:13:54.81,0:13:54.85,Signs,,0,0,0,,{=10}{\fscy116.77\fscx116.77\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(72.81,380.82)}NO. 1
+Dialogue: 1,0:13:54.85,0:13:54.89,Signs,,0,0,0,,{=10}{\fscy116.16\fscx116.16\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(86.74,381.49)}NO. 1
+Dialogue: 1,0:13:54.89,0:13:54.93,Signs,,0,0,0,,{=10}{\fscy115.52\fscx115.52\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(100.93,382.14)}NO. 1
+Dialogue: 1,0:13:54.93,0:13:54.98,Signs,,0,0,0,,{=10}{\fscy114.91\fscx114.91\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(115.05,382.81)}NO. 1
+Dialogue: 1,0:13:54.98,0:13:55.02,Signs,,0,0,0,,{=10}{\fscy114.27\fscx114.27\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(129.35,383.52)}NO. 1
+Dialogue: 1,0:13:55.02,0:13:55.06,Signs,,0,0,0,,{=10}{\fscy113.67\fscx113.67\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(143.4,384.22)}NO. 1
+Dialogue: 1,0:13:55.06,0:13:55.10,Signs,,0,0,0,,{=10}{\fscy113.08\fscx113.08\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(157.47,384.94)}NO. 1
+Dialogue: 1,0:13:55.10,0:13:55.14,Signs,,0,0,0,,{=10}{\fscy112.48\fscx112.48\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(171.68,385.68)}NO. 1
+Dialogue: 1,0:13:55.14,0:13:55.18,Signs,,0,0,0,,{=10}{\fscy111.89\fscx111.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(185.95,386.42)}NO. 1
+Dialogue: 1,0:13:55.18,0:13:55.23,Signs,,0,0,0,,{=10}{\fscy111.33\fscx111.33\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(200.08,387.22)}NO. 1
+Dialogue: 1,0:13:55.23,0:13:55.27,Signs,,0,0,0,,{=10}{\fscy110.73\fscx110.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(214.48,387.98)}NO. 1
+Dialogue: 1,0:13:55.27,0:13:55.31,Signs,,0,0,0,,{=10}{\fscy110.14\fscx110.14\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(228.95,388.78)}NO. 1
+Dialogue: 1,0:13:55.31,0:13:55.35,Signs,,0,0,0,,{=10}{\fscy109.56\fscx109.56\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(243.44,389.59)}NO. 1
+Dialogue: 1,0:13:55.35,0:13:55.39,Signs,,0,0,0,,{=10}{\fscy108.99\fscx108.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(257.83,390.42)}NO. 1
+Dialogue: 1,0:13:55.39,0:13:55.43,Signs,,0,0,0,,{=10}{\fscy108.44\fscx108.44\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(272.28,391.27)}NO. 1
+Dialogue: 1,0:13:55.43,0:13:55.48,Signs,,0,0,0,,{=10}{\fscy107.89\fscx107.89\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(286.71,392.14)}NO. 1
+Dialogue: 1,0:13:55.48,0:13:55.52,Signs,,0,0,0,,{=10}{\fscy107.32\fscx107.32\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(301.42,393.03)}NO. 1
+Dialogue: 1,0:13:55.52,0:13:55.56,Signs,,0,0,0,,{=10}{\fscy106.78\fscx106.78\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(316,393.95)}NO. 1
+Dialogue: 1,0:13:55.56,0:13:55.60,Signs,,0,0,0,,{=10}{\fscy106.23\fscx106.23\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(330.73,394.88)}NO. 1
+Dialogue: 1,0:13:55.60,0:13:55.64,Signs,,0,0,0,,{=10}{\fscy105.73\fscx105.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(345.2,395.85)}NO. 1
+Dialogue: 1,0:13:55.64,0:13:55.68,Signs,,0,0,0,,{=10}{\fscy105.22\fscx105.22\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(359.84,396.82)}NO. 1
+Dialogue: 1,0:13:55.68,0:13:55.73,Signs,,0,0,0,,{=10}{\fscy104.69\fscx104.69\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(374.69,397.81)}NO. 1
+Dialogue: 1,0:13:55.73,0:13:55.77,Signs,,0,0,0,,{=10}{\fscy104.2\fscx104.2\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(389.43,398.84)}NO. 1
+Dialogue: 1,0:13:55.77,0:13:55.81,Signs,,0,0,0,,{=10}{\fscy103.73\fscx103.73\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(404.1,399.91)}NO. 1
+Dialogue: 1,0:13:55.81,0:13:55.85,Signs,,0,0,0,,{=10}{\fscy103.26\fscx103.26\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(418.93,400.98)}NO. 1
+Dialogue: 1,0:13:55.85,0:13:55.89,Signs,,0,0,0,,{=10}{\fscy102.8\fscx102.8\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(433.64,402.08)}NO. 1
+Dialogue: 1,0:13:55.89,0:13:55.93,Signs,,0,0,0,,{=10}{\fscy102.36\fscx102.36\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(448.44,403.24)}NO. 1
+Dialogue: 1,0:13:55.93,0:13:55.98,Signs,,0,0,0,,{=10}{\fscy101.94\fscx101.94\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(463.16,404.43)}NO. 1
+Dialogue: 1,0:13:55.98,0:13:56.02,Signs,,0,0,0,,{=10}{\fscy101.55\fscx101.55\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(477.86,405.64)}NO. 1
+Dialogue: 1,0:13:56.02,0:13:56.06,Signs,,0,0,0,,{=10}{\fscy101.17\fscx101.17\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(492.44,406.92)}NO. 1
+Dialogue: 1,0:13:56.06,0:13:56.10,Signs,,0,0,0,,{=10}{\fscy100.84\fscx100.84\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(506.94,408.23)}NO. 1
+Dialogue: 1,0:13:56.10,0:13:56.14,Signs,,0,0,0,,{=10}{\fscy100.53\fscx100.53\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(521.38,409.61)}NO. 1
+Dialogue: 1,0:13:56.14,0:13:56.19,Signs,,0,0,0,,{=10}{\fscy100.3\fscx100.3\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(535.38,411.07)}NO. 1
+Dialogue: 1,0:13:56.19,0:13:56.23,Signs,,0,0,0,,{=10}{\fscy100.11\fscx100.11\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(549.12,412.61)}NO. 1
+Dialogue: 1,0:13:56.23,0:13:56.27,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(562.47,414.28)}NO. 1
+Dialogue: 1,0:13:56.27,0:13:56.31,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(575.18,416.05)}NO. 1
+Dialogue: 1,0:13:56.31,0:13:56.35,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(588.07,417.86)}NO. 1
+Dialogue: 1,0:13:56.35,0:13:56.39,Signs,,0,0,0,,{=10}{\fscy99.97\fscx99.97\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(601.14,419.7)}NO. 1
+Dialogue: 1,0:13:56.39,0:13:56.44,Signs,,0,0,0,,{=10}{\fscy100.02\fscx100.02\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(613.94,421.58)}NO. 1
+Dialogue: 1,0:13:56.44,0:13:56.48,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(627.31,423.44)}NO. 1
+Dialogue: 1,0:13:56.48,0:13:56.52,Signs,,0,0,0,,{=10}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(640.68,425.34)}NO. 1
+Dialogue: 1,0:13:56.52,0:13:56.56,Signs,,0,0,0,,{=10}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(654.22,427.25)}NO. 1
+Dialogue: 1,0:13:56.56,0:13:56.60,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(668.04,429.17)}NO. 1
+Dialogue: 1,0:13:56.60,0:13:56.64,Signs,,0,0,0,,{=10}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(681.89,431.13)}NO. 1
+Dialogue: 1,0:13:56.64,0:13:56.69,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(695.85,433.1)}NO. 1
+Dialogue: 1,0:13:56.69,0:13:56.73,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(709.89,435.11)}NO. 1
+Dialogue: 1,0:13:56.73,0:13:56.77,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(724,437.14)}NO. 1
+Dialogue: 1,0:13:56.77,0:13:56.81,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(738.39,439.12)}NO. 1
+Dialogue: 1,0:13:56.81,0:13:56.85,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(752.65,441.15)}NO. 1
+Dialogue: 1,0:13:56.85,0:13:56.89,Signs,,0,0,0,,{=10}{\fscy100.01\fscx100.01\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(766.97,443.17)}NO. 1
+Dialogue: 1,0:13:56.89,0:13:56.94,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(781.39,445.22)}NO. 1
+Dialogue: 1,0:13:56.94,0:13:56.98,Signs,,0,0,0,,{=10}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(795.8,447.23)}NO. 1
+Dialogue: 1,0:13:56.98,0:13:57.02,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(809.93,449.25)}NO. 1
+Dialogue: 1,0:13:57.02,0:13:57.06,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(824.06,451.22)}NO. 1
+Dialogue: 1,0:13:57.06,0:13:57.10,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(837.89,453.22)}NO. 1
+Dialogue: 1,0:13:57.10,0:13:57.14,Signs,,0,0,0,,{=10}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(851.71,455.14)}NO. 1
+Dialogue: 1,0:13:57.14,0:13:57.19,Signs,,0,0,0,,{=10}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(864.97,457.01)}NO. 1
+Dialogue: 1,0:13:57.19,0:13:57.23,Signs,,0,0,0,,{=10}{\fscy99.98\fscx99.98\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(877.92,458.86)}NO. 1
+Dialogue: 1,0:13:57.23,0:13:57.27,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(890.44,460.65)}NO. 1
+Dialogue: 1,0:13:57.27,0:13:57.31,Signs,,0,0,0,,{=10}{\fscy99.99\fscx99.99\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(902.44,462.35)}NO. 1
+Dialogue: 1,0:13:57.31,0:13:57.35,Signs,,0,0,0,,{=10}{\fscy100\fscx100\fnConduit ITC\fs45\c&H4D6683&\blur1\pos(914,464)}NO. 1
+Dialogue: 1,0:13:54.43,0:13:54.48,Signs,,0,0,0,,{=11}{\fscy100\fscx100\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1831.2,353.61)}Dubdub
+Dialogue: 1,0:13:54.48,0:13:54.52,Signs,,0,0,0,,{=11}{\fscy99.45\fscx99.45\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1834.79,354.26)}Dubdub
+Dialogue: 1,0:13:54.52,0:13:54.56,Signs,,0,0,0,,{=11}{\fscy98.88\fscx98.88\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1838.47,354.98)}Dubdub
+Dialogue: 1,0:13:54.56,0:13:54.60,Signs,,0,0,0,,{=11}{\fscy98.38\fscx98.38\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1842.35,355.65)}Dubdub
+Dialogue: 1,0:13:54.60,0:13:54.64,Signs,,0,0,0,,{=11}{\fscy97.9\fscx97.9\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1846.3,356.32)}Dubdub
+Dialogue: 1,0:13:54.64,0:13:54.68,Signs,,0,0,0,,{=11}{\fscy97.31\fscx97.31\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1850.21,357.08)}Dubdub
+Dialogue: 1,0:13:54.68,0:13:54.73,Signs,,0,0,0,,{=11}{\fscy96.78\fscx96.78\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1854.26,357.78)}Dubdub
+Dialogue: 1,0:13:54.73,0:13:54.77,Signs,,0,0,0,,{=11}{\fscy96.29\fscx96.29\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1858.42,358.48)}Dubdub
+Dialogue: 1,0:13:54.77,0:13:54.81,Signs,,0,0,0,,{=11}{\fscy95.77\fscx95.77\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1862.73,359.24)}Dubdub
+Dialogue: 1,0:13:54.81,0:13:54.85,Signs,,0,0,0,,{=11}{\fscy95.29\fscx95.29\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1867.09,359.95)}Dubdub
+Dialogue: 1,0:13:54.85,0:13:54.89,Signs,,0,0,0,,{=11}{\fscy94.76\fscx94.76\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1871.45,360.73)}Dubdub
+Dialogue: 1,0:13:54.89,0:13:54.93,Signs,,0,0,0,,{=11}{\fscy94.22\fscx94.22\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1875.91,361.54)}Dubdub
+Dialogue: 1,0:13:54.93,0:13:54.98,Signs,,0,0,0,,{=11}{\fscy93.75\fscx93.75\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1880.61,362.29)}Dubdub
+Dialogue: 1,0:13:54.98,0:13:55.02,Signs,,0,0,0,,{=11}{\fscy93.21\fscx93.21\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1885.23,363.12)}Dubdub
+Dialogue: 1,0:13:55.02,0:13:55.06,Signs,,0,0,0,,{=11}{\fscy92.78\fscx92.78\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1890.17,363.89)}Dubdub
+Dialogue: 1,0:13:55.06,0:13:55.10,Signs,,0,0,0,,{=11}{\fscy92.16\fscx92.16\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1894.86,364.82)}Dubdub
+Dialogue: 1,0:13:55.10,0:13:55.14,Signs,,0,0,0,,{=11}{\fscy91.73\fscx91.73\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1899.97,365.6)}Dubdub
+Dialogue: 1,0:13:55.14,0:13:55.18,Signs,,0,0,0,,{=11}{\fscy91.28\fscx91.28\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1905.17,366.45)}Dubdub
+Dialogue: 1,0:13:55.18,0:13:55.23,Signs,,0,0,0,,{=11}{\fscy90.76\fscx90.76\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1910.32,367.35)}Dubdub
+Dialogue: 1,0:13:55.23,0:13:55.27,Signs,,0,0,0,,{=11}{\fscy90.31\fscx90.31\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1915.73,368.2)}Dubdub
+Dialogue: 1,0:13:55.27,0:13:55.31,Signs,,0,0,0,,{=11}{\fscy89.83\fscx89.83\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1921.2,369.12)}Dubdub
+Dialogue: 1,0:13:55.31,0:13:55.35,Signs,,0,0,0,,{=11}{\fscy89.27\fscx89.27\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1926.62,370.12)}Dubdub
+Dialogue: 1,0:13:55.35,0:13:55.39,Signs,,0,0,0,,{=11}{\fscy88.87\fscx88.87\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1932.47,371)}Dubdub
+Dialogue: 1,0:13:55.39,0:13:55.43,Signs,,0,0,0,,{=11}{\fscy88.41\fscx88.41\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1938.31,371.94)}Dubdub
+Dialogue: 1,0:13:55.43,0:13:55.48,Signs,,0,0,0,,{=11}{\fscy87.99\fscx87.99\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1944.36,372.88)}Dubdub
+Dialogue: 1,0:13:55.48,0:13:55.52,Signs,,0,0,0,,{=11}{\fscy87.53\fscx87.53\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1950.41,373.89)}Dubdub
+Dialogue: 1,0:13:55.52,0:13:55.56,Signs,,0,0,0,,{=11}{\fscy87.07\fscx87.07\fnCentury Schoolbook\fs29\c&HD7E2F8&\blur1\pos(1956.66,374.89)}Dubdub
+Comment: 0,0:15:42.09,0:15:44.09,Signs,,0,0,0,,Café Dubdub
+Dialogue: 0,0:15:42.09,0:15:44.09,Signs,,0,0,0,,{=5}{\fnCentury Schoolbook\fs30\fax0.000480\fscx158.81\fscy146.87\frz-6.4874\frx-0.0256\fry0.3440\org(1390.31,585.53)\pos(1390.29,585.53)\c&H553ABC&\blur0.9}Café {\c&H43495F&}Dubdub
+Comment: 0,0:19:25.48,0:19:27.19,Signs,,0,0,0,,Reservation Notice
+Dialogue: 0,0:19:25.48,0:19:27.19,Signs,,0,0,0,,{=12}{\fnDK Bupkis\c&H6F6F6D&\fax0.004928\fscx59.98\fscy56.75\frz-7.2463\frx0.4048\fry0.4116\org(1542,240.85)\pos(1541.88,240.85)}Reserved
+Dialogue: 0,0:19:25.48,0:19:27.19,Signs,,0,0,0,,{=13}{\fnDK Bupkis\c&H6F6F6D&\fax0.004628\fscx42.20\fscy42.27\frz-7.2123\frx0.4054\fry0.4115\org(1538.59,270.4)\pos(1538.51,270.4)}for the day
+Dialogue: 0,0:19:25.48,0:19:27.19,Signs,,0,0,0,,{=14}{\fnDK Bupkis\c&H6F6F6D&\fax0.004544\fscx42.20\fscy42.31\frz-7.1796\frx0.4043\fry0.4103\org(1554.13,301.19)\pos(1554.05,301.19)}-Dubdub
+Comment: 0,0:23:52.99,0:23:58.00,Signs,,0,0,0,,Next Episode Preview
+Dialogue: 0,0:23:52.99,0:23:58.00,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.7\c&HE58600&}Welcome to Hell's Quiz
+Comment: 0,0:00:51.74,0:00:56.95,Title,,0,0,0,,Title Logo
+Dialogue: 1,0:00:51.20,0:00:54.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\pos(696,794)\blur0.7\fade(300,0)\t(400,800,\c&HD278A9&)}Magical Sisters {\c&HFFFFFF&\t(400,800,\c&H9F6BF4&)}LuluttoLilly
+Dialogue: 1,0:00:54.16,0:00:54.20,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 725.17 770.94 b 754.49 834.1 839.91 824.11 861.93 766.56 l 792.82 741.25)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.20,0:00:54.24,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.05 825.38 b 722.14 812.56 718.04 792.4 719.74 765.91 l 864.99 762.15 b 869.01 778.73 867.47 806.07 854.05 825.72)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.24,0:00:54.28,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 717.38 822.53 b 722.7 795.77 728.9 776.43 750.97 766.07 l 833.22 763.64 b 853.48 777.93 864.6 794.87 867.77 823.51)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.28,0:00:54.32,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.27 826.98 b 759.63 784.48 827.32 788.16 853.81 826.54 l 769.47 846.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.32,0:00:54.37,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.37,0:00:54.41,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 790.52 b 341.33 791.97 377.39 771.29 383.79 747.11 l 316.81 747.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.41,0:00:54.45,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 835.79 b 359.44 831.09 388.67 800.5 389.81 768.46 l 316.81 768.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.45,0:00:54.49,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 321.37 765.99 l 380.83 765.56 b 392.3 782.21 394.47 809.03 385.38 832.17 l 316.61 833.03 m 1030.93 849.03 b 1033.64 840.44 1043.1 825.41 1049.32 817.89 1044.13 806.11 1044.84 781.18 1052.35 770.75 l 1082.62 772.05 1081.32 852.49)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.49,0:00:54.53,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 324.31 770.6 b 353.7 773.42 382.27 795.8 389.46 831.39 l 316.3 835.75 m 1014.01 817.54 b 1008.97 803.62 1008.8 778.77 1018.99 767.17 l 1077.31 766.17 1069.69 832.12 1008.38 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.53,0:00:54.57,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 952.7 817.02 b 961.83 802.12 979.32 782.32 993.83 774.34 993.74 767.32 996.62 759.06 1001.14 753.96 l 1080.72 753.96 1074.19 839.7 946.93 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.57,0:00:54.62,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 916.67 817.02 b 925.8 802.12 943.29 782.32 957.8 774.34 957.71 767.32 960.59 759.06 965.11 753.96 l 1080.72 753.96 1074.19 839.7 910.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.62,0:00:54.66,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 880.98 817.02 b 890.11 802.12 907.6 782.32 922.11 774.34 922.02 767.32 924.9 759.06 929.42 753.96 l 1080.72 753.96 1074.19 839.7 875.21 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.66,0:00:54.70,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 817.05 830 b 823.43 809.24 848.3 776.81 861.6 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.70,0:00:54.74,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 781.47 830 b 787.85 809.24 812.72 776.81 826.02 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.74,0:00:54.78,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 745.34 830 b 751.72 809.24 776.59 776.81 789.89 767.72 l 1008.15 764.69 b 1019.28 772.28 1034.44 787.98 1042 803.67 1054.11 799.67 1059.11 795.22 1080.86 802.37 l 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.78,0:00:54.83,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 764.71 817.54 b 759.67 803.62 759.5 778.77 769.69 767.17 l 939.95 766.17 b 973.86 777.47 1008.62 803.81 1023.07 835.75 1031.89 820.24 1048.58 819.01 1061.15 820.63 l 1064.15 844.15 759.08 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.83,0:00:54.87,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 729.37 817.54 b 724.33 803.62 724.16 778.77 734.35 767.17 l 904.61 766.17 b 940.68 777.47 973.28 803.81 987.73 835.75 996.55 820.24 1013.24 819.01 1025.81 820.63 l 1028.81 844.15 723.74 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.87,0:00:54.91,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 693.41 817.54 b 688.37 803.62 688.2 778.77 698.39 767.17 l 868.65 766.17 b 904.72 777.47 937.32 803.81 951.77 835.75 960.59 820.24 977.28 819.01 989.85 820.63 l 992.85 844.15 687.78 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.91,0:00:54.95,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 632.63 817.02 b 641.76 802.12 659.25 782.32 673.76 774.34 673.67 767.32 676.55 759.06 681.07 753.96 l 786.65 754.99 b 838.47 769.48 878.35 804.12 901.37 839.7 l 626.86 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.95,0:00:54.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 596.67 817.02 b 605.8 802.12 623.29 782.32 637.8 774.34 637.71 767.32 640.59 759.06 645.11 753.96 l 750.69 754.99 b 802.51 769.48 842.39 804.12 865.41 839.7 l 590.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:54.99,0:00:55.03,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 561 817.02 b 570.13 802.12 587.62 782.32 602.13 774.34 602.04 767.32 604.92 759.06 609.44 753.96 l 715.02 754.99 b 766.84 769.48 806.72 804.12 829.74 839.7 l 555.23 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.03,0:00:55.08,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 551.05 817.54 b 546.01 803.62 545.84 778.77 556.03 767.17 l 726.29 766.17 b 762.36 777.47 794.96 803.81 809.41 835.75 818.23 820.24 834.92 819.01 847.49 820.63 l 850.49 844.15 545.42 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.08,0:00:55.12,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 515.47 817.54 b 510.43 803.62 510.26 778.77 520.45 767.17 l 690.71 766.17 b 726.78 777.47 759.38 803.81 773.83 835.75 782.65 820.24 799.34 819.01 811.91 820.63 l 814.91 844.15 509.84 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.12,0:00:55.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 479.46 817.54 b 474.42 803.62 474.25 778.77 484.44 767.17 l 654.7 766.17 b 690.77 777.47 723.37 803.81 737.82 835.75 746.64 820.24 763.33 819.01 775.9 820.63 l 778.9 844.15 473.83 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.16,0:00:55.20,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 415.26 824.01 b 428.04 802.12 445.53 782.32 460.04 774.34 459.95 767.32 462.83 759.06 467.35 753.96 l 572.93 754.99 b 624.75 769.48 664.63 804.12 687.65 839.7 l 413.14 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.20,0:00:55.24,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 379.4 824.01 b 392.18 802.12 409.67 782.32 424.18 774.34 424.09 767.32 426.97 759.06 431.49 753.96 l 537.07 754.99 b 588.89 769.48 628.77 804.12 651.79 839.7 l 377.28 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.24,0:00:55.28,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 343.27 824.01 b 356.05 802.12 373.54 782.32 388.05 774.34 387.96 767.32 390.84 759.06 395.36 753.96 l 500.94 754.99 b 552.76 769.48 592.64 804.12 615.66 839.7 l 341.15 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.28,0:00:55.33,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 540.17 760.88 b 552.02 771.33 572.14 789.4 579.38 804.71 598.57 793.47 628.5 799.64 645.9 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.33,0:00:55.37,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 504.31 760.88 b 516.16 771.33 536.28 789.4 543.52 804.71 562.71 793.47 592.64 799.64 610.04 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.37,0:00:55.41,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 468.89 760.88 b 480.74 771.33 500.86 789.4 508.1 804.71 527.29 793.47 557.22 799.64 574.62 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.41,0:00:55.45,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 411.88 767.89 b 436.33 777.12 472.22 802.1 484.07 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.45,0:00:55.49,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 375.75 767.89 b 400.2 777.12 436.09 802.1 447.94 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.49,0:00:55.53,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 340.71 767.89 b 365.16 777.12 401.05 802.1 412.9 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.53,0:00:55.58,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 327.4 794.52 b 336.04 801.67 357.78 823.32 366.3 838.49 l 322.29 835.79)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.58,0:00:55.83,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.83,0:00:55.87,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 357.55 770.11 b 383.97 831.02 480.35 834.27 501.34 763.19 l 421.37 755.88)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.87,0:00:55.91,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 361.24 820.94 b 355.94 807.09 349.11 794.79 353.72 766.94 l 504.44 767.96 b 506.66 787.61 507 799.58 494.87 823.33 l 426.17 841.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.91,0:00:55.95,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 352.41 831.8 b 350.58 811.52 358.48 785.24 380.35 767.7 l 469.97 762.84 b 491.77 777.11 504.99 798.99 506.13 828.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.95,0:00:55.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 364.29 828.03 b 395 786.91 458.6 780.29 491.48 826.68 l 430.18 836.94)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:55.99,0:00:56.03,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 1081.04 812.77 b 1005.27 825.24 938.13 815.7 879 759.2 l 1081.04 751.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:56.03,0:00:56.08,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 886.91 833.67 b 867.28 818.21 842.48 787.6 846.95 771.82 814.26 769.06 780.42 751.71 758.25 745 753.94 744.11 751.48 745.41 747.85 748.28 730.14 763.26 689.27 796.98 653.78 806.16 613.83 815.26 590.02 801.65 577.43 759.79 l 297.73 746.08 288.19 868.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:56.08,0:00:56.12,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 823.1 822.65 l 825.27 814 b 793.77 808.52 729.51 784.05 712.81 779.84 696.98 793.2 667.84 814.43 649.47 826.95 l 517.79 826.3 b 506.56 810.62 493.4 778 489.36 758.52 l 305.54 760.14 301.69 843)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:00:56.12,0:00:56.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 390.14 824.38 b 384.95 810.11 374.57 780.7 372.84 765.56 l 299.31 763.83 307.1 835.63)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 0,0:00:51.20,0:00:51.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\1a&HFE&\3a&HFE&\pos(696,794)\blur10\fade(300,350)\t(150,600,\c&HD278A9&)\4c&HEC7DFD&\shad0.01\bord10\4a&H00&}Magical Sisters LuluttoLilly
+Comment: 0,0:00:35.01,0:00:35.06,OP,,0,0,0,sync,sync
+Dialogue: 1,0:00:35.76,0:00:38.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:00:38.43,0:00:39.64,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:00:40.02,0:00:41.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:00:41.06,0:00:43.73,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:00:43.73,0:00:46.44,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:00:47.03,0:00:49.70,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:00:49.70,0:00:51.74,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:00:51.74,0:00:56.29,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:00:53.99,0:00:56.95,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:00:56.95,0:00:59.62,OP,,0,0,0,,{\fad(150,150)\blur0.6}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 1,0:00:59.62,0:01:02.25,OP,,0,0,0,,{\fad(150,150)\blur0.6}And right before my eyes{この目に映るのは}
+Dialogue: 1,0:01:02.25,0:01:05.04,OP,,0,0,0,,{\fad(150,150)\blur0.6}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 1,0:01:05.50,0:01:06.55,OP,,0,0,0,,{\fad(150,150)\blur0.6}Whoa
+Dialogue: 1,0:01:07.59,0:01:10.22,OP,,0,0,0,,{\fad(150,150)\blur0.6}Stay with me today{今日もそばにいて}
+Dialogue: 1,0:01:10.22,0:01:13.22,OP,,0,0,0,,{\fad(150,150)\blur0.6}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 1,0:01:13.22,0:01:17.01,OP,,0,0,0,,{\fad(150,150)\blur0.6}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 1,0:01:17.60,0:01:23.02,OP,,0,0,0,,{\fad(150,150)\blur0.6}I can hear the magic{魔法の音がする}
+Dialogue: 1,0:01:23.85,0:01:26.52,OP,,0,0,0,,{\fad(150,150)\blur0.6}I wanna sing with you
+Dialogue: 1,0:01:26.52,0:01:28.53,OP,,0,0,0,,{\fad(150,150)\blur0.6}Let's sing together{二人で歌おう}
+Dialogue: 1,0:01:28.53,0:01:32.32,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're a bright shining star{君は明るく輝く星}
+Dialogue: 1,0:01:32.32,0:01:33.99,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:01:34.41,0:01:36.87,OP,,0,0,0,,{\fad(150,150)\blur0.6}We can be shining stars
+Dialogue: 1,0:01:36.87,0:01:38.62,OP,,0,0,0,,{\fad(150,150)\blur0.6}Forever and ever{時間が経っても}
+Dialogue: 1,0:01:38.62,0:01:41.37,OP,,0,0,0,,{\fad(150,150)\blur0.6}That's our secret magic{秘密の魔法さ}
+Dialogue: 1,0:01:41.37,0:01:45.33,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:01:45.33,0:01:48.05,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:01:48.05,0:01:50.09,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:01:50.09,0:01:55.34,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:01:52.34,0:01:55.34,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:01:55.34,0:01:57.51,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:57.97,0:01:59.47,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:01:59.47,0:02:00.39,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:02:00.39,0:02:02.68,OP,,0,0,0,,{\fad(150,150)\blur0.6}B-U-B-E-E, bubee
+Dialogue: 1,0:02:02.68,0:02:04.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee love
+Dialogue: 0,0:00:35.76,0:00:38.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:00:38.43,0:00:39.64,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:00:40.02,0:00:41.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:00:41.06,0:00:43.73,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:00:43.73,0:00:46.44,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:00:47.03,0:00:49.70,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:00:49.70,0:00:51.74,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:00:51.74,0:00:56.29,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:00:53.99,0:00:56.95,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:00:56.95,0:00:59.62,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 0,0:00:59.62,0:01:02.25,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}And right before my eyes{この目に映るのは}
+Dialogue: 0,0:01:02.25,0:01:05.04,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 0,0:01:05.50,0:01:06.55,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Whoa
+Dialogue: 0,0:01:07.59,0:01:10.22,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Stay with me today{今日もそばにいて}
+Dialogue: 0,0:01:10.22,0:01:13.22,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 0,0:01:13.22,0:01:17.01,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 0,0:01:17.60,0:01:23.02,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I can hear the magic{魔法の音がする}
+Dialogue: 0,0:01:23.85,0:01:26.52,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I wanna sing with you
+Dialogue: 0,0:01:26.52,0:01:28.53,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Let's sing together{二人で歌おう}
+Dialogue: 0,0:01:28.53,0:01:32.32,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're a bright shining star{君は明るく輝く星}
+Dialogue: 0,0:01:32.32,0:01:33.99,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:01:34.41,0:01:36.87,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We can be shining stars
+Dialogue: 0,0:01:36.87,0:01:38.62,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Forever and ever{時間が経っても}
+Dialogue: 0,0:01:38.62,0:01:41.37,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}That's our secret magic{秘密の魔法さ}
+Dialogue: 0,0:01:41.37,0:01:45.33,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:01:45.33,0:01:48.05,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:01:48.05,0:01:50.09,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:01:50.09,0:01:55.34,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:01:52.34,0:01:55.34,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:01:55.34,0:01:57.51,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:57.97,0:01:59.47,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:01:59.47,0:02:00.39,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:02:00.39,0:02:02.68,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}B-U-B-E-E, bubee
+Dialogue: 0,0:02:02.68,0:02:04.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee love
+Comment: 0,0:22:22.99,0:22:23.03,ED,,0,0,0,sync,sync
+Dialogue: 2,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\blur0.6}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\blur0.6}(My dream!){「my dream！」}
+Dialogue: 2,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\blur0.6}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 2,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Alone!){「alone！」}
+Dialogue: 2,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 2,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still twinkle{輝いても}
+Dialogue: 2,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(No magic!){「no magic！」}
+Dialogue: 2,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 2,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still drift{流れてても}
+Dialogue: 2,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I feel so lonely{淋しそうに}
+Dialogue: 2,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\blur0.6}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 2,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'm searching for you{君を探してる}
+Dialogue: 2,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 2,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 2,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\blur0.6}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 2,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\blur0.6}I love it every way{「全部好き」}
+Dialogue: 2,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\blur0.6}Calling me, calling you{Calling me Calling you}
+Dialogue: 2,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(And you){「＆you」}
+Dialogue: 2,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 2,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\blur0.6}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 2,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\blur0.6}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 2,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\blur0.6}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 2,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(But I'm happy!){(but happy)}
+Dialogue: 2,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\blur0.6}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 2,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\blur0.6}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 2,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 2,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\blur0.6}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 2,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\blur0.6}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\blur0.6}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 1,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(My dream!){「my dream！」}
+Dialogue: 1,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 1,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Alone!){「alone！」}
+Dialogue: 1,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 1,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still twinkle{輝いても}
+Dialogue: 1,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(No magic!){「no magic！」}
+Dialogue: 1,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 1,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still drift{流れてても}
+Dialogue: 1,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I feel so lonely{淋しそうに}
+Dialogue: 1,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 1,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'm searching for you{君を探してる}
+Dialogue: 1,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 1,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 1,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 1,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I love it every way{「全部好き」}
+Dialogue: 1,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Calling me, calling you{Calling me Calling you}
+Dialogue: 1,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(And you){「＆you」}
+Dialogue: 1,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 1,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 1,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 1,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 1,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(But I'm happy!){(but happy)}
+Dialogue: 1,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 1,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 1,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 1,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 1,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 0,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(My dream!){「my dream！」}
+Dialogue: 0,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 0,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Alone!){「alone！」}
+Dialogue: 0,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 0,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still twinkle{輝いても}
+Dialogue: 0,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(No magic!){「no magic！」}
+Dialogue: 0,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 0,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still drift{流れてても}
+Dialogue: 0,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I feel so lonely{淋しそうに}
+Dialogue: 0,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 0,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'm searching for you{君を探してる}
+Dialogue: 0,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 0,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 0,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 0,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I love it every way{「全部好き」}
+Dialogue: 0,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Calling me, calling you{Calling me Calling you}
+Dialogue: 0,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(And you){「＆you」}
+Dialogue: 0,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 0,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 0,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 0,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 0,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(But I'm happy!){(but happy)}
+Dialogue: 0,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 0,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 0,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 0,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 0,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e1151.54;686.35#7C1651.93;588.76#7C1698.68;842.81#7C1211.24;949.78
+Data: 1,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs25\\c&H4D6683&\\blur1\\pos(818#2C662.74)}MOURI"#2C"uuid"#3A"731c1e1b-8ca8-4320-ae4c-10abb1f1cfc7"}
+Data: 2,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs25\\c&H4D6683&\\blur1\\pos(818#2C678.74)}BUILDING"#2C"uuid"#3A"74f9b0b4-508c-4b14-8bc2-dce689969880"}
+Data: 3,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs25\\c&H4D6683&\\blur1\\pos(818#2C694.74)}NO. 1"#2C"uuid"#3A"0f0197b0-976c-4b7e-82a8-eae770c62c39"}
+Data: 4,a-mo,e{"originalText"#3A"{\\fnCentury Schoolbook\\fs15\\c&HD7E2F8&\\blur1\\pos(1678.79#2C685.27)}Dubdub"#2C"uuid"#3A"8140aac8-7cd4-4a83-bcfb-e974b056d83c"}
+Data: 5,_aegi_perspective_ambient_plane,e1222.30;76.52#7C1682.36;133.19#7C1611.43;760.85#7C1150.51;709.78
+Data: 6,_aegi_perspective_ambient_plane,e428.20;672.94#7C1619.65;674.79#7C1645.32;880.67#7C408.14;880.31
+Data: 7,a-mo,e{"originalText"#3A"{\\an6\\fnArial\\c&H3E5A43&\\blur1\\fax0.053021\\fscx89.84\\fscy81.51\\frz-0.0301\\frx3.2291\\fry0.1109\\org(1271.16#2C842.74)\\pos(1531.08#2C842.74)}I'll be there soon!!!"#2C"uuid"#3A"1e76ada2-41e2-4cd8-8874-cbe1a451f7e5"}
+Data: 8,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs45\\c&H4D6683&\\blur1\\pos(914#2C404)}MOURI"#2C"uuid"#3A"e552f66b-4c37-44de-b15a-416a09c05fb4"}
+Data: 9,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs45\\c&H4D6683&\\blur1\\pos(914#2C434)}BUILDING"#2C"uuid"#3A"32befcaa-e53b-4a81-9a4d-c2531450f380"}
+Data: 10,a-mo,e{"originalText"#3A"{\\fnConduit ITC\\fs45\\c&H4D6683&\\blur1\\pos(914#2C464)}NO. 1"#2C"uuid"#3A"046d0b7d-ca20-4f4a-9cb7-3979b29dfc8b"}
+Data: 11,a-mo,e{"originalText"#3A"{\\fnCentury Schoolbook\\fs29\\c&HD7E2F8&\\blur1\\pos(1831.2#2C353.61)}Dubdub"#2C"uuid"#3A"a6ee20e9-07db-4584-b12f-7242d07d49ae"}
+Data: 12,_aegi_perspective_ambient_plane,e1258.63;165.01#7C1610.46;210.03#7C1550.38;710.00#7C1193.62;667.99
+Data: 13,_aegi_perspective_ambient_plane,e1258.63;165.01#7C1610.46;210.03#7C1550.38;710.04#7C1193.61;668.04
+Data: 14,_aegi_perspective_ambient_plane,e1258.63;165.01#7C1610.46;210.03#7C1550.37;710.07#7C1193.60;668.06
+

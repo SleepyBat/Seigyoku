@@ -1,0 +1,1277 @@
+﻿[Script Info]
+Title: [Seigyoku] Mahou no Shimai LuluttoLilly - 08
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+Original Translation: Seigyoku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Alt,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H0084231D,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: OP,Immortal,75,&H00FFFFFF,&H000000FF,&H00E52FD3,&H00000000,0,0,0,0,90,100,0,0,1,0,0,2,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H00F18811,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 50,0:00:17.00,0:00:17.04,Default,chptr,0,0,0,,Cold Open
+Comment: 50,0:01:49.01,0:01:49.05,Default,chptr,0,0,0,opsync,OP
+Comment: 50,0:03:19.97,0:03:20.01,Default,chptr,0,0,0,,Part A
+Comment: 50,0:13:02.01,0:13:02.05,Default,chptr,0,0,0,,Part B
+Comment: 50,0:22:22.99,0:22:23.03,Default,chptr,0,0,0,edsync,ED
+Comment: 50,0:23:52.99,0:23:53.04,Default,chptr,0,0,0,,Preview
+Dialogue: 50,0:00:22.21,0:00:25.67,Default,Fuu,0,0,0,,No way. Tomorrow's the start\Nof the new semester?!
+Dialogue: 50,0:00:28.97,0:00:31.97,Default,Mom,0,0,0,,Fuu, did you finish your summer homework?
+Dialogue: 50,0:00:31.97,0:00:34.06,Default,Fuu,0,0,0,,Just barely.
+Dialogue: 50,0:00:34.06,0:00:37.06,Default,Mom,0,0,0,,Then you should do well\Non tomorrow's test.
+Dialogue: 50,0:00:37.06,0:00:38.60,Default,Fuu,0,0,0,,What?! A test?
+Dialogue: 50,0:00:38.98,0:00:42.56,Default,Mom,0,0,0,,Iroha-chan told me there's one\Nright after break.
+Dialogue: 50,0:00:43.19,0:00:45.11,Default,Fuu,0,0,0,,I totally forgot...
+Dialogue: 50,0:00:51.07,0:00:52.53,Default,Fuu,0,0,0,,It's Toko-san.
+Dialogue: 50,0:00:53.37,0:00:55.87,Default,Fuu,0,0,0,,Umm... "This is a bit sudden, but..."
+Dialogue: 50,0:00:56.24,0:00:58.20,Default,Toko,0,0,0,,{\i1}Are you free tomorrow?
+Dialogue: 50,0:00:58.20,0:01:01.54,Default,Toko,0,0,0,,{\i1}There's a gig for you on ARS TV!
+Dialogue: 50,0:01:01.54,0:01:05.96,Default,Fuu,0,0,0,,"They really want you on their show, Lilly."
+Dialogue: 50,0:01:05.96,0:01:08.34,Default,Fuu,0,0,0,,Tomorrow? I can't!
+Dialogue: 50,0:01:09.55,0:01:13.18,Default,Toko,0,0,0,,{\i1}Yeah, figures. I'll turn it down.\NSorry for the short notice!
+Dialogue: 50,0:01:15.01,0:01:16.39,Default,Uguisu,0,0,0,,What's wrong?
+Dialogue: 50,0:01:16.39,0:01:19.06,Default,Fuu,0,0,0,,I was asked to appear on a TV show tomorrow.
+Dialogue: 50,0:01:19.06,0:01:21.27,Default,Fuu,0,0,0,,How am I supposed to do that?
+Dialogue: 50,0:01:21.27,0:01:22.85,Default,Uguisu,0,0,0,,You have that test tomorrow too.
+Dialogue: 50,0:01:24.02,0:01:25.48,Default,Fuu,0,0,0,,Ugh!
+Dialogue: 50,0:01:25.48,0:01:29.69,Default,Fuu,0,0,0,,I'm busy enough with homework and idol stuff,\Nand now I have to take a test?
+Dialogue: 50,0:01:32.20,0:01:34.07,Default,fuu,0,0,0,,I can't take it anymore!
+Dialogue: 50,0:01:35.66,0:01:37.54,Default,Fuu,0,0,0,,Lililula, palilula!
+Dialogue: 50,0:01:37.54,0:01:40.33,Default,Fuu,0,0,0,,Make this a world with no tests!
+Dialogue: 50,0:01:45.29,0:01:46.75,Default,Fuu,0,0,0,,That'll do.
+Dialogue: 50,0:01:47.09,0:01:49.01,Default,Uguisu,0,0,0,,I don't know about this.
+Dialogue: 50,0:03:25.81,0:03:26.98,Default,Rui,0,0,0,,Goodbye, Mom.
+Dialogue: 50,0:03:27.52,0:03:29.98,Default,Mom,0,0,0,,Goodbye! Take care!
+Dialogue: 50,0:03:30.82,0:03:32.73,Default,Mom,0,0,0,,Fuu, you have to go too.
+Dialogue: 50,0:03:32.73,0:03:34.74,Default,Fuu,0,0,0,,I know!
+Dialogue: 50,0:03:38.95,0:03:42.58,Default,Fuu,0,0,0,,Please! Tell me my spell worked!
+Dialogue: 50,0:03:48.50,0:03:51.09,Default,Fuu's Teacher,0,0,0,,Nonoyama-san, you're late.
+Dialogue: 50,0:03:51.46,0:03:53.00,Default,Fuu,0,0,0,,S-Sorry.
+Dialogue: 50,0:03:55.76,0:03:59.34,Default,Fuu's Teacher,0,0,0,,Let's get straight into it.\NThe new semester starts today!
+Dialogue: 50,0:03:59.34,0:04:03.26,Default,Fuu's Teacher,0,0,0,,I'm very pleased to see\Nyour excited faces again!
+Dialogue: 50,0:04:03.64,0:04:04.56,Default,Fuu's Teacher,0,0,0,,Now...
+Dialogue: 50,0:04:04.56,0:04:06.68,Default,Fuu,0,0,0,,{\i1}No, no! Not the test!
+Dialogue: 50,0:04:10.86,0:04:14.98,Default,Fuu's Teacher,0,0,0,,I have an announcement!\NOur school will no longer be doing tests!
+Dialogue: 50,0:04:15.69,0:04:16.61,Default,Fuu,0,0,0,,It worked!
+Dialogue: 50,0:04:16.61,0:04:18.07,Default,Fuu's Teacher,0,0,0,,Or classes!
+Dialogue: 50,0:04:18.70,0:04:21.78,Default,Fuu's Teacher,0,0,0,,You can all pass the time\Nhowever you please.
+Dialogue: 50,0:04:21.78,0:04:22.74,Default,Fuu's Teacher,0,0,0,,That is all.
+Dialogue: 50,0:04:26.95,0:04:31.04,Default,Fuu,0,0,0,,No way. I didn't just get rid of tests,\NI got rid of classes entirely!
+Dialogue: 50,0:04:31.67,0:04:33.00,Default,Kid,0,0,0,,Woohoo!
+Dialogue: 50,0:04:39.68,0:04:41.64,Default,Iroha,0,0,0,,What do you wanna do?
+Dialogue: 50,0:04:41.64,0:04:43.43,Default,Hayato,0,0,0,,Let's go to Medakaya!
+Dialogue: 50,0:04:43.43,0:04:44.81,Default,Iroha,0,0,0,,I'm in!
+Dialogue: 50,0:04:43.43,0:04:44.81,Alt,Classmate,0,0,0,,Yay!
+Dialogue: 50,0:04:44.81,0:04:45.43,Default,Hayato,0,0,0,,Let's go!
+Dialogue: 50,0:04:45.43,0:04:48.64,Default,Fuu,0,0,0,,But Medakaya is outside the school!
+Dialogue: 50,0:04:48.64,0:04:51.81,Default,Iroha,0,0,0,,Hey! You should come with us, Fuu-chan!
+Dialogue: 50,0:04:51.81,0:04:52.86,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:04:55.61,0:04:57.32,Default,Fuu,0,0,0,,Oh, why not. I'm in!
+Dialogue: 50,0:05:05.91,0:05:07.33,Default,Rui,0,0,0,,What's going on?
+Dialogue: 50,0:05:11.50,0:05:14.00,Default,Rui,0,0,0,,The teacher never came in.
+Dialogue: 50,0:05:19.51,0:05:21.72,Default,Rui,0,0,0,,Um, good morning.
+Dialogue: 50,0:05:22.22,0:05:23.85,Default,Mizuka,0,0,0,,Rui-chan! Morning!
+Dialogue: 50,0:05:24.22,0:05:28.22,Default,Rui,0,0,0,,Isn't today, um, kind of weird?
+Dialogue: 50,0:05:29.85,0:05:31.56,Default,Mizuka,0,0,0,,Not really. Right?
+Dialogue: 50,0:05:31.56,0:05:33.60,Default,Momo,0,0,0,,Yeah. This is normal.
+Dialogue: 50,0:05:34.44,0:05:37.86,Default,Rui,0,0,0,,But why are there no classes?
+Dialogue: 50,0:05:37.86,0:05:40.11,Default,Momo,0,0,0,,Nonoyama-san, is everything okay?
+Dialogue: 50,0:05:40.11,0:05:42.15,Default,Mizuka,0,0,0,,Are you feeling sick?
+Dialogue: 50,0:05:43.24,0:05:45.24,Default,Rui,0,0,0,,No, I'm fine!
+Dialogue: 50,0:05:47.74,0:05:51.87,Default,Rui,0,0,0,,{\i1}There really are no classes.\NEveryone's goofing off.
+Dialogue: 50,0:05:53.21,0:05:55.08,Default,Classmate,0,0,0,,Let's go to the park after this.
+Dialogue: 50,0:05:55.08,0:05:56.54,Default,Iroha,0,0,0,,I like the sound of that!
+Dialogue: 50,0:05:55.08,0:05:56.54,Alt,Hayato,0,0,0,,Agreed!
+Dialogue: 50,0:05:58.38,0:06:00.80,Default,Fuu,0,0,0,,{\i1}We really left school...
+Dialogue: 50,0:05:57.88,0:05:59.51,Default,Hayato,0,0,0,,{\an8}It's nice out today.
+Dialogue: 50,0:05:59.51,0:06:00.26,Default,Iroha,0,0,0,,{\an8}Yeah!
+Dialogue: 50,0:06:00.26,0:06:01.38,Default,Classmate,0,0,0,,{\an8}It's kind of hot.
+Dialogue: 50,0:06:01.76,0:06:03.80,Default,Iroha,0,0,0,,That cloud looks like a bird!
+Dialogue: 50,0:06:03.80,0:06:05.39,Default,Hayato,0,0,0,,Huh? Which one?
+Dialogue: 50,0:06:05.72,0:06:07.43,Default,Classmate,0,0,0,,I think it looks like a banana.
+Dialogue: 50,0:06:07.43,0:06:08.56,Default,Hayato,0,0,0,,A banana?
+Dialogue: 50,0:06:08.56,0:06:09.47,Default,Iroha,0,0,0,,What about that?
+Dialogue: 50,0:06:09.47,0:06:11.39,Default,Hayato,0,0,0,,Oh, that's a crab!
+Dialogue: 50,0:06:11.39,0:06:13.52,Default,Hayato,0,0,0,,What are you gonna buy at Medakaya?
+Dialogue: 50,0:06:13.52,0:06:14.48,Default,Iroha,0,0,0,,A kinakobo!
+Dialogue: 50,0:06:14.48,0:06:15.98,Default,Classmate,0,0,0,,I want some juice!
+Dialogue: 50,0:06:18.11,0:06:20.65,Default,Fuu,0,0,0,,Uguisu, my spell worked perfectly!
+Dialogue: 50,0:06:20.65,0:06:22.19,Default,Uguisu,0,0,0,,That's surprising.
+Dialogue: 50,0:06:22.19,0:06:23.40,Default,Fuu,0,0,0,,Yay!
+Dialogue: 50,0:06:23.40,0:06:24.66,Default,Hayato,0,0,0,,Fuu!
+Dialogue: 50,0:06:24.66,0:06:27.07,Default,Iroha,0,0,0,,Fuu-chan, let's go!
+Dialogue: 50,0:06:27.07,0:06:28.12,Default,Hayato,0,0,0,,What's wrong?
+Dialogue: 50,0:06:28.66,0:06:30.33,Default,Fuu,0,0,0,,Nothing!
+Dialogue: 50,0:06:33.92,0:06:35.17,Default,Rui,0,0,0,,I came out here...
+Dialogue: 50,0:06:35.75,0:06:38.09,Default,Rui,0,0,0,,during class time.
+Dialogue: 50,0:06:51.22,0:06:54.81,Default,Rui,0,0,0,,Everything about this really is weird.
+Dialogue: 50,0:06:55.77,0:07:00.98,Default,Rui,0,0,0,,Maybe this is another prank by someone\Nfrom the magical land.
+Dialogue: 50,0:07:02.07,0:07:03.69,Default,Rui,0,0,0,,What do you think, Azuki?
+Dialogue: 50,0:07:04.32,0:07:05.95,Default,Azuki,0,0,0,,Well...
+Dialogue: 50,0:07:06.49,0:07:07.82,Default,Azuki,0,0,0,,Maybe.
+Dialogue: 50,0:07:08.20,0:07:10.24,Default,Rui,0,0,0,,Why would someone do this?
+Dialogue: 50,0:07:10.99,0:07:13.58,Default,Rui,0,0,0,,School is a place to study!
+Dialogue: 50,0:07:20.71,0:07:24.30,Default,Shota,0,0,0,,Kadoya, is this even good for us?
+Dialogue: 50,0:07:24.72,0:07:27.59,Default,Hisashi,0,0,0,,Of course it is. Let's go have some fun.
+Dialogue: 50,0:07:28.22,0:07:29.60,Default,Shota,0,0,0,,I guess.
+Dialogue: 50,0:07:33.60,0:07:36.39,Default,Shota,0,0,0,,I want to get some new shoes.
+Dialogue: 50,0:07:36.39,0:07:38.81,Default,Hisashi,0,0,0,,Me too, but I'm broke.
+Dialogue: 50,0:07:38.81,0:07:40.61,Default,Shota,0,0,0,,Same.
+Dialogue: 50,0:07:43.03,0:07:43.78,Default,Shota,0,0,0,,Fuu?
+Dialogue: 50,0:07:43.78,0:07:45.53,Default,Fuu,0,0,0,,Oh, Sho-chan!
+Dialogue: 50,0:07:47.24,0:07:51.28,Default,Fuu,0,0,0,,Hey, Sho-chan! Where are you going? Wanna play?
+Dialogue: 50,0:07:51.28,0:07:53.62,Default,Shota,0,0,0,,Sorry, I'm busy.
+Dialogue: 50,0:07:53.62,0:07:54.87,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:07:55.33,0:07:56.62,Default,Hisashi,0,0,0,,Are you now?
+Dialogue: 50,0:07:57.75,0:07:59.29,Default,Shota,0,0,0,,Another time, okay?
+Dialogue: 50,0:07:59.92,0:08:00.75,Default,Shota,0,0,0,,Later.
+Dialogue: 50,0:08:00.75,0:08:02.09,Default,Hisashi,0,0,0,,Sorry!
+Dialogue: 50,0:08:02.09,0:08:03.30,Default,Fuu,0,0,0,,Come on!
+Dialogue: 50,0:08:03.67,0:08:06.34,Default,Fuu,0,0,0,,You're {\i1}always{\i0} busy.
+Dialogue: 50,0:08:07.05,0:08:08.05,Default,Iroha,0,0,0,,Let's go!
+Dialogue: 50,0:08:11.89,0:08:13.47,Default,Rui,0,0,0,,The coast is clear.
+Dialogue: 50,0:08:13.47,0:08:14.18,Default,Azuki,0,0,0,,Yeah.
+Dialogue: 50,0:08:15.27,0:08:19.31,Default,Rui,0,0,0,,I don't know who's behind this prank,\Nbut I have to undo it.
+Dialogue: 50,0:08:19.31,0:08:20.44,Default,Azuki,0,0,0,,That's right.
+Dialogue: 50,0:08:20.94,0:08:21.69,Default,Rui,0,0,0,,Letto!
+Dialogue: 50,0:08:28.57,0:08:31.03,Default,Rui,0,0,0,,Lululila, pululila.
+Dialogue: 50,0:08:31.41,0:08:35.37,Default,Rui,0,0,0,,Turn the world back to how it should be!
+Dialogue: 50,0:08:35.37,0:08:37.87,Default,Azuki,0,0,0,,You've got this!
+Dialogue: 50,0:08:46.34,0:08:47.38,Default,Iroha,0,0,0,,This looks good too!
+Dialogue: 50,0:08:47.38,0:08:48.97,Default,Classmate,0,0,0,,I can't decide!
+Dialogue: 50,0:08:48.97,0:08:50.38,Default,Hisashi,0,0,0,,Look at this!
+Dialogue: 50,0:08:50.38,0:08:52.85,Default,Fuu,0,0,0,,There it is! Fortune gummies!
+Dialogue: 50,0:08:55.51,0:08:56.97,Default,Fuu,0,0,0,,This one, please!
+Dialogue: 50,0:08:56.97,0:08:58.27,Default,Shopkeeper,0,0,0,,Enjoy!
+Dialogue: 50,0:08:58.27,0:08:59.98,Default,Fuu,0,0,0,,Let's see here...
+Dialogue: 50,0:09:02.10,0:09:04.94,Default,Fuu,0,0,0,,What's my fortune for today?
+Dialogue: 50,0:09:07.53,0:09:08.44,Default,Fuu,0,0,0,,Huh?!
+Dialogue: 50,0:09:10.11,0:09:11.57,Default,Fuu,0,0,0,,What the heck?
+Dialogue: 50,0:09:11.57,0:09:14.83,Default,Fuu,0,0,0,,"Find the area of this shape"?
+Dialogue: 50,0:09:14.83,0:09:16.91,Default,Fuu,0,0,0,,This isn't my fortune!
+Dialogue: 50,0:09:16.91,0:09:18.04,Default,Fuu,0,0,0,,What's going on?
+Dialogue: 50,0:09:19.12,0:09:20.79,Default,Shopkeeper,0,0,0,,It's a test.
+Dialogue: 50,0:09:21.42,0:09:23.67,Default,Shopkeeper,0,0,0,,Answer the problem.
+Dialogue: 50,0:09:25.13,0:09:27.05,Default,Fuu,0,0,0,,You can't just make me...
+Dialogue: 50,0:09:27.88,0:09:29.34,Default,Fuu,0,0,0,,Right, guys?
+Dialogue: 50,0:09:32.22,0:09:33.59,Default,Fuu,0,0,0,,Guys!
+Dialogue: 50,0:09:33.59,0:09:35.64,Default,Shopkeeper,0,0,0,,Now, on with it!
+Dialogue: 50,0:09:37.31,0:09:40.23,Default,Fuu,0,0,0,,Ugh, I can't do this!
+Dialogue: 50,0:09:40.23,0:09:41.64,Default,Shopkeeper,0,0,0,,Get back here!
+Dialogue: 50,0:09:41.64,0:09:43.27,Default,Fuu,0,0,0,,No!
+Dialogue: 50,0:09:42.23,0:09:44.81,Default,Shopkeeper,0,0,0,,{\an8}Stop! Come back!
+Dialogue: 50,0:09:50.57,0:09:52.86,Default,Shopkeeper,0,0,0,,Where did that girl go?
+Dialogue: 50,0:09:54.41,0:09:56.33,Default,Fuu,0,0,0,,She's still after me...
+Dialogue: 50,0:09:56.33,0:09:58.58,Default,Fuu,0,0,0,,Uguisu, what do I do?
+Dialogue: 50,0:09:58.58,0:10:00.29,Default,Uguisu,0,0,0,,What indeed.
+Dialogue: 50,0:10:00.29,0:10:01.33,Default,Fuu,0,0,0,,Come on!
+Dialogue: 50,0:10:02.96,0:10:03.83,Default,Fuu,0,0,0,,Litto!
+Dialogue: 50,0:10:12.26,0:10:14.22,Default,Fuu,0,0,0,,Lililula, palilula!
+Dialogue: 50,0:10:15.76,0:10:18.51,Default,Fuu,0,0,0,,Pam pam power!
+Dialogue: 50,0:10:31.61,0:10:33.95,Default,Shopkeeper,0,0,0,,Where did she go?
+Dialogue: 50,0:10:36.12,0:10:37.24,Default,Shopkeeper,0,0,0,,Excuse me.
+Dialogue: 50,0:10:37.24,0:10:38.53,Default,Fuu,0,0,0,,Y-Yes?
+Dialogue: 50,0:10:38.53,0:10:43.37,Default,Shopkeeper,0,0,0,,Have you seen a little girl about\Nten years old pass through here?
+Dialogue: 50,0:10:44.21,0:10:45.29,Default,Fuu,0,0,0,,I-I haven't!
+Dialogue: 50,0:10:48.00,0:10:49.71,Default,Shopkeeper,0,0,0,,Maybe she went that way.
+Dialogue: 50,0:10:51.92,0:10:54.13,Default,Fuu,0,0,0,,Somehow I fooled her.
+Dialogue: 50,0:10:55.30,0:10:57.14,Default,Uguisu,0,0,0,,That was scary.
+Dialogue: 50,0:10:57.14,0:11:00.39,Default,Fuu,0,0,0,,You're telling me.\NA test at a sweets shop?
+Dialogue: 50,0:11:00.39,0:11:02.14,Default,Uguisu,0,0,0,,Very strange.
+Dialogue: 50,0:11:02.14,0:11:05.19,Default,Fuu,0,0,0,,Maybe my magic wore off?
+Dialogue: 50,0:11:05.19,0:11:07.69,Default,Fuu,0,0,0,,Alright, one more time!
+Dialogue: 50,0:11:08.15,0:11:10.02,Default,Fuu,0,0,0,,Uguisu, stay on lookout!
+Dialogue: 50,0:11:10.02,0:11:11.94,Default,Fuu,0,0,0,,Lililula, palilula!
+Dialogue: 50,0:11:12.44,0:11:14.90,Default,Fuu,0,0,0,,Get rid of tests for real this time!
+Dialogue: 50,0:11:19.45,0:11:20.58,Default,Rui's Teacher,0,0,0,,Eyes up here.
+Dialogue: 50,0:11:21.74,0:11:23.37,Default,Rui's Teacher,0,0,0,,Everyone quiet down.
+Dialogue: 50,0:11:24.96,0:11:27.21,Default,Rui's Teacher,0,0,0,,{\an8}It's been quite the crazy day, hasn't it?
+Dialogue: 50,0:11:27.21,0:11:29.42,Default,Rui's Teacher,0,0,0,,{\an8}Let's start class.
+Dialogue: 50,0:11:26.54,0:11:29.42,Default,Rui,0,0,0,,{\i1}Phew, everyone's back to normal.
+Dialogue: 50,0:11:29.96,0:11:33.30,Default,Rui's Teacher,0,0,0,,Today, we'll be taking a proficiency test.
+Dialogue: 50,0:11:35.51,0:11:38.76,Default,Rui's Teacher,0,0,0,,What's the matter?\NWhy are you all sitting in silence?
+Dialogue: 50,0:11:38.76,0:11:40.60,Default,Rui's Teacher,0,0,0,,Is something wrong?
+Dialogue: 50,0:11:40.60,0:11:41.93,Default,Mizuka,0,0,0,,That's a good question.
+Dialogue: 50,0:11:41.93,0:11:43.10,Default,Rui,0,0,0,,No!
+Dialogue: 50,0:11:43.10,0:11:45.23,Default,Student 1,0,0,0,,Why {\i1}are{\i0} we sitting down?
+Dialogue: 50,0:11:45.23,0:11:46.69,Default,Student 2,0,0,0,,I don't know.
+Dialogue: 50,0:11:46.69,0:11:47.65,Default,Student 1,0,0,0,,Well, no matter.
+Dialogue: 50,0:11:47.65,0:11:48.60,Default,Student 2,0,0,0,,Yeah.
+Dialogue: 50,0:11:48.90,0:11:52.98,Default,Rui's Teacher,0,0,0,,I'll be going home,\Nso do whatever you wish to.
+Dialogue: 50,0:11:52.98,0:11:55.78,Default,Rui,0,0,0,,W-Wait a minute! What about the test?
+Dialogue: 50,0:11:56.53,0:11:59.53,Default,Rui's Teacher,0,0,0,,Test? What are you talking about, Nonoyama?
+Dialogue: 50,0:12:01.41,0:12:02.49,Default,Rui's Teacher,0,0,0,,That is all.
+Dialogue: 50,0:12:02.49,0:12:04.29,Default,Momo,0,0,0,,Let's go home too.
+Dialogue: 50,0:12:04.29,0:12:05.04,Default,Mizuka,0,0,0,,Yeah!
+Dialogue: 50,0:12:14.05,0:12:16.22,Default,Rui,0,0,0,,What's going on...?
+Dialogue: 50,0:12:22.81,0:12:23.81,Default,Rui,0,0,0,,Azuki...
+Dialogue: 50,0:12:23.81,0:12:27.60,Default,Azuki,0,0,0,,It looks like someone\Noverpowered your spell.
+Dialogue: 50,0:12:27.60,0:12:29.56,Default,Azuki,0,0,0,,Hang in there, Rui!
+Dialogue: 50,0:12:29.98,0:12:32.56,Default,Rui,0,0,0,,Right! I won't let them win!
+Dialogue: 50,0:12:35.32,0:12:38.53,Default,Toko,0,0,0,,Lilly turned down that gig after all.
+Dialogue: 50,0:12:38.53,0:12:40.07,Default,Sena,0,0,0,,The TV appearance?
+Dialogue: 50,0:12:40.07,0:12:42.32,Default,Toko,0,0,0,,Yeah. I guess she's busy.
+Dialogue: 50,0:12:42.32,0:12:45.66,Default,Toko,0,0,0,,I got the offer the day before yesterday,\Nand they're recording today.
+Dialogue: 50,0:12:45.66,0:12:49.04,Default,Toko,0,0,0,,I figured I'd ask in case,\Nbut I knew it was a long shot.
+Dialogue: 50,0:12:50.21,0:12:54.00,Default,Sena,0,0,0,,What do you think she's up to usually?
+Dialogue: 50,0:12:55.67,0:12:57.05,Default,Toko,0,0,0,,Who knows.
+Dialogue: 50,0:12:58.05,0:13:00.01,Default,Toko,0,0,0,,Oh, time for class.
+Dialogue: 50,0:13:00.01,0:13:00.76,Default,Sena,0,0,0,,Yeah.
+Dialogue: 50,0:13:07.47,0:13:09.77,Default,Rui,0,0,0,,Someone has to be behind this.
+Dialogue: 50,0:13:09.77,0:13:11.02,Default,Azuki,0,0,0,,Keep at it!
+Dialogue: 50,0:13:11.02,0:13:13.44,Default,Rui,0,0,0,,Lululila, pululila!
+Dialogue: 50,0:13:13.44,0:13:17.74,Default,Rui,0,0,0,,Please stop bothering me with this magic!
+Dialogue: 50,0:13:20.70,0:13:22.91,Default,Uguisu,0,0,0,,Are you not going back to your friends?
+Dialogue: 50,0:13:22.91,0:13:26.49,Default,Fuu,0,0,0,,What if my spell stops working again?\NI'm too scared to go back...
+Dialogue: 50,0:13:26.49,0:13:27.70,Default,TV Director,0,0,0,,There she is!
+Dialogue: 50,0:13:27.70,0:13:30.71,Default,TV Director,0,0,0,,Lilly-san, we finally found you!
+Dialogue: 50,0:13:31.42,0:13:33.67,Default,TV Director,0,0,0,,We're from ARS TV!
+Dialogue: 50,0:13:33.67,0:13:38.92,Default,TV Director,0,0,0,,We came looking for you because\Nwe just {\i1}had{\i0} to have you on our show!
+Dialogue: 50,0:13:38.92,0:13:40.30,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:13:40.30,0:13:42.18,Default,Fuu,0,0,0,,Wait, you mean the offer from yesterday?
+Dialogue: 50,0:13:42.51,0:13:45.26,Default,Fuu,0,0,0,,I already told you, I can't do it!
+Dialogue: 50,0:13:45.26,0:13:46.89,Default,TV Director,0,0,0,,You have to!
+Dialogue: 50,0:13:46.89,0:13:48.97,Default,TV Director,0,0,0,,Anyways, let's start filming!
+Dialogue: 50,0:13:48.97,0:13:50.98,Default,TV Director,0,0,0,,Ready? Three, two...
+Dialogue: 50,0:13:50.98,0:13:53.85,Default,Fuu,0,0,0,,I already said no! Ugh!
+Dialogue: 50,0:13:53.85,0:13:56.77,Default,TV Director,0,0,0,,Hey, wait up! Lilly-san!
+Dialogue: 50,0:14:01.45,0:14:03.45,Default,Fuu,0,0,0,,Stay away from me!
+Dialogue: 50,0:14:07.62,0:14:08.83,Default,Shota,0,0,0,,Isn't that...?
+Dialogue: 50,0:14:09.62,0:14:12.62,Default,Hisashi,0,0,0,,Shota, what do you wanna sing at karaoke?
+Dialogue: 50,0:14:13.04,0:14:15.00,Default,Hisashi,0,0,0,,Shota? Hello?
+Dialogue: 50,0:14:15.54,0:14:17.38,Default,Shota,0,0,0,,Sorry, I'll meet you there.
+Dialogue: 50,0:14:19.34,0:14:20.88,Default,Hisashi,0,0,0,,Yo, Shota!
+Dialogue: 50,0:14:21.34,0:14:23.30,Default,TV Director,0,0,0,,Please wait!
+Dialogue: 50,0:14:23.30,0:14:25.68,Default,TV Director,0,0,0,,Help us perform a camera test!
+Dialogue: 50,0:14:25.68,0:14:28.85,Default,Fuu,0,0,0,,I told you, no tests!
+Dialogue: 50,0:14:29.18,0:14:30.97,Default,TV Director,0,0,0,,Lilly-san!
+Dialogue: 50,0:14:32.18,0:14:33.14,Default,Shota,0,0,0,,Over here!
+Dialogue: 50,0:14:37.44,0:14:38.98,Default,Fuu,0,0,0,,Sho-chan...?
+Dialogue: 50,0:14:40.53,0:14:41.94,Default,TV Director,0,0,0,,Lilly-san!
+Dialogue: 50,0:14:41.94,0:14:43.61,Default,Cameraman,0,0,0,,Huh? Where'd she go?
+Dialogue: 50,0:14:43.61,0:14:44.74,Default,Boom Operator,0,0,0,,Maybe over there!
+Dialogue: 50,0:14:46.16,0:14:47.45,Default,Shota,0,0,0,,Did they fall for it?
+Dialogue: 50,0:14:47.45,0:14:48.45,Default,Fuu,0,0,0,,Um...
+Dialogue: 50,0:14:48.45,0:14:49.24,Default,Shota,0,0,0,,Yeah?
+Dialogue: 50,0:14:49.24,0:14:50.24,Default,Fuu,0,0,0,,My hand.
+Dialogue: 50,0:14:51.37,0:14:53.12,Default,Shota,0,0,0,,I'm sorry!
+Dialogue: 50,0:14:53.12,0:14:57.42,Default,Shota,0,0,0,,You're the idol Lilly-san, right?\NWhat are you doing out here?
+Dialogue: 50,0:14:59.34,0:15:02.38,Default,Fuu,0,0,0,,Even an idol's gotta cut loose\Nevery once in a while!
+Dialogue: 50,0:15:02.76,0:15:05.38,Default,Shota,0,0,0,,Oh yeah. It's hard work, isn't it?
+Dialogue: 50,0:15:06.34,0:15:09.39,Default,Fuu,0,0,0,,Sorry. I know you're pretty busy.
+Dialogue: 50,0:15:09.39,0:15:10.26,Default,Shota,0,0,0,,Huh?
+Dialogue: 50,0:15:10.89,0:15:13.89,Default,Shota,0,0,0,,Don't worry! I'm completely free!
+Dialogue: 50,0:15:13.89,0:15:15.31,Default,Fuu,0,0,0,,R-Really?
+Dialogue: 50,0:15:15.31,0:15:17.90,Default,Fuu,0,0,0,,That's not what you said earlier...
+Dialogue: 50,0:15:18.27,0:15:22.65,Default,Shota,0,0,0,,I saw your performance when I was in Shibuya.
+Dialogue: 50,0:15:22.65,0:15:25.99,Default,Shota,0,0,0,,And I became a huge fan!
+Dialogue: 50,0:15:25.99,0:15:28.66,Default,Fuu,0,0,0,,You called out to me back then, didn't you?
+Dialogue: 50,0:15:29.07,0:15:31.03,Default,Shota,0,0,0,,You remembered?
+Dialogue: 50,0:15:31.03,0:15:35.25,Default,Shota,0,0,0,,I also saw the quiz show you were on!\NIt was... pretty extreme.
+Dialogue: 50,0:15:35.25,0:15:36.96,Default,Fuu,0,0,0,,O-Oh, yeah. That.
+Dialogue: 50,0:15:38.08,0:15:39.96,Default,TV Director,0,0,0,,Lilly-san!
+Dialogue: 50,0:15:38.71,0:15:39.96,Alt,Boom Operator,0,0,0,,Lilly-san!
+Dialogue: 50,0:15:39.08,0:15:39.96,Default,Cameraman,0,0,0,,{\an8}Lilly-san!
+Dialogue: 50,0:15:39.96,0:15:41.84,Default,TV Director,0,0,0,,Where are you?!
+Dialogue: 50,0:15:40.38,0:15:41.84,Default,Cameraman,0,0,0,,{\an8}Come back to us!
+Dialogue: 50,0:15:40.92,0:15:41.84,Alt,Boom Operator,0,0,0,,Wait up!
+Dialogue: 50,0:15:42.21,0:15:44.17,Default,Shota,0,0,0,,They're back...
+Dialogue: 50,0:15:44.17,0:15:45.51,Default,Shota,0,0,0,,We'll run that way.
+Dialogue: 50,0:15:45.51,0:15:46.13,Default,Fuu,0,0,0,,Okay.
+Dialogue: 50,0:15:46.13,0:15:47.38,Default,Shota,0,0,0,,Let's hurry.
+Dialogue: 50,0:15:48.33,0:15:49.57,Default,Uguisu,0,0,0,,Goodness.
+Dialogue: 50,0:15:53.06,0:15:55.64,Default,TV Director,0,0,0,,Hey! Wait for us!
+Dialogue: 50,0:15:56.89,0:15:59.02,Default,Fuu,0,0,0,,Just knock it off already!
+Dialogue: 50,0:15:59.48,0:16:02.02,Default,TV Director,0,0,0,,Lilly-san!
+Dialogue: 50,0:16:02.73,0:16:03.78,Default,Cameraman,0,0,0,,I can't...
+Dialogue: 50,0:16:04.78,0:16:06.20,Default,Boom Operator,0,0,0,,Run any longer...
+Dialogue: 50,0:16:09.32,0:16:12.45,Default,TV Director,0,0,0,,I'm done!
+Dialogue: 50,0:16:16.50,0:16:18.46,Default,Fuu,0,0,0,,I think they gave up.
+Dialogue: 50,0:16:20.13,0:16:21.96,Default,Fuu,0,0,0,,Hm? What's wrong?
+Dialogue: 50,0:16:21.96,0:16:23.71,Default,Shota,0,0,0,,Oh, um, nothing.
+Dialogue: 50,0:16:24.05,0:16:26.80,Default,Shota,0,0,0,,Just hit me that it really is you, Lilly-san.
+Dialogue: 50,0:16:26.80,0:16:30.59,Default,Shota,0,0,0,,It just took a while to kick in.
+Dialogue: 50,0:16:30.59,0:16:31.97,Default,Hisashi,0,0,0,,Shota?
+Dialogue: 50,0:16:32.39,0:16:35.85,Default,Hisashi,0,0,0,,Where did you run off to?\NI was looking for...
+Dialogue: 50,0:16:36.81,0:16:37.85,Default,Hisashi,0,0,0,,Huh?
+Dialogue: 50,0:16:37.85,0:16:40.85,Default,Hisashi,0,0,0,,L-Lilly-chan?! No way!
+Dialogue: 50,0:16:40.85,0:16:43.48,Default,Shota,0,0,0,,Hey, calm down! We're being chased!
+Dialogue: 50,0:16:47.03,0:16:48.36,Default,Hisashi,0,0,0,,The coast is clear.
+Dialogue: 50,0:16:48.36,0:16:51.03,Default,Hisashi,0,0,0,,Haven't seen anyone like them.
+Dialogue: 50,0:16:51.03,0:16:53.12,Default,Shota,0,0,0,,Are you sure you'll be okay?
+Dialogue: 50,0:16:53.12,0:16:57.96,Default,Fuu,0,0,0,,Yeah. The agency just texted me saying\Nthey fully turned down the offer.
+Dialogue: 50,0:16:59.46,0:17:00.71,Default,Shota,0,0,0,,Wait right here.
+Dialogue: 50,0:17:01.00,0:17:02.46,Default,Fuu,0,0,0,,Sho-chan?
+Dialogue: 50,0:17:06.42,0:17:08.09,Default,Shota,0,0,0,,Use this.
+Dialogue: 50,0:17:08.09,0:17:08.97,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:17:09.34,0:17:12.05,Default,Shota,0,0,0,,So you don't stand out.
+Dialogue: 50,0:17:12.05,0:17:14.26,Default,Fuu,0,0,0,,Oh, like a disguise.
+Dialogue: 50,0:17:14.26,0:17:17.35,Default,Hisashi,0,0,0,,Well, that's unusually considerate of you.
+Dialogue: 50,0:17:17.35,0:17:18.02,Default,Shota,0,0,0,,Cram it!
+Dialogue: 50,0:17:20.94,0:17:22.48,Default,Fuu,0,0,0,,Thank you!
+Dialogue: 50,0:17:22.90,0:17:24.73,Default,Fuu,0,0,0,,I'll be on my way!
+Dialogue: 50,0:17:24.73,0:17:26.98,Default,Hisashi,0,0,0,,Oh, could you give me your autograph first?
+Dialogue: 50,0:17:26.98,0:17:28.28,Default,Shota,0,0,0,,M-Me too!
+Dialogue: 50,0:17:28.28,0:17:30.07,Default,Fuu,0,0,0,,Sure thing!
+Dialogue: 50,0:17:36.62,0:17:39.20,Default,Fuu,0,0,0,,You were super cool.
+Dialogue: 50,0:17:41.21,0:17:42.21,Default,Fuu,0,0,0,,See you!
+Dialogue: 50,0:17:48.34,0:17:52.34,Default,Hisashi,0,0,0,,Lilly-chan's so cool!\NI love her even more now!
+Dialogue: 50,0:17:53.22,0:17:54.34,Default,Shota,0,0,0,,Same here.
+Dialogue: 50,0:17:59.18,0:18:03.02,Default,Fuu,0,0,0,,Sho-chan and his friend's reactions\Nwere so funny!{sho-chan-tachi strikes again}
+Dialogue: 50,0:18:03.02,0:18:06.69,Default,Fuu,0,0,0,,They got all blush,\Nand didn't even know it was actually me!
+Dialogue: 50,0:18:07.02,0:18:08.90,Default,Uguisu,0,0,0,,I'm tired.
+Dialogue: 50,0:18:08.90,0:18:12.57,Default,Fuu,0,0,0,,Me too. I've had my fun, so let's go home.
+Dialogue: 50,0:18:15.82,0:18:19.20,Default,Fuu,0,0,0,,But something still feels missing.
+Dialogue: 50,0:18:24.33,0:18:26.29,Default,Fuu,0,0,0,,Lililula, palilula!
+Dialogue: 50,0:18:41.39,0:18:42.98,Default,Uguisu,0,0,0,,Where are we going?
+Dialogue: 50,0:18:42.98,0:18:45.02,Default,Fuu,0,0,0,,You'll find out!
+Dialogue: 50,0:18:49.82,0:18:51.78,Default,Fuu,0,0,0,,I have to hurry before the sun sets!
+Dialogue: 50,0:18:52.36,0:18:53.61,Default,Uguisu,0,0,0,,Are we there yet?
+Dialogue: 50,0:18:53.61,0:18:55.28,Default,Fuu,0,0,0,,Almost!
+Dialogue: 50,0:18:56.70,0:18:58.28,Default,Fuu,0,0,0,,Here's our stop!
+Dialogue: 50,0:19:09.34,0:19:10.42,Default,Fuu,0,0,0,,We're here.
+Dialogue: 50,0:19:14.30,0:19:15.76,Default,Uguisu,0,0,0,,Is this the place?
+Dialogue: 50,0:19:15.76,0:19:18.89,Default,Fuu,0,0,0,,Yeah. I used to come here with my sister.
+Dialogue: 50,0:19:20.60,0:19:24.69,Default,Fuu,0,0,0,,We'd run around and sing together. It was so much fun.
+Dialogue: 50,0:19:24.69,0:19:25.89,Default,Uguisu,0,0,0,,That's nice.
+Dialogue: 50,0:19:34.61,0:19:36.82,Default,Fuu,0,0,0,,That was close.
+Dialogue: 50,0:19:36.82,0:19:37.86,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:19:51.63,0:19:53.55,Default,Fuu,0,0,0,,But summer has just ended...
+Dialogue: 50,0:19:57.43,0:19:58.64,Default,Uguisu,0,0,0,,It's magic.
+Dialogue: 50,0:20:06.81,0:20:10.11,Default,Fuu,0,0,0,,This is great. I missed this.
+Dialogue: 50,0:20:11.90,0:20:16.70,Default,Fuu,0,0,0,,{\i1}I made a wish to the stars
+Dialogue: 50,0:20:16.70,0:20:21.45,Default,Fuu,0,0,0,,{\i1}Up in the twinkling sky
+Dialogue: 50,0:20:21.45,0:20:26.04,Default,Fuu,0,0,0,,{\i1}The clouds in the sky are so fluffy
+Dialogue: 50,0:20:26.50,0:20:30.29,Default,Fuu,0,0,0,,{\i1}Just like cotton candy
+Dialogue: 50,0:20:31.42,0:20:36.30,Default,Fuu,0,0,0,,{\i1}I took off on the count of three
+Dialogue: 50,0:20:36.30,0:20:41.14,Default,Fuu,0,0,0,,{\i1}And caught the evening star
+Dialogue: 50,0:20:41.14,0:20:46.10,Default,Fuu,0,0,0,,{\i1}We're twinkling together
+Dialogue: 50,0:20:46.10,0:20:50.06,Default,Fuu,0,0,0,,{\i1}And we'll be friends forever
+Dialogue: 50,0:20:54.73,0:20:56.11,Default,Uguisu,0,0,0,,What was that?
+Dialogue: 50,0:20:56.57,0:20:58.95,Default,Fuu,0,0,0,,A song me and big sis made together.
+Dialogue: 50,0:20:58.95,0:20:59.91,Default,Uguisu,0,0,0,,I see!
+Dialogue: 50,0:21:02.07,0:21:05.41,Default,Fuu,0,0,0,,I ended up putting off school {\i1}and{\i0} idol work today!
+Dialogue: 50,0:21:05.41,0:21:07.66,Default,Fuu,0,0,0,,Wonder what I'll end up doing tomorrow.
+Dialogue: 50,0:21:09.75,0:21:10.75,Default,Fuu,0,0,0,,Ow!
+Dialogue: 50,0:21:11.92,0:21:13.34,Default,Fuu,0,0,0,,It's ice cream.
+Dialogue: 50,0:21:15.13,0:21:18.76,Default,Fuu,0,0,0,,Oh right! I wanted to eat this!
+Dialogue: 50,0:21:24.39,0:21:27.14,Default,Rui,0,0,0,,Everyone ended up going home.
+Dialogue: 50,0:21:27.14,0:21:28.60,Default,Azuki,0,0,0,,Let's go home too.
+Dialogue: 50,0:21:28.60,0:21:29.60,Default,Rui,0,0,0,,Yeah.
+Dialogue: 50,0:21:30.10,0:21:32.60,Default,Rui,0,0,0,,But let me try one more time.
+Dialogue: 50,0:21:33.27,0:21:35.32,Default,Rui,0,0,0,,Lululila, pululila.
+Dialogue: 50,0:21:35.32,0:21:38.99,Default,Rui,0,0,0,,Turn the world back to how it should be,\Nfor real this time!
+Dialogue: 50,0:21:46.91,0:21:48.87,Default,Uguisu,0,0,0,,The spell ended.
+Dialogue: 50,0:21:50.62,0:21:51.37,Default,Fuu,0,0,0,,Yeah.
+Dialogue: 50,0:21:52.42,0:21:53.88,Default,Fuu,0,0,0,,Let's go home.
+Dialogue: 50,0:21:55.71,0:21:59.55,Default,Mom,0,0,0,,Fuu, Rui, the school called.
+Dialogue: 50,0:21:59.97,0:22:04.01,Default,Mom,0,0,0,,They said your tests will be redone tomorrow.
+Dialogue: 50,0:22:04.01,0:22:06.85,Default,Fuu,0,0,0,,Aww, I knew it...
+Dialogue: 50,0:22:06.85,0:22:07.81,Default,Rui,0,0,0,,I win!
+Dialogue: 50,0:22:08.52,0:22:10.31,Default,Fuu,0,0,0,,I can't let it end like this!
+Dialogue: 50,0:22:13.10,0:22:14.31,Default,Ugusiu,0,0,0,,What are you planning?
+Dialogue: 50,0:22:14.98,0:22:16.98,Default,Azuki,0,0,0,,Don't tell me...
+Dialogue: 50,0:22:16.98,0:22:19.48,Default,Fuu,0,0,0,,I'll get rid of tests tomorrow!
+Dialogue: 50,0:22:19.48,0:22:22.99,Default,Uguisu/Azuki,0,0,0,,Please stop!
+Comment: 0,0:00:25.67,0:00:27.42,Signs,,0,0,0,,August 31
+Dialogue: 1,0:00:25.67,0:00:27.42,Signs,,0,0,0,,{\fnArial\b1\pos(965.33,1004)\blur0.8\c&HD4DBE1&}August 31
+Dialogue: 0,0:00:25.67,0:00:27.42,Signs,,0,0,0,,{\fnArial\b1\pos(965.33,1004)\blur0.8\c&HAEA052&\3c&HAEA052&\bord15}August 31
+Comment: 0,0:00:45.11,0:00:46.86,Signs,,0,0,0,,Fuu
+Dialogue: 2,0:00:45.11,0:00:46.86,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\fs100\c&HAA88F2&\blur0.7\pos(997.33,782.8)}Fuu
+Dialogue: 1,0:00:45.11,0:00:46.86,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\fs100\c&HE4EBF3&\3c&HE4EBF3&\bord10\blur0.7\pos(997.33,782.8)}Fuu
+Dialogue: 0,0:00:45.11,0:00:46.86,Signs,,0,0,0,,{\fnCCHeroSandwichMeat\fs100\c&H95D4F0&\3c&H95D4F0&\bord17\blur0.7\pos(997.33,782.8)}Fuu
+Comment: 0,0:03:19.97,0:03:24.98,Signs,,0,0,0,,Title Card
+Dialogue: 0,0:03:19.97,0:03:24.98,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.7}The Fall Breeze and the Straw Hat
+Comment: 0,0:04:18.70,0:04:26.20,Signs,,0,0,0,,New Semester
+Dialogue: 0,0:04:18.70,0:04:23.24,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1341.37,567.63)}New Semester
+Dialogue: 0,0:04:23.24,0:04:23.28,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1337.32,567.63)}New Semester
+Dialogue: 0,0:04:23.28,0:04:23.32,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1333.31,567.63)}New Semester
+Dialogue: 0,0:04:23.32,0:04:23.36,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1329.17,567.63)}New Semester
+Dialogue: 0,0:04:23.36,0:04:23.40,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1325.11,567.63)}New Semester
+Dialogue: 0,0:04:23.40,0:04:23.45,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1320.99,567.63)}New Semester
+Dialogue: 0,0:04:23.45,0:04:23.49,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1316.87,567.63)}New Semester
+Dialogue: 0,0:04:23.49,0:04:23.53,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1312.78,567.63)}New Semester
+Dialogue: 0,0:04:23.53,0:04:23.57,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1308.62,567.63)}New Semester
+Dialogue: 0,0:04:23.57,0:04:23.61,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1304.48,567.63)}New Semester
+Dialogue: 0,0:04:23.61,0:04:23.65,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1300.37,567.62)}New Semester
+Dialogue: 0,0:04:23.65,0:04:23.70,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1296.19,567.62)}New Semester
+Dialogue: 0,0:04:23.70,0:04:23.74,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1292.12,567.62)}New Semester
+Dialogue: 0,0:04:23.74,0:04:23.78,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1287.96,567.63)}New Semester
+Dialogue: 0,0:04:23.78,0:04:23.82,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1283.79,567.62)}New Semester
+Dialogue: 0,0:04:23.82,0:04:23.86,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1279.64,567.62)}New Semester
+Dialogue: 0,0:04:23.86,0:04:23.91,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1275.44,567.62)}New Semester
+Dialogue: 0,0:04:23.91,0:04:23.95,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1271.29,567.62)}New Semester
+Dialogue: 0,0:04:23.95,0:04:23.99,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1267.17,567.62)}New Semester
+Dialogue: 0,0:04:23.99,0:04:24.03,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1263,567.62)}New Semester
+Dialogue: 0,0:04:24.03,0:04:24.07,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1258.86,567.62)}New Semester
+Dialogue: 0,0:04:24.07,0:04:24.11,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1254.72,567.63)}New Semester
+Dialogue: 0,0:04:24.11,0:04:24.16,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1250.51,567.62)}New Semester
+Dialogue: 0,0:04:24.16,0:04:24.20,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1246.34,567.62)}New Semester
+Dialogue: 0,0:04:24.20,0:04:24.24,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1242.22,567.62)}New Semester
+Dialogue: 0,0:04:24.24,0:04:24.28,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1238.04,567.63)}New Semester
+Dialogue: 0,0:04:24.28,0:04:24.32,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1233.88,567.63)}New Semester
+Dialogue: 0,0:04:24.32,0:04:24.36,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1229.74,567.63)}New Semester
+Dialogue: 0,0:04:24.36,0:04:24.41,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1225.54,567.63)}New Semester
+Dialogue: 0,0:04:24.41,0:04:24.45,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1221.35,567.62)}New Semester
+Dialogue: 0,0:04:24.45,0:04:24.49,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1217.22,567.63)}New Semester
+Dialogue: 0,0:04:24.49,0:04:24.53,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1213.06,567.63)}New Semester
+Dialogue: 0,0:04:24.53,0:04:24.57,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1208.88,567.62)}New Semester
+Dialogue: 0,0:04:24.57,0:04:24.61,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1204.71,567.63)}New Semester
+Dialogue: 0,0:04:24.61,0:04:24.66,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1200.52,567.63)}New Semester
+Dialogue: 0,0:04:24.66,0:04:24.70,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1196.38,567.63)}New Semester
+Dialogue: 0,0:04:24.70,0:04:24.74,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1192.19,567.62)}New Semester
+Dialogue: 0,0:04:24.74,0:04:24.78,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1187.99,567.62)}New Semester
+Dialogue: 0,0:04:24.78,0:04:24.82,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1183.87,567.63)}New Semester
+Dialogue: 0,0:04:24.82,0:04:24.86,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1179.69,567.63)}New Semester
+Dialogue: 0,0:04:24.86,0:04:24.91,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1175.47,567.62)}New Semester
+Dialogue: 0,0:04:24.91,0:04:24.95,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1171.31,567.63)}New Semester
+Dialogue: 0,0:04:24.95,0:04:24.99,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1167.15,567.63)}New Semester
+Dialogue: 0,0:04:24.99,0:04:25.03,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1162.94,567.63)}New Semester
+Dialogue: 0,0:04:25.03,0:04:25.07,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1158.78,567.62)}New Semester
+Dialogue: 0,0:04:25.07,0:04:25.11,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1154.58,567.63)}New Semester
+Dialogue: 0,0:04:25.11,0:04:25.16,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1150.4,567.63)}New Semester
+Dialogue: 0,0:04:25.16,0:04:25.20,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1146.23,567.63)}New Semester
+Dialogue: 0,0:04:25.20,0:04:25.24,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1142.04,567.62)}New Semester
+Dialogue: 0,0:04:25.24,0:04:25.28,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1137.84,567.63)}New Semester
+Dialogue: 0,0:04:25.28,0:04:25.32,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1133.68,567.63)}New Semester
+Dialogue: 0,0:04:25.32,0:04:25.36,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1129.48,567.61)}New Semester
+Dialogue: 0,0:04:25.36,0:04:25.41,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1125.29,567.61)}New Semester
+Dialogue: 0,0:04:25.41,0:04:25.45,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1121.13,567.62)}New Semester
+Dialogue: 0,0:04:25.45,0:04:25.49,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1116.96,567.63)}New Semester
+Dialogue: 0,0:04:25.49,0:04:25.53,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1112.78,567.63)}New Semester
+Dialogue: 0,0:04:25.53,0:04:25.57,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1108.58,567.63)}New Semester
+Dialogue: 0,0:04:25.57,0:04:25.62,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1104.39,567.63)}New Semester
+Dialogue: 0,0:04:25.62,0:04:25.66,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1100.21,567.62)}New Semester
+Dialogue: 0,0:04:25.66,0:04:25.70,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1096.08,567.63)}New Semester
+Dialogue: 0,0:04:25.70,0:04:25.74,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1091.86,567.63)}New Semester
+Dialogue: 0,0:04:25.74,0:04:25.78,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1087.66,567.62)}New Semester
+Dialogue: 0,0:04:25.78,0:04:25.82,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1083.51,567.63)}New Semester
+Dialogue: 0,0:04:25.82,0:04:25.87,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1079.31,567.63)}New Semester
+Dialogue: 0,0:04:25.87,0:04:25.91,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1075.14,567.63)}New Semester
+Dialogue: 0,0:04:25.91,0:04:25.95,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1070.98,567.63)}New Semester
+Dialogue: 0,0:04:25.95,0:04:25.99,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1066.81,567.63)}New Semester
+Dialogue: 0,0:04:25.99,0:04:26.03,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1062.59,567.63)}New Semester
+Dialogue: 0,0:04:26.03,0:04:26.07,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1058.42,567.62)}New Semester
+Dialogue: 0,0:04:26.07,0:04:26.12,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1054.26,567.63)}New Semester
+Dialogue: 0,0:04:26.12,0:04:26.16,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1050.11,567.63)}New Semester
+Dialogue: 0,0:04:26.16,0:04:26.20,Signs,,0,0,0,,{=0}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\pos(1045.95,567.63)}New Semester
+Dialogue: 0,0:04:18.70,0:04:23.24,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1572.84,537.68)}Tuesday,
+Dialogue: 0,0:04:23.24,0:04:23.28,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1568.79,537.68)}Tuesday,
+Dialogue: 0,0:04:23.28,0:04:23.32,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1564.78,537.68)}Tuesday,
+Dialogue: 0,0:04:23.32,0:04:23.36,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1560.64,537.67)}Tuesday,
+Dialogue: 0,0:04:23.36,0:04:23.40,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1556.58,537.68)}Tuesday,
+Dialogue: 0,0:04:23.40,0:04:23.45,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1552.46,537.68)}Tuesday,
+Dialogue: 0,0:04:23.45,0:04:23.49,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1548.34,537.68)}Tuesday,
+Dialogue: 0,0:04:23.49,0:04:23.53,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1544.25,537.68)}Tuesday,
+Dialogue: 0,0:04:23.53,0:04:23.57,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1540.09,537.68)}Tuesday,
+Dialogue: 0,0:04:23.57,0:04:23.61,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1535.95,537.68)}Tuesday,
+Dialogue: 0,0:04:23.61,0:04:23.65,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1531.84,537.67)}Tuesday,
+Dialogue: 0,0:04:23.65,0:04:23.70,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1527.66,537.67)}Tuesday,
+Dialogue: 0,0:04:23.70,0:04:23.74,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1523.59,537.67)}Tuesday,
+Dialogue: 0,0:04:23.74,0:04:23.78,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1519.43,537.67)}Tuesday,
+Dialogue: 0,0:04:23.78,0:04:23.82,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1515.27,537.67)}Tuesday,
+Dialogue: 0,0:04:23.82,0:04:23.86,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1511.11,537.67)}Tuesday,
+Dialogue: 0,0:04:23.86,0:04:23.91,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1506.91,537.67)}Tuesday,
+Dialogue: 0,0:04:23.91,0:04:23.95,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1502.77,537.67)}Tuesday,
+Dialogue: 0,0:04:23.95,0:04:23.99,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1498.64,537.67)}Tuesday,
+Dialogue: 0,0:04:23.99,0:04:24.03,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1494.48,537.67)}Tuesday,
+Dialogue: 0,0:04:24.03,0:04:24.07,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1490.33,537.67)}Tuesday,
+Dialogue: 0,0:04:24.07,0:04:24.11,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1486.19,537.67)}Tuesday,
+Dialogue: 0,0:04:24.11,0:04:24.16,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1481.98,537.67)}Tuesday,
+Dialogue: 0,0:04:24.16,0:04:24.20,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1477.81,537.67)}Tuesday,
+Dialogue: 0,0:04:24.20,0:04:24.24,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1473.69,537.67)}Tuesday,
+Dialogue: 0,0:04:24.24,0:04:24.28,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1469.51,537.67)}Tuesday,
+Dialogue: 0,0:04:24.28,0:04:24.32,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1465.35,537.68)}Tuesday,
+Dialogue: 0,0:04:24.32,0:04:24.36,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1461.21,537.68)}Tuesday,
+Dialogue: 0,0:04:24.36,0:04:24.41,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1457.01,537.67)}Tuesday,
+Dialogue: 0,0:04:24.41,0:04:24.45,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1452.82,537.67)}Tuesday,
+Dialogue: 0,0:04:24.45,0:04:24.49,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1448.7,537.68)}Tuesday,
+Dialogue: 0,0:04:24.49,0:04:24.53,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1444.53,537.68)}Tuesday,
+Dialogue: 0,0:04:24.53,0:04:24.57,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1440.35,537.67)}Tuesday,
+Dialogue: 0,0:04:24.57,0:04:24.61,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1436.18,537.67)}Tuesday,
+Dialogue: 0,0:04:24.61,0:04:24.66,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1431.99,537.68)}Tuesday,
+Dialogue: 0,0:04:24.66,0:04:24.70,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1427.85,537.68)}Tuesday,
+Dialogue: 0,0:04:24.70,0:04:24.74,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1423.66,537.67)}Tuesday,
+Dialogue: 0,0:04:24.74,0:04:24.78,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1419.46,537.67)}Tuesday,
+Dialogue: 0,0:04:24.78,0:04:24.82,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1415.34,537.67)}Tuesday,
+Dialogue: 0,0:04:24.82,0:04:24.86,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1411.16,537.68)}Tuesday,
+Dialogue: 0,0:04:24.86,0:04:24.91,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1406.94,537.67)}Tuesday,
+Dialogue: 0,0:04:24.91,0:04:24.95,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1402.78,537.68)}Tuesday,
+Dialogue: 0,0:04:24.95,0:04:24.99,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1398.62,537.67)}Tuesday,
+Dialogue: 0,0:04:24.99,0:04:25.03,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1394.41,537.68)}Tuesday,
+Dialogue: 0,0:04:25.03,0:04:25.07,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1390.25,537.67)}Tuesday,
+Dialogue: 0,0:04:25.07,0:04:25.11,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1386.05,537.67)}Tuesday,
+Dialogue: 0,0:04:25.11,0:04:25.16,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1381.87,537.68)}Tuesday,
+Dialogue: 0,0:04:25.16,0:04:25.20,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1377.7,537.68)}Tuesday,
+Dialogue: 0,0:04:25.20,0:04:25.24,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1373.51,537.67)}Tuesday,
+Dialogue: 0,0:04:25.24,0:04:25.28,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1369.31,537.68)}Tuesday,
+Dialogue: 0,0:04:25.28,0:04:25.32,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1365.15,537.68)}Tuesday,
+Dialogue: 0,0:04:25.32,0:04:25.36,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1360.95,537.66)}Tuesday,
+Dialogue: 0,0:04:25.36,0:04:25.41,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1356.77,537.66)}Tuesday,
+Dialogue: 0,0:04:25.41,0:04:25.45,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1352.6,537.67)}Tuesday,
+Dialogue: 0,0:04:25.45,0:04:25.49,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1348.43,537.67)}Tuesday,
+Dialogue: 0,0:04:25.49,0:04:25.53,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1344.25,537.68)}Tuesday,
+Dialogue: 0,0:04:25.53,0:04:25.57,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1340.05,537.67)}Tuesday,
+Dialogue: 0,0:04:25.57,0:04:25.62,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1335.86,537.67)}Tuesday,
+Dialogue: 0,0:04:25.62,0:04:25.66,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1331.68,537.67)}Tuesday,
+Dialogue: 0,0:04:25.66,0:04:25.70,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1327.55,537.68)}Tuesday,
+Dialogue: 0,0:04:25.70,0:04:25.74,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1323.33,537.68)}Tuesday,
+Dialogue: 0,0:04:25.74,0:04:25.78,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1319.13,537.67)}Tuesday,
+Dialogue: 0,0:04:25.78,0:04:25.82,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1314.98,537.68)}Tuesday,
+Dialogue: 0,0:04:25.82,0:04:25.87,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1310.78,537.68)}Tuesday,
+Dialogue: 0,0:04:25.87,0:04:25.91,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1306.61,537.68)}Tuesday,
+Dialogue: 0,0:04:25.91,0:04:25.95,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1302.45,537.68)}Tuesday,
+Dialogue: 0,0:04:25.95,0:04:25.99,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1298.28,537.68)}Tuesday,
+Dialogue: 0,0:04:25.99,0:04:26.03,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1294.06,537.68)}Tuesday,
+Dialogue: 0,0:04:26.03,0:04:26.07,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1289.89,537.67)}Tuesday,
+Dialogue: 0,0:04:26.07,0:04:26.12,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1285.73,537.67)}Tuesday,
+Dialogue: 0,0:04:26.12,0:04:26.16,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1281.58,537.68)}Tuesday,
+Dialogue: 0,0:04:26.16,0:04:26.20,Signs,,0,0,0,,{=1}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1277.42,537.67)}Tuesday,
+Dialogue: 0,0:04:18.70,0:04:23.24,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1572.84,560.98)}September 1st
+Dialogue: 0,0:04:23.24,0:04:23.28,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1568.79,560.98)}September 1st
+Dialogue: 0,0:04:23.28,0:04:23.32,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1564.78,560.98)}September 1st
+Dialogue: 0,0:04:23.32,0:04:23.36,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1560.64,560.98)}September 1st
+Dialogue: 0,0:04:23.36,0:04:23.40,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1556.58,560.98)}September 1st
+Dialogue: 0,0:04:23.40,0:04:23.45,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1552.46,560.98)}September 1st
+Dialogue: 0,0:04:23.45,0:04:23.49,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1548.34,560.98)}September 1st
+Dialogue: 0,0:04:23.49,0:04:23.53,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1544.25,560.98)}September 1st
+Dialogue: 0,0:04:23.53,0:04:23.57,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1540.09,560.98)}September 1st
+Dialogue: 0,0:04:23.57,0:04:23.61,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1535.95,560.98)}September 1st
+Dialogue: 0,0:04:23.61,0:04:23.65,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1531.84,560.97)}September 1st
+Dialogue: 0,0:04:23.65,0:04:23.70,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1527.66,560.97)}September 1st
+Dialogue: 0,0:04:23.70,0:04:23.74,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1523.59,560.97)}September 1st
+Dialogue: 0,0:04:23.74,0:04:23.78,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1519.43,560.98)}September 1st
+Dialogue: 0,0:04:23.78,0:04:23.82,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1515.27,560.97)}September 1st
+Dialogue: 0,0:04:23.82,0:04:23.86,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1511.11,560.97)}September 1st
+Dialogue: 0,0:04:23.86,0:04:23.91,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1506.91,560.97)}September 1st
+Dialogue: 0,0:04:23.91,0:04:23.95,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1502.77,560.97)}September 1st
+Dialogue: 0,0:04:23.95,0:04:23.99,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1498.64,560.97)}September 1st
+Dialogue: 0,0:04:23.99,0:04:24.03,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1494.48,560.97)}September 1st
+Dialogue: 0,0:04:24.03,0:04:24.07,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1490.33,560.97)}September 1st
+Dialogue: 0,0:04:24.07,0:04:24.11,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1486.19,560.98)}September 1st
+Dialogue: 0,0:04:24.11,0:04:24.16,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1481.98,560.97)}September 1st
+Dialogue: 0,0:04:24.16,0:04:24.20,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1477.81,560.97)}September 1st
+Dialogue: 0,0:04:24.20,0:04:24.24,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1473.69,560.97)}September 1st
+Dialogue: 0,0:04:24.24,0:04:24.28,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1469.51,560.98)}September 1st
+Dialogue: 0,0:04:24.28,0:04:24.32,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1465.35,560.98)}September 1st
+Dialogue: 0,0:04:24.32,0:04:24.36,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1461.21,560.98)}September 1st
+Dialogue: 0,0:04:24.36,0:04:24.41,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1457.01,560.98)}September 1st
+Dialogue: 0,0:04:24.41,0:04:24.45,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1452.82,560.97)}September 1st
+Dialogue: 0,0:04:24.45,0:04:24.49,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1448.7,560.98)}September 1st
+Dialogue: 0,0:04:24.49,0:04:24.53,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1444.53,560.98)}September 1st
+Dialogue: 0,0:04:24.53,0:04:24.57,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1440.35,560.97)}September 1st
+Dialogue: 0,0:04:24.57,0:04:24.61,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1436.18,560.98)}September 1st
+Dialogue: 0,0:04:24.61,0:04:24.66,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1431.99,560.98)}September 1st
+Dialogue: 0,0:04:24.66,0:04:24.70,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1427.85,560.98)}September 1st
+Dialogue: 0,0:04:24.70,0:04:24.74,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1423.66,560.97)}September 1st
+Dialogue: 0,0:04:24.74,0:04:24.78,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1419.46,560.97)}September 1st
+Dialogue: 0,0:04:24.78,0:04:24.82,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1415.34,560.98)}September 1st
+Dialogue: 0,0:04:24.82,0:04:24.86,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1411.16,560.98)}September 1st
+Dialogue: 0,0:04:24.86,0:04:24.91,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1406.94,560.97)}September 1st
+Dialogue: 0,0:04:24.91,0:04:24.95,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1402.78,560.98)}September 1st
+Dialogue: 0,0:04:24.95,0:04:24.99,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1398.62,560.98)}September 1st
+Dialogue: 0,0:04:24.99,0:04:25.03,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1394.41,560.98)}September 1st
+Dialogue: 0,0:04:25.03,0:04:25.07,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1390.25,560.97)}September 1st
+Dialogue: 0,0:04:25.07,0:04:25.11,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1386.05,560.98)}September 1st
+Dialogue: 0,0:04:25.11,0:04:25.16,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1381.87,560.98)}September 1st
+Dialogue: 0,0:04:25.16,0:04:25.20,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1377.7,560.98)}September 1st
+Dialogue: 0,0:04:25.20,0:04:25.24,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1373.51,560.97)}September 1st
+Dialogue: 0,0:04:25.24,0:04:25.28,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1369.31,560.98)}September 1st
+Dialogue: 0,0:04:25.28,0:04:25.32,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1365.15,560.98)}September 1st
+Dialogue: 0,0:04:25.32,0:04:25.36,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1360.95,560.96)}September 1st
+Dialogue: 0,0:04:25.36,0:04:25.41,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1356.77,560.96)}September 1st
+Dialogue: 0,0:04:25.41,0:04:25.45,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1352.6,560.97)}September 1st
+Dialogue: 0,0:04:25.45,0:04:25.49,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1348.43,560.98)}September 1st
+Dialogue: 0,0:04:25.49,0:04:25.53,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1344.25,560.98)}September 1st
+Dialogue: 0,0:04:25.53,0:04:25.57,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1340.05,560.98)}September 1st
+Dialogue: 0,0:04:25.57,0:04:25.62,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1335.86,560.98)}September 1st
+Dialogue: 0,0:04:25.62,0:04:25.66,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1331.68,560.97)}September 1st
+Dialogue: 0,0:04:25.66,0:04:25.70,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1327.55,560.98)}September 1st
+Dialogue: 0,0:04:25.70,0:04:25.74,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1323.33,560.98)}September 1st
+Dialogue: 0,0:04:25.74,0:04:25.78,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1319.13,560.97)}September 1st
+Dialogue: 0,0:04:25.78,0:04:25.82,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1314.98,560.98)}September 1st
+Dialogue: 0,0:04:25.82,0:04:25.87,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1310.78,560.98)}September 1st
+Dialogue: 0,0:04:25.87,0:04:25.91,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1306.61,560.98)}September 1st
+Dialogue: 0,0:04:25.91,0:04:25.95,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1302.45,560.98)}September 1st
+Dialogue: 0,0:04:25.95,0:04:25.99,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1298.28,560.98)}September 1st
+Dialogue: 0,0:04:25.99,0:04:26.03,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1294.06,560.98)}September 1st
+Dialogue: 0,0:04:26.03,0:04:26.07,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1289.89,560.97)}September 1st
+Dialogue: 0,0:04:26.07,0:04:26.12,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1285.73,560.98)}September 1st
+Dialogue: 0,0:04:26.12,0:04:26.16,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1281.58,560.98)}September 1st
+Dialogue: 0,0:04:26.16,0:04:26.20,Signs,,0,0,0,,{=2}{\fnDK Cool Crayon\fs25\c&HB6CAB5&\blur0.7\an6\pos(1277.42,560.98)}September 1st
+Comment: 0,0:04:34.05,0:04:39.68,Signs,,0,0,0,,New Semester
+Dialogue: 0,0:04:34.04,0:04:34.08,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1080.74,213.75)\pos(1153.59,213.75)}New Semester
+Dialogue: 0,0:04:34.08,0:04:34.12,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1074.69,213.76)\pos(1147.54,213.76)}New Semester
+Dialogue: 0,0:04:34.12,0:04:34.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1068.53,213.75)\pos(1141.38,213.75)}New Semester
+Dialogue: 0,0:04:34.17,0:04:34.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1062.48,213.75)\pos(1135.33,213.75)}New Semester
+Dialogue: 0,0:04:34.21,0:04:34.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1056.43,213.76)\pos(1129.28,213.76)}New Semester
+Dialogue: 0,0:04:34.25,0:04:34.29,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1050.32,213.75)\pos(1123.17,213.75)}New Semester
+Dialogue: 0,0:04:34.29,0:04:34.33,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1044.27,213.75)\pos(1117.12,213.75)}New Semester
+Dialogue: 0,0:04:34.33,0:04:34.37,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1038.19,213.75)\pos(1111.04,213.75)}New Semester
+Dialogue: 0,0:04:34.37,0:04:34.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1032.1,213.75)\pos(1104.95,213.75)}New Semester
+Dialogue: 0,0:04:34.42,0:04:34.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1026.05,213.76)\pos(1098.9,213.76)}New Semester
+Dialogue: 0,0:04:34.46,0:04:34.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1019.98,213.76)\pos(1092.83,213.76)}New Semester
+Dialogue: 0,0:04:34.50,0:04:34.54,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1013.88,213.76)\pos(1086.73,213.76)}New Semester
+Dialogue: 0,0:04:34.54,0:04:34.58,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1007.81,213.75)\pos(1080.66,213.75)}New Semester
+Dialogue: 0,0:04:34.58,0:04:34.62,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(1001.77,213.76)\pos(1074.62,213.76)}New Semester
+Dialogue: 0,0:04:34.62,0:04:34.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(995.65,213.76)\pos(1068.5,213.76)}New Semester
+Dialogue: 0,0:04:34.67,0:04:34.71,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(989.56,213.75)\pos(1062.41,213.75)}New Semester
+Dialogue: 0,0:04:34.71,0:04:34.75,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(983.5,213.75)\pos(1056.35,213.75)}New Semester
+Dialogue: 0,0:04:34.75,0:04:34.79,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(977.38,213.76)\pos(1050.23,213.76)}New Semester
+Dialogue: 0,0:04:34.79,0:04:34.83,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(971.32,213.76)\pos(1044.17,213.76)}New Semester
+Dialogue: 0,0:04:34.83,0:04:34.87,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(965.25,213.76)\pos(1038.1,213.76)}New Semester
+Dialogue: 0,0:04:34.87,0:04:34.92,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(959.19,213.76)\pos(1032.04,213.76)}New Semester
+Dialogue: 0,0:04:34.92,0:04:34.96,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(953.08,213.76)\pos(1025.93,213.76)}New Semester
+Dialogue: 0,0:04:34.96,0:04:35.00,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(947.06,213.77)\pos(1019.91,213.77)}New Semester
+Dialogue: 0,0:04:35.00,0:04:35.04,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(940.96,213.76)\pos(1013.81,213.76)}New Semester
+Dialogue: 0,0:04:35.04,0:04:35.08,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(934.86,213.76)\pos(1007.71,213.76)}New Semester
+Dialogue: 0,0:04:35.08,0:04:35.12,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(928.84,213.77)\pos(1001.69,213.77)}New Semester
+Dialogue: 0,0:04:35.12,0:04:35.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(922.73,213.76)\pos(995.58,213.76)}New Semester
+Dialogue: 0,0:04:35.17,0:04:35.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(916.64,213.76)\pos(989.49,213.76)}New Semester
+Dialogue: 0,0:04:35.21,0:04:35.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(910.58,213.75)\pos(983.43,213.75)}New Semester
+Dialogue: 0,0:04:35.25,0:04:35.29,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(904.45,213.77)\pos(977.3,213.77)}New Semester
+Dialogue: 0,0:04:35.29,0:04:35.33,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(898.4,213.76)\pos(971.25,213.76)}New Semester
+Dialogue: 0,0:04:35.33,0:04:35.37,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(892.33,213.76)\pos(965.18,213.76)}New Semester
+Dialogue: 0,0:04:35.37,0:04:35.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(886.24,213.76)\pos(959.09,213.76)}New Semester
+Dialogue: 0,0:04:35.42,0:04:35.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(880.16,213.76)\pos(953.01,213.76)}New Semester
+Dialogue: 0,0:04:35.46,0:04:35.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(874.11,213.76)\pos(946.96,213.76)}New Semester
+Dialogue: 0,0:04:35.50,0:04:35.54,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(868.04,213.76)\pos(940.89,213.76)}New Semester
+Dialogue: 0,0:04:35.54,0:04:35.58,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(861.93,213.75)\pos(934.78,213.75)}New Semester
+Dialogue: 0,0:04:35.58,0:04:35.63,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(855.89,213.76)\pos(928.74,213.76)}New Semester
+Dialogue: 0,0:04:35.63,0:04:35.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(849.79,213.76)\pos(922.63,213.76)}New Semester
+Dialogue: 0,0:04:35.67,0:04:35.71,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(843.71,213.75)\pos(916.56,213.75)}New Semester
+Dialogue: 0,0:04:35.71,0:04:35.75,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(837.67,213.75)\pos(910.52,213.75)}New Semester
+Dialogue: 0,0:04:35.75,0:04:35.79,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(831.54,213.76)\pos(904.39,213.76)}New Semester
+Dialogue: 0,0:04:35.79,0:04:35.83,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(825.47,213.76)\pos(898.32,213.76)}New Semester
+Dialogue: 0,0:04:35.83,0:04:35.88,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(819.4,213.76)\pos(892.25,213.76)}New Semester
+Dialogue: 0,0:04:35.88,0:04:35.92,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(813.34,213.75)\pos(886.19,213.75)}New Semester
+Dialogue: 0,0:04:35.92,0:04:35.96,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(807.23,213.75)\pos(880.08,213.75)}New Semester
+Dialogue: 0,0:04:35.96,0:04:36.00,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(801.18,213.74)\pos(874.03,213.74)}New Semester
+Dialogue: 0,0:04:36.00,0:04:36.04,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(795.11,213.75)\pos(867.96,213.75)}New Semester
+Dialogue: 0,0:04:36.04,0:04:36.08,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(789.01,213.75)\pos(861.86,213.75)}New Semester
+Dialogue: 0,0:04:36.08,0:04:36.13,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(782.93,213.75)\pos(855.77,213.75)}New Semester
+Dialogue: 0,0:04:36.13,0:04:36.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(776.85,213.75)\pos(849.7,213.75)}New Semester
+Dialogue: 0,0:04:36.17,0:04:36.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(770.79,213.75)\pos(843.64,213.75)}New Semester
+Dialogue: 0,0:04:36.21,0:04:36.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(764.72,213.74)\pos(837.57,213.74)}New Semester
+Dialogue: 0,0:04:36.25,0:04:36.29,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(758.63,213.76)\pos(831.48,213.76)}New Semester
+Dialogue: 0,0:04:36.29,0:04:36.33,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(752.57,213.76)\pos(825.42,213.76)}New Semester
+Dialogue: 0,0:04:36.33,0:04:36.38,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(746.47,213.76)\pos(819.32,213.76)}New Semester
+Dialogue: 0,0:04:36.38,0:04:36.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(740.38,213.76)\pos(813.23,213.76)}New Semester
+Dialogue: 0,0:04:36.42,0:04:36.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(734.32,213.76)\pos(807.16,213.76)}New Semester
+Dialogue: 0,0:04:36.46,0:04:36.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(728.2,213.76)\pos(801.04,213.76)}New Semester
+Dialogue: 0,0:04:36.50,0:04:36.54,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(722.14,213.76)\pos(794.99,213.76)}New Semester
+Dialogue: 0,0:04:36.54,0:04:36.58,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(716.08,213.76)\pos(788.92,213.76)}New Semester
+Dialogue: 0,0:04:36.58,0:04:36.63,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(710,213.76)\pos(782.85,213.76)}New Semester
+Dialogue: 0,0:04:36.63,0:04:36.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(703.91,213.76)\pos(776.76,213.76)}New Semester
+Dialogue: 0,0:04:36.67,0:04:36.71,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(697.85,213.76)\pos(770.7,213.76)}New Semester
+Dialogue: 0,0:04:36.71,0:04:36.75,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(691.78,213.76)\pos(764.63,213.76)}New Semester
+Dialogue: 0,0:04:36.75,0:04:36.79,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(685.69,213.77)\pos(758.54,213.77)}New Semester
+Dialogue: 0,0:04:36.79,0:04:36.83,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(679.64,213.77)\pos(752.49,213.77)}New Semester
+Dialogue: 0,0:04:36.83,0:04:36.88,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(673.54,213.77)\pos(746.39,213.77)}New Semester
+Dialogue: 0,0:04:36.88,0:04:36.92,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(667.45,213.76)\pos(740.3,213.76)}New Semester
+Dialogue: 0,0:04:36.92,0:04:36.96,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(661.4,213.77)\pos(734.25,213.77)}New Semester
+Dialogue: 0,0:04:36.96,0:04:37.00,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(655.34,213.77)\pos(728.19,213.77)}New Semester
+Dialogue: 0,0:04:37.00,0:04:37.04,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(649.26,213.77)\pos(722.11,213.77)}New Semester
+Dialogue: 0,0:04:37.04,0:04:37.08,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(643.18,213.76)\pos(716.03,213.76)}New Semester
+Dialogue: 0,0:04:37.08,0:04:37.13,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(637.1,213.77)\pos(709.95,213.77)}New Semester
+Dialogue: 0,0:04:37.13,0:04:37.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(631.01,213.77)\pos(703.85,213.77)}New Semester
+Dialogue: 0,0:04:37.17,0:04:37.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(624.94,213.77)\pos(697.79,213.77)}New Semester
+Dialogue: 0,0:04:37.21,0:04:37.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(618.87,213.77)\pos(691.72,213.77)}New Semester
+Dialogue: 0,0:04:37.25,0:04:37.29,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(612.79,213.77)\pos(685.64,213.77)}New Semester
+Dialogue: 0,0:04:37.29,0:04:37.34,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(606.74,213.77)\pos(679.59,213.77)}New Semester
+Dialogue: 0,0:04:37.34,0:04:37.38,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(600.64,213.76)\pos(673.49,213.76)}New Semester
+Dialogue: 0,0:04:37.38,0:04:37.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(594.56,213.76)\pos(667.41,213.76)}New Semester
+Dialogue: 0,0:04:37.42,0:04:37.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(588.51,213.77)\pos(661.36,213.77)}New Semester
+Dialogue: 0,0:04:37.46,0:04:37.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(582.39,213.77)\pos(655.24,213.77)}New Semester
+Dialogue: 0,0:04:37.50,0:04:37.54,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(576.33,213.77)\pos(649.18,213.77)}New Semester
+Dialogue: 0,0:04:37.54,0:04:37.59,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(570.27,213.77)\pos(643.12,213.77)}New Semester
+Dialogue: 0,0:04:37.59,0:04:37.63,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(564.17,213.77)\pos(637.01,213.77)}New Semester
+Dialogue: 0,0:04:37.63,0:04:37.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(558.06,213.77)\pos(630.91,213.77)}New Semester
+Dialogue: 0,0:04:37.67,0:04:37.71,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(552,213.78)\pos(624.85,213.78)}New Semester
+Dialogue: 0,0:04:37.71,0:04:37.75,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(545.93,213.78)\pos(618.78,213.78)}New Semester
+Dialogue: 0,0:04:37.75,0:04:37.79,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(539.84,213.77)\pos(612.69,213.77)}New Semester
+Dialogue: 0,0:04:37.79,0:04:37.84,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(533.8,213.76)\pos(606.65,213.76)}New Semester
+Dialogue: 0,0:04:37.84,0:04:37.88,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(527.68,213.77)\pos(600.53,213.77)}New Semester
+Dialogue: 0,0:04:37.88,0:04:37.92,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(521.6,213.77)\pos(594.45,213.77)}New Semester
+Dialogue: 0,0:04:37.92,0:04:37.96,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(515.57,213.77)\pos(588.42,213.77)}New Semester
+Dialogue: 0,0:04:37.96,0:04:38.00,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(509.47,213.77)\pos(582.32,213.77)}New Semester
+Dialogue: 0,0:04:38.00,0:04:38.04,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(503.4,213.77)\pos(576.25,213.77)}New Semester
+Dialogue: 0,0:04:38.04,0:04:38.09,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(497.3,213.76)\pos(570.15,213.76)}New Semester
+Dialogue: 0,0:04:38.09,0:04:38.13,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(491.23,213.76)\pos(564.08,213.76)}New Semester
+Dialogue: 0,0:04:38.13,0:04:38.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(485.17,213.77)\pos(558.02,213.77)}New Semester
+Dialogue: 0,0:04:38.17,0:04:38.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(479.05,213.76)\pos(551.9,213.76)}New Semester
+Dialogue: 0,0:04:38.21,0:04:38.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(472.99,213.77)\pos(545.84,213.77)}New Semester
+Dialogue: 0,0:04:38.25,0:04:38.29,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(466.92,213.76)\pos(539.77,213.76)}New Semester
+Dialogue: 0,0:04:38.29,0:04:38.34,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(460.87,213.76)\pos(533.71,213.76)}New Semester
+Dialogue: 0,0:04:38.34,0:04:38.38,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(454.75,213.76)\pos(527.6,213.76)}New Semester
+Dialogue: 0,0:04:38.38,0:04:38.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(448.7,213.75)\pos(521.55,213.75)}New Semester
+Dialogue: 0,0:04:38.42,0:04:38.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(442.63,213.77)\pos(515.48,213.77)}New Semester
+Dialogue: 0,0:04:38.46,0:04:38.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(436.53,213.76)\pos(509.38,213.76)}New Semester
+Dialogue: 0,0:04:38.50,0:04:38.54,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(430.48,213.77)\pos(503.33,213.77)}New Semester
+Dialogue: 0,0:04:38.54,0:04:38.59,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(424.38,213.76)\pos(497.23,213.76)}New Semester
+Dialogue: 0,0:04:38.59,0:04:38.63,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(418.3,213.77)\pos(491.15,213.77)}New Semester
+Dialogue: 0,0:04:38.63,0:04:38.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(412.23,213.77)\pos(485.08,213.77)}New Semester
+Dialogue: 0,0:04:38.67,0:04:38.71,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(406.13,213.77)\pos(478.98,213.77)}New Semester
+Dialogue: 0,0:04:38.71,0:04:38.75,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(400.05,213.76)\pos(472.9,213.76)}New Semester
+Dialogue: 0,0:04:38.75,0:04:38.80,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(393.98,213.77)\pos(466.83,213.77)}New Semester
+Dialogue: 0,0:04:38.80,0:04:38.84,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(387.92,213.77)\pos(460.77,213.77)}New Semester
+Dialogue: 0,0:04:38.84,0:04:38.88,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(381.81,213.76)\pos(454.66,213.76)}New Semester
+Dialogue: 0,0:04:38.88,0:04:38.92,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(375.78,213.77)\pos(448.63,213.77)}New Semester
+Dialogue: 0,0:04:38.92,0:04:38.96,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(369.68,213.77)\pos(442.53,213.77)}New Semester
+Dialogue: 0,0:04:38.96,0:04:39.00,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(363.59,213.76)\pos(436.44,213.76)}New Semester
+Dialogue: 0,0:04:39.00,0:04:39.05,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(357.55,213.77)\pos(430.4,213.77)}New Semester
+Dialogue: 0,0:04:39.05,0:04:39.09,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(351.48,213.77)\pos(424.33,213.77)}New Semester
+Dialogue: 0,0:04:39.09,0:04:39.13,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(345.38,213.78)\pos(418.23,213.78)}New Semester
+Dialogue: 0,0:04:39.13,0:04:39.17,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(339.32,213.77)\pos(412.17,213.77)}New Semester
+Dialogue: 0,0:04:39.17,0:04:39.21,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(333.21,213.78)\pos(406.06,213.78)}New Semester
+Dialogue: 0,0:04:39.21,0:04:39.25,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(327.13,213.77)\pos(399.98,213.77)}New Semester
+Dialogue: 0,0:04:39.25,0:04:39.30,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(321.06,213.77)\pos(393.91,213.77)}New Semester
+Dialogue: 0,0:04:39.30,0:04:39.34,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(314.99,213.77)\pos(387.84,213.77)}New Semester
+Dialogue: 0,0:04:39.34,0:04:39.38,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(308.91,213.77)\pos(381.76,213.77)}New Semester
+Dialogue: 0,0:04:39.38,0:04:39.42,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(302.87,213.78)\pos(375.72,213.78)}New Semester
+Dialogue: 0,0:04:39.42,0:04:39.46,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(296.78,213.78)\pos(369.63,213.78)}New Semester
+Dialogue: 0,0:04:39.46,0:04:39.50,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(290.67,213.77)\pos(363.52,213.77)}New Semester
+Dialogue: 0,0:04:39.50,0:04:39.55,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(284.65,213.77)\pos(357.5,213.77)}New Semester
+Dialogue: 0,0:04:39.55,0:04:39.59,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(278.55,213.78)\pos(351.4,213.78)}New Semester
+Dialogue: 0,0:04:39.59,0:04:39.63,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(272.46,213.78)\pos(345.31,213.78)}New Semester
+Dialogue: 0,0:04:39.63,0:04:39.67,Signs,,0,0,0,,{=3=4}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.052922\fscx87.79\fscy84.30\frz-4.2579\frx-0.0945\fry2.4130\org(266.39,213.77)\pos(339.24,213.77)}New Semester
+Dialogue: 0,0:04:34.04,0:04:34.08,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1326.85,195.56)\pos(1358.49,195.56)}Tuesday,
+Dialogue: 0,0:04:34.08,0:04:34.12,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1320.8,195.57)\pos(1352.44,195.57)}Tuesday,
+Dialogue: 0,0:04:34.12,0:04:34.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1314.64,195.56)\pos(1346.28,195.56)}Tuesday,
+Dialogue: 0,0:04:34.17,0:04:34.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1308.59,195.56)\pos(1340.23,195.56)}Tuesday,
+Dialogue: 0,0:04:34.21,0:04:34.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1302.54,195.57)\pos(1334.18,195.57)}Tuesday,
+Dialogue: 0,0:04:34.25,0:04:34.29,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1296.43,195.56)\pos(1328.07,195.56)}Tuesday,
+Dialogue: 0,0:04:34.29,0:04:34.33,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1290.38,195.56)\pos(1322.02,195.56)}Tuesday,
+Dialogue: 0,0:04:34.33,0:04:34.37,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1284.3,195.56)\pos(1315.94,195.56)}Tuesday,
+Dialogue: 0,0:04:34.37,0:04:34.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1278.21,195.56)\pos(1309.85,195.56)}Tuesday,
+Dialogue: 0,0:04:34.42,0:04:34.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1272.16,195.57)\pos(1303.8,195.57)}Tuesday,
+Dialogue: 0,0:04:34.46,0:04:34.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1266.09,195.57)\pos(1297.73,195.57)}Tuesday,
+Dialogue: 0,0:04:34.50,0:04:34.54,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1259.99,195.57)\pos(1291.63,195.57)}Tuesday,
+Dialogue: 0,0:04:34.54,0:04:34.58,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1253.92,195.56)\pos(1285.56,195.56)}Tuesday,
+Dialogue: 0,0:04:34.58,0:04:34.62,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1247.88,195.57)\pos(1279.52,195.57)}Tuesday,
+Dialogue: 0,0:04:34.62,0:04:34.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1241.76,195.57)\pos(1273.4,195.57)}Tuesday,
+Dialogue: 0,0:04:34.67,0:04:34.71,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1235.67,195.56)\pos(1267.31,195.56)}Tuesday,
+Dialogue: 0,0:04:34.71,0:04:34.75,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1229.61,195.56)\pos(1261.25,195.56)}Tuesday,
+Dialogue: 0,0:04:34.75,0:04:34.79,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1223.49,195.57)\pos(1255.13,195.57)}Tuesday,
+Dialogue: 0,0:04:34.79,0:04:34.83,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1217.43,195.57)\pos(1249.07,195.57)}Tuesday,
+Dialogue: 0,0:04:34.83,0:04:34.87,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1211.36,195.57)\pos(1243,195.57)}Tuesday,
+Dialogue: 0,0:04:34.87,0:04:34.92,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1205.3,195.57)\pos(1236.94,195.57)}Tuesday,
+Dialogue: 0,0:04:34.92,0:04:34.96,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1199.19,195.57)\pos(1230.83,195.57)}Tuesday,
+Dialogue: 0,0:04:34.96,0:04:35.00,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1193.17,195.58)\pos(1224.81,195.58)}Tuesday,
+Dialogue: 0,0:04:35.00,0:04:35.04,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1187.07,195.57)\pos(1218.71,195.57)}Tuesday,
+Dialogue: 0,0:04:35.04,0:04:35.08,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1180.97,195.57)\pos(1212.61,195.57)}Tuesday,
+Dialogue: 0,0:04:35.08,0:04:35.12,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1174.95,195.58)\pos(1206.59,195.58)}Tuesday,
+Dialogue: 0,0:04:35.12,0:04:35.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1168.84,195.57)\pos(1200.48,195.57)}Tuesday,
+Dialogue: 0,0:04:35.17,0:04:35.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1162.75,195.57)\pos(1194.39,195.57)}Tuesday,
+Dialogue: 0,0:04:35.21,0:04:35.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1156.69,195.56)\pos(1188.33,195.56)}Tuesday,
+Dialogue: 0,0:04:35.25,0:04:35.29,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1150.56,195.58)\pos(1182.2,195.58)}Tuesday,
+Dialogue: 0,0:04:35.29,0:04:35.33,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1144.51,195.57)\pos(1176.15,195.57)}Tuesday,
+Dialogue: 0,0:04:35.33,0:04:35.37,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1138.44,195.57)\pos(1170.08,195.57)}Tuesday,
+Dialogue: 0,0:04:35.37,0:04:35.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1132.35,195.57)\pos(1163.99,195.57)}Tuesday,
+Dialogue: 0,0:04:35.42,0:04:35.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1126.27,195.57)\pos(1157.91,195.57)}Tuesday,
+Dialogue: 0,0:04:35.46,0:04:35.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1120.22,195.57)\pos(1151.86,195.57)}Tuesday,
+Dialogue: 0,0:04:35.50,0:04:35.54,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1114.15,195.57)\pos(1145.79,195.57)}Tuesday,
+Dialogue: 0,0:04:35.54,0:04:35.58,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1108.04,195.56)\pos(1139.68,195.56)}Tuesday,
+Dialogue: 0,0:04:35.58,0:04:35.63,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1102,195.57)\pos(1133.64,195.57)}Tuesday,
+Dialogue: 0,0:04:35.63,0:04:35.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1095.9,195.57)\pos(1127.53,195.57)}Tuesday,
+Dialogue: 0,0:04:35.67,0:04:35.71,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1089.82,195.56)\pos(1121.46,195.56)}Tuesday,
+Dialogue: 0,0:04:35.71,0:04:35.75,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1083.78,195.56)\pos(1115.42,195.56)}Tuesday,
+Dialogue: 0,0:04:35.75,0:04:35.79,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1077.65,195.57)\pos(1109.29,195.57)}Tuesday,
+Dialogue: 0,0:04:35.79,0:04:35.83,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1071.58,195.57)\pos(1103.22,195.57)}Tuesday,
+Dialogue: 0,0:04:35.83,0:04:35.88,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1065.51,195.57)\pos(1097.15,195.57)}Tuesday,
+Dialogue: 0,0:04:35.88,0:04:35.92,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1059.45,195.56)\pos(1091.09,195.56)}Tuesday,
+Dialogue: 0,0:04:35.92,0:04:35.96,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1053.34,195.56)\pos(1084.98,195.56)}Tuesday,
+Dialogue: 0,0:04:35.96,0:04:36.00,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1047.29,195.55)\pos(1078.93,195.55)}Tuesday,
+Dialogue: 0,0:04:36.00,0:04:36.04,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1041.22,195.56)\pos(1072.86,195.56)}Tuesday,
+Dialogue: 0,0:04:36.04,0:04:36.08,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1035.12,195.56)\pos(1066.76,195.56)}Tuesday,
+Dialogue: 0,0:04:36.08,0:04:36.13,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1029.03,195.56)\pos(1060.68,195.56)}Tuesday,
+Dialogue: 0,0:04:36.13,0:04:36.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1022.96,195.56)\pos(1054.6,195.56)}Tuesday,
+Dialogue: 0,0:04:36.17,0:04:36.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1016.9,195.56)\pos(1048.54,195.56)}Tuesday,
+Dialogue: 0,0:04:36.21,0:04:36.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1010.83,195.55)\pos(1042.47,195.55)}Tuesday,
+Dialogue: 0,0:04:36.25,0:04:36.29,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(1004.74,195.57)\pos(1036.38,195.57)}Tuesday,
+Dialogue: 0,0:04:36.29,0:04:36.33,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(998.68,195.57)\pos(1030.32,195.57)}Tuesday,
+Dialogue: 0,0:04:36.33,0:04:36.38,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(992.58,195.57)\pos(1024.22,195.57)}Tuesday,
+Dialogue: 0,0:04:36.38,0:04:36.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(986.49,195.57)\pos(1018.13,195.57)}Tuesday,
+Dialogue: 0,0:04:36.42,0:04:36.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(980.42,195.57)\pos(1012.07,195.57)}Tuesday,
+Dialogue: 0,0:04:36.46,0:04:36.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(974.3,195.57)\pos(1005.95,195.57)}Tuesday,
+Dialogue: 0,0:04:36.50,0:04:36.54,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(968.25,195.57)\pos(999.89,195.57)}Tuesday,
+Dialogue: 0,0:04:36.54,0:04:36.58,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(962.18,195.57)\pos(993.83,195.57)}Tuesday,
+Dialogue: 0,0:04:36.58,0:04:36.63,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(956.11,195.57)\pos(987.75,195.57)}Tuesday,
+Dialogue: 0,0:04:36.63,0:04:36.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(950.02,195.57)\pos(981.66,195.57)}Tuesday,
+Dialogue: 0,0:04:36.67,0:04:36.71,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(943.96,195.57)\pos(975.6,195.57)}Tuesday,
+Dialogue: 0,0:04:36.71,0:04:36.75,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(937.89,195.57)\pos(969.53,195.57)}Tuesday,
+Dialogue: 0,0:04:36.75,0:04:36.79,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(931.8,195.58)\pos(963.44,195.58)}Tuesday,
+Dialogue: 0,0:04:36.79,0:04:36.83,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(925.75,195.58)\pos(957.39,195.58)}Tuesday,
+Dialogue: 0,0:04:36.83,0:04:36.88,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(919.65,195.58)\pos(951.29,195.58)}Tuesday,
+Dialogue: 0,0:04:36.88,0:04:36.92,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(913.56,195.57)\pos(945.2,195.57)}Tuesday,
+Dialogue: 0,0:04:36.92,0:04:36.96,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(907.51,195.58)\pos(939.15,195.58)}Tuesday,
+Dialogue: 0,0:04:36.96,0:04:37.00,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(901.45,195.58)\pos(933.09,195.58)}Tuesday,
+Dialogue: 0,0:04:37.00,0:04:37.04,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(895.37,195.58)\pos(927.01,195.58)}Tuesday,
+Dialogue: 0,0:04:37.04,0:04:37.08,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(889.29,195.57)\pos(920.93,195.57)}Tuesday,
+Dialogue: 0,0:04:37.08,0:04:37.13,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(883.21,195.58)\pos(914.85,195.58)}Tuesday,
+Dialogue: 0,0:04:37.13,0:04:37.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(877.11,195.58)\pos(908.76,195.58)}Tuesday,
+Dialogue: 0,0:04:37.17,0:04:37.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(871.05,195.58)\pos(902.69,195.58)}Tuesday,
+Dialogue: 0,0:04:37.21,0:04:37.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(864.98,195.58)\pos(896.62,195.58)}Tuesday,
+Dialogue: 0,0:04:37.25,0:04:37.29,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(858.9,195.58)\pos(890.54,195.58)}Tuesday,
+Dialogue: 0,0:04:37.29,0:04:37.34,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(852.85,195.58)\pos(884.49,195.58)}Tuesday,
+Dialogue: 0,0:04:37.34,0:04:37.38,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(846.75,195.57)\pos(878.39,195.57)}Tuesday,
+Dialogue: 0,0:04:37.38,0:04:37.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(840.67,195.57)\pos(872.31,195.57)}Tuesday,
+Dialogue: 0,0:04:37.42,0:04:37.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(834.62,195.58)\pos(866.26,195.58)}Tuesday,
+Dialogue: 0,0:04:37.46,0:04:37.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(828.5,195.58)\pos(860.14,195.58)}Tuesday,
+Dialogue: 0,0:04:37.50,0:04:37.54,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(822.44,195.58)\pos(854.08,195.58)}Tuesday,
+Dialogue: 0,0:04:37.54,0:04:37.59,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(816.38,195.58)\pos(848.02,195.58)}Tuesday,
+Dialogue: 0,0:04:37.59,0:04:37.63,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(810.27,195.58)\pos(841.92,195.58)}Tuesday,
+Dialogue: 0,0:04:37.63,0:04:37.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(804.17,195.58)\pos(835.81,195.58)}Tuesday,
+Dialogue: 0,0:04:37.67,0:04:37.71,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(798.11,195.59)\pos(829.75,195.59)}Tuesday,
+Dialogue: 0,0:04:37.71,0:04:37.75,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(792.04,195.59)\pos(823.68,195.59)}Tuesday,
+Dialogue: 0,0:04:37.75,0:04:37.79,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(785.95,195.58)\pos(817.59,195.58)}Tuesday,
+Dialogue: 0,0:04:37.79,0:04:37.84,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(779.91,195.57)\pos(811.55,195.57)}Tuesday,
+Dialogue: 0,0:04:37.84,0:04:37.88,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(773.79,195.58)\pos(805.43,195.58)}Tuesday,
+Dialogue: 0,0:04:37.88,0:04:37.92,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(767.71,195.58)\pos(799.35,195.58)}Tuesday,
+Dialogue: 0,0:04:37.92,0:04:37.96,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(761.68,195.58)\pos(793.32,195.58)}Tuesday,
+Dialogue: 0,0:04:37.96,0:04:38.00,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(755.58,195.58)\pos(787.22,195.58)}Tuesday,
+Dialogue: 0,0:04:38.00,0:04:38.04,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(749.51,195.58)\pos(781.15,195.58)}Tuesday,
+Dialogue: 0,0:04:38.04,0:04:38.09,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(743.41,195.57)\pos(775.05,195.57)}Tuesday,
+Dialogue: 0,0:04:38.09,0:04:38.13,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(737.34,195.57)\pos(768.98,195.57)}Tuesday,
+Dialogue: 0,0:04:38.13,0:04:38.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(731.28,195.58)\pos(762.92,195.58)}Tuesday,
+Dialogue: 0,0:04:38.17,0:04:38.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(725.16,195.57)\pos(756.8,195.57)}Tuesday,
+Dialogue: 0,0:04:38.21,0:04:38.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(719.1,195.58)\pos(750.74,195.58)}Tuesday,
+Dialogue: 0,0:04:38.25,0:04:38.29,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(713.03,195.57)\pos(744.67,195.57)}Tuesday,
+Dialogue: 0,0:04:38.29,0:04:38.34,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(706.97,195.57)\pos(738.62,195.57)}Tuesday,
+Dialogue: 0,0:04:38.34,0:04:38.38,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(700.86,195.57)\pos(732.5,195.57)}Tuesday,
+Dialogue: 0,0:04:38.38,0:04:38.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(694.81,195.56)\pos(726.45,195.56)}Tuesday,
+Dialogue: 0,0:04:38.42,0:04:38.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(688.74,195.58)\pos(720.38,195.58)}Tuesday,
+Dialogue: 0,0:04:38.46,0:04:38.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(682.64,195.57)\pos(714.28,195.57)}Tuesday,
+Dialogue: 0,0:04:38.50,0:04:38.54,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(676.59,195.58)\pos(708.23,195.58)}Tuesday,
+Dialogue: 0,0:04:38.54,0:04:38.59,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(670.49,195.57)\pos(702.13,195.57)}Tuesday,
+Dialogue: 0,0:04:38.59,0:04:38.63,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(664.41,195.58)\pos(696.05,195.58)}Tuesday,
+Dialogue: 0,0:04:38.63,0:04:38.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(658.34,195.58)\pos(689.98,195.58)}Tuesday,
+Dialogue: 0,0:04:38.67,0:04:38.71,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(652.24,195.58)\pos(683.88,195.58)}Tuesday,
+Dialogue: 0,0:04:38.71,0:04:38.75,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(646.16,195.57)\pos(677.8,195.57)}Tuesday,
+Dialogue: 0,0:04:38.75,0:04:38.80,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(640.09,195.58)\pos(671.73,195.58)}Tuesday,
+Dialogue: 0,0:04:38.80,0:04:38.84,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(634.03,195.58)\pos(665.67,195.58)}Tuesday,
+Dialogue: 0,0:04:38.84,0:04:38.88,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(627.92,195.57)\pos(659.56,195.57)}Tuesday,
+Dialogue: 0,0:04:38.88,0:04:38.92,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(621.89,195.58)\pos(653.53,195.58)}Tuesday,
+Dialogue: 0,0:04:38.92,0:04:38.96,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(615.79,195.58)\pos(647.43,195.58)}Tuesday,
+Dialogue: 0,0:04:38.96,0:04:39.00,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(609.7,195.57)\pos(641.34,195.57)}Tuesday,
+Dialogue: 0,0:04:39.00,0:04:39.05,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(603.66,195.58)\pos(635.3,195.58)}Tuesday,
+Dialogue: 0,0:04:39.05,0:04:39.09,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(597.59,195.58)\pos(629.23,195.58)}Tuesday,
+Dialogue: 0,0:04:39.09,0:04:39.13,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(591.49,195.59)\pos(623.13,195.59)}Tuesday,
+Dialogue: 0,0:04:39.13,0:04:39.17,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(585.43,195.58)\pos(617.07,195.58)}Tuesday,
+Dialogue: 0,0:04:39.17,0:04:39.21,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(579.32,195.59)\pos(610.96,195.59)}Tuesday,
+Dialogue: 0,0:04:39.21,0:04:39.25,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(573.24,195.58)\pos(604.88,195.58)}Tuesday,
+Dialogue: 0,0:04:39.25,0:04:39.30,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(567.17,195.58)\pos(598.81,195.58)}Tuesday,
+Dialogue: 0,0:04:39.30,0:04:39.34,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(561.1,195.58)\pos(592.74,195.58)}Tuesday,
+Dialogue: 0,0:04:39.34,0:04:39.38,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(555.02,195.58)\pos(586.66,195.58)}Tuesday,
+Dialogue: 0,0:04:39.38,0:04:39.42,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(548.98,195.59)\pos(580.62,195.59)}Tuesday,
+Dialogue: 0,0:04:39.42,0:04:39.46,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(542.89,195.59)\pos(574.53,195.59)}Tuesday,
+Dialogue: 0,0:04:39.46,0:04:39.50,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(536.78,195.58)\pos(568.42,195.58)}Tuesday,
+Dialogue: 0,0:04:39.50,0:04:39.55,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(530.76,195.58)\pos(562.4,195.58)}Tuesday,
+Dialogue: 0,0:04:39.55,0:04:39.59,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(524.66,195.59)\pos(556.3,195.59)}Tuesday,
+Dialogue: 0,0:04:39.59,0:04:39.63,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(518.57,195.59)\pos(550.21,195.59)}Tuesday,
+Dialogue: 0,0:04:39.63,0:04:39.67,Signs,,0,0,0,,{=5=6}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.060635\fscx66.23\fscy67.44\frz-4.5485\frx-0.0930\fry2.4966\org(512.5,195.58)\pos(544.14,195.58)}Tuesday,
+Dialogue: 0,0:04:34.04,0:04:34.08,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1326.54,211.37)\pos(1358.19,211.37)}September 1st
+Dialogue: 0,0:04:34.08,0:04:34.12,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1320.49,211.38)\pos(1352.14,211.38)}September 1st
+Dialogue: 0,0:04:34.12,0:04:34.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1314.33,211.37)\pos(1345.98,211.37)}September 1st
+Dialogue: 0,0:04:34.17,0:04:34.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1308.28,211.37)\pos(1339.93,211.37)}September 1st
+Dialogue: 0,0:04:34.21,0:04:34.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1302.23,211.38)\pos(1333.88,211.38)}September 1st
+Dialogue: 0,0:04:34.25,0:04:34.29,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1296.12,211.37)\pos(1327.77,211.37)}September 1st
+Dialogue: 0,0:04:34.29,0:04:34.33,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1290.07,211.37)\pos(1321.72,211.37)}September 1st
+Dialogue: 0,0:04:34.33,0:04:34.37,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1283.99,211.37)\pos(1315.64,211.37)}September 1st
+Dialogue: 0,0:04:34.37,0:04:34.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1277.9,211.37)\pos(1309.55,211.37)}September 1st
+Dialogue: 0,0:04:34.42,0:04:34.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1271.85,211.38)\pos(1303.5,211.38)}September 1st
+Dialogue: 0,0:04:34.46,0:04:34.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1265.78,211.38)\pos(1297.43,211.38)}September 1st
+Dialogue: 0,0:04:34.50,0:04:34.54,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1259.68,211.38)\pos(1291.33,211.38)}September 1st
+Dialogue: 0,0:04:34.54,0:04:34.58,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1253.61,211.37)\pos(1285.26,211.37)}September 1st
+Dialogue: 0,0:04:34.58,0:04:34.62,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1247.57,211.38)\pos(1279.22,211.38)}September 1st
+Dialogue: 0,0:04:34.62,0:04:34.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1241.45,211.38)\pos(1273.1,211.38)}September 1st
+Dialogue: 0,0:04:34.67,0:04:34.71,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1235.36,211.37)\pos(1267.01,211.37)}September 1st
+Dialogue: 0,0:04:34.71,0:04:34.75,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1229.3,211.37)\pos(1260.95,211.37)}September 1st
+Dialogue: 0,0:04:34.75,0:04:34.79,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1223.18,211.38)\pos(1254.83,211.38)}September 1st
+Dialogue: 0,0:04:34.79,0:04:34.83,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1217.12,211.38)\pos(1248.77,211.38)}September 1st
+Dialogue: 0,0:04:34.83,0:04:34.87,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1211.05,211.38)\pos(1242.7,211.38)}September 1st
+Dialogue: 0,0:04:34.87,0:04:34.92,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1204.99,211.38)\pos(1236.64,211.38)}September 1st
+Dialogue: 0,0:04:34.92,0:04:34.96,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1198.88,211.38)\pos(1230.53,211.38)}September 1st
+Dialogue: 0,0:04:34.96,0:04:35.00,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1192.86,211.39)\pos(1224.51,211.39)}September 1st
+Dialogue: 0,0:04:35.00,0:04:35.04,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1186.76,211.38)\pos(1218.41,211.38)}September 1st
+Dialogue: 0,0:04:35.04,0:04:35.08,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1180.66,211.38)\pos(1212.31,211.38)}September 1st
+Dialogue: 0,0:04:35.08,0:04:35.12,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1174.64,211.39)\pos(1206.29,211.39)}September 1st
+Dialogue: 0,0:04:35.12,0:04:35.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1168.53,211.38)\pos(1200.18,211.38)}September 1st
+Dialogue: 0,0:04:35.17,0:04:35.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1162.44,211.38)\pos(1194.09,211.38)}September 1st
+Dialogue: 0,0:04:35.21,0:04:35.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1156.38,211.37)\pos(1188.03,211.37)}September 1st
+Dialogue: 0,0:04:35.25,0:04:35.29,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1150.25,211.39)\pos(1181.9,211.39)}September 1st
+Dialogue: 0,0:04:35.29,0:04:35.33,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1144.2,211.38)\pos(1175.85,211.38)}September 1st
+Dialogue: 0,0:04:35.33,0:04:35.37,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1138.13,211.38)\pos(1169.78,211.38)}September 1st
+Dialogue: 0,0:04:35.37,0:04:35.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1132.04,211.38)\pos(1163.69,211.38)}September 1st
+Dialogue: 0,0:04:35.42,0:04:35.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1125.96,211.38)\pos(1157.61,211.38)}September 1st
+Dialogue: 0,0:04:35.46,0:04:35.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1119.91,211.38)\pos(1151.56,211.38)}September 1st
+Dialogue: 0,0:04:35.50,0:04:35.54,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1113.84,211.38)\pos(1145.49,211.38)}September 1st
+Dialogue: 0,0:04:35.54,0:04:35.58,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1107.73,211.37)\pos(1139.38,211.37)}September 1st
+Dialogue: 0,0:04:35.58,0:04:35.63,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1101.69,211.38)\pos(1133.34,211.38)}September 1st
+Dialogue: 0,0:04:35.63,0:04:35.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1095.59,211.38)\pos(1127.24,211.38)}September 1st
+Dialogue: 0,0:04:35.67,0:04:35.71,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1089.51,211.37)\pos(1121.17,211.37)}September 1st
+Dialogue: 0,0:04:35.71,0:04:35.75,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1083.47,211.37)\pos(1115.12,211.37)}September 1st
+Dialogue: 0,0:04:35.75,0:04:35.79,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1077.34,211.38)\pos(1108.99,211.38)}September 1st
+Dialogue: 0,0:04:35.79,0:04:35.83,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1071.27,211.38)\pos(1102.92,211.38)}September 1st
+Dialogue: 0,0:04:35.83,0:04:35.88,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1065.2,211.38)\pos(1096.85,211.38)}September 1st
+Dialogue: 0,0:04:35.88,0:04:35.92,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1059.14,211.37)\pos(1090.79,211.37)}September 1st
+Dialogue: 0,0:04:35.92,0:04:35.96,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1053.03,211.37)\pos(1084.68,211.37)}September 1st
+Dialogue: 0,0:04:35.96,0:04:36.00,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1046.98,211.36)\pos(1078.63,211.36)}September 1st
+Dialogue: 0,0:04:36.00,0:04:36.04,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1040.91,211.37)\pos(1072.56,211.37)}September 1st
+Dialogue: 0,0:04:36.04,0:04:36.08,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1034.81,211.37)\pos(1066.46,211.37)}September 1st
+Dialogue: 0,0:04:36.08,0:04:36.13,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1028.72,211.37)\pos(1060.38,211.37)}September 1st
+Dialogue: 0,0:04:36.13,0:04:36.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1022.65,211.37)\pos(1054.3,211.37)}September 1st
+Dialogue: 0,0:04:36.17,0:04:36.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1016.59,211.37)\pos(1048.24,211.37)}September 1st
+Dialogue: 0,0:04:36.21,0:04:36.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1010.52,211.36)\pos(1042.17,211.36)}September 1st
+Dialogue: 0,0:04:36.25,0:04:36.29,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(1004.43,211.38)\pos(1036.08,211.38)}September 1st
+Dialogue: 0,0:04:36.29,0:04:36.33,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(998.37,211.38)\pos(1030.02,211.38)}September 1st
+Dialogue: 0,0:04:36.33,0:04:36.38,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(992.27,211.38)\pos(1023.92,211.38)}September 1st
+Dialogue: 0,0:04:36.38,0:04:36.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(986.18,211.38)\pos(1017.83,211.38)}September 1st
+Dialogue: 0,0:04:36.42,0:04:36.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(980.11,211.38)\pos(1011.77,211.38)}September 1st
+Dialogue: 0,0:04:36.46,0:04:36.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(973.99,211.38)\pos(1005.65,211.38)}September 1st
+Dialogue: 0,0:04:36.50,0:04:36.54,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(967.94,211.38)\pos(999.59,211.38)}September 1st
+Dialogue: 0,0:04:36.54,0:04:36.58,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(961.87,211.38)\pos(993.53,211.38)}September 1st
+Dialogue: 0,0:04:36.58,0:04:36.63,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(955.8,211.38)\pos(987.45,211.38)}September 1st
+Dialogue: 0,0:04:36.63,0:04:36.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(949.71,211.38)\pos(981.36,211.38)}September 1st
+Dialogue: 0,0:04:36.67,0:04:36.71,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(943.65,211.38)\pos(975.3,211.38)}September 1st
+Dialogue: 0,0:04:36.71,0:04:36.75,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(937.58,211.38)\pos(969.23,211.38)}September 1st
+Dialogue: 0,0:04:36.75,0:04:36.79,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(931.49,211.39)\pos(963.14,211.39)}September 1st
+Dialogue: 0,0:04:36.79,0:04:36.83,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(925.44,211.39)\pos(957.09,211.39)}September 1st
+Dialogue: 0,0:04:36.83,0:04:36.88,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(919.34,211.39)\pos(950.99,211.39)}September 1st
+Dialogue: 0,0:04:36.88,0:04:36.92,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(913.25,211.38)\pos(944.9,211.38)}September 1st
+Dialogue: 0,0:04:36.92,0:04:36.96,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(907.2,211.39)\pos(938.85,211.39)}September 1st
+Dialogue: 0,0:04:36.96,0:04:37.00,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(901.14,211.39)\pos(932.79,211.39)}September 1st
+Dialogue: 0,0:04:37.00,0:04:37.04,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(895.06,211.39)\pos(926.71,211.39)}September 1st
+Dialogue: 0,0:04:37.04,0:04:37.08,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(888.98,211.38)\pos(920.63,211.38)}September 1st
+Dialogue: 0,0:04:37.08,0:04:37.13,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(882.9,211.39)\pos(914.55,211.39)}September 1st
+Dialogue: 0,0:04:37.13,0:04:37.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(876.81,211.39)\pos(908.46,211.39)}September 1st
+Dialogue: 0,0:04:37.17,0:04:37.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(870.74,211.39)\pos(902.39,211.39)}September 1st
+Dialogue: 0,0:04:37.21,0:04:37.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(864.67,211.39)\pos(896.32,211.39)}September 1st
+Dialogue: 0,0:04:37.25,0:04:37.29,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(858.59,211.39)\pos(890.24,211.39)}September 1st
+Dialogue: 0,0:04:37.29,0:04:37.34,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(852.54,211.39)\pos(884.19,211.39)}September 1st
+Dialogue: 0,0:04:37.34,0:04:37.38,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(846.44,211.38)\pos(878.09,211.38)}September 1st
+Dialogue: 0,0:04:37.38,0:04:37.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(840.36,211.38)\pos(872.01,211.38)}September 1st
+Dialogue: 0,0:04:37.42,0:04:37.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(834.31,211.39)\pos(865.96,211.39)}September 1st
+Dialogue: 0,0:04:37.46,0:04:37.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(828.19,211.39)\pos(859.84,211.39)}September 1st
+Dialogue: 0,0:04:37.50,0:04:37.54,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(822.13,211.39)\pos(853.78,211.39)}September 1st
+Dialogue: 0,0:04:37.54,0:04:37.59,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(816.07,211.39)\pos(847.72,211.39)}September 1st
+Dialogue: 0,0:04:37.59,0:04:37.63,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(809.96,211.39)\pos(841.62,211.39)}September 1st
+Dialogue: 0,0:04:37.63,0:04:37.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(803.86,211.39)\pos(835.51,211.39)}September 1st
+Dialogue: 0,0:04:37.67,0:04:37.71,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(797.8,211.4)\pos(829.45,211.4)}September 1st
+Dialogue: 0,0:04:37.71,0:04:37.75,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(791.73,211.4)\pos(823.38,211.4)}September 1st
+Dialogue: 0,0:04:37.75,0:04:37.79,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(785.64,211.39)\pos(817.29,211.39)}September 1st
+Dialogue: 0,0:04:37.79,0:04:37.84,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(779.6,211.38)\pos(811.25,211.38)}September 1st
+Dialogue: 0,0:04:37.84,0:04:37.88,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(773.48,211.39)\pos(805.13,211.39)}September 1st
+Dialogue: 0,0:04:37.88,0:04:37.92,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(767.4,211.39)\pos(799.05,211.39)}September 1st
+Dialogue: 0,0:04:37.92,0:04:37.96,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(761.37,211.39)\pos(793.02,211.39)}September 1st
+Dialogue: 0,0:04:37.96,0:04:38.00,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(755.27,211.39)\pos(786.92,211.39)}September 1st
+Dialogue: 0,0:04:38.00,0:04:38.04,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(749.2,211.39)\pos(780.85,211.39)}September 1st
+Dialogue: 0,0:04:38.04,0:04:38.09,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(743.1,211.38)\pos(774.75,211.38)}September 1st
+Dialogue: 0,0:04:38.09,0:04:38.13,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(737.03,211.38)\pos(768.68,211.38)}September 1st
+Dialogue: 0,0:04:38.13,0:04:38.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(730.97,211.39)\pos(762.62,211.39)}September 1st
+Dialogue: 0,0:04:38.17,0:04:38.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(724.85,211.38)\pos(756.5,211.38)}September 1st
+Dialogue: 0,0:04:38.21,0:04:38.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(718.79,211.39)\pos(750.44,211.39)}September 1st
+Dialogue: 0,0:04:38.25,0:04:38.29,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(712.72,211.38)\pos(744.37,211.38)}September 1st
+Dialogue: 0,0:04:38.29,0:04:38.34,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(706.67,211.38)\pos(738.32,211.38)}September 1st
+Dialogue: 0,0:04:38.34,0:04:38.38,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(700.55,211.38)\pos(732.2,211.38)}September 1st
+Dialogue: 0,0:04:38.38,0:04:38.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(694.5,211.37)\pos(726.15,211.37)}September 1st
+Dialogue: 0,0:04:38.42,0:04:38.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(688.43,211.39)\pos(720.08,211.39)}September 1st
+Dialogue: 0,0:04:38.46,0:04:38.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(682.33,211.38)\pos(713.98,211.38)}September 1st
+Dialogue: 0,0:04:38.50,0:04:38.54,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(676.28,211.39)\pos(707.93,211.39)}September 1st
+Dialogue: 0,0:04:38.54,0:04:38.59,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(670.18,211.38)\pos(701.83,211.38)}September 1st
+Dialogue: 0,0:04:38.59,0:04:38.63,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(664.1,211.39)\pos(695.75,211.39)}September 1st
+Dialogue: 0,0:04:38.63,0:04:38.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(658.03,211.39)\pos(689.68,211.39)}September 1st
+Dialogue: 0,0:04:38.67,0:04:38.71,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(651.93,211.39)\pos(683.58,211.39)}September 1st
+Dialogue: 0,0:04:38.71,0:04:38.75,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(645.85,211.38)\pos(677.5,211.38)}September 1st
+Dialogue: 0,0:04:38.75,0:04:38.80,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(639.78,211.39)\pos(671.43,211.39)}September 1st
+Dialogue: 0,0:04:38.80,0:04:38.84,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(633.72,211.39)\pos(665.37,211.39)}September 1st
+Dialogue: 0,0:04:38.84,0:04:38.88,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(627.61,211.38)\pos(659.26,211.38)}September 1st
+Dialogue: 0,0:04:38.88,0:04:38.92,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(621.58,211.39)\pos(653.23,211.39)}September 1st
+Dialogue: 0,0:04:38.92,0:04:38.96,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(615.48,211.39)\pos(647.13,211.39)}September 1st
+Dialogue: 0,0:04:38.96,0:04:39.00,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(609.39,211.38)\pos(641.04,211.38)}September 1st
+Dialogue: 0,0:04:39.00,0:04:39.05,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(603.35,211.39)\pos(635,211.39)}September 1st
+Dialogue: 0,0:04:39.05,0:04:39.09,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(597.28,211.39)\pos(628.93,211.39)}September 1st
+Dialogue: 0,0:04:39.09,0:04:39.13,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(591.18,211.4)\pos(622.83,211.4)}September 1st
+Dialogue: 0,0:04:39.13,0:04:39.17,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(585.12,211.39)\pos(616.77,211.39)}September 1st
+Dialogue: 0,0:04:39.17,0:04:39.21,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(579.01,211.4)\pos(610.66,211.4)}September 1st
+Dialogue: 0,0:04:39.21,0:04:39.25,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(572.93,211.39)\pos(604.58,211.39)}September 1st
+Dialogue: 0,0:04:39.25,0:04:39.30,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(566.86,211.39)\pos(598.51,211.39)}September 1st
+Dialogue: 0,0:04:39.30,0:04:39.34,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(560.79,211.39)\pos(592.44,211.39)}September 1st
+Dialogue: 0,0:04:39.34,0:04:39.38,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(554.71,211.39)\pos(586.36,211.39)}September 1st
+Dialogue: 0,0:04:39.38,0:04:39.42,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(548.67,211.4)\pos(580.32,211.4)}September 1st
+Dialogue: 0,0:04:39.42,0:04:39.46,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(542.58,211.4)\pos(574.23,211.4)}September 1st
+Dialogue: 0,0:04:39.46,0:04:39.50,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(536.47,211.39)\pos(568.12,211.39)}September 1st
+Dialogue: 0,0:04:39.50,0:04:39.55,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(530.45,211.39)\pos(562.1,211.39)}September 1st
+Dialogue: 0,0:04:39.55,0:04:39.59,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(524.35,211.4)\pos(556,211.4)}September 1st
+Dialogue: 0,0:04:39.59,0:04:39.63,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(518.26,211.4)\pos(549.91,211.4)}September 1st
+Dialogue: 0,0:04:39.63,0:04:39.67,Signs,,0,0,0,,{=7=8}{\fnDK Cool Crayon\fs30\c&HB6CAB5&\blur0.7\an6\fax0.058396\fscx66.22\fscy67.44\frz-4.4224\frx-0.0948\fry2.4960\org(512.19,211.39)\pos(543.84,211.39)}September 1st
+Comment: 0,0:08:45.38,0:08:47.38,Signs,,0,0,0,,Medakaya
+Dialogue: 0,0:08:45.38,0:08:47.38,Signs,,0,0,0,,{\fnCCSignLanguage\c&H221C18&\1a&H2B&\fs150\blur1\pos(960,852)}Medakaya
+Comment: 0,0:08:47.38,0:08:50.38,Signs,,0,0,0,,Medakaya
+Dialogue: 0,0:08:47.38,0:08:50.38,Signs,,0,0,0,,{\fnCCSignLanguage\c&H3B3423&\1a&H00&\fs15\fscx150\blur1\pos(962.08,469.69)}Medakaya
+Comment: 0,0:09:03.77,0:09:07.19,Signs,,0,0,0,,Jackpot
+Dialogue: 1,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=9}{\fnCCHeroSandwichMeat\c&H9648F1&\blur0.7\fax0.089706\fscx71.72\fscy76.71\frz7.5655\frx-0.8865\fry0.1264\org(862.49,327.74)\pos(859.92,327.74)\t(1275,2192,\c&HF6F7FC&\blur1.5)}Jackpot
+Dialogue: 0,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=9}{\fnCCHeroSandwichMeat\c&HF6F8F8&\3c&HF6F8F8&\bord6\blur0.7\t(1275,2192,\c&HF8FAFC&\3c&HF8FAFC&\blur1.5)\fax0.089706\fscx71.72\fscy76.71\frz7.5655\frx-0.8865\fry0.1264\org(862.49,327.74)\pos(859.92,327.74)}Jackpot
+Dialogue: 1,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&HF6F8F8&\blur0.7\t(1275,2192,\c&HF8FAFC&\blur1.5)\fax0.087187\fscx35.60\fscy37.14\frz7.5810\frx-0.9112\fry0.1298\org(984.01,880.42)\pos(982.76,880.42)}Today's your lucky day!
+Dialogue: 1,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=11}{\fnCCHeroSandwichMeat\c&HF6F8F8&\blur0.7\t(1275,2192,\c&HF8FAFC&\blur1.5)\fax0.092235\fscx33.56\fscy37.03\frz7.5818\frx-0.9130\fry0.1301\org(989.67,908.93)\pos(988.43,908.93)}Maybe everything will go your way?
+Dialogue: 0,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=10}{\fnCCHeroSandwichMeat\c&H9648F1&\3c&H9648F1&\bord4\blur0.7\t(1275,2192,\c&HF6F7FC&\3c&HF6F7FC&\blur1.5)\fax0.087187\fscx35.60\fscy37.14\frz7.5810\frx-0.9112\fry0.1298\org(984.01,880.42)\pos(982.76,880.42)}Today's your lucky day!
+Dialogue: 0,0:09:03.77,0:09:07.19,Signs,,0,0,0,,{=11}{\fnCCHeroSandwichMeat\c&H9648F1&\3c&H9648F1&\bord4\blur0.7\t(1275,2192,\c&HF6F7FC&\3c&HF6F7FC&)\fax0.092235\fscx33.56\fscy37.03\frz7.5818\frx-0.9130\fry0.1301\org(989.67,908.93)\pos(988.43,908.93)}Maybe everything will go your way?
+Comment: 0,0:09:08.44,0:09:14.83,Signs,,0,0,0,,Math Test
+Dialogue: 0,0:09:08.44,0:09:14.83,Signs,,0,0,0,,{=12}{\an4\c&HF8F6FE&\t(80,1276,\c&H343742&)\fnCalibri\b1\fax0.189027\fscx63.15\fscy62.46\frz22.8983\frx5.4992\fry-1.8801\org(252.52,446.16)\pos(165.41,446.16)\blur1}Math test
+Dialogue: 0,0:09:08.44,0:09:14.83,Signs,,0,0,0,,{=13}{\an4\c&HF8F6FE&\t(80,1276,\c&H343742&)\fnCalibri\b1\blur1\fax0.272626\fscx57.28\fscy59.49\frz21.2005\frx5.3666\fry-1.8343\org(520.44,435.59)\pos(234.97,435.59)}Find the area of the following trapezoid.
+Dialogue: 0,0:09:08.44,0:09:14.83,Signs,,0,0,0,,{=14}{\an4\c&HF8F6FE&\t(80,1276,\c&H343742&)\fnCalibri\b1\blur1\fax0.282248\fscx60.00\fscy65.86\frz17.6305\frx4.4880\fry-1.5305\org(906.46,959.39)\pos(520.66,959.39)}Draw the figure below enlarged 2x on the right.
+Comment: 0,0:17:52.34,0:17:56.51,Signs,,0,0,0,,Thank you!
+Dialogue: 0,0:17:52.34,0:17:56.51,Signs,,0,0,0,,{\fnCCGabrielBautistaLito\pos(962.67,505.34)\frz350.8\c&H1E233E&\blur0.7}Thank you!
+Comment: 0,0:21:59.55,0:22:07.81,Signs,,0,0,0,,September
+Dialogue: 1,0:21:59.55,0:22:07.81,Signs,,0,0,0,,{\fnArial\b1\fs15\blur0.8\c&HE0E3E8&\pos(1543.98,309.43)}September 1
+Dialogue: 0,0:21:59.55,0:22:07.81,Signs,,0,0,0,,{\fnArial\b1\fs15\blur0.8\c&H5A7FB8&\3c&H5A7FB8&\bord2\pos(1543.98,309.43)}September 1
+Comment: 0,0:23:52.99,0:23:58.00,Signs,,0,0,0,,Next Episode Preview
+Dialogue: 0,0:23:52.99,0:23:58.00,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.7\c&HE58600&}An Unsatisfying Saturday
+Comment: 0,0:02:05.74,0:02:10.95,Title,,0,0,0,,Title Logo
+Dialogue: 1,0:02:05.20,0:02:08.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\pos(696,794)\blur0.7\fade(300,0)\t(400,800,\c&HD278A9&)}Magical Sisters {\c&HFFFFFF&\t(400,800,\c&H9F6BF4&)}LuluttoLilly
+Dialogue: 1,0:02:08.16,0:02:08.20,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 725.17 770.94 b 754.49 834.1 839.91 824.11 861.93 766.56 l 792.82 741.25)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.20,0:02:08.24,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.05 825.38 b 722.14 812.56 718.04 792.4 719.74 765.91 l 864.99 762.15 b 869.01 778.73 867.47 806.07 854.05 825.72)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.24,0:02:08.28,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 717.38 822.53 b 722.7 795.77 728.9 776.43 750.97 766.07 l 833.22 763.64 b 853.48 777.93 864.6 794.87 867.77 823.51)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.28,0:02:08.32,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.27 826.98 b 759.63 784.48 827.32 788.16 853.81 826.54 l 769.47 846.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.32,0:02:08.37,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.37,0:02:08.41,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 790.52 b 341.33 791.97 377.39 771.29 383.79 747.11 l 316.81 747.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.41,0:02:08.45,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 835.79 b 359.44 831.09 388.67 800.5 389.81 768.46 l 316.81 768.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.45,0:02:08.49,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 321.37 765.99 l 380.83 765.56 b 392.3 782.21 394.47 809.03 385.38 832.17 l 316.61 833.03 m 1030.93 849.03 b 1033.64 840.44 1043.1 825.41 1049.32 817.89 1044.13 806.11 1044.84 781.18 1052.35 770.75 l 1082.62 772.05 1081.32 852.49)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.49,0:02:08.53,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 324.31 770.6 b 353.7 773.42 382.27 795.8 389.46 831.39 l 316.3 835.75 m 1014.01 817.54 b 1008.97 803.62 1008.8 778.77 1018.99 767.17 l 1077.31 766.17 1069.69 832.12 1008.38 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.53,0:02:08.57,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 952.7 817.02 b 961.83 802.12 979.32 782.32 993.83 774.34 993.74 767.32 996.62 759.06 1001.14 753.96 l 1080.72 753.96 1074.19 839.7 946.93 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.57,0:02:08.62,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 916.67 817.02 b 925.8 802.12 943.29 782.32 957.8 774.34 957.71 767.32 960.59 759.06 965.11 753.96 l 1080.72 753.96 1074.19 839.7 910.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.62,0:02:08.66,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 880.98 817.02 b 890.11 802.12 907.6 782.32 922.11 774.34 922.02 767.32 924.9 759.06 929.42 753.96 l 1080.72 753.96 1074.19 839.7 875.21 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.66,0:02:08.70,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 817.05 830 b 823.43 809.24 848.3 776.81 861.6 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.70,0:02:08.74,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 781.47 830 b 787.85 809.24 812.72 776.81 826.02 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.74,0:02:08.78,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 745.34 830 b 751.72 809.24 776.59 776.81 789.89 767.72 l 1008.15 764.69 b 1019.28 772.28 1034.44 787.98 1042 803.67 1054.11 799.67 1059.11 795.22 1080.86 802.37 l 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.78,0:02:08.83,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 764.71 817.54 b 759.67 803.62 759.5 778.77 769.69 767.17 l 939.95 766.17 b 973.86 777.47 1008.62 803.81 1023.07 835.75 1031.89 820.24 1048.58 819.01 1061.15 820.63 l 1064.15 844.15 759.08 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.83,0:02:08.87,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 729.37 817.54 b 724.33 803.62 724.16 778.77 734.35 767.17 l 904.61 766.17 b 940.68 777.47 973.28 803.81 987.73 835.75 996.55 820.24 1013.24 819.01 1025.81 820.63 l 1028.81 844.15 723.74 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.87,0:02:08.91,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 693.41 817.54 b 688.37 803.62 688.2 778.77 698.39 767.17 l 868.65 766.17 b 904.72 777.47 937.32 803.81 951.77 835.75 960.59 820.24 977.28 819.01 989.85 820.63 l 992.85 844.15 687.78 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.91,0:02:08.95,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 632.63 817.02 b 641.76 802.12 659.25 782.32 673.76 774.34 673.67 767.32 676.55 759.06 681.07 753.96 l 786.65 754.99 b 838.47 769.48 878.35 804.12 901.37 839.7 l 626.86 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.95,0:02:08.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 596.67 817.02 b 605.8 802.12 623.29 782.32 637.8 774.34 637.71 767.32 640.59 759.06 645.11 753.96 l 750.69 754.99 b 802.51 769.48 842.39 804.12 865.41 839.7 l 590.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:08.99,0:02:09.03,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 561 817.02 b 570.13 802.12 587.62 782.32 602.13 774.34 602.04 767.32 604.92 759.06 609.44 753.96 l 715.02 754.99 b 766.84 769.48 806.72 804.12 829.74 839.7 l 555.23 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.03,0:02:09.08,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 551.05 817.54 b 546.01 803.62 545.84 778.77 556.03 767.17 l 726.29 766.17 b 762.36 777.47 794.96 803.81 809.41 835.75 818.23 820.24 834.92 819.01 847.49 820.63 l 850.49 844.15 545.42 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.08,0:02:09.12,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 515.47 817.54 b 510.43 803.62 510.26 778.77 520.45 767.17 l 690.71 766.17 b 726.78 777.47 759.38 803.81 773.83 835.75 782.65 820.24 799.34 819.01 811.91 820.63 l 814.91 844.15 509.84 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.12,0:02:09.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 479.46 817.54 b 474.42 803.62 474.25 778.77 484.44 767.17 l 654.7 766.17 b 690.77 777.47 723.37 803.81 737.82 835.75 746.64 820.24 763.33 819.01 775.9 820.63 l 778.9 844.15 473.83 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.16,0:02:09.20,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 415.26 824.01 b 428.04 802.12 445.53 782.32 460.04 774.34 459.95 767.32 462.83 759.06 467.35 753.96 l 572.93 754.99 b 624.75 769.48 664.63 804.12 687.65 839.7 l 413.14 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.20,0:02:09.24,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 379.4 824.01 b 392.18 802.12 409.67 782.32 424.18 774.34 424.09 767.32 426.97 759.06 431.49 753.96 l 537.07 754.99 b 588.89 769.48 628.77 804.12 651.79 839.7 l 377.28 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.24,0:02:09.28,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 343.27 824.01 b 356.05 802.12 373.54 782.32 388.05 774.34 387.96 767.32 390.84 759.06 395.36 753.96 l 500.94 754.99 b 552.76 769.48 592.64 804.12 615.66 839.7 l 341.15 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.28,0:02:09.33,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 540.17 760.88 b 552.02 771.33 572.14 789.4 579.38 804.71 598.57 793.47 628.5 799.64 645.9 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.33,0:02:09.37,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 504.31 760.88 b 516.16 771.33 536.28 789.4 543.52 804.71 562.71 793.47 592.64 799.64 610.04 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.37,0:02:09.41,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 468.89 760.88 b 480.74 771.33 500.86 789.4 508.1 804.71 527.29 793.47 557.22 799.64 574.62 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.41,0:02:09.45,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 411.88 767.89 b 436.33 777.12 472.22 802.1 484.07 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.45,0:02:09.49,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 375.75 767.89 b 400.2 777.12 436.09 802.1 447.94 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.49,0:02:09.53,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 340.71 767.89 b 365.16 777.12 401.05 802.1 412.9 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.53,0:02:09.58,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 327.4 794.52 b 336.04 801.67 357.78 823.32 366.3 838.49 l 322.29 835.79)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.58,0:02:09.83,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.83,0:02:09.87,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 357.55 770.11 b 383.97 831.02 480.35 834.27 501.34 763.19 l 421.37 755.88)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.87,0:02:09.91,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 361.24 820.94 b 355.94 807.09 349.11 794.79 353.72 766.94 l 504.44 767.96 b 506.66 787.61 507 799.58 494.87 823.33 l 426.17 841.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.91,0:02:09.95,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 352.41 831.8 b 350.58 811.52 358.48 785.24 380.35 767.7 l 469.97 762.84 b 491.77 777.11 504.99 798.99 506.13 828.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.95,0:02:09.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 364.29 828.03 b 395 786.91 458.6 780.29 491.48 826.68 l 430.18 836.94)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:09.99,0:02:10.03,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 1081.04 812.77 b 1005.27 825.24 938.13 815.7 879 759.2 l 1081.04 751.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:10.03,0:02:10.08,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 886.91 833.67 b 867.28 818.21 842.48 787.6 846.95 771.82 814.26 769.06 780.42 751.71 758.25 745 753.94 744.11 751.48 745.41 747.85 748.28 730.14 763.26 689.27 796.98 653.78 806.16 613.83 815.26 590.02 801.65 577.43 759.79 l 297.73 746.08 288.19 868.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:10.08,0:02:10.12,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 823.1 822.65 l 825.27 814 b 793.77 808.52 729.51 784.05 712.81 779.84 696.98 793.2 667.84 814.43 649.47 826.95 l 517.79 826.3 b 506.56 810.62 493.4 778 489.36 758.52 l 305.54 760.14 301.69 843)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:02:10.12,0:02:10.16,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 390.14 824.38 b 384.95 810.11 374.57 780.7 372.84 765.56 l 299.31 763.83 307.1 835.63)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 0,0:02:05.20,0:02:05.99,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\1a&HFE&\3a&HFE&\pos(696,794)\blur10\fade(300,350)\t(150,600,\c&HD278A9&)\4c&HEC7DFD&\shad0.01\bord10\4a&H00&}Magical Sisters LuluttoLilly
+Comment: 0,0:01:49.01,0:01:49.06,OP,,0,0,0,sync,sync
+Dialogue: 1,0:01:49.76,0:01:52.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:52.43,0:01:53.64,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:01:54.02,0:01:55.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:01:55.06,0:01:57.73,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:57.73,0:02:00.44,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:02:01.03,0:02:03.70,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:02:03.70,0:02:05.74,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:02:05.74,0:02:10.29,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:02:07.99,0:02:10.95,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:02:10.95,0:02:13.62,OP,,0,0,0,,{\fad(150,150)\blur0.6}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 1,0:02:13.62,0:02:16.25,OP,,0,0,0,,{\fad(150,150)\blur0.6}And right before my eyes{この目に映るのは}
+Dialogue: 1,0:02:16.25,0:02:19.04,OP,,0,0,0,,{\fad(150,150)\blur0.6}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 1,0:02:19.50,0:02:20.55,OP,,0,0,0,,{\fad(150,150)\blur0.6}Whoa
+Dialogue: 1,0:02:21.59,0:02:24.22,OP,,0,0,0,,{\fad(150,150)\blur0.6}Stay with me today{今日もそばにいて}
+Dialogue: 1,0:02:24.22,0:02:27.22,OP,,0,0,0,,{\fad(150,150)\blur0.6}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 1,0:02:27.22,0:02:31.01,OP,,0,0,0,,{\fad(150,150)\blur0.6}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 1,0:02:31.60,0:02:37.02,OP,,0,0,0,,{\fad(150,150)\blur0.6}I can hear the magic{魔法の音がする}
+Dialogue: 1,0:02:37.85,0:02:40.52,OP,,0,0,0,,{\fad(150,150)\blur0.6}I wanna sing with you
+Dialogue: 1,0:02:40.52,0:02:42.53,OP,,0,0,0,,{\fad(150,150)\blur0.6}Let's sing together{二人で歌おう}
+Dialogue: 1,0:02:42.53,0:02:46.32,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're a bright shining star{君は明るく輝く星}
+Dialogue: 1,0:02:46.32,0:02:47.99,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:02:48.41,0:02:50.87,OP,,0,0,0,,{\fad(150,150)\blur0.6}We can be shining stars
+Dialogue: 1,0:02:50.87,0:02:52.62,OP,,0,0,0,,{\fad(150,150)\blur0.6}Forever and ever{時間が経っても}
+Dialogue: 1,0:02:52.62,0:02:55.37,OP,,0,0,0,,{\fad(150,150)\blur0.6}That's our secret magic{秘密の魔法さ}
+Dialogue: 1,0:02:55.37,0:02:59.33,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:02:59.33,0:03:02.05,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:03:02.05,0:03:04.09,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:03:04.09,0:03:09.34,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:03:06.34,0:03:09.34,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:03:09.34,0:03:11.51,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:03:11.97,0:03:13.47,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:03:13.47,0:03:14.39,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:03:14.39,0:03:16.68,OP,,0,0,0,,{\fad(150,150)\blur0.6}B-U-B-E-E, bubee
+Dialogue: 1,0:03:16.68,0:03:18.06,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee love
+Dialogue: 0,0:01:49.76,0:01:52.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:52.43,0:01:53.64,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:01:54.02,0:01:55.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:01:55.06,0:01:57.73,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:57.73,0:02:00.44,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:02:01.03,0:02:03.70,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:02:03.70,0:02:05.74,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:02:05.74,0:02:10.29,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:02:07.99,0:02:10.95,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:02:10.95,0:02:13.62,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 0,0:02:13.62,0:02:16.25,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}And right before my eyes{この目に映るのは}
+Dialogue: 0,0:02:16.25,0:02:19.04,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 0,0:02:19.50,0:02:20.55,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Whoa
+Dialogue: 0,0:02:21.59,0:02:24.22,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Stay with me today{今日もそばにいて}
+Dialogue: 0,0:02:24.22,0:02:27.22,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 0,0:02:27.22,0:02:31.01,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 0,0:02:31.60,0:02:37.02,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I can hear the magic{魔法の音がする}
+Dialogue: 0,0:02:37.85,0:02:40.52,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I wanna sing with you
+Dialogue: 0,0:02:40.52,0:02:42.53,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Let's sing together{二人で歌おう}
+Dialogue: 0,0:02:42.53,0:02:46.32,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're a bright shining star{君は明るく輝く星}
+Dialogue: 0,0:02:46.32,0:02:47.99,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:02:48.41,0:02:50.87,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We can be shining stars
+Dialogue: 0,0:02:50.87,0:02:52.62,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Forever and ever{時間が経っても}
+Dialogue: 0,0:02:52.62,0:02:55.37,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}That's our secret magic{秘密の魔法さ}
+Dialogue: 0,0:02:55.37,0:02:59.33,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:02:59.33,0:03:02.05,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:03:02.05,0:03:04.09,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:03:04.09,0:03:09.34,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:03:06.34,0:03:09.34,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:03:09.34,0:03:11.51,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:03:11.97,0:03:13.47,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:03:13.47,0:03:14.39,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:03:14.39,0:03:16.68,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}B-U-B-E-E, bubee
+Dialogue: 0,0:03:16.68,0:03:18.06,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee love
+Comment: 0,0:22:22.99,0:22:23.03,ED,,0,0,0,sync,sync
+Dialogue: 2,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\blur0.6}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\blur0.6}(My dream!){「my dream！」}
+Dialogue: 2,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\blur0.6}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 2,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Alone!){「alone！」}
+Dialogue: 2,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 2,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still twinkle{輝いても}
+Dialogue: 2,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(No magic!){「no magic！」}
+Dialogue: 2,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 2,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still drift{流れてても}
+Dialogue: 2,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I feel so lonely{淋しそうに}
+Dialogue: 2,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\blur0.6}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 2,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'm searching for you{君を探してる}
+Dialogue: 2,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 2,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 2,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\blur0.6}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 2,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\blur0.6}I love it every way{「全部好き」}
+Dialogue: 2,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\blur0.6}Calling me, calling you{Calling me Calling you}
+Dialogue: 2,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(And you){「＆you」}
+Dialogue: 2,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 2,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\blur0.6}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 2,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\blur0.6}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 2,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\blur0.6}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 2,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(But I'm happy!){(but happy)}
+Dialogue: 2,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\blur0.6}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 2,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\blur0.6}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 2,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 2,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\blur0.6}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 2,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\blur0.6}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\blur0.6}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 1,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(My dream!){「my dream！」}
+Dialogue: 1,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 1,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Alone!){「alone！」}
+Dialogue: 1,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 1,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still twinkle{輝いても}
+Dialogue: 1,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(No magic!){「no magic！」}
+Dialogue: 1,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 1,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still drift{流れてても}
+Dialogue: 1,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I feel so lonely{淋しそうに}
+Dialogue: 1,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 1,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'm searching for you{君を探してる}
+Dialogue: 1,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 1,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 1,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 1,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I love it every way{「全部好き」}
+Dialogue: 1,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Calling me, calling you{Calling me Calling you}
+Dialogue: 1,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(And you){「＆you」}
+Dialogue: 1,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 1,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 1,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 1,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 1,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(But I'm happy!){(but happy)}
+Dialogue: 1,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 1,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 1,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 1,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 1,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 0,0:22:23.41,0:22:27.04,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:22:27.04,0:22:27.70,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:22:28.45,0:22:30.41,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:22:30.41,0:22:33.75,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:22:33.75,0:22:34.88,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(My dream!){「my dream！」}
+Dialogue: 0,0:22:35.63,0:22:37.55,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 0,0:22:37.55,0:22:38.17,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Alone!){「alone！」}
+Dialogue: 0,0:22:38.17,0:22:42.13,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 0,0:22:42.63,0:22:44.89,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still twinkle{輝いても}
+Dialogue: 0,0:22:44.22,0:22:45.05,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(No magic!){「no magic！」}
+Dialogue: 0,0:22:44.89,0:22:49.68,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 0,0:22:49.68,0:22:52.10,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still drift{流れてても}
+Dialogue: 0,0:22:51.48,0:22:54.40,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I feel so lonely{淋しそうに}
+Dialogue: 0,0:22:54.40,0:22:56.69,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 0,0:22:56.69,0:22:58.53,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'm searching for you{君を探してる}
+Dialogue: 0,0:22:58.53,0:23:02.45,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 0,0:23:02.45,0:23:06.78,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 0,0:23:06.78,0:23:10.20,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 0,0:23:10.20,0:23:10.95,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I love it every way{「全部好き」}
+Dialogue: 0,0:23:10.95,0:23:14.29,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Calling me, calling you{Calling me Calling you}
+Dialogue: 0,0:23:14.29,0:23:15.13,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(And you){「＆you」}
+Dialogue: 0,0:23:14.42,0:23:17.96,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 0,0:23:17.96,0:23:20.80,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 0,0:23:20.80,0:23:24.97,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 0,0:23:24.97,0:23:28.43,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 0,0:23:28.43,0:23:29.47,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(But I'm happy!){(but happy)}
+Dialogue: 0,0:23:28.43,0:23:32.27,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 0,0:23:32.27,0:23:34.10,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 0,0:23:34.10,0:23:35.85,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 0,0:23:35.85,0:23:39.40,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 0,0:23:39.40,0:23:42.90,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:23:42.90,0:23:43.86,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:23:44.36,0:23:46.45,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:23:46.45,0:23:49.74,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:23:49.74,0:23:52.29,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+
+[Aegisub Extradata]
+Data: 0,a-mo,e{"uuid"#3A"74d0b01b-92f7-45e2-a005-4667f5a526da"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs30\\c&HB6CAB5&\\blur0.7\\an6\\pos(1341.37#2C567.63)}New Semester"}
+Data: 1,a-mo,e{"uuid"#3A"a8c5e9ea-175f-4646-a5cc-fc893d5a6c8d"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs25\\c&HB6CAB5&\\blur0.7\\an6\\pos(1572.84#2C537.68)}Tuesday#2C"}
+Data: 2,a-mo,e{"uuid"#3A"11c7da16-ce5f-4608-96a4-4ec3f1589768"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs25\\c&HB6CAB5&\\blur0.7\\an6\\pos(1572.84#2C560.98)}September 1st"}
+Data: 3,_aegi_perspective_ambient_plane,e1157.21;208.21#7C1214.75;212.59#7C1211.63;371.17#7C1154.09;368.05
+Data: 4,a-mo,e{"uuid"#3A"8f8a953d-1910-4e7e-8ffd-f5710cba589b"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs30\\c&HB6CAB5&\\blur0.7\\an6\\fax0.052922\\fscx87.79\\fscy84.30\\frz-4.2579\\frx-0.0945\\fry2.4130\\org(1080.74#2C213.75)\\pos(1153.59#2C213.75)}New Semester"}
+Data: 5,_aegi_perspective_ambient_plane,e1157.18;208.19#7C1214.74;212.57#7C1211.62;371.22#7C1154.06;368.11
+Data: 6,a-mo,e{"uuid"#3A"a187a594-8a5f-426b-8910-a576b59e11ae"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs30\\c&HB6CAB5&\\blur0.7\\an6\\fax0.060635\\fscx66.23\\fscy67.44\\frz-4.5485\\frx-0.0930\\fry2.4966\\org(1326.85#2C195.56)\\pos(1358.49#2C195.56)}Tuesday#2C"}
+Data: 7,_aegi_perspective_ambient_plane,e1157.21;208.20#7C1214.75;212.58#7C1211.63;371.25#7C1154.09;368.13
+Data: 8,a-mo,e{"uuid"#3A"2a6ad144-a44d-4bf5-bddc-63e297c41b74"#2C"originalText"#3A"{\\fnDK Cool Crayon\\fs30\\c&HB6CAB5&\\blur0.7\\an6\\fax0.058396\\fscx66.22\\fscy67.44\\frz-4.4224\\frx-0.0948\\fry2.4960\\org(1326.54#2C211.37)\\pos(1358.19#2C211.37)}September 1st"}
+Data: 9,_aegi_perspective_ambient_plane,e569.29;248.81#7C1107.85;177.32#7C1257.58;907.67#7C738.99;976.69
+Data: 10,_aegi_perspective_ambient_plane,e569.30;248.85#7C1107.85;177.36#7C1257.58;907.67#7C738.99;976.69
+Data: 11,_aegi_perspective_ambient_plane,e569.30;248.86#7C1107.85;177.36#7C1257.58;907.67#7C738.99;976.70
+Data: 12,_aegi_perspective_ambient_plane,e92.29;375.99#7C357.79;265.34#7C416.46;342.67#7C142.96;457.34
+Data: 13,_aegi_perspective_ambient_plane,e122.06;415.44#7C397.75;309.69#7C439.54;368.43#7C157.61;476.86
+Data: 14,_aegi_perspective_ambient_plane,e303.68;668.95#7C620.15;567.80#7C643.82;606.50#7C323.07;708.93
+

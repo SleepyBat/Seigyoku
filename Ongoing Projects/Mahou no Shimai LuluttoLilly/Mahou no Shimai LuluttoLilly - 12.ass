@@ -1,0 +1,802 @@
+﻿[Script Info]
+Title: [Seigyoku] Mahou no Shimai LuluttoLilly - 12
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+Original Translation: Seigyoku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Alt,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H0084231D,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: INS,Nunito,75,&H00FFFFFF,&H000000FF,&H00E246E9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: OP,Immortal,75,&H00FFFFFF,&H000000FF,&H00E52FD3,&H00000000,0,0,0,0,90,100,0,0,1,0,0,2,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H00F18811,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 50,0:00:17.00,0:00:17.04,Default,chptr,0,0,0,,Cold Open
+Comment: 50,0:01:32.99,0:01:33.03,Default,chptr,0,0,0,opsync,OP
+Comment: 50,0:03:04.04,0:03:04.08,Default,chptr,0,0,0,,Part A
+Comment: 50,0:09:06.03,0:09:06.07,Default,chptr,0,0,0,,Part B
+Comment: 50,0:22:27.95,0:22:27.99,Default,chptr,0,0,0,edsync,ED
+Dialogue: 50,0:00:29.51,0:00:31.72,Default,Dad,0,0,0,,I wonder if Fuu's already up.
+Dialogue: 50,0:00:34.31,0:00:35.31,Default,Rui,0,0,0,,Goodbye, Dad!
+Dialogue: 50,0:00:35.31,0:00:37.06,Default,Dad,0,0,0,,Ah, take care.
+Dialogue: 50,0:00:43.31,0:00:45.07,Default,Azuki,0,0,0,,I can't wait to see you perform!
+Dialogue: 50,0:00:45.07,0:00:47.07,Default,Rui,0,0,0,,Thanks. I'll do my best.
+Dialogue: 50,0:00:49.86,0:00:51.82,Default,Rui,0,0,0,,I'm going to sing my heart out!
+Dialogue: 50,0:00:53.16,0:00:55.12,Default,Fuu,0,0,0,,Goodbye!
+Dialogue: 50,0:01:02.96,0:01:03.96,Default,Rui,0,0,0,,It's here.
+Dialogue: 50,0:01:15.18,0:01:17.10,Default,Fuu,0,0,0,,I missed it...
+Dialogue: 50,0:01:17.10,0:01:18.35,Default,Uguisu,0,0,0,,You'll be late?
+Dialogue: 50,0:01:18.35,0:01:21.14,Default,Fuu,0,0,0,,Nah, I'll be fine. I got up early.
+Dialogue: 50,0:01:23.10,0:01:26.15,Default,Fuu,0,0,0,,You think big sis will watch the concert?
+Dialogue: 50,0:01:26.15,0:01:27.73,Default,Uguisu,0,0,0,,Who knows.
+Dialogue: 50,0:01:27.73,0:01:30.82,Default,Fuu,0,0,0,,I mean, she's a fan of Lilly!\NAnd there's a livestream.
+Dialogue: 50,0:03:21.43,0:03:23.06,Default,Rui,0,0,0,,Is the coast clear?
+Dialogue: 50,0:03:25.27,0:03:26.10,Default,Rui,0,0,0,,Letto.
+Dialogue: 50,0:03:27.23,0:03:28.10,Default,Fuu,0,0,0,,I made it!
+Dialogue: 50,0:03:30.61,0:03:31.90,Default,Fuu,0,0,0,,Here will do.
+Dialogue: 50,0:03:32.57,0:03:34.32,Default,Uguisu,0,0,0,,Don't do it!
+Dialogue: 50,0:03:35.40,0:03:36.28,Default,Fuu,0,0,0,,Litto!
+Dialogue: 50,0:03:49.33,0:03:51.29,Default,Fuu,0,0,0,,Lililula, palilula!
+Dialogue: 50,0:03:53.34,0:03:55.21,Default,Fuu,0,0,0,,Pam pam power!
+Dialogue: 50,0:03:55.59,0:03:57.34,Default,Rui,0,0,0,,Lululila, pululila!
+Dialogue: 50,0:03:57.34,0:04:00.01,Default,Rui,0,0,0,,Pop'n pam!
+Dialogue: 50,0:04:30.08,0:04:31.33,Default,Rui,0,0,0,,Let's go, Azuki!
+Dialogue: 50,0:04:31.33,0:04:31.88,Default,Azuki,0,0,0,,Okay!
+Dialogue: 50,0:04:33.04,0:04:35.00,Default,Uguisu,0,0,0,,You're so reckless...
+Dialogue: 50,0:04:35.38,0:04:37.47,Default,Momo,0,0,0,,It's LuluttoLilly's first concert!
+Dialogue: 50,0:04:37.47,0:04:38.59,Default,Mizuka,0,0,0,,I can't wait!
+Dialogue: 50,0:04:38.59,0:04:40.26,Default,Momo,0,0,0,,I heard their tickets sold out!
+Dialogue: 50,0:04:40.26,0:04:41.68,Default,Mizuka,0,0,0,,That's crazy.
+Dialogue: 50,0:04:41.68,0:04:43.72,Default,Momo,0,0,0,,I've never been to a concert before.
+Dialogue: 50,0:04:43.72,0:04:44.97,Default,Mizuka,0,0,0,,Me neither!
+Dialogue: 50,0:04:44.97,0:04:47.73,Default,Momo,0,0,0,,I hope it's alright for middle schoolers to be here...
+Dialogue: 50,0:04:47.73,0:04:52.15,Default,Mizuka,0,0,0,,Don't see why not. Kadoya-kun and his friend\Nfrom the basketball club are here.
+Dialogue: 50,0:04:54.77,0:04:56.65,Default,Mizuka,0,0,0,,That girl is amazing...
+Dialogue: 50,0:04:57.90,0:05:00.03,Default,Momo,0,0,0,,She's one passionate superfan.
+Dialogue: 50,0:05:00.03,0:05:01.41,Default,Mizuka,0,0,0,,So cool.
+Dialogue: 50,0:05:04.24,0:05:05.99,Default,Fuu,0,0,0,,My disguise is perfect!
+Dialogue: 50,0:05:05.99,0:05:07.50,Default,Uguisu,0,0,0,,Why me too?
+Dialogue: 50,0:05:07.50,0:05:11.75,Default,Fuu,0,0,0,,Check it out, Uguisu!\NThere's so many people here!
+Dialogue: 50,0:05:12.12,0:05:14.21,Default,Fuu,0,0,0,,I feel like a big star.
+Dialogue: 50,0:05:15.00,0:05:16.63,Default,Uguisu,0,0,0,,Don't get cocky.
+Dialogue: 50,0:05:16.63,0:05:18.88,Default,Fuu,0,0,0,,Hey, Lulu-chan's fans are here too.
+Dialogue: 50,0:05:23.59,0:05:25.18,Default,Azuki,0,0,0,,What a big building.
+Dialogue: 50,0:05:25.18,0:05:25.76,Default,Rui,0,0,0,,Yeah.
+Dialogue: 50,0:05:31.89,0:05:32.94,Default,Rui,0,0,0,,I'll do my best.
+Dialogue: 50,0:05:34.19,0:05:35.57,Default,Mari,0,0,0,,Here you are.
+Dialogue: 50,0:05:35.57,0:05:37.44,Default,Shota,0,0,0,,Thank you very much.
+Dialogue: 50,0:05:38.36,0:05:44.07,Default,Hisashi,0,0,0,,Man, who knew they'd form a unit! That rocks!
+Dialogue: 50,0:05:44.07,0:05:45.87,Default,Shota,0,0,0,,For real. I didn't see it coming.
+Dialogue: 50,0:05:45.87,0:05:48.24,Default,Hisashi,0,0,0,,They're just such a crazy dream team!
+Dialogue: 50,0:05:49.58,0:05:51.71,Default,Shota,0,0,0,,Dude, take it down a notch.
+Dialogue: 50,0:05:52.25,0:05:55.29,Default,Hisashi,0,0,0,,Hey, you were looking forward to this too.
+Dialogue: 50,0:05:56.21,0:05:58.55,Default,Shota,0,0,0,,Yeah... a little, I guess.
+Dialogue: 50,0:05:58.55,0:06:03.51,Default,Hisashi,0,0,0,,Don't gimme that, Shota. You told me\Nyou were so excited you couldn't sleep last night.
+Dialogue: 50,0:06:03.51,0:06:04.89,Default,Shota,0,0,0,,Did not!
+Dialogue: 50,0:06:04.89,0:06:06.97,Default,Rui,0,0,0,,Huh? Shota-kun?
+Dialogue: 50,0:06:07.47,0:06:09.56,Default,Hisashi,0,0,0,,So, who's your favorite?
+Dialogue: 50,0:06:11.27,0:06:13.73,Default,Hisashi,0,0,0,,In LuluttoLilly, I mean!
+Dialogue: 50,0:06:13.73,0:06:16.06,Default,Hisashi,0,0,0,,Which one do you like better,\NLulu or Lilly?
+Dialogue: 50,0:06:17.19,0:06:19.90,Default,Hisashi,0,0,0,,Surely Lilly, since you got her autograph, right?
+Dialogue: 50,0:06:19.90,0:06:21.94,Default,Shota,0,0,0,,Um, I dunno...
+Dialogue: 50,0:06:21.94,0:06:24.99,Default,Hisashi,0,0,0,,So you like Lulu better, since she's mature?
+Dialogue: 50,0:06:24.99,0:06:27.37,Default,Shota,0,0,0,,Dude, it's not... I...
+Dialogue: 50,0:06:27.37,0:06:28.58,Default,Rui,0,0,0,,Who's your pick?
+Dialogue: 50,0:06:32.25,0:06:33.16,Default,Hisashi,0,0,0,,No way...
+Dialogue: 50,0:06:33.16,0:06:34.62,Default,Shota,0,0,0,,L-Lu...
+Dialogue: 50,0:06:35.83,0:06:37.54,Default,Rui,0,0,0,,Thanks for your support!
+Dialogue: 50,0:06:39.25,0:06:42.13,Default,Hisashi,0,0,0,,L-Lu-Lululu—!
+Dialogue: 50,0:06:47.55,0:06:48.51,Default,Hisashi,0,0,0,,Dang...
+Dialogue: 50,0:06:49.47,0:06:51.10,Default,Fuu,0,0,0,,Good morning!
+Dialogue: 50,0:06:51.10,0:06:53.77,Default,Staff 1,0,0,0,,Lilly-san, best of luck.
+Dialogue: 50,0:06:57.06,0:06:58.56,Default,Fuu,0,0,0,,Good morning!
+Dialogue: 50,0:06:58.56,0:07:00.27,Default,Staff 2/3,0,0,0,,Good morning.
+Dialogue: 50,0:07:02.36,0:07:03.82,Default,Fuu,0,0,0,,Good morning!
+Dialogue: 50,0:07:03.82,0:07:05.32,Default,Toko,0,0,0,,Morning, Lilly!
+Dialogue: 50,0:07:05.32,0:07:06.24,Default,Sena,0,0,0,,Morning.
+Dialogue: 50,0:07:06.57,0:07:07.66,Default,Toko,0,0,0,,How do you feel?
+Dialogue: 50,0:07:07.66,0:07:08.95,Default,Fuu,0,0,0,,In it to win it!
+Dialogue: 50,0:07:08.95,0:07:09.74,Default,Toko,0,0,0,,Good!
+Dialogue: 50,0:07:10.16,0:07:12.75,Default,Toko,0,0,0,,Prez, have you checked the guest list?
+Dialogue: 50,0:07:12.75,0:07:17.00,Default,Yasuo,0,0,0,,Yeah, I have. I'll give them my regards soon.
+Dialogue: 50,0:07:17.00,0:07:18.13,Default,Sena,0,0,0,,Where's Lulu?
+Dialogue: 50,0:07:18.13,0:07:20.38,Default,Yasuo,0,0,0,,Already in the greenroom.
+Dialogue: 50,0:07:20.38,0:07:22.34,Default,Staff 4,0,0,0,,Can we have a moment?
+Dialogue: 50,0:07:22.34,0:07:25.93,Default,Staff 4,0,0,0,,Are you sure you want to use the moving cart?
+Dialogue: 50,0:07:25.93,0:07:28.64,Default,Staff 5,0,0,0,,The venue's packed so it won't move around much.
+Dialogue: 50,0:07:28.64,0:07:30.60,Default,Toko,0,0,0,,Please try and make it work!
+Dialogue: 50,0:07:32.06,0:07:35.31,Default,Staff 4,0,0,0,,Well, we can try to figure something out.
+Dialogue: 50,0:07:35.31,0:07:36.64,Default,Toko,0,0,0,,If you will!
+Dialogue: 50,0:07:36.64,0:07:38.15,Default,Staff 5,0,0,0,,I don't know...
+Dialogue: 50,0:07:38.15,0:07:39.86,Default,Toko,0,0,0,,Do something! Anything!
+Dialogue: 50,0:07:37.56,0:07:39.86,Default,Sena,0,0,0,,{\an8}Well, you can't force it.
+Dialogue: 50,0:07:40.77,0:07:43.28,Default,Fuu,0,0,0,,Aww, so cute!
+Dialogue: 50,0:07:43.28,0:07:44.94,Default,Rui,0,0,0,,Are those sweets?
+Dialogue: 50,0:07:44.94,0:07:48.57,Default,Fuu,0,0,0,,Yeah, macarons! I've always wanted to try these!
+Dialogue: 50,0:07:50.49,0:07:51.74,Default,Fuu,0,0,0,,Lulu-chan?
+Dialogue: 50,0:07:51.74,0:07:53.70,Default,Rui,0,0,0,,I'm a little nervous.
+Dialogue: 50,0:07:58.58,0:07:59.96,Default,Fuu,0,0,0,,Let's eat these together!
+Dialogue: 50,0:08:02.34,0:08:03.96,Default,Fuu,0,0,0,,I'm sure they taste great!
+Dialogue: 50,0:08:04.80,0:08:06.22,Default,Rui,0,0,0,,They're so cute.
+Dialogue: 50,0:08:06.84,0:08:08.18,Default,Rui,0,0,0,,Let's eat.
+Dialogue: 50,0:08:08.18,0:08:10.93,Default,Fuu,0,0,0,,Apparently the president gave us these.
+Dialogue: 50,0:08:10.93,0:08:12.72,Default,Rui,0,0,0,,That's generous of him.
+Dialogue: 50,0:08:15.56,0:08:16.98,Default,Fuu,0,0,0,,It'sh yummy!
+Dialogue: 50,0:08:16.98,0:08:18.39,Default,Rui,0,0,0,,Yesh, very delicious.
+Dialogue: 50,0:08:20.40,0:08:21.98,Default,Fuu,0,0,0,,Did that calm you down?
+Dialogue: 50,0:08:22.31,0:08:24.73,Default,Rui,0,0,0,,Yes! Now I can finally smile.
+Dialogue: 50,0:08:25.36,0:08:29.41,Default,Rui,0,0,0,,Before, my cheeks were puffed up\Nso my face looked all funny.
+Dialogue: 50,0:08:30.03,0:08:32.70,Default,Fuu,0,0,0,,I wanna see your funny face!
+Dialogue: 50,0:08:32.70,0:08:34.41,Default,Rui,0,0,0,,It looked kind of like this.
+Dialogue: 50,0:08:39.67,0:08:42.50,Default,Fuu,0,0,0,,It'll be fine. We just have to perform\Nlike we always do.
+Dialogue: 50,0:08:42.50,0:08:44.55,Default,Fuu,0,0,0,,Just gotta relax.
+Dialogue: 50,0:08:52.47,0:08:53.51,Default,Rui,0,0,0,,{\i1}Huh?
+Dialogue: 50,0:08:54.39,0:08:56.02,Default,Rui,0,0,0,,{\i1}Isn't that song...?
+Dialogue: 50,0:08:56.77,0:08:59.06,Default,Toko,0,0,0,,Are you two ready?
+Dialogue: 50,0:08:59.06,0:09:00.77,Default,Fuu,0,0,0,,We're coming!
+Dialogue: 50,0:09:09.99,0:09:12.03,Default,Staff 3,0,0,0,,The show will begin shortly!
+Dialogue: 50,0:09:12.45,0:09:14.66,Default,Fuu,0,0,0,,Whoa, so many people...
+Dialogue: 50,0:09:14.66,0:09:15.95,Default,Rui,0,0,0,,It's a full house.
+Dialogue: 50,0:09:15.95,0:09:17.54,Default,Fuu,0,0,0,,That's crazy...
+Dialogue: 50,0:09:18.12,0:09:20.54,Default,Rui,0,0,0,,All these people watching us...
+Dialogue: 50,0:09:20.54,0:09:25.34,Default,Toko,0,0,0,,All that's left is for you to give it your all,\Nnow that we've gotten this far.
+Dialogue: 50,0:09:25.34,0:09:25.96,Default,Sena,0,0,0,,Yeah.
+Dialogue: 50,0:09:25.96,0:09:27.46,Default,Fuu,0,0,0,,Alright!
+Dialogue: 50,0:09:27.46,0:09:29.17,Default,Fuu,0,0,0,,Let's knock 'em dead!
+Dialogue: 50,0:09:29.17,0:09:30.47,Default,Toko,0,0,0,,That's the spirit!
+Dialogue: 50,0:09:34.01,0:09:34.80,Default,Sena,0,0,0,,Lulu.
+Dialogue: 50,0:09:35.30,0:09:38.39,Default,Sena,0,0,0,,You have a great singing voice.\NHave some confidence.
+Dialogue: 50,0:09:38.39,0:09:39.56,Default,Rui,0,0,0,,Okay.
+Dialogue: 50,0:09:40.06,0:09:42.81,Default,Sena,0,0,0,,The audience is all snowmen.
+Dialogue: 50,0:09:47.02,0:09:48.07,Default,Sena,0,0,0,,Break a leg.
+Dialogue: 50,0:09:49.53,0:09:50.32,Default,Rui,0,0,0,,I will!
+Dialogue: 50,0:09:50.82,0:09:53.82,Default,Toko,0,0,0,,All that said, the show's about to start.
+Dialogue: 50,0:09:56.49,0:10:01.46,Default,Toko,0,0,0,,Today's concert is a big step\Nto getting us further out there.
+Dialogue: 50,0:10:02.50,0:10:06.75,Default,Toko,0,0,0,,You two are going to become\Namazing idols and change the world.
+Dialogue: 50,0:10:12.63,0:10:13.68,Default,Toko,0,0,0,,Once...
+Dialogue: 50,0:10:13.68,0:10:15.34,Default,All,0,0,0,,More-More!
+Dialogue: 50,0:10:15.34,0:10:17.56,Default,Toko,0,0,0,,I can't hear you! Once...
+Dialogue: 50,0:10:17.56,0:10:19.43,Default,All,0,0,0,,More-More!
+Dialogue: 50,0:10:21.93,0:10:23.89,Default,Fuu/Rui,0,0,0,,LuluttoLilly!
+Dialogue: 50,0:10:30.19,0:10:35.70,Default,Fuu,0,0,0,,Hey everyone! Let's blow the roof off this place!
+Dialogue: 50,0:10:50.00,0:10:51.88,Default,Shota,0,0,0,,So cute!{かわいいぞ！}
+Dialogue: 50,0:10:44.96,0:10:48.42,Default,CompatoLilly,0,0,0,,{\an8\i1}I take off my sneakers, feeling I've grown
+Dialogue: 50,0:10:48.42,0:10:51.88,Default,CompatoLilly,0,0,0,,{\an8\i1}Bout to head out in my new fit
+Dialogue: 50,0:10:51.88,0:10:55.22,Default,CompatoLilly,0,0,0,,{\an8\i1}Earrings dangling, lip gloss on
+Dialogue: 50,0:10:55.22,0:10:58.64,Default,CompatoLilly,0,0,0,,{\an8\i1}Somehow dazzling even inside
+Dialogue: 50,0:10:58.64,0:11:02.18,Default,CompatoLilly,0,0,0,,{\an8\i1}It all seemed like a fairy tale on a screen
+Dialogue: 50,0:11:02.18,0:11:06.23,Default,CompatoLilly,0,0,0,,{\an8\i1}Something far, far away I could never reach
+Dialogue: 50,0:11:07.35,0:11:10.23,Default,Fuu,0,0,0,,Everyone! Are you enjoying it?
+Dialogue: 50,0:11:13.07,0:11:17.49,Default,Fuu,0,0,0,,Thank you for cheering me on so much!
+Dialogue: 50,0:11:18.53,0:11:22.33,Default,Fuu,0,0,0,,All of you watching the stream,\Nare you excited?
+Dialogue: 50,0:11:23.95,0:11:29.50,Default,Fuu,0,0,0,,Seeing all your faces makes me think...\NWow, I really am an idol!
+Dialogue: 50,0:11:30.29,0:11:32.92,Default,Fuu,0,0,0,,I'm sure you're watching me too!
+Dialogue: 50,0:11:33.46,0:11:37.09,Default,Fuu,0,0,0,,I'm singing today for you, my beloved!
+Dialogue: 50,0:11:38.34,0:11:40.01,Default,Fuu,0,0,0,,Next up, it's Lulu-chan!
+Dialogue: 50,0:11:40.80,0:11:42.43,Default,Rui,0,0,0,,I'm here!
+Dialogue: 50,0:11:44.68,0:11:49.02,Default,Fuu,0,0,0,,She's my great friend,\Nand my partner in LuluttoLilly!
+Dialogue: 50,0:11:49.02,0:11:51.27,Default,Rui,0,0,0,,T-T-Thank you for having me!
+Dialogue: 50,0:11:51.86,0:11:53.28,Default,Fuu,0,0,0,,Ain't she a cutie!
+Dialogue: 50,0:11:53.86,0:11:55.03,Default,Fuu,0,0,0,,Sing for us!
+Dialogue: 50,0:11:56.07,0:11:56.82,Default,Rui,0,0,0,,Okay!
+Dialogue: 50,0:12:00.99,0:12:02.37,Default,Shota,0,0,0,,Oh my gosh!
+Dialogue: 50,0:12:08.21,0:12:15.17,Default,MashuLulu,0,0,0,,{\an8\i1}Fly up, fly up, fly up, into the great blue sky
+Dialogue: 50,0:12:15.17,0:12:20.47,Default,MashuLulu,0,0,0,,{\an8\i1}The miracle will keep shining up ahead
+Dialogue: 50,0:12:20.47,0:12:24.85,Default,MashuLulu,0,0,0,,{\an8\i1}So don't stop chasing it until you smile
+Dialogue: 50,0:12:24.85,0:12:27.39,Default,MashuLulu,0,0,0,,{\an8\i1}Little singing bird
+Dialogue: 50,0:12:28.02,0:12:30.10,Default,Mari,0,0,0,,Keep it up, you two.
+Dialogue: 50,0:12:31.15,0:12:33.23,Default,Rui,0,0,0,,Thank you very much!
+Dialogue: 50,0:12:34.40,0:12:35.86,Default,Rui,0,0,0,,Thank you!
+Dialogue: 50,0:12:36.49,0:12:39.32,Default,Toko,0,0,0,,Once Lulu's part wraps up, it'll be time...
+Dialogue: 50,0:12:39.32,0:12:40.03,Default,Sena,0,0,0,,Yeah.
+Dialogue: 50,0:12:44.37,0:12:46.95,Default,Toko,0,0,0,,Does this look...
+Dialogue: 50,0:12:46.95,0:12:48.04,Default,Toko,0,0,0,,okay to you?
+Dialogue: 50,0:12:48.04,0:12:49.08,Default,Sena,0,0,0,,Not one bit.
+Dialogue: 50,0:12:49.08,0:12:52.21,Default,Toko,0,0,0,,Huh?! You should've said so earlier!
+Dialogue: 50,0:12:52.21,0:12:55.13,Default,Sena,0,0,0,,But you clearly wanted to do this.
+Dialogue: 50,0:12:56.21,0:12:59.05,Default,Toko,0,0,0,,We can't do it! This cart is a disaster!
+Dialogue: 50,0:12:59.05,0:13:01.59,Default,Seena,0,0,0,,Well, we all made it together.
+Dialogue: 50,0:13:02.14,0:13:03.55,Default,Rui,0,0,0,,I'm back!
+Dialogue: 50,0:13:04.56,0:13:08.64,Default,Toko,0,0,0,,Listen up, girls. We've changed the cart's route.
+Dialogue: 50,0:13:08.64,0:13:09.44,Default,Fuu,0,0,0,,Huh?
+Dialogue: 50,0:13:09.44,0:13:10.73,Default,Rui,0,0,0,,How come?
+Dialogue: 50,0:13:10.73,0:13:12.69,Default,Sena,0,0,0,,Issues with the venue.
+Dialogue: 50,0:13:13.11,0:13:16.03,Default,Staff 2,0,0,0,,We'll send the cart out! Please get on standby!
+Dialogue: 50,0:13:16.03,0:13:16.94,Default,Fuu/Rui,0,0,0,,Okay!
+Dialogue: 50,0:13:19.95,0:13:21.45,Default,Staff 2/3,0,0,0,,Here we go.
+Dialogue: 50,0:13:22.03,0:13:23.74,Default,Toko,0,0,0,,Sorry! Good luck!
+Dialogue: 50,0:13:25.78,0:13:29.41,Default,Fuu,0,0,0,,Hey, everyone!
+Dialogue: 50,0:13:26.66,0:13:28.91,Alt,Rui,0,0,0,,Are you having fun?
+Dialogue: 50,0:13:29.75,0:13:31.92,Default,Fuu,0,0,0,,How are you?
+Dialogue: 50,0:13:34.84,0:13:36.50,Default,Mizuka,0,0,0,,Was that it?
+Dialogue: 50,0:13:36.50,0:13:37.59,Default,Momo,0,0,0,,What was that?
+Dialogue: 50,0:13:40.01,0:13:42.01,Default,Fuu,0,0,0,,{\an8}Are you all excited?!
+Dialogue: 50,0:13:42.01,0:13:44.76,Default,Rui,0,0,0,,{\an8}I hope my singing has reached you!
+Dialogue: 50,0:13:43.30,0:13:45.47,Default,Hisashi,0,0,0,,That's... so lame...
+Dialogue: 50,0:13:49.43,0:13:50.73,Default,Toko,0,0,0,,This isn't what I pictured!
+Dialogue: 50,0:13:50.73,0:13:52.35,Default,Sena,0,0,0,,I knew it'd flop.
+Dialogue: 50,0:13:52.35,0:13:54.56,Default,Toko,0,0,0,,Where's all the excitement?!
+Dialogue: 50,0:13:54.56,0:13:56.65,Default,Sena,0,0,0,,It'll be fine when they start singing.
+Dialogue: 50,0:13:56.65,0:13:58.57,Default,Toko,0,0,0,,But...
+Dialogue: 50,0:13:57.32,0:13:58.78,Default,Staff 3,0,0,0,,{\an8}We're bringing the cart back.
+Dialogue: 50,0:13:58.57,0:14:01.70,Default,Toko,0,0,0,,A good concert {\i1}needs{\i0} a moving cart!
+Dialogue: 50,0:13:59.09,0:14:00.40,Alt,Sena,0,0,0,,Calm down.
+Dialogue: 50,0:14:01.70,0:14:04.41,Default,Rui,0,0,0,,{\i1}We did make this cart together.
+Dialogue: 50,0:14:05.82,0:14:09.87,Default,Rui,0,0,0,,Lululila, pululila, make this an even better cart!
+Dialogue: 50,0:14:20.42,0:14:22.34,Default,Staff 2/3,0,0,0,,What?!
+Dialogue: 50,0:14:28.31,0:14:31.60,Default,Fuu,0,0,0,,Last up will be our brand new duet!\NSing along with us!
+Dialogue: 50,0:14:31.60,0:14:33.23,Default,Rui,0,0,0,,Let's go!
+Dialogue: 51,0:14:49.74,0:14:54.71,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Our meeting was no coincidence{出会えたことは偶然じゃないよ}
+Dialogue: 51,0:14:54.71,0:15:01.09,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}We're like two stars connected in a constellation{星と星繋いで星座になってみたいに}
+Dialogue: 51,0:15:01.09,0:15:06.09,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}If we had happened to witness it{気まぐれのようで立ち会えたら}
+Dialogue: 51,0:15:06.09,0:15:09.81,INS,CompatoLilly,0,0,0,,{\fad(100,100)}Then we'd know now{これって今なら分かるよ}
+Dialogue: 51,0:15:09.81,0:15:12.72,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}That it was a miracle{奇跡だってね}
+Dialogue: 51,0:15:12.72,0:15:15.69,INS,CompatoLilly,0,0,0,,{\fad(100,100)}Let's combine our feelings{気持ちを重ねて}
+Dialogue: 51,0:15:15.69,0:15:17.77,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Synchronize our heartbeats{ドキドキシンクロして}
+Dialogue: 51,0:15:17.77,0:15:24.40,INS,MashuLulu,0,0,0,,{\fad(100,100)}And let our imaginations grow even wilder{もっとイマジネーション大きく膨らませて}
+Dialogue: 51,0:15:22.53,0:15:24.86,INS,CompatoLilly,0,0,140,,{\fad(100,100)}UFO, take us away{連れててUFO}
+Dialogue: 51,0:15:24.40,0:15:27.32,INS,MashuLulu,0,0,0,,{\fad(100,100)}To the sky of love{恋空}
+Dialogue: 51,0:15:25.32,0:15:27.32,INS,CompatoLilly,0,0,140,,{\fad(100,100)}We'll soar into the sky{空まで飛べる}
+Dialogue: 51,0:15:27.32,0:15:28.74,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Magical
+Dialogue: 51,0:15:28.74,0:15:33.79,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Even the dreams I cannot reach{手の届かない夢だって}
+Dialogue: 51,0:15:33.79,0:15:38.58,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}So long as you're with me, I can make them happen{一緒だったら with me\N叶えられてそう}
+Dialogue: 51,0:15:38.58,0:15:40.25,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Universe
+Dialogue: 51,0:15:40.25,0:15:44.63,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Please stay with me, don't leave{離れないでついていてね}
+Dialogue: 51,0:15:44.63,0:15:47.63,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}We're gentle shooting stars, love{ふわっと流れ星Love}
+Dialogue: 51,0:15:47.63,0:15:52.76,INS,LuluttoLilly,0,0,0,,{\fad(100,100)}Taking a rendezvous on a crescent moon{三日月座ってランデブー}
+Dialogue: 50,0:14:49.74,0:14:54.71,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}O{*\c&HE048E2&\3c&HE048E2&}u{*\c&HDF4BDB&\3c&HDF4BDB&}r {*\c&HDC51CE&\3c&HDC51CE&}m{*\c&HDA54C7&\3c&HDA54C7&}e{*\c&HD957C1&\3c&HD957C1&}e{*\c&HD85ABA&\3c&HD85ABA&}t{*\c&HD65DB4&\3c&HD65DB4&}i{*\c&HD560AD&\3c&HD560AD&}n{*\c&HD362A6&\3c&HD362A6&}g {*\c&HD16899&\3c&HD16899&}w{*\c&HCF6B92&\3c&HCF6B92&}a{*\c&HCE6E8C&\3c&HCE6E8C&}s {*\c&HCB747F&\3c&HCB747F&}n{*\c&HC97778&\3c&HC97778&}o {*\c&HC77D6B&\3c&HC77D6B&}c{*\c&HC57F64&\3c&HC57F64&}o{*\c&HC4825D&\3c&HC4825D&}i{*\c&HC28557&\3c&HC28557&}n{*\c&HC18850&\3c&HC18850&}c{*\c&HC08B4A&\3c&HC08B4A&}i{*\c&HBE8E43&\3c&HBE8E43&}d{*\c&HBD913C&\3c&HBD913C&}e{*\c&HBB9436&\3c&HBB9436&}n{*\c&HBA972F&\3c&HBA972F&}c{\c&HB99A29&\3c&HB99A29&}e{出会えたことは偶然じゃないよ}
+Dialogue: 50,0:14:54.71,0:15:01.09,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}W{*\c&HE147E5&\3c&HE147E5&}e{*\c&HE049E1&\3c&HE049E1&}'{*\c&HDF4BDD&\3c&HDF4BDD&}r{*\c&HDE4DD9&\3c&HDE4DD9&}e {*\c&HDC50D1&\3c&HDC50D1&}l{*\c&HDC52CD&\3c&HDC52CD&}i{*\c&HDB54C9&\3c&HDB54C9&}k{*\c&HDA55C5&\3c&HDA55C5&}e {*\c&HD859BD&\3c&HD859BD&}t{*\c&HD75BB9&\3c&HD75BB9&}w{*\c&HD65CB5&\3c&HD65CB5&}o {*\c&HD560AD&\3c&HD560AD&}s{*\c&HD462A9&\3c&HD462A9&}t{*\c&HD363A5&\3c&HD363A5&}a{*\c&HD265A1&\3c&HD265A1&}r{*\c&HD1679D&\3c&HD1679D&}s {*\c&HD06A95&\3c&HD06A95&}c{*\c&HCF6C91&\3c&HCF6C91&}o{*\c&HCE6E8D&\3c&HCE6E8D&}n{*\c&HCD7089&\3c&HCD7089&}n{*\c&HCC7185&\3c&HCC7185&}e{*\c&HCB7381&\3c&HCB7381&}c{*\c&HCA757D&\3c&HCA757D&}t{*\c&HCA7779&\3c&HCA7779&}e{*\c&HC97875&\3c&HC97875&}d {*\c&HC77C6D&\3c&HC77C6D&}i{*\c&HC67E69&\3c&HC67E69&}n {*\c&HC48161&\3c&HC48161&}a {*\c&HC38559&\3c&HC38559&}c{*\c&HC28655&\3c&HC28655&}o{*\c&HC18851&\3c&HC18851&}n{*\c&HC08A4D&\3c&HC08A4D&}s{*\c&HBF8C49&\3c&HBF8C49&}t{*\c&HBE8D45&\3c&HBE8D45&}e{*\c&HBE8F41&\3c&HBE8F41&}l{*\c&HBD913D&\3c&HBD913D&}l{*\c&HBC9339&\3c&HBC9339&}a{*\c&HBB9435&\3c&HBB9435&}t{*\c&HBA9631&\3c&HBA9631&}i{*\c&HB9982D&\3c&HB9982D&}o{\c&HB99A29&\3c&HB99A29&}n{星と星繋いで星座になってみたいに}
+Dialogue: 50,0:15:01.09,0:15:06.09,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}I{*\c&HE048E2&\3c&HE048E2&}f {*\c&HDE4ED6&\3c&HDE4ED6&}w{*\c&HDC50D0&\3c&HDC50D0&}e {*\c&HDA56C3&\3c&HDA56C3&}h{*\c&HD858BD&\3c&HD858BD&}a{*\c&HD75BB7&\3c&HD75BB7&}d {*\c&HD461AB&\3c&HD461AB&}h{*\c&HD363A4&\3c&HD363A4&}a{*\c&HD2669E&\3c&HD2669E&}p{*\c&HD06998&\3c&HD06998&}p{*\c&HCF6B92&\3c&HCF6B92&}e{*\c&HCE6E8C&\3c&HCE6E8C&}n{*\c&HCC7185&\3c&HCC7185&}e{*\c&HCB747F&\3c&HCB747F&}d {*\c&HC87973&\3c&HC87973&}t{*\c&HC77C6D&\3c&HC77C6D&}o {*\c&HC48160&\3c&HC48160&}w{*\c&HC3845A&\3c&HC3845A&}i{*\c&HC28754&\3c&HC28754&}t{*\c&HC0894E&\3c&HC0894E&}n{*\c&HBF8C47&\3c&HBF8C47&}e{*\c&HBE8F41&\3c&HBE8F41&}s{*\c&HBC913B&\3c&HBC913B&}s {*\c&HBA972F&\3c&HBA972F&}i{\c&HB99A29&\3c&HB99A29&}t{気まぐれのようで立ち会えたら}
+Dialogue: 50,0:15:06.09,0:15:09.81,INS,CompatoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}Then we'd know now {これって今なら分かるよ}
+Dialogue: 50,0:15:09.81,0:15:12.72,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}T{*\c&HDF4ADF&\3c&HDF4ADF&}h{*\c&HDD4ED5&\3c&HDD4ED5&}a{*\c&HDB52CC&\3c&HDB52CC&}t {*\c&HD75BB9&\3c&HD75BB9&}i{*\c&HD55FAF&\3c&HD55FAF&}t {*\c&HD1679C&\3c&HD1679C&}w{*\c&HCF6B92&\3c&HCF6B92&}a{*\c&HCD7089&\3c&HCD7089&}s {*\c&HC97875&\3c&HC97875&}a {*\c&HC58062&\3c&HC58062&}m{*\c&HC38559&\3c&HC38559&}i{*\c&HC1894F&\3c&HC1894F&}r{*\c&HBF8D45&\3c&HBF8D45&}a{*\c&HBD913C&\3c&HBD913C&}c{*\c&HBB9532&\3c&HBB9532&}l{\c&HB99A29&\3c&HB99A29&}e{奇跡だってね}
+Dialogue: 50,0:15:12.72,0:15:15.69,INS,CompatoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}Let's combine our feelings{気持ちを重ねて}
+Dialogue: 50,0:15:15.69,0:15:17.77,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}S{*\c&HE049E1&\3c&HE049E1&}y{*\c&HDE4CD9&\3c&HDE4CD9&}n{*\c&HDD50D1&\3c&HDD50D1&}c{*\c&HDB53CA&\3c&HDB53CA&}h{*\c&HD956C2&\3c&HD956C2&}r{*\c&HD85ABA&\3c&HD85ABA&}o{*\c&HD65DB3&\3c&HD65DB3&}n{*\c&HD460AB&\3c&HD460AB&}i{*\c&HD364A3&\3c&HD364A3&}z{*\c&HD1679C&\3c&HD1679C&}e {*\c&HCE6E8C&\3c&HCE6E8C&}o{*\c&HCC7185&\3c&HCC7185&}u{*\c&HCB757D&\3c&HCB757D&}r {*\c&HC77B6E&\3c&HC77B6E&}h{*\c&HC67F66&\3c&HC67F66&}e{*\c&HC4825E&\3c&HC4825E&}a{*\c&HC28557&\3c&HC28557&}r{*\c&HC1894F&\3c&HC1894F&}t{*\c&HBF8C47&\3c&HBF8C47&}b{*\c&HBD8F40&\3c&HBD8F40&}e{*\c&HBC9338&\3c&HBC9338&}a{*\c&HBA9630&\3c&HBA9630&}t{\c&HB99A29&\3c&HB99A29&}s{ドキドキシンクロして}
+Dialogue: 50,0:15:17.77,0:15:24.40,INS,MashuLulu,0,0,0,,{\c&HB99A29&\3c&HB99A29&\bord4\blur1\fad(100,100)}And let our imaginations grow even wilder{もっとイマジネーション大きく膨らませて}
+Dialogue: 50,0:15:22.53,0:15:24.86,INS,CompatoLilly,0,0,140,,{\c&HE246E9&\bord4\blur1\fad(100,100)}UFO, take us away{連れててUFO}
+Dialogue: 50,0:15:24.40,0:15:27.32,INS,MashuLulu,0,0,0,,{\c&HB99A29&\3c&HB99A29&\bord4\blur1\fad(100,100)}To the sky of love{恋空}
+Dialogue: 50,0:15:25.32,0:15:27.32,INS,CompatoLilly,0,0,140,,{\c&HE246E9&\bord4\blur1\fad(100,100)}We'll soar into the sky{空まで飛べる}
+Dialogue: 50,0:15:27.32,0:15:28.74,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}M{*\c&HDB54C9&\3c&HDB54C9&}a{*\c&HD462A9&\3c&HD462A9&}g{*\c&HCD7089&\3c&HCD7089&}i{*\c&HC67E69&\3c&HC67E69&}c{*\c&HBF8C49&\3c&HBF8C49&}a{\c&HB99A29&\3c&HB99A29&}l
+Dialogue: 50,0:15:28.74,0:15:33.79,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}E{*\c&HE048E2&\3c&HE048E2&}v{*\c&HDF4BDB&\3c&HDF4BDB&}e{*\c&HDD4ED5&\3c&HDD4ED5&}n {*\c&HDA54C7&\3c&HDA54C7&}t{*\c&HD957C1&\3c&HD957C1&}h{*\c&HD85ABA&\3c&HD85ABA&}e {*\c&HD560AD&\3c&HD560AD&}d{*\c&HD362A6&\3c&HD362A6&}r{*\c&HD265A0&\3c&HD265A0&}e{*\c&HD16899&\3c&HD16899&}a{*\c&HCF6B92&\3c&HCF6B92&}m{*\c&HCE6E8C&\3c&HCE6E8C&}s {*\c&HCB747F&\3c&HCB747F&}I {*\c&HC87A71&\3c&HC87A71&}c{*\c&HC77D6B&\3c&HC77D6B&}a{*\c&HC57F64&\3c&HC57F64&}n{*\c&HC4825D&\3c&HC4825D&}n{*\c&HC28557&\3c&HC28557&}o{*\c&HC18850&\3c&HC18850&}t {*\c&HBE8E43&\3c&HBE8E43&}r{*\c&HBD913C&\3c&HBD913C&}e{*\c&HBB9436&\3c&HBB9436&}a{*\c&HBA972F&\3c&HBA972F&}c{\c&HB99A29&\3c&HB99A29&}h{手の届かない夢だって}
+Dialogue: 50,0:15:33.79,0:15:38.58,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}S{*\c&HE147E5&\3c&HE147E5&}o {*\c&HDF4BDD&\3c&HDF4BDD&}l{*\c&HDE4DD9&\3c&HDE4DD9&}o{*\c&HDD4ED5&\3c&HDD4ED5&}n{*\c&HDC50D1&\3c&HDC50D1&}g {*\c&HDB54C9&\3c&HDB54C9&}a{*\c&HDA55C5&\3c&HDA55C5&}s {*\c&HD859BD&\3c&HD859BD&}y{*\c&HD75BB9&\3c&HD75BB9&}o{*\c&HD65CB5&\3c&HD65CB5&}u{*\c&HD65EB1&\3c&HD65EB1&}'{*\c&HD560AD&\3c&HD560AD&}r{*\c&HD462A9&\3c&HD462A9&}e {*\c&HD265A1&\3c&HD265A1&}w{*\c&HD1679D&\3c&HD1679D&}i{*\c&HD06999&\3c&HD06999&}t{*\c&HD06A95&\3c&HD06A95&}h {*\c&HCE6E8D&\3c&HCE6E8D&}m{*\c&HCD7089&\3c&HCD7089&}e{*\c&HCC7185&\3c&HCC7185&}, {*\c&HCA757D&\3c&HCA757D&}I {*\c&HC97875&\3c&HC97875&}c{*\c&HC87A71&\3c&HC87A71&}a{*\c&HC77C6D&\3c&HC77C6D&}n {*\c&HC57F65&\3c&HC57F65&}m{*\c&HC48161&\3c&HC48161&}a{*\c&HC4835D&\3c&HC4835D&}k{*\c&HC38559&\3c&HC38559&}e {*\c&HC18851&\3c&HC18851&}t{*\c&HC08A4D&\3c&HC08A4D&}h{*\c&HBF8C49&\3c&HBF8C49&}e{*\c&HBE8D45&\3c&HBE8D45&}m {*\c&HBD913D&\3c&HBD913D&}h{*\c&HBC9339&\3c&HBC9339&}a{*\c&HBB9435&\3c&HBB9435&}p{*\c&HBA9631&\3c&HBA9631&}p{*\c&HB9982D&\3c&HB9982D&}e{\c&HB99A29&\3c&HB99A29&}n{一緒だったら with me\N叶えられてそう}
+Dialogue: 50,0:15:38.58,0:15:40.25,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}U{*\c&HDC52CD&\3c&HDC52CD&}n{*\c&HD65EB2&\3c&HD65EB2&}i{*\c&HD06A96&\3c&HD06A96&}v{*\c&HCA767B&\3c&HCA767B&}e{*\c&HC4825F&\3c&HC4825F&}r{*\c&HBE8E44&\3c&HBE8E44&}s{\c&HB99A29&\3c&HB99A29&}e
+Dialogue: 50,0:15:40.25,0:15:44.63,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}P{*\c&HE048E2&\3c&HE048E2&}l{*\c&HDF4BDC&\3c&HDF4BDC&}e{*\c&HDE4ED6&\3c&HDE4ED6&}a{*\c&HDC50D0&\3c&HDC50D0&}s{*\c&HDB53CA&\3c&HDB53CA&}e {*\c&HD858BD&\3c&HD858BD&}s{*\c&HD75BB7&\3c&HD75BB7&}t{*\c&HD65EB1&\3c&HD65EB1&}a{*\c&HD461AB&\3c&HD461AB&}y {*\c&HD2669E&\3c&HD2669E&}w{*\c&HD06998&\3c&HD06998&}i{*\c&HCF6B92&\3c&HCF6B92&}t{*\c&HCE6E8C&\3c&HCE6E8C&}h {*\c&HCB747F&\3c&HCB747F&}m{*\c&HCA7679&\3c&HCA7679&}e{*\c&HC87973&\3c&HC87973&}, {*\c&HC67E66&\3c&HC67E66&}d{*\c&HC48160&\3c&HC48160&}o{*\c&HC3845A&\3c&HC3845A&}n{*\c&HC28754&\3c&HC28754&}'{*\c&HC0894E&\3c&HC0894E&}t {*\c&HBE8F41&\3c&HBE8F41&}l{*\c&HBC913B&\3c&HBC913B&}e{*\c&HBB9435&\3c&HBB9435&}a{*\c&HBA972F&\3c&HBA972F&}v{\c&HB99A29&\3c&HB99A29&}e{離れないでついていてね}
+Dialogue: 50,0:15:44.63,0:15:47.63,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}W{*\c&HE048E3&\3c&HE048E3&}e{*\c&HDF4BDD&\3c&HDF4BDD&}'{*\c&HDE4DD7&\3c&HDE4DD7&}r{*\c&HDC50D1&\3c&HDC50D1&}e {*\c&HDA55C5&\3c&HDA55C5&}g{*\c&HD958BF&\3c&HD958BF&}e{*\c&HD75BB9&\3c&HD75BB9&}n{*\c&HD65DB3&\3c&HD65DB3&}t{*\c&HD560AD&\3c&HD560AD&}l{*\c&HD362A7&\3c&HD362A7&}e {*\c&HD1689B&\3c&HD1689B&}s{*\c&HD06A95&\3c&HD06A95&}h{*\c&HCE6D8F&\3c&HCE6D8F&}o{*\c&HCD7089&\3c&HCD7089&}o{*\c&HCC7283&\3c&HCC7283&}t{*\c&HCA757D&\3c&HCA757D&}i{*\c&HC97777&\3c&HC97777&}n{*\c&HC87A71&\3c&HC87A71&}g {*\c&HC57F65&\3c&HC57F65&}s{*\c&HC4825F&\3c&HC4825F&}t{*\c&HC38559&\3c&HC38559&}a{*\c&HC18753&\3c&HC18753&}r{*\c&HC08A4D&\3c&HC08A4D&}s{*\c&HBF8C47&\3c&HBF8C47&}, {*\c&HBC923B&\3c&HBC923B&}l{*\c&HBB9435&\3c&HBB9435&}o{*\c&HBA972F&\3c&HBA972F&}v{\c&HB99A29&\3c&HB99A29&}e{ふわっと流れ星Love}
+Dialogue: 50,0:15:47.63,0:15:52.76,INS,LuluttoLilly,0,0,0,,{\c&HE246E9&\bord4\blur1\fad(100,100)}T{*\c&HE048E3&\3c&HE048E3&}a{*\c&HDF4ADE&\3c&HDF4ADE&}k{*\c&HDE4CD9&\3c&HDE4CD9&}i{*\c&HDD4FD4&\3c&HDD4FD4&}n{*\c&HDC51CF&\3c&HDC51CF&}g {*\c&HDA55C4&\3c&HDA55C4&}a {*\c&HD85ABA&\3c&HD85ABA&}r{*\c&HD65CB5&\3c&HD65CB5&}e{*\c&HD55EAF&\3c&HD55EAF&}n{*\c&HD461AA&\3c&HD461AA&}d{*\c&HD363A5&\3c&HD363A5&}e{*\c&HD265A0&\3c&HD265A0&}z{*\c&HD1689B&\3c&HD1689B&}v{*\c&HD06A95&\3c&HD06A95&}o{*\c&HCF6C90&\3c&HCF6C90&}u{*\c&HCE6E8B&\3c&HCE6E8B&}s {*\c&HCB7381&\3c&HCB7381&}o{*\c&HCA757C&\3c&HCA757C&}n {*\c&HC87A71&\3c&HC87A71&}a {*\c&HC67E67&\3c&HC67E67&}c{*\c&HC58162&\3c&HC58162&}r{*\c&HC4835C&\3c&HC4835C&}e{*\c&HC28557&\3c&HC28557&}s{*\c&HC18752&\3c&HC18752&}c{*\c&HC08A4D&\3c&HC08A4D&}e{*\c&HBF8C48&\3c&HBF8C48&}n{*\c&HBE8E42&\3c&HBE8E42&}t {*\c&HBC9338&\3c&HBC9338&}m{*\c&HBB9533&\3c&HBB9533&}o{*\c&HBA972E&\3c&HBA972E&}o{\c&HB99A29&\3c&HB99A29&}n{三日月座ってランデブー}
+Dialogue: 50,0:16:07.15,0:16:08.16,Default,Toko,0,0,0,,Sena...
+Dialogue: 50,0:16:08.91,0:16:09.78,Default,Sena,0,0,0,,Yeah?
+Dialogue: 50,0:16:12.03,0:16:13.99,Default,Toko,0,0,0,,I think I...
+Dialogue: 50,0:16:15.29,0:16:16.83,Default,Toko,0,0,0,,{\i1}do{\i0} want to stand on a stage.
+Dialogue: 50,0:16:19.00,0:16:20.00,Default,Sena,0,0,0,,Me too.
+Dialogue: 50,0:16:24.05,0:16:26.13,Default,Fuu,0,0,0,,Wasn't that fun, Lulu-chan?
+Dialogue: 50,0:16:26.13,0:16:29.93,Default,Rui,0,0,0,,Yes! I wasn't scared at all\Nsince we were together!
+Dialogue: 50,0:16:30.43,0:16:35.22,Default,Fuu,0,0,0,,Aw, now it's over.\NI wanted to spend more time with everyone!
+Dialogue: 50,0:16:35.64,0:16:38.48,Default,Rui,0,0,0,,Did you all have fun too?
+Dialogue: 50,0:16:40.56,0:16:41.90,Default,Fuu,0,0,0,,Yay!
+Dialogue: 50,0:16:41.90,0:16:42.98,Default,Rui,0,0,0,,I'm glad to hear it!
+Dialogue: 50,0:16:43.40,0:16:45.19,Default,Fuu,0,0,0,,We did great, didn't we?
+Dialogue: 50,0:16:45.19,0:16:47.24,Default,Rui,0,0,0,,It was tough.
+Dialogue: 50,0:16:47.82,0:16:51.37,Default,Fuu,0,0,0,,The folks from Once More helped out a lot too!
+Dialogue: 50,0:16:51.37,0:16:53.99,Default,Rui,0,0,0,,We wouldn't be here without all of you!
+Dialogue: 50,0:16:53.99,0:16:56.79,Default,Fuu,0,0,0,,I'm so happy I got to meet you all!
+Dialogue: 50,0:16:56.79,0:16:59.00,Default,Fuu,0,0,0,,This concert was a success!
+Dialogue: 50,0:16:59.58,0:17:02.92,Default,Rui,0,0,0,,I'll never forget this day!
+Dialogue: 50,0:17:03.38,0:17:06.84,Default,Rui,0,0,0,,I've grown to love singing even more!
+Dialogue: 50,0:17:07.71,0:17:12.01,Default,Fuu,0,0,0,,We hope you'll keep on supporting LuluttoLilly!
+Dialogue: 50,0:17:12.93,0:17:14.85,Default,Rui,0,0,0,,We'd appreciate it!
+Dialogue: 50,0:17:17.02,0:17:19.64,Default,Fuu/Rui,0,0,0,,Thank you all very much!
+Dialogue: 50,0:17:57.72,0:17:58.64,Default,Idol Fan,0,0,0,,I'm gonna do it.
+Dialogue: 50,0:18:11.15,0:18:14.03,Default,Fuu,0,0,0,,I can't sleep...
+Dialogue: 50,0:18:15.03,0:18:17.20,Default,Fuu,0,0,0,,My heart's still racing...
+Dialogue: 50,0:18:17.20,0:18:19.29,Default,Fuu,0,0,0,,It all feels so unreal.
+Dialogue: 50,0:18:20.16,0:18:24.67,Default,Fuu,0,0,0,,It felt like a dream\Nwhen I used magic for the first time,
+Dialogue: 50,0:18:25.13,0:18:27.92,Default,Fuu,0,0,0,,but today's concert felt like a dream too.
+Dialogue: 50,0:18:28.92,0:18:32.17,Default,Fuu,0,0,0,,Uguisu, how did I do today?
+Dialogue: 50,0:18:32.17,0:18:33.43,Default,Fuu,0,0,0,,Come on, tell me!
+Dialogue: 50,0:18:34.47,0:18:36.55,Default,Uguisu,0,0,0,,Does it matter...?
+Dialogue: 50,0:18:37.10,0:18:38.93,Default,Fuu,0,0,0,,Why, you...
+Dialogue: 50,0:18:42.14,0:18:42.93,Default,Rui,0,0,0,,Cold...
+Dialogue: 50,0:18:45.23,0:18:47.98,Default,Rui,0,0,0,,Today was a lot of fun.
+Dialogue: 50,0:18:49.11,0:18:53.65,Default,Rui,0,0,0,,I actually transformed\Nand sang in front of everyone.
+Dialogue: 50,0:18:55.78,0:18:59.62,Default,Rui,0,0,0,,Lilly-san's song pushed me forward that day,
+Dialogue: 50,0:19:00.87,0:19:02.33,Default,Rui,0,0,0,,and now my song...
+Dialogue: 50,0:19:03.04,0:19:05.04,Default,Rui,0,0,0,,made everyone happy.
+Dialogue: 50,0:19:06.75,0:19:07.96,Default,Rui,0,0,0,,It feels like a dream.
+Dialogue: 50,0:19:09.50,0:19:12.84,Default,Azuki,0,0,0,,Rui, it's cold...
+Dialogue: 50,0:19:13.13,0:19:14.80,Default,Rui,0,0,0,,Oh, sorry.
+Dialogue: 50,0:19:28.44,0:19:29.36,Default,Fuu,0,0,0,,Big sis.
+Dialogue: 50,0:19:30.02,0:19:31.23,Default,Fuu,0,0,0,,Morning!
+Dialogue: 50,0:19:31.23,0:19:32.11,Default,Rui,0,0,0,,Morning.
+Dialogue: 50,0:19:32.61,0:19:34.15,Default,Fuu,0,0,0,,You're up early.
+Dialogue: 50,0:19:34.15,0:19:36.70,Default,Rui,0,0,0,,So are you. Quite early.
+Dialogue: 50,0:19:36.70,0:19:39.12,Default,Fuu,0,0,0,,Yeah. Just felt awake.
+Dialogue: 50,0:19:41.16,0:19:46.37,Default,Fuu,0,0,0,,Hey... something good happened to me yesterday.
+Dialogue: 50,0:19:47.21,0:19:48.13,Default,Rui,0,0,0,,What was it?
+Dialogue: 50,0:19:49.00,0:19:51.00,Default,Fuu,0,0,0,,Oh, never mind.
+Dialogue: 50,0:19:54.63,0:19:56.51,Default,Rui,0,0,0,,It seems pretty warm out today.
+Dialogue: 50,0:19:56.51,0:19:57.26,Default,Fuu,0,0,0,,Yeah.
+Dialogue: 50,0:19:58.30,0:20:00.80,Default,Rui,0,0,0,,Maybe I should go for a walk.
+Dialogue: 50,0:20:01.51,0:20:02.76,Default,Fuu,0,0,0,,I'll go too!
+Dialogue: 50,0:20:04.22,0:20:06.14,Default,Fuu,0,0,0,,Hurry up, big sis!
+Dialogue: 50,0:20:06.14,0:20:06.89,Default,Rui,0,0,0,,Okay.
+Dialogue: 50,0:20:16.86,0:20:18.28,Default,Rui,0,0,0,,It feels so good.
+Dialogue: 50,0:20:19.11,0:20:21.03,Default,Fuu,0,0,0,,You look happy, big sis!
+Dialogue: 50,0:20:22.24,0:20:24.87,Default,Fuu,0,0,0,,Did something good happen?
+Dialogue: 50,0:20:26.41,0:20:28.29,Default,Rui,0,0,0,,Yes! Can you tell?
+Dialogue: 50,0:20:28.29,0:20:31.29,Default,Fuu,0,0,0,,Really? I knew it!
+Dialogue: 50,0:20:31.59,0:20:33.55,Default,Fuu,0,0,0,,Go on, tell me!
+Dialogue: 50,0:20:34.84,0:20:35.96,Default,Rui,0,0,0,,Yesterday...
+Dialogue: 50,0:20:37.63,0:20:40.22,Default,Rui,0,0,0,,I dreamed I was flying in the sky.
+Dialogue: 50,0:20:41.97,0:20:44.68,Default,Fuu,0,0,0,,Guess what? I had the same dream!
+Dialogue: 50,0:20:44.68,0:20:45.77,Default,Rui,0,0,0,,You did?
+Dialogue: 50,0:20:45.77,0:20:46.48,Default,Fuu,0,0,0,,Yeah!
+Dialogue: 50,0:20:47.10,0:20:51.23,Default,Fuu,0,0,0,,I see! So you and I are the same!
+Dialogue: 50,0:20:59.78,0:21:00.99,Default,Rui,0,0,0,,Huh?
+Dialogue: 50,0:21:08.16,0:21:09.83,Default,Rui,0,0,0,,{\i1}I had never thought about it...
+Dialogue: 50,0:21:10.29,0:21:13.79,Default,Rui,0,0,0,,{\i1}that there could be other magicians besides me.
+Dialogue: 50,0:21:13.79,0:21:15.00,Default,Fuu,0,0,0,,Because you see...
+Dialogue: 50,0:21:15.75,0:21:18.26,Default,Fuu,0,0,0,,I can actually use magic!
+Dialogue: 50,0:21:20.63,0:21:22.05,Default,Fuu,0,0,0,,Because you see...
+Dialogue: 50,0:21:22.68,0:21:24.72,Default,Fuu,0,0,0,,I can actually use magic!
+Dialogue: 50,0:21:25.89,0:21:26.93,Default,Rui,0,0,0,,Huh?
+Dialogue: 50,0:21:27.56,0:21:28.31,Default,Fuu,0,0,0,,Here!
+Dialogue: 50,0:21:29.02,0:21:31.60,Default,Fuu,0,0,0,,I saw these the other day\Nand thought they were cute,
+Dialogue: 50,0:21:31.60,0:21:33.81,Default,Fuu,0,0,0,,so I'm letting you have one!
+Dialogue: 50,0:21:34.31,0:21:37.07,Default,Fuu,0,0,0,,It was a set of two.
+Dialogue: 50,0:21:42.07,0:21:45.24,Default,Fuu,0,0,0,,It'll be fine. We just have to perform\Nlike we always do.
+Dialogue: 50,0:21:45.24,0:21:47.29,Default,Fuu,0,0,0,,Just gotta relax.
+Dialogue: 50,0:21:52.92,0:21:57.67,Default,Rui,0,0,0,,{\i1}I made a wish to the stars
+Dialogue: 50,0:21:57.67,0:22:02.34,Default,Rui,0,0,0,,{\i1}Up in the twinkling sky
+Dialogue: 50,0:22:08.39,0:22:10.68,Default,Rui,0,0,0,,{\i1}Right. This is...
+Dialogue: 50,0:22:14.10,0:22:15.69,Default,Rui,0,0,0,,{\i1}the song we made...
+Dialogue: 50,0:22:16.82,0:22:19.44,Default,Rui,0,0,0,,{\i1}when we were little.
+Dialogue: 50,0:22:22.53,0:22:23.66,Default,Rui,0,0,0,,{\i1}Could Fuu...
+Dialogue: 50,0:22:24.82,0:22:26.20,Default,Rui,0,0,0,,{\i1}actually be...
+Comment: 0,0:03:04.04,0:03:09.04,Signs,,0,0,0,,Title Card
+Dialogue: 0,0:03:04.04,0:03:09.04,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.7}Sing, LuluttoLilly
+Comment: 0,0:04:52.77,0:04:56.65,Signs,,0,0,0,,LuluttoLilly
+Dialogue: 0,0:04:52.77,0:04:52.89,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.33,308)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:52.89,0:04:52.93,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.07)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:52.93,0:04:52.98,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,282.09)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:52.98,0:04:53.02,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,282.1)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.02,0:04:53.06,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.2)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.06,0:04:53.10,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,256.2)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.10,0:04:53.14,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.23)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.14,0:04:53.18,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.32,237.83)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.18,0:04:53.23,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,237.81)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.23,0:04:53.27,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,237.82)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.27,0:04:53.31,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,270.38)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.31,0:04:53.39,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,270.37)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.39,0:04:53.48,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.33,308.01)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.48,0:04:53.52,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.33,308)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.52,0:04:53.56,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.06)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.56,0:04:53.64,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,282.07)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.64,0:04:53.68,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.35,256.2)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.68,0:04:53.73,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.35,256.17)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.73,0:04:53.77,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,256.18)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.77,0:04:53.85,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,237.8)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.85,0:04:53.89,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,237.79)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.89,0:04:53.94,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.37)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:53.94,0:04:54.02,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.38)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.02,0:04:54.14,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.33,308)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.14,0:04:54.19,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.07)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.19,0:04:54.27,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.08)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.27,0:04:54.39,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,256.17)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.39,0:04:54.48,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,237.82)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.48,0:04:54.52,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,237.81)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.52,0:04:54.56,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.56,0:04:54.60,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.60,0:04:54.64,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,270.4)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.64,0:04:54.73,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,308.01)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.73,0:04:54.77,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,308)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.77,0:04:54.81,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.09)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.81,0:04:54.85,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,282.09)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.85,0:04:54.89,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.83,282.08)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.89,0:04:54.98,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.18)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:54.98,0:04:55.02,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.19)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.02,0:04:55.14,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,237.8)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.14,0:04:55.19,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.38)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.19,0:04:55.23,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.23,0:04:55.27,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.27,0:04:55.31,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.97)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.31,0:04:55.35,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.96)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.35,0:04:55.39,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.97)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.39,0:04:55.44,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.07)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.44,0:04:55.52,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.08)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.52,0:04:55.56,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,256.2)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.56,0:04:55.60,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.18)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.60,0:04:55.65,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,256.19)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.65,0:04:55.77,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.34,237.81)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.77,0:04:55.81,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.37)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.81,0:04:55.85,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.36)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.85,0:04:55.90,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,270.37)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.90,0:04:55.94,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.97)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.94,0:04:55.98,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.98)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:55.98,0:04:56.02,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.35,307.98)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.02,0:04:56.06,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.82,282.1)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.06,0:04:56.15,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,282.09)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.15,0:04:56.27,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,256.18)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.27,0:04:56.40,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(928.33,237.83)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.40,0:04:56.48,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.81,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.48,0:04:56.52,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(930.8,270.39)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.52,0:04:56.56,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.98)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.56,0:04:56.60,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.34,307.99)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Dialogue: 0,0:04:56.60,0:04:56.65,Signs,,0,0,0,,{=0}{\fnNunito ExtraBold\b0\c&HDE953A&\fs140\pos(933.33,307.99)\frx4\fry0\blur1}Lulutto{\c&HB645F3&}Lilly
+Comment: 0,0:05:25.76,0:05:28.27,Signs,,0,0,0,,LuluttoLilly
+Dialogue: 1,0:05:25.76,0:05:25.80,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(903.82,403.91)\pos(910.08,403.91)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:25.80,0:05:25.84,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(900.8,406.82)\pos(907.06,406.82)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:25.84,0:05:25.88,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(897.8,409.69)\pos(904.06,409.69)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:25.88,0:05:25.93,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(894.78,412.6)\pos(901.04,412.6)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:25.93,0:05:25.97,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(891.76,415.51)\pos(898.02,415.51)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:25.97,0:05:26.01,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(888.76,418.39)\pos(895.02,418.39)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.01,0:05:26.05,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(885.75,421.27)\pos(892.01,421.27)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.05,0:05:26.09,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(882.72,424.18)\pos(888.98,424.18)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.09,0:05:26.13,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(879.74,427.08)\pos(886,427.08)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.13,0:05:26.18,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(876.71,429.98)\pos(882.97,429.98)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.18,0:05:26.22,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(873.67,432.91)\pos(879.93,432.91)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.22,0:05:26.26,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(870.67,435.78)\pos(876.93,435.78)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.26,0:05:26.30,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(867.66,438.65)\pos(873.92,438.65)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.30,0:05:26.34,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(864.64,441.59)\pos(870.9,441.59)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.34,0:05:26.38,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(861.64,444.46)\pos(867.9,444.46)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.38,0:05:26.43,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(858.63,447.36)\pos(864.89,447.36)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.43,0:05:26.47,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(855.6,450.26)\pos(861.86,450.26)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.47,0:05:26.51,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(852.59,453.16)\pos(858.85,453.16)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.51,0:05:26.55,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(849.59,456.04)\pos(855.85,456.04)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.55,0:05:26.59,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(846.55,458.96)\pos(852.81,458.96)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.59,0:05:26.63,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(843.56,461.84)\pos(849.82,461.84)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.63,0:05:26.68,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(840.54,464.73)\pos(846.8,464.73)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.68,0:05:26.72,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(837.51,467.67)\pos(843.77,467.67)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.72,0:05:26.76,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(834.51,470.54)\pos(840.77,470.54)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.76,0:05:26.80,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(831.49,473.44)\pos(837.75,473.44)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.80,0:05:26.84,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(828.48,476.35)\pos(834.74,476.35)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.84,0:05:26.88,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(825.48,479.22)\pos(831.74,479.22)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.88,0:05:26.93,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(822.45,482.13)\pos(828.71,482.13)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.93,0:05:26.97,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(819.45,485.03)\pos(825.71,485.03)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:26.97,0:05:27.01,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(816.44,487.92)\pos(822.7,487.92)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.01,0:05:27.05,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(813.42,490.81)\pos(819.68,490.81)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.05,0:05:27.09,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(810.39,493.72)\pos(816.65,493.72)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.09,0:05:27.13,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(807.4,496.6)\pos(813.66,496.6)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.13,0:05:27.18,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(804.38,499.5)\pos(810.64,499.5)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.18,0:05:27.22,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(801.37,502.41)\pos(807.63,502.41)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.22,0:05:27.26,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(798.36,505.3)\pos(804.62,505.3)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.26,0:05:27.30,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(795.34,508.19)\pos(801.6,508.19)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.30,0:05:27.34,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(792.32,511.09)\pos(798.58,511.09)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.34,0:05:27.39,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(789.32,513.99)\pos(795.58,513.99)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.39,0:05:27.43,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(786.3,516.88)\pos(792.56,516.88)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.43,0:05:27.47,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(783.28,519.78)\pos(789.54,519.78)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.47,0:05:27.51,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(780.28,522.66)\pos(786.54,522.66)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.51,0:05:27.55,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(777.27,525.58)\pos(783.53,525.58)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.55,0:05:27.59,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(774.25,528.49)\pos(780.51,528.49)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.59,0:05:27.64,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(771.24,531.38)\pos(777.5,531.38)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.64,0:05:27.68,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(768.23,534.26)\pos(774.49,534.26)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.68,0:05:27.72,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(765.21,537.17)\pos(771.47,537.17)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.72,0:05:27.76,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(762.2,540.06)\pos(768.46,540.06)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.76,0:05:27.80,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(759.18,542.96)\pos(765.44,542.96)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.80,0:05:27.84,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(756.17,545.84)\pos(762.43,545.84)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.84,0:05:27.89,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(753.16,548.76)\pos(759.42,548.76)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.89,0:05:27.93,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(750.14,551.66)\pos(756.4,551.66)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.93,0:05:27.97,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(747.15,554.54)\pos(753.41,554.54)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:27.97,0:05:28.01,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(744.13,557.43)\pos(750.39,557.43)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.01,0:05:28.05,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(741.11,560.35)\pos(747.37,560.35)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.05,0:05:28.09,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(738.12,563.22)\pos(744.38,563.22)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.09,0:05:28.14,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(735.1,566.13)\pos(741.36,566.13)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.14,0:05:28.18,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(732.07,569.02)\pos(738.33,569.02)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.18,0:05:28.22,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(729.07,571.92)\pos(735.33,571.92)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 1,0:05:28.22,0:05:28.26,Signs,,0,0,0,,{=1=2}{\fnBranding SF\b1\fs21\c&HBE8CC5&\blur1\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(726.07,574.82)\pos(732.33,574.82)}Lulutt{\c&HD8AFFD&}oLilly
+Dialogue: 0,0:05:25.76,0:05:25.80,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(903.82,403.91)\pos(910.08,403.91)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:25.80,0:05:25.84,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(900.8,406.82)\pos(907.06,406.82)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:25.84,0:05:25.88,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(897.8,409.69)\pos(904.06,409.69)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:25.88,0:05:25.93,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(894.78,412.6)\pos(901.04,412.6)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:25.93,0:05:25.97,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(891.76,415.51)\pos(898.02,415.51)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:25.97,0:05:26.01,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(888.76,418.39)\pos(895.02,418.39)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.01,0:05:26.05,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(885.75,421.27)\pos(892.01,421.27)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.05,0:05:26.09,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(882.72,424.18)\pos(888.98,424.18)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.09,0:05:26.13,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(879.74,427.08)\pos(886,427.08)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.13,0:05:26.18,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(876.71,429.98)\pos(882.97,429.98)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.18,0:05:26.22,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(873.67,432.91)\pos(879.93,432.91)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.22,0:05:26.26,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(870.67,435.78)\pos(876.93,435.78)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.26,0:05:26.30,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(867.66,438.65)\pos(873.92,438.65)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.30,0:05:26.34,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(864.64,441.59)\pos(870.9,441.59)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.34,0:05:26.38,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(861.64,444.46)\pos(867.9,444.46)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.38,0:05:26.43,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(858.63,447.36)\pos(864.89,447.36)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.43,0:05:26.47,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(855.6,450.26)\pos(861.86,450.26)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.47,0:05:26.51,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(852.59,453.16)\pos(858.85,453.16)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.51,0:05:26.55,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(849.59,456.04)\pos(855.85,456.04)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.55,0:05:26.59,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(846.55,458.96)\pos(852.81,458.96)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.59,0:05:26.63,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(843.56,461.84)\pos(849.82,461.84)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.63,0:05:26.68,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(840.54,464.73)\pos(846.8,464.73)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.68,0:05:26.72,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(837.51,467.67)\pos(843.77,467.67)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.72,0:05:26.76,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(834.51,470.54)\pos(840.77,470.54)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.76,0:05:26.80,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(831.49,473.44)\pos(837.75,473.44)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.80,0:05:26.84,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(828.48,476.35)\pos(834.74,476.35)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.84,0:05:26.88,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(825.48,479.22)\pos(831.74,479.22)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.88,0:05:26.93,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(822.45,482.13)\pos(828.71,482.13)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.93,0:05:26.97,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(819.45,485.03)\pos(825.71,485.03)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:26.97,0:05:27.01,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(816.44,487.92)\pos(822.7,487.92)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.01,0:05:27.05,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(813.42,490.81)\pos(819.68,490.81)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.05,0:05:27.09,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(810.39,493.72)\pos(816.65,493.72)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.09,0:05:27.13,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(807.4,496.6)\pos(813.66,496.6)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.13,0:05:27.18,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(804.38,499.5)\pos(810.64,499.5)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.18,0:05:27.22,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(801.37,502.41)\pos(807.63,502.41)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.22,0:05:27.26,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(798.36,505.3)\pos(804.62,505.3)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.26,0:05:27.30,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(795.34,508.19)\pos(801.6,508.19)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.30,0:05:27.34,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(792.32,511.09)\pos(798.58,511.09)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.34,0:05:27.39,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(789.32,513.99)\pos(795.58,513.99)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.39,0:05:27.43,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(786.3,516.88)\pos(792.56,516.88)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.43,0:05:27.47,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(783.28,519.78)\pos(789.54,519.78)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.47,0:05:27.51,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(780.28,522.66)\pos(786.54,522.66)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.51,0:05:27.55,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(777.27,525.58)\pos(783.53,525.58)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.55,0:05:27.59,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(774.25,528.49)\pos(780.51,528.49)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.59,0:05:27.64,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(771.24,531.38)\pos(777.5,531.38)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.64,0:05:27.68,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(768.23,534.26)\pos(774.49,534.26)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.68,0:05:27.72,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(765.21,537.17)\pos(771.47,537.17)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.72,0:05:27.76,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(762.2,540.06)\pos(768.46,540.06)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.76,0:05:27.80,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(759.18,542.96)\pos(765.44,542.96)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.80,0:05:27.84,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(756.17,545.84)\pos(762.43,545.84)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.84,0:05:27.89,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(753.16,548.76)\pos(759.42,548.76)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.89,0:05:27.93,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(750.14,551.66)\pos(756.4,551.66)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.93,0:05:27.97,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(747.15,554.54)\pos(753.41,554.54)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:27.97,0:05:28.01,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(744.13,557.43)\pos(750.39,557.43)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.01,0:05:28.05,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(741.11,560.35)\pos(747.37,560.35)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.05,0:05:28.09,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(738.12,563.22)\pos(744.38,563.22)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.09,0:05:28.14,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(735.1,566.13)\pos(741.36,566.13)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.14,0:05:28.18,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(732.07,569.02)\pos(738.33,569.02)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.18,0:05:28.22,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(729.07,571.92)\pos(735.33,571.92)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Dialogue: 0,0:05:28.22,0:05:28.26,Signs,,0,0,0,,{=1=3}{\fnBranding SF\b1\fs21\1a&HFE\3a&HFE&\shad0.01\bord4\blur4\fax-0.311944\fscx191.19\fscy252.55\frz12.5880\frx0.3486\fry-8.4819\org(726.07,574.82)\pos(732.33,574.82)\4c&HE7D1BB&\4a&H0B&}Lulutt{\4c&HF9F6FD&}oLilly
+Comment: 0,0:07:39.86,0:07:41.86,Signs,,0,0,0,,LuluttoLilly-sama
+Dialogue: 1,0:07:39.86,0:07:41.86,Signs,,0,0,0,,{=4}{\fnBranding SF\b1\fs21\c&H7B7979&\blur0.9\fax-0.209638\fscx384.28\fscy462.30\frz12.9404\frx-0.3820\fry1.8169\org(678.34,709.74)\pos(686.8,709.74)}LuluttoLilly
+Dialogue: 1,0:07:39.86,0:07:41.86,Signs,,0,0,0,,{=5}{\fnNunito Bold\b1\fs21\c&H554C4D&\blur0.9\fax-0.252320\fscx337.69\fscy431.88\frz13.2213\frx-0.4079\fry1.9403\org(1326.34,611.08)\pos(1335.29,611.08)}-sama
+Comment: 0,0:17:51.68,0:17:54.18,Signs,,0,0,0,,Audition
+Dialogue: 1,0:17:51.68,0:17:54.18,Signs,,0,0,0,,{=6}{\an4\fnNunito ExtraBold\b0\c&HFAFDFD&\blur0.9\fax-0.095578\fscx60.10\fscy63.38\frz-8.5696\frx0.9877\fry-0.6184\org(735.94,746.22)\pos(649.88,746.22)}AUDITION
+Dialogue: 0,0:17:51.68,0:17:54.18,Signs,,0,0,0,,{=7}{\an4\fnNunito ExtraBold\b0\c&H94688D&\blur1\fax-0.095235\fscx60.13\fscy63.42\frz-8.5792\frx0.9866\fry-0.6182\org(738.57,750.63)\pos(652.47,750.63)}AUDITION
+Dialogue: 0,0:17:51.68,0:17:54.18,Signs,,0,0,0,,{=8}{\fnBahnschrift\b0\c&H7BB2BD&\blur0.9\fax-0.134025\fscx37.79\fscy41.34\frz-7.0801\frx1.0207\fry-0.6399\org(763.15,131.35)\pos(765.18,131.35)}Production Once More
+Comment: 0,0:17:54.18,0:17:56.18,Signs,,0,0,0,,Audition
+Dialogue: 2,0:17:54.18,0:17:56.18,Signs,,0,0,0,,{=9}{\an4\fnNunito Bold\b0\fax0.003680\fscx192.84\fscy246.34\frz-20.1246\frx2.8435\fry-2.9776\org(707.51,701.19)\pos(423.72,701.19)\c&HF8FEFB&\blur1.3}AUDITION
+Dialogue: 2,0:17:54.18,0:17:56.18,Signs,,0,0,0,,{=9}{\an4\fnNunito Bold\b0\fax0.003680\fscx192.84\fscy246.34\frz-20.1246\frx2.8435\fry-2.9776\org(707.51,701.19)\pos(423.72,701.19)\c&HFFFFFF&\blur5\1a&H4E&}AUDITION
+Dialogue: 1,0:17:54.18,0:17:56.18,Signs,,0,0,0,,{=10}{\an4\fnNunito Bold\b0\c&HD8FAC1&\blur2\fax0.002628\fscx192.69\fscy246.13\frz-20.0831\frx2.8450\fry-2.9792\org(707.67,697.59)\pos(428.52,697.59)}AUDITION
+Dialogue: 1,0:17:54.18,0:17:56.18,Signs,,0,0,0,,{=11}{\an4\fnNunito Bold\b0\c&HCD92FD&\blur2\fax0.003296\fscx192.22\fscy246.01\frz-20.1498\frx2.8478\fry-2.9822\org(699.15,700.36)\pos(420.62,700.36)}AUDITION
+Dialogue: 0,0:17:54.18,0:17:56.18,Signs,,0,0,0,,{=12}{\an4\fnNunito ExtraBold\b0\c&H8B6881&\blur1.3\1a&HBA&\fax0.007657\fscx193.52\fscy247.19\frz-20.2739\frx2.8370\fry-2.9708\org(708.51,714.75)\pos(423.41,714.75)}AUDITION
+Comment: 0,0:01:49.72,0:01:54.93,Title,,0,0,0,,Title Logo
+Dialogue: 1,0:01:49.18,0:01:52.14,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\pos(696,794)\blur0.7\fade(300,0)\t(400,800,\c&HD278A9&)}Magical Sisters {\c&HFFFFFF&\t(400,800,\c&H9F6BF4&)}LuluttoLilly
+Dialogue: 1,0:01:52.14,0:01:52.18,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 725.17 770.94 b 754.49 834.1 839.91 824.11 861.93 766.56 l 792.82 741.25)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.18,0:01:52.22,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.05 825.38 b 722.14 812.56 718.04 792.4 719.74 765.91 l 864.99 762.15 b 869.01 778.73 867.47 806.07 854.05 825.72)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.22,0:01:52.26,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 717.38 822.53 b 722.7 795.77 728.9 776.43 750.97 766.07 l 833.22 763.64 b 853.48 777.93 864.6 794.87 867.77 823.51)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.26,0:01:52.30,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 732.27 826.98 b 759.63 784.48 827.32 788.16 853.81 826.54 l 769.47 846.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.30,0:01:52.35,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.35,0:01:52.39,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 790.52 b 341.33 791.97 377.39 771.29 383.79 747.11 l 316.81 747.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.39,0:01:52.43,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 317.15 835.79 b 359.44 831.09 388.67 800.5 389.81 768.46 l 316.81 768.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.43,0:01:52.47,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 321.37 765.99 l 380.83 765.56 b 392.3 782.21 394.47 809.03 385.38 832.17 l 316.61 833.03 m 1030.93 849.03 b 1033.64 840.44 1043.1 825.41 1049.32 817.89 1044.13 806.11 1044.84 781.18 1052.35 770.75 l 1082.62 772.05 1081.32 852.49)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.47,0:01:52.51,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 324.31 770.6 b 353.7 773.42 382.27 795.8 389.46 831.39 l 316.3 835.75 m 1014.01 817.54 b 1008.97 803.62 1008.8 778.77 1018.99 767.17 l 1077.31 766.17 1069.69 832.12 1008.38 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.51,0:01:52.55,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 952.7 817.02 b 961.83 802.12 979.32 782.32 993.83 774.34 993.74 767.32 996.62 759.06 1001.14 753.96 l 1080.72 753.96 1074.19 839.7 946.93 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.55,0:01:52.60,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 916.67 817.02 b 925.8 802.12 943.29 782.32 957.8 774.34 957.71 767.32 960.59 759.06 965.11 753.96 l 1080.72 753.96 1074.19 839.7 910.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.60,0:01:52.64,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 880.98 817.02 b 890.11 802.12 907.6 782.32 922.11 774.34 922.02 767.32 924.9 759.06 929.42 753.96 l 1080.72 753.96 1074.19 839.7 875.21 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.64,0:01:52.68,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 817.05 830 b 823.43 809.24 848.3 776.81 861.6 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.68,0:01:52.72,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 781.47 830 b 787.85 809.24 812.72 776.81 826.02 767.72 l 1073.97 764.69 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.72,0:01:52.76,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 745.34 830 b 751.72 809.24 776.59 776.81 789.89 767.72 l 1008.15 764.69 b 1019.28 772.28 1034.44 787.98 1042 803.67 1054.11 799.67 1059.11 795.22 1080.86 802.37 l 1078.3 842.11)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.76,0:01:52.81,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 764.71 817.54 b 759.67 803.62 759.5 778.77 769.69 767.17 l 939.95 766.17 b 973.86 777.47 1008.62 803.81 1023.07 835.75 1031.89 820.24 1048.58 819.01 1061.15 820.63 l 1064.15 844.15 759.08 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.81,0:01:52.85,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 729.37 817.54 b 724.33 803.62 724.16 778.77 734.35 767.17 l 904.61 766.17 b 940.68 777.47 973.28 803.81 987.73 835.75 996.55 820.24 1013.24 819.01 1025.81 820.63 l 1028.81 844.15 723.74 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.85,0:01:52.89,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 693.41 817.54 b 688.37 803.62 688.2 778.77 698.39 767.17 l 868.65 766.17 b 904.72 777.47 937.32 803.81 951.77 835.75 960.59 820.24 977.28 819.01 989.85 820.63 l 992.85 844.15 687.78 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.89,0:01:52.93,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 632.63 817.02 b 641.76 802.12 659.25 782.32 673.76 774.34 673.67 767.32 676.55 759.06 681.07 753.96 l 786.65 754.99 b 838.47 769.48 878.35 804.12 901.37 839.7 l 626.86 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.93,0:01:52.97,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 596.67 817.02 b 605.8 802.12 623.29 782.32 637.8 774.34 637.71 767.32 640.59 759.06 645.11 753.96 l 750.69 754.99 b 802.51 769.48 842.39 804.12 865.41 839.7 l 590.9 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:52.97,0:01:53.01,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 561 817.02 b 570.13 802.12 587.62 782.32 602.13 774.34 602.04 767.32 604.92 759.06 609.44 753.96 l 715.02 754.99 b 766.84 769.48 806.72 804.12 829.74 839.7 l 555.23 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.01,0:01:53.06,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 551.05 817.54 b 546.01 803.62 545.84 778.77 556.03 767.17 l 726.29 766.17 b 762.36 777.47 794.96 803.81 809.41 835.75 818.23 820.24 834.92 819.01 847.49 820.63 l 850.49 844.15 545.42 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.06,0:01:53.10,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 515.47 817.54 b 510.43 803.62 510.26 778.77 520.45 767.17 l 690.71 766.17 b 726.78 777.47 759.38 803.81 773.83 835.75 782.65 820.24 799.34 819.01 811.91 820.63 l 814.91 844.15 509.84 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.10,0:01:53.14,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 479.46 817.54 b 474.42 803.62 474.25 778.77 484.44 767.17 l 654.7 766.17 b 690.77 777.47 723.37 803.81 737.82 835.75 746.64 820.24 763.33 819.01 775.9 820.63 l 778.9 844.15 473.83 836.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.14,0:01:53.18,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 415.26 824.01 b 428.04 802.12 445.53 782.32 460.04 774.34 459.95 767.32 462.83 759.06 467.35 753.96 l 572.93 754.99 b 624.75 769.48 664.63 804.12 687.65 839.7 l 413.14 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.18,0:01:53.22,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 379.4 824.01 b 392.18 802.12 409.67 782.32 424.18 774.34 424.09 767.32 426.97 759.06 431.49 753.96 l 537.07 754.99 b 588.89 769.48 628.77 804.12 651.79 839.7 l 377.28 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.22,0:01:53.26,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 343.27 824.01 b 356.05 802.12 373.54 782.32 388.05 774.34 387.96 767.32 390.84 759.06 395.36 753.96 l 500.94 754.99 b 552.76 769.48 592.64 804.12 615.66 839.7 l 341.15 847.01)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.26,0:01:53.31,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 540.17 760.88 b 552.02 771.33 572.14 789.4 579.38 804.71 598.57 793.47 628.5 799.64 645.9 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.31,0:01:53.35,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 504.31 760.88 b 516.16 771.33 536.28 789.4 543.52 804.71 562.71 793.47 592.64 799.64 610.04 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.35,0:01:53.39,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 468.89 760.88 b 480.74 771.33 500.86 789.4 508.1 804.71 527.29 793.47 557.22 799.64 574.62 826.24 l 313.55 833.29 306.99 754.56)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.39,0:01:53.43,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 411.88 767.89 b 436.33 777.12 472.22 802.1 484.07 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.43,0:01:53.47,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 375.75 767.89 b 400.2 777.12 436.09 802.1 447.94 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.47,0:01:53.51,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 340.71 767.89 b 365.16 777.12 401.05 802.1 412.9 828.09 l 313.55 833.29 321.02 771.22)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.51,0:01:53.56,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 327.4 794.52 b 336.04 801.67 357.78 823.32 366.3 838.49 l 322.29 835.79)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.56,0:01:53.81,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.81,0:01:53.85,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 357.55 770.11 b 383.97 831.02 480.35 834.27 501.34 763.19 l 421.37 755.88)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.85,0:01:53.89,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 361.24 820.94 b 355.94 807.09 349.11 794.79 353.72 766.94 l 504.44 767.96 b 506.66 787.61 507 799.58 494.87 823.33 l 426.17 841.1)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.89,0:01:53.93,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 352.41 831.8 b 350.58 811.52 358.48 785.24 380.35 767.7 l 469.97 762.84 b 491.77 777.11 504.99 798.99 506.13 828.46)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.93,0:01:53.97,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 364.29 828.03 b 395 786.91 458.6 780.29 491.48 826.68 l 430.18 836.94)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:53.97,0:01:54.01,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\iclip(m 1081.04 812.77 b 1005.27 825.24 938.13 815.7 879 759.2 l 1081.04 751.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:54.01,0:01:54.06,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 886.91 833.67 b 867.28 818.21 842.48 787.6 846.95 771.82 814.26 769.06 780.42 751.71 758.25 745 753.94 744.11 751.48 745.41 747.85 748.28 730.14 763.26 689.27 796.98 653.78 806.16 613.83 815.26 590.02 801.65 577.43 759.79 l 297.73 746.08 288.19 868.2)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:54.06,0:01:54.10,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 823.1 822.65 l 825.27 814 b 793.77 808.52 729.51 784.05 712.81 779.84 696.98 793.2 667.84 814.43 649.47 826.95 l 517.79 826.3 b 506.56 810.62 493.4 778 489.36 758.52 l 305.54 760.14 301.69 843)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 1,0:01:54.10,0:01:54.14,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HD278A9&\pos(696,794)\blur0.7\clip(m 390.14 824.38 b 384.95 810.11 374.57 780.7 372.84 765.56 l 299.31 763.83 307.1 835.63)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Dialogue: 0,0:01:49.18,0:01:49.97,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\b1\c&HFFFFFF&\1a&HFE&\3a&HFE&\pos(696,794)\blur10\fade(300,350)\t(150,600,\c&HD278A9&)\4c&HEC7DFD&\shad0.01\bord10\4a&H00&}Magical Sisters LuluttoLilly
+Comment: 0,0:01:32.99,0:01:33.04,OP,,0,0,0,sync,sync
+Dialogue: 1,0:01:33.74,0:01:36.04,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:36.41,0:01:37.62,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:01:38.00,0:01:39.04,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:01:39.04,0:01:41.71,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:41.71,0:01:44.42,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:01:45.01,0:01:47.68,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:01:47.68,0:01:49.72,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:01:49.72,0:01:54.27,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:01:51.97,0:01:54.93,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:01:54.93,0:01:57.60,OP,,0,0,0,,{\fad(150,150)\blur0.6}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 1,0:01:57.60,0:02:00.23,OP,,0,0,0,,{\fad(150,150)\blur0.6}And right before my eyes{この目に映るのは}
+Dialogue: 1,0:02:00.23,0:02:03.02,OP,,0,0,0,,{\fad(150,150)\blur0.6}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 1,0:02:03.48,0:02:04.53,OP,,0,0,0,,{\fad(150,150)\blur0.6}Whoa
+Dialogue: 1,0:02:05.57,0:02:08.20,OP,,0,0,0,,{\fad(150,150)\blur0.6}Stay with me today{今日もそばにいて}
+Dialogue: 1,0:02:08.20,0:02:11.20,OP,,0,0,0,,{\fad(150,150)\blur0.6}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 1,0:02:11.20,0:02:14.99,OP,,0,0,0,,{\fad(150,150)\blur0.6}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 1,0:02:15.58,0:02:21.00,OP,,0,0,0,,{\fad(150,150)\blur0.6}I can hear the magic{魔法の音がする}
+Dialogue: 1,0:02:21.83,0:02:24.50,OP,,0,0,0,,{\fad(150,150)\blur0.6}I wanna sing with you
+Dialogue: 1,0:02:24.50,0:02:26.51,OP,,0,0,0,,{\fad(150,150)\blur0.6}Let's sing together{二人で歌おう}
+Dialogue: 1,0:02:26.51,0:02:30.30,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're a bright shining star{君は明るく輝く星}
+Dialogue: 1,0:02:30.30,0:02:31.97,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:02:32.39,0:02:34.85,OP,,0,0,0,,{\fad(150,150)\blur0.6}We can be shining stars
+Dialogue: 1,0:02:34.85,0:02:36.60,OP,,0,0,0,,{\fad(150,150)\blur0.6}Forever and ever{時間が経っても}
+Dialogue: 1,0:02:36.60,0:02:39.35,OP,,0,0,0,,{\fad(150,150)\blur0.6}That's our secret magic{秘密の魔法さ}
+Dialogue: 1,0:02:39.35,0:02:43.31,OP,,0,0,0,,{\fad(150,150)\blur0.6}My bubee, bubee, bubee love
+Dialogue: 1,0:02:43.31,0:02:46.03,OP,,0,0,0,,{\fad(150,150)\blur0.6}Ooh, ooh, ooh
+Dialogue: 1,0:02:46.03,0:02:48.07,OP,,0,0,0,,{\fad(150,150)\blur0.6}You're my little buddy
+Dialogue: 1,0:02:48.07,0:02:53.32,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, bubee love
+Dialogue: 1,0:02:50.32,0:02:53.32,OP,,0,0,0,,{\an8\fad(150,150)\blur0.6}Bubee, bubee, bubee love
+Dialogue: 1,0:02:53.32,0:02:55.49,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 1,0:02:55.95,0:02:57.45,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bae, bae, bae
+Dialogue: 1,0:02:57.45,0:02:58.37,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee, bubee
+Dialogue: 1,0:02:58.37,0:03:00.66,OP,,0,0,0,,{\fad(150,150)\blur0.6}B-U-B-E-E, bubee
+Dialogue: 1,0:03:00.66,0:03:02.04,OP,,0,0,0,,{\fad(150,150)\blur0.6}Bubee love
+Dialogue: 0,0:01:33.74,0:01:36.04,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:36.41,0:01:37.62,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:01:38.00,0:01:39.04,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:01:39.04,0:01:41.71,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:41.71,0:01:44.42,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:01:45.01,0:01:47.68,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:01:47.68,0:01:49.72,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:01:49.72,0:01:54.27,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:01:51.97,0:01:54.93,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:01:54.93,0:01:57.60,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My heart is racing like crazy{ドキドキしている私}
+Dialogue: 0,0:01:57.60,0:02:00.23,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}And right before my eyes{この目に映るのは}
+Dialogue: 0,0:02:00.23,0:02:03.02,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Are the colors of a brand new world{新しい世界の色}
+Dialogue: 0,0:02:03.48,0:02:04.53,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Whoa
+Dialogue: 0,0:02:05.57,0:02:08.20,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Stay with me today{今日もそばにいて}
+Dialogue: 0,0:02:08.20,0:02:11.20,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We'll walk hand in hand{君の手を取って行こう}
+Dialogue: 0,0:02:11.20,0:02:14.99,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Dreaming of the place where we can become light{光に成れる場所に憧れて}
+Dialogue: 0,0:02:15.58,0:02:21.00,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I can hear the magic{魔法の音がする}
+Dialogue: 0,0:02:21.83,0:02:24.50,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}I wanna sing with you
+Dialogue: 0,0:02:24.50,0:02:26.51,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Let's sing together{二人で歌おう}
+Dialogue: 0,0:02:26.51,0:02:30.30,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're a bright shining star{君は明るく輝く星}
+Dialogue: 0,0:02:30.30,0:02:31.97,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:02:32.39,0:02:34.85,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}We can be shining stars
+Dialogue: 0,0:02:34.85,0:02:36.60,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Forever and ever{時間が経っても}
+Dialogue: 0,0:02:36.60,0:02:39.35,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}That's our secret magic{秘密の魔法さ}
+Dialogue: 0,0:02:39.35,0:02:43.31,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My bubee, bubee, bubee love
+Dialogue: 0,0:02:43.31,0:02:46.03,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Ooh, ooh, ooh
+Dialogue: 0,0:02:46.03,0:02:48.07,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}You're my little buddy
+Dialogue: 0,0:02:48.07,0:02:53.32,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, bubee love
+Dialogue: 0,0:02:50.32,0:02:53.32,OP,,0,0,0,,{\an8\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee, bubee love
+Dialogue: 0,0:02:53.32,0:02:55.49,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae, bae, bae, bae, bae, bae, bae
+Dialogue: 0,0:02:55.95,0:02:57.45,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bae, bae, bae
+Dialogue: 0,0:02:57.45,0:02:58.37,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee, bubee
+Dialogue: 0,0:02:58.37,0:03:00.66,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}B-U-B-E-E, bubee
+Dialogue: 0,0:03:00.66,0:03:02.04,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Bubee love
+Comment: 0,0:22:27.95,0:22:27.99,ED,,0,0,0,sync,sync
+Dialogue: 2,0:22:28.37,0:22:32.00,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:22:32.00,0:22:32.66,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:22:33.41,0:22:35.37,ED,,0,0,0,,{\fad(150,150)\blur0.6}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:22:35.37,0:22:38.71,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:22:38.71,0:22:39.84,ED,,0,0,0,,{\fad(150,150)\blur0.6}(My dream!){「my dream！」}
+Dialogue: 2,0:22:40.59,0:22:42.51,ED,,0,0,0,,{\fad(150,150)\blur0.6}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 2,0:22:42.51,0:22:43.13,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Alone!){「alone！」}
+Dialogue: 2,0:22:43.13,0:22:47.09,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 2,0:22:47.59,0:22:49.85,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still twinkle{輝いても}
+Dialogue: 2,0:22:49.18,0:22:50.01,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(No magic!){「no magic！」}
+Dialogue: 2,0:22:49.85,0:22:54.64,ED,,0,0,0,,{\fad(150,150)\blur0.6}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 2,0:22:54.64,0:22:57.06,ED,,0,0,0,,{\fad(150,150)\blur0.6}Still drift{流れてても}
+Dialogue: 2,0:22:56.44,0:22:59.36,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I feel so lonely{淋しそうに}
+Dialogue: 2,0:22:59.36,0:23:01.65,ED,,0,0,0,,{\fad(150,150)\blur0.6}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 2,0:23:01.65,0:23:03.49,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'm searching for you{君を探してる}
+Dialogue: 2,0:23:03.49,0:23:07.41,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 2,0:23:07.41,0:23:11.74,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 2,0:23:11.74,0:23:15.16,ED,,0,0,0,,{\fad(150,150)\blur0.6}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 2,0:23:15.16,0:23:15.91,ED,,0,0,0,,{\fad(150,150)\blur0.6}I love it every way{「全部好き」}
+Dialogue: 2,0:23:15.91,0:23:19.25,ED,,0,0,0,,{\fad(150,150)\blur0.6}Calling me, calling you{Calling me Calling you}
+Dialogue: 2,0:23:19.25,0:23:20.09,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(And you){「＆you」}
+Dialogue: 2,0:23:19.38,0:23:22.92,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 2,0:23:22.92,0:23:25.76,ED,,0,0,0,,{\fad(150,150)\blur0.6}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 2,0:23:25.76,0:23:29.93,ED,,0,0,0,,{\fad(150,150)\blur0.6}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 2,0:23:29.93,0:23:33.39,ED,,0,0,0,,{\fad(150,150)\blur0.6}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 2,0:23:33.39,0:23:34.43,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6}(But I'm happy!){(but happy)}
+Dialogue: 2,0:23:33.39,0:23:37.23,ED,,0,0,0,,{\fad(150,150)\blur0.6}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 2,0:23:37.23,0:23:39.06,ED,,0,0,0,,{\fad(150,150)\blur0.6}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 2,0:23:39.06,0:23:40.81,ED,,0,0,0,,{\fad(150,150)\blur0.6}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 2,0:23:40.81,0:23:44.36,ED,,0,0,0,,{\fad(150,150)\blur0.6}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 2,0:23:44.36,0:23:47.86,ED,,0,0,0,,{\fad(150,150)\blur0.6}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 2,0:23:47.86,0:23:48.82,ED,,0,0,0,,{\fad(150,150)\blur0.6}(Proof!){「proof！」}
+Dialogue: 2,0:23:49.32,0:23:51.41,ED,,0,0,0,,{\fad(150,150)\blur0.6}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 2,0:23:51.41,0:23:54.70,ED,,0,0,0,,{\fad(150,150)\blur0.6}Everyone smiles at the beautiful girls
+Dialogue: 2,0:23:54.70,0:23:57.25,ED,,0,0,0,,{\fad(150,150)\blur0.6}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 1,0:22:28.37,0:22:32.00,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:22:32.00,0:22:32.66,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:22:33.41,0:22:35.37,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:22:35.37,0:22:38.71,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:22:38.71,0:22:39.84,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(My dream!){「my dream！」}
+Dialogue: 1,0:22:40.59,0:22:42.51,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 1,0:22:42.51,0:22:43.13,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Alone!){「alone！」}
+Dialogue: 1,0:22:43.13,0:22:47.09,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 1,0:22:47.59,0:22:49.85,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still twinkle{輝いても}
+Dialogue: 1,0:22:49.18,0:22:50.01,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(No magic!){「no magic！」}
+Dialogue: 1,0:22:49.85,0:22:54.64,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 1,0:22:54.64,0:22:57.06,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Still drift{流れてても}
+Dialogue: 1,0:22:56.44,0:22:59.36,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I feel so lonely{淋しそうに}
+Dialogue: 1,0:22:59.36,0:23:01.65,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 1,0:23:01.65,0:23:03.49,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'm searching for you{君を探してる}
+Dialogue: 1,0:23:03.49,0:23:07.41,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 1,0:23:07.41,0:23:11.74,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 1,0:23:11.74,0:23:15.16,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 1,0:23:15.16,0:23:15.91,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I love it every way{「全部好き」}
+Dialogue: 1,0:23:15.91,0:23:19.25,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Calling me, calling you{Calling me Calling you}
+Dialogue: 1,0:23:19.25,0:23:20.09,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(And you){「＆you」}
+Dialogue: 1,0:23:19.38,0:23:22.92,ED,,0,0,0,,{\an1\fad(150,150)\blur0.6\c&HF18811&\bord3}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 1,0:23:22.92,0:23:25.76,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 1,0:23:25.76,0:23:29.93,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 1,0:23:29.93,0:23:33.39,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 1,0:23:33.39,0:23:34.43,ED,,0,0,0,,{\an3\fad(150,150)\blur0.6\c&HF18811&\bord3}(But I'm happy!){(but happy)}
+Dialogue: 1,0:23:33.39,0:23:37.23,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 1,0:23:37.23,0:23:39.06,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 1,0:23:39.06,0:23:40.81,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 1,0:23:40.81,0:23:44.36,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 1,0:23:44.36,0:23:47.86,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 1,0:23:47.86,0:23:48.82,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}(Proof!){「proof！」}
+Dialogue: 1,0:23:49.32,0:23:51.41,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 1,0:23:51.41,0:23:54.70,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Everyone smiles at the beautiful girls
+Dialogue: 1,0:23:54.70,0:23:57.25,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+Dialogue: 0,0:22:28.37,0:22:32.00,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:22:32.00,0:22:32.66,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:22:33.41,0:22:35.37,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}It's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:22:35.37,0:22:38.71,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:22:38.71,0:22:39.84,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(My dream!){「my dream！」}
+Dialogue: 0,0:22:40.59,0:22:42.51,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I just wanna know what the future holds{「明日の扉の向こう期待しちゃう」}
+Dialogue: 0,0:22:42.51,0:22:43.13,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Alone!){「alone！」}
+Dialogue: 0,0:22:43.13,0:22:47.09,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the stars in a moonless sky{もしも月のない 空に星が}
+Dialogue: 0,0:22:47.59,0:22:49.85,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still twinkle{輝いても}
+Dialogue: 0,0:22:49.18,0:22:50.01,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(No magic!){「no magic！」}
+Dialogue: 0,0:22:49.85,0:22:54.64,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Even if the clouds in a sunless sky{もしも太陽がない 空の雲が}
+Dialogue: 0,0:22:54.64,0:22:57.06,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Still drift{流れてても}
+Dialogue: 0,0:22:56.44,0:22:59.36,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I feel so lonely{淋しそうに}
+Dialogue: 0,0:22:59.36,0:23:01.65,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(I was always right beside you){『当たり前に隣に居た』}
+Dialogue: 0,0:23:01.65,0:23:03.49,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'm searching for you{君を探してる}
+Dialogue: 0,0:23:03.49,0:23:07.41,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'll frame a photo of us two and hang it up{二人映る 額縁(frame)Decorate！}
+Dialogue: 0,0:23:07.41,0:23:11.74,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's set things the way we want, the way we will, the way they are{思うがまま ワガまま ありのままに並べよう}
+Dialogue: 0,0:23:11.74,0:23:15.16,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Take our chemistry, plus+, minus-, multiplied×, divided÷ by...{相性 Plus＋ Minus－ Multiply× Divide÷ by…}
+Dialogue: 0,0:23:15.16,0:23:15.91,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I love it every way{「全部好き」}
+Dialogue: 0,0:23:15.91,0:23:19.25,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Calling me, calling you{Calling me Calling you}
+Dialogue: 0,0:23:19.25,0:23:20.09,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(And you){「＆you」}
+Dialogue: 0,0:23:19.38,0:23:22.92,ED,,0,0,0,,{\an1\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I want to walk up the stairs of the future with you{君と歩きたい 未来階段(stairs)}
+Dialogue: 0,0:23:22.92,0:23:25.76,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Lucky lucky shiny, our beating hearts dreamin' away{Lucky Lucky Shiny 二人の ときめきDreamin’}
+Dialogue: 0,0:23:25.76,0:23:29.93,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}If there's clear skies tomorrow, everything will be okay{明日晴れなら 万事オーライ}
+Dialogue: 0,0:23:29.93,0:23:33.39,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Maybe I'm a bit sad and weak{ちょっとブルー Weakness}
+Dialogue: 0,0:23:33.39,0:23:34.43,ED,,0,0,0,,{\an3\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(But I'm happy!){(but happy)}
+Dialogue: 0,0:23:33.39,0:23:37.23,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}But when I'm with you I feel safe{けど君が居るから Being saved}
+Dialogue: 0,0:23:37.23,0:23:39.06,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}There's no such thing as wasted time{無駄な時間なんて無い}
+Dialogue: 0,0:23:39.06,0:23:40.81,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Let's wait until the rain stops{雨上がる空をWaiting}
+Dialogue: 0,0:23:40.81,0:23:44.36,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Check it out, look up at the sky{Check it out 見上げたら}
+Dialogue: 0,0:23:44.36,0:23:47.86,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Courage is in two worlds, yeah, together now{Courage is in two worlds そう Together now}
+Dialogue: 0,0:23:47.86,0:23:48.82,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}(Proof!){「proof！」}
+Dialogue: 0,0:23:49.32,0:23:51.41,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}That's what binds us together{「それが 二つ 結ぶ絆だから」}
+Dialogue: 0,0:23:51.41,0:23:54.70,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Everyone smiles at the beautiful girls
+Dialogue: 0,0:23:54.70,0:23:57.25,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}What kind of future will the spotlight shine on?{どんな明日を照らすのかspotlight}
+
+[Aegisub Extradata]
+Data: 0,a-mo,e{"uuid"#3A"5f102370-b328-4758-a597-77a6e64e3715"#2C"originalText"#3A"{\\fnNunito ExtraBold\\b0\\c&HDE953A&\\fs140\\pos(933.33#2C308)\\frx4\\fry0\\blur1}Lulutto{\\c&HB645F3&}Lilly"}
+Data: 1,_aegi_perspective_ambient_plane,e707.98;244.02#7C1201.67;80.08#7C1198.62;420.13#7C703.74;514.84
+Data: 2,a-mo,e{"uuid"#3A"e5d3014f-41bf-4cf4-8e3b-920d2838cf01"#2C"originalText"#3A"{\\fnBranding SF\\b1\\fs21\\c&HBE8CC5&\\blur1\\fax-0.311944\\fscx191.19\\fscy252.55\\frz12.5880\\frx0.3486\\fry-8.4819\\org(903.82#2C403.91)\\pos(910.08#2C403.91)}Lulutt{\\c&HD8AFFD&}oLilly"}
+Data: 3,a-mo,e{"uuid"#3A"b7073ed3-5ffc-488f-ad4e-3def449d9272"#2C"originalText"#3A"{\\fnBranding SF\\b1\\fs21\\1a&HFE\\3a&HFE&\\shad0.01\\bord4\\blur4\\fax-0.311944\\fscx191.19\\fscy252.55\\frz12.5880\\frx0.3486\\fry-8.4819\\org(903.82#2C403.91)\\pos(910.08#2C403.91)\\4c&HE7D1BB&\\4a&H0B&}Lulutt{\\4c&HF9F6FD&}oLilly"}
+Data: 4,_aegi_perspective_ambient_plane,e73.28;238.67#7C1481.72;-6.66#7C1504.07;712.82#7C129.28;1056.69
+Data: 5,_aegi_perspective_ambient_plane,e73.27;238.68#7C1481.72;-6.66#7C1504.07;712.82#7C129.28;1056.68
+Data: 6,_aegi_perspective_ambient_plane,e462.31;529.34#7C1301.06;649.34#7C1256.52;852.29#7C411.64;724.00
+Data: 7,_aegi_perspective_ambient_plane,e462.31;529.34#7C1301.02;649.33#7C1256.48;852.28#7C411.64;724.00
+Data: 8,_aegi_perspective_ambient_plane,e462.32;529.37#7C1301.04;649.38#7C1256.50;852.34#7C411.66;724.05
+Data: 9,_aegi_perspective_ambient_plane,e63.84;111.56#7C1962.20;631.51#7C1872.20;1000.30#7C-41.15;342.12
+Data: 10,_aegi_perspective_ambient_plane,e63.84;111.56#7C1962.22;631.52#7C1872.21;1000.31#7C-41.15;342.12
+Data: 11,_aegi_perspective_ambient_plane,e63.84;111.56#7C1962.23;631.51#7C1872.22;1000.31#7C-41.14;342.12
+Data: 12,_aegi_perspective_ambient_plane,e63.84;111.56#7C1962.23;631.51#7C1872.22;1000.30#7C-41.15;342.12
+

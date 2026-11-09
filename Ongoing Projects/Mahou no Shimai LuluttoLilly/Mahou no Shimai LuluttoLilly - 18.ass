@@ -1,0 +1,522 @@
+﻿[Script Info]
+Title: [Seigyoku] Mahou no Shimai LuluttoLilly - 18
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+Original Translation: Seigyoku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: Signs,Avenir LT Std 65 Medium,80,&H00FFFFFF,&H000000FF,&H00000000,&H97000000,0,0,0,0,100,100,0,0,1,0,0,5,100,100,70,1
+Style: Alt,Avenir LT Std 65 Medium,65,&H00FFFFFF,&H000000FF,&H0084231D,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,100,100,50,1
+Style: OP,Immortal,75,&H00FFFFFF,&H000000FF,&H00E52FD3,&H00000000,0,0,0,0,90,100,0,0,1,0,0,2,100,100,50,1
+Style: ED,Nunito,75,&H00FFFFFF,&H000000FF,&H00F18811,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,100,100,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 50,0:00:17.00,0:00:17.04,Default,chptr,0,0,0,,Cold Open
+Comment: 50,0:01:30.99,0:01:31.03,Default,chptr,0,0,0,opsync,OP
+Comment: 50,0:03:02.04,0:03:02.08,Default,chptr,0,0,0,,Part A
+Comment: 50,0:12:46.04,0:12:46.08,Default,chptr,0,0,0,,Part B
+Comment: 50,0:22:23.03,0:22:23.07,Default,chptr,0,0,0,edsync,ED
+Comment: 50,0:23:53.04,0:23:53.08,Default,chptr,0,0,0,,Preview
+Dialogue: 50,0:00:21.08,0:00:24.17,Default,Fuu,0,0,0,,It's so nice out on the sea!
+Dialogue: 50,0:00:25.46,0:00:27.92,Default,Fuu,0,0,0,,What an awesome party vacation!
+Dialogue: 50,0:00:27.92,0:00:32.39,Default,Toko,0,0,0,,Prez put this together to celebrate\Nthe success of our concert!
+Dialogue: 50,0:00:32.39,0:00:34.68,Default,Sena,0,0,0,,Should I be worried?
+Dialogue: 50,0:00:34.68,0:00:36.81,Default,Fuu,0,0,0,,Where are we going?
+Dialogue: 50,0:00:36.81,0:00:39.81,Default,Asahi,0,0,0,,It's a fancy island lodge.
+Dialogue: 50,0:00:39.81,0:00:41.02,Default,Fuu,0,0,0,,Whoa!
+Dialogue: 50,0:00:41.02,0:00:42.23,Default,Rui,0,0,0,,I can't wait!
+Dialogue: 50,0:00:42.23,0:00:43.31,Default,Asahi,0,0,0,,Yup, yup!
+Dialogue: 50,0:00:43.31,0:00:46.69,Default,Rui,0,0,0,,President, I didn't know you could drive a boat!
+Dialogue: 50,0:00:47.07,0:00:51.07,Default,Yasuo,0,0,0,,I'm good at a lot of things,\Nso long as I can have fun doing them.
+Dialogue: 50,0:00:51.41,0:00:53.91,Default,Toko,0,0,0,,I can't wait to sit back and relax.
+Dialogue: 50,0:00:53.91,0:00:56.54,Default,Toko,0,0,0,,I couldn't catch a break even after the concert.
+Dialogue: 50,0:00:56.54,0:00:58.75,Default,Sena,0,0,0,,It brought us a lot of attention.
+Dialogue: 50,0:00:58.75,0:01:00.46,Default,Asahi,0,0,0,,It was amazing.
+Dialogue: 50,0:01:01.12,0:01:06.00,Default,Toko,0,0,0,,Anyway, while we're on vacation,\Nlet's forget about work and have some fun!
+Dialogue: 50,0:01:06.00,0:01:07.96,Default,Toko,0,0,0,,Gotta stay refreshed!
+Dialogue: 50,0:01:10.51,0:01:11.47,Default,Rui,0,0,0,,Lilly-san!
+Dialogue: 50,0:01:16.81,0:01:18.98,Default,Sena,0,0,0,,Hey, look at that!
+Dialogue: 50,0:01:20.06,0:01:21.60,Default,Toko,0,0,0,,A tornado?
+Dialogue: 50,0:01:22.48,0:01:24.02,Default,Rui,0,0,0,,It's coming our way!
+Dialogue: 50,0:01:24.02,0:01:25.23,Default,Asahi,0,0,0,,Oh gosh, oh gosh!
+Dialogue: 50,0:03:16.18,0:03:17.51,Default,Fuu,0,0,0,,Where am I?
+Dialogue: 50,0:03:20.81,0:03:22.64,Default,Toko,0,0,0,,Is everyone okay?
+Dialogue: 50,0:03:22.64,0:03:24.68,Default,Rui,0,0,0,,Yes, we're fine.
+Dialogue: 50,0:03:24.68,0:03:26.31,Default,Toko,0,0,0,,Thank goodness.
+Dialogue: 50,0:03:26.31,0:03:28.02,Default,Toko,0,0,0,,You two doing alright?
+Dialogue: 50,0:03:29.61,0:03:31.52,Default,Sena,0,0,0,,Where are we?
+Dialogue: 50,0:03:32.28,0:03:35.40,Default,Asahi,0,0,0,,There's no signal.
+Dialogue: 50,0:03:35.82,0:03:37.86,Default,Rui,0,0,0,,I can't find our boat either.
+Dialogue: 50,0:03:37.86,0:03:41.41,Default,Fuu,0,0,0,,Did the sea throw us out here?
+Dialogue: 50,0:03:41.41,0:03:44.29,Default,Rui,0,0,0,,Huh? The President's not with us.
+Dialogue: 50,0:03:44.29,0:03:45.62,Default,Sena,0,0,0,,I hope he's okay.
+Dialogue: 50,0:03:45.62,0:03:48.71,Default,Toko,0,0,0,,Knowing him, he probably is.
+Dialogue: 50,0:03:48.71,0:03:49.92,Default,Rui,0,0,0,,Are you sure?
+Dialogue: 50,0:03:51.38,0:03:53.17,Default,Toko,0,0,0,,We should call for help.
+Dialogue: 50,0:03:53.76,0:03:57.18,Default,Toko,0,0,0,,Let's go see if anyone else is on this island.
+Dialogue: 50,0:03:57.68,0:03:59.84,Default,Toko,0,0,0,,Hello?
+Dialogue: 50,0:03:59.84,0:04:02.18,Default,Sena,0,0,0,,If anyone's there, say something!
+Dialogue: 50,0:04:02.64,0:04:04.56,Default,Fuu,0,0,0,,Yoo-hoo!
+Dialogue: 50,0:04:04.56,0:04:06.43,Default,Asahi,0,0,0,,Excuse us!
+Dialogue: 50,0:04:07.81,0:04:09.44,Default,Rui,0,0,0,,There's no one here.
+Dialogue: 50,0:04:14.94,0:04:16.57,Default,Sena,0,0,0,,I'm tired.
+Dialogue: 50,0:04:16.57,0:04:19.49,Default,Toko,0,0,0,,Doesn't look like anyone lives on this island.
+Dialogue: 50,0:04:19.49,0:04:21.78,Default,Rui,0,0,0,,Could it be a desert island?
+Dialogue: 50,0:04:21.78,0:04:23.58,Default,Asahi,0,0,0,,Huh? For real?
+Dialogue: 50,0:04:23.58,0:04:25.41,Default,Sena,0,0,0,,You mean we can't go home?
+Dialogue: 50,0:04:25.41,0:04:29.62,Default,Fuu,0,0,0,,A desert island, like where you set up\Na campfire and go fishing?
+Dialogue: 50,0:04:29.62,0:04:31.04,Default,Fuu,0,0,0,,Sounds kinda fun!
+Dialogue: 50,0:04:31.04,0:04:32.92,Default,Rui,0,0,0,,You're so silly, Lilly-san.
+Dialogue: 50,0:04:32.92,0:04:35.76,Default,Fuu,0,0,0,,I've always wanted to try surviving in the wild!
+Dialogue: 50,0:04:36.13,0:04:38.09,Default,Toko,0,0,0,,Surviving?
+Dialogue: 50,0:04:38.09,0:04:39.76,Default,Fuu,0,0,0,,We can collect berries!
+Dialogue: 50,0:04:39.76,0:04:41.59,Default,Rui,0,0,0,,I'm sure there's fish too!
+Dialogue: 50,0:04:41.59,0:04:42.80,Default,Sena,0,0,0,,Any stores?
+Dialogue: 50,0:04:42.80,0:04:44.39,Default,Asahi,0,0,0,,Nope.
+Dialogue: 50,0:04:45.14,0:04:49.10,Default,Toko,0,0,0,,Until we figure out how to get home,\Nwe'll work together to survive!
+Dialogue: 50,0:04:49.10,0:04:51.15,Default,Toko,0,0,0,,Let's go look for food!
+Dialogue: 50,0:04:52.31,0:04:56.23,Default,Toko,0,0,0,,Stay by my side. Don't want anyone getting lost!
+Dialogue: 50,0:04:56.23,0:04:58.11,Default,Asahi,0,0,0,,Toko-san, don't go that way!
+Dialogue: 50,0:05:00.03,0:05:01.61,Default,Asahi,0,0,0,,Are you okay?!
+Dialogue: 50,0:05:01.61,0:05:03.53,Default,Toko,0,0,0,,This way's a no-go!
+Dialogue: 50,0:05:04.49,0:05:08.29,Default,Toko,0,0,0,,There could be dangerous animals too,\Nso don't let your guard down.
+Dialogue: 50,0:05:09.87,0:05:11.46,Default,Toko,0,0,0,,Wh-What is it?
+Dialogue: 50,0:05:11.46,0:05:14.29,Default,Fuu,0,0,0,,A leaf fell down.
+Dialogue: 50,0:05:15.80,0:05:17.13,Default,Asahi,0,0,0,,Toko-san.
+Dialogue: 50,0:05:17.63,0:05:18.59,Default,Toko,0,0,0,,Yeah, what?
+Dialogue: 50,0:05:18.59,0:05:20.17,Default,Asahi,0,0,0,,Nothing.
+Dialogue: 50,0:05:24.26,0:05:26.31,Default,Fuu,0,0,0,,I think I saw something here.
+Dialogue: 50,0:05:26.31,0:05:27.68,Default,Toko,0,0,0,,Something? Like what?!
+Dialogue: 50,0:05:27.68,0:05:28.98,Default,Fuu,0,0,0,,Wait there.
+Dialogue: 50,0:05:29.85,0:05:31.10,Default,Asahi,0,0,0,,Is it okay?
+Dialogue: 50,0:05:32.10,0:05:33.69,Default,Toko,0,0,0,,Huh? What is it?
+Dialogue: 50,0:05:33.69,0:05:34.94,Default,Fuu,0,0,0,,I found it!
+Dialogue: 50,0:05:37.98,0:05:39.65,Default,Fuu,0,0,0,,I wonder if it's edible.
+Dialogue: 50,0:05:39.65,0:05:41.49,Default,Toko,0,0,0,,Not a chance!
+Dialogue: 50,0:05:41.49,0:05:43.78,Default,Toko,0,0,0,,I can't eat something like that!
+Dialogue: 50,0:05:43.78,0:05:46.33,Default,Fuu,0,0,0,,Huh? But it's so cute! Look!
+Dialogue: 50,0:05:47.20,0:05:48.58,Default,Toko,0,0,0,,No!
+Dialogue: 50,0:05:49.00,0:05:51.21,Default,Fuu,0,0,0,,Aw, so we can't?
+Dialogue: 50,0:05:53.62,0:05:55.59,Default,Fuu,0,0,0,,See you later, snakey!
+Dialogue: 50,0:05:56.17,0:06:00.72,Default,Asahi,0,0,0,,For an idol, Lilly-san acts a lot like a little kid.
+Dialogue: 50,0:05:56.42,0:05:57.71,Default,Fuu,0,0,0,,{\an8}Bye-bye!
+Dialogue: 50,0:06:03.34,0:06:05.22,Default,Fuu,0,0,0,,I'm gonna check over there!
+Dialogue: 50,0:06:06.72,0:06:08.64,Default,Toko,0,0,0,,Be careful!
+Dialogue: 50,0:06:16.73,0:06:19.19,Default,Rui,0,0,0,,There's no fish here, huh?
+Dialogue: 50,0:06:23.95,0:06:25.95,Default,Sena,0,0,0,,Why did this have to happen?
+Dialogue: 50,0:06:25.95,0:06:30.24,Default,Rui,0,0,0,,Our vacation turned into a disaster.
+Dialogue: 50,0:06:30.24,0:06:32.12,Default,Sena,0,0,0,,Sure did.
+Dialogue: 50,0:06:32.62,0:06:33.75,Default,Sena,0,0,0,,Lulu?
+Dialogue: 50,0:06:33.75,0:06:34.87,Default,Rui,0,0,0,,Yes?
+Dialogue: 50,0:06:35.54,0:06:39.59,Default,Sena,0,0,0,,What if we can't go home? Would you live here?
+Dialogue: 50,0:06:41.05,0:06:43.47,Default,Rui,0,0,0,,It'll be okay! I'm sure we can go home!
+Dialogue: 50,0:06:43.47,0:06:47.97,Default,Rui,0,0,0,,The President must be on the boat\Nsearching for us. I'm sure of it!
+Dialogue: 50,0:06:48.55,0:06:50.39,Default,Sena,0,0,0,,Sorry, I was just kidding.
+Dialogue: 50,0:06:50.93,0:06:51.93,Default,Rui,0,0,0,,Hey!
+Dialogue: 50,0:06:53.35,0:06:55.85,Default,Sena,0,0,0,,Eh, it'll work out somehow.
+Dialogue: 50,0:06:55.85,0:06:57.61,Default,Sena,0,0,0,,Let's go check the shore over there.
+Dialogue: 50,0:06:58.40,0:06:59.27,Default,Rui,0,0,0,,Okay!
+Dialogue: 50,0:07:02.82,0:07:05.07,Default,Rui,0,0,0,,Could this be...?
+Dialogue: 50,0:07:07.28,0:07:10.08,Default,Rui,0,0,0,,It feels a lot like magic.
+Dialogue: 50,0:07:10.62,0:07:12.83,Default,Rui,0,0,0,,What do you think, Azuki?
+Dialogue: 50,0:07:13.20,0:07:14.66,Default,Azuki,0,0,0,,It's possible.
+Dialogue: 50,0:07:14.66,0:07:17.04,Default,Azuki,0,0,0,,I'll look into it, Lulu!
+Dialogue: 50,0:07:17.04,0:07:18.08,Default,Rui,0,0,0,,Thank you!
+Dialogue: 50,0:07:23.26,0:07:25.63,Default,Fuu,0,0,0,,Around here should be fine.
+Dialogue: 50,0:07:25.63,0:07:27.84,Default,Azuki,0,0,0,,Lilly, what are you doing?
+Dialogue: 50,0:07:28.34,0:07:32.10,Default,Fuu,0,0,0,,Going to see if I can use magic to get us home!
+Dialogue: 50,0:07:32.77,0:07:36.48,Default,Fuu,0,0,0,,Lililula palilula, someone come save us!
+Dialogue: 50,0:07:39.06,0:07:40.98,Default,Fuu,0,0,0,,Huh? Why didn't it work?
+Dialogue: 50,0:07:40.98,0:07:42.61,Default,Uguisu,0,0,0,,I wanna go home.
+Dialogue: 50,0:07:42.61,0:07:44.24,Default,Fuu,0,0,0,,We're gonna!
+Dialogue: 50,0:07:52.91,0:07:55.71,Default,Fisherman,0,0,0,,What are you up to?
+Dialogue: 50,0:07:56.04,0:07:56.96,Default,Fuu,0,0,0,,U-Um...
+Dialogue: 50,0:08:00.29,0:08:04.01,Default,Fuu,0,0,0,,So, we got shipwrecked, you see.
+Dialogue: 50,0:08:04.01,0:08:07.68,Default,Fisherman,0,0,0,,You're human, yes? Don't see those here often.
+Dialogue: 50,0:08:08.80,0:08:10.14,Default,Fuu,0,0,0,,What about you, sir?
+Dialogue: 50,0:08:10.14,0:08:12.89,Default,Fisherman,0,0,0,,I'm from the land of magic.
+Dialogue: 50,0:08:12.89,0:08:15.39,Default,Chapi,0,0,0,,This is a magic island!
+Dialogue: 50,0:08:15.81,0:08:17.77,Default,Fuu,0,0,0,,It is?
+Dialogue: 50,0:08:17.77,0:08:19.27,Default,Uguisu,0,0,0,,I see.
+Dialogue: 50,0:08:19.27,0:08:21.19,Default,Azuki,0,0,0,,I thought so.
+Dialogue: 50,0:08:21.61,0:08:24.23,Default,Fisherman,0,0,0,,I'm this island's fisherman.
+Dialogue: 50,0:08:24.23,0:08:25.57,Default,Fisherman,0,0,0,,And this little one is...
+Dialogue: 50,0:08:25.57,0:08:28.20,Default,Chapi,0,0,0,,My name's Chapi! Nice to meet you!
+Dialogue: 50,0:08:28.61,0:08:30.24,Default,Fuu,0,0,0,,I'm Lilly!
+Dialogue: 50,0:08:30.24,0:08:32.16,Default,Fuu,0,0,0,,This is Uguisu and Azuki.
+Dialogue: 50,0:08:32.16,0:08:33.78,Default,Uguisu/Azuki,0,0,0,,– Hey.\N– Nice to meet you!
+Dialogue: 50,0:08:34.29,0:08:37.16,Default,Fisherman,0,0,0,,Did you get caught in the storm yesterday?
+Dialogue: 50,0:08:37.16,0:08:42.13,Default,Fuu,0,0,0,,We were all in the boat when the storm came,\Nthen we woke up on this island!
+Dialogue: 50,0:08:42.79,0:08:48.42,Default,Fisherman,0,0,0,,Some meteorites rained here lately,\Nand the seas have been stormier ever since.
+Dialogue: 50,0:08:48.42,0:08:50.34,Default,Fisherman,0,0,0,,Must be related.
+Dialogue: 50,0:08:50.76,0:08:52.26,Default,Fuu,0,0,0,,Could that be...?
+Dialogue: 50,0:08:52.26,0:08:57.10,Alt,Fuu,0,0,0,,Away to the magic world with you!
+Dialogue: 50,0:09:00.35,0:09:02.02,Default,Fuu,0,0,0,,It might've been that.
+Dialogue: 50,0:09:02.02,0:09:07.69,Default,Fisherman,0,0,0,,I'd call for help, but my magic's only good for fishing.
+Dialogue: 50,0:09:07.69,0:09:11.03,Default,Fisherman,0,0,0,,And the magic island's unstable.
+Dialogue: 50,0:09:11.03,0:09:12.03,Default,Fuu,0,0,0,,Darn...
+Dialogue: 50,0:09:14.58,0:09:16.24,Default,Uguisu,0,0,0,,I can't use my magic.
+Dialogue: 50,0:09:16.24,0:09:18.04,Default,Azuki,0,0,0,,That's no good.
+Dialogue: 50,0:09:18.04,0:09:23.79,Default,Fisherman,0,0,0,,It could work in some spots,\Nbut I wouldn't hold your breath.
+Dialogue: 50,0:09:23.79,0:09:24.63,Default,Fuu,0,0,0,,Aw.
+Dialogue: 50,0:09:25.00,0:09:27.30,Default,Chapi,0,0,0,,You should get home soon.
+Dialogue: 50,0:09:27.30,0:09:29.72,Default,Chapi,0,0,0,,The next storm's gonna be a bad one.
+Dialogue: 50,0:09:29.72,0:09:31.88,Default,Azuki,0,0,0,,There's another storm coming?
+Dialogue: 50,0:09:31.88,0:09:33.89,Default,Chapi,0,0,0,,Yeah, and when it does...
+Dialogue: 50,0:09:33.89,0:09:36.31,Default,Chapi,0,0,0,,this island will sink underwater!
+Dialogue: 50,0:09:36.31,0:09:37.97,Default,Fuu,0,0,0,,No way!
+Dialogue: 50,0:09:37.97,0:09:41.35,Default,Fisherman,0,0,0,,Happens here all the time.
+Dialogue: 50,0:09:41.35,0:09:43.69,Default,Fisherman,0,0,0,,The water's starting to rise.
+Dialogue: 50,0:09:45.06,0:09:49.74,Default,Chapi,0,0,0,,We live underwater! Wanna come see?
+Dialogue: 50,0:09:49.74,0:09:52.03,Default,Fuu,0,0,0,,Sorry, no. We'll drown.
+Dialogue: 50,0:09:52.36,0:09:53.78,Default,Uguisu,0,0,0,,I wanna go home...
+Dialogue: 50,0:09:53.78,0:09:55.20,Default,Azuki,0,0,0,,Yeah.
+Dialogue: 50,0:09:55.20,0:09:56.91,Default,Uguisu,0,0,0,,I'll find a spot where magic works!
+Dialogue: 50,0:09:56.91,0:09:57.79,Default,Azuki,0,0,0,,Me too!
+Dialogue: 50,0:09:58.66,0:10:01.58,Default,Chapi,0,0,0,,Dad! Can I go with them?
+Dialogue: 50,0:10:01.58,0:10:03.04,Default,Fisherman,0,0,0,,Sure. Take care.
+Dialogue: 50,0:10:03.58,0:10:04.75,Default,Chapi,0,0,0,,Can I come?
+Dialogue: 50,0:10:04.75,0:10:05.84,Default,Uguisu,0,0,0,,Whatever.
+Dialogue: 50,0:10:05.84,0:10:06.79,Default,Azuki,0,0,0,,Let's go.
+Dialogue: 50,0:10:07.34,0:10:09.80,Default,Fuu,0,0,0,,Uguisu... Azuki!
+Dialogue: 50,0:10:10.21,0:10:13.34,Default,Fisherman,0,0,0,,We don't usually get involved with humans.
+Dialogue: 50,0:10:13.34,0:10:15.93,Default,Fisherman,0,0,0,,You do what you can now.
+Dialogue: 50,0:10:16.26,0:10:17.89,Default,Fuu,0,0,0,,Yeah, but...
+Dialogue: 50,0:10:17.89,0:10:20.06,Default,Fuu,0,0,0,,what {\i1}can{\i0} I do?
+Dialogue: 50,0:10:26.98,0:10:29.02,Default,Azuki,0,0,0,,No good here either.
+Dialogue: 50,0:10:29.02,0:10:30.48,Default,Chapi,0,0,0,,I'll do it too!
+Dialogue: 50,0:10:31.44,0:10:33.20,Default,Azuki,0,0,0,,Chapi, be careful!
+Dialogue: 50,0:10:35.20,0:10:36.70,Default,Azuki,0,0,0,,Are you okay?
+Dialogue: 50,0:10:36.70,0:10:39.08,Default,Chapi,0,0,0,,Sorry, I messed up!
+Dialogue: 50,0:10:39.49,0:10:41.37,Default,Chapi,0,0,0,,Let's go over there next!
+Dialogue: 50,0:10:41.95,0:10:43.91,Default,Uguisu,0,0,0,,Hey, wait for me!
+Dialogue: 50,0:10:46.00,0:10:47.08,Default,Toko,0,0,0,,Look at this!
+Dialogue: 50,0:10:47.08,0:10:49.38,Default,Asahi,0,0,0,,Wow, so many.
+Dialogue: 50,0:10:49.96,0:10:52.34,Default,Toko,0,0,0,,But what kind of fruit are these?
+Dialogue: 50,0:10:52.34,0:10:53.88,Default,Asahi,0,0,0,,Wonder if they're edible.
+Dialogue: 50,0:10:58.26,0:10:59.76,Default,Toko,0,0,0,,How is it, Asahi?
+Dialogue: 50,0:10:59.76,0:11:01.27,Default,Toko,0,0,0,,Is it sour? Bad?
+Dialogue: 50,0:11:01.85,0:11:04.60,Default,Asahi,0,0,0,,It's sweet! What a weird flavor.
+Dialogue: 50,0:11:04.60,0:11:06.40,Default,Toko,0,0,0,,That's good! Let's take some back.
+Dialogue: 50,0:11:09.23,0:11:11.40,Default,Sena,0,0,0,,Darn, another one got away.
+Dialogue: 50,0:11:11.40,0:11:13.53,Default,Rui,0,0,0,,This is difficult.
+Dialogue: 50,0:11:13.53,0:11:16.36,Default,Sena,0,0,0,,Let's give up fishing and look for shellfish instead.
+Dialogue: 50,0:11:24.29,0:11:27.88,Default,Rui,0,0,0,,Lululila pululila, make us escape this island.
+Dialogue: 50,0:11:31.30,0:11:32.13,Default,Rui,0,0,0,,Huh?
+Dialogue: 50,0:11:32.67,0:11:34.55,Default,Rui,0,0,0,,I can't use magic?
+Dialogue: 50,0:11:34.55,0:11:36.13,Default,Rui,0,0,0,,What do I do?
+Dialogue: 50,0:11:40.14,0:11:41.14,Default,Rui,0,0,0,,Who's there?
+Dialogue: 50,0:11:47.19,0:11:48.90,Default,Rui,0,0,0,,Fish...
+Dialogue: 50,0:11:50.73,0:11:53.53,Default,Chapi,0,0,0,,Where are you guys from?
+Dialogue: 50,0:11:53.53,0:11:54.78,Default,Uguisu,0,0,0,,Our home!
+Dialogue: 50,0:11:54.78,0:11:56.24,Default,Azuki,0,0,0,,It's a confectionery!
+Dialogue: 50,0:11:56.53,0:11:59.24,Default,Chapi,0,0,0,,Hm? Is that far away?
+Dialogue: 50,0:11:59.57,0:12:00.74,Default,Azuki,0,0,0,,I think so.
+Dialogue: 50,0:12:00.74,0:12:02.03,Default,Uguisu,0,0,0,,I dunno.
+Dialogue: 50,0:12:04.29,0:12:05.75,Default,Uguisu,0,0,0,,No good here.
+Dialogue: 50,0:12:05.75,0:12:06.71,Default,Azuki,0,0,0,,Oh dear.
+Dialogue: 50,0:12:12.25,0:12:13.63,Default,Azuki,0,0,0,,Look at that!
+Dialogue: 50,0:12:14.92,0:12:16.22,Default,Uguisu,0,0,0,,It's a boat!
+Dialogue: 50,0:12:21.47,0:12:24.39,Default,Chapi,0,0,0,,Is it the one you came here on?
+Dialogue: 50,0:12:24.39,0:12:25.31,Default,Uguisu,0,0,0,,Probably.
+Dialogue: 50,0:12:25.31,0:12:26.60,Default,Azuki,0,0,0,,It's broken...
+Dialogue: 50,0:12:27.23,0:12:29.31,Default,Uguisu,0,0,0,,So magic {\i1}is{\i0} our only option!
+Dialogue: 50,0:12:29.31,0:12:31.02,Default,Chapi,0,0,0,,Oh, that's right!
+Dialogue: 50,0:12:31.56,0:12:33.52,Default,Chapi,0,0,0,,Try going to the mountain!
+Dialogue: 50,0:12:33.52,0:12:35.03,Default,Azuki,0,0,0,,How come?
+Dialogue: 50,0:12:35.03,0:12:40.07,Default,Chapi,0,0,0,,During the last storm, my dad was able\Nto use magic close by the mountain!
+Dialogue: 50,0:12:40.07,0:12:41.28,Default,Uguisu/Azuki,0,0,0,,Let's go!
+Dialogue: 50,0:12:49.67,0:12:53.46,Default,Toko,0,0,0,,With all this, I think we should make it.
+Dialogue: 50,0:12:53.46,0:12:56.30,Default,Sena,0,0,0,,Let's get dinner ready before the sun sets.
+Dialogue: 50,0:12:56.96,0:13:01.30,Default,Rui,0,0,0,,If you arrange the firewood with\Nsome gaps, it burns a lot better.
+Dialogue: 50,0:13:01.30,0:13:03.80,Default,Toko,0,0,0,,Wow, you know a lot about this.
+Dialogue: 50,0:13:03.80,0:13:06.06,Default,Rui,0,0,0,,I read about in a book.
+Dialogue: 50,0:13:06.56,0:13:08.23,Default,Fuu,0,0,0,,Hey, guys!
+Dialogue: 50,0:13:08.23,0:13:09.81,Default,Asahi,0,0,0,,Oh, Lilly-san!
+Dialogue: 50,0:13:09.81,0:13:11.94,Default,Sena,0,0,0,,Where were you, Lilly?
+Dialogue: 50,0:13:13.23,0:13:14.44,Default,Fuu,0,0,0,,Sorry.
+Dialogue: 50,0:13:15.02,0:13:17.69,Default,Toko,0,0,0,,Alright, let's eat dinner.
+Dialogue: 50,0:13:21.95,0:13:22.95,Default,Fuu,0,0,0,,This is the best!
+Dialogue: 50,0:13:25.12,0:13:27.41,Default,Rui,0,0,0,,These berries are very sweet!
+Dialogue: 50,0:13:34.84,0:13:37.05,Default,Fuu,0,0,0,,{\i1}Is the sea gonna be okay?
+Dialogue: 50,0:13:43.43,0:13:48.14,Default,Asahi,0,0,0,,Everyone, I downloaded our concert.\NDo you wanna watch?
+Dialogue: 50,0:13:49.68,0:13:51.23,Default,Toko,0,0,0,,I do!
+Dialogue: 50,0:13:48.60,0:13:54.27,Default,More:Once More,0,0,0,,{\an8\i1}We'll keep chasing our dreams
+Dialogue: 50,0:13:54.27,0:14:00.11,Default,More:Once More,0,0,0,,{\an8\i1}Shining and unbreakable like diamonds
+Dialogue: 50,0:14:00.15,0:14:03.20,Default,More:Once More,0,0,0,,{\an8\i1}I can't stop these feelings
+Dialogue: 50,0:14:03.20,0:14:06.08,Default,More:Once More,0,0,0,,{\an8\i1}I want you to get them too
+Dialogue: 50,0:14:06.08,0:14:11.16,Default,More:Once More,0,0,0,,{\an8\i1}Sparking in brilliant colors
+Dialogue: 50,0:14:11.16,0:14:13.83,Default,More:Once More,0,0,0,,{\an8\i1}This Diamond Dream
+Dialogue: 50,0:13:58.15,0:13:59.49,Default,Rui,0,0,0,,What's the matter?
+Dialogue: 50,0:13:59.49,0:14:03.74,Default,Asahi,0,0,0,,I feel so embarrassed watching it myself.
+Dialogue: 50,0:14:04.62,0:14:06.33,Default,Sena,0,0,0,,I get that.
+Dialogue: 50,0:14:06.33,0:14:10.41,Default,Asahi,0,0,0,,I never thought I'd get to be an idol.
+Dialogue: 50,0:14:13.83,0:14:19.80,Default,Asahi,0,0,0,,All of you at Once More made me so happy\Neven when I was just watching you alone at home.
+Dialogue: 50,0:14:22.34,0:14:23.68,Default,Fuu,0,0,0,,Asahi-chan!
+Dialogue: 50,0:14:23.68,0:14:25.64,Default,Fuu,0,0,0,,We're in this together now!
+Dialogue: 50,0:14:25.64,0:14:26.93,Default,Asahi,0,0,0,,Lilly-san...
+Dialogue: 50,0:14:27.72,0:14:29.52,Default,Toko,0,0,0,,What a beautiful story!
+Dialogue: 50,0:14:32.68,0:14:35.10,Default,Fuu,0,0,0,,That storm won't get the best of us!
+Dialogue: 50,0:14:35.94,0:14:39.86,Default,Toko,0,0,0,,Yeah! We gotta be around\Nto throw an even bigger concert!
+Dialogue: 50,0:14:39.86,0:14:41.07,Default,Sena,0,0,0,,Seriously?
+Dialogue: 50,0:14:41.57,0:14:43.24,Default,Toko,0,0,0,,I dream of the dome!
+Dialogue: 50,0:14:43.24,0:14:44.70,Alt,Fuu,0,0,0,,I dream of the dome!
+Dialogue: 50,0:14:45.57,0:14:47.41,Default,Rui,0,0,0,,Do you?
+Dialogue: 50,0:14:48.91,0:14:51.08,Default,Fuu,0,0,0,,Come on, Lulu-chan.
+Dialogue: 50,0:14:51.08,0:14:52.33,Default,Rui,0,0,0,,I can't help it.
+Dialogue: 50,0:14:54.58,0:14:57.58,Default,Sena,0,0,0,,Lulu, isn't everyone acting weird?
+Dialogue: 50,0:14:57.58,0:14:59.34,Default,Rui,0,0,0,,I dun think sho.
+Dialogue: 50,0:14:59.67,0:15:03.42,Default,Toko,0,0,0,,Lulu, I know you like sweet things,\Nbut I think you've eaten too much.
+Dialogue: 50,0:15:03.42,0:15:04.76,Default,Sena,0,0,0,,You too, Toko?
+Dialogue: 50,0:15:05.09,0:15:09.01,Default,Toko,0,0,0,,Not to drag this up now, but seriously,\Nwho puts sugar on hamburg steak?
+Dialogue: 50,0:15:09.01,0:15:12.52,Default,Rui,0,0,0,,It's yummy! You should try it!
+Dialogue: 50,0:15:13.02,0:15:15.06,Default,Sena,0,0,0,,You're all acting kind of weird.
+Dialogue: 50,0:15:20.19,0:15:21.90,Default,Sena,0,0,0,,Come to think of it...
+Dialogue: 50,0:15:21.90,0:15:22.94,Default,Asahi,0,0,0,,What is it?
+Dialogue: 50,0:15:23.49,0:15:28.03,Default,Sena,0,0,0,,Asahi, you secretly smelled Lilly before, didn't you?
+Dialogue: 50,0:15:29.07,0:15:31.16,Default,Asahi,0,0,0,,What? I didn't!
+Dialogue: 50,0:15:31.16,0:15:33.45,Default,Fuu,0,0,0,,Do I smell weird to you?
+Dialogue: 50,0:15:33.45,0:15:34.66,Default,Asahi,0,0,0,,No!
+Dialogue: 50,0:15:34.66,0:15:37.29,Default,Fuu,0,0,0,,You're lying!
+Dialogue: 50,0:15:37.29,0:15:41.75,Default,Asahi,0,0,0,,Lilly-san, I looked up to you a lot\Nbut you are {\i1}way{\i0} different than I imagined!
+Dialogue: 50,0:15:42.09,0:15:43.80,Default,Fuu,0,0,0,,What was that?
+Dialogue: 50,0:15:43.80,0:15:45.22,Default,Rui,0,0,0,,I know what you mean!
+Dialogue: 50,0:15:45.80,0:15:49.60,Default,Fuu,0,0,0,,Well, I'm sorry! You're different than I imagined too.
+Dialogue: 50,0:15:49.60,0:15:51.81,Default,Asahi,0,0,0,,Huh? What's that mean?
+Dialogue: 50,0:15:51.81,0:15:54.02,Default,Fuu,0,0,0,,You're a really nice person.
+Dialogue: 50,0:15:55.27,0:15:56.98,Default,Asahi,0,0,0,,Lilly-san, you dummy!
+Dialogue: 50,0:15:56.98,0:15:58.10,Default,Fuu,0,0,0,,What was that?!
+Dialogue: 50,0:15:58.10,0:16:00.61,Default,Sena,0,0,0,,Is it hot in here, or is it just me?
+Dialogue: 50,0:16:01.44,0:16:04.32,Default,Toko,0,0,0,,There you go again, Sena!
+Dialogue: 50,0:16:05.15,0:16:07.70,Default,Fuu,0,0,0,,Asahi-chan is such a meanie.
+Dialogue: 50,0:16:07.70,0:16:09.49,Default,Fuu,0,0,0,,Don't you agree, Kabappy-san?
+Dialogue: 50,0:16:12.41,0:16:13.99,Default,All,0,0,0,,What?!
+Dialogue: 50,0:16:14.50,0:16:15.50,Default,Kabappy,0,0,0,,Hullo.
+Dialogue: 50,0:16:16.33,0:16:17.79,Default,Rui,0,0,0,,He's actually there!
+Dialogue: 50,0:16:17.79,0:16:19.83,Default,Asahi,0,0,0,,Can hippos talk?
+Dialogue: 50,0:16:19.83,0:16:20.58,Default,Fuu,0,0,0,,I dunno.
+Dialogue: 50,0:16:20.58,0:16:24.84,Default,Toko,0,0,0,,Kabappy's here too?\NWe're so doomed on this island...
+Dialogue: 50,0:16:24.84,0:16:27.63,Default,Sena,0,0,0,,It's Kabappy-san... Am I dreaming?
+Dialogue: 50,0:16:31.64,0:16:33.18,Default,Uguisu,0,0,0,,Still no luck.
+Dialogue: 50,0:16:33.18,0:16:34.68,Default,Chapi,0,0,0,,How about up there?
+Dialogue: 50,0:16:39.39,0:16:40.60,Default,Azuki,0,0,0,,Looks scary...
+Dialogue: 50,0:16:47.86,0:16:50.41,Default,Uguisu,0,0,0,,Gotta go home! Gotta go home!
+Dialogue: 50,0:16:52.37,0:16:53.78,Default,Azuki,0,0,0,,Hang in there!
+Dialogue: 50,0:16:58.29,0:17:00.04,Default,Uguisu,0,0,0,,It's working here!
+Dialogue: 50,0:17:00.04,0:17:02.17,Default,Azuki/Chapi,0,0,0,,Yay!
+Dialogue: 50,0:17:05.34,0:17:07.46,Default,Toko,0,0,0,,What will we do tomorrow?
+Dialogue: 50,0:17:07.46,0:17:09.26,Default,Sena,0,0,0,,The sky's the limit.
+Dialogue: 50,0:17:12.01,0:17:14.01,Default,Asahi,0,0,0,,Do you guys hear something?
+Dialogue: 50,0:17:15.10,0:17:16.56,Default,Fuu,0,0,0,,Did you?
+Dialogue: 50,0:17:16.56,0:17:18.48,Default,Kabappy,0,0,0,,Yeah, yeah.
+Dialogue: 50,0:17:18.48,0:17:20.73,Default,Toko,0,0,0,,Huh? What do you hear?
+Dialogue: 50,0:17:27.78,0:17:29.28,Default,Asahi,0,0,0,,What is that?!
+Dialogue: 50,0:17:30.49,0:17:33.49,Default,Toko,0,0,0,,N-Now this is real survival, right?
+Dialogue: 50,0:17:34.28,0:17:36.33,Default,Fuu,0,0,0,,Kabappy...
+Dialogue: 50,0:17:36.99,0:17:38.75,Default,Fuu,0,0,0,,You're so warm...
+Dialogue: 50,0:17:38.75,0:17:42.04,Default,Sena,0,0,0,,No kidding. Puts you at ease...
+Dialogue: 50,0:17:46.50,0:17:49.30,Default,Fisherman,0,0,0,,Doesn't usually get this rough.
+Dialogue: 50,0:17:53.55,0:17:58.02,Default,Fisherman,0,0,0,,Oh, right. It's almost time for\Nthe Festival of Magic, ain't it?
+Dialogue: 50,0:17:58.02,0:17:59.31,Default,Fisherman,0,0,0,,No wonder.
+Dialogue: 50,0:18:01.44,0:18:02.14,Default,Azuki,0,0,0,,Huh?
+Dialogue: 50,0:18:02.85,0:18:04.65,Default,Azuki,0,0,0,,They're asleep...
+Dialogue: 50,0:18:05.02,0:18:06.19,Default,Uguisu,0,0,0,,A Kabappy...
+Dialogue: 50,0:18:06.19,0:18:07.44,Default,Azuki,0,0,0,,fairy?
+Dialogue: 50,0:18:07.44,0:18:08.65,Default,Kabappy,0,0,0,,Hullo.
+Dialogue: 50,0:18:09.03,0:18:11.07,Default,Azuki,0,0,0,,Everyone's asleep.
+Dialogue: 50,0:18:11.07,0:18:13.16,Default,Uguisu,0,0,0,,Let's wake them and bring them to the cliff.
+Dialogue: 50,0:18:13.95,0:18:16.45,Default,Azuki,0,0,0,,Hey, wake up, Lulu!
+Dialogue: 50,0:18:16.45,0:18:18.04,Default,Azuki,0,0,0,,No good, she's deep asleep.
+Dialogue: 50,0:18:18.04,0:18:19.58,Default,Uguisu,0,0,0,,Hey!
+Dialogue: 50,0:18:19.58,0:18:21.54,Default,Kabappy,0,0,0,,I'll help.
+Dialogue: 50,0:18:24.17,0:18:25.13,Default,Fuu,0,0,0,,What is it?
+Dialogue: 50,0:18:25.13,0:18:26.13,Default,Chapi,0,0,0,,She's up!
+Dialogue: 50,0:18:26.13,0:18:27.34,Default,Uguisu,0,0,0,,Come, this way!
+Dialogue: 50,0:18:33.09,0:18:35.89,Default,Fuu,0,0,0,,I'm still sleepy...
+Dialogue: 50,0:18:35.89,0:18:37.35,Default,Uguisu,0,0,0,,Don't fall asleep!
+Dialogue: 50,0:18:37.68,0:18:38.97,Default,Kabappy,0,0,0,,Keep walking!
+Dialogue: 50,0:18:45.23,0:18:46.77,Default,Fisherman,0,0,0,,Hey!
+Dialogue: 50,0:18:47.40,0:18:49.02,Default,Fisherman,0,0,0,,I finally found you.
+Dialogue: 50,0:18:49.02,0:18:50.36,Default,Chapi,0,0,0,,Dad!
+Dialogue: 50,0:18:50.36,0:18:53.82,Default,Fisherman,0,0,0,,The storm's approaching faster than I thought!
+Dialogue: 50,0:18:53.82,0:18:55.53,Default,Fisherman,0,0,0,,We'd better get going.
+Dialogue: 50,0:18:56.28,0:18:57.37,Default,Azuki,0,0,0,,It's coming down!
+Dialogue: 50,0:18:57.37,0:18:58.41,Default,Uguisu,0,0,0,,Oh no!
+Dialogue: 50,0:18:58.83,0:19:04.04,Default,Fisherman,0,0,0,,The island's gonna go under soon,\Nso you'd better move somewhere safe.
+Dialogue: 50,0:19:04.04,0:19:07.33,Default,Chapi,0,0,0,,You can still use magic at the top of the cliff!
+Dialogue: 50,0:19:07.33,0:19:09.46,Default,Chapi,0,0,0,,When are you gonna wake up?
+Dialogue: 50,0:19:09.46,0:19:10.88,Default,Fuu,0,0,0,,Oh, okay!
+Dialogue: 50,0:19:11.21,0:19:12.59,Default,Uguisu,0,0,0,,Hurry!
+Dialogue: 50,0:19:12.59,0:19:14.13,Default,Azuki,0,0,0,,Quickly!
+Dialogue: 50,0:19:31.90,0:19:33.19,Default,Uguisu,0,0,0,,There's still time!
+Dialogue: 50,0:19:33.19,0:19:34.61,Default,Azuki,0,0,0,,You can do it!
+Dialogue: 50,0:19:34.61,0:19:35.90,Default,Fuu,0,0,0,,Got it!
+Dialogue: 50,0:19:44.08,0:19:46.25,Default,Ffuu,0,0,0,,Lililula palilula,
+Dialogue: 50,0:19:47.87,0:19:50.42,Default,Fuu,0,0,0,,pam pam power!
+Dialogue: 50,0:20:07.94,0:20:10.90,Default,Fuu,0,0,0,,Let us all go home!
+Dialogue: 50,0:20:24.04,0:20:25.95,Default,Kabappy,0,0,0,,Here! Get on!
+Dialogue: 50,0:20:26.66,0:20:28.96,Default,Fuu,0,0,0,,Kabappy! Thank you!
+Dialogue: 50,0:20:30.71,0:20:32.09,Default,Fuu,0,0,0,,Everyone's here.
+Dialogue: 50,0:20:32.09,0:20:35.84,Default,Chapi,0,0,0,,Uguisu, Azuki, take care! I had fun!
+Dialogue: 50,0:20:35.84,0:20:38.72,Default,Azuki,0,0,0,,Chapi, I had fun too!
+Dialogue: 50,0:20:38.72,0:20:40.09,Default,Uguisu,0,0,0,,Me too!
+Dialogue: 50,0:20:40.09,0:20:41.26,Default,Azuki,0,0,0,,See you again!
+Dialogue: 50,0:20:42.26,0:20:44.51,Default,Chapi,0,0,0,,Let's play again someday!
+Dialogue: 50,0:20:45.06,0:20:47.93,Default,Fuu,0,0,0,,Goodbye!
+Dialogue: 50,0:21:17.76,0:21:18.92,Default,Yasuo,0,0,0,,Hey.
+Dialogue: 50,0:21:21.72,0:21:23.55,Default,Yasuo,0,0,0,,Time to wake up.
+Dialogue: 50,0:21:25.47,0:21:26.97,Default,Asahi,0,0,0,,So bright...
+Dialogue: 50,0:21:26.97,0:21:28.31,Default,Rui,0,0,0,,Where are we?
+Dialogue: 50,0:21:28.85,0:21:30.77,Default,Yasuo,0,0,0,,We're almost there.
+Dialogue: 50,0:21:32.56,0:21:34.69,Default,Toko,0,0,0,,Was that all a dream?
+Dialogue: 50,0:21:41.99,0:21:43.24,Default,Azuki,0,0,0,,Bye-bye!
+Dialogue: 50,0:21:43.24,0:21:45.03,Default,Uguisu,0,0,0,,Later, Chapi!
+Dialogue: 50,0:21:53.17,0:21:55.50,Default,Toko,0,0,0,,That was a weird dream.
+Dialogue: 50,0:21:55.50,0:21:56.34,Default,Sena,0,0,0,,Yeah.
+Dialogue: 50,0:21:57.34,0:21:59.09,Default,Sena,0,0,0,,I feel...
+Dialogue: 50,0:21:59.71,0:22:01.01,Default,Sena,0,0,0,,kinda tired.
+Dialogue: 50,0:22:01.01,0:22:02.68,Default,Toko,0,0,0,,Same.
+Dialogue: 50,0:22:03.34,0:22:05.97,Default,Sena,0,0,0,,But the fish tasted pretty good.
+Dialogue: 50,0:22:05.97,0:22:08.10,Default,Toko,0,0,0,,That was some survival.
+Dialogue: 50,0:22:10.60,0:22:12.64,Default,Fuu,0,0,0,,We're almost there!
+Dialogue: 50,0:22:13.65,0:22:15.86,Default,Rui,0,0,0,,Don't lean forward like that, it's dangerous!
+Dialogue: 50,0:22:20.61,0:22:22.20,Default,Sena,0,0,0,,Whatever.
+Comment: 0,0:03:02.04,0:03:07.04,Signs,,0,0,0,,The Storm on the Mysterious Island
+Dialogue: 0,0:03:02.04,0:03:07.04,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.5}The Storm on the Mysterious Island
+Comment: 0,0:03:33.03,0:03:35.40,Signs,,0,0,0,,No Service
+Dialogue: 0,0:03:33.03,0:03:35.40,Signs,,0,0,0,,{=0}{\fnNunito\fax-0.131098\fscx52.25\fscy53.43\frz-13.3306\frx1.3844\fry-0.6742\org(1445.98,209.37)\pos(1448.72,209.37)\blur1}No Service
+Comment: 0,0:23:53.04,0:23:58.04,Signs,,0,0,0,,The Beginning of Friendship
+Dialogue: 0,0:23:53.04,0:23:58.04,Signs,,0,0,0,,{\fnCC EmpireStateGothic\fscx200\pos(960,628)\blur0.5\c&HC4545F&}The Beginning of Friendship
+Comment: 0,0:02:48.57,0:02:48.57,Title,,0,0,0,,Title Logo
+Dialogue: 1,0:02:48.57,0:02:55.66,Signs,,0,0,0,,{\fnBranding SF Bold\fs70\fscx89\fscy89\b1\c&HD278A9&\blur10\fade(2000,0)\t(20,3750,\blur0.8)\move(720.33,795,680,826,20,7069)\t(20,7069,\fscx100\fscy100)}Magical Sisters {\c&H9F6BF4&}LuluttoLilly
+Comment: 0,0:01:30.99,0:01:31.03,OP,,0,0,0,sync,sync
+Dialogue: 1,0:01:31.41,0:01:33.91,OP,,0,0,0,,{\fad(150,150)\blur0.6}La-la-la-la, dam-da
+Dialogue: 1,0:01:33.91,0:01:36.21,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta, di-di-ta
+Dialogue: 1,0:01:36.21,0:01:39.08,OP,,0,0,0,,{\fad(150,150)\blur0.6}La-la-la-la, dam-da
+Dialogue: 1,0:01:40.04,0:01:42.38,OP,,0,0,0,,{\fad(150,150)\blur0.6}Chant the spell slowly{ゆっくり唱えて}
+Dialogue: 1,0:01:43.05,0:01:45.05,OP,,0,0,0,,{\fad(150,150)\blur0.6}Wrap yourself in a secret{秘密まとうの}
+Dialogue: 1,0:01:45.05,0:01:47.09,OP,,0,0,0,,{\fad(150,150)\blur0.6}Logic overflowing around{あふれる論理}
+Dialogue: 1,0:01:47.97,0:01:49.84,OP,,0,0,0,,{\fad(150,150)\blur0.6}Let's blow it all away{蹴散らしてゆこう}
+Dialogue: 1,0:01:50.85,0:01:53.18,OP,,0,0,0,,{\fad(150,150)\blur0.6}My daily routine's getting boring{退屈な日常}
+Dialogue: 1,0:01:53.18,0:01:56.77,OP,,0,0,0,,{\fad(150,150)\blur0.6}But when I met you it started swingin'{キミと出会った瞬間Swingin'}
+Dialogue: 1,0:01:57.44,0:02:00.36,OP,,0,0,0,,{\fad(150,150)\blur0.6}The time began to fly{時が走り出すよ}
+Dialogue: 1,0:02:00.77,0:02:04.36,OP,,0,0,0,,{\fad(150,150)\blur0.6}Enjoying the nightlife, my heart racing{跳ねる心臓の夜遊び}
+Dialogue: 1,0:02:04.36,0:02:08.78,OP,,0,0,0,,{\fad(150,150)\blur0.6}There's no stopping this dream{この夢は止まれないよ}
+Dialogue: 1,0:02:08.78,0:02:11.45,OP,,0,0,0,,{\fad(150,150)\blur0.6}Hey, come over here{ねぇこっちにおいで}
+Dialogue: 1,0:02:11.45,0:02:13.99,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 1,0:02:13.99,0:02:16.12,OP,,0,0,0,,{\fad(150,150)\blur0.6}Don't leave me{話さないで}
+Dialogue: 1,0:02:16.12,0:02:18.92,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 1,0:02:19.54,0:02:21.84,OP,,0,0,0,,{\fad(150,150)\blur0.6}Just dance the way you feel{感じるままに踊れば}
+Dialogue: 1,0:02:21.84,0:02:23.75,OP,,0,0,0,,{\fad(150,150)\blur0.6}And the joy will only grow{ときめきもっと増えるよ}
+Dialogue: 1,0:02:23.75,0:02:26.72,OP,,0,0,0,,{\fad(150,150)\blur0.6}Oh, wow, oh, wow
+Dialogue: 1,0:02:26.72,0:02:28.93,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 1,0:02:28.93,0:02:31.34,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:31.34,0:02:33.89,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:33.89,0:02:36.47,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:36.47,0:02:38.69,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 1,0:02:38.69,0:02:40.94,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:40.94,0:02:43.31,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:43.31,0:02:45.94,OP,,0,0,0,,{\fad(150,150)\blur0.6}Di-di-ta-ta-di-di-ta
+Dialogue: 1,0:02:45.94,0:02:48.61,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 1,0:02:55.66,0:02:58.20,OP,,0,0,0,,{\fad(150,150)\blur0.6}Swingin' magic
+Dialogue: 0,0:01:31.41,0:01:33.91,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}La-la-la-la, dam-da
+Dialogue: 0,0:01:33.91,0:01:36.21,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta, di-di-ta
+Dialogue: 0,0:01:36.21,0:01:39.08,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}La-la-la-la, dam-da
+Dialogue: 0,0:01:40.04,0:01:42.38,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Chant the spell slowly{ゆっくり唱えて}
+Dialogue: 0,0:01:43.05,0:01:45.05,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Wrap yourself in a secret{秘密まとうの}
+Dialogue: 0,0:01:45.05,0:01:47.09,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Logic overflowing around{あふれる論理}
+Dialogue: 0,0:01:47.97,0:01:49.84,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Let's blow it all away{蹴散らしてゆこう}
+Dialogue: 0,0:01:50.85,0:01:53.18,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}My daily routine's getting boring{退屈な日常}
+Dialogue: 0,0:01:53.18,0:01:56.77,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}But when I met you it started swingin'{キミと出会った瞬間Swingin'}
+Dialogue: 0,0:01:57.44,0:02:00.36,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}The time began to fly{時が走り出すよ}
+Dialogue: 0,0:02:00.81,0:02:04.36,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Enjoying the nightlife, my heart racing{跳ねる心臓の夜遊び}
+Dialogue: 0,0:02:04.36,0:02:08.78,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}There's no stopping this dream{この夢は止まれないよ}
+Dialogue: 0,0:02:08.78,0:02:11.45,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Hey, come over here{ねぇこっちにおいで}
+Dialogue: 0,0:02:11.49,0:02:13.99,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Dialogue: 0,0:02:14.04,0:02:16.12,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Don't leave me{話さないで}
+Dialogue: 0,0:02:16.12,0:02:18.92,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Dialogue: 0,0:02:19.54,0:02:21.84,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Just dance the way you feel{感じるままに踊れば}
+Dialogue: 0,0:02:21.84,0:02:23.75,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}And the joy will only grow{ときめきもっと増えるよ}
+Dialogue: 0,0:02:23.75,0:02:26.72,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Oh, wow, oh, wow
+Dialogue: 0,0:02:26.72,0:02:28.93,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Dialogue: 0,0:02:28.93,0:02:31.34,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:31.34,0:02:33.89,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:33.89,0:02:36.47,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:36.47,0:02:38.69,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Dialogue: 0,0:02:38.69,0:02:40.94,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:40.94,0:02:43.31,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:43.31,0:02:45.94,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Di-di-ta-ta-di-di-ta
+Dialogue: 0,0:02:45.94,0:02:48.61,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Dialogue: 0,0:02:55.66,0:02:58.20,OP,,0,0,0,,{\c&HE52FD3&\bord6\blur10\fad(150,150)}Swingin' magic
+Comment: 0,0:22:23.03,0:22:23.11,ED,,0,0,0,sync,sync
+Dialogue: 2,0:22:24.70,0:22:28.95,ED,,0,0,0,,{\fad(150,150)\blur0.6}Et cetera cera...{エトセトラ　セラ}
+Dialogue: 2,0:22:26.62,0:22:30.66,ED,,0,0,0,,{\fad(150,150)\blur0.6\an8}(Et cetera ce...){(エトセトラ　セ)}
+Dialogue: 2,0:22:28.95,0:22:33.87,ED,,0,0,0,,{\fad(150,150)\blur0.6}Where do we start? (Do-re-mi-fa) We leave it up to God {どれから(ドレミファ)神様の言う(とおりじゃ)}
+Dialogue: 2,0:22:31.91,0:22:35.92,ED,,0,0,0,,{\fad(150,150)\blur0.6\an8}But that's boring{つまんないから}
+Dialogue: 2,0:22:33.87,0:22:36.88,ED,,0,0,0,,{\fad(150,150)\blur0.6}So if I decide for myself{自分で選んだら}
+Dialogue: 2,0:22:35.92,0:22:39.71,ED,,0,0,0,,{\fad(150,150)\blur0.6\an8}Start piling things on and it'll start to move{あれこれ　乗っけて　まわり出す}
+Dialogue: 2,0:22:53.43,0:23:01.02,ED,,0,0,0,,{\fad(150,150)\blur0.6}If I peer into the hearts of people passing by{すれちがう人　心を覗き込めたら}
+Dialogue: 2,0:23:01.02,0:23:04.32,ED,,0,0,0,,{\fad(150,150)\blur0.6}What are they dreaming of? They're sparkling and shining{どんな夢をみてる？キラキラ光って}
+Dialogue: 2,0:23:04.32,0:23:09.91,ED,,0,0,0,,{\fad(150,150)\blur0.6}Just like precious jewels {宝石みたいに　大切な}
+Dialogue: 2,0:23:08.41,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\blur0.6\an8}If the fragments of dreams scattered around the world{世界中散らばる　夢のかけらたちをね}
+Dialogue: 2,0:23:14.04,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\blur0.6}Could be lined up{せんぶ並べ}
+Dialogue: 2,0:23:15.58,0:23:22.13,ED,,0,0,0,,{\fad(150,150)\blur0.6}And granted on the count of three, it'd be amazing{せーの！でかなえたら　アメイジング}
+Dialogue: 2,0:23:22.17,0:23:24.59,ED,,0,0,0,,{\fad(150,150)\blur0.6}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 2,0:23:24.92,0:23:29.64,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'll make our planet into a great big dessert dish{この星はきっと大きめの　デザートディッシュ}
+Dialogue: 2,0:23:29.64,0:23:35.89,ED,,0,0,0,,{\fad(150,150)\blur0.6}Load it up with all your excitement, it's OK!{ときめきをありったけ　乗せてOK！なの！}
+Dialogue: 2,0:23:35.27,0:23:36.94,ED,,0,0,0,,{\fad(150,150)\blur0.6\an8}Yes it is!{なの！なの！}
+Dialogue: 2,0:23:36.52,0:23:39.27,ED,,0,0,0,,{\fad(150,150)\blur0.6}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 2,0:23:39.27,0:23:43.48,ED,,0,0,0,,{\fad(150,150)\blur0.6}I'm sure there's colorful, sweet spells in store{カラフルでスイートな魔法　きっとあるはず}
+Dialogue: 2,0:23:43.48,0:23:46.99,ED,,0,0,0,,{\fad(150,150)\blur0.6}Try believing it, and tomorrow will be a good day{信じてみてって　あしたはGood day}
+Dialogue: 2,0:23:46.99,0:23:52.37,ED,,0,0,0,,{\fad(150,0)\blur0.6}La la la, now we're smiling together, see you in the future{ららら　笑い合って　また未来へ}
+Dialogue: 1,0:22:24.70,0:22:28.95,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Et cetera cera...{エトセトラ　セラ}
+Dialogue: 1,0:22:26.62,0:22:30.66,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3\an8}(Et cetera ce...){(エトセトラ　セ)}
+Dialogue: 1,0:22:28.95,0:22:33.87,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Where do we start? (Do-re-mi-fa) We leave it up to God {どれから(ドレミファ)神様の言う(とおりじゃ)}
+Dialogue: 1,0:22:31.91,0:22:35.92,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3\an8}But that's boring{つまんないから}
+Dialogue: 1,0:22:33.87,0:22:36.88,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}So if I decide for myself{自分で選んだら}
+Dialogue: 1,0:22:35.92,0:22:39.71,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3\an8}Start piling things on and it'll start to move{あれこれ　乗っけて　まわり出す}
+Dialogue: 1,0:22:53.43,0:23:01.02,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}If I peer into the hearts of people passing by{すれちがう人　心を覗き込めたら}
+Dialogue: 1,0:23:01.02,0:23:04.32,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}What are they dreaming of? They're sparkling and shining{どんな夢をみてる？キラキラ光って}
+Dialogue: 1,0:23:04.32,0:23:09.91,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Just like precious jewels {宝石みたいに　大切な}
+Dialogue: 1,0:23:08.41,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3\an8}If the fragments of dreams scattered around the world{世界中散らばる　夢のかけらたちをね}
+Dialogue: 1,0:23:14.04,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Could be lined up{せんぶ並べ}
+Dialogue: 1,0:23:15.58,0:23:22.13,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}And granted on the count of three, it'd be amazing{せーの！でかなえたら　アメイジング}
+Dialogue: 1,0:23:22.17,0:23:24.59,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 1,0:23:24.92,0:23:29.64,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'll make our planet into a great big dessert dish{この星はきっと大きめの　デザートディッシュ}
+Dialogue: 1,0:23:29.64,0:23:35.89,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Load it up with all your excitement, it's OK!{ときめきをありったけ　乗せてOK！なの！}
+Dialogue: 1,0:23:35.27,0:23:36.94,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3\an8}Yes it is!{なの！なの！}
+Dialogue: 1,0:23:36.52,0:23:39.27,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 1,0:23:39.27,0:23:43.48,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}I'm sure there's colorful, sweet spells in store{カラフルでスイートな魔法　きっとあるはず}
+Dialogue: 1,0:23:43.48,0:23:46.99,ED,,0,0,0,,{\fad(150,150)\blur0.6\c&HF18811&\bord3}Try believing it, and tomorrow will be a good day{信じてみてって　あしたはGood day}
+Dialogue: 1,0:23:46.99,0:23:52.37,ED,,0,0,0,,{\fad(150,0)\blur0.6\c&HF18811&\bord3}La la la, now we're smiling together, see you in the future{ららら　笑い合って　また未来へ}
+Dialogue: 0,0:22:24.70,0:22:28.95,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Et cetera cera...{エトセトラ　セラ}
+Dialogue: 0,0:22:26.62,0:22:30.66,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&\an8}(Et cetera ce...){(エトセトラ　セ)}
+Dialogue: 0,0:22:28.95,0:22:33.87,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Where do we start? (Do-re-mi-fa) We leave it up to God {どれから(ドレミファ)神様の言う(とおりじゃ)}
+Dialogue: 0,0:22:31.91,0:22:35.92,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&\an8}But that's boring{つまんないから}
+Dialogue: 0,0:22:33.87,0:22:36.88,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}So if I decide for myself{自分で選んだら}
+Dialogue: 0,0:22:35.92,0:22:39.71,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&\an8}Start piling things on and it'll start to move{あれこれ　乗っけて　まわり出す}
+Dialogue: 0,0:22:53.43,0:23:01.02,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}If I peer into the hearts of people passing by{すれちがう人　心を覗き込めたら}
+Dialogue: 0,0:23:01.02,0:23:04.32,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}What are they dreaming of? They're sparkling and shining{どんな夢をみてる？キラキラ光って}
+Dialogue: 0,0:23:04.32,0:23:09.91,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Just like precious jewels {宝石みたいに　大切な}
+Dialogue: 0,0:23:08.41,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&\an8}If the fragments of dreams scattered around the world{世界中散らばる　夢のかけらたちをね}
+Dialogue: 0,0:23:14.04,0:23:15.58,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Could be lined up{せんぶ並べ}
+Dialogue: 0,0:23:15.58,0:23:22.13,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}And granted on the count of three, it'd be amazing{せーの！でかなえたら　アメイジング}
+Dialogue: 0,0:23:22.17,0:23:24.59,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 0,0:23:24.92,0:23:29.64,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'll make our planet into a great big dessert dish{この星はきっと大きめの　デザートディッシュ}
+Dialogue: 0,0:23:29.64,0:23:35.89,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Load it up with all your excitement, it's OK!{ときめきをありったけ　乗せてOK！なの！}
+Dialogue: 0,0:23:35.27,0:23:36.94,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&\an8}Yes it is!{なの！なの！}
+Dialogue: 0,0:23:36.52,0:23:39.27,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Dreams à la mode, for you{どりぃむアラモード For you}
+Dialogue: 0,0:23:39.27,0:23:43.48,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}I'm sure there's colorful, sweet spells in store{カラフルでスイートな魔法　きっとあるはず}
+Dialogue: 0,0:23:43.48,0:23:46.99,ED,,0,0,0,,{\fad(150,150)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}Try believing it, and tomorrow will be a good day{信じてみてって　あしたはGood day}
+Dialogue: 0,0:23:46.99,0:23:52.37,ED,,0,0,0,,{\fad(150,0)\c&HFFFFFF&\bord4\blur5\3c&HFFFFFF&}La la la, now we're smiling together, see you in the future{ららら　笑い合って　また未来へ}
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e549.68;324.02#7C1583.16;588.78#7C1508.62;795.99#7C467.04;516.01
+
